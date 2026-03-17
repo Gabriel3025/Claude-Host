@@ -30,17 +30,20 @@ async function main() {
 
   const grid = response.data.sheets[0].data[0].rowData;
 
-  console.log('PRODUTO | LINK LIBRARY (URL)');
+  // Mostra cabeçalhos e todos os hyperlinks por coluna
+  const headers = grid[0]?.values?.map(c => c.formattedValue || '') || [];
+  console.log('Colunas:', headers.map((h, i) => `[${i}] ${h}`).join(', '));
   console.log('---');
 
-  for (const row of grid) {
+  for (const row of grid.slice(1)) {
     if (!row.values) continue;
     const produto = row.values[0]?.formattedValue || '';
-    const linkCell = row.values[2]; // coluna C = LINK LIBRARY
-    const url = linkCell?.hyperlink || linkCell?.formattedValue || '';
-    if (produto && produto !== 'PRODUTO') {
-      console.log(`${produto} | ${url}`);
-    }
+    if (!produto) continue;
+    row.values.forEach((cell, i) => {
+      if (cell.hyperlink) {
+        console.log(`${produto} | col[${i}] (${headers[i]}): ${cell.hyperlink}`);
+      }
+    });
   }
 }
 
