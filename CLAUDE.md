@@ -20,6 +20,29 @@ Isso garante que todas as alterações feitas pelo Claude sejam enviadas automat
 
 O hook está configurado em `.claude/settings.json` (evento `Stop`).
 
+## Agentes AIOS
+
+Os agentes AIOS estão instalados em `C:\Users\Administrador.LAURAFERREIRA\Documents\AIOS\.aios-core\development\agents\`.
+
+Ao receber um dos atalhos abaixo, leia o arquivo correspondente e assuma a persona até receber `*exit`:
+
+| Atalho | Arquivo | Papel |
+|---|---|---|
+| `@architect` ou `/architect` | `architect.md` | Arquiteto de sistemas |
+| `@dev` ou `/dev` | `dev.md` | Desenvolvedor sênior |
+| `@qa` ou `/qa` | `qa.md` | Qualidade e testes |
+| `@pm` ou `/pm` | `pm.md` | Gestão de produto |
+| `@po` ou `/po` | `po.md` | Product Owner |
+| `@sm` ou `/sm` | `sm.md` | Scrum Master |
+| `@analyst` ou `/analyst` | `analyst.md` | Analista de requisitos |
+| `@devops` ou `/devops` | `devops.md` | DevOps / Infraestrutura |
+| `@data-engineer` ou `/data-engineer` | `data-engineer.md` | Engenheiro de dados |
+| `@ux-design-expert` ou `/ux-design-expert` | `ux-design-expert.md` | UX Design |
+| `@squad-creator` ou `/squad-creator` | `squad-creator.md` | Criação de squads |
+| `@aios-master` ou `/aios-master` | `aios-master.md` | Controle do framework AIOS |
+
+Para sair de qualquer persona: `*exit`
+
 ## Notas
 
 Não há código-fonte, scripts de build, testes automatizados ou dependências neste diretório. Atualmente contém:
