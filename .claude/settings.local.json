@@ -5,7 +5,10 @@
       "mcp__playwright__browser_navigate",
       "mcp__playwright__browser_press_key",
       "Bash(node write_sheet.js)",
-      "Bash(node read_radar.js)"
+      "Bash(node read_radar.js)",
+      "Bash(mkdir -p \"C:/Users/Administrador.LAURAFERREIRA/Desktop/Organização GestCare/01 - Brand\")",
+      "Bash(mkdir -p \"C:/Users/Administrador.LAURAFERREIRA/Desktop/Organização GestCare/02 - Estratégia\")",
+      "Bash(mkdir -p \"C:/Users/Administrador.LAURAFERREIRA/Desktop/Organização GestCare/03 - Execução\")"
     ]
   }
 }
