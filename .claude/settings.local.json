@@ -4,7 +4,8 @@
       "mcp__playwright__browser_take_screenshot",
       "mcp__playwright__browser_navigate",
       "mcp__playwright__browser_press_key",
-      "Bash(node write_sheet.js)"
+      "Bash(node write_sheet.js)",
+      "Bash(node read_radar.js)"
     ]
   }
 }
