@@ -26,7 +26,9 @@
       "Bash(where chrome:*)",
       "Read(//c/Program Files/Google/Chrome/Application//**)",
       "Read(//c/Users/Administrador.LAURAFERREIRA/AppData/Local/ms-playwright//**)",
-      "Bash(node gerar-pdf.js)"
+      "Bash(node gerar-pdf.js)",
+      "Bash(ls \"C:\\\\Users\\\\Administrador.LAURAFERREIRA\\\\Downloads\\\\Claude \\(Host\\)/.claude/\")",
+      "Bash(ls \"C:\\\\Users\\\\Administrador.LAURAFERREIRA\\\\.claude\\\\commands\"\" 2>/dev/null || echo \"diretório não existe \")"
     ]
   }
 }
