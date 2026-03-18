@@ -20,7 +20,13 @@
       "WebSearch",
       "Bash(npm --version)",
       "Bash(start \"https://ticktick.com/oauth/authorize?scope=tasks:read%20tasks:write&client_id=JyzKrECf4d96oFRU5c&state=claudecode&redirect_uri=http://localhost:51442&response_type=code\")",
-      "Bash(curl -s -X POST \"https://ticktick.com/oauth/token\" -u \"JyzKrECf4d96oFRU5c:0KxvSO3j9CSFkX0BUUd6mtkqB1ov9Vlh\" -d \"code=9rpXfp&grant_type=authorization_code&redirect_uri=http://localhost:51442\")"
+      "Bash(curl -s -X POST \"https://ticktick.com/oauth/token\" -u \"JyzKrECf4d96oFRU5c:0KxvSO3j9CSFkX0BUUd6mtkqB1ov9Vlh\" -d \"code=9rpXfp&grant_type=authorization_code&redirect_uri=http://localhost:51442\")",
+      "Bash(node -e \"try{require\\(''playwright''\\);console.log\\(''playwright''\\)}catch\\(e\\){try{require\\(''puppeteer''\\);console.log\\(''puppeteer''\\)}catch\\(e2\\){console.log\\(''none''\\)}}\")",
+      "Bash(where chromium:*)",
+      "Bash(where chrome:*)",
+      "Read(//c/Program Files/Google/Chrome/Application//**)",
+      "Read(//c/Users/Administrador.LAURAFERREIRA/AppData/Local/ms-playwright//**)",
+      "Bash(node gerar-pdf.js)"
     ]
   }
 }
