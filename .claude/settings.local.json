@@ -8,7 +8,8 @@
       "Bash(node read_radar.js)",
       "Bash(mkdir -p \"C:/Users/Administrador.LAURAFERREIRA/Desktop/Organização GestCare/01 - Brand\")",
       "Bash(mkdir -p \"C:/Users/Administrador.LAURAFERREIRA/Desktop/Organização GestCare/02 - Estratégia\")",
-      "Bash(mkdir -p \"C:/Users/Administrador.LAURAFERREIRA/Desktop/Organização GestCare/03 - Execução\")"
+      "Bash(mkdir -p \"C:/Users/Administrador.LAURAFERREIRA/Desktop/Organização GestCare/03 - Execução\")",
+      "Bash(node read_sheet.js)"
     ]
   }
 }
