@@ -34,7 +34,7 @@ async function main() {
   });
 
   const grid = response.data.sheets[0].data[0].rowData;
-  const today = new Date(2026, 2, 17); // 17/03/2026
+  const today = new Date(2026, 2, 18); // 18/03/2026
 
   // Mostrar cabeçalhos
   const headers = grid[0]?.values?.map(c => c.formattedValue || '') || [];
