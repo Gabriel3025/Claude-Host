@@ -5,6 +5,14 @@ const OAUTH_KEYS_PATH = 'C:/Users/Administrador.LAURAFERREIRA/Downloads/gcp-oaut
 const CREDENTIALS_PATH = 'C:/Users/Administrador.LAURAFERREIRA/Downloads/.gdrive-server-credentials.json';
 const SPREADSHEET_ID = '1ZBQ3uukBeIIzSDaD1H1H-1xCkyNcB_dHHSck76m9G_8';
 
+// Colunas — Radar de Ofertas
+// [0] (vazio) | [1] PRODUTO | [2] IDENTIFICADO | [3] BIBLIOTECA (hyperlink) | [4] SITE
+// [5] Ticket  | [6] STATUS  | [7] DIA 1 ... [16] DIA 10 | [17] APÓS TESTE
+const COL_PRODUTO      = 1;
+const COL_IDENTIFICADO = 2;
+const COL_BIBLIOTECA   = 3;
+const COL_DIA1         = 7; // DIA 1 = col[7], DIA 2 = col[8], ..., DIA 10 = col[16]
+
 function parseDate(str) {
   const [d, m, y] = str.split('/').map(Number);
   return new Date(y, m - 1, d);
@@ -12,6 +20,11 @@ function parseDate(str) {
 
 function daysBetween(d1, d2) {
   return Math.round((d2 - d1) / (1000 * 60 * 60 * 24));
+}
+
+function todayMidnight() {
+  const t = new Date();
+  return new Date(t.getFullYear(), t.getMonth(), t.getDate());
 }
 
 async function main() {
@@ -34,7 +47,7 @@ async function main() {
   });
 
   const grid = response.data.sheets[0].data[0].rowData;
-  const today = new Date(2026, 2, 18); // 18/03/2026
+  const today = todayMidnight();
 
   // Mostrar cabeçalhos
   const headers = grid[0]?.values?.map(c => c.formattedValue || '') || [];
@@ -47,19 +60,19 @@ async function main() {
     const row = grid[rowIdx];
     if (!row.values) continue;
 
-    const produto = row.values[1]?.formattedValue || '';
+    const produto = row.values[COL_PRODUTO]?.formattedValue || '';
     if (!produto) continue;
 
-    const identificado = row.values[2]?.formattedValue || '';
+    const identificado = row.values[COL_IDENTIFICADO]?.formattedValue || '';
     if (!identificado) continue;
 
-    const link = row.values[3]?.hyperlink || '';
+    const link = row.values[COL_BIBLIOTECA]?.hyperlink || '';
     const diaInicio = parseDate(identificado);
     const diasPassados = daysBetween(diaInicio, today);
-    const colDia = 6 + diasPassados; // DIA 1 = col[6]
+    const colDia = COL_DIA1 + diasPassados;
     const diaNome = `DIA ${diasPassados + 1}`;
 
-    if (diasPassados < 0 || diasPassados >= 5) continue;
+    if (diasPassados < 0 || diasPassados >= 10) continue;
 
     const valorAtual = row.values[colDia]?.formattedValue ?? '';
 
@@ -77,7 +90,7 @@ async function main() {
   }
 
   // Mostrar todos os produtos e status
-  console.log('\nTodos os produtos na janela de 5 dias:');
+  console.log('\nTodos os produtos na janela de 10 dias:');
   tasks.forEach(t => {
     const status = t.precisaPreenchimento ? '❌ FALTA' : `✅ Já tem: ${t.valorAtual}`;
     console.log(`  [linha ${t.rowIdx + 1}] ${t.produto} | ${t.diaNome} | col[${t.colDia}] | ${status}`);

@@ -5,6 +5,14 @@ const OAUTH_KEYS_PATH = 'C:/Users/Administrador.LAURAFERREIRA/Downloads/gcp-oaut
 const CREDENTIALS_PATH = 'C:/Users/Administrador.LAURAFERREIRA/Downloads/.gdrive-server-credentials.json';
 const SPREADSHEET_ID = '1902H_f_1PpnA9M0E_MpHEYfavj4U-nwKGzurbvf8PYg';
 
+// Colunas — Acompanhamento Ofertas
+// [0] PRODUTO | [1] IDENTIFICADO | [2] BIBLIOTECA (hyperlink) | [3] SITE
+// [4] Ticket  | [5] STATUS       | [6] DIA 1 ... [15] DIA 10  | [16] APÓS TESTE
+const COL_PRODUTO      = 0;
+const COL_IDENTIFICADO = 1;
+const COL_BIBLIOTECA   = 2;
+const COL_DIA1         = 6; // DIA 1 = col[6], DIA 2 = col[7], ..., DIA 10 = col[15]
+
 function parseDate(str) {
   // Format: DD/MM/YYYY
   const [d, m, y] = str.split('/').map(Number);
@@ -13,6 +21,11 @@ function parseDate(str) {
 
 function daysBetween(d1, d2) {
   return Math.round((d2 - d1) / (1000 * 60 * 60 * 24));
+}
+
+function todayMidnight() {
+  const t = new Date();
+  return new Date(t.getFullYear(), t.getMonth(), t.getDate());
 }
 
 async function main() {
@@ -35,7 +48,7 @@ async function main() {
   });
 
   const grid = response.data.sheets[0].data[0].rowData;
-  const today = new Date(2026, 2, 18); // 18/03/2026
+  const today = todayMidnight();
 
   const tasks = [];
 
@@ -43,20 +56,20 @@ async function main() {
     const row = grid[rowIdx];
     if (!row.values) continue;
 
-    const produto = row.values[0]?.formattedValue || '';
+    const produto = row.values[COL_PRODUTO]?.formattedValue || '';
     if (!produto) continue;
 
-    const identificado = row.values[1]?.formattedValue || '';
+    const identificado = row.values[COL_IDENTIFICADO]?.formattedValue || '';
     if (!identificado) continue;
 
-    const link = row.values[2]?.hyperlink || '';
+    const link = row.values[COL_BIBLIOTECA]?.hyperlink || '';
     const diaInicio = parseDate(identificado);
     const diasPassados = daysBetween(diaInicio, today); // 0 = DIA1, 1 = DIA2, etc.
-    const colDia = 5 + diasPassados; // DIA1 = col[5], DIA2 = col[6], ...
+    const colDia = COL_DIA1 + diasPassados;
     const diaNome = `DIA ${diasPassados + 1}`;
 
-    if (diasPassados < 0 || diasPassados >= 5) {
-      // Fora da janela de 5 dias
+    if (diasPassados < 0 || diasPassados >= 10) {
+      // Fora da janela de 10 dias
       continue;
     }
 
