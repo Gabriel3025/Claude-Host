@@ -16,7 +16,8 @@
       "Bash(cat \"C:/Users/Administrador.LAURAFERREIRA/Downloads/Claude \\(Host\\)/.claude/settings.json\")",
       "Bash(node \"C:/Users/Administrador.LAURAFERREIRA/AppData/Roaming/npm/node_modules/@modelcontextprotocol/server-gdrive/dist/index.js\" auth)",
       "Bash(node -e \"const d = require\\(''C:/Users/Administrador.LAURAFERREIRA/Downloads/.gdrive-server-credentials.json''\\); console.log\\(''expiry_date:'', d.expiry_date ? new Date\\(d.expiry_date\\).toISOString\\(\\) : ''N/A''\\); console.log\\(''has refresh_token:'', !!d.refresh_token\\);\")",
-      "Bash(node -e \"const fs=require\\(''fs''\\); const d=JSON.parse\\(fs.readFileSync\\(''C:/Users/Administrador.LAURAFERREIRA/Downloads/.gdrive-server-credentials.json'',''utf8''\\)\\); console.log\\(''expiry_date:'', d.expiry_date ? new Date\\(d.expiry_date\\).toISOString\\(\\) : ''N/A''\\); console.log\\(''has refresh_token:'', !!d.refresh_token\\);\")"
+      "Bash(node -e \"const fs=require\\(''fs''\\); const d=JSON.parse\\(fs.readFileSync\\(''C:/Users/Administrador.LAURAFERREIRA/Downloads/.gdrive-server-credentials.json'',''utf8''\\)\\); console.log\\(''expiry_date:'', d.expiry_date ? new Date\\(d.expiry_date\\).toISOString\\(\\) : ''N/A''\\); console.log\\(''has refresh_token:'', !!d.refresh_token\\);\")",
+      "WebSearch"
     ]
   }
 }
