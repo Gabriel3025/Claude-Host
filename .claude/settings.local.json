@@ -53,7 +53,11 @@
       "Bash(start \"https://solucoesonlines.com/wp-admin/profile.php#application-passwords-section\")",
       "Bash(start \"chrome.exe\" \"https://solucoesonlines.com/wp-admin/profile.php#application-passwords-section\")",
       "Bash(netsh winhttp:*)",
-      "Bash(curl -s --max-time 5 https://google.com -o /dev/null -w \"%{http_code}\")"
+      "Bash(curl -s --max-time 5 https://google.com -o /dev/null -w \"%{http_code}\")",
+      "Bash(reg query:*)",
+      "Bash(taskkill /F /IM chrome.exe)",
+      "Bash(del /F /Q \"C:\\\\Users\\\\Administrador.LAURAFERREIRA\\\\AppData\\\\Local\\\\Google\\\\Chrome\\\\User Data\\\\Default\\\\Network\\\\*\")",
+      "Bash(start \"chrome.exe\" \"https://google.com\")"
     ]
   }
 }
