@@ -31,7 +31,10 @@
       "Bash(ls \"C:\\\\Users\\\\Administrador.LAURAFERREIRA\\\\.claude\\\\commands\"\" 2>/dev/null || echo \"diretório não existe \")",
       "Bash(node baixar-imagens.js)",
       "Skill(update-config)",
-      "Skill(update-config:*)"
+      "Skill(update-config:*)",
+      "mcp__playwright__browser_type",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_click"
     ]
   }
 }
