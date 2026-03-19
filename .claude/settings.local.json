@@ -53,7 +53,8 @@
       "Bash(del /F /Q \"C:\\\\Users\\\\Administrador.LAURAFERREIRA\\\\AppData\\\\Local\\\\Google\\\\Chrome\\\\User Data\\\\Default\\\\Network\\\\*\")",
       "Bash(start \"chrome.exe\" \"https://google.com\")",
       "Bash(start \"msedge.exe\" \"https://solucoesonlines.com/wp-admin/profile.php#application-passwords-section\")",
-      "Bash(netsh advfirewall:*)"
+      "Bash(netsh advfirewall:*)",
+      "Bash(curl -v -u \"gfdsouza@icloud.com:qH80QYeOgImgyMh97DGcVeJh\" \"https://solucoesonlines.com/wp-json/wp/v2/users/me\")"
     ]
   }
 }
