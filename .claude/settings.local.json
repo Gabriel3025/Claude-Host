@@ -58,7 +58,8 @@
       "Bash(taskkill /F /IM chrome.exe)",
       "Bash(del /F /Q \"C:\\\\Users\\\\Administrador.LAURAFERREIRA\\\\AppData\\\\Local\\\\Google\\\\Chrome\\\\User Data\\\\Default\\\\Network\\\\*\")",
       "Bash(start \"chrome.exe\" \"https://google.com\")",
-      "Bash(start \"msedge.exe\" \"https://solucoesonlines.com/wp-admin/profile.php#application-passwords-section\")"
+      "Bash(start \"msedge.exe\" \"https://solucoesonlines.com/wp-admin/profile.php#application-passwords-section\")",
+      "Bash(netsh advfirewall:*)"
     ]
   }
 }
