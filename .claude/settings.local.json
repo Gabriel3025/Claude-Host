@@ -57,7 +57,8 @@
       "Bash(curl -v -u \"gfdsouza@icloud.com:qH80QYeOgImgyMh97DGcVeJh\" \"https://solucoesonlines.com/wp-json/wp/v2/users/me\")",
       "mcp__claude_ai_Canva__list-brand-kits",
       "mcp__claude_ai_Canva__generate-design",
-      "mcp__claude_ai_Canva__create-design-from-candidate"
+      "mcp__claude_ai_Canva__create-design-from-candidate",
+      "mcp__claude_ai_Canva__get-design"
     ]
   }
 }
