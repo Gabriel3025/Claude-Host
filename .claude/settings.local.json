@@ -50,7 +50,8 @@
       "Bash(start \"https://ticktick.com/app#settings/account\")",
       "Bash(start \"https://ticktick.com/webapp/#settings/account\")",
       "Bash(start \"C:\\\\Users\\\\Administrador.LAURAFERREIRA\\\\.claude\\\\settings.json\")",
-      "Bash(start \"https://solucoesonlines.com/wp-admin/profile.php#application-passwords-section\")"
+      "Bash(start \"https://solucoesonlines.com/wp-admin/profile.php#application-passwords-section\")",
+      "Bash(start \"chrome.exe\" \"https://solucoesonlines.com/wp-admin/profile.php#application-passwords-section\")"
     ]
   }
 }
