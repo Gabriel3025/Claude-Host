@@ -48,7 +48,8 @@
       "Bash(start \"https://developer.ticktick.com/manage\")",
       "Bash(node write_conferencia.js)",
       "Bash(start \"https://ticktick.com/app#settings/account\")",
-      "Bash(start \"https://ticktick.com/webapp/#settings/account\")"
+      "Bash(start \"https://ticktick.com/webapp/#settings/account\")",
+      "Bash(start \"C:\\\\Users\\\\Administrador.LAURAFERREIRA\\\\.claude\\\\settings.json\")"
     ]
   }
 }
