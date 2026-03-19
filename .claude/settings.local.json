@@ -36,7 +36,13 @@
       "mcp__playwright__browser_snapshot",
       "mcp__playwright__browser_click",
       "mcp__playwright__browser_wait_for",
-      "mcp__playwright__browser_tabs"
+      "mcp__playwright__browser_tabs",
+      "mcp__playwright__browser_evaluate",
+      "Bash(curl -s -X GET \"https://api.ticktick.com/open/v1/project\" -H \"Authorization: Bearer e34133ce-4a46-4218-bacf-ae2a41893527\")",
+      "Bash(curl -s -X GET \"https://api.ticktick.com/open/v1/task?dueDate=2026-03-19\" -H \"Authorization: Bearer e34133ce-4a46-4218-bacf-ae2a41893527\")",
+      "Bash(python3 -m json.tool)",
+      "Bash(curl -s \"https://api.ticktick.com/open/v1/project/672ba1bdc71c71000000004f/data\" -H \"Authorization: Bearer e34133ce-4a46-4218-bacf-ae2a41893527\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); [print\\(t.get\\(''''dueDate'''',''''''''\\), t.get\\(''''title'''',''''''''\\)\\) for t in d.get\\(''''tasks'''',[]\\)]\")"
     ]
   }
 }
