@@ -58,7 +58,20 @@
       "mcp__claude_ai_Canva__list-brand-kits",
       "mcp__claude_ai_Canva__generate-design",
       "mcp__claude_ai_Canva__create-design-from-candidate",
-      "mcp__claude_ai_Canva__get-design"
+      "mcp__claude_ai_Canva__get-design",
+      "Bash(TOKEN=\"ya29.a0ATkoCc7Zh6steo5nnaNXN9bI3frqum53BYqQC1XQrsoL7Kb63ME5-CnOkem1Q6KYlc0beZYk0o5feVwzNeUFMHkCfG_spt7VkJS-sGjE8EMBee1GlCvp9ssZlfnuwOx7k4DJ3a_PlUUeUQheLALt1C6G0EXpMzM0p75zPlPh565WRIjxh1Um1YvnkRBJyFlKx2GzSB1FaCgYKAQQSARUSFQHGX2MiygbFfmBfLl2tGtsgsBjzoA0207\")",
+      "Bash(curl -s -H \"Authorization: Bearer $TOKEN\" \"https://www.googleapis.com/drive/v3/files?q=''1RHHnls7N5kchSXtxtvRNi8SVt5YpUrmu''+in+parents+and+trashed=false&fields=files\\(id,name,mimeType\\)&pageSize=50\")",
+      "Bash(TOKEN=\"ya29.a0ATkoCc7Zh6steo5nnaNXN9bI3frqum53BYqQC1XQrsoL7Kb63ME5-CnOkem1Q6KYlc0beZYk0o5feVwzNeUFMHkCfG_spt7VkJS-sGjE8EMBee1GlCvp9ssZlfnuwOx7k4DJ3a_PlUUeUQheLALt1C6G0EXpMzM0p75zPlPh565WRIjxh1Um1YvnkRBJyFlKx2GzSB1FaCgYKAQQSARUSFQHGX2MiygbFfmBfLl2tGtsgsBjzoA0207\" __NEW_LINE_da043a1d069aac40__ for ID in 1SFkLnHXlNWhNF1nk-31IcR8_1vas_uHU 1Fn-ndd_PRbaYytyLaUqwAma2LqmhuFAg 1fB0EFJECG_pjn04d_LQYm26u5OLbdTAK 1MziSeIRdFpKkqZI8monhdUtmJyr7GiQi 1IFHiu_zq6gP3_4afa09Wvh6HtLGNjNiL 16tgpIZWENVvTaFDIW861rKNQ_l-GSoke)",
+      "Bash(do echo:*)",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\([f[''''name''''] for f in d.get\\(''''files'''',[]\\)]\\)\" done)",
+      "Bash(__NEW_LINE_f71834955a2cf0a4__ for:*)",
+      "Bash(do)",
+      "Bash(echo \"=== $ID ===\")",
+      "Bash(curl -s -H \"Authorization: Bearer $TOKEN\" \"https://www.googleapis.com/drive/v3/files?q=''$ID''+in+parents+and+trashed=false&fields=files\\(name\\)\")",
+      "Bash(done)"
+    ],
+    "additionalDirectories": [
+      "\\tmp"
     ]
   }
 }
