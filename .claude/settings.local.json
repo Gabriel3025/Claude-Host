@@ -45,7 +45,8 @@
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); [print\\(t.get\\(''''dueDate'''',''''''''\\), t.get\\(''''title'''',''''''''\\)\\) for t in d.get\\(''''tasks'''',[]\\)]\")",
       "Bash(npm show:*)",
       "Bash(node -e \"const d=JSON.parse\\(require\\(''''child_process''''\\).execSync\\(''''npm show @ticktick/mcp-server --json''''\\).toString\\(\\)\\); console.log\\(''''Pacote:'''', d.name\\); console.log\\(''''Versão:'''', d.version\\); console.log\\(''''Publicado:'''', d.time[d.version]\\); console.log\\(''''Repositório:'''', JSON.stringify\\(d.repository\\)\\); console.log\\(''''Dependências:'''', JSON.stringify\\(d.dependencies,null,2\\)\\);\")",
-      "Bash(start \"https://developer.ticktick.com/manage\")"
+      "Bash(start \"https://developer.ticktick.com/manage\")",
+      "Bash(node write_conferencia.js)"
     ]
   }
 }
