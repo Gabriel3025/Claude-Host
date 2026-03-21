@@ -1,0 +1,12 @@
+[     431ms] TypeError: Class extends value undefined is not a constructor or null
+    at 9318 (https://solucoesonlines.com/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js?ver=3.13.2:2:74125)
+    at __webpack_require__ (https://solucoesonlines.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.13.2:2:149)
+    at 3163 (https://solucoesonlines.com/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js?ver=3.13.2:2:73750)
+    at __webpack_require__ (https://solucoesonlines.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.13.2:2:149)
+    at 9978 (https://solucoesonlines.com/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js?ver=3.13.2:2:474)
+    at __webpack_require__ (https://solucoesonlines.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.13.2:2:149)
+    at https://solucoesonlines.com/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js?ver=3.13.2:2:164582
+    at __webpack_require__.O (https://solucoesonlines.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.13.2:2:495)
+    at https://solucoesonlines.com/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js?ver=3.13.2:2:164602
+    at webpackJsonpCallback (https://solucoesonlines.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.13.2:2:5126)
+[    1130ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://solucoesonlines.com/favicon.ico:0
