@@ -68,10 +68,18 @@
       "Bash(do)",
       "Bash(echo \"=== $ID ===\")",
       "Bash(curl -s -H \"Authorization: Bearer $TOKEN\" \"https://www.googleapis.com/drive/v3/files?q=''$ID''+in+parents+and+trashed=false&fields=files\\(name\\)\")",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(node -e \"console.log\\(''node ok''\\)\")",
+      "Bash(node -e \"require\\(''mammoth''\\)\")",
+      "Bash(node translate_bonus2.js)",
+      "Bash(node /tmp/translate_bonus2.js)",
+      "Bash(echo $TEMP)",
+      "Bash(node translate_bonus1.js)",
+      "Bash(node translate_main.js)"
     ],
     "additionalDirectories": [
-      "\\tmp"
+      "\\tmp",
+      "c:\\tmp"
     ]
   }
 }
