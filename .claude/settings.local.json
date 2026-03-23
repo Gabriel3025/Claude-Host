@@ -86,7 +86,9 @@
       "Bash(node gerar-elementor-tatame.mjs)",
       "Bash(node -e \"const j=require\\(''/c/Users/Administrador.LAURAFERREIRA/Desktop/tatame-divertido-elementor.json''\\); console.log\\(''Seções:'', j.content.length\\); j.content.forEach\\(\\(s,i\\)=>console.log\\(i+1, s.id || s.elType\\)\\)\")",
       "Bash(node translate_ficha.js)",
-      "mcp__claude_ai_Canva__search-designs"
+      "mcp__claude_ai_Canva__search-designs",
+      "mcp__claude_ai_Canva__export-design",
+      "Bash(curl -sL \"https://export-download.canva.com/AjrgM/DAHEziAjrgM/-1/0/0001-5333885724429138304.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20260323%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260323T062615Z&X-Amz-Expires=62020&X-Amz-Signature=088ccb495e0febc91620d18892b8a158ed5c9b845865758c68e5b87dc8184a32&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Mon%2C%2023%20Mar%202026%2023%3A39%3A55%20GMT\" -o \"C:/Users/Administrador.LAURAFERREIRA/Desktop/Produto traduzido/DESIGN ✅/Mockup principal + bono 1 + bono 2.png\")"
     ],
     "additionalDirectories": [
       "\\tmp",
