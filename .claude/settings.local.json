@@ -75,7 +75,14 @@
       "Bash(node /tmp/translate_bonus2.js)",
       "Bash(echo $TEMP)",
       "Bash(node translate_bonus1.js)",
-      "Bash(node translate_main.js)"
+      "Bash(node translate_main.js)",
+      "Bash(python -c \"import docx; print\\(''ok''\\)\")",
+      "Bash(python3 -c \"import docx; print\\(''ok''\\)\")",
+      "Bash(py -c \"import docx; print\\(''ok''\\)\")",
+      "Bash(where node:*)",
+      "Bash(node -e \"require\\(''''docx''''\\)\")",
+      "Bash(node criar-guia-jiu-jitsu.mjs)",
+      "Bash(ls -lh \"/c/Users/Administrador.LAURAFERREIRA/Desktop/Guia - Primeira Aula de Jiu-Jitsu \\(Professores\\).docx\")"
     ],
     "additionalDirectories": [
       "\\tmp",
