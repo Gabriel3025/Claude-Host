@@ -82,7 +82,9 @@
       "Bash(where node:*)",
       "Bash(node -e \"require\\(''''docx''''\\)\")",
       "Bash(node criar-guia-jiu-jitsu.mjs)",
-      "Bash(ls -lh \"/c/Users/Administrador.LAURAFERREIRA/Desktop/Guia - Primeira Aula de Jiu-Jitsu \\(Professores\\).docx\")"
+      "Bash(ls -lh \"/c/Users/Administrador.LAURAFERREIRA/Desktop/Guia - Primeira Aula de Jiu-Jitsu \\(Professores\\).docx\")",
+      "Bash(node gerar-elementor-tatame.mjs)",
+      "Bash(node -e \"const j=require\\(''/c/Users/Administrador.LAURAFERREIRA/Desktop/tatame-divertido-elementor.json''\\); console.log\\(''Seções:'', j.content.length\\); j.content.forEach\\(\\(s,i\\)=>console.log\\(i+1, s.id || s.elType\\)\\)\")"
     ],
     "additionalDirectories": [
       "\\tmp",
