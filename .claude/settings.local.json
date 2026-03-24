@@ -98,7 +98,19 @@
       "Bash(node /tmp/criar_recibo.mjs)",
       "Bash(node \"c:/tmp/criar_recibo.mjs\")",
       "Bash(node criar_recibo_v2.mjs)",
-      "Bash(node reauth.js)"
+      "Bash(node reauth.js)",
+      "Bash(node -e \"require\\(''''playwright''''\\)\")",
+      "Bash(ls \"C:\\\\Users\\\\Administrador.LAURAFERREIRA\\\\Downloads\\\\Claude \\(Host\\)\\\\node_modules\\\\.bin\\\\playwright\")",
+      "Bash(ls \"C:\\\\Users\\\\Administrador.LAURAFERREIRA\\\\Downloads\\\\Claude \\(Host\\)\\\\node_modules\\\\playwright\")",
+      "Bash(ls \"C:\\\\Users\\\\Administrador.LAURAFERREIRA\\\\Downloads\\\\Claude \\(Host\\)\\\\node_modules\" \")",
+      "Bash(ls \"C:/Users/Administrador.LAURAFERREIRA/Downloads/Claude \\(Host\\)/node_modules/\")",
+      "Bash(ls \"C:/Users/Administrador.LAURAFERREIRA/Downloads/Claude \\(Host\\)/\")",
+      "Bash(node -e \"require\\(''''C:/Users/Administrador.LAURAFERREIRA/AppData/Roaming/npm/node_modules/playwright''''\\); console.log\\(''''ok''''\\)\")",
+      "Bash(cat \"C:/Users/Administrador.LAURAFERREIRA/Downloads/Claude \\(Host\\)/write_results.js\")",
+      "Bash(cat \"C:/Users/Administrador.LAURAFERREIRA/Downloads/Claude \\(Host\\)/get_links.js\")",
+      "Bash(node -e \"const p = require\\(''''playwright''''\\); console.log\\(''''ok''''\\)\")",
+      "Bash(node -e \"const p = require\\(''playwright''\\); console.log\\(''ok''\\)\")",
+      "Bash(node conferencia.js)"
     ],
     "additionalDirectories": [
       "\\tmp",
