@@ -97,7 +97,8 @@
       "Bash(node criar_recibo.mjs)",
       "Bash(node /tmp/criar_recibo.mjs)",
       "Bash(node \"c:/tmp/criar_recibo.mjs\")",
-      "Bash(node criar_recibo_v2.mjs)"
+      "Bash(node criar_recibo_v2.mjs)",
+      "Bash(node reauth.js)"
     ],
     "additionalDirectories": [
       "\\tmp",

@@ -55,6 +55,7 @@ async function main() {
   console.log('---');
 
   const tasks = [];
+  const encerrados = [];
 
   for (let rowIdx = 1; rowIdx < grid.length; rowIdx++) {
     const row = grid[rowIdx];
@@ -72,7 +73,13 @@ async function main() {
     const colDia = COL_DIA1 + diasPassados;
     const diaNome = `DIA ${diasPassados + 1}`;
 
-    if (diasPassados < 0 || diasPassados >= 10) continue;
+    if (diasPassados < 0) continue;
+
+    if (diasPassados >= 10) {
+      // Passou da janela de 10 dias — não precisa mais buscar
+      encerrados.push({ rowIdx, produto, identificado, diasPassados });
+      continue;
+    }
 
     const valorAtual = row.values[colDia]?.formattedValue ?? '';
 
@@ -87,6 +94,14 @@ async function main() {
       valorAtual,
       precisaPreenchimento: valorAtual === ''
     });
+  }
+
+  if (encerrados.length > 0) {
+    console.log('\n⛔ ENCERRADOS (passaram do DIA 10 — busca não necessária):');
+    encerrados.forEach(e => {
+      console.log(`  [linha ${e.rowIdx + 1}] ${e.produto} | Identificado: ${e.identificado} | ${e.diasPassados} dias atrás`);
+    });
+    console.log('');
   }
 
   // Mostrar todos os produtos e status
