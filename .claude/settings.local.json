@@ -92,7 +92,11 @@
       "Bash(start chrome:*)",
       "Bash(node translate_pagina.js)",
       "Bash(powershell -Command \":*)",
-      "Bash(node translate_pagina2.js)"
+      "Bash(node translate_pagina2.js)",
+      "Bash(node -e \"require\\(''docx''\\)\")",
+      "Bash(node criar_recibo.mjs)",
+      "Bash(node /tmp/criar_recibo.mjs)",
+      "Bash(node \"c:/tmp/criar_recibo.mjs\")"
     ],
     "additionalDirectories": [
       "\\tmp",
