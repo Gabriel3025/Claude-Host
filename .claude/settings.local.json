@@ -122,7 +122,11 @@
       "Bash(rtk --version)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "Bash(rtk init:*)",
-      "Bash(rtk git:*)"
+      "Bash(rtk git:*)",
+      "Bash(node collect_counts.js)",
+      "Bash(node -e \"require\\(''''playwright-core''''\\)\")",
+      "Bash(find C:/Users/Administrador.LAURAFERREIRA -name package.json -path */playwright*)",
+      "Bash(find C:/Users/Administrador.LAURAFERREIRA/AppData/Local/ms-playwright -name *.exe)"
     ],
     "additionalDirectories": [
       "\\tmp",
