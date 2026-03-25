@@ -111,7 +111,9 @@
       "Bash(node -e \"const p = require\\(''''playwright''''\\); console.log\\(''''ok''''\\)\")",
       "Bash(node -e \"const p = require\\(''playwright''\\); console.log\\(''ok''\\)\")",
       "Bash(node conferencia.js)",
-      "Bash(py --version)"
+      "Bash(py --version)",
+      "Bash(gh repo:*)",
+      "Bash(gh api:*)"
     ],
     "additionalDirectories": [
       "\\tmp",
