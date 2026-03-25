@@ -113,7 +113,14 @@
       "Bash(node conferencia.js)",
       "Bash(py --version)",
       "Bash(gh repo:*)",
-      "Bash(gh api:*)"
+      "Bash(gh api:*)",
+      "Bash(gh release:*)",
+      "Bash(node -e \"const d=JSON.parse\\(require\\(''''fs''''\\).readFileSync\\(''''/dev/stdin'''',''''utf8''''\\)\\); d.assets.forEach\\(a=>console.log\\(a.name, a.url\\)\\)\")",
+      "Bash(unzip -o rtk-x86_64-pc-windows-msvc.zip)",
+      "Bash(ls *.exe)",
+      "Bash(echo $PATH)",
+      "Bash(rtk --version)",
+      "WebFetch(domain:raw.githubusercontent.com)"
     ],
     "additionalDirectories": [
       "\\tmp",
