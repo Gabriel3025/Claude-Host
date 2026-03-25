@@ -121,7 +121,8 @@
       "Bash(echo $PATH)",
       "Bash(rtk --version)",
       "WebFetch(domain:raw.githubusercontent.com)",
-      "Bash(rtk init:*)"
+      "Bash(rtk init:*)",
+      "Bash(rtk git:*)"
     ],
     "additionalDirectories": [
       "\\tmp",
