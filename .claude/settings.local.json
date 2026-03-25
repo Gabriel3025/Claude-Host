@@ -120,7 +120,8 @@
       "Bash(ls *.exe)",
       "Bash(echo $PATH)",
       "Bash(rtk --version)",
-      "WebFetch(domain:raw.githubusercontent.com)"
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(rtk init:*)"
     ],
     "additionalDirectories": [
       "\\tmp",
