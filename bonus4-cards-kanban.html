@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Cards de Limpeza KANBAN — Kit Organização do Lar</title>
+  <title>Cards de Limpeza KANBAN — Calendário da Faxina</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap');
 
@@ -15,206 +15,140 @@
       justify-content: center;
       align-items: center;
       min-height: 100vh;
-      padding: 20px;
+      padding: 16px;
       font-family: 'Lato', sans-serif;
-      gap: 20px;
+      gap: 10px;
     }
 
-    /* ─── INSTRUÇÃO ─── */
     .instrucao {
-      background: #3D2B1F;
-      color: #F5EDD8;
-      padding: 8px 20px;
+      text-align: center;
+      font-size: 8pt;
+      color: #9B7D5E;
+      padding: 7px 18px;
+      background: #FFF8EC;
       border-radius: 20px;
-      font-size: 9pt;
-      letter-spacing: 0.5px;
     }
-    .instrucao strong { color: #C4A882; }
+    .instrucao strong { color: #7A5200; }
 
     /* ─── PÁGINA A4 RETRATO ─── */
     .pagina {
       width: 210mm;
-      min-height: 297mm;
+      height: 297mm;
       background: #F5F0E8;
-      padding: 10mm;
+      padding: 7mm 7mm;
       box-shadow: 0 6px 40px rgba(0,0,0,0.15);
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: repeat(3, 1fr);
-      gap: 8mm;
+      gap: 5mm;
       position: relative;
     }
 
     /* Linhas de corte */
-    .pagina::before {
-      content: '';
+    .corte-v {
       position: absolute;
-      top: 0; bottom: 0;
+      top: 4mm; bottom: 4mm;
       left: 50%;
       border-left: 1px dashed #C4A882;
-      opacity: 0.4;
+      opacity: 0.35;
       pointer-events: none;
     }
-    .pagina::after {
-      content: '';
+    .corte-h1 {
       position: absolute;
-      left: 0; right: 0;
+      left: 4mm; right: 4mm;
       top: calc(100% / 3);
       border-top: 1px dashed #C4A882;
-      opacity: 0.4;
+      opacity: 0.35;
       pointer-events: none;
     }
-    .linha-corte-2 {
+    .corte-h2 {
       position: absolute;
-      left: 0; right: 0;
+      left: 4mm; right: 4mm;
       top: calc(200% / 3);
       border-top: 1px dashed #C4A882;
-      opacity: 0.4;
+      opacity: 0.35;
       pointer-events: none;
     }
 
     /* ─── CARD ─── */
     .card {
       background: #FEFCF8;
-      border-radius: 10px;
+      border-radius: 8px;
       overflow: hidden;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      box-shadow: 0 1px 6px rgba(0,0,0,0.08);
       display: flex;
       flex-direction: column;
     }
 
-    /* Header do card */
+    /* Header — fixo, não editável */
     .card-header {
-      padding: 8px 12px 6px;
+      padding: 5px 10px 4px;
       display: flex;
       align-items: center;
       justify-content: space-between;
+      flex-shrink: 0;
+      user-select: none;
     }
-
     .card-titulo {
       font-family: 'Playfair Display', serif;
-      font-size: 13pt;
+      font-size: 11pt;
       font-weight: 700;
       line-height: 1;
     }
-
-    .card-icone {
-      font-size: 18pt;
-      opacity: 0.85;
-    }
+    .card-icone { font-size: 14pt; opacity: 0.85; }
 
     /* Cores por cômodo */
-    .sala    .card-header { background: #FFF0B3; border-bottom: 2px solid #E6C84A; }
-    .sala    .card-titulo { color: #7A5200; }
-
-    .cozinha .card-header { background: #FFD5CC; border-bottom: 2px solid #E08070; }
-    .cozinha .card-titulo { color: #7A2010; }
-
+    .sala     .card-header { background: #FFF0B3; border-bottom: 2px solid #E6C84A; }
+    .sala     .card-titulo { color: #7A5200; }
+    .cozinha  .card-header { background: #FFD5CC; border-bottom: 2px solid #E08070; }
+    .cozinha  .card-titulo { color: #7A2010; }
     .banheiro .card-header { background: #C8E6FF; border-bottom: 2px solid #60A0D0; }
     .banheiro .card-titulo { color: #0D3A6E; }
-
-    .quarto  .card-header { background: #E8D0F8; border-bottom: 2px solid #A070C0; }
-    .quarto  .card-titulo { color: #4A1080; }
-
-    .servico .card-header { background: #C8F0D8; border-bottom: 2px solid #50A070; }
-    .servico .card-titulo { color: #0D4A2A; }
-
+    .quarto   .card-header { background: #E8D0F8; border-bottom: 2px solid #A070C0; }
+    .quarto   .card-titulo { color: #4A1080; }
+    .servico  .card-header { background: #C8F0D8; border-bottom: 2px solid #50A070; }
+    .servico  .card-titulo { color: #0D4A2A; }
     .corredor .card-header { background: #F0E0C8; border-bottom: 2px solid #C09060; }
     .corredor .card-titulo { color: #5A3010; }
 
     /* Corpo do card */
     .card-body {
       flex: 1;
-      padding: 6px 10px 8px;
+      padding: 4px 8px 4px;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      overflow: hidden;
     }
 
-    /* Seções de frequência */
-    .freq-section {
-      margin-bottom: 5px;
-    }
-
-    .freq-titulo {
-      font-size: 6.5pt;
+    /* Seção de frequência */
+    .freq-label {
+      font-size: 6pt;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 1px;
       color: #9B7D5E;
-      margin-bottom: 3px;
       display: flex;
       align-items: center;
       gap: 4px;
+      flex-shrink: 0;
+      margin-top: 2px;
     }
-
-    .freq-titulo::after {
-      content: '';
-      flex: 1;
-      height: 1px;
-      background: #E0D5C5;
-    }
+    .freq-label::after { content: ''; flex: 1; height: 1px; background: #E0D5C5; }
 
     .tarefa-row {
       display: flex;
       align-items: center;
-      gap: 6px;
-      padding: 2.5px 0;
-    }
-
-    .check {
-      width: 11px;
-      height: 11px;
-      border: 1.5px solid #C4A882;
-      border-radius: 2px;
-      background: white;
+      gap: 5px;
       flex-shrink: 0;
     }
 
-    .tarefa-txt {
-      font-size: 7.5pt;
-      color: #3D2B1F;
-      line-height: 1.3;
-    }
-
-    /* Badge de frequência inline */
-    .badge {
-      font-size: 6pt;
-      font-weight: 700;
-      padding: 1px 5px;
-      border-radius: 8px;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      flex-shrink: 0;
-    }
-    .badge-d { background: #FFF0B3; color: #7A5200; }
-    .badge-s { background: #C8E6C9; color: #1B5E20; }
-    .badge-m { background: #BBDEFB; color: #0D47A1; }
-
-    /* Footer do card */
-    .card-footer {
-      padding: 4px 10px 6px;
-      border-top: 1px dashed #E0D5C5;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .card-footer .marca-mini {
-      font-family: 'Playfair Display', serif;
-      font-size: 7pt;
-      font-weight: 700;
-      letter-spacing: 2px;
-      color: #C4A882;
-    }
-    .card-footer .semana-mini {
-      font-size: 6.5pt;
-      color: #B0A090;
-      font-style: italic;
-    }
-
-    /* ─── CAMPOS EDITÁVEIS ─── */
+    /* Checkbox real */
     input[type="checkbox"] {
       appearance: none;
       -webkit-appearance: none;
-      width: 11px;
-      height: 11px;
+      width: 10px;
+      height: 10px;
       border: 1.5px solid #C4A882;
       border-radius: 2px;
       background: white;
@@ -227,34 +161,61 @@
       content: '✓';
       position: absolute;
       top: -2px; left: 0px;
-      font-size: 9px;
+      font-size: 8px;
       color: white;
       font-weight: bold;
     }
-    .tarefa-row:has(input:checked) .tarefa-txt {
-      text-decoration: line-through;
-      opacity: 0.45;
-    }
 
-    .tarefa-txt[contenteditable] { outline: none; cursor: text; }
-    .tarefa-txt[contenteditable]:focus {
-      background: rgba(255,255,255,0.8);
-      border-radius: 2px;
-      box-shadow: 0 0 0 1px #C4A882;
-      padding: 0 2px;
+    /* Texto — editável */
+    .tarefa-txt {
+      font-size: 7pt;
+      color: #3D2B1F;
+      line-height: 1.2;
+      flex: 1;
+      outline: none;
+      cursor: text;
+    }
+    .tarefa-txt:focus { background: rgba(255,255,255,0.8); border-radius: 2px; box-shadow: 0 0 0 1px #C4A882; padding: 0 2px; }
+    .tarefa-txt:empty::before { content: attr(data-placeholder); color: #C8B8A2; font-style: italic; pointer-events: none; }
+    .tarefa-row:has(input:checked) .tarefa-txt { text-decoration: line-through; opacity: 0.4; }
+
+    .badge {
+      font-size: 5.5pt;
+      font-weight: 700;
+      padding: 1px 4px;
+      border-radius: 6px;
+      text-transform: uppercase;
+      flex-shrink: 0;
+    }
+    .badge-d { background: #FFF0B3; color: #7A5200; }
+    .badge-s { background: #C8E6C9; color: #1B5E20; }
+    .badge-m { background: #BBDEFB; color: #0D47A1; }
+
+    /* Footer do card — fixo */
+    .card-footer {
+      padding: 3px 8px 4px;
+      border-top: 1px dashed #E0D5C5;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-shrink: 0;
+      user-select: none;
+      pointer-events: none;
+    }
+    .card-footer .marca-mini {
+      font-family: 'Playfair Display', serif;
+      font-size: 6pt;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      color: #C4A882;
     }
 
     /* ─── IMPRESSÃO ─── */
     @media print {
       body { background: white; padding: 0; gap: 0; }
       .instrucao { display: none; }
-      .pagina {
-        width: 210mm;
-        height: 297mm;
-        box-shadow: none;
-        padding: 8mm;
-        gap: 6mm;
-      }
+      .pagina { width: 210mm; height: 297mm; box-shadow: none; padding: 5mm 6mm; gap: 4mm; }
+      .tarefa-txt:empty::before { display: none; }
       @page { size: A4 portrait; margin: 0; }
     }
   </style>
@@ -262,232 +223,180 @@
 <body>
 
 <div class="instrucao">
-  Imprima em A4 retrato · Recorte pelos tracejados · <strong>6 cards</strong>, um por cômodo
+  ✏️ <strong>Clique no texto</strong> de cada tarefa para editar · Marque ✓ ao concluir · Recorte pelos tracejados · <strong>Ctrl+P</strong> para PDF
 </div>
 
 <div class="pagina">
-  <div class="linha-corte-2"></div>
+  <div class="corte-v"></div>
+  <div class="corte-h1"></div>
+  <div class="corte-h2"></div>
 
-  <!-- ══════════ CARD 1: SALA ══════════ -->
+  <!-- ══════ SALA ══════ -->
   <div class="card sala">
     <div class="card-header">
-      <div>
-        <span class="card-titulo">Sala de Estar</span>
-      </div>
+      <span class="card-titulo">Sala de Estar</span>
       <span class="card-icone">🛋️</span>
     </div>
     <div class="card-body">
+      <div class="freq-label">Diário</div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar almofadas e sofá</span><span class="badge badge-d">D</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Recolher objetos fora do lugar</span><span class="badge badge-d">D</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Passar pano na mesa de centro</span><span class="badge badge-d">D</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true" data-placeholder="adicionar..."></span><span class="badge badge-d">D</span></div>
 
-      <div class="freq-section">
-        <div class="freq-titulo">Diário</div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar almofadas e sofá</span><span class="badge badge-d">D</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Recolher objetos fora do lugar</span><span class="badge badge-d">D</span></div>
-      </div>
+      <div class="freq-label">Semanal</div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Aspirar / varrer o piso</span><span class="badge badge-s">S</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Tirar o pó dos móveis</span><span class="badge badge-s">S</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar aparelhos eletrônicos</span><span class="badge badge-s">S</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true" data-placeholder="adicionar..."></span><span class="badge badge-s">S</span></div>
 
-      <div class="freq-section">
-        <div class="freq-titulo">Semanal</div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Aspirar / varrer o piso</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar mesas e superfícies</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Tirar o pó dos móveis</span><span class="badge badge-s">S</span></div>
-      </div>
-
-      <div class="freq-section">
-        <div class="freq-titulo">Mensal</div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar vidros e janelas</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Lavar almofadas e capas</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar estante e rack</span><span class="badge badge-m">M</span></div>
-      </div>
-
+      <div class="freq-label">Mensal</div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar vidros e janelas</span><span class="badge badge-m">M</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Lavar almofadas e capas</span><span class="badge badge-m">M</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar estante e rack</span><span class="badge badge-m">M</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true" data-placeholder="adicionar..."></span><span class="badge badge-m">M</span></div>
     </div>
-    <div class="card-footer">
-      <span class="marca-mini">LAR</span>
-      <span class="semana-mini">Kit Organização do Lar</span>
-    </div>
+    <div class="card-footer"><span class="marca-mini">Calendário da Faxina</span></div>
   </div>
 
-  <!-- ══════════ CARD 2: COZINHA ══════════ -->
+  <!-- ══════ COZINHA ══════ -->
   <div class="card cozinha">
     <div class="card-header">
-      <div>
-        <span class="card-titulo">Cozinha</span>
-      </div>
+      <span class="card-titulo">Cozinha</span>
       <span class="card-icone">🍳</span>
     </div>
     <div class="card-body">
+      <div class="freq-label">Diário</div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Lavar a louça</span><span class="badge badge-d">D</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar bancadas e fogão</span><span class="badge badge-d">D</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Tirar o lixo</span><span class="badge badge-d">D</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true" data-placeholder="adicionar..."></span><span class="badge badge-d">D</span></div>
 
-      <div class="freq-section">
-        <div class="freq-titulo">Diário</div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Lavar a louça</span><span class="badge badge-d">D</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar bancadas e fogão</span><span class="badge badge-d">D</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Tirar o lixo</span><span class="badge badge-d">D</span></div>
-      </div>
+      <div class="freq-label">Semanal</div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Varrer e lavar o piso</span><span class="badge badge-s">S</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar micro-ondas por dentro</span><span class="badge badge-s">S</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar armários e gavetas</span><span class="badge badge-s">S</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true" data-placeholder="adicionar..."></span><span class="badge badge-s">S</span></div>
 
-      <div class="freq-section">
-        <div class="freq-titulo">Semanal</div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Varrer e lavar o piso</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar micro-ondas por dentro</span><span class="badge badge-s">S</span></div>
-      </div>
-
-      <div class="freq-section">
-        <div class="freq-titulo">Mensal</div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar geladeira e descartar vencidos</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar despensa e armários</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar fogão a fundo</span><span class="badge badge-m">M</span></div>
-      </div>
-
+      <div class="freq-label">Mensal</div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar geladeira e descartar vencidos</span><span class="badge badge-m">M</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar despensa</span><span class="badge badge-m">M</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar fogão a fundo</span><span class="badge badge-m">M</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true" data-placeholder="adicionar..."></span><span class="badge badge-m">M</span></div>
     </div>
-    <div class="card-footer">
-      <span class="marca-mini">LAR</span>
-      <span class="semana-mini">Kit Organização do Lar</span>
-    </div>
+    <div class="card-footer"><span class="marca-mini">Calendário da Faxina</span></div>
   </div>
 
-  <!-- ══════════ CARD 3: BANHEIRO ══════════ -->
+  <!-- ══════ BANHEIRO ══════ -->
   <div class="card banheiro">
     <div class="card-header">
-      <div>
-        <span class="card-titulo">Banheiro</span>
-      </div>
+      <span class="card-titulo">Banheiro</span>
       <span class="card-icone">🚿</span>
     </div>
     <div class="card-body">
+      <div class="freq-label">Diário</div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar pia e bancada</span><span class="badge badge-d">D</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Pendurar toalhas</span><span class="badge badge-d">D</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Passar pano na pia</span><span class="badge badge-d">D</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true" data-placeholder="adicionar..."></span><span class="badge badge-d">D</span></div>
 
-      <div class="freq-section">
-        <div class="freq-titulo">Diário</div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar pia e bancada</span><span class="badge badge-d">D</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Pendurar toalhas corretamente</span><span class="badge badge-d">D</span></div>
-      </div>
+      <div class="freq-label">Semanal</div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar vaso sanitário</span><span class="badge badge-s">S</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar box, pia e espelho</span><span class="badge badge-s">S</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Lavar e trocar tapetes</span><span class="badge badge-s">S</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true" data-placeholder="adicionar..."></span><span class="badge badge-s">S</span></div>
 
-      <div class="freq-section">
-        <div class="freq-titulo">Semanal</div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar vaso sanitário</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar box, pia e espelho</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Lavar e trocar tapetes</span><span class="badge badge-s">S</span></div>
-      </div>
-
-      <div class="freq-section">
-        <div class="freq-titulo">Mensal</div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar azulejos e rejuntes</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar produtos de higiene</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Descartar produtos vencidos</span><span class="badge badge-m">M</span></div>
-      </div>
-
+      <div class="freq-label">Mensal</div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar azulejos e rejuntes</span><span class="badge badge-m">M</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar produtos de higiene</span><span class="badge badge-m">M</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Descartar produtos vencidos</span><span class="badge badge-m">M</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true" data-placeholder="adicionar..."></span><span class="badge badge-m">M</span></div>
     </div>
-    <div class="card-footer">
-      <span class="marca-mini">LAR</span>
-      <span class="semana-mini">Kit Organização do Lar</span>
-    </div>
+    <div class="card-footer"><span class="marca-mini">Calendário da Faxina</span></div>
   </div>
 
-  <!-- ══════════ CARD 4: QUARTO ══════════ -->
+  <!-- ══════ QUARTO ══════ -->
   <div class="card quarto">
     <div class="card-header">
-      <div>
-        <span class="card-titulo">Quarto</span>
-      </div>
+      <span class="card-titulo">Quarto</span>
       <span class="card-icone">🛏️</span>
     </div>
     <div class="card-body">
+      <div class="freq-label">Diário</div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Arrumar a cama</span><span class="badge badge-d">D</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Guardar roupas no lugar</span><span class="badge badge-d">D</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar a cabeceira</span><span class="badge badge-d">D</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true" data-placeholder="adicionar..."></span><span class="badge badge-d">D</span></div>
 
-      <div class="freq-section">
-        <div class="freq-titulo">Diário</div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Arrumar a cama</span><span class="badge badge-d">D</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Guardar roupas no lugar</span><span class="badge badge-d">D</span></div>
-      </div>
+      <div class="freq-label">Semanal</div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Aspirar / varrer o piso</span><span class="badge badge-s">S</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Tirar o pó dos móveis</span><span class="badge badge-s">S</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar criado-mudo</span><span class="badge badge-s">S</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true" data-placeholder="adicionar..."></span><span class="badge badge-s">S</span></div>
 
-      <div class="freq-section">
-        <div class="freq-titulo">Semanal</div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Aspirar / varrer o piso</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Tirar o pó dos móveis</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar criado-mudo</span><span class="badge badge-s">S</span></div>
-      </div>
-
-      <div class="freq-section">
-        <div class="freq-titulo">Mensal</div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Trocar e lavar roupa de cama</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar guarda-roupa</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar embaixo da cama</span><span class="badge badge-m">M</span></div>
-      </div>
-
+      <div class="freq-label">Mensal</div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Trocar e lavar roupa de cama</span><span class="badge badge-m">M</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar guarda-roupa</span><span class="badge badge-m">M</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar embaixo da cama</span><span class="badge badge-m">M</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true" data-placeholder="adicionar..."></span><span class="badge badge-m">M</span></div>
     </div>
-    <div class="card-footer">
-      <span class="marca-mini">LAR</span>
-      <span class="semana-mini">Kit Organização do Lar</span>
-    </div>
+    <div class="card-footer"><span class="marca-mini">Calendário da Faxina</span></div>
   </div>
 
-  <!-- ══════════ CARD 5: ÁREA DE SERVIÇO ══════════ -->
+  <!-- ══════ ÁREA DE SERVIÇO ══════ -->
   <div class="card servico">
     <div class="card-header">
-      <div>
-        <span class="card-titulo">Área de Serviço</span>
-      </div>
+      <span class="card-titulo">Área de Serviço</span>
       <span class="card-icone">🧺</span>
     </div>
     <div class="card-body">
+      <div class="freq-label">Diário</div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Recolher roupas sujas</span><span class="badge badge-d">D</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Guardar roupas lavadas</span><span class="badge badge-d">D</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Manter área organizada</span><span class="badge badge-d">D</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true" data-placeholder="adicionar..."></span><span class="badge badge-d">D</span></div>
 
-      <div class="freq-section">
-        <div class="freq-titulo">Diário</div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Recolher roupas sujas</span><span class="badge badge-d">D</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Guardar roupas lavadas</span><span class="badge badge-d">D</span></div>
-      </div>
+      <div class="freq-label">Semanal</div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Lavar e secar as roupas</span><span class="badge badge-s">S</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Varrer e lavar o piso</span><span class="badge badge-s">S</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar produtos de limpeza</span><span class="badge badge-s">S</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true" data-placeholder="adicionar..."></span><span class="badge badge-s">S</span></div>
 
-      <div class="freq-section">
-        <div class="freq-titulo">Semanal</div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Lavar e secar as roupas</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Varrer e lavar o piso</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar produtos de limpeza</span><span class="badge badge-s">S</span></div>
-      </div>
-
-      <div class="freq-section">
-        <div class="freq-titulo">Mensal</div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar máquina de lavar</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar cabides e cestos</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Verificar estoque de produtos</span><span class="badge badge-m">M</span></div>
-      </div>
-
+      <div class="freq-label">Mensal</div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar máquina de lavar</span><span class="badge badge-m">M</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar cabides e cestos</span><span class="badge badge-m">M</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Verificar estoque de produtos</span><span class="badge badge-m">M</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true" data-placeholder="adicionar..."></span><span class="badge badge-m">M</span></div>
     </div>
-    <div class="card-footer">
-      <span class="marca-mini">LAR</span>
-      <span class="semana-mini">Kit Organização do Lar</span>
-    </div>
+    <div class="card-footer"><span class="marca-mini">Calendário da Faxina</span></div>
   </div>
 
-  <!-- ══════════ CARD 6: CORREDOR / ENTRADA ══════════ -->
+  <!-- ══════ ENTRADA & CORREDOR ══════ -->
   <div class="card corredor">
     <div class="card-header">
-      <div>
-        <span class="card-titulo">Entrada & Corredor</span>
-      </div>
+      <span class="card-titulo">Entrada & Corredor</span>
       <span class="card-icone">🚪</span>
     </div>
     <div class="card-body">
+      <div class="freq-label">Diário</div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Guardar sapatos e bolsas</span><span class="badge badge-d">D</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Manter a entrada organizada</span><span class="badge badge-d">D</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Verificar objetos esquecidos</span><span class="badge badge-d">D</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true" data-placeholder="adicionar..."></span><span class="badge badge-d">D</span></div>
 
-      <div class="freq-section">
-        <div class="freq-titulo">Diário</div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Guardar sapatos e bolsas</span><span class="badge badge-d">D</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Manter a entrada organizada</span><span class="badge badge-d">D</span></div>
-      </div>
+      <div class="freq-label">Semanal</div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Varrer corredor e entrada</span><span class="badge badge-s">S</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar capacho e tapetes</span><span class="badge badge-s">S</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar rack de sapatos</span><span class="badge badge-s">S</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true" data-placeholder="adicionar..."></span><span class="badge badge-s">S</span></div>
 
-      <div class="freq-section">
-        <div class="freq-titulo">Semanal</div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Varrer corredor e entrada</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar capacho e tapetes</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar rack de sapatos</span><span class="badge badge-s">S</span></div>
-      </div>
-
-      <div class="freq-section">
-        <div class="freq-titulo">Mensal</div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar portas e maçanetas</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar paredes do corredor</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Descartar sapatos e objetos</span><span class="badge badge-m">M</span></div>
-      </div>
-
+      <div class="freq-label">Mensal</div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar portas e maçanetas</span><span class="badge badge-m">M</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar paredes do corredor</span><span class="badge badge-m">M</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Descartar sapatos sem uso</span><span class="badge badge-m">M</span></div>
+      <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true" data-placeholder="adicionar..."></span><span class="badge badge-m">M</span></div>
     </div>
-    <div class="card-footer">
-      <span class="marca-mini">LAR</span>
-      <span class="semana-mini">Kit Organização do Lar</span>
-    </div>
+    <div class="card-footer"><span class="marca-mini">Calendário da Faxina</span></div>
   </div>
 
 </div>
