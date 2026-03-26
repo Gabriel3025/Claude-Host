@@ -126,7 +126,8 @@
       "Bash(node collect_counts.js)",
       "Bash(node -e \"require\\(''''playwright-core''''\\)\")",
       "Bash(find C:/Users/Administrador.LAURAFERREIRA -name package.json -path */playwright*)",
-      "Bash(find C:/Users/Administrador.LAURAFERREIRA/AppData/Local/ms-playwright -name *.exe)"
+      "Bash(find C:/Users/Administrador.LAURAFERREIRA/AppData/Local/ms-playwright -name *.exe)",
+      "Bash(python3 -c \":*)"
     ],
     "additionalDirectories": [
       "\\tmp",
