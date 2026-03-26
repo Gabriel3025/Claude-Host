@@ -211,15 +211,78 @@
       color: #C4A882;
     }
 
+    /* ─── CAMPOS EDITÁVEIS ─── */
+    .dia-tarefa[contenteditable] {
+      outline: none;
+      cursor: text;
+      border-radius: 3px;
+      padding: 1px 2px;
+    }
+    .dia-tarefa[contenteditable]:focus {
+      background: rgba(255,255,255,0.8);
+      box-shadow: 0 0 0 1px #C4A882;
+    }
+
+    /* Checkbox real estilizado */
+    .check-box input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      width: 13px;
+      height: 13px;
+      border: 1.5px solid #C4A882;
+      border-radius: 3px;
+      background: white;
+      cursor: pointer;
+      flex-shrink: 0;
+      position: relative;
+      display: inline-block;
+    }
+    .check-box input[type="checkbox"]:checked {
+      background: #C4A882;
+      border-color: #8B5E35;
+    }
+    .check-box input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: -2px;
+      left: 1px;
+      font-size: 10px;
+      color: white;
+      font-weight: bold;
+    }
+
+    /* Risco no texto quando marcado */
+    .dia:has(input:checked) .dia-tarefa {
+      text-decoration: line-through;
+      opacity: 0.5;
+    }
+
+    /* Dica de uso */
+    .dica {
+      text-align: center;
+      font-size: 8pt;
+      color: #9B7D5E;
+      padding: 8px 16px;
+      background: #FFF8EC;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+    .dica strong { color: #7A5200; }
+
     /* ─── IMPRESSÃO ─── */
     @media print {
       body { background: white; padding: 0; }
+      .dica { display: none; }
       .pagina { width: 210mm; min-height: 297mm; box-shadow: none; }
       @page { size: A4 portrait; margin: 0; }
     }
   </style>
 </head>
 <body>
+
+<div class="dica">
+  ✏️ <strong>Clique nas tarefas</strong> para editar · <strong>Marque o checkbox</strong> para riscar o dia · <strong>Ctrl+P</strong> para salvar em PDF
+</div>
 
 <div class="pagina">
 
@@ -291,180 +354,180 @@
     <!-- SALA DE ESTAR: dias 1–6 -->
     <div class="dia fase-sala">
       <div class="dia-num">01</div>
-      <div class="dia-tarefa">Organizar o rack, estante ou mesa da sala</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Organizar o rack, estante ou mesa da sala</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-sala">
       <div class="dia-num">02</div>
-      <div class="dia-tarefa">Limpar e organizar o sofá e almofadas</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Limpar e organizar o sofá e almofadas</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-sala">
       <div class="dia-num">03</div>
-      <div class="dia-tarefa">Recolher e organizar objetos espalhados pela sala</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Recolher e organizar objetos espalhados pela sala</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-sala">
       <div class="dia-num">04</div>
-      <div class="dia-tarefa">Limpar vidros, espelhos e quadros da sala</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Limpar vidros, espelhos e quadros da sala</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-sala">
       <div class="dia-num">05</div>
-      <div class="dia-tarefa">Varrer, aspirar e limpar o piso da sala</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Varrer, aspirar e limpar o piso da sala</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-sala">
       <div class="dia-num">06</div>
-      <div class="dia-tarefa">Descartar o que não usa na sala (revistas, objetos)</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Descartar o que não usa na sala (revistas, objetos)</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <!-- COZINHA: dias 7–12 -->
     <div class="dia fase-cozinha">
       <div class="dia-num">07</div>
-      <div class="dia-tarefa">Organizar a despensa e armários de alimentos</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Organizar a despensa e armários de alimentos</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-cozinha">
       <div class="dia-num">08</div>
-      <div class="dia-tarefa">Limpar fogão por dentro e por fora</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Limpar fogão por dentro e por fora</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-cozinha">
       <div class="dia-num">09</div>
-      <div class="dia-tarefa">Organizar gavetas e utensílios da cozinha</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Organizar gavetas e utensílios da cozinha</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-cozinha">
       <div class="dia-num">10</div>
-      <div class="dia-tarefa">Limpar e organizar a geladeira, descartar vencidos</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Limpar e organizar a geladeira, descartar vencidos</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-cozinha">
       <div class="dia-num">11</div>
-      <div class="dia-tarefa">Limpar armários por fora e organizar bancadas</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Limpar armários por fora e organizar bancadas</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-cozinha">
       <div class="dia-num">12</div>
-      <div class="dia-tarefa">Varrer e lavar o piso da cozinha</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Varrer e lavar o piso da cozinha</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <!-- BANHEIRO: dias 13–18 -->
     <div class="dia fase-banheiro">
       <div class="dia-num">13</div>
-      <div class="dia-tarefa">Organizar produtos de higiene e limpeza do banheiro</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Organizar produtos de higiene e limpeza do banheiro</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-banheiro">
       <div class="dia-num">14</div>
-      <div class="dia-tarefa">Limpar azulejos e box do chuveiro</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Limpar azulejos e box do chuveiro</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-banheiro">
       <div class="dia-num">15</div>
-      <div class="dia-tarefa">Organizar armário e gavetas do banheiro</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Organizar armário e gavetas do banheiro</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-banheiro">
       <div class="dia-num">16</div>
-      <div class="dia-tarefa">Limpar vaso sanitário, pia e torneiras a fundo</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Limpar vaso sanitário, pia e torneiras a fundo</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-banheiro">
       <div class="dia-num">17</div>
-      <div class="dia-tarefa">Trocar toalhas, tapetes e higienizar suportes</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Trocar toalhas, tapetes e higienizar suportes</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-banheiro">
       <div class="dia-num">18</div>
-      <div class="dia-tarefa">Lavar o piso e descartar produtos vencidos</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Lavar o piso e descartar produtos vencidos</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <!-- QUARTO: dias 19–24 -->
     <div class="dia fase-quarto">
       <div class="dia-num">19</div>
-      <div class="dia-tarefa">Organizar a parte superior do guarda-roupa</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Organizar a parte superior do guarda-roupa</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-quarto">
       <div class="dia-num">20</div>
-      <div class="dia-tarefa">Organizar a parte inferior do guarda-roupa</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Organizar a parte inferior do guarda-roupa</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-quarto">
       <div class="dia-num">21</div>
-      <div class="dia-tarefa">Limpar embaixo da cama e organizar objetos</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Limpar embaixo da cama e organizar objetos</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-quarto">
       <div class="dia-num">22</div>
-      <div class="dia-tarefa">Lavar e trocar roupa de cama e fronhas</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Lavar e trocar roupa de cama e fronhas</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-quarto">
       <div class="dia-num">23</div>
-      <div class="dia-tarefa">Organizar criados-mudos e superfícies do quarto</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Organizar criados-mudos e superfícies do quarto</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-quarto">
       <div class="dia-num">24</div>
-      <div class="dia-tarefa">Varrer, aspirar e limpar o piso do quarto</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Varrer, aspirar e limpar o piso do quarto</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <!-- REVISÃO GERAL: dias 25–30 -->
     <div class="dia fase-geral">
       <div class="dia-num">25</div>
-      <div class="dia-tarefa">Limpar área de serviço e organizar produtos</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Limpar área de serviço e organizar produtos</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-geral">
       <div class="dia-num">26</div>
-      <div class="dia-tarefa">Organizar corredores, entradas e hall</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Organizar corredores, entradas e hall</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-geral">
       <div class="dia-num">27</div>
-      <div class="dia-tarefa">Organizar bolsas, mochilas e sapatos</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Organizar bolsas, mochilas e sapatos</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-geral">
       <div class="dia-num">28</div>
-      <div class="dia-tarefa">Organizar documentos, papéis e contas</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Organizar documentos, papéis e contas</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-geral">
       <div class="dia-num">29</div>
-      <div class="dia-tarefa">Revisar toda a casa: o que ainda precisa de atenção?</div>
-      <div class="dia-check"><div class="check-box"></div><span class="check-label">Feito!</span></div>
+      <div class="dia-tarefa" contenteditable="true">Revisar toda a casa: o que ainda precisa de atenção?</div>
+      <div class="dia-check"><div class="check-box"><input type="checkbox"></div><span class="check-label">Feito!</span></div>
     </div>
 
     <div class="dia fase-geral" style="background: linear-gradient(135deg,#FFF8D6,#F5E6A0); border-color:#C4A882;">

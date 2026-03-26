@@ -221,20 +221,75 @@
       border-radius: 3px;
     }
 
+    /* ─── CAMPOS EDITÁVEIS ─── */
+    .campo-semana input[type="text"] {
+      border: none;
+      border-bottom: 1px solid #C4A882;
+      background: transparent;
+      font-family: 'Lato', sans-serif;
+      font-size: 9pt;
+      color: #3D2B1F;
+      width: 48mm;
+      outline: none;
+      padding: 0 2px;
+    }
+    .campo-semana input[type="text"]:focus {
+      border-bottom: 2px solid #8B5E35;
+      background: #FFFDF0;
+    }
+
+    /* Células editáveis */
+    .cel[contenteditable] {
+      cursor: text;
+      outline: none;
+      font-size: 8.5pt;
+      color: #3D2B1F;
+      line-height: 1.5;
+    }
+    .cel[contenteditable]:focus {
+      background: #FFFFF0 !important;
+      box-shadow: inset 0 0 0 1.5px #C4A882;
+    }
+    .cel[contenteditable]:empty::before {
+      content: attr(data-placeholder);
+      color: #C8B8A2;
+      font-style: italic;
+      font-size: 7.5pt;
+      pointer-events: none;
+    }
+
+    /* ─── DICA DE USO ─── */
+    .dica {
+      text-align: center;
+      font-size: 8pt;
+      color: #9B7D5E;
+      padding: 8px;
+      background: #FFF8EC;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+    .dica strong { color: #7A5200; }
+
     /* ─── IMPRESSÃO ─── */
     @media print {
       body { background: white; padding: 0; }
+      .dica { display: none; }
       .pagina {
         width: 297mm;
         height: 210mm;
         box-shadow: none;
         padding: 8mm 12mm 7mm 12mm;
       }
+      .cel[contenteditable]:empty::before { display: none; }
       @page { size: A4 landscape; margin: 0; }
     }
   </style>
 </head>
 <body>
+
+<div class="dica">
+  ✏️ <strong>Clique em qualquer célula</strong> para digitar · Marque com ✓ ou escreva o prato · <strong>Ctrl+P</strong> para salvar como PDF
+</div>
 
 <div class="pagina">
 
@@ -267,7 +322,7 @@
 
     <div class="campo-semana">
       <span>Semana de</span>
-      <span class="linha"></span>
+      <input type="text" placeholder="__/__  a  __/__">
     </div>
 
     <div class="marca">
@@ -297,13 +352,13 @@
         <td class="label-cel">
           <span class="label-texto">Café da Manhã</span>
         </td>
-        <td class="cel"></td>
-        <td class="cel"></td>
-        <td class="cel"></td>
-        <td class="cel"></td>
-        <td class="cel"></td>
-        <td class="cel"></td>
-        <td class="cel"></td>
+        <td class="cel" contenteditable="true" data-placeholder="clique e digite..."></td>
+        <td class="cel" contenteditable="true" data-placeholder="clique e digite..."></td>
+        <td class="cel" contenteditable="true" data-placeholder="clique e digite..."></td>
+        <td class="cel" contenteditable="true" data-placeholder="clique e digite..."></td>
+        <td class="cel" contenteditable="true" data-placeholder="clique e digite..."></td>
+        <td class="cel" contenteditable="true" data-placeholder="clique e digite..."></td>
+        <td class="cel" contenteditable="true" data-placeholder="clique e digite..."></td>
       </tr>
 
       <!-- ALMOÇO -->
@@ -311,13 +366,13 @@
         <td class="label-cel">
           <span class="label-texto">Almoço</span>
         </td>
-        <td class="cel"></td>
-        <td class="cel"></td>
-        <td class="cel"></td>
-        <td class="cel"></td>
-        <td class="cel"></td>
-        <td class="cel"></td>
-        <td class="cel"></td>
+        <td class="cel" contenteditable="true" data-placeholder="clique e digite..."></td>
+        <td class="cel" contenteditable="true" data-placeholder="clique e digite..."></td>
+        <td class="cel" contenteditable="true" data-placeholder="clique e digite..."></td>
+        <td class="cel" contenteditable="true" data-placeholder="clique e digite..."></td>
+        <td class="cel" contenteditable="true" data-placeholder="clique e digite..."></td>
+        <td class="cel" contenteditable="true" data-placeholder="clique e digite..."></td>
+        <td class="cel" contenteditable="true" data-placeholder="clique e digite..."></td>
       </tr>
 
       <!-- JANTAR -->
@@ -325,13 +380,13 @@
         <td class="label-cel">
           <span class="label-texto">Jantar</span>
         </td>
-        <td class="cel"></td>
-        <td class="cel"></td>
-        <td class="cel"></td>
-        <td class="cel"></td>
-        <td class="cel"></td>
-        <td class="cel"></td>
-        <td class="cel"></td>
+        <td class="cel" contenteditable="true" data-placeholder="clique e digite..."></td>
+        <td class="cel" contenteditable="true" data-placeholder="clique e digite..."></td>
+        <td class="cel" contenteditable="true" data-placeholder="clique e digite..."></td>
+        <td class="cel" contenteditable="true" data-placeholder="clique e digite..."></td>
+        <td class="cel" contenteditable="true" data-placeholder="clique e digite..."></td>
+        <td class="cel" contenteditable="true" data-placeholder="clique e digite..."></td>
+        <td class="cel" contenteditable="true" data-placeholder="clique e digite..."></td>
       </tr>
 
     </tbody>

@@ -248,16 +248,97 @@
     }
     .rodape-frase { font-size: 7.5pt; color: #9B7D5E; font-style: italic; }
 
+    /* ─── CAMPOS EDITÁVEIS ─── */
+    [contenteditable] { outline: none; cursor: text; }
+    [contenteditable]:focus { box-shadow: 0 0 0 1.5px #C4A882; border-radius: 3px; background: rgba(255,255,255,0.7); }
+    [contenteditable]:empty::before { content: attr(data-placeholder); color: #C0B0A0; font-style: italic; font-size: 7.5pt; pointer-events: none; }
+
+    /* Input de nome */
+    .nome-input {
+      border: none;
+      border-bottom: 1.5px solid rgba(255,255,255,0.6);
+      background: transparent;
+      font-family: 'Playfair Display', serif;
+      font-size: 11pt;
+      font-weight: 700;
+      color: inherit;
+      width: 100%;
+      text-align: center;
+      outline: none;
+      padding: 0 2px 2px;
+    }
+    .nome-input::placeholder { opacity: 0.5; font-style: italic; font-size: 9pt; }
+    .nome-input:focus { border-bottom-color: rgba(255,255,255,1); background: rgba(255,255,255,0.2); }
+
+    /* Checkbox real */
+    input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      width: 14px;
+      height: 14px;
+      border: 1.5px solid #C4A882;
+      border-radius: 3px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      flex-shrink: 0;
+    }
+    input[type="checkbox"]:checked { background: #C4A882; border-color: #8B5E35; }
+    input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: -2px; left: 1px;
+      font-size: 10px;
+      color: white;
+      font-weight: bold;
+    }
+    .tarefa-item:has(input:checked) .tarefa-texto { text-decoration: line-through; opacity: 0.45; }
+
+    /* Input recompensa */
+    .recompensa-input {
+      border: none;
+      border-bottom: 1px solid #C4A882;
+      background: transparent;
+      font-family: 'Lato', sans-serif;
+      font-size: 8.5pt;
+      color: #3D2B1F;
+      flex: 1;
+      outline: none;
+      padding: 0 4px;
+    }
+    .recompensa-input::placeholder { color: #C0A882; font-style: italic; }
+
+    /* Campo semana */
+    .semana-campo input[type="text"] {
+      border: none;
+      border-bottom: 1px solid #C4A882;
+      background: transparent;
+      font-size: 8.5pt;
+      color: #3D2B1F;
+      width: 40mm;
+      outline: none;
+      font-family: 'Lato', sans-serif;
+    }
+
+    /* Dica */
+    .dica { text-align: center; font-size: 8pt; color: #9B7D5E; padding: 8px 16px; background: #FFF8EC; border-radius: 20px; margin-bottom: 12px; }
+    .dica strong { color: #7A5200; }
+
     /* ─── IMPRESSÃO ─── */
     @media print {
       body { background: white; padding: 0; }
+      .dica { display: none; }
       .pagina { width: 297mm; height: 210mm; box-shadow: none; }
+      [contenteditable]:empty::before { display: none; }
       @page { size: A4 landscape; margin: 0; }
     }
   </style>
 </head>
 <body>
 
+<div class="dica">
+  ✏️ <strong>Clique nos nomes</strong> para personalizar · <strong>Edite as tarefas</strong> clicando nelas · Marque o ✓ ao concluir · <strong>Ctrl+P</strong> para PDF
+</div>
 <div class="pagina">
 
   <!-- Decoração -->
@@ -291,7 +372,7 @@
     <div class="cabecalho-centro">
       <div class="semana-campo">
         <span>Semana de</span>
-        <span class="linha"></span>
+        <input type="text" placeholder="__/__ a __/__" style="border:none;border-bottom:1px solid #C4A882;background:transparent;font-size:8.5pt;color:#3D2B1F;width:40mm;outline:none;font-family:'Lato',sans-serif;">
       </div>
     </div>
 
@@ -308,16 +389,16 @@
     <div class="membro m1">
       <div class="membro-header">
         <span class="membro-avatar">👩</span>
-        <span class="membro-nome">Mamãe</span>
+        <input class="nome-input" type="text" value="Mamãe" placeholder="Nome">
         <span class="membro-nome-input">escreva o nome acima</span>
       </div>
       <div class="tarefas-lista">
-        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Limpar o banheiro</span></div>
-        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Cozinhar o almoço</span></div>
-        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Passar as roupas</span></div>
-        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Organizar a sala</span></div>
-        <div class="tarefa-linha"><div class="tarefa-check"></div><span class="tarefa-texto">.</span></div>
-        <div class="tarefa-linha"><div class="tarefa-check"></div><span class="tarefa-texto">.</span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">Limpar o banheiro</span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">Cozinhar o almoço</span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">Passar as roupas</span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">Organizar a sala</span></div>
+        <div class="tarefa-linha"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">.</span></div>
+        <div class="tarefa-linha"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">.</span></div>
       </div>
     </div>
 
@@ -325,16 +406,16 @@
     <div class="membro m2">
       <div class="membro-header">
         <span class="membro-avatar">👨</span>
-        <span class="membro-nome">Papai</span>
+        <input class="nome-input" type="text" value="Papai" placeholder="Nome">
         <span class="membro-nome-input">escreva o nome acima</span>
       </div>
       <div class="tarefas-lista">
-        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Tirar o lixo</span></div>
-        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Varrer a entrada</span></div>
-        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Lavar o carro</span></div>
-        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Fazer compras</span></div>
-        <div class="tarefa-linha"><div class="tarefa-check"></div><span class="tarefa-texto">.</span></div>
-        <div class="tarefa-linha"><div class="tarefa-check"></div><span class="tarefa-texto">.</span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">Tirar o lixo</span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">Varrer a entrada</span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">Lavar o carro</span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">Fazer compras</span></div>
+        <div class="tarefa-linha"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">.</span></div>
+        <div class="tarefa-linha"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">.</span></div>
       </div>
     </div>
 
@@ -342,16 +423,16 @@
     <div class="membro m3">
       <div class="membro-header">
         <span class="membro-avatar">🧒</span>
-        <span class="membro-nome">Filho(a) 1</span>
+        <input class="nome-input" type="text" value="Filho(a) 1" placeholder="Nome">
         <span class="membro-nome-input">escreva o nome acima</span>
       </div>
       <div class="tarefas-lista">
-        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Arrumar a cama</span></div>
-        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Guardar brinquedos</span></div>
-        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Colocar a mesa</span></div>
-        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Ajudar a dobrar roupas</span></div>
-        <div class="tarefa-linha"><div class="tarefa-check"></div><span class="tarefa-texto">.</span></div>
-        <div class="tarefa-linha"><div class="tarefa-check"></div><span class="tarefa-texto">.</span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">Arrumar a cama</span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">Guardar brinquedos</span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">Colocar a mesa</span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">Ajudar a dobrar roupas</span></div>
+        <div class="tarefa-linha"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">.</span></div>
+        <div class="tarefa-linha"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">.</span></div>
       </div>
     </div>
 
@@ -359,16 +440,16 @@
     <div class="membro m4">
       <div class="membro-header">
         <span class="membro-avatar">👧</span>
-        <span class="membro-nome">Filho(a) 2</span>
+        <input class="nome-input" type="text" value="Filho(a) 2" placeholder="Nome">
         <span class="membro-nome-input">escreva o nome acima</span>
       </div>
       <div class="tarefas-lista">
-        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Arrumar a cama</span></div>
-        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Organizar o quarto</span></div>
-        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Lavar a louça</span></div>
-        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Regar as plantas</span></div>
-        <div class="tarefa-linha"><div class="tarefa-check"></div><span class="tarefa-texto">.</span></div>
-        <div class="tarefa-linha"><div class="tarefa-check"></div><span class="tarefa-texto">.</span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">Arrumar a cama</span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">Organizar o quarto</span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">Lavar a louça</span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">Regar as plantas</span></div>
+        <div class="tarefa-linha"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">.</span></div>
+        <div class="tarefa-linha"><input type="checkbox"><span class="tarefa-texto" contenteditable="true">.</span></div>
       </div>
     </div>
 
@@ -377,7 +458,7 @@
   <!-- RECOMPENSA DA SEMANA -->
   <div class="recompensa-section">
     <span class="recompensa-titulo">🏆 Recompensa da Semana:</span>
-    <div class="recompensa-linha"></div>
+    <input class="recompensa-input" type="text" placeholder="Escreva a recompensa da semana...">
     <span style="font-size:7.5pt; color:#9B7D5E; white-space:nowrap; font-style:italic;">Quando todos cumprirem suas tarefas!</span>
   </div>
 

@@ -209,6 +209,41 @@
       font-style: italic;
     }
 
+    /* ─── CAMPOS EDITÁVEIS ─── */
+    input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      width: 11px;
+      height: 11px;
+      border: 1.5px solid #C4A882;
+      border-radius: 2px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      flex-shrink: 0;
+    }
+    input[type="checkbox"]:checked { background: #C4A882; border-color: #8B5E35; }
+    input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: -2px; left: 0px;
+      font-size: 9px;
+      color: white;
+      font-weight: bold;
+    }
+    .tarefa-row:has(input:checked) .tarefa-txt {
+      text-decoration: line-through;
+      opacity: 0.45;
+    }
+
+    .tarefa-txt[contenteditable] { outline: none; cursor: text; }
+    .tarefa-txt[contenteditable]:focus {
+      background: rgba(255,255,255,0.8);
+      border-radius: 2px;
+      box-shadow: 0 0 0 1px #C4A882;
+      padding: 0 2px;
+    }
+
     /* ─── IMPRESSÃO ─── */
     @media print {
       body { background: white; padding: 0; gap: 0; }
@@ -245,22 +280,22 @@
 
       <div class="freq-section">
         <div class="freq-titulo">Diário</div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Organizar almofadas e sofá</span><span class="badge badge-d">D</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Recolher objetos fora do lugar</span><span class="badge badge-d">D</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar almofadas e sofá</span><span class="badge badge-d">D</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Recolher objetos fora do lugar</span><span class="badge badge-d">D</span></div>
       </div>
 
       <div class="freq-section">
         <div class="freq-titulo">Semanal</div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Aspirar / varrer o piso</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Limpar mesas e superfícies</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Tirar o pó dos móveis</span><span class="badge badge-s">S</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Aspirar / varrer o piso</span><span class="badge badge-s">S</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar mesas e superfícies</span><span class="badge badge-s">S</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Tirar o pó dos móveis</span><span class="badge badge-s">S</span></div>
       </div>
 
       <div class="freq-section">
         <div class="freq-titulo">Mensal</div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Limpar vidros e janelas</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Lavar almofadas e capas</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Organizar estante e rack</span><span class="badge badge-m">M</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar vidros e janelas</span><span class="badge badge-m">M</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Lavar almofadas e capas</span><span class="badge badge-m">M</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar estante e rack</span><span class="badge badge-m">M</span></div>
       </div>
 
     </div>
@@ -282,22 +317,22 @@
 
       <div class="freq-section">
         <div class="freq-titulo">Diário</div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Lavar a louça</span><span class="badge badge-d">D</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Limpar bancadas e fogão</span><span class="badge badge-d">D</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Tirar o lixo</span><span class="badge badge-d">D</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Lavar a louça</span><span class="badge badge-d">D</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar bancadas e fogão</span><span class="badge badge-d">D</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Tirar o lixo</span><span class="badge badge-d">D</span></div>
       </div>
 
       <div class="freq-section">
         <div class="freq-titulo">Semanal</div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Varrer e lavar o piso</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Limpar micro-ondas por dentro</span><span class="badge badge-s">S</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Varrer e lavar o piso</span><span class="badge badge-s">S</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar micro-ondas por dentro</span><span class="badge badge-s">S</span></div>
       </div>
 
       <div class="freq-section">
         <div class="freq-titulo">Mensal</div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Limpar geladeira e descartar vencidos</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Organizar despensa e armários</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Limpar fogão a fundo</span><span class="badge badge-m">M</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar geladeira e descartar vencidos</span><span class="badge badge-m">M</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar despensa e armários</span><span class="badge badge-m">M</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar fogão a fundo</span><span class="badge badge-m">M</span></div>
       </div>
 
     </div>
@@ -319,22 +354,22 @@
 
       <div class="freq-section">
         <div class="freq-titulo">Diário</div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Organizar pia e bancada</span><span class="badge badge-d">D</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Pendurar toalhas corretamente</span><span class="badge badge-d">D</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar pia e bancada</span><span class="badge badge-d">D</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Pendurar toalhas corretamente</span><span class="badge badge-d">D</span></div>
       </div>
 
       <div class="freq-section">
         <div class="freq-titulo">Semanal</div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Limpar vaso sanitário</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Limpar box, pia e espelho</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Lavar e trocar tapetes</span><span class="badge badge-s">S</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar vaso sanitário</span><span class="badge badge-s">S</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar box, pia e espelho</span><span class="badge badge-s">S</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Lavar e trocar tapetes</span><span class="badge badge-s">S</span></div>
       </div>
 
       <div class="freq-section">
         <div class="freq-titulo">Mensal</div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Limpar azulejos e rejuntes</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Organizar produtos de higiene</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Descartar produtos vencidos</span><span class="badge badge-m">M</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar azulejos e rejuntes</span><span class="badge badge-m">M</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar produtos de higiene</span><span class="badge badge-m">M</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Descartar produtos vencidos</span><span class="badge badge-m">M</span></div>
       </div>
 
     </div>
@@ -356,22 +391,22 @@
 
       <div class="freq-section">
         <div class="freq-titulo">Diário</div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Arrumar a cama</span><span class="badge badge-d">D</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Guardar roupas no lugar</span><span class="badge badge-d">D</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Arrumar a cama</span><span class="badge badge-d">D</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Guardar roupas no lugar</span><span class="badge badge-d">D</span></div>
       </div>
 
       <div class="freq-section">
         <div class="freq-titulo">Semanal</div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Aspirar / varrer o piso</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Tirar o pó dos móveis</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Organizar criado-mudo</span><span class="badge badge-s">S</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Aspirar / varrer o piso</span><span class="badge badge-s">S</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Tirar o pó dos móveis</span><span class="badge badge-s">S</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar criado-mudo</span><span class="badge badge-s">S</span></div>
       </div>
 
       <div class="freq-section">
         <div class="freq-titulo">Mensal</div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Trocar e lavar roupa de cama</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Organizar guarda-roupa</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Limpar embaixo da cama</span><span class="badge badge-m">M</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Trocar e lavar roupa de cama</span><span class="badge badge-m">M</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar guarda-roupa</span><span class="badge badge-m">M</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar embaixo da cama</span><span class="badge badge-m">M</span></div>
       </div>
 
     </div>
@@ -393,22 +428,22 @@
 
       <div class="freq-section">
         <div class="freq-titulo">Diário</div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Recolher roupas sujas</span><span class="badge badge-d">D</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Guardar roupas lavadas</span><span class="badge badge-d">D</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Recolher roupas sujas</span><span class="badge badge-d">D</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Guardar roupas lavadas</span><span class="badge badge-d">D</span></div>
       </div>
 
       <div class="freq-section">
         <div class="freq-titulo">Semanal</div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Lavar e secar as roupas</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Varrer e lavar o piso</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Organizar produtos de limpeza</span><span class="badge badge-s">S</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Lavar e secar as roupas</span><span class="badge badge-s">S</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Varrer e lavar o piso</span><span class="badge badge-s">S</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar produtos de limpeza</span><span class="badge badge-s">S</span></div>
       </div>
 
       <div class="freq-section">
         <div class="freq-titulo">Mensal</div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Limpar máquina de lavar</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Organizar cabides e cestos</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Verificar estoque de produtos</span><span class="badge badge-m">M</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar máquina de lavar</span><span class="badge badge-m">M</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar cabides e cestos</span><span class="badge badge-m">M</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Verificar estoque de produtos</span><span class="badge badge-m">M</span></div>
       </div>
 
     </div>
@@ -430,22 +465,22 @@
 
       <div class="freq-section">
         <div class="freq-titulo">Diário</div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Guardar sapatos e bolsas</span><span class="badge badge-d">D</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Manter a entrada organizada</span><span class="badge badge-d">D</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Guardar sapatos e bolsas</span><span class="badge badge-d">D</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Manter a entrada organizada</span><span class="badge badge-d">D</span></div>
       </div>
 
       <div class="freq-section">
         <div class="freq-titulo">Semanal</div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Varrer corredor e entrada</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Limpar capacho e tapetes</span><span class="badge badge-s">S</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Organizar rack de sapatos</span><span class="badge badge-s">S</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Varrer corredor e entrada</span><span class="badge badge-s">S</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar capacho e tapetes</span><span class="badge badge-s">S</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Organizar rack de sapatos</span><span class="badge badge-s">S</span></div>
       </div>
 
       <div class="freq-section">
         <div class="freq-titulo">Mensal</div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Limpar portas e maçanetas</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Limpar paredes do corredor</span><span class="badge badge-m">M</span></div>
-        <div class="tarefa-row"><div class="check"></div><span class="tarefa-txt">Descartar sapatos e objetos</span><span class="badge badge-m">M</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar portas e maçanetas</span><span class="badge badge-m">M</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Limpar paredes do corredor</span><span class="badge badge-m">M</span></div>
+        <div class="tarefa-row"><input type="checkbox"><span class="tarefa-txt" contenteditable="true">Descartar sapatos e objetos</span><span class="badge badge-m">M</span></div>
       </div>
 
     </div>
