@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Quadro de Tarefas da Família — Kit Organização do Lar</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #e8e0d5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+      font-family: 'Lato', sans-serif;
+    }
+
+    /* ─── PÁGINA A4 PAISAGEM ─── */
+    .pagina {
+      width: 297mm;
+      min-height: 210mm;
+      background: #FEFCF8;
+      padding: 10mm 12mm 9mm 12mm;
+      box-shadow: 0 6px 40px rgba(0,0,0,0.15);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* ─── DECORAÇÃO CANTOS ─── */
+    .deco { position: absolute; opacity: 0.15; pointer-events: none; }
+    .deco-tl { top: -10px; left: -10px; }
+    .deco-tr { top: -10px; right: -10px; transform: scaleX(-1); }
+    .deco svg { width: 95px; height: 95px; }
+
+    /* ─── CABEÇALHO ─── */
+    .cabecalho {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6mm;
+      padding-bottom: 4mm;
+      border-bottom: 1.5px solid #C4A882;
+    }
+
+    .titulo-wrap .tag {
+      font-size: 7.5pt;
+      color: #C4A882;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 700;
+      display: block;
+      margin-bottom: 2px;
+    }
+    .titulo-wrap h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 21pt;
+      color: #3D2B1F;
+      font-weight: 400;
+    }
+    .titulo-wrap .subtitulo {
+      font-size: 8pt;
+      color: #9B7D5E;
+      font-style: italic;
+      margin-top: 2px;
+    }
+
+    .cabecalho-centro {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+    }
+    .semana-campo {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 8.5pt;
+      color: #7A5C3E;
+    }
+    .semana-campo .linha {
+      border-bottom: 1px solid #C4A882;
+      width: 40mm;
+      height: 14px;
+      display: inline-block;
+    }
+
+    .marca { text-align: center; color: #3D2B1F; }
+    .marca .marca-icon { font-size: 15pt; display: block; margin-bottom: 1px; }
+    .marca .marca-nome {
+      font-family: 'Playfair Display', serif;
+      font-size: 10pt;
+      font-weight: 700;
+      letter-spacing: 3px;
+      border-top: 1.5px solid #C4A882;
+      border-bottom: 1.5px solid #C4A882;
+      padding: 1px 6px;
+    }
+
+    /* ─── GRADE DE MEMBROS ─── */
+    .grade-membros {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 5mm;
+      margin-bottom: 5mm;
+    }
+
+    /* ─── COLUNA DE MEMBRO ─── */
+    .membro {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .membro-header {
+      border-radius: 8px 8px 0 0;
+      padding: 7px 10px;
+      text-align: center;
+    }
+
+    .membro-avatar {
+      font-size: 18pt;
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .membro-nome {
+      font-family: 'Playfair Display', serif;
+      font-size: 11pt;
+      font-weight: 700;
+      display: block;
+      border-bottom: 1.5px solid rgba(255,255,255,0.5);
+      padding-bottom: 3px;
+      margin-bottom: 3px;
+    }
+
+    .membro-nome-input {
+      font-size: 8pt;
+      opacity: 0.8;
+      font-style: italic;
+    }
+
+    /* Cores por membro */
+    .m1 .membro-header { background: #FFF0B3; color: #7A5200; border: 1.5px solid #E6C84A; }
+    .m2 .membro-header { background: #C8E6C9; color: #1B5E20; border: 1.5px solid #81C784; }
+    .m3 .membro-header { background: #BBDEFB; color: #0D47A1; border: 1.5px solid #64B5F6; }
+    .m4 .membro-header { background: #F8BBD0; color: #880E4F; border: 1.5px solid #F48FB1; }
+
+    .m1 .tarefa-item { border-left: 3px solid #E6C84A; }
+    .m2 .tarefa-item { border-left: 3px solid #81C784; }
+    .m3 .tarefa-item { border-left: 3px solid #64B5F6; }
+    .m4 .tarefa-item { border-left: 3px solid #F48FB1; }
+
+    /* Tarefas */
+    .tarefas-lista {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      flex: 1;
+    }
+
+    .tarefa-item {
+      background: #FDFAF5;
+      border: 1px solid #E8DDD0;
+      border-radius: 0 5px 5px 0;
+      padding: 5px 8px;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      min-height: 10mm;
+    }
+
+    .tarefa-check {
+      width: 14px;
+      height: 14px;
+      border: 1.5px solid #C4A882;
+      border-radius: 3px;
+      background: white;
+      flex-shrink: 0;
+    }
+
+    .tarefa-texto {
+      font-size: 8pt;
+      color: #3D2B1F;
+      line-height: 1.3;
+      flex: 1;
+    }
+
+    /* Linha em branco para escrever */
+    .tarefa-linha {
+      background: #FDFAF5;
+      border: 1px solid #E8DDD0;
+      border-radius: 0 5px 5px 0;
+      padding: 5px 8px;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      min-height: 10mm;
+    }
+    .tarefa-linha .tarefa-check {
+      border-style: dashed;
+      opacity: 0.5;
+    }
+    .tarefa-linha .tarefa-texto {
+      border-bottom: 1px dashed #D0C5B5;
+      color: transparent;
+      flex: 1;
+    }
+
+    /* ─── SEÇÃO RECOMPENSA ─── */
+    .recompensa-section {
+      background: linear-gradient(135deg, #FFF8EC 0%, #F5EDD8 100%);
+      border: 1.5px solid #C4A882;
+      border-radius: 8px;
+      padding: 6px 12px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .recompensa-titulo {
+      font-family: 'Playfair Display', serif;
+      font-size: 9pt;
+      color: #7A5200;
+      font-weight: 700;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .recompensa-linha {
+      flex: 1;
+      border-bottom: 1px solid #C4A882;
+      height: 14px;
+    }
+
+    /* ─── RODAPÉ ─── */
+    .rodape {
+      margin-top: 4mm;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 3mm;
+      border-top: 1px solid #E0D5C5;
+    }
+    .rodape-frase { font-size: 7.5pt; color: #9B7D5E; font-style: italic; }
+
+    /* ─── IMPRESSÃO ─── */
+    @media print {
+      body { background: white; padding: 0; }
+      .pagina { width: 297mm; height: 210mm; box-shadow: none; }
+      @page { size: A4 landscape; margin: 0; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="pagina">
+
+  <!-- Decoração -->
+  <div class="deco deco-tl">
+    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10 90 Q20 40 70 10" stroke="#5C8A4A" stroke-width="3" fill="none"/>
+      <ellipse cx="35" cy="55" rx="14" ry="9" transform="rotate(-40 35 55)" fill="#5C8A4A"/>
+      <ellipse cx="55" cy="35" rx="12" ry="8" transform="rotate(-55 55 35)" fill="#5C8A4A"/>
+      <ellipse cx="20" cy="72" rx="10" ry="7" transform="rotate(-25 20 72)" fill="#7AAD60"/>
+      <ellipse cx="68" cy="18" rx="9" ry="6" transform="rotate(-65 68 18)" fill="#7AAD60"/>
+    </svg>
+  </div>
+  <div class="deco deco-tr">
+    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10 90 Q20 40 70 10" stroke="#5C8A4A" stroke-width="3" fill="none"/>
+      <ellipse cx="35" cy="55" rx="14" ry="9" transform="rotate(-40 35 55)" fill="#5C8A4A"/>
+      <ellipse cx="55" cy="35" rx="12" ry="8" transform="rotate(-55 55 35)" fill="#5C8A4A"/>
+      <ellipse cx="20" cy="72" rx="10" ry="7" transform="rotate(-25 20 72)" fill="#7AAD60"/>
+      <ellipse cx="68" cy="18" rx="9" ry="6" transform="rotate(-65 68 18)" fill="#7AAD60"/>
+    </svg>
+  </div>
+
+  <!-- CABEÇALHO -->
+  <div class="cabecalho">
+    <div class="titulo-wrap">
+      <span class="tag">Bônus 3 · Kit Organização do Lar</span>
+      <h1>Quadro de Tarefas da Família</h1>
+      <p class="subtitulo">Distribua as tarefas, envolva todos e torne a casa um esforço coletivo.</p>
+    </div>
+
+    <div class="cabecalho-centro">
+      <div class="semana-campo">
+        <span>Semana de</span>
+        <span class="linha"></span>
+      </div>
+    </div>
+
+    <div class="marca">
+      <span class="marca-icon">🏠</span>
+      <span class="marca-nome">LAR</span>
+    </div>
+  </div>
+
+  <!-- GRADE DE MEMBROS -->
+  <div class="grade-membros">
+
+    <!-- MEMBRO 1 -->
+    <div class="membro m1">
+      <div class="membro-header">
+        <span class="membro-avatar">👩</span>
+        <span class="membro-nome">Mamãe</span>
+        <span class="membro-nome-input">escreva o nome acima</span>
+      </div>
+      <div class="tarefas-lista">
+        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Limpar o banheiro</span></div>
+        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Cozinhar o almoço</span></div>
+        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Passar as roupas</span></div>
+        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Organizar a sala</span></div>
+        <div class="tarefa-linha"><div class="tarefa-check"></div><span class="tarefa-texto">.</span></div>
+        <div class="tarefa-linha"><div class="tarefa-check"></div><span class="tarefa-texto">.</span></div>
+      </div>
+    </div>
+
+    <!-- MEMBRO 2 -->
+    <div class="membro m2">
+      <div class="membro-header">
+        <span class="membro-avatar">👨</span>
+        <span class="membro-nome">Papai</span>
+        <span class="membro-nome-input">escreva o nome acima</span>
+      </div>
+      <div class="tarefas-lista">
+        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Tirar o lixo</span></div>
+        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Varrer a entrada</span></div>
+        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Lavar o carro</span></div>
+        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Fazer compras</span></div>
+        <div class="tarefa-linha"><div class="tarefa-check"></div><span class="tarefa-texto">.</span></div>
+        <div class="tarefa-linha"><div class="tarefa-check"></div><span class="tarefa-texto">.</span></div>
+      </div>
+    </div>
+
+    <!-- MEMBRO 3 -->
+    <div class="membro m3">
+      <div class="membro-header">
+        <span class="membro-avatar">🧒</span>
+        <span class="membro-nome">Filho(a) 1</span>
+        <span class="membro-nome-input">escreva o nome acima</span>
+      </div>
+      <div class="tarefas-lista">
+        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Arrumar a cama</span></div>
+        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Guardar brinquedos</span></div>
+        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Colocar a mesa</span></div>
+        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Ajudar a dobrar roupas</span></div>
+        <div class="tarefa-linha"><div class="tarefa-check"></div><span class="tarefa-texto">.</span></div>
+        <div class="tarefa-linha"><div class="tarefa-check"></div><span class="tarefa-texto">.</span></div>
+      </div>
+    </div>
+
+    <!-- MEMBRO 4 -->
+    <div class="membro m4">
+      <div class="membro-header">
+        <span class="membro-avatar">👧</span>
+        <span class="membro-nome">Filho(a) 2</span>
+        <span class="membro-nome-input">escreva o nome acima</span>
+      </div>
+      <div class="tarefas-lista">
+        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Arrumar a cama</span></div>
+        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Organizar o quarto</span></div>
+        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Lavar a louça</span></div>
+        <div class="tarefa-item"><div class="tarefa-check"></div><span class="tarefa-texto">Regar as plantas</span></div>
+        <div class="tarefa-linha"><div class="tarefa-check"></div><span class="tarefa-texto">.</span></div>
+        <div class="tarefa-linha"><div class="tarefa-check"></div><span class="tarefa-texto">.</span></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- RECOMPENSA DA SEMANA -->
+  <div class="recompensa-section">
+    <span class="recompensa-titulo">🏆 Recompensa da Semana:</span>
+    <div class="recompensa-linha"></div>
+    <span style="font-size:7.5pt; color:#9B7D5E; white-space:nowrap; font-style:italic;">Quando todos cumprirem suas tarefas!</span>
+  </div>
+
+  <!-- RODAPÉ -->
+  <div class="rodape">
+    <p class="rodape-frase">"Uma casa organizada é um esforço de todos. Cada tarefinha conta!"</p>
+    <p style="font-size:7.5pt; color:#9B7D5E;">Kit Organização do Lar · LAR</p>
+  </div>
+
+</div>
+</body>
+</html>
