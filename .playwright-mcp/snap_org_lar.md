@@ -1,0 +1,1545 @@
+- generic [ref=e12]:
+  - generic [ref=e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=e27] [cursor=pointer]:
+      - generic [ref=e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=e33] [cursor=pointer]
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - combobox "Tudo" [ref=e44] [cursor=pointer]:
+        - generic [ref=e51]: Tudo
+      - combobox "Todos os anúncios" [ref=e63] [cursor=pointer]:
+        - generic [ref=e73]: Todos os anúncios
+    - generic [ref=e83]:
+      - generic [ref=e89]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=e95]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=e101]: Mãe_desajustada
+        - button "Limpar" [ref=e103] [cursor=pointer]
+  - generic [ref=e106]:
+    - img "Foto do perfil da Página" [ref=e111]
+    - heading "Mãe_desajustada" [level=1] [ref=e116]
+  - generic [ref=e118]:
+    - link "Anúncios" [ref=e119] [cursor=pointer]
+    - link "Sobre" [ref=e120] [cursor=pointer]
+  - dialog [ref=e121]:
+    - generic [ref=e122]:
+      - link [ref=e123] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=e124]: Entrar
+      - menuitem [ref=e125] [cursor=pointer]
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - heading [level=4] [ref=e130]: Biblioteca de Anúncios
+        - menuitem [ref=e132] [cursor=pointer]:
+          - heading [level=4] [ref=e134]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=e136] [cursor=pointer]:
+          - heading [level=4] [ref=e138]: API da Biblioteca de Anúncios
+        - menuitem [ref=e140] [cursor=pointer]:
+          - heading [level=4] [ref=e142]: Conteúdo de marca
+      - separator [ref=e143]
+      - generic [ref=e144]:
+        - menuitem [ref=e146] [cursor=pointer]:
+          - heading [level=4] [ref=e148]: Status do sistema
+        - menuitem [ref=e150] [cursor=pointer]:
+          - heading [level=4] [ref=e152]: Assinar para receber atualizações por email
+        - menuitem [ref=e154] [cursor=pointer]:
+          - heading [level=4] [ref=e156]: Perguntas frequentes
+        - menuitem [ref=e158] [cursor=pointer]:
+          - heading [level=4] [ref=e160]: Sobre anúncios e uso de dados
+        - menuitem [ref=e162] [cursor=pointer]:
+          - heading [level=4] [ref=e164]: Privacidade
+        - menuitem [ref=e166] [cursor=pointer]:
+          - heading [level=4] [ref=e168]: Termos
+        - menuitem [ref=e170] [cursor=pointer]:
+          - heading [level=4] [ref=e172]: Cookies
+  - generic [ref=e173]:
+    - generic [ref=e187]:
+      - heading "~63 resultados" [level=3] [ref=e195]
+      - generic [ref=e196]:
+        - generic [ref=e202]:
+          - button "Filtros (1)" [ref=e204] [cursor=pointer]:
+            - generic [ref=e210]: Filtros (1)
+          - button "Classificar por" [ref=e213] [cursor=pointer]:
+            - generic [ref=e218]: Classificar por
+        - generic [ref=e221]:
+          - generic [ref=e223]:
+            - generic [ref=e225]:
+              - generic [ref=e226]:
+                - generic [ref=e233]: Ativo
+                - generic [ref=e236]: "Identificação da biblioteca: 1895467194347699"
+                - generic [ref=e238]: Veiculação iniciada em 15 de set de 2025
+                - generic [ref=e240]: Plataformas
+                - generic [ref=e268]:
+                  - strong [ref=e269]: 5 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e270] [cursor=pointer]:
+                - generic [ref=e272]:
+                  - generic [ref=e273]: Menu
+                  - img "Menu" [ref=e276]
+            - button "Ver resumo" [ref=e278] [cursor=pointer]:
+              - generic [ref=e282]: Ver resumo
+            - separator [ref=e283]
+            - generic [ref=e288]:
+              - generic [ref=e290]:
+                - img "Mãe_desajustada" [ref=e291]
+                - generic [ref=e293]:
+                  - link "Mãe_desajustada" [ref=e294] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076329690542/
+                  - generic [ref=e298]:
+                    - strong [ref=e300]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e301]:
+                - button "🕒Baseado na Disciplina Positiva da Dra. Jane Nelsen 👩‍🏫, um método capaz de promover respeito mútuo e cooperação — e que já ajudou mais de 1 milhão de famílias no mundo 🌍. Quer uma rotina leve e eficaz com seu filho? Baixe agora! 📲✨" [ref=e304]:
+                  - generic [ref=e306]: 🕒Baseado na Disciplina Positiva da Dra. Jane Nelsen 👩‍🏫, um método capaz de promover respeito mútuo e cooperação — e que já ajudou mais de 1 milhão de famílias no mundo 🌍. Quer uma rotina leve e eficaz com seu filho? Baixe agora! 📲✨
+                - group "Video player" [ref=e316]:
+                  - button "Reproduzir o vídeo" [ref=e318] [cursor=pointer]
+                  - generic [ref=e320]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:19
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fdisciplina%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+          - generic [ref=e322]:
+            - generic [ref=e324]:
+              - generic [ref=e325]:
+                - generic [ref=e332]: Ativo
+                - generic [ref=e335]: "Identificação da biblioteca: 1586394666077726"
+                - generic [ref=e337]: Veiculação iniciada em 27 de set de 2025
+                - generic [ref=e339]: Plataformas
+                - generic [ref=e367]:
+                  - strong [ref=e368]: 6 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e369] [cursor=pointer]:
+                - generic [ref=e371]:
+                  - generic [ref=e372]: Menu
+                  - img "Menu" [ref=e375]
+            - button "Ver resumo" [ref=e377] [cursor=pointer]:
+              - generic [ref=e381]: Ver resumo
+            - separator [ref=e382]
+            - generic [ref=e387]:
+              - generic [ref=e389]:
+                - img "Mãe_desajustada" [ref=e390]
+                - generic [ref=e392]:
+                  - link "Mãe_desajustada" [ref=e393] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076329690542/
+                  - generic [ref=e397]:
+                    - strong [ref=e399]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e400]:
+                - 'button "🧠 Comportamento muda sim — e não é com gritos, ameaças ou castigos. A verdadeira transformação acontece quando o cérebro da criança recebe os estímulos certos. Uma simples rotina visual ativa neurotransmissores como a dopamina, que despertam o sistema de recompensa e fazem seu filho sentir prazer em cumprir tarefas. ✨ Em poucos dias, você vê nascer novos hábitos: mais organização, mais responsabilidade e menos conflitos em casa. É ciência aplicada de forma prática — e o resultado é incrível. 👉 Clique e descubra como usar essa estratégia no seu dia a dia." [ref=e403]':
+                  - generic [ref=e406]:
+                    - text: 🧠 Comportamento muda sim — e não é com gritos, ameaças ou castigos.
+                    - text: A verdadeira transformação acontece quando o cérebro da criança recebe os estímulos certos.
+                    - text: Uma simples rotina visual ativa neurotransmissores como a dopamina, que despertam o sistema de recompensa e fazem seu filho sentir prazer em cumprir tarefas.
+                    - text: "✨ Em poucos dias, você vê nascer novos hábitos: mais organização, mais responsabilidade e menos conflitos em casa."
+                    - text: É ciência aplicada de forma prática — e o resultado é incrível.
+                    - text: 👉 Clique e descubra como usar essa estratégia no seu dia a dia.
+                - group "Video player" [ref=e416]:
+                  - button "Reproduzir o vídeo" [ref=e418] [cursor=pointer]
+                  - generic [ref=e420]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:20
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fmae-desajustada%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+          - generic [ref=e422]:
+            - generic [ref=e424]:
+              - generic [ref=e425]:
+                - generic [ref=e432]: Ativo
+                - generic [ref=e435]: "Identificação da biblioteca: 4306298432934563"
+                - generic [ref=e437]: Veiculação iniciada em 18 de nov de 2025
+                - generic [ref=e439]: Plataformas
+                - generic [ref=e467]:
+                  - strong [ref=e468]: 4 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e469] [cursor=pointer]:
+                - generic [ref=e471]:
+                  - generic [ref=e472]: Menu
+                  - img "Menu" [ref=e475]
+            - button "Ver resumo" [ref=e477] [cursor=pointer]:
+              - generic [ref=e481]: Ver resumo
+            - separator [ref=e482]
+            - generic [ref=e487]:
+              - generic [ref=e489]:
+                - img "Mãe_desajustada" [ref=e490]
+                - generic [ref=e492]:
+                  - link "Mãe_desajustada" [ref=e493] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076329690542/
+                  - generic [ref=e497]:
+                    - strong [ref=e499]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e500]:
+                - button "Se você ainda limpa a casa do mesmo jeito que sua mãe e sua avó limpavam — e como a maioria das pessoas ainda limpa — eu posso te ajudar. Existe um método com a ordem certa do que limpar (e como limpar) que reduz seu tempo, economiza sua energia e faz você limpar mais com menos esforço. Click e Saiba Mais ✨👉" [ref=e503]:
+                  - generic [ref=e505]: Se você ainda limpa a casa do mesmo jeito que sua mãe e sua avó limpavam — e como a maioria das pessoas ainda limpa — eu posso te ajudar. Existe um método com a ordem certa do que limpar (e como limpar) que reduz seu tempo, economiza sua energia e faz você limpar mais com menos esforço. Click e Saiba Mais ✨👉
+                - group "Video player" [ref=e515]:
+                  - button "Reproduzir o vídeo" [ref=e517] [cursor=pointer]
+                  - generic [ref=e519]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:27
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fcasa-organizada%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+          - generic [ref=e521]:
+            - generic [ref=e523]:
+              - generic [ref=e524]:
+                - generic [ref=e531]: Ativo
+                - generic [ref=e534]: "Identificação da biblioteca: 4382568398688076"
+                - generic [ref=e536]: Veiculação iniciada em 8 de fev de 2026
+                - generic [ref=e538]: Plataformas
+              - button "Menu Menu" [ref=e565] [cursor=pointer]:
+                - generic [ref=e567]:
+                  - generic [ref=e568]: Menu
+                  - img "Menu" [ref=e571]
+            - button "Ver detalhes do anúncio" [ref=e573] [cursor=pointer]:
+              - generic [ref=e577]: Ver detalhes do anúncio
+            - separator [ref=e578]
+            - generic [ref=e583]:
+              - generic [ref=e585]:
+                - img "Mãe_desajustada" [ref=e586]
+                - generic [ref=e588]:
+                  - link "Mãe_desajustada" [ref=e589] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076329690542/
+                  - generic [ref=e593]:
+                    - strong [ref=e595]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e596]:
+                - button "Baseado na Disciplina Positiva da Dra. Jane Nelsen 👩‍🏫, um método capaz de promover responsabilidade e cooperação e que já ajudou milhares de famílias ao redor do mundo 🌍. Quer uma rotina leve e eficaz para seu filho? Baixe agora! 📲" [ref=e599]:
+                  - generic [ref=e602]:
+                    - text: Baseado na Disciplina Positiva da Dra. Jane Nelsen 👩‍🏫, um método capaz de promover responsabilidade e cooperação e que já ajudou milhares de famílias ao redor do mundo 🌍.
+                    - text: Quer uma rotina leve e eficaz para seu filho?
+                    - text: Baixe agora! 📲
+                - group "Video player" [ref=e612]:
+                  - button "Reproduzir o vídeo" [ref=e614] [cursor=pointer]
+                  - generic [ref=e616]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:19
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "COMPORTAMENTOPOSITIVO.COM Rotina Postiva + Saiba mais" [ref=e618] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fdisciplina%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+                  - generic [ref=e619]:
+                    - generic [ref=e620]:
+                      - button "COMPORTAMENTOPOSITIVO.COM" [ref=e622]:
+                        - generic [ref=e623]: COMPORTAMENTOPOSITIVO.COM
+                      - button "Rotina Postiva +" [ref=e625]:
+                        - generic [ref=e626]: Rotina Postiva +
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e628]:
+                      - generic [ref=e632]: Saiba mais
+          - generic [ref=e634]:
+            - generic [ref=e636]:
+              - generic [ref=e637]:
+                - generic [ref=e644]: Ativo
+                - generic [ref=e647]: "Identificação da biblioteca: 26859224900332165"
+                - generic [ref=e649]: Veiculação iniciada em 16 de fev de 2026
+                - generic [ref=e651]: Plataformas
+              - button "Menu Menu" [ref=e678] [cursor=pointer]:
+                - generic [ref=e680]:
+                  - generic [ref=e681]: Menu
+                  - img "Menu" [ref=e684]
+            - button "Ver detalhes do anúncio" [ref=e686] [cursor=pointer]:
+              - generic [ref=e690]: Ver detalhes do anúncio
+            - separator [ref=e691]
+            - generic [ref=e696]:
+              - generic [ref=e698]:
+                - img "Mãe_desajustada" [ref=e699]
+                - generic [ref=e701]:
+                  - link "Mãe_desajustada" [ref=e702] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076329690542/
+                  - generic [ref=e706]:
+                    - strong [ref=e708]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e709]:
+                - button "Tem coisa na casa que não precisa limpar todo dia, nem toda semana… Mas não pode esquecer de limpar. Para isso, um quadro de limpeza ajuda muito 🧼 Esse é o meu, se você quiser usar também, clique e baixe para você📥" [ref=e712]:
+                  - generic [ref=e715]:
+                    - text: Tem coisa na casa que não precisa limpar todo dia, nem toda semana…
+                    - text: Mas não pode esquecer de limpar.
+                    - text: Para isso, um quadro de limpeza ajuda muito 🧼
+                    - text: Esse é o meu, se você quiser usar também, clique e baixe para você📥
+                - group "Video player" [ref=e725]:
+                  - button "Reproduzir o vídeo" [ref=e727] [cursor=pointer]
+                  - generic [ref=e729]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:17
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "COMPORTAMENTOPOSITIVO.COM Quadro de Limpeza Saiba mais" [ref=e731] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fcuidando-lar&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+                  - generic [ref=e732]:
+                    - generic [ref=e733]:
+                      - button "COMPORTAMENTOPOSITIVO.COM" [ref=e735]:
+                        - generic [ref=e736]: COMPORTAMENTOPOSITIVO.COM
+                      - button "Quadro de Limpeza" [ref=e738]:
+                        - generic [ref=e739]: Quadro de Limpeza
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e741]:
+                      - generic [ref=e745]: Saiba mais
+          - generic [ref=e747]:
+            - generic [ref=e749]:
+              - generic [ref=e750]:
+                - generic [ref=e757]: Ativo
+                - generic [ref=e760]: "Identificação da biblioteca: 1841921536440609"
+                - generic [ref=e762]: Veiculação iniciada em 26 de jan de 2026
+                - generic [ref=e764]: Plataformas
+                - generic [ref=e792]:
+                  - strong [ref=e793]: 3 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e794] [cursor=pointer]:
+                - generic [ref=e796]:
+                  - generic [ref=e797]: Menu
+                  - img "Menu" [ref=e800]
+            - button "Ver resumo" [ref=e802] [cursor=pointer]:
+              - generic [ref=e806]: Ver resumo
+            - separator [ref=e807]
+            - generic [ref=e812]:
+              - generic [ref=e814]:
+                - img "Mãe_desajustada" [ref=e815]
+                - generic [ref=e817]:
+                  - link "Mãe_desajustada" [ref=e818] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076329690542/
+                  - generic [ref=e822]:
+                    - strong [ref=e824]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e825]:
+                - button "🧹 Arrumar a casa como sua mãe e sua avó faziam faz o serviço parecer infinito. A rotina mudou, mas o método não — e isso só gera cansaço e sobrecarga emocional. 👉 Clique e saiba mais" [ref=e828]:
+                  - generic [ref=e831]:
+                    - text: 🧹 Arrumar a casa como sua mãe e sua avó faziam faz o serviço parecer infinito.
+                    - text: A rotina mudou, mas o método não — e isso só gera cansaço e sobrecarga emocional.
+                    - text: 👉 Clique e saiba mais
+                - group "Video player" [ref=e841]:
+                  - button "Reproduzir o vídeo" [ref=e843] [cursor=pointer]
+                  - generic [ref=e845]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:21
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fcuidando-lar&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+          - generic [ref=e847]:
+            - generic [ref=e849]:
+              - generic [ref=e850]:
+                - generic [ref=e857]: Ativo
+                - generic [ref=e860]: "Identificação da biblioteca: 1809175623803834"
+                - generic [ref=e862]: Veiculação iniciada em 15 de jan de 2026
+                - generic [ref=e864]: Plataformas
+              - button "Menu Menu" [ref=e891] [cursor=pointer]:
+                - generic [ref=e893]:
+                  - generic [ref=e894]: Menu
+                  - img "Menu" [ref=e897]
+            - button "Ver detalhes do anúncio" [ref=e899] [cursor=pointer]:
+              - generic [ref=e903]: Ver detalhes do anúncio
+            - separator [ref=e904]
+            - generic [ref=e909]:
+              - generic [ref=e911]:
+                - img "Mãe_desajustada" [ref=e912]
+                - generic [ref=e914]:
+                  - link "Mãe_desajustada" [ref=e915] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076329690542/
+                  - generic [ref=e919]:
+                    - strong [ref=e921]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e922]:
+                - button "🧹 Arrumar a casa como sua mãe e sua avó faziam faz o serviço parecer infinito. A rotina mudou, mas o método não — e isso só gera cansaço e sobrecarga emocional. 👉 Clique e saiba mais" [ref=e925]:
+                  - generic [ref=e928]:
+                    - text: 🧹 Arrumar a casa como sua mãe e sua avó faziam faz o serviço parecer infinito.
+                    - text: A rotina mudou, mas o método não — e isso só gera cansaço e sobrecarga emocional.
+                    - text: 👉 Clique e saiba mais
+                - group "Video player" [ref=e938]:
+                  - button "Reproduzir o vídeo" [ref=e940] [cursor=pointer]
+                  - generic [ref=e942]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:21
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "COMPORTAMENTOPOSITIVO.COM Arrumação 2.0 Saiba mais" [ref=e944] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fcuidando-lar&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+                  - generic [ref=e945]:
+                    - generic [ref=e946]:
+                      - button "COMPORTAMENTOPOSITIVO.COM" [ref=e948]:
+                        - generic [ref=e949]: COMPORTAMENTOPOSITIVO.COM
+                      - button "Arrumação 2.0" [ref=e951]:
+                        - generic [ref=e952]: Arrumação 2.0
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e954]:
+                      - generic [ref=e958]: Saiba mais
+          - generic [ref=e960]:
+            - generic [ref=e962]:
+              - generic [ref=e963]:
+                - generic [ref=e970]: Ativo
+                - generic [ref=e973]: "Identificação da biblioteca: 890647700417210"
+                - generic [ref=e975]: Veiculação iniciada em 8 de fev de 2026
+                - generic [ref=e977]: Plataformas
+              - button "Menu Menu" [ref=e1004] [cursor=pointer]:
+                - generic [ref=e1006]:
+                  - generic [ref=e1007]: Menu
+                  - img "Menu" [ref=e1010]
+            - button "Ver detalhes do anúncio" [ref=e1012] [cursor=pointer]:
+              - generic [ref=e1016]: Ver detalhes do anúncio
+            - separator [ref=e1017]
+            - generic [ref=e1022]:
+              - generic [ref=e1024]:
+                - img "Mãe_desajustada" [ref=e1025]
+                - generic [ref=e1027]:
+                  - link "Mãe_desajustada" [ref=e1028] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076329690542/
+                  - generic [ref=e1032]:
+                    - strong [ref=e1034]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1035]:
+                - button "Tem coisa que você não precisa limpar todo dia, nem toda semana, mas não pode esquecer. O problema não é falta de esforço, é falta de método. Quando cada limpeza tem seu tempo certo, a casa fica mais leve, organizada e você para de se sentir sempre atrasada 🧠✨ Quer aprender a limpar de um jeito diferente? Clique e saiba mais 👇" [ref=e1038]:
+                  - generic [ref=e1041]:
+                    - text: Tem coisa que você não precisa limpar todo dia, nem toda semana, mas não pode esquecer. O problema não é falta de esforço, é falta de método. Quando cada limpeza tem seu tempo certo, a casa fica mais leve, organizada e você para de se sentir sempre atrasada 🧠✨ Quer aprender a limpar de um jeito diferente?
+                    - text: Clique e saiba mais 👇
+                - group "Video player" [ref=e1051]:
+                  - button "Reproduzir o vídeo" [ref=e1053] [cursor=pointer]
+                  - generic [ref=e1055]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:20
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "COMPORTAMENTOPOSITIVO.COM Cronograma de Limpeza Mãe Desajustada Saiba mais" [ref=e1057] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fcuidando-lar%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+                  - generic [ref=e1058]:
+                    - generic [ref=e1059]:
+                      - button "COMPORTAMENTOPOSITIVO.COM" [ref=e1061]:
+                        - generic [ref=e1062]: COMPORTAMENTOPOSITIVO.COM
+                      - button "Cronograma de Limpeza Mãe Desajustada" [ref=e1064]:
+                        - generic [ref=e1065]: Cronograma de Limpeza Mãe Desajustada
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e1067]:
+                      - generic [ref=e1071]: Saiba mais
+          - generic [ref=e1073]:
+            - generic [ref=e1075]:
+              - generic [ref=e1076]:
+                - generic [ref=e1083]: Ativo
+                - generic [ref=e1086]: "Identificação da biblioteca: 856860656315188"
+                - generic [ref=e1088]: Veiculação iniciada em 13 de jul de 2024
+                - generic [ref=e1090]: Plataformas
+                - generic [ref=e1098]:
+                  - strong [ref=e1099]: 3 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1100] [cursor=pointer]:
+                - generic [ref=e1102]:
+                  - generic [ref=e1103]: Menu
+                  - img "Menu" [ref=e1106]
+            - button "Ver resumo" [ref=e1108] [cursor=pointer]:
+              - generic [ref=e1112]: Ver resumo
+            - separator [ref=e1113]
+            - generic [ref=e1118]:
+              - generic [ref=e1120]:
+                - img "Mãe_desajustada" [ref=e1121]
+                - generic [ref=e1123]:
+                  - link "Mãe_desajustada" [ref=e1124] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076329690542/
+                  - generic [ref=e1128]:
+                    - strong [ref=e1130]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1131]:
+                - button "🕒🚀Criança precisa de Rotina Você vai perceber ela mais mais calma, organizada e responsável. Eu quero te guiar nesse desafio de criar uma rotina para sua família. Click e Saiba Mais" [ref=e1134]:
+                  - generic [ref=e1137]:
+                    - text: 🕒🚀Criança precisa de Rotina
+                    - text: Você vai perceber ela mais mais calma, organizada e responsável.
+                    - text: Eu quero te guiar nesse desafio de criar uma rotina para sua família.
+                    - text: Click e Saiba Mais
+                - group "Video player" [ref=e1147]:
+                  - button "Reproduzir o vídeo" [ref=e1149] [cursor=pointer]
+                  - generic [ref=e1151]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:12
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fdisciplina%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+          - generic [ref=e1153]:
+            - generic [ref=e1155]:
+              - generic [ref=e1156]:
+                - generic [ref=e1163]: Ativo
+                - generic [ref=e1166]: "Identificação da biblioteca: 1963646981068962"
+                - generic [ref=e1168]: Veiculação iniciada em 26 de ago de 2025
+                - generic [ref=e1170]: Plataformas
+              - button "Menu Menu" [ref=e1197] [cursor=pointer]:
+                - generic [ref=e1199]:
+                  - generic [ref=e1200]: Menu
+                  - img "Menu" [ref=e1203]
+            - button "Ver detalhes do anúncio" [ref=e1205] [cursor=pointer]:
+              - generic [ref=e1209]: Ver detalhes do anúncio
+            - separator [ref=e1210]
+            - generic [ref=e1215]:
+              - generic [ref=e1217]:
+                - img "Mãe_desajustada" [ref=e1218]
+                - generic [ref=e1220]:
+                  - link "Mãe_desajustada" [ref=e1221] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076329690542/
+                  - generic [ref=e1225]:
+                    - strong [ref=e1227]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1228]:
+                - group "Video player" [ref=e1238]:
+                  - button "Reproduzir o vídeo" [ref=e1240] [cursor=pointer]
+                  - generic [ref=e1242]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:18
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "WWW.ROTINA-POSITIVA-TEA.COM Rotina Positiva Saiba mais" [ref=e1244] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fmae-desajustada%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+                  - generic [ref=e1245]:
+                    - generic [ref=e1246]:
+                      - button "WWW.ROTINA-POSITIVA-TEA.COM" [ref=e1248]:
+                        - generic [ref=e1249]: WWW.ROTINA-POSITIVA-TEA.COM
+                      - button "Rotina Positiva" [ref=e1251]:
+                        - generic [ref=e1252]: Rotina Positiva
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e1254]:
+                      - generic [ref=e1258]: Saiba mais
+          - generic [ref=e1260]:
+            - generic [ref=e1262]:
+              - generic [ref=e1263]:
+                - generic [ref=e1270]: Ativo
+                - generic [ref=e1273]: "Identificação da biblioteca: 2398465027337267"
+                - generic [ref=e1275]: Veiculação iniciada em 30 de jan de 2026
+                - generic [ref=e1277]: Plataformas
+              - button "Menu Menu" [ref=e1304] [cursor=pointer]:
+                - generic [ref=e1306]:
+                  - generic [ref=e1307]: Menu
+                  - img "Menu" [ref=e1310]
+            - button "Ver detalhes do anúncio" [ref=e1312] [cursor=pointer]:
+              - generic [ref=e1316]: Ver detalhes do anúncio
+            - separator [ref=e1317]
+            - generic [ref=e1322]:
+              - generic [ref=e1324]:
+                - img "Mãe_desajustada" [ref=e1325]
+                - generic [ref=e1327]:
+                  - link "Mãe_desajustada" [ref=e1328] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076329690542/
+                  - generic [ref=e1332]:
+                    - strong [ref=e1334]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1335]:
+                - button "Baseado na Disciplina Positiva da Dra. Jane Nelsen 👩‍🏫, um método capaz de promover respeito mútuo e cooperação e que já ajudou mais de 1 milhão de famílias no mundo 🌍. Quer uma rotina leve e eficaz para seu filho? Baixe agora! 📲" [ref=e1338]:
+                  - generic [ref=e1341]:
+                    - text: Baseado na Disciplina Positiva da Dra. Jane Nelsen 👩‍🏫, um método capaz de promover respeito mútuo e cooperação e que já ajudou mais de 1 milhão de famílias no mundo 🌍.
+                    - text: Quer uma rotina leve e eficaz para seu filho?
+                    - text: Baixe agora! 📲
+                - group "Video player" [ref=e1351]:
+                  - button "Reproduzir o vídeo" [ref=e1353] [cursor=pointer]
+                  - generic [ref=e1355]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:20
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "COMPORTAMENTOPOSITIVO.COM Rotina Postiva + Saiba mais" [ref=e1357] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fdisciplina%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+                  - generic [ref=e1358]:
+                    - generic [ref=e1359]:
+                      - button "COMPORTAMENTOPOSITIVO.COM" [ref=e1361]:
+                        - generic [ref=e1362]: COMPORTAMENTOPOSITIVO.COM
+                      - button "Rotina Postiva +" [ref=e1364]:
+                        - generic [ref=e1365]: Rotina Postiva +
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e1367]:
+                      - generic [ref=e1371]: Saiba mais
+          - generic [ref=e1373]:
+            - generic [ref=e1375]:
+              - generic [ref=e1376]:
+                - generic [ref=e1383]: Ativo
+                - generic [ref=e1386]: "Identificação da biblioteca: 712777677994519"
+                - generic [ref=e1388]: Veiculação iniciada em 23 de mai de 2025
+                - generic [ref=e1390]: Plataformas
+                - generic [ref=e1419]: Esse anúncio tem várias versões
+                - generic [ref=e1425]:
+                  - strong [ref=e1426]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1427] [cursor=pointer]:
+                - generic [ref=e1429]:
+                  - generic [ref=e1430]: Menu
+                  - img "Menu" [ref=e1433]
+            - button "Ver resumo" [ref=e1435] [cursor=pointer]:
+              - generic [ref=e1439]: Ver resumo
+            - separator [ref=e1440]
+            - generic [ref=e1445]:
+              - generic [ref=e1448]:
+                - img "Mãe_desajustada" [ref=e1449]
+                - generic [ref=e1451]:
+                  - link "Mãe_desajustada" [ref=e1452] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076329690542/
+                  - generic [ref=e1456]:
+                    - strong [ref=e1458]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1460]:
+                - 'button "TDAH não é preguiça. Acredite: seu filho só precisa de um quadro de rotina visual, bem estabelecido e com gatilhos psicológicos de recompensa. Continuar lendo..." [ref=e1463]':
+                  - generic [ref=e1466]:
+                    - text: TDAH não é preguiça.
+                    - text: "Acredite: seu filho só precisa de um quadro de rotina visual, bem estabelecido e com gatilhos psicológicos de recompensa."
+                    - text: Continuar lendo...
+                - group "Video player" [ref=e1476]:
+                  - button "Reproduzir o vídeo" [ref=e1478] [cursor=pointer]
+                  - generic [ref=e1480]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:18
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "WWW.ROTINA-ANTI-TDAH.COM Learn More" [ref=e1482] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Ffilhos%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+                  - generic [ref=e1483]:
+                    - generic [ref=e1484]:
+                      - button "WWW.ROTINA-ANTI-TDAH.COM" [ref=e1486]:
+                        - generic [ref=e1487]: WWW.ROTINA-ANTI-TDAH.COM
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Learn More" [ref=e1489]:
+                      - generic [ref=e1493]: Learn More
+          - generic [ref=e1495]:
+            - generic [ref=e1497]:
+              - generic [ref=e1498]:
+                - generic [ref=e1505]: Ativo
+                - generic [ref=e1508]: "Identificação da biblioteca: 1316723963309701"
+                - generic [ref=e1510]: Veiculação iniciada em 26 de ago de 2025
+                - generic [ref=e1512]: Plataformas
+              - button "Menu Menu" [ref=e1539] [cursor=pointer]:
+                - generic [ref=e1541]:
+                  - generic [ref=e1542]: Menu
+                  - img "Menu" [ref=e1545]
+            - button "Ver detalhes do anúncio" [ref=e1547] [cursor=pointer]:
+              - generic [ref=e1551]: Ver detalhes do anúncio
+            - separator [ref=e1552]
+            - generic [ref=e1557]:
+              - generic [ref=e1559]:
+                - img "Mãe_desajustada" [ref=e1560]
+                - generic [ref=e1562]:
+                  - link "Mãe_desajustada" [ref=e1563] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076329690542/
+                  - generic [ref=e1567]:
+                    - strong [ref=e1569]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1570]:
+                - group "Video player" [ref=e1580]:
+                  - button "Reproduzir o vídeo" [ref=e1582] [cursor=pointer]
+                  - generic [ref=e1584]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:18
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "WWW.ROTINA-POSITIVA-TEA.COM Rotina Positiva Saiba mais" [ref=e1586] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fmae-desajustada%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+                  - generic [ref=e1587]:
+                    - generic [ref=e1588]:
+                      - button "WWW.ROTINA-POSITIVA-TEA.COM" [ref=e1590]:
+                        - generic [ref=e1591]: WWW.ROTINA-POSITIVA-TEA.COM
+                      - button "Rotina Positiva" [ref=e1593]:
+                        - generic [ref=e1594]: Rotina Positiva
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e1596]:
+                      - generic [ref=e1600]: Saiba mais
+          - generic [ref=e1602]:
+            - generic [ref=e1604]:
+              - generic [ref=e1605]:
+                - generic [ref=e1612]: Ativo
+                - generic [ref=e1615]: "Identificação da biblioteca: 2117809535385789"
+                - generic [ref=e1617]: Veiculação iniciada em 7 de mai de 2025
+                - generic [ref=e1619]: Plataformas
+              - button "Menu Menu" [ref=e1626] [cursor=pointer]:
+                - generic [ref=e1628]:
+                  - generic [ref=e1629]: Menu
+                  - img "Menu" [ref=e1632]
+            - button "Ver detalhes do anúncio" [ref=e1634] [cursor=pointer]:
+              - generic [ref=e1638]: Ver detalhes do anúncio
+            - separator [ref=e1639]
+            - generic [ref=e1644]:
+              - generic [ref=e1647]:
+                - img "Mãe_desajustada" [ref=e1648]
+                - generic [ref=e1650]:
+                  - link "Mãe_desajustada" [ref=e1651] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076329690542/
+                  - generic [ref=e1655]:
+                    - strong [ref=e1657]: Patrocinado
+                    - generic:
+                      - strong
+              - button "👩‍👧‍👧Sou mãe e mãe normal, não mãe perfeita, sou mãe que grita, que chora que faz terapia, que pensa que não da conta, mas amo meus filhos e faço tudo por eles, e tenho preparado eles para o futuro ensinando a desde de cedo a serem organizados e responsáveis. Click e Saiba Mais 🡿" [ref=e1662]:
+                - generic [ref=e1665]:
+                  - text: 👩‍👧‍👧Sou mãe e mãe normal, não mãe perfeita, sou mãe que grita, que chora que faz terapia, que pensa que não da conta, mas amo meus filhos e faço tudo por eles, e tenho preparado eles para o futuro ensinando a desde de cedo a serem organizados e responsáveis.
+                  - text: Click e Saiba Mais 🡿
+              - generic [ref=e1667]:
+                - generic:
+                  - button [disabled]:
+                    - img
+                - generic [ref=e1670]:
+                  - generic [ref=e1674]:
+                    - link "WWW.ROTINA-POSITIVA.COM Rotina De Disciplina Positiva Learn More" [ref=e1675] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fdisciplina%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+                      - generic [ref=e1677]:
+                        - generic [ref=e1678]:
+                          - button "WWW.ROTINA-POSITIVA.COM" [ref=e1680]:
+                            - generic [ref=e1681]: WWW.ROTINA-POSITIVA.COM
+                          - button "Rotina De Disciplina Positiva" [ref=e1683]:
+                            - generic [ref=e1684]: Rotina De Disciplina Positiva
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Learn More" [ref=e1686]:
+                          - generic [ref=e1690]: Learn More
+                    - button [ref=e1693]
+                  - generic [ref=e1699]:
+                    - link "WWW.ROTINA-POSITIVA.COM Rotina De Disciplina Positiva Learn More" [ref=e1700] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fdisciplina%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+                      - generic [ref=e1702]:
+                        - generic [ref=e1703]:
+                          - button "WWW.ROTINA-POSITIVA.COM" [ref=e1705]:
+                            - generic [ref=e1706]: WWW.ROTINA-POSITIVA.COM
+                          - button "Rotina De Disciplina Positiva" [ref=e1708]:
+                            - generic [ref=e1709]: Rotina De Disciplina Positiva
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Learn More" [ref=e1711]:
+                          - generic [ref=e1715]: Learn More
+                    - button [ref=e1718]
+                  - generic [ref=e1724]:
+                    - link "WWW.ROTINA-POSITIVA.COM Rotina De Disciplina Positiva Learn More" [ref=e1725] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fdisciplina%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+                      - generic [ref=e1727]:
+                        - generic [ref=e1728]:
+                          - button "WWW.ROTINA-POSITIVA.COM" [ref=e1730]:
+                            - generic [ref=e1731]: WWW.ROTINA-POSITIVA.COM
+                          - button "Rotina De Disciplina Positiva" [ref=e1733]:
+                            - generic [ref=e1734]: Rotina De Disciplina Positiva
+                          - generic:
+                            - button
+                          - generic:
+                            - button
+                        - button "Learn More" [ref=e1736]:
+                          - generic [ref=e1740]: Learn More
+                    - button [ref=e1743]
+                  - generic [ref=e1749]:
+                    - link [ref=e1750] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fdisciplina%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+                      - generic [ref=e1752]:
+                        - generic [ref=e1753]:
+                          - button [ref=e1755]:
+                            - generic [ref=e1756]: WWW.ROTINA-POSITIVA.COM
+                          - button [ref=e1758]:
+                            - generic [ref=e1759]: Rotina De Disciplina Positiva
+                        - button [ref=e1761]:
+                          - generic [ref=e1765]: Learn More
+                    - button [ref=e1768]
+                  - generic [ref=e1774]:
+                    - link [ref=e1775] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fdisciplina%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+                      - generic [ref=e1777]:
+                        - generic [ref=e1778]:
+                          - button [ref=e1780]:
+                            - generic [ref=e1781]: WWW.ROTINA-POSITIVA.COM
+                          - button [ref=e1783]:
+                            - generic [ref=e1784]: Rotina De Disciplina Positiva
+                        - button [ref=e1786]:
+                          - generic [ref=e1790]: Learn More
+                    - button [ref=e1793]
+                  - generic [ref=e1799]:
+                    - link [ref=e1800] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fdisciplina%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+                      - generic [ref=e1802]:
+                        - generic [ref=e1803]:
+                          - button [ref=e1805]:
+                            - generic [ref=e1806]: WWW.ROTINA-POSITIVA.COM
+                          - button [ref=e1808]:
+                            - generic [ref=e1809]: Rotina De Disciplina Positiva
+                        - button [ref=e1811]:
+                          - generic [ref=e1815]: Learn More
+                    - button [ref=e1818]
+                  - generic [ref=e1824]:
+                    - link [ref=e1825] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fdisciplina%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+                      - generic [ref=e1827]:
+                        - generic [ref=e1828]:
+                          - button [ref=e1830]:
+                            - generic [ref=e1831]: WWW.ROTINA-POSITIVA.COM
+                          - button [ref=e1833]:
+                            - generic [ref=e1834]: Rotina De Disciplina Positiva
+                        - button [ref=e1836]:
+                          - generic [ref=e1840]: Learn More
+                    - button [ref=e1843]
+                  - generic [ref=e1849]:
+                    - link [ref=e1850] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fdisciplina%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+                      - generic [ref=e1852]:
+                        - generic [ref=e1853]:
+                          - button [ref=e1855]:
+                            - generic [ref=e1856]: WWW.ROTINA-POSITIVA.COM
+                          - button [ref=e1858]:
+                            - generic [ref=e1859]: Rotina De Disciplina Positiva
+                        - button [ref=e1861]:
+                          - generic [ref=e1865]: Learn More
+                    - button [ref=e1868]
+                - button "Próximos itens" [ref=e1872] [cursor=pointer]:
+                  - img [ref=e1873]
+          - generic [ref=e1876]:
+            - generic [ref=e1878]:
+              - generic [ref=e1879]:
+                - generic [ref=e1886]: Ativo
+                - generic [ref=e1889]: "Identificação da biblioteca: 1127041766141706"
+                - generic [ref=e1891]: Veiculação iniciada em 1 de mar de 2026
+                - generic [ref=e1893]: Plataformas
+              - button "Menu Menu" [ref=e1920] [cursor=pointer]:
+                - generic [ref=e1922]:
+                  - generic [ref=e1923]: Menu
+                  - img "Menu" [ref=e1926]
+            - button "Ver detalhes do anúncio" [ref=e1928] [cursor=pointer]:
+              - generic [ref=e1932]: Ver detalhes do anúncio
+            - separator [ref=e1933]
+            - generic [ref=e1938]:
+              - generic [ref=e1940]:
+                - img "Mãe_desajustada" [ref=e1941]
+                - generic [ref=e1943]:
+                  - link "Mãe_desajustada" [ref=e1944] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076329690542/
+                  - generic [ref=e1948]:
+                    - strong [ref=e1950]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1951]:
+                - button "Baseado na Disciplina Positiva, da Dra. Jane Nelsen, abordagem fundamentada na psicologia adleriana, com foco na promoção de responsabilidade, cooperação e autorregulação infantil. Propõe uma rotina estruturada que favorece previsibilidade, organização e redução de conflitos familiares. Acesso imediato é só clicar!" [ref=e1954]:
+                  - generic [ref=e1957]:
+                    - text: Baseado na Disciplina Positiva, da Dra. Jane Nelsen, abordagem fundamentada na psicologia adleriana, com foco na promoção de responsabilidade, cooperação e autorregulação infantil.
+                    - text: Propõe uma rotina estruturada que favorece previsibilidade, organização e redução de conflitos familiares.
+                    - text: Acesso imediato é só clicar!
+                - group "Video player" [ref=e1967]:
+                  - button "Reproduzir o vídeo" [ref=e1969] [cursor=pointer]
+                  - generic [ref=e1971]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:17
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "MAEDESAJUSTADA.COM Rotina Postiva ++ Saiba mais" [ref=e1973] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmaedesajustada.com%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+                  - generic [ref=e1974]:
+                    - generic [ref=e1975]:
+                      - button "MAEDESAJUSTADA.COM" [ref=e1977]:
+                        - generic [ref=e1978]: MAEDESAJUSTADA.COM
+                      - button "Rotina Postiva ++" [ref=e1980]:
+                        - generic [ref=e1981]: Rotina Postiva ++
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e1983]:
+                      - generic [ref=e1987]: Saiba mais
+          - generic [ref=e1989]:
+            - generic [ref=e1991]:
+              - generic [ref=e1992]:
+                - generic [ref=e1999]: Ativo
+                - generic [ref=e2002]: "Identificação da biblioteca: 1580887323187973"
+                - generic [ref=e2004]: Veiculação iniciada em 20 de dez de 2025
+                - generic [ref=e2006]: Plataformas
+              - button "Menu Menu" [ref=e2033] [cursor=pointer]:
+                - generic [ref=e2035]:
+                  - generic [ref=e2036]: Menu
+                  - img "Menu" [ref=e2039]
+            - button "Ver detalhes do anúncio" [ref=e2041] [cursor=pointer]:
+              - generic [ref=e2045]: Ver detalhes do anúncio
+            - separator [ref=e2046]
+            - generic [ref=e2051]:
+              - generic [ref=e2053]:
+                - img "Mãe_desajustada" [ref=e2054]
+                - generic [ref=e2056]:
+                  - link "Mãe_desajustada" [ref=e2057] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076329690542/
+                  - generic [ref=e2061]:
+                    - strong [ref=e2063]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2064]:
+                - button "Se você ainda limpa a casa do mesmo jeito que sua mãe e sua avó limpavam — e como a maioria das pessoas ainda limpa — eu posso te ajudar. Existe um método com a ordem certa do que limpar (e como limpar) que reduz seu tempo, economiza sua energia e faz você limpar mais com menos esforço. Click e Saiba Mais ✨👉" [ref=e2067]:
+                  - generic [ref=e2069]: Se você ainda limpa a casa do mesmo jeito que sua mãe e sua avó limpavam — e como a maioria das pessoas ainda limpa — eu posso te ajudar. Existe um método com a ordem certa do que limpar (e como limpar) que reduz seu tempo, economiza sua energia e faz você limpar mais com menos esforço. Click e Saiba Mais ✨👉
+                - group "Video player" [ref=e2079]:
+                  - button "Reproduzir o vídeo" [ref=e2081] [cursor=pointer]
+                  - generic [ref=e2083]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:27
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "COMPORTAMENTOPOSITIVO.COM Casa Organizada Saiba mais" [ref=e2085] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fcasa-organizada%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+                  - generic [ref=e2086]:
+                    - generic [ref=e2087]:
+                      - button "COMPORTAMENTOPOSITIVO.COM" [ref=e2089]:
+                        - generic [ref=e2090]: COMPORTAMENTOPOSITIVO.COM
+                      - button "Casa Organizada" [ref=e2092]:
+                        - generic [ref=e2093]: Casa Organizada
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e2095]:
+                      - generic [ref=e2099]: Saiba mais
+          - generic [ref=e2101]:
+            - generic [ref=e2103]:
+              - generic [ref=e2104]:
+                - generic [ref=e2111]: Ativo
+                - generic [ref=e2114]: "Identificação da biblioteca: 1240681150729587"
+                - generic [ref=e2116]: Veiculação iniciada em 15 de fev de 2026
+                - generic [ref=e2118]: Plataformas
+              - button "Menu Menu" [ref=e2145] [cursor=pointer]:
+                - generic [ref=e2147]:
+                  - generic [ref=e2148]: Menu
+                  - img "Menu" [ref=e2151]
+            - button "Ver detalhes do anúncio" [ref=e2153] [cursor=pointer]:
+              - generic [ref=e2157]: Ver detalhes do anúncio
+            - separator [ref=e2158]
+            - generic [ref=e2163]:
+              - generic [ref=e2165]:
+                - img "Mãe_desajustada" [ref=e2166]
+                - generic [ref=e2168]:
+                  - link "Mãe_desajustada" [ref=e2169] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076329690542/
+                  - generic [ref=e2173]:
+                    - strong [ref=e2175]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2176]:
+                - button "A melhor forma de criar hábitos é através da rotina. Com uma rotina bem estruturada, a criança aprende a escovar os dentes sem você precisar mandar — em poucos dias você já percebe a diferença. Experimente uma rotina visual e lúdica e veja a transformação acontecer. ✨ Clique e saiba mais." [ref=e2179]:
+                  - generic [ref=e2182]:
+                    - text: A melhor forma de criar hábitos é através da rotina.
+                    - text: Com uma rotina bem estruturada, a criança aprende a escovar os dentes sem você precisar mandar — em poucos dias você já percebe a diferença.
+                    - text: Experimente uma rotina visual e lúdica e veja a transformação acontecer.
+                    - text: ✨ Clique e saiba mais.
+                - group "Video player" [ref=e2192]:
+                  - button "Reproduzir o vídeo" [ref=e2194] [cursor=pointer]
+                  - generic [ref=e2196]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:41
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "COMPORTAMENTOPOSITIVO.COM Rotina de Hábitos Saiba mais" [ref=e2198] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fdisciplina%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+                  - generic [ref=e2199]:
+                    - generic [ref=e2200]:
+                      - button "COMPORTAMENTOPOSITIVO.COM" [ref=e2202]:
+                        - generic [ref=e2203]: COMPORTAMENTOPOSITIVO.COM
+                      - button "Rotina de Hábitos" [ref=e2205]:
+                        - generic [ref=e2206]: Rotina de Hábitos
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e2208]:
+                      - generic [ref=e2212]: Saiba mais
+          - generic [ref=e2214]:
+            - generic [ref=e2216]:
+              - generic [ref=e2217]:
+                - generic [ref=e2224]: Ativo
+                - generic [ref=e2227]: "Identificação da biblioteca: 1366783205002571"
+                - generic [ref=e2229]: Veiculação iniciada em 25 de nov de 2025
+                - generic [ref=e2231]: Plataformas
+                - generic [ref=e2259]:
+                  - strong [ref=e2260]: 6 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e2261] [cursor=pointer]:
+                - generic [ref=e2263]:
+                  - generic [ref=e2264]: Menu
+                  - img "Menu" [ref=e2267]
+            - button "Ver resumo" [ref=e2269] [cursor=pointer]:
+              - generic [ref=e2273]: Ver resumo
+            - separator [ref=e2274]
+            - generic [ref=e2279]:
+              - generic [ref=e2281]:
+                - img "Mãe_desajustada" [ref=e2282]
+                - generic [ref=e2284]:
+                  - link "Mãe_desajustada" [ref=e2285] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076329690542/
+                  - generic [ref=e2289]:
+                    - strong [ref=e2291]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2292]:
+                - button "Depois de ler mais de 10 vezes o livro de James Clear, consegui aplicar sua técnica — tornar o novo comportamento tão simples, evidente e repetido que o cérebro o transforma em automático — em um quadro visual infantil criado para ajudar as crianças a mudarem o comportamento através de uma rotina prática e motivadora. 👉 Clique aqui e veja como aplicar isso na sua casa." [ref=e2295]:
+                  - generic [ref=e2298]:
+                    - text: Depois de ler mais de 10 vezes o livro de James Clear, consegui aplicar sua técnica — tornar o novo comportamento tão simples, evidente e repetido que o cérebro o transforma em automático — em um quadro visual infantil criado para ajudar as crianças a mudarem o comportamento através de uma rotina prática e motivadora.
+                    - text: 👉 Clique aqui e veja como aplicar isso na sua casa.
+                - group "Video player" [ref=e2308]:
+                  - button "Reproduzir o vídeo" [ref=e2310] [cursor=pointer]
+                  - generic [ref=e2312]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:20
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fquadro-combinados%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+          - generic [ref=e2314]:
+            - generic [ref=e2316]:
+              - generic [ref=e2317]:
+                - generic [ref=e2324]: Ativo
+                - generic [ref=e2327]: "Identificação da biblioteca: 1151375403445775"
+                - generic [ref=e2329]: Veiculação iniciada em 20 de dez de 2025
+                - generic [ref=e2331]: Plataformas
+              - button "Menu Menu" [ref=e2358] [cursor=pointer]:
+                - generic [ref=e2360]:
+                  - generic [ref=e2361]: Menu
+                  - img "Menu" [ref=e2364]
+            - button "Ver detalhes do anúncio" [ref=e2366] [cursor=pointer]:
+              - generic [ref=e2370]: Ver detalhes do anúncio
+            - separator [ref=e2371]
+            - generic [ref=e2376]:
+              - generic [ref=e2378]:
+                - img "Mãe_desajustada" [ref=e2379]
+                - generic [ref=e2381]:
+                  - link "Mãe_desajustada" [ref=e2382] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076329690542/
+                  - generic [ref=e2386]:
+                    - strong [ref=e2388]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2389]:
+                - button "Se você ainda limpa a casa do mesmo jeito que sua mãe e sua avó limpavam — e como a maioria das pessoas ainda limpa — eu posso te ajudar. Existe um método com a ordem certa do que limpar (e como limpar) que reduz seu tempo, economiza sua energia e faz você limpar mais com menos esforço. Click e Saiba Mais ✨👉" [ref=e2392]:
+                  - generic [ref=e2394]: Se você ainda limpa a casa do mesmo jeito que sua mãe e sua avó limpavam — e como a maioria das pessoas ainda limpa — eu posso te ajudar. Existe um método com a ordem certa do que limpar (e como limpar) que reduz seu tempo, economiza sua energia e faz você limpar mais com menos esforço. Click e Saiba Mais ✨👉
+                - group "Video player" [ref=e2404]:
+                  - button "Reproduzir o vídeo" [ref=e2406] [cursor=pointer]
+                  - generic [ref=e2408]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:27
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "COMPORTAMENTOPOSITIVO.COM Casa Organizada Saiba mais" [ref=e2410] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcomportamentopositivo.com%2Fcasa-organizada%2F&h=AT4iyONOGAmwadP9okIngPs84eD43gqSeqszQRi-usT2WMIgdc_F3GhOZI-NK_jvzl4ds3S2yfmxQZNo1zMyc6wCH5FKNt9ZeOJVLa7X_UPw2F9PNQOIYpfb9-1a_JY-DM28-gIxkaL1iJ5VmmMMGw
+                  - generic [ref=e2411]:
+                    - generic [ref=e2412]:
+                      - button "COMPORTAMENTOPOSITIVO.COM" [ref=e2414]:
+                        - generic [ref=e2415]: COMPORTAMENTOPOSITIVO.COM
+                      - button "Casa Organizada" [ref=e2417]:
+                        - generic [ref=e2418]: Casa Organizada
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e2420]:
+                      - generic [ref=e2424]: Saiba mais
+        - button "Ver mais" [ref=e2425] [cursor=pointer]:
+          - generic [ref=e2426]: Ver mais
+    - generic [ref=e2429]:
+      - generic [ref=e2437]: Status do sistema
+      - generic [ref=e2441]:
+        - list [ref=e2442]:
+          - listitem [ref=e2443]:
+            - link "API da Biblioteca de Anúncios" [ref=e2445] [cursor=pointer]:
+              - /url: /ads/library/api/?source=archive-landing-page
+          - listitem [ref=e2446]:
+            - link "Sobre anúncios e uso de dados" [ref=e2448] [cursor=pointer]:
+              - /url: /ads/about/?entry_product=ad_library
+          - listitem [ref=e2449]:
+            - link "Privacidade" [ref=e2451] [cursor=pointer]:
+              - /url: /privacy/center/?entry_point=privacy_basics_redirect
+          - listitem [ref=e2452]:
+            - link "Termos" [ref=e2454] [cursor=pointer]:
+              - /url: /policies/
+          - listitem [ref=e2455]:
+            - link "Cookies" [ref=e2457] [cursor=pointer]:
+              - /url: /policies/cookies/
+        - generic [ref=e2459]:
+          - text: Meta © 2026 |
+          - link "Português (Brasil)" [ref=e2460] [cursor=pointer]:
+            - /url: /language/

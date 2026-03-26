@@ -1,0 +1,1071 @@
+- generic [ref=e12]:
+  - generic [ref=e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=e27] [cursor=pointer]:
+      - generic [ref=e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=e33] [cursor=pointer]
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - combobox "Tudo" [ref=e44] [cursor=pointer]:
+        - generic [ref=e51]: Tudo
+      - combobox "Todos os anúncios" [ref=e63] [cursor=pointer]:
+        - generic [ref=e73]: Todos os anúncios
+    - generic [ref=e83]:
+      - generic [ref=e89]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=e95]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=e101]: Fernando Silva
+        - button "Limpar" [ref=e103] [cursor=pointer]
+  - generic [ref=e106]:
+    - img "Foto do perfil da Página" [ref=e111]
+    - heading "Fernando Silva" [level=1] [ref=e116]
+  - generic [ref=e118]:
+    - link "Anúncios" [ref=e119] [cursor=pointer]
+    - link "Sobre" [ref=e120] [cursor=pointer]
+  - dialog [ref=e121]:
+    - generic [ref=e122]:
+      - link [ref=e123] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=e124]: Entrar
+      - menuitem [ref=e125] [cursor=pointer]
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - heading [level=4] [ref=e130]: Biblioteca de Anúncios
+        - menuitem [ref=e132] [cursor=pointer]:
+          - heading [level=4] [ref=e134]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=e136] [cursor=pointer]:
+          - heading [level=4] [ref=e138]: API da Biblioteca de Anúncios
+        - menuitem [ref=e140] [cursor=pointer]:
+          - heading [level=4] [ref=e142]: Conteúdo de marca
+      - separator [ref=e143]
+      - generic [ref=e144]:
+        - menuitem [ref=e146] [cursor=pointer]:
+          - heading [level=4] [ref=e148]: Status do sistema
+        - menuitem [ref=e150] [cursor=pointer]:
+          - heading [level=4] [ref=e152]: Assinar para receber atualizações por email
+        - menuitem [ref=e154] [cursor=pointer]:
+          - heading [level=4] [ref=e156]: Perguntas frequentes
+        - menuitem [ref=e158] [cursor=pointer]:
+          - heading [level=4] [ref=e160]: Sobre anúncios e uso de dados
+        - menuitem [ref=e162] [cursor=pointer]:
+          - heading [level=4] [ref=e164]: Privacidade
+        - menuitem [ref=e166] [cursor=pointer]:
+          - heading [level=4] [ref=e168]: Termos
+        - menuitem [ref=e170] [cursor=pointer]:
+          - heading [level=4] [ref=e172]: Cookies
+  - generic [ref=e173]:
+    - generic [ref=e187]:
+      - heading "~180 resultados" [level=3] [ref=e195]
+      - generic [ref=e196]:
+        - generic [ref=e202]:
+          - button "Filtros (1)" [ref=e204] [cursor=pointer]:
+            - generic [ref=e210]: Filtros (1)
+          - button "Classificar por" [ref=e213] [cursor=pointer]:
+            - generic [ref=e218]: Classificar por
+        - generic [ref=e221]:
+          - generic [ref=e223]:
+            - generic [ref=e225]:
+              - generic [ref=e226]:
+                - generic [ref=e233]: Ativo
+                - generic [ref=e236]: "Identificação da biblioteca: 3752525968376206"
+                - generic [ref=e238]: Veiculação iniciada em 9 de set de 2025
+                - generic [ref=e240]: Plataformas
+                - generic [ref=e268]:
+                  - strong [ref=e269]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e270] [cursor=pointer]:
+                - generic [ref=e272]:
+                  - generic [ref=e273]: Menu
+                  - img "Menu" [ref=e276]
+            - button "Ver resumo" [ref=e278] [cursor=pointer]:
+              - generic [ref=e282]: Ver resumo
+            - separator [ref=e283]
+            - generic [ref=e288]:
+              - generic [ref=e290]:
+                - img "Fernando Silva" [ref=e291]
+                - generic [ref=e293]:
+                  - link "Fernando Silva" [ref=e294] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e298]:
+                    - strong [ref=e300]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e301]:
+                - button "Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo. Clique em saiba mais e garanta sua vaga hoje mesmo." [ref=e304]:
+                  - generic [ref=e307]:
+                    - text: Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo.
+                    - text: Clique em saiba mais e garanta sua vaga hoje mesmo.
+                - link [ref=e308] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Fdrywall-lucrativo-curso&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+          - generic [ref=e311]:
+            - generic [ref=e313]:
+              - generic [ref=e314]:
+                - generic [ref=e321]: Ativo
+                - generic [ref=e324]: "Identificação da biblioteca: 1357735668728554"
+                - generic [ref=e326]: Veiculação iniciada em 6 de jan de 2025
+                - generic [ref=e328]: Plataformas
+                - generic [ref=e351]:
+                  - strong [ref=e352]: 9 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e353] [cursor=pointer]:
+                - generic [ref=e355]:
+                  - generic [ref=e356]: Menu
+                  - img "Menu" [ref=e359]
+            - button "Ver resumo" [ref=e361] [cursor=pointer]:
+              - generic [ref=e365]: Ver resumo
+            - separator [ref=e366]
+            - generic [ref=e371]:
+              - generic [ref=e373]:
+                - img "Fernando Silva" [ref=e374]
+                - generic [ref=e376]:
+                  - link "Fernando Silva" [ref=e377] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e381]:
+                    - strong [ref=e383]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e384]:
+                - button "Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo. Clique em saiba mais e garanta sua vaga hoje mesmo." [ref=e387]:
+                  - generic [ref=e390]:
+                    - text: Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo.
+                    - text: Clique em saiba mais e garanta sua vaga hoje mesmo.
+                - group "Video player" [ref=e400]:
+                  - button "Reproduzir o vídeo" [ref=e402] [cursor=pointer]
+                  - generic [ref=e404]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:38
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Fdrywall-lucrativo-curso&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+          - generic [ref=e406]:
+            - generic [ref=e408]:
+              - generic [ref=e409]:
+                - generic [ref=e416]: Ativo
+                - generic [ref=e419]: "Identificação da biblioteca: 623632766853617"
+                - generic [ref=e421]: Veiculação iniciada em 13 de jan de 2025
+                - generic [ref=e423]: Plataformas
+              - button "Menu Menu" [ref=e445] [cursor=pointer]:
+                - generic [ref=e447]:
+                  - generic [ref=e448]: Menu
+                  - img "Menu" [ref=e451]
+            - button "Ver detalhes do anúncio" [ref=e453] [cursor=pointer]:
+              - generic [ref=e457]: Ver detalhes do anúncio
+            - separator [ref=e458]
+            - generic [ref=e463]:
+              - generic [ref=e465]:
+                - img "Fernando Silva" [ref=e466]
+                - generic [ref=e468]:
+                  - link "Fernando Silva" [ref=e469] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e473]:
+                    - strong [ref=e475]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e476]:
+                - button "Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo. Clique em saiba mais e garanta sua vaga hoje mesmo." [ref=e479]:
+                  - generic [ref=e482]:
+                    - text: Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo.
+                    - text: Clique em saiba mais e garanta sua vaga hoje mesmo.
+                - group "Video player" [ref=e492]:
+                  - button "Reproduzir o vídeo" [ref=e494] [cursor=pointer]
+                  - generic [ref=e496]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 1:20
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "HTTPS://VENDASONLINESRC.COM.BR/DRYWALL-LUCRATIVO-CURSO Drywall Lucrativo Saiba mais" [ref=e498] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Fdrywall-lucrativo-curso&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+                  - generic [ref=e499]:
+                    - generic [ref=e500]:
+                      - button "HTTPS://VENDASONLINESRC.COM.BR/DRYWALL-LUCRATIVO-CURSO" [ref=e502]:
+                        - generic [ref=e503]: HTTPS://VENDASONLINESRC.COM.BR/DRYWALL-LUCRATIVO-CURSO
+                      - button "Drywall Lucrativo" [ref=e505]:
+                        - generic [ref=e506]: Drywall Lucrativo
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e508]:
+                      - generic [ref=e512]: Saiba mais
+          - generic [ref=e514]:
+            - generic [ref=e516]:
+              - generic [ref=e517]:
+                - generic [ref=e524]: Ativo
+                - generic [ref=e527]: "Identificação da biblioteca: 1331664055151762"
+                - generic [ref=e529]: Veiculação iniciada em 21 de out de 2025
+                - generic [ref=e531]: Plataformas
+                - generic [ref=e559]:
+                  - strong [ref=e560]: 4 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e561] [cursor=pointer]:
+                - generic [ref=e563]:
+                  - generic [ref=e564]: Menu
+                  - img "Menu" [ref=e567]
+            - button "Ver resumo" [ref=e569] [cursor=pointer]:
+              - generic [ref=e573]: Ver resumo
+            - separator [ref=e574]
+            - generic [ref=e579]:
+              - generic [ref=e581]:
+                - img "Fernando Silva" [ref=e582]
+                - generic [ref=e584]:
+                  - link "Fernando Silva" [ref=e585] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e589]:
+                    - strong [ref=e591]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e592]:
+                - button "El mercado de drywall crece cada año en Latinoamérica y alcanzará su punto más alto hasta 2026. Con el curso Drywall Lucrativo, aprenderás desde cero cómo entrar en este sector y generar ingresos reales. 👉 Haz clic en Más información y comienza hoy mismo." [ref=e595]:
+                  - generic [ref=e598]:
+                    - text: El mercado de drywall crece cada año en Latinoamérica y alcanzará su punto más alto hasta 2026.
+                    - text: Con el curso Drywall Lucrativo, aprenderás desde cero cómo entrar en este sector y generar ingresos reales.
+                    - text: 👉 Haz clic en Más información y comienza hoy mismo.
+                - link [ref=e599] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Fpaneles-de-yeso-rentables-&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+          - generic [ref=e602]:
+            - generic [ref=e604]:
+              - generic [ref=e605]:
+                - generic [ref=e612]: Ativo
+                - generic [ref=e615]: "Identificação da biblioteca: 604589569130472"
+                - generic [ref=e617]: Veiculação iniciada em 13 de fev de 2025
+                - generic [ref=e619]: Plataformas
+                - generic [ref=e642]:
+                  - strong [ref=e643]: 9 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e644] [cursor=pointer]:
+                - generic [ref=e646]:
+                  - generic [ref=e647]: Menu
+                  - img "Menu" [ref=e650]
+            - button "Ver resumo" [ref=e652] [cursor=pointer]:
+              - generic [ref=e656]: Ver resumo
+            - separator [ref=e657]
+            - generic [ref=e662]:
+              - generic [ref=e664]:
+                - img "Fernando Silva" [ref=e665]
+                - generic [ref=e667]:
+                  - link "Fernando Silva" [ref=e668] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e672]:
+                    - strong [ref=e674]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e675]:
+                - button "Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo. Clique em saiba mais e garanta sua vaga hoje mesmo." [ref=e678]:
+                  - generic [ref=e681]:
+                    - text: Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo.
+                    - text: Clique em saiba mais e garanta sua vaga hoje mesmo.
+                - group "Video player" [ref=e691]:
+                  - button "Reproduzir o vídeo" [ref=e693] [cursor=pointer]
+                  - generic [ref=e695]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 1:29
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Fdrywall-lucrativo-curso&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+          - generic [ref=e697]:
+            - generic [ref=e699]:
+              - generic [ref=e700]:
+                - generic [ref=e707]: Ativo
+                - generic [ref=e710]: "Identificação da biblioteca: 977019651224886"
+                - generic [ref=e712]: Veiculação iniciada em 10 de abr de 2025
+                - generic [ref=e714]: Plataformas
+                - generic [ref=e737]:
+                  - strong [ref=e738]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e739] [cursor=pointer]:
+                - generic [ref=e741]:
+                  - generic [ref=e742]: Menu
+                  - img "Menu" [ref=e745]
+            - button "Ver resumo" [ref=e747] [cursor=pointer]:
+              - generic [ref=e751]: Ver resumo
+            - separator [ref=e752]
+            - generic [ref=e757]:
+              - generic [ref=e759]:
+                - img "Fernando Silva" [ref=e760]
+                - generic [ref=e762]:
+                  - link "Fernando Silva" [ref=e763] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e767]:
+                    - strong [ref=e769]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e770]:
+                - button "Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo. Clique em saiba mais e garanta sua vaga hoje mesmo." [ref=e773]:
+                  - generic [ref=e776]:
+                    - text: Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo.
+                    - text: Clique em saiba mais e garanta sua vaga hoje mesmo.
+                - group "Video player" [ref=e786]:
+                  - button "Reproduzir o vídeo" [ref=e788] [cursor=pointer]
+                  - generic [ref=e790]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 1:20
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Fdrywall-lucrativo-curso&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+          - generic [ref=e792]:
+            - generic [ref=e794]:
+              - generic [ref=e795]:
+                - generic [ref=e802]: Ativo
+                - generic [ref=e805]: "Identificação da biblioteca: 1890801198362927"
+                - generic [ref=e807]: Veiculação iniciada em 16 de jun de 2025
+                - generic [ref=e809]: Plataformas
+                - generic [ref=e837]:
+                  - strong [ref=e838]: 11 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e839] [cursor=pointer]:
+                - generic [ref=e841]:
+                  - generic [ref=e842]: Menu
+                  - img "Menu" [ref=e845]
+            - button "Ver resumo" [ref=e847] [cursor=pointer]:
+              - generic [ref=e851]: Ver resumo
+            - separator [ref=e852]
+            - generic [ref=e857]:
+              - generic [ref=e859]:
+                - img "Fernando Silva" [ref=e860]
+                - generic [ref=e862]:
+                  - link "Fernando Silva" [ref=e863] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e867]:
+                    - strong [ref=e869]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e870]:
+                - button "Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo. Clique em saiba mais e garanta sua vaga hoje mesmo." [ref=e873]:
+                  - generic [ref=e876]:
+                    - text: Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo.
+                    - text: Clique em saiba mais e garanta sua vaga hoje mesmo.
+                - link [ref=e877] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Fdrywall-lucrativo-curso&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+          - generic [ref=e880]:
+            - generic [ref=e882]:
+              - generic [ref=e883]:
+                - generic [ref=e890]: Ativo
+                - generic [ref=e893]: "Identificação da biblioteca: 3142503262571540"
+                - generic [ref=e895]: Veiculação iniciada em 10 de abr de 2025
+                - generic [ref=e897]: Plataformas
+                - generic [ref=e920]:
+                  - strong [ref=e921]: 10 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e922] [cursor=pointer]:
+                - generic [ref=e924]:
+                  - generic [ref=e925]: Menu
+                  - img "Menu" [ref=e928]
+            - button "Ver resumo" [ref=e930] [cursor=pointer]:
+              - generic [ref=e934]: Ver resumo
+            - separator [ref=e935]
+            - generic [ref=e940]:
+              - generic [ref=e942]:
+                - img "Fernando Silva" [ref=e943]
+                - generic [ref=e945]:
+                  - link "Fernando Silva" [ref=e946] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e950]:
+                    - strong [ref=e952]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e953]:
+                - button "Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo. Clique em saiba mais e garanta sua vaga hoje mesmo." [ref=e956]:
+                  - generic [ref=e959]:
+                    - text: Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo.
+                    - text: Clique em saiba mais e garanta sua vaga hoje mesmo.
+                - link [ref=e960] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Fdrywall-lucrativo-curso&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+          - generic [ref=e963]:
+            - generic [ref=e965]:
+              - generic [ref=e966]:
+                - generic [ref=e973]: Ativo
+                - generic [ref=e976]: "Identificação da biblioteca: 1047563067467833"
+                - generic [ref=e978]: Veiculação iniciada em 24 de nov de 2025
+                - generic [ref=e980]: Plataformas
+                - generic [ref=e1008]:
+                  - strong [ref=e1009]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1010] [cursor=pointer]:
+                - generic [ref=e1012]:
+                  - generic [ref=e1013]: Menu
+                  - img "Menu" [ref=e1016]
+            - button "Ver resumo" [ref=e1018] [cursor=pointer]:
+              - generic [ref=e1022]: Ver resumo
+            - separator [ref=e1023]
+            - generic [ref=e1028]:
+              - generic [ref=e1030]:
+                - img "Fernando Silva" [ref=e1031]
+                - generic [ref=e1033]:
+                  - link "Fernando Silva" [ref=e1034] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e1038]:
+                    - strong [ref=e1040]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1041]:
+                - button "Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo. Clique em saiba mais e garanta sua vaga hoje mesmo." [ref=e1044]:
+                  - generic [ref=e1047]:
+                    - text: Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo.
+                    - text: Clique em saiba mais e garanta sua vaga hoje mesmo.
+                - link [ref=e1048] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Fdrywall-lucrativo-curso&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+          - generic [ref=e1051]:
+            - generic [ref=e1053]:
+              - generic [ref=e1054]:
+                - generic [ref=e1061]: Ativo
+                - generic [ref=e1064]: "Identificação da biblioteca: 1190737972918515"
+                - generic [ref=e1066]: Veiculação iniciada em 28 de out de 2025
+                - generic [ref=e1068]: Plataformas
+                - generic [ref=e1096]:
+                  - strong [ref=e1097]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1098] [cursor=pointer]:
+                - generic [ref=e1100]:
+                  - generic [ref=e1101]: Menu
+                  - img "Menu" [ref=e1104]
+            - button "Ver resumo" [ref=e1106] [cursor=pointer]:
+              - generic [ref=e1110]: Ver resumo
+            - separator [ref=e1111]
+            - generic [ref=e1116]:
+              - generic [ref=e1118]:
+                - img "Fernando Silva" [ref=e1119]
+                - generic [ref=e1121]:
+                  - link "Fernando Silva" [ref=e1122] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e1126]:
+                    - strong [ref=e1128]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1129]:
+                - button "Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo. Clique em saiba mais e garanta sua vaga hoje mesmo." [ref=e1132]:
+                  - generic [ref=e1135]:
+                    - text: Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo.
+                    - text: Clique em saiba mais e garanta sua vaga hoje mesmo.
+                - link [ref=e1136] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Fdrywall-lucrativo-curso&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+          - generic [ref=e1139]:
+            - generic [ref=e1141]:
+              - generic [ref=e1142]:
+                - generic [ref=e1149]: Ativo
+                - generic [ref=e1152]: "Identificação da biblioteca: 1075550218066421"
+                - generic [ref=e1154]: Veiculação iniciada em 9 de set de 2025
+                - generic [ref=e1156]: Plataformas
+                - generic [ref=e1184]:
+                  - strong [ref=e1185]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1186] [cursor=pointer]:
+                - generic [ref=e1188]:
+                  - generic [ref=e1189]: Menu
+                  - img "Menu" [ref=e1192]
+            - button "Ver resumo" [ref=e1194] [cursor=pointer]:
+              - generic [ref=e1198]: Ver resumo
+            - separator [ref=e1199]
+            - generic [ref=e1204]:
+              - generic [ref=e1206]:
+                - img "Fernando Silva" [ref=e1207]
+                - generic [ref=e1209]:
+                  - link "Fernando Silva" [ref=e1210] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e1214]:
+                    - strong [ref=e1216]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1217]:
+                - button "Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo. Clique em saiba mais e garanta sua vaga hoje mesmo." [ref=e1220]:
+                  - generic [ref=e1223]:
+                    - text: Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo.
+                    - text: Clique em saiba mais e garanta sua vaga hoje mesmo.
+                - link [ref=e1224] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Fdrywall-lucrativo-curso&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+          - generic [ref=e1227]:
+            - generic [ref=e1229]:
+              - generic [ref=e1230]:
+                - generic [ref=e1237]: Ativo
+                - generic [ref=e1240]: "Identificação da biblioteca: 899651662805614"
+                - generic [ref=e1242]: Veiculação iniciada em 26 de fev de 2026
+                - generic [ref=e1244]: Plataformas
+                - generic [ref=e1272]:
+                  - strong [ref=e1273]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1274] [cursor=pointer]:
+                - generic [ref=e1276]:
+                  - generic [ref=e1277]: Menu
+                  - img "Menu" [ref=e1280]
+            - button "Ver resumo" [ref=e1282] [cursor=pointer]:
+              - generic [ref=e1286]: Ver resumo
+            - separator [ref=e1287]
+            - generic [ref=e1292]:
+              - generic [ref=e1294]:
+                - img "Fernando Silva" [ref=e1295]
+                - generic [ref=e1297]:
+                  - link "Fernando Silva" [ref=e1298] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e1302]:
+                    - strong [ref=e1304]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1305]:
+                - button "Selon les données du secteur du bâtiment, le marché des plaques de plâtre connaît une croissance constante ces dernières années, avec une forte dynamique depuis 2021 et des perspectives très favorables pour les années à venir. C’est le moment idéal pour entrer dans ce secteur en pleine expansion. Avec ACADÉMIE PLAQUISTE PRO, vous apprendrez tout ce qu’il faut savoir pour démarrer et réussir dans un métier rentable et très recherché. Cliquez sur En savoir plus et réservez votre place dès aujourd’hui." [ref=e1308]:
+                  - generic [ref=e1311]:
+                    - text: Selon les données du secteur du bâtiment, le marché des plaques de plâtre connaît une croissance constante ces dernières années, avec une forte dynamique depuis 2021 et des perspectives très favorables pour les années à venir.
+                    - text: C’est le moment idéal pour entrer dans ce secteur en pleine expansion.
+                    - text: Avec ACADÉMIE PLAQUISTE PRO, vous apprendrez tout ce qu’il faut savoir pour démarrer et réussir dans un métier rentable et très recherché.
+                    - text: Cliquez sur En savoir plus et réservez votre place dès aujourd’hui.
+                - link [ref=e1313] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Facademie-plaquiste-pro%2F&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+          - generic [ref=e1316]:
+            - generic [ref=e1318]:
+              - generic [ref=e1319]:
+                - generic [ref=e1326]: Ativo
+                - generic [ref=e1329]: "Identificação da biblioteca: 2266648023853343"
+                - generic [ref=e1331]: Veiculação iniciada em 28 de out de 2025
+                - generic [ref=e1333]: Plataformas
+                - generic [ref=e1361]:
+                  - strong [ref=e1362]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1363] [cursor=pointer]:
+                - generic [ref=e1365]:
+                  - generic [ref=e1366]: Menu
+                  - img "Menu" [ref=e1369]
+            - button "Ver resumo" [ref=e1371] [cursor=pointer]:
+              - generic [ref=e1375]: Ver resumo
+            - separator [ref=e1376]
+            - generic [ref=e1381]:
+              - generic [ref=e1383]:
+                - img "Fernando Silva" [ref=e1384]
+                - generic [ref=e1386]:
+                  - link "Fernando Silva" [ref=e1387] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e1391]:
+                    - strong [ref=e1393]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1394]:
+                - button "Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo. Clique em saiba mais e garanta sua vaga hoje mesmo." [ref=e1397]:
+                  - generic [ref=e1400]:
+                    - text: Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo.
+                    - text: Clique em saiba mais e garanta sua vaga hoje mesmo.
+                - link [ref=e1401] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Fdrywall-lucrativo-curso&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+          - generic [ref=e1404]:
+            - generic [ref=e1406]:
+              - generic [ref=e1407]:
+                - generic [ref=e1414]: Ativo
+                - generic [ref=e1417]: "Identificação da biblioteca: 605179461882760"
+                - generic [ref=e1419]: Veiculação iniciada em 6 de jan de 2025
+                - generic [ref=e1421]: Plataformas
+              - button "Menu Menu" [ref=e1443] [cursor=pointer]:
+                - generic [ref=e1445]:
+                  - generic [ref=e1446]: Menu
+                  - img "Menu" [ref=e1449]
+            - button "Ver detalhes do anúncio" [ref=e1451] [cursor=pointer]:
+              - generic [ref=e1455]: Ver detalhes do anúncio
+            - separator [ref=e1456]
+            - generic [ref=e1461]:
+              - generic [ref=e1463]:
+                - img "Fernando Silva" [ref=e1464]
+                - generic [ref=e1466]:
+                  - link "Fernando Silva" [ref=e1467] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e1471]:
+                    - strong [ref=e1473]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1474]:
+                - button "Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo. Clique em saiba mais e garanta sua vaga hoje mesmo." [ref=e1477]:
+                  - generic [ref=e1480]:
+                    - text: Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo.
+                    - text: Clique em saiba mais e garanta sua vaga hoje mesmo.
+                - group "Video player" [ref=e1490]:
+                  - button "Reproduzir o vídeo" [ref=e1492] [cursor=pointer]
+                  - generic [ref=e1494]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:12
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "HTTPS://VENDASONLINESRC.COM.BR/DRYWALL-LUCRATIVO-CURSO Drywall Lucrativo Saiba mais" [ref=e1496] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Fdrywall-lucrativo-curso&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+                  - generic [ref=e1497]:
+                    - generic [ref=e1498]:
+                      - button "HTTPS://VENDASONLINESRC.COM.BR/DRYWALL-LUCRATIVO-CURSO" [ref=e1500]:
+                        - generic [ref=e1501]: HTTPS://VENDASONLINESRC.COM.BR/DRYWALL-LUCRATIVO-CURSO
+                      - button "Drywall Lucrativo" [ref=e1503]:
+                        - generic [ref=e1504]: Drywall Lucrativo
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e1506]:
+                      - generic [ref=e1510]: Saiba mais
+          - generic [ref=e1512]:
+            - generic [ref=e1514]:
+              - generic [ref=e1515]:
+                - generic [ref=e1522]: Ativo
+                - generic [ref=e1525]: "Identificação da biblioteca: 810883291687295"
+                - generic [ref=e1527]: Veiculação iniciada em 28 de out de 2025
+                - generic [ref=e1529]: Plataformas
+                - generic [ref=e1557]:
+                  - strong [ref=e1558]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1559] [cursor=pointer]:
+                - generic [ref=e1561]:
+                  - generic [ref=e1562]: Menu
+                  - img "Menu" [ref=e1565]
+            - button "Ver resumo" [ref=e1567] [cursor=pointer]:
+              - generic [ref=e1571]: Ver resumo
+            - separator [ref=e1572]
+            - generic [ref=e1577]:
+              - generic [ref=e1579]:
+                - img "Fernando Silva" [ref=e1580]
+                - generic [ref=e1582]:
+                  - link "Fernando Silva" [ref=e1583] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e1587]:
+                    - strong [ref=e1589]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1590]:
+                - button "Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo. Clique em saiba mais e garanta sua vaga hoje mesmo." [ref=e1593]:
+                  - generic [ref=e1596]:
+                    - text: Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo.
+                    - text: Clique em saiba mais e garanta sua vaga hoje mesmo.
+                - link [ref=e1597] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Fdrywall-lucrativo-curso&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+          - generic [ref=e1600]:
+            - generic [ref=e1602]:
+              - generic [ref=e1603]:
+                - generic [ref=e1610]: Ativo
+                - generic [ref=e1613]: "Identificação da biblioteca: 1281755063532222"
+                - generic [ref=e1615]: Veiculação iniciada em 16 de jun de 2025
+                - generic [ref=e1617]: Plataformas
+                - generic [ref=e1645]:
+                  - strong [ref=e1646]: 3 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1647] [cursor=pointer]:
+                - generic [ref=e1649]:
+                  - generic [ref=e1650]: Menu
+                  - img "Menu" [ref=e1653]
+            - button "Ver resumo" [ref=e1655] [cursor=pointer]:
+              - generic [ref=e1659]: Ver resumo
+            - separator [ref=e1660]
+            - generic [ref=e1665]:
+              - generic [ref=e1667]:
+                - img "Fernando Silva" [ref=e1668]
+                - generic [ref=e1670]:
+                  - link "Fernando Silva" [ref=e1671] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e1675]:
+                    - strong [ref=e1677]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1678]:
+                - button "Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo. Clique em saiba mais e garanta sua vaga hoje mesmo." [ref=e1681]:
+                  - generic [ref=e1684]:
+                    - text: Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo.
+                    - text: Clique em saiba mais e garanta sua vaga hoje mesmo.
+                - link [ref=e1685] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Fdrywall-lucrativo-curso&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+          - generic [ref=e1688]:
+            - generic [ref=e1690]:
+              - generic [ref=e1691]:
+                - generic [ref=e1698]: Ativo
+                - generic [ref=e1701]: "Identificação da biblioteca: 9517393325015265"
+                - generic [ref=e1703]: Veiculação iniciada em 11 de abr de 2025
+                - generic [ref=e1705]: Plataformas
+                - generic [ref=e1728]:
+                  - strong [ref=e1729]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1730] [cursor=pointer]:
+                - generic [ref=e1732]:
+                  - generic [ref=e1733]: Menu
+                  - img "Menu" [ref=e1736]
+            - button "Ver resumo" [ref=e1738] [cursor=pointer]:
+              - generic [ref=e1742]: Ver resumo
+            - separator [ref=e1743]
+            - generic [ref=e1748]:
+              - generic [ref=e1750]:
+                - img "Fernando Silva" [ref=e1751]
+                - generic [ref=e1753]:
+                  - link "Fernando Silva" [ref=e1754] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e1758]:
+                    - strong [ref=e1760]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1761]:
+                - button "Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo. Clique em saiba mais e garanta sua vaga hoje mesmo." [ref=e1764]:
+                  - generic [ref=e1767]:
+                    - text: Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo.
+                    - text: Clique em saiba mais e garanta sua vaga hoje mesmo.
+                - link [ref=e1768] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Fdrywall-lucrativo-curso&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+          - generic [ref=e1771]:
+            - generic [ref=e1773]:
+              - generic [ref=e1774]:
+                - generic [ref=e1781]: Ativo
+                - generic [ref=e1784]: "Identificação da biblioteca: 1367894300919623"
+                - generic [ref=e1786]: Veiculação iniciada em 27 de abr de 2025
+                - generic [ref=e1788]: Plataformas
+                - generic [ref=e1811]:
+                  - strong [ref=e1812]: 10 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1813] [cursor=pointer]:
+                - generic [ref=e1815]:
+                  - generic [ref=e1816]: Menu
+                  - img "Menu" [ref=e1819]
+            - button "Ver resumo" [ref=e1821] [cursor=pointer]:
+              - generic [ref=e1825]: Ver resumo
+            - separator [ref=e1826]
+            - generic [ref=e1831]:
+              - generic [ref=e1833]:
+                - img "Fernando Silva" [ref=e1834]
+                - generic [ref=e1836]:
+                  - link "Fernando Silva" [ref=e1837] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e1841]:
+                    - strong [ref=e1843]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1844]:
+                - button "Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo. Clique em saiba mais e garanta sua vaga hoje mesmo." [ref=e1847]:
+                  - generic [ref=e1850]:
+                    - text: Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo.
+                    - text: Clique em saiba mais e garanta sua vaga hoje mesmo.
+                - link [ref=e1851] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Fdrywall-lucrativo-curso&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+          - generic [ref=e1854]:
+            - generic [ref=e1856]:
+              - generic [ref=e1857]:
+                - generic [ref=e1864]: Ativo
+                - generic [ref=e1867]: "Identificação da biblioteca: 865062299867473"
+                - generic [ref=e1869]: Veiculação iniciada em 26 de fev de 2026
+                - generic [ref=e1871]: Plataformas
+                - generic [ref=e1899]:
+                  - strong [ref=e1900]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1901] [cursor=pointer]:
+                - generic [ref=e1903]:
+                  - generic [ref=e1904]: Menu
+                  - img "Menu" [ref=e1907]
+            - button "Ver resumo" [ref=e1909] [cursor=pointer]:
+              - generic [ref=e1913]: Ver resumo
+            - separator [ref=e1914]
+            - generic [ref=e1919]:
+              - generic [ref=e1921]:
+                - img "Fernando Silva" [ref=e1922]
+                - generic [ref=e1924]:
+                  - link "Fernando Silva" [ref=e1925] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e1929]:
+                    - strong [ref=e1931]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1932]:
+                - button "Selon les données du secteur du bâtiment, le marché des plaques de plâtre connaît une croissance constante ces dernières années, avec une forte dynamique depuis 2021 et des perspectives très favorables pour les années à venir. C’est le moment idéal pour entrer dans ce secteur en pleine expansion. Avec ACADÉMIE PLAQUISTE PRO, vous apprendrez tout ce qu’il faut savoir pour démarrer et réussir dans un métier rentable et très recherché. Cliquez sur En savoir plus et réservez votre place dès aujourd’hui." [ref=e1935]:
+                  - generic [ref=e1938]:
+                    - text: Selon les données du secteur du bâtiment, le marché des plaques de plâtre connaît une croissance constante ces dernières années, avec une forte dynamique depuis 2021 et des perspectives très favorables pour les années à venir.
+                    - text: C’est le moment idéal pour entrer dans ce secteur en pleine expansion.
+                    - text: Avec ACADÉMIE PLAQUISTE PRO, vous apprendrez tout ce qu’il faut savoir pour démarrer et réussir dans un métier rentable et très recherché.
+                    - text: Cliquez sur En savoir plus et réservez votre place dès aujourd’hui.
+                - link [ref=e1940] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Facademie-plaquiste-pro%2F&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+          - generic [ref=e1943]:
+            - generic [ref=e1945]:
+              - generic [ref=e1946]:
+                - generic [ref=e1953]: Ativo
+                - generic [ref=e1956]: "Identificação da biblioteca: 1242896034048251"
+                - generic [ref=e1958]: Veiculação iniciada em 16 de jun de 2025
+                - generic [ref=e1960]: Plataformas
+                - generic [ref=e1988]:
+                  - strong [ref=e1989]: 3 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1990] [cursor=pointer]:
+                - generic [ref=e1992]:
+                  - generic [ref=e1993]: Menu
+                  - img "Menu" [ref=e1996]
+            - button "Ver resumo" [ref=e1998] [cursor=pointer]:
+              - generic [ref=e2002]: Ver resumo
+            - separator [ref=e2003]
+            - generic [ref=e2008]:
+              - generic [ref=e2010]:
+                - img "Fernando Silva" [ref=e2011]
+                - generic [ref=e2013]:
+                  - link "Fernando Silva" [ref=e2014] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e2018]:
+                    - strong [ref=e2020]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2021]:
+                - button "Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo. Clique em saiba mais e garanta sua vaga hoje mesmo." [ref=e2024]:
+                  - generic [ref=e2027]:
+                    - text: Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo.
+                    - text: Clique em saiba mais e garanta sua vaga hoje mesmo.
+                - link [ref=e2028] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Fdrywall-lucrativo-curso&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+          - generic [ref=e2031]:
+            - generic [ref=e2033]:
+              - generic [ref=e2034]:
+                - generic [ref=e2041]: Ativo
+                - generic [ref=e2044]: "Identificação da biblioteca: 582071037969294"
+                - generic [ref=e2046]: Veiculação iniciada em 6 de jan de 2025
+                - generic [ref=e2048]: Plataformas
+              - button "Menu Menu" [ref=e2070] [cursor=pointer]:
+                - generic [ref=e2072]:
+                  - generic [ref=e2073]: Menu
+                  - img "Menu" [ref=e2076]
+            - button "Ver detalhes do anúncio" [ref=e2078] [cursor=pointer]:
+              - generic [ref=e2082]: Ver detalhes do anúncio
+            - separator [ref=e2083]
+            - generic [ref=e2088]:
+              - generic [ref=e2090]:
+                - img "Fernando Silva" [ref=e2091]
+                - generic [ref=e2093]:
+                  - link "Fernando Silva" [ref=e2094] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e2098]:
+                    - strong [ref=e2100]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2101]:
+                - button "Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo. Clique em saiba mais e garanta sua vaga hoje mesmo." [ref=e2104]:
+                  - generic [ref=e2107]:
+                    - text: Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo.
+                    - text: Clique em saiba mais e garanta sua vaga hoje mesmo.
+                - group "Video player" [ref=e2117]:
+                  - button "Reproduzir o vídeo" [ref=e2119] [cursor=pointer]
+                  - generic [ref=e2121]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:26
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "HTTPS://VENDASONLINESRC.COM.BR/DRYWALL-LUCRATIVO-CURSO Drywall Lucrativo Saiba mais" [ref=e2123] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Fdrywall-lucrativo-curso&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+                  - generic [ref=e2124]:
+                    - generic [ref=e2125]:
+                      - button "HTTPS://VENDASONLINESRC.COM.BR/DRYWALL-LUCRATIVO-CURSO" [ref=e2127]:
+                        - generic [ref=e2128]: HTTPS://VENDASONLINESRC.COM.BR/DRYWALL-LUCRATIVO-CURSO
+                      - button "Drywall Lucrativo" [ref=e2130]:
+                        - generic [ref=e2131]: Drywall Lucrativo
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e2133]:
+                      - generic [ref=e2137]: Saiba mais
+          - generic [ref=e2139]:
+            - generic [ref=e2141]:
+              - generic [ref=e2142]:
+                - generic [ref=e2149]: Ativo
+                - generic [ref=e2152]: "Identificação da biblioteca: 1487980762347405"
+                - generic [ref=e2154]: Veiculação iniciada em 10 de set de 2025
+                - generic [ref=e2156]: Plataformas
+                - generic [ref=e2184]:
+                  - strong [ref=e2185]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e2186] [cursor=pointer]:
+                - generic [ref=e2188]:
+                  - generic [ref=e2189]: Menu
+                  - img "Menu" [ref=e2192]
+            - button "Ver resumo" [ref=e2194] [cursor=pointer]:
+              - generic [ref=e2198]: Ver resumo
+            - separator [ref=e2199]
+            - generic [ref=e2204]:
+              - generic [ref=e2206]:
+                - img "Fernando Silva" [ref=e2207]
+                - generic [ref=e2209]:
+                  - link "Fernando Silva" [ref=e2210] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100076332571985/
+                  - generic [ref=e2214]:
+                    - strong [ref=e2216]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2217]:
+                - button "Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo. Clique em saiba mais e garanta sua vaga hoje mesmo." [ref=e2220]:
+                  - generic [ref=e2223]:
+                    - text: Segundo a CBIC, o mercado de drywall cresce em altas taxas todo ano no Brasil, e tem um pico de alta entre 2021 até 2026, esse é o momento ideal para você entrar nesse mercado, com o curso Drywall Lucrativo, você vai aprender tudo para começar a trabalhar nesse negócio altamente lucrativo.
+                    - text: Clique em saiba mais e garanta sua vaga hoje mesmo.
+                - link [ref=e2224] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fvendasonlinesrc.com.br%2Fdrywall-lucrativo-curso&h=AT4py6KetS6g_0bv0JvxlXGe48n7Tf6jSScoqsKIS6SJ6_AksLiEytaxcYXbWPJNIDkNZ3mL3jwzhFAnp4EXEMoaNq4dpM_gqbmo8cfl7eIiSGgsfC_7CiE_-mlbKE49uFYq1vtvXtr0wGF4XK591w
+        - button "Ver mais" [ref=e2226] [cursor=pointer]:
+          - generic [ref=e2227]: Ver mais
+    - generic [ref=e2230]:
+      - generic [ref=e2238]: Status do sistema
+      - generic [ref=e2242]:
+        - list [ref=e2243]:
+          - listitem [ref=e2244]:
+            - link "API da Biblioteca de Anúncios" [ref=e2246] [cursor=pointer]:
+              - /url: /ads/library/api/?source=archive-landing-page
+          - listitem [ref=e2247]:
+            - link "Sobre anúncios e uso de dados" [ref=e2249] [cursor=pointer]:
+              - /url: /ads/about/?entry_product=ad_library
+          - listitem [ref=e2250]:
+            - link "Privacidade" [ref=e2252] [cursor=pointer]:
+              - /url: /privacy/center/?entry_point=privacy_basics_redirect
+          - listitem [ref=e2253]:
+            - link "Termos" [ref=e2255] [cursor=pointer]:
+              - /url: /policies/
+          - listitem [ref=e2256]:
+            - link "Cookies" [ref=e2258] [cursor=pointer]:
+              - /url: /policies/cookies/
+        - generic [ref=e2260]:
+          - text: Meta © 2026 |
+          - link "Português (Brasil)" [ref=e2261] [cursor=pointer]:
+            - /url: /language/

@@ -1,0 +1,710 @@
+- generic [ref=e12]:
+  - generic [ref=e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=e27] [cursor=pointer]:
+      - generic [ref=e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=e33] [cursor=pointer]
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - combobox "Tudo" [ref=e44] [cursor=pointer]:
+        - generic [ref=e51]: Tudo
+      - combobox "Todos os anúncios" [ref=e63] [cursor=pointer]:
+        - generic [ref=e73]: Todos os anúncios
+    - generic [ref=e83]:
+      - generic [ref=e89]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=e95]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=e101]: Melissa Tarot
+        - button "Limpar" [ref=e103] [cursor=pointer]
+  - generic [ref=e106]:
+    - img "Foto do perfil da Página" [ref=e111]
+    - heading "Melissa Tarot" [level=1] [ref=e116]
+  - generic [ref=e118]:
+    - link "Anúncios" [ref=e119] [cursor=pointer]
+    - link "Sobre" [ref=e120] [cursor=pointer]
+  - dialog [ref=e121]:
+    - generic [ref=e122]:
+      - link [ref=e123] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=e124]: Entrar
+      - menuitem [ref=e125] [cursor=pointer]
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - heading [level=4] [ref=e130]: Biblioteca de Anúncios
+        - menuitem [ref=e132] [cursor=pointer]:
+          - heading [level=4] [ref=e134]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=e136] [cursor=pointer]:
+          - heading [level=4] [ref=e138]: API da Biblioteca de Anúncios
+        - menuitem [ref=e140] [cursor=pointer]:
+          - heading [level=4] [ref=e142]: Conteúdo de marca
+      - separator [ref=e143]
+      - generic [ref=e144]:
+        - menuitem [ref=e146] [cursor=pointer]:
+          - heading [level=4] [ref=e148]: Status do sistema
+        - menuitem [ref=e150] [cursor=pointer]:
+          - heading [level=4] [ref=e152]: Assinar para receber atualizações por email
+        - menuitem [ref=e154] [cursor=pointer]:
+          - heading [level=4] [ref=e156]: Perguntas frequentes
+        - menuitem [ref=e158] [cursor=pointer]:
+          - heading [level=4] [ref=e160]: Sobre anúncios e uso de dados
+        - menuitem [ref=e162] [cursor=pointer]:
+          - heading [level=4] [ref=e164]: Privacidade
+        - menuitem [ref=e166] [cursor=pointer]:
+          - heading [level=4] [ref=e168]: Termos
+        - menuitem [ref=e170] [cursor=pointer]:
+          - heading [level=4] [ref=e172]: Cookies
+  - generic [ref=e173]:
+    - generic [ref=e187]:
+      - heading "~69 resultados" [level=3] [ref=e195]
+      - generic [ref=e196]:
+        - generic [ref=e202]:
+          - button "Filtros (1)" [ref=e204] [cursor=pointer]:
+            - generic [ref=e210]: Filtros (1)
+          - button "Classificar por" [ref=e213] [cursor=pointer]:
+            - generic [ref=e218]: Classificar por
+        - generic [ref=e221]:
+          - generic [ref=e223]:
+            - generic [ref=e225]:
+              - generic [ref=e226]:
+                - generic [ref=e233]: Ativo
+                - generic [ref=e236]: "Identificação da biblioteca: 1783781302262911"
+                - generic [ref=e238]: Veiculação iniciada em 23 de jan de 2026
+                - generic [ref=e240]: Plataformas
+                - generic [ref=e248]:
+                  - strong [ref=e249]: 8 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e250] [cursor=pointer]:
+                - generic [ref=e252]:
+                  - generic [ref=e253]: Menu
+                  - img "Menu" [ref=e256]
+            - button "Ver resumo" [ref=e258] [cursor=pointer]:
+              - generic [ref=e262]: Ver resumo
+            - separator [ref=e263]
+            - generic [ref=e268]:
+              - generic [ref=e270]:
+                - img "Melissa Tarot" [ref=e271]
+                - generic [ref=e273]:
+                  - link "Melissa Tarot" [ref=e274] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Melissa.Tarot01/
+                  - generic [ref=e278]:
+                    - strong [ref=e280]: Patrocinado
+                    - generic:
+                      - strong
+              - button "💔 Quero ser direta contigo! Ah coisas que só são reveladas quando você vai atrás, mas ah ocasiões como esta!! Não deixe de querer descobrir toda verdade!!🤫" [ref=e284]:
+                - generic [ref=e287]:
+                  - text: 💔 Quero ser direta contigo!
+                  - text: Ah coisas que só são reveladas quando você vai atrás, mas ah ocasiões como esta!! Não deixe de querer descobrir toda verdade!!🤫
+          - generic [ref=e290]:
+            - generic [ref=e292]:
+              - generic [ref=e293]:
+                - generic [ref=e300]: Ativo
+                - generic [ref=e303]: "Identificação da biblioteca: 795662133622701"
+                - generic [ref=e305]: Veiculação iniciada em 3 de set de 2025
+                - generic [ref=e307]: Plataformas
+                - generic [ref=e315]:
+                  - strong [ref=e316]: 5 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e317] [cursor=pointer]:
+                - generic [ref=e319]:
+                  - generic [ref=e320]: Menu
+                  - img "Menu" [ref=e323]
+            - button "Ver resumo" [ref=e325] [cursor=pointer]:
+              - generic [ref=e329]: Ver resumo
+            - separator [ref=e330]
+            - generic [ref=e335]:
+              - generic [ref=e337]:
+                - img "Melissa Tarot" [ref=e338]
+                - generic [ref=e340]:
+                  - link "Melissa Tarot" [ref=e341] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Melissa.Tarot01/
+                  - generic [ref=e345]:
+                    - strong [ref=e347]: Patrocinado
+                    - generic:
+                      - strong
+              - button "Não queria ter que te contar viu...💔 Você sabe que se o universo me enviou ate você já e mais que um sinal!!" [ref=e351]:
+                - generic [ref=e354]:
+                  - text: Não queria ter que te contar viu...💔
+                  - text: Você sabe que se o universo me enviou ate você já e mais que um sinal!!
+          - generic [ref=e357]:
+            - generic [ref=e359]:
+              - generic [ref=e360]:
+                - generic [ref=e367]: Ativo
+                - generic [ref=e370]: "Identificação da biblioteca: 1446438097207269"
+                - generic [ref=e372]: Veiculação iniciada em 2 de fev de 2026
+                - generic [ref=e374]: Plataformas
+                - generic [ref=e383]: Esse anúncio tem várias versões
+                - generic [ref=e389]:
+                  - strong [ref=e390]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e391] [cursor=pointer]:
+                - generic [ref=e393]:
+                  - generic [ref=e394]: Menu
+                  - img "Menu" [ref=e397]
+            - button "Ver resumo" [ref=e399] [cursor=pointer]:
+              - generic [ref=e403]: Ver resumo
+            - separator [ref=e404]
+            - generic [ref=e409]:
+              - generic [ref=e412]:
+                - img "Melissa Tarot" [ref=e413]
+                - generic [ref=e415]:
+                  - link "Melissa Tarot" [ref=e416] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Melissa.Tarot01/
+                  - generic [ref=e420]:
+                    - strong [ref=e422]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e424]:
+                - button "Não queria ter que te contar... Mas se o universo nos uniu, é mais do que um sinal! Você está pronto para descobrir? Clique aqui e saiba!" [ref=e427]:
+                  - generic [ref=e430]:
+                    - text: Não queria ter que te contar...
+                    - text: Mas se o universo nos uniu, é mais do que um sinal!
+                    - text: Você está pronto para descobrir? Clique aqui e saiba!
+                - generic [ref=e432]:
+                  - generic [ref=e433]:
+                    - generic:
+                      - button
+                    - button "🔴 Ultimas vagas por esse preço!!" [ref=e435]:
+                      - generic [ref=e436]: 🔴 Ultimas vagas por esse preço!!
+                    - generic:
+                      - button
+                    - generic:
+                      - button
+                  - button "Send WhatsApp Message" [disabled] [ref=e438]:
+                    - generic [ref=e442]: Send WhatsApp Message
+          - generic [ref=e444]:
+            - generic [ref=e446]:
+              - generic [ref=e447]:
+                - generic [ref=e454]: Ativo
+                - generic [ref=e457]: "Identificação da biblioteca: 730057850080326"
+                - generic [ref=e459]: Veiculação iniciada em 2 de out de 2025
+                - generic [ref=e461]: Plataformas
+                - generic [ref=e469]:
+                  - strong [ref=e470]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e471] [cursor=pointer]:
+                - generic [ref=e473]:
+                  - generic [ref=e474]: Menu
+                  - img "Menu" [ref=e477]
+            - button "Ver resumo" [ref=e479] [cursor=pointer]:
+              - generic [ref=e483]: Ver resumo
+            - separator [ref=e484]
+            - generic [ref=e489]:
+              - generic [ref=e491]:
+                - img "Melissa Tarot" [ref=e492]
+                - generic [ref=e494]:
+                  - link "Melissa Tarot" [ref=e495] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Melissa.Tarot01/
+                  - generic [ref=e499]:
+                    - strong [ref=e501]: Patrocinado
+                    - generic:
+                      - strong
+              - button "💔 Quero ser direta contigo! Ah coisas que só são reveladas quando você vai atrás, mas ah ocasiões como esta!! Não deixe de querer descobrir toda verdade!!🤫" [ref=e505]:
+                - generic [ref=e508]:
+                  - text: 💔 Quero ser direta contigo!
+                  - text: Ah coisas que só são reveladas quando você vai atrás, mas ah ocasiões como esta!! Não deixe de querer descobrir toda verdade!!🤫
+          - generic [ref=e511]:
+            - generic [ref=e513]:
+              - generic [ref=e514]:
+                - generic [ref=e521]: Ativo
+                - generic [ref=e524]: "Identificação da biblioteca: 1527179208337394"
+                - generic [ref=e526]: Veiculação iniciada em 27 de dez de 2025
+                - generic [ref=e528]: Plataformas
+                - generic [ref=e536]:
+                  - strong [ref=e537]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e538] [cursor=pointer]:
+                - generic [ref=e540]:
+                  - generic [ref=e541]: Menu
+                  - img "Menu" [ref=e544]
+            - button "Ver resumo" [ref=e546] [cursor=pointer]:
+              - generic [ref=e550]: Ver resumo
+            - separator [ref=e551]
+            - generic [ref=e556]:
+              - generic [ref=e558]:
+                - img "Melissa Tarot" [ref=e559]
+                - generic [ref=e561]:
+                  - link "Melissa Tarot" [ref=e562] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Melissa.Tarot01/
+                  - generic [ref=e566]:
+                    - strong [ref=e568]: Patrocinado
+                    - generic:
+                      - strong
+              - button "💔 Quero ser direta contigo! Ah coisas que só são reveladas quando você vai atrás, mas ah ocasiões como esta!! Não deixe de querer descobrir toda verdade!" [ref=e572]:
+                - generic [ref=e575]:
+                  - text: 💔 Quero ser direta contigo!
+                  - text: Ah coisas que só são reveladas quando você vai atrás, mas ah ocasiões como esta!! Não deixe de querer descobrir toda verdade!
+          - generic [ref=e578]:
+            - generic [ref=e580]:
+              - generic [ref=e581]:
+                - generic [ref=e588]: Ativo
+                - generic [ref=e591]: "Identificação da biblioteca: 1621704465431528"
+                - generic [ref=e593]: Veiculação iniciada em 19 de mar de 2026
+                - generic [ref=e595]: Plataformas
+                - generic [ref=e624]: Esse anúncio tem várias versões
+              - button "Menu Menu" [ref=e629] [cursor=pointer]:
+                - generic [ref=e631]:
+                  - generic [ref=e632]: Menu
+                  - img "Menu" [ref=e635]
+            - button "Ver detalhes do anúncio" [ref=e637] [cursor=pointer]:
+              - generic [ref=e641]: Ver detalhes do anúncio
+            - separator [ref=e642]
+            - generic [ref=e647]:
+              - generic [ref=e650]:
+                - img "Melissa Tarot" [ref=e651]
+                - generic [ref=e653]:
+                  - link "Melissa Tarot" [ref=e654] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Melissa.Tarot01/
+                  - generic [ref=e658]:
+                    - strong [ref=e660]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e662]:
+                - button "Não queria ter que te contar isso... • Se o universo me enviou até você, é mais do que um sinal! Você acredita no destino?" [ref=e665]:
+                  - generic [ref=e668]:
+                    - text: Não queria ter que te contar isso...
+                    - text: • Se o universo me enviou até você, é mais do que um sinal!
+                    - text: Você acredita no destino?
+                - generic [ref=e670]:
+                  - generic [ref=e671]:
+                    - generic:
+                      - button
+                    - button "🔴 Ultimas vagas por esse preço!!" [ref=e673]:
+                      - generic [ref=e674]: 🔴 Ultimas vagas por esse preço!!
+                    - generic:
+                      - button
+                    - generic:
+                      - button
+                  - button "Send WhatsApp Message" [disabled] [ref=e676]:
+                    - generic [ref=e680]: Send WhatsApp Message
+          - generic [ref=e682]:
+            - generic [ref=e684]:
+              - generic [ref=e685]:
+                - generic [ref=e692]: Ativo
+                - generic [ref=e695]: "Identificação da biblioteca: 25843235035269766"
+                - generic [ref=e697]: Veiculação iniciada em 19 de dez de 2025
+                - generic [ref=e699]: Plataformas
+                - generic [ref=e712]:
+                  - strong [ref=e713]: 3 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e714] [cursor=pointer]:
+                - generic [ref=e716]:
+                  - generic [ref=e717]: Menu
+                  - img "Menu" [ref=e720]
+            - button "Ver resumo" [ref=e722] [cursor=pointer]:
+              - generic [ref=e726]: Ver resumo
+            - separator [ref=e727]
+            - generic [ref=e732]:
+              - generic [ref=e734]:
+                - img "Melissa Tarot" [ref=e735]
+                - generic [ref=e737]:
+                  - link "Melissa Tarot" [ref=e738] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Melissa.Tarot01/
+                  - generic [ref=e742]:
+                    - strong [ref=e744]: Patrocinado
+                    - generic:
+                      - strong
+              - button "Não queria ter que te contar viu...💔 Você sabe que se o universo me enviou ate você já e mais que um sinal!!" [ref=e748]:
+                - generic [ref=e751]:
+                  - text: Não queria ter que te contar viu...💔
+                  - text: Você sabe que se o universo me enviou ate você já e mais que um sinal!!
+          - generic [ref=e754]:
+            - generic [ref=e756]:
+              - generic [ref=e757]:
+                - generic [ref=e764]: Ativo
+                - generic [ref=e767]: "Identificação da biblioteca: 2047940525745832"
+                - generic [ref=e769]: Veiculação iniciada em 24 de dez de 2025
+                - generic [ref=e771]: Plataformas
+                - generic [ref=e785]: Esse anúncio tem várias versões
+                - generic [ref=e791]:
+                  - strong [ref=e792]: 4 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e793] [cursor=pointer]:
+                - generic [ref=e795]:
+                  - generic [ref=e796]: Menu
+                  - img "Menu" [ref=e799]
+            - button "Ver resumo" [ref=e801] [cursor=pointer]:
+              - generic [ref=e805]: Ver resumo
+            - separator [ref=e806]
+            - generic [ref=e811]:
+              - generic [ref=e814]:
+                - img "Melissa Tarot" [ref=e815]
+                - generic [ref=e817]:
+                  - link "Melissa Tarot" [ref=e818] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Melissa.Tarot01/
+                  - generic [ref=e822]:
+                    - strong [ref=e824]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e826]:
+                - button "Não queria ter que te contar viu...💔 Você sabe que se o universo me enviou ate você já e mais que um sinal!!" [ref=e829]:
+                  - generic [ref=e832]:
+                    - text: Não queria ter que te contar viu...💔
+                    - text: Você sabe que se o universo me enviou ate você já e mais que um sinal!!
+                - generic [ref=e834]:
+                  - generic [ref=e835]:
+                    - generic:
+                      - button
+                    - button "Ultimas 6 vagas!!🚨" [ref=e837]:
+                      - generic [ref=e838]: Ultimas 6 vagas!!🚨
+                    - generic:
+                      - button
+                    - generic:
+                      - button
+                  - button "Send WhatsApp Message" [disabled] [ref=e840]:
+                    - generic [ref=e844]: Send WhatsApp Message
+          - generic [ref=e846]:
+            - generic [ref=e848]:
+              - generic [ref=e849]:
+                - generic [ref=e856]: Ativo
+                - generic [ref=e859]: "Identificação da biblioteca: 1448151959776379"
+                - generic [ref=e861]: Veiculação iniciada em 15 de set de 2025
+                - generic [ref=e863]: Plataformas
+                - generic [ref=e871]:
+                  - strong [ref=e872]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e873] [cursor=pointer]:
+                - generic [ref=e875]:
+                  - generic [ref=e876]: Menu
+                  - img "Menu" [ref=e879]
+            - button "Ver resumo" [ref=e881] [cursor=pointer]:
+              - generic [ref=e885]: Ver resumo
+            - separator [ref=e886]
+            - generic [ref=e891]:
+              - generic [ref=e893]:
+                - img "Melissa Tarot" [ref=e894]
+                - generic [ref=e896]:
+                  - link "Melissa Tarot" [ref=e897] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Melissa.Tarot01/
+                  - generic [ref=e901]:
+                    - strong [ref=e903]: Patrocinado
+                    - generic:
+                      - strong
+              - button "💔 Quero ser direta contigo! Ah coisas que só são reveladas quando você vai atrás, mas ah ocasiões como esta!! Não deixe de querer descobrir toda verdade!!🤫" [ref=e907]:
+                - generic [ref=e910]:
+                  - text: 💔 Quero ser direta contigo!
+                  - text: Ah coisas que só são reveladas quando você vai atrás, mas ah ocasiões como esta!! Não deixe de querer descobrir toda verdade!!🤫
+          - generic [ref=e913]:
+            - generic [ref=e915]:
+              - generic [ref=e916]:
+                - generic [ref=e923]: Ativo
+                - generic [ref=e926]: "Identificação da biblioteca: 1920984392103048"
+                - generic [ref=e928]: Veiculação iniciada em 25 de dez de 2025
+                - generic [ref=e930]: Plataformas
+                - generic [ref=e938]:
+                  - strong [ref=e939]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e940] [cursor=pointer]:
+                - generic [ref=e942]:
+                  - generic [ref=e943]: Menu
+                  - img "Menu" [ref=e946]
+            - button "Ver resumo" [ref=e948] [cursor=pointer]:
+              - generic [ref=e952]: Ver resumo
+            - separator [ref=e953]
+            - generic [ref=e958]:
+              - generic [ref=e960]:
+                - img "Melissa Tarot" [ref=e961]
+                - generic [ref=e963]:
+                  - link "Melissa Tarot" [ref=e964] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Melissa.Tarot01/
+                  - generic [ref=e968]:
+                    - strong [ref=e970]: Patrocinado
+                    - generic:
+                      - strong
+              - button "💔 Quero ser direta contigo! Ah coisas que só são reveladas quando você vai atrás, mas ah ocasiões como esta!! Não deixe de querer descobrir toda verdade!!" [ref=e974]:
+                - generic [ref=e977]:
+                  - text: 💔 Quero ser direta contigo!
+                  - text: Ah coisas que só são reveladas quando você vai atrás, mas ah ocasiões como esta!! Não deixe de querer descobrir toda verdade!!
+          - generic [ref=e980]:
+            - generic [ref=e982]:
+              - generic [ref=e983]:
+                - generic [ref=e990]: Ativo
+                - generic [ref=e993]: "Identificação da biblioteca: 4043431522583463"
+                - generic [ref=e995]: Veiculação iniciada em 2 de out de 2025
+                - generic [ref=e997]: Plataformas
+                - generic [ref=e1005]:
+                  - strong [ref=e1006]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1007] [cursor=pointer]:
+                - generic [ref=e1009]:
+                  - generic [ref=e1010]: Menu
+                  - img "Menu" [ref=e1013]
+            - button "Ver resumo" [ref=e1015] [cursor=pointer]:
+              - generic [ref=e1019]: Ver resumo
+            - separator [ref=e1020]
+            - generic [ref=e1025]:
+              - generic [ref=e1027]:
+                - img "Melissa Tarot" [ref=e1028]
+                - generic [ref=e1030]:
+                  - link "Melissa Tarot" [ref=e1031] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Melissa.Tarot01/
+                  - generic [ref=e1035]:
+                    - strong [ref=e1037]: Patrocinado
+                    - generic:
+                      - strong
+              - button "💔 Quero ser direta contigo! Ah coisas que só são reveladas quando você vai atrás, mas ah ocasiões como esta!! Não deixe de querer descobrir toda verdade!!🤫" [ref=e1041]:
+                - generic [ref=e1044]:
+                  - text: 💔 Quero ser direta contigo!
+                  - text: Ah coisas que só são reveladas quando você vai atrás, mas ah ocasiões como esta!! Não deixe de querer descobrir toda verdade!!🤫
+          - generic [ref=e1047]:
+            - generic [ref=e1049]:
+              - generic [ref=e1050]:
+                - generic [ref=e1057]: Ativo
+                - generic [ref=e1060]: "Identificação da biblioteca: 1418262676112353"
+                - generic [ref=e1062]: Veiculação iniciada em 19 de mar de 2026
+                - generic [ref=e1064]: Plataformas
+                - generic [ref=e1088]: Esse anúncio tem várias versões
+                - generic [ref=e1094]:
+                  - strong [ref=e1095]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1096] [cursor=pointer]:
+                - generic [ref=e1098]:
+                  - generic [ref=e1099]: Menu
+                  - img "Menu" [ref=e1102]
+            - button "Ver resumo" [ref=e1104] [cursor=pointer]:
+              - generic [ref=e1108]: Ver resumo
+            - separator [ref=e1109]
+            - generic [ref=e1114]:
+              - generic [ref=e1117]:
+                - img "Melissa Tarot" [ref=e1118]
+                - generic [ref=e1120]:
+                  - link "Melissa Tarot" [ref=e1121] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Melissa.Tarot01/
+                  - generic [ref=e1125]:
+                    - strong [ref=e1127]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1129]:
+                - button "Eu não deveria estar te contando isso...💔 Mas tem algo que o universo quer que você saiba e ele me enviou até você por um motivo. Algumas pessoas ignoram esse chamado. Outras aproveitam." [ref=e1132]:
+                  - generic [ref=e1135]:
+                    - text: Eu não deveria estar te contando isso...💔
+                    - text: Mas tem algo que o universo quer que você saiba e ele me enviou até você por um motivo.
+                    - text: Algumas pessoas ignoram esse chamado.
+                    - text: Outras aproveitam.
+                - generic [ref=e1137]:
+                  - generic [ref=e1138]:
+                    - generic:
+                      - button
+                    - button "Ultimas vagas!! 🚨" [ref=e1140]:
+                      - generic [ref=e1141]: Ultimas vagas!! 🚨
+                    - generic:
+                      - button
+                    - generic:
+                      - button
+                  - button "Send WhatsApp Message" [disabled] [ref=e1143]:
+                    - generic [ref=e1147]: Send WhatsApp Message
+          - generic [ref=e1149]:
+            - generic [ref=e1151]:
+              - generic [ref=e1152]:
+                - generic [ref=e1159]: Ativo
+                - generic [ref=e1162]: "Identificação da biblioteca: 3251666508315121"
+                - generic [ref=e1164]: Veiculação iniciada em 2 de out de 2025
+                - generic [ref=e1166]: Plataformas
+                - generic [ref=e1174]:
+                  - strong [ref=e1175]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1176] [cursor=pointer]:
+                - generic [ref=e1178]:
+                  - generic [ref=e1179]: Menu
+                  - img "Menu" [ref=e1182]
+            - button "Ver resumo" [ref=e1184] [cursor=pointer]:
+              - generic [ref=e1188]: Ver resumo
+            - separator [ref=e1189]
+            - generic [ref=e1194]:
+              - generic [ref=e1196]:
+                - img "Melissa Tarot" [ref=e1197]
+                - generic [ref=e1199]:
+                  - link "Melissa Tarot" [ref=e1200] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Melissa.Tarot01/
+                  - generic [ref=e1204]:
+                    - strong [ref=e1206]: Patrocinado
+                    - generic:
+                      - strong
+              - button "💔 Quero ser direta contigo! Ah coisas que só são reveladas quando você vai atrás, mas ah ocasiões como esta!! Não deixe de querer descobrir toda verdade!!🤫" [ref=e1210]:
+                - generic [ref=e1213]:
+                  - text: 💔 Quero ser direta contigo!
+                  - text: Ah coisas que só são reveladas quando você vai atrás, mas ah ocasiões como esta!! Não deixe de querer descobrir toda verdade!!🤫
+          - generic [ref=e1216]:
+            - generic [ref=e1218]:
+              - generic [ref=e1219]:
+                - generic [ref=e1226]: Ativo
+                - generic [ref=e1229]: "Identificação da biblioteca: 870495988666259"
+                - generic [ref=e1231]: Veiculação iniciada em 27 de nov de 2025
+                - generic [ref=e1233]: Plataformas
+                - generic [ref=e1241]:
+                  - strong [ref=e1242]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1243] [cursor=pointer]:
+                - generic [ref=e1245]:
+                  - generic [ref=e1246]: Menu
+                  - img "Menu" [ref=e1249]
+            - button "Ver resumo" [ref=e1251] [cursor=pointer]:
+              - generic [ref=e1255]: Ver resumo
+            - separator [ref=e1256]
+            - generic [ref=e1261]:
+              - generic [ref=e1263]:
+                - img "Melissa Tarot" [ref=e1264]
+                - generic [ref=e1266]:
+                  - link "Melissa Tarot" [ref=e1267] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Melissa.Tarot01/
+                  - generic [ref=e1271]:
+                    - strong [ref=e1273]: Patrocinado
+                    - generic:
+                      - strong
+              - button "Não queria ter que te contar viu...💔 Você sabe que se o universo me enviou ate você já e mais que um sinal!!" [ref=e1277]:
+                - generic [ref=e1280]:
+                  - text: Não queria ter que te contar viu...💔
+                  - text: Você sabe que se o universo me enviou ate você já e mais que um sinal!!
+          - generic [ref=e1283]:
+            - generic [ref=e1285]:
+              - generic [ref=e1286]:
+                - generic [ref=e1293]: Ativo
+                - generic [ref=e1296]: "Identificação da biblioteca: 1593958818534563"
+                - generic [ref=e1298]: Veiculação iniciada em 19 de mar de 2026
+                - generic [ref=e1300]: Plataformas
+                - generic [ref=e1324]: Esse anúncio tem várias versões
+                - generic [ref=e1330]:
+                  - strong [ref=e1331]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1332] [cursor=pointer]:
+                - generic [ref=e1334]:
+                  - generic [ref=e1335]: Menu
+                  - img "Menu" [ref=e1338]
+            - button "Ver resumo" [ref=e1340] [cursor=pointer]:
+              - generic [ref=e1344]: Ver resumo
+            - separator [ref=e1345]
+            - generic [ref=e1350]:
+              - generic [ref=e1353]:
+                - img "Melissa Tarot" [ref=e1354]
+                - generic [ref=e1356]:
+                  - link "Melissa Tarot" [ref=e1357] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Melissa.Tarot01/
+                  - generic [ref=e1361]:
+                    - strong [ref=e1363]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1365]:
+                - button "Quero ser direta com você! Coisas escondidas são reveladas quando você busca. Descubra a verdade agora!" [ref=e1368]:
+                  - generic [ref=e1371]:
+                    - text: Quero ser direta com você!
+                    - text: Coisas escondidas são reveladas quando você busca.
+                    - text: Descubra a verdade agora!
+                - generic [ref=e1373]:
+                  - generic [ref=e1374]:
+                    - generic:
+                      - button
+                    - button "Isso não é coincidência. É um sinal!!" [ref=e1376]:
+                      - generic [ref=e1377]: Isso não é coincidência. É um sinal!!
+                    - generic:
+                      - button
+                    - generic:
+                      - button
+                  - button "Send WhatsApp Message" [disabled] [ref=e1379]:
+                    - generic [ref=e1383]: Send WhatsApp Message
+          - generic [ref=e1385]:
+            - generic [ref=e1387]:
+              - generic [ref=e1388]:
+                - generic [ref=e1395]: Ativo
+                - generic [ref=e1398]: "Identificação da biblioteca: 4233794193519836"
+                - generic [ref=e1400]: Veiculação iniciada em 27 de nov de 2025
+                - generic [ref=e1402]: Plataformas
+                - generic [ref=e1410]:
+                  - strong [ref=e1411]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1412] [cursor=pointer]:
+                - generic [ref=e1414]:
+                  - generic [ref=e1415]: Menu
+                  - img "Menu" [ref=e1418]
+            - button "Ver resumo" [ref=e1420] [cursor=pointer]:
+              - generic [ref=e1424]: Ver resumo
+            - separator [ref=e1425]
+            - generic [ref=e1430]:
+              - generic [ref=e1432]:
+                - img "Melissa Tarot" [ref=e1433]
+                - generic [ref=e1435]:
+                  - link "Melissa Tarot" [ref=e1436] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Melissa.Tarot01/
+                  - generic [ref=e1440]:
+                    - strong [ref=e1442]: Patrocinado
+                    - generic:
+                      - strong
+              - button "Não queria ter que te contar viu...💔 Você sabe que se o universo me enviou ate você já e mais que um sinal!!" [ref=e1446]:
+                - generic [ref=e1449]:
+                  - text: Não queria ter que te contar viu...💔
+                  - text: Você sabe que se o universo me enviou ate você já e mais que um sinal!!
+          - generic [ref=e1452]:
+            - generic [ref=e1454]:
+              - generic [ref=e1455]:
+                - generic [ref=e1462]: Ativo
+                - generic [ref=e1465]: "Identificação da biblioteca: 1260620999525156"
+                - generic [ref=e1467]: Veiculação iniciada em 20 de mar de 2026
+                - generic [ref=e1469]: Plataformas
+                - generic [ref=e1493]: Esse anúncio tem várias versões
+                - generic [ref=e1499]:
+                  - strong [ref=e1500]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1501] [cursor=pointer]:
+                - generic [ref=e1503]:
+                  - generic [ref=e1504]: Menu
+                  - img "Menu" [ref=e1507]
+            - button "Ver resumo" [ref=e1509] [cursor=pointer]:
+              - generic [ref=e1513]: Ver resumo
+            - separator [ref=e1514]
+            - generic [ref=e1519]:
+              - generic [ref=e1522]:
+                - img "Melissa Tarot" [ref=e1523]
+                - generic [ref=e1525]:
+                  - link "Melissa Tarot" [ref=e1526] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Melissa.Tarot01/
+                  - generic [ref=e1530]:
+                    - strong [ref=e1532]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1534]:
+                - button "Quero ser direta com você! Coisas escondidas são reveladas quando você busca. Descubra a verdade agora!" [ref=e1537]:
+                  - generic [ref=e1540]:
+                    - text: Quero ser direta com você!
+                    - text: Coisas escondidas são reveladas quando você busca.
+                    - text: Descubra a verdade agora!
+                - generic [ref=e1542]:
+                  - generic [ref=e1543]:
+                    - generic:
+                      - button
+                    - button "Isso não é coincidência. É um sinal!!" [ref=e1545]:
+                      - generic [ref=e1546]: Isso não é coincidência. É um sinal!!
+                    - generic:
+                      - button
+                    - generic:
+                      - button
+                  - button "Send WhatsApp Message" [disabled] [ref=e1548]:
+                    - generic [ref=e1552]: Send WhatsApp Message
+        - button "Ver mais" [ref=e1553] [cursor=pointer]:
+          - generic [ref=e1554]: Ver mais
+    - generic [ref=e1557]:
+      - generic [ref=e1565]: Status do sistema
+      - generic [ref=e1569]:
+        - list [ref=e1570]:
+          - listitem [ref=e1571]:
+            - link "API da Biblioteca de Anúncios" [ref=e1573] [cursor=pointer]:
+              - /url: /ads/library/api/?source=archive-landing-page
+          - listitem [ref=e1574]:
+            - link "Sobre anúncios e uso de dados" [ref=e1576] [cursor=pointer]:
+              - /url: /ads/about/?entry_product=ad_library
+          - listitem [ref=e1577]:
+            - link "Privacidade" [ref=e1579] [cursor=pointer]:
+              - /url: /privacy/center/?entry_point=privacy_basics_redirect
+          - listitem [ref=e1580]:
+            - link "Termos" [ref=e1582] [cursor=pointer]:
+              - /url: /policies/
+          - listitem [ref=e1583]:
+            - link "Cookies" [ref=e1585] [cursor=pointer]:
+              - /url: /policies/cookies/
+        - generic [ref=e1587]:
+          - text: Meta © 2026 |
+          - link "Português (Brasil)" [ref=e1588] [cursor=pointer]:
+            - /url: /language/

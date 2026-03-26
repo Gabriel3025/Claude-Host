@@ -1,0 +1,726 @@
+- generic [ref=e12]:
+  - generic [ref=e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=e27] [cursor=pointer]:
+      - generic [ref=e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=e33] [cursor=pointer]
+  - generic [ref=e40]:
+    - combobox "Tudo" [ref=e44] [cursor=pointer]:
+      - generic [ref=e51]: Tudo
+    - combobox "Todos os anúncios" [ref=e62] [cursor=pointer]:
+      - generic [ref=e72]: Todos os anúncios
+    - generic [ref=e82]:
+      - generic [ref=e88]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=e94]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=e100]: Clube do Artesanato
+        - button "Limpar" [ref=e102] [cursor=pointer]
+  - generic [ref=e105]:
+    - generic [ref=e107]:
+      - img "Foto do perfil da Página" [ref=e112]
+      - link "Clube do Artesanato" [ref=e115] [cursor=pointer]:
+        - /url: https://facebook.com/Clubedoartesanato.brasil
+        - heading "Clube do Artesanato" [level=1] [ref=e116]
+    - generic [ref=e117]:
+      - link "Anúncios" [ref=e118] [cursor=pointer]
+      - link "Sobre" [ref=e119] [cursor=pointer]
+  - dialog [ref=e120]:
+    - generic [ref=e121]:
+      - link [ref=e122] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=e123]: Entrar
+      - menuitem [ref=e124] [cursor=pointer]
+    - generic [ref=e126]:
+      - generic [ref=e127]:
+        - heading [level=4] [ref=e129]: Biblioteca de Anúncios
+        - menuitem [ref=e131] [cursor=pointer]:
+          - heading [level=4] [ref=e133]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=e135] [cursor=pointer]:
+          - heading [level=4] [ref=e137]: API da Biblioteca de Anúncios
+        - menuitem [ref=e139] [cursor=pointer]:
+          - heading [level=4] [ref=e141]: Conteúdo de marca
+      - separator [ref=e142]
+      - generic [ref=e143]:
+        - menuitem [ref=e145] [cursor=pointer]:
+          - heading [level=4] [ref=e147]: Status do sistema
+        - menuitem [ref=e149] [cursor=pointer]:
+          - heading [level=4] [ref=e151]: Assinar para receber atualizações por email
+        - menuitem [ref=e153] [cursor=pointer]:
+          - heading [level=4] [ref=e155]: Perguntas frequentes
+        - menuitem [ref=e157] [cursor=pointer]:
+          - heading [level=4] [ref=e159]: Sobre anúncios e uso de dados
+        - menuitem [ref=e161] [cursor=pointer]:
+          - heading [level=4] [ref=e163]: Privacidade
+        - menuitem [ref=e165] [cursor=pointer]:
+          - heading [level=4] [ref=e167]: Termos
+        - menuitem [ref=e169] [cursor=pointer]:
+          - heading [level=4] [ref=e171]: Cookies
+  - generic [ref=e172]:
+    - generic [ref=e186]:
+      - heading "~11 resultados" [level=3] [ref=e194]
+      - generic [ref=e195]:
+        - generic [ref=e203]:
+          - generic [ref=e204]:
+            - textbox "Palavra-chave" [ref=e206]
+            - button "Filtros" [ref=e210] [cursor=pointer]:
+              - generic [ref=e215]: Filtros
+            - generic [ref=e217]:
+              - generic [ref=e223]: Classificar
+              - combobox "Classificar" [ref=e228] [cursor=pointer]:
+                - generic [ref=e235]: Classificar por
+          - generic [ref=e240]:
+            - generic [ref=e241]:
+              - strong [ref=e242]: Status online
+              - text: ": Anúncios ativos"
+            - button "Remover" [ref=e243] [cursor=pointer]:
+              - generic [ref=e246]: Remover
+        - generic [ref=e250]:
+          - generic [ref=e252]:
+            - generic [ref=e254]:
+              - generic [ref=e255]:
+                - generic [ref=e262]: Ativo
+                - generic [ref=e265]: "Identificação da biblioteca: 25797239603301001"
+                - generic [ref=e267]: Veiculação iniciada em 21 de fev de 2026
+                - generic [ref=e269]: Plataformas
+                - generic [ref=e297]:
+                  - strong [ref=e298]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e300] [cursor=pointer]:
+                - generic [ref=e303]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e306] [cursor=pointer]:
+              - generic [ref=e310]: Ver resumo
+            - separator [ref=e311]
+            - generic [ref=e316]:
+              - generic [ref=e318]:
+                - img "Clube do Artesanato" [ref=e319]
+                - generic [ref=e321]:
+                  - link "Clube do Artesanato" [ref=e322] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Clubedoartesanato.brasil/
+                  - generic [ref=e326]:
+                    - strong [ref=e328]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e329]:
+                - 'button "🎨 2.000 Moldes de EVA Profissionais por R$10 Chega de perder tempo procurando molde na internet ou comprando pack desorganizado cheio de desenho repetido. O que você recebe: ✅ 2.000 moldes exclusivos em PDF prontos pra imprimir ✅ Organizados por tema: flores, letras, números, animais, personagens, escola, festas, Natal, Páscoa, temas bíblicos e muito mais ✅ Vídeo aulas com técnicas de corte, colagem e acabamento profissional ✅ Aula bônus ensinando a precificar suas peças pra vender 📚 Perfeito para: - Professoras que precisam decorar sala e criar material didático - Mães e artesãscriativas que fazem trabalhos escolares e festas - Quem quer começar a vender artesanato e ter renda extra 📲 Chama no WhatsApp agora e confere a qualidade antes !" [ref=e332]':
+                  - generic [ref=e335]:
+                    - text: 🎨 2.000 Moldes de EVA Profissionais por R$10
+                    - text: Chega de perder tempo procurando molde na internet ou comprando pack desorganizado cheio de desenho repetido.
+                    - text: "O que você recebe:"
+                    - text: ✅ 2.000 moldes exclusivos em PDF prontos pra imprimir
+                    - text: "✅ Organizados por tema: flores, letras, números, animais, personagens, escola, festas, Natal, Páscoa, temas bíblicos e muito mais"
+                    - text: ✅ Vídeo aulas com técnicas de corte, colagem e acabamento profissional
+                    - text: ✅ Aula bônus ensinando a precificar suas peças pra vender
+                    - text: "📚 Perfeito para:"
+                    - text: "- Professoras que precisam decorar sala e criar material didático"
+                    - text: "- Mães e artesãscriativas que fazem trabalhos escolares e festas"
+                    - text: "- Quem quer começar a vender artesanato e ter renda extra"
+                    - text: 📲 Chama no WhatsApp agora e confere a qualidade antes !
+                - group "Video player" [ref=e346]:
+                  - button "Reproduzir o vídeo" [ref=e348] [cursor=pointer]
+                  - generic [ref=e350]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:47
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+          - generic [ref=e352]:
+            - generic [ref=e354]:
+              - generic [ref=e355]:
+                - generic [ref=e362]: Ativo
+                - generic [ref=e365]: "Identificação da biblioteca: 4378157715754645"
+                - generic [ref=e367]: Veiculação iniciada em 21 de fev de 2026
+                - generic [ref=e369]: Plataformas
+                - generic [ref=e397]:
+                  - strong [ref=e398]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e400] [cursor=pointer]:
+                - generic [ref=e403]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e406] [cursor=pointer]:
+              - generic [ref=e410]: Ver resumo
+            - separator [ref=e411]
+            - generic [ref=e416]:
+              - generic [ref=e418]:
+                - img "Clube do Artesanato" [ref=e419]
+                - generic [ref=e421]:
+                  - link "Clube do Artesanato" [ref=e422] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Clubedoartesanato.brasil/
+                  - generic [ref=e426]:
+                    - strong [ref=e428]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e429]:
+                - 'button "🎨 2.000 Moldes de EVA Profissionais por R$10 Chega de perder tempo procurando molde na internet ou comprando pack desorganizado cheio de desenho repetido. O que você recebe: ✅ 2.000 moldes exclusivos em PDF prontos pra imprimir ✅ Organizados por tema: flores, letras, números, animais, personagens, escola, festas, Natal, Páscoa, temas bíblicos e muito mais ✅ Vídeo aulas com técnicas de corte, colagem e acabamento profissional ✅ Aula bônus ensinando a precificar suas peças pra vender 📚 Perfeito para: - Professoras que precisam decorar sala e criar material didático - Mães e artesãscriativas que fazem trabalhos escolares e festas - Quem quer começar a vender artesanato e ter renda extra 📲 Chama no WhatsApp agora e confere a qualidade antes !" [ref=e432]':
+                  - generic [ref=e435]:
+                    - text: 🎨 2.000 Moldes de EVA Profissionais por R$10
+                    - text: Chega de perder tempo procurando molde na internet ou comprando pack desorganizado cheio de desenho repetido.
+                    - text: "O que você recebe:"
+                    - text: ✅ 2.000 moldes exclusivos em PDF prontos pra imprimir
+                    - text: "✅ Organizados por tema: flores, letras, números, animais, personagens, escola, festas, Natal, Páscoa, temas bíblicos e muito mais"
+                    - text: ✅ Vídeo aulas com técnicas de corte, colagem e acabamento profissional
+                    - text: ✅ Aula bônus ensinando a precificar suas peças pra vender
+                    - text: "📚 Perfeito para:"
+                    - text: "- Professoras que precisam decorar sala e criar material didático"
+                    - text: "- Mães e artesãscriativas que fazem trabalhos escolares e festas"
+                    - text: "- Quem quer começar a vender artesanato e ter renda extra"
+                    - text: 📲 Chama no WhatsApp agora e confere a qualidade antes !
+                - group "Video player" [ref=e446]:
+                  - button "Reproduzir o vídeo" [ref=e448] [cursor=pointer]
+                  - generic [ref=e450]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:47
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+          - generic [ref=e452]:
+            - generic [ref=e454]:
+              - generic [ref=e455]:
+                - generic [ref=e462]: Ativo
+                - generic [ref=e465]: "Identificação da biblioteca: 929395552831342"
+                - generic [ref=e467]: Veiculação iniciada em 23 de mar de 2026
+                - generic [ref=e469]: Plataformas
+                - generic [ref=e482]:
+                  - strong [ref=e483]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e485] [cursor=pointer]:
+                - generic [ref=e488]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e491] [cursor=pointer]:
+              - generic [ref=e495]: Ver resumo
+            - separator [ref=e496]
+            - generic [ref=e501]:
+              - generic [ref=e503]:
+                - img "Clube do Artesanato" [ref=e504]
+                - generic [ref=e506]:
+                  - link "Clube do Artesanato" [ref=e507] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Clubedoartesanato.brasil/
+                  - generic [ref=e511]:
+                    - strong [ref=e513]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e514]:
+                - 'button "Você trabalha com EVA, artesanato ou educação infantil? 👩‍🏫 Professora, artesã ou mãe criativa — esse post é pra você. 🕐 Se você perde horas procurando molde na internet e no fim nada presta… 📂 São mais de 2 mil moldes prontos e organizados por categoria: 🔤 Letras e números 🐾 Animais e personagens ✝️ Temas bíblicos 🎄 Da Páscoa ao Natal 🎉 Datas comemorativas 🏫 Jogos pedagógicos e decoração de sala 🎁 E quem entrar por esse vídeo ainda leva de bônus um kit completo de atividades e materiais de alfabetização — sem pagar nada a mais. 💰 Tudo isso por apenas R$ 10,00 ⚠️ Mas o valor e os bônus são só pra quem clicar por esse vídeo. 📲 Você recebe tudo primeiro no WhatsApp. Só paga depois. Zero risco. 👇 Clica e vem no WhatsApp" [ref=e517]':
+                  - generic [ref=e520]:
+                    - text: Você trabalha com EVA, artesanato ou educação infantil?
+                    - text: 👩‍🏫 Professora, artesã ou mãe criativa — esse post é pra você.
+                    - text: 🕐 Se você perde horas procurando molde na internet e no fim nada presta…
+                    - text: "📂 São mais de 2 mil moldes prontos e organizados por categoria:"
+                    - text: 🔤 Letras e números
+                    - text: 🐾 Animais e personagens
+                    - text: ✝️ Temas bíblicos
+                    - text: 🎄 Da Páscoa ao Natal
+                    - text: 🎉 Datas comemorativas
+                    - text: 🏫 Jogos pedagógicos e decoração de sala
+                    - text: 🎁 E quem entrar por esse vídeo ainda leva de bônus um kit completo de atividades e materiais de alfabetização — sem pagar nada a mais.
+                    - text: 💰 Tudo isso por apenas R$ 10,00
+                    - text: ⚠️ Mas o valor e os bônus são só pra quem clicar por esse vídeo.
+                    - text: 📲 Você recebe tudo primeiro no WhatsApp. Só paga depois. Zero risco.
+                    - text: 👇 Clica e vem no WhatsApp
+                - group "Video player" [ref=e531]:
+                  - button "Reproduzir o vídeo" [ref=e533] [cursor=pointer]
+                  - generic [ref=e535]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 1:36
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+          - generic [ref=e537]:
+            - generic [ref=e539]:
+              - generic [ref=e540]:
+                - generic [ref=e547]: Ativo
+                - generic [ref=e550]: "Identificação da biblioteca: 1996050954345223"
+                - generic [ref=e552]: Veiculação iniciada em 19 de mar de 2026
+                - generic [ref=e554]: Plataformas
+              - button "Abrir menu suspenso" [ref=e567] [cursor=pointer]:
+                - generic [ref=e570]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e573] [cursor=pointer]:
+              - generic [ref=e577]: Ver detalhes do anúncio
+            - separator [ref=e578]
+            - generic [ref=e583]:
+              - generic [ref=e585]:
+                - img "Clube do Artesanato" [ref=e586]
+                - generic [ref=e588]:
+                  - link "Clube do Artesanato" [ref=e589] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Clubedoartesanato.brasil/
+                  - generic [ref=e593]:
+                    - strong [ref=e595]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e596]:
+                - 'button "Você trabalha com EVA, artesanato ou educação infantil? 👩‍🏫 Professora, artesã ou mãe criativa — esse post é pra você. 🕐 Se você perde horas procurando molde na internet e no fim nada presta… 📂 São mais de 2 mil moldes prontos e organizados por categoria: 🔤 Letras e números 🐾 Animais e personagens ✝️ Temas bíblicos 🎄 Da Páscoa ao Natal 🎉 Datas comemorativas 🏫 Jogos pedagógicos e decoração de sala 🎁 E quem entrar por esse vídeo ainda leva de bônus um kit completo de atividades e materiais de alfabetização — sem pagar nada a mais. 💰 Tudo isso por apenas R$ 10,00 ⚠️ Mas o valor e os bônus são só pra quem clicar por esse vídeo. 📲 Você recebe tudo primeiro no WhatsApp. Só paga depois. Zero risco. 👇 Clica e vem no WhatsApp" [ref=e599]':
+                  - generic [ref=e602]:
+                    - text: Você trabalha com EVA, artesanato ou educação infantil?
+                    - text: 👩‍🏫 Professora, artesã ou mãe criativa — esse post é pra você.
+                    - text: 🕐 Se você perde horas procurando molde na internet e no fim nada presta…
+                    - text: "📂 São mais de 2 mil moldes prontos e organizados por categoria:"
+                    - text: 🔤 Letras e números
+                    - text: 🐾 Animais e personagens
+                    - text: ✝️ Temas bíblicos
+                    - text: 🎄 Da Páscoa ao Natal
+                    - text: 🎉 Datas comemorativas
+                    - text: 🏫 Jogos pedagógicos e decoração de sala
+                    - text: 🎁 E quem entrar por esse vídeo ainda leva de bônus um kit completo de atividades e materiais de alfabetização — sem pagar nada a mais.
+                    - text: 💰 Tudo isso por apenas R$ 10,00
+                    - text: ⚠️ Mas o valor e os bônus são só pra quem clicar por esse vídeo.
+                    - text: 📲 Você recebe tudo primeiro no WhatsApp. Só paga depois. Zero risco.
+                    - text: 👇 Clica e vem no WhatsApp
+                - group "Video player" [ref=e613]:
+                  - button "Reproduzir o vídeo" [ref=e615] [cursor=pointer]
+                  - generic [ref=e617]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 1:28
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic [ref=e618]:
+                  - generic [ref=e619]:
+                    - button "API.WHATSAPP.COM" [ref=e621]:
+                      - generic [ref=e622]: API.WHATSAPP.COM
+                    - button "Receba o material Agora👇" [ref=e624]:
+                      - generic [ref=e625]: Receba o material Agora👇
+                    - button "⭐️⭐️⭐️⭐️⭐️ | 32mil Avaliações" [ref=e627]:
+                      - generic [ref=e628]: ⭐️⭐️⭐️⭐️⭐️ | 32mil Avaliações
+                    - generic:
+                      - button
+                  - button "Enviar mensagem pelo WhatsApp" [disabled] [ref=e630]:
+                    - generic [ref=e634]: Enviar mensagem pelo WhatsApp
+          - generic [ref=e636]:
+            - generic [ref=e638]:
+              - generic [ref=e639]:
+                - generic [ref=e646]: Ativo
+                - generic [ref=e649]: "Identificação da biblioteca: 1268952528451166"
+                - generic [ref=e651]: Veiculação iniciada em 4 de mar de 2026
+                - generic [ref=e653]: Plataformas
+              - button "Abrir menu suspenso" [ref=e676] [cursor=pointer]:
+                - generic [ref=e679]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e682] [cursor=pointer]:
+              - generic [ref=e686]: Ver detalhes do anúncio
+            - separator [ref=e687]
+            - generic [ref=e692]:
+              - generic [ref=e694]:
+                - img "Clube do Artesanato" [ref=e695]
+                - generic [ref=e697]:
+                  - link "Clube do Artesanato" [ref=e698] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Clubedoartesanato.brasil/
+                  - generic [ref=e702]:
+                    - strong [ref=e704]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e705]:
+                - button "🎨 Professora, pedagoga ou artesã de EVA? Isso aqui é pra VOCÊ. 📂 +2000 moldes organizados por tema (datas comemorativas, alfabetização, painéis escolares e muito mais) ⚡ Crie atividades, decorações e encomendas em até 15 minutos — mesmo que esteja sem tempo 💰 Reduza o desperdício de EVA e economize até 80% no material 🌟 Nota 4.9/5 entre educadoras e artesãs que já usam no dia a dia 📌 Ideal para quem trabalha com educação infantil, reforço escolar ou personalizados em EVA. apenas R$10,00 reais 😍" [ref=e708]:
+                  - generic [ref=e711]:
+                    - text: 🎨 Professora, pedagoga ou artesã de EVA? Isso aqui é pra VOCÊ.
+                    - text: 📂 +2000 moldes organizados por tema (datas comemorativas, alfabetização, painéis escolares e muito mais)
+                    - text: ⚡ Crie atividades, decorações e encomendas em até 15 minutos — mesmo que esteja sem tempo
+                    - text: 💰 Reduza o desperdício de EVA e economize até 80% no material
+                    - text: 🌟 Nota 4.9/5 entre educadoras e artesãs que já usam no dia a dia
+                    - text: 📌 Ideal para quem trabalha com educação infantil, reforço escolar ou personalizados em EVA.
+                    - text: apenas R$10,00 reais 😍
+                - group "Video player" [ref=e722]:
+                  - button "Reproduzir o vídeo" [ref=e724] [cursor=pointer]
+                  - generic [ref=e726]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:45
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic [ref=e727]:
+                  - generic [ref=e728]:
+                    - button "API.WHATSAPP.COM" [ref=e730]:
+                      - generic [ref=e731]: API.WHATSAPP.COM
+                    - button "Comente \"eu quero\" e clique no botão 👉" [ref=e733]:
+                      - generic [ref=e734]: Comente "eu quero" e clique no botão 👉
+                    - button "⭐⭐⭐⭐⭐| 39mil availiações" [ref=e736]:
+                      - generic [ref=e737]: ⭐⭐⭐⭐⭐| 39mil availiações
+                    - generic:
+                      - button
+                  - button "Enviar mensagem pelo WhatsApp" [disabled] [ref=e739]:
+                    - generic [ref=e743]: Enviar mensagem pelo WhatsApp
+          - generic [ref=e745]:
+            - generic [ref=e747]:
+              - generic [ref=e748]:
+                - generic [ref=e755]: Ativo
+                - generic [ref=e758]: "Identificação da biblioteca: 3365762610250226"
+                - generic [ref=e760]: Veiculação iniciada em 4 de mar de 2026
+                - generic [ref=e762]: Plataformas
+              - button "Abrir menu suspenso" [ref=e785] [cursor=pointer]:
+                - generic [ref=e788]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e791] [cursor=pointer]:
+              - generic [ref=e795]: Ver detalhes do anúncio
+            - separator [ref=e796]
+            - generic [ref=e801]:
+              - generic [ref=e803]:
+                - img "Clube do Artesanato" [ref=e804]
+                - generic [ref=e806]:
+                  - link "Clube do Artesanato" [ref=e807] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Clubedoartesanato.brasil/
+                  - generic [ref=e811]:
+                    - strong [ref=e813]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e814]:
+                - 'button "🎨 2.000 Moldes de EVA Profissionais por R$10 Chega de perder tempo procurando molde na internet ou comprando pack desorganizado cheio de desenho repetido. O que você recebe: ✅ 2.000 moldes exclusivos em PDF prontos pra imprimir ✅ Organizados por tema: flores, letras, números, animais, personagens, escola, festas, Natal, Páscoa, temas bíblicos e muito mais ✅ Vídeo aulas com técnicas de corte, colagem e acabamento profissional ✅ Aula bônus ensinando a precificar suas peças pra vender 📚 Perfeito para: - Professoras que precisam decorar sala e criar material didático - Mães e artesãscriativas que fazem trabalhos escolares e festas - Quem quer começar a vender artesanato e ter renda extra 📲 Chama no WhatsApp agora e confere a qualidade antes !" [ref=e817]':
+                  - generic [ref=e820]:
+                    - text: 🎨 2.000 Moldes de EVA Profissionais por R$10
+                    - text: Chega de perder tempo procurando molde na internet ou comprando pack desorganizado cheio de desenho repetido.
+                    - text: "O que você recebe:"
+                    - text: ✅ 2.000 moldes exclusivos em PDF prontos pra imprimir
+                    - text: "✅ Organizados por tema: flores, letras, números, animais, personagens, escola, festas, Natal, Páscoa, temas bíblicos e muito mais"
+                    - text: ✅ Vídeo aulas com técnicas de corte, colagem e acabamento profissional
+                    - text: ✅ Aula bônus ensinando a precificar suas peças pra vender
+                    - text: "📚 Perfeito para:"
+                    - text: "- Professoras que precisam decorar sala e criar material didático"
+                    - text: "- Mães e artesãscriativas que fazem trabalhos escolares e festas"
+                    - text: "- Quem quer começar a vender artesanato e ter renda extra"
+                    - text: 📲 Chama no WhatsApp agora e confere a qualidade antes !
+                - group "Video player" [ref=e831]:
+                  - button "Reproduzir o vídeo" [ref=e833] [cursor=pointer]
+                  - generic [ref=e835]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:47
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic [ref=e836]:
+                  - generic [ref=e837]:
+                    - button "API.WHATSAPP.COM" [ref=e839]:
+                      - generic [ref=e840]: API.WHATSAPP.COM
+                    - button "Receba agora o material 👉" [ref=e842]:
+                      - generic [ref=e843]: Receba agora o material 👉
+                    - button "⭐⭐⭐⭐⭐ (4.9) | 32mil avaliações" [ref=e845]:
+                      - generic [ref=e846]: ⭐⭐⭐⭐⭐ (4.9) | 32mil avaliações
+                    - generic:
+                      - button
+                  - button "Enviar mensagem pelo WhatsApp" [disabled] [ref=e848]:
+                    - generic [ref=e852]: Enviar mensagem pelo WhatsApp
+          - generic [ref=e854]:
+            - generic [ref=e856]:
+              - generic [ref=e857]:
+                - generic [ref=e864]: Ativo
+                - generic [ref=e867]: "Identificação da biblioteca: 964294329871324"
+                - generic [ref=e869]: Veiculação iniciada em 25 de mar de 2026
+                - generic [ref=e871]: Plataformas
+              - button "Abrir menu suspenso" [ref=e884] [cursor=pointer]:
+                - generic [ref=e887]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e890] [cursor=pointer]:
+              - generic [ref=e894]: Ver detalhes do anúncio
+            - separator [ref=e895]
+            - generic [ref=e900]:
+              - generic [ref=e902]:
+                - img "Clube do Artesanato" [ref=e903]
+                - generic [ref=e905]:
+                  - link "Clube do Artesanato" [ref=e906] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Clubedoartesanato.brasil/
+                  - generic [ref=e910]:
+                    - strong [ref=e912]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e913]:
+                - 'button "🎨 Mais de 2.000 moldes prontos para imprimir e usar na hora ✅ Organizados por categorias — ache o molde certo em segundos ✅ Monte atividades, lembrancinhas e painéis em poucos minutos ✅ Reduza desperdício de EVA e aproveite melhor cada folha ⭐ Avaliação média: 4,9/5 — milhares de professoras já aprovam!" [ref=e916]':
+                  - generic [ref=e919]:
+                    - text: 🎨 Mais de 2.000 moldes prontos para imprimir e usar na hora
+                    - text: ✅ Organizados por categorias — ache o molde certo em segundos
+                    - text: ✅ Monte atividades, lembrancinhas e painéis em poucos minutos
+                    - text: ✅ Reduza desperdício de EVA e aproveite melhor cada folha
+                    - text: "⭐ Avaliação média: 4,9/5 — milhares de professoras já aprovam!"
+                - group "Video player" [ref=e929]:
+                  - button "Reproduzir o vídeo" [ref=e931] [cursor=pointer]
+                  - generic [ref=e933]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:56
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic [ref=e934]:
+                  - generic [ref=e935]:
+                    - button "API.WHATSAPP.COM" [ref=e937]:
+                      - generic [ref=e938]: API.WHATSAPP.COM
+                    - button "Receba o material Agora👇" [ref=e940]:
+                      - generic [ref=e941]: Receba o material Agora👇
+                    - button "⭐️⭐️⭐️⭐️⭐️ | 32mil Avaliações" [ref=e943]:
+                      - generic [ref=e944]: ⭐️⭐️⭐️⭐️⭐️ | 32mil Avaliações
+                    - generic:
+                      - button
+                  - button "Enviar mensagem pelo WhatsApp" [disabled] [ref=e946]:
+                    - generic [ref=e950]: Enviar mensagem pelo WhatsApp
+          - generic [ref=e952]:
+            - generic [ref=e954]:
+              - generic [ref=e955]:
+                - generic [ref=e962]: Ativo
+                - generic [ref=e965]: "Identificação da biblioteca: 1613972699728666"
+                - generic [ref=e967]: Veiculação iniciada em 4 de mar de 2026
+                - generic [ref=e969]: Plataformas
+              - button "Abrir menu suspenso" [ref=e992] [cursor=pointer]:
+                - generic [ref=e995]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e998] [cursor=pointer]:
+              - generic [ref=e1002]: Ver detalhes do anúncio
+            - separator [ref=e1003]
+            - generic [ref=e1008]:
+              - generic [ref=e1010]:
+                - img "Clube do Artesanato" [ref=e1011]
+                - generic [ref=e1013]:
+                  - link "Clube do Artesanato" [ref=e1014] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Clubedoartesanato.brasil/
+                  - generic [ref=e1018]:
+                    - strong [ref=e1020]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1021]:
+                - 'button "🎨 2.000 Moldes de EVA Profissionais por R$10 Chega de perder tempo procurando molde na internet ou comprando pack desorganizado cheio de desenho repetido. O que você recebe: ✅ 2.000 moldes exclusivos em PDF prontos pra imprimir ✅ Organizados por tema: flores, letras, números, animais, personagens, escola, festas, Natal, Páscoa, temas bíblicos e muito mais ✅ Vídeo aulas com técnicas de corte, colagem e acabamento profissional ✅ Aula bônus ensinando a precificar suas peças pra vender 📚 Perfeito para: - Professoras que precisam decorar sala e criar material didático - Mães e artesãscriativas que fazem trabalhos escolares e festas - Quem quer começar a vender artesanato e ter renda extra 📲 Chama no WhatsApp agora e confere a qualidade antes !" [ref=e1024]':
+                  - generic [ref=e1027]:
+                    - text: 🎨 2.000 Moldes de EVA Profissionais por R$10
+                    - text: Chega de perder tempo procurando molde na internet ou comprando pack desorganizado cheio de desenho repetido.
+                    - text: "O que você recebe:"
+                    - text: ✅ 2.000 moldes exclusivos em PDF prontos pra imprimir
+                    - text: "✅ Organizados por tema: flores, letras, números, animais, personagens, escola, festas, Natal, Páscoa, temas bíblicos e muito mais"
+                    - text: ✅ Vídeo aulas com técnicas de corte, colagem e acabamento profissional
+                    - text: ✅ Aula bônus ensinando a precificar suas peças pra vender
+                    - text: "📚 Perfeito para:"
+                    - text: "- Professoras que precisam decorar sala e criar material didático"
+                    - text: "- Mães e artesãscriativas que fazem trabalhos escolares e festas"
+                    - text: "- Quem quer começar a vender artesanato e ter renda extra"
+                    - text: 📲 Chama no WhatsApp agora e confere a qualidade antes !
+                - group "Video player" [ref=e1038]:
+                  - button "Reproduzir o vídeo" [ref=e1040] [cursor=pointer]
+                  - generic [ref=e1042]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:47
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic [ref=e1043]:
+                  - generic [ref=e1044]:
+                    - button "API.WHATSAPP.COM" [ref=e1046]:
+                      - generic [ref=e1047]: API.WHATSAPP.COM
+                    - button "Receba agora o material 👉" [ref=e1049]:
+                      - generic [ref=e1050]: Receba agora o material 👉
+                    - button "⭐⭐⭐⭐⭐ (4.9) | 32mil avaliações" [ref=e1052]:
+                      - generic [ref=e1053]: ⭐⭐⭐⭐⭐ (4.9) | 32mil avaliações
+                    - generic:
+                      - button
+                  - button "Enviar mensagem pelo WhatsApp" [disabled] [ref=e1055]:
+                    - generic [ref=e1059]: Enviar mensagem pelo WhatsApp
+    - generic [ref=e1061]:
+      - generic [ref=e1069]: Status do sistema
+      - generic [ref=e1073]:
+        - list [ref=e1074]:
+          - listitem [ref=e1075]:
+            - heading "API da Biblioteca de Anúncios" [level=3] [ref=e1076]:
+              - link "API da Biblioteca de Anúncios" [ref=e1077] [cursor=pointer]:
+                - /url: /ads/library/api/?source=archive-landing-page
+          - listitem [ref=e1078]:
+            - heading "Sobre anúncios e uso de dados" [level=3] [ref=e1079]:
+              - link "Sobre anúncios e uso de dados" [ref=e1080] [cursor=pointer]:
+                - /url: /ads/about/?entry_product=ad_library
+          - listitem [ref=e1081]:
+            - heading "Privacidade" [level=3] [ref=e1082]:
+              - link "Privacidade" [ref=e1083] [cursor=pointer]:
+                - /url: /privacy/center/?entry_point=privacy_basics_redirect
+          - listitem [ref=e1084]:
+            - heading "Termos" [level=3] [ref=e1085]:
+              - link "Termos" [ref=e1086] [cursor=pointer]:
+                - /url: /policies/
+          - listitem [ref=e1087]:
+            - heading "Cookies" [level=3] [ref=e1088]:
+              - link "Cookies" [ref=e1089] [cursor=pointer]:
+                - /url: /policies/cookies/
+        - heading "Meta © 2026 | Português (Brasil)" [level=3] [ref=e1091]:
+          - text: Meta © 2026 |
+          - link "Português (Brasil)" [ref=e1092] [cursor=pointer]:
+            - /url: /language/

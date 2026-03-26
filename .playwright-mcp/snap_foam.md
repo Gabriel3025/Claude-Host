@@ -1,0 +1,1134 @@
+- generic [ref=e12]:
+  - generic [ref=e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=e27] [cursor=pointer]:
+      - generic [ref=e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=e33] [cursor=pointer]
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - combobox "Tudo" [ref=e44] [cursor=pointer]:
+        - generic [ref=e51]: Tudo
+      - combobox "Todos os anúncios" [ref=e63] [cursor=pointer]:
+        - generic [ref=e73]: Todos os anúncios
+    - generic [ref=e83]:
+      - generic [ref=e89]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=e95]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=e101]: Archivo Digital
+        - button "Limpar" [ref=e103] [cursor=pointer]
+  - generic [ref=e106]:
+    - img "Foto do perfil da Página" [ref=e111]
+    - heading "Archivo Digital" [level=1] [ref=e116]
+  - generic [ref=e118]:
+    - link "Anúncios" [ref=e119] [cursor=pointer]
+    - link "Sobre" [ref=e120] [cursor=pointer]
+  - dialog [ref=e121]:
+    - generic [ref=e122]:
+      - link [ref=e123] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=e124]: Entrar
+      - menuitem [ref=e125] [cursor=pointer]
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - heading [level=4] [ref=e130]: Biblioteca de Anúncios
+        - menuitem [ref=e132] [cursor=pointer]:
+          - heading [level=4] [ref=e134]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=e136] [cursor=pointer]:
+          - heading [level=4] [ref=e138]: API da Biblioteca de Anúncios
+        - menuitem [ref=e140] [cursor=pointer]:
+          - heading [level=4] [ref=e142]: Conteúdo de marca
+      - separator [ref=e143]
+      - generic [ref=e144]:
+        - menuitem [ref=e146] [cursor=pointer]:
+          - heading [level=4] [ref=e148]: Status do sistema
+        - menuitem [ref=e150] [cursor=pointer]:
+          - heading [level=4] [ref=e152]: Assinar para receber atualizações por email
+        - menuitem [ref=e154] [cursor=pointer]:
+          - heading [level=4] [ref=e156]: Perguntas frequentes
+        - menuitem [ref=e158] [cursor=pointer]:
+          - heading [level=4] [ref=e160]: Sobre anúncios e uso de dados
+        - menuitem [ref=e162] [cursor=pointer]:
+          - heading [level=4] [ref=e164]: Privacidade
+        - menuitem [ref=e166] [cursor=pointer]:
+          - heading [level=4] [ref=e168]: Termos
+        - menuitem [ref=e170] [cursor=pointer]:
+          - heading [level=4] [ref=e172]: Cookies
+  - generic [ref=e173]:
+    - generic [ref=e187]:
+      - heading "~20 resultados" [level=3] [ref=e195]
+      - generic [ref=e196]:
+        - generic [ref=e202]:
+          - button "Filtros (1)" [ref=e204] [cursor=pointer]:
+            - generic [ref=e210]: Filtros (1)
+          - button "Classificar por" [ref=e213] [cursor=pointer]:
+            - generic [ref=e218]: Classificar por
+        - generic [ref=e221]:
+          - generic [ref=e223]:
+            - generic [ref=e225]:
+              - generic [ref=e226]:
+                - generic [ref=e233]: Ativo
+                - generic [ref=e236]: "Identificação da biblioteca: 1786421418597427"
+                - generic [ref=e238]: Veiculação iniciada em 17 de jan de 2026
+                - generic [ref=e240]: Plataformas
+                - generic [ref=e258]:
+                  - strong [ref=e259]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e260] [cursor=pointer]:
+                - generic [ref=e262]:
+                  - generic [ref=e263]: Menu
+                  - img "Menu" [ref=e266]
+            - button "Ver resumo" [ref=e268] [cursor=pointer]:
+              - generic [ref=e272]: Ver resumo
+            - separator [ref=e273]
+            - generic [ref=e278]:
+              - generic [ref=e280]:
+                - img "Archivo Digital" [ref=e281]
+                - generic [ref=e283]:
+                  - link "Archivo Digital" [ref=e284] [cursor=pointer]:
+                    - /url: https://www.facebook.com/archivo.digitaal/
+                  - generic [ref=e288]:
+                    - strong [ref=e290]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e291]:
+                - button "😩¿Pierdes horas buscando moldes de foamy/goma EVA en Internet?👇 🎨+𝟮𝟬𝟬𝟬 𝗠𝗢𝗟𝗗𝗘𝗦 𝗗𝗘 𝗙𝗢𝗔𝗠𝗬 profesionales, organizados y listos para imprimir. ✅ Encuentra lo que necesitas en 10 segundos ✅ Crea proyectos completos en menos de 15 minutos ✅ Ahorra hasta 80% en desperdicio de material ✅ Instrucciones paso a paso incluidas ✅ Diseños con alta demanda todos los días 👉 Perfecto para Maestras, Artesanas, Mamás Creativas y Principiantes que buscan resultados rápidos y profesionales ⭐ Calificación 4.9/5 — ¡Quienes los probaron, los aprobaron! Compra HOY por solo $60 pesos y recibe GRATIS un regalo sorpresa🎁 ⬇️ Haz clic para recibir TODO por WhatsApp en 5 minutos ⬇️" [ref=e294]:
+                  - generic [ref=e297]:
+                    - text: 😩¿Pierdes horas buscando moldes de foamy/goma EVA en Internet?👇
+                    - text: 🎨+𝟮𝟬𝟬𝟬 𝗠𝗢𝗟𝗗𝗘𝗦 𝗗𝗘 𝗙𝗢𝗔𝗠𝗬 profesionales, organizados y listos para imprimir.
+                    - text: ✅ Encuentra lo que necesitas en 10 segundos
+                    - text: ✅ Crea proyectos completos en menos de 15 minutos
+                    - text: ✅ Ahorra hasta 80% en desperdicio de material
+                    - text: ✅ Instrucciones paso a paso incluidas
+                    - text: ✅ Diseños con alta demanda todos los días
+                    - text: 👉 Perfecto para Maestras, Artesanas, Mamás Creativas y Principiantes que buscan resultados rápidos y profesionales
+                    - text: ⭐ Calificación 4.9/5 — ¡Quienes los probaron, los aprobaron!
+                    - text: Compra HOY por solo $60 pesos y recibe GRATIS un regalo sorpresa🎁
+                    - text: ⬇️ Haz clic para recibir TODO por WhatsApp en 5 minutos ⬇️
+                - group "Video player" [ref=e308]:
+                  - button "Reproduzir o vídeo" [ref=e310] [cursor=pointer]
+                  - generic [ref=e312]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:25
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+          - generic [ref=e314]:
+            - generic [ref=e316]:
+              - generic [ref=e317]:
+                - generic [ref=e324]: Ativo
+                - generic [ref=e327]: "Identificação da biblioteca: 1114339574057104"
+                - generic [ref=e329]: Veiculação iniciada em 2 de fev de 2026
+                - generic [ref=e331]: Plataformas
+                - generic [ref=e349]:
+                  - strong [ref=e350]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e351] [cursor=pointer]:
+                - generic [ref=e353]:
+                  - generic [ref=e354]: Menu
+                  - img "Menu" [ref=e357]
+            - button "Ver resumo" [ref=e359] [cursor=pointer]:
+              - generic [ref=e363]: Ver resumo
+            - separator [ref=e364]
+            - generic [ref=e369]:
+              - generic [ref=e371]:
+                - img "Archivo Digital" [ref=e372]
+                - generic [ref=e374]:
+                  - link "Archivo Digital" [ref=e375] [cursor=pointer]:
+                    - /url: https://www.facebook.com/archivo.digitaal/
+                  - generic [ref=e379]:
+                    - strong [ref=e381]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e382]:
+                - 'button "😩 ¿Cuántas veces has rechazado un pedido por no tener el molde perfecto? ¡Eso se acabó! 👇 🎨 +𝟮𝟬𝟬𝟬 𝗠𝗢𝗟𝗗𝗘𝗦 𝗗𝗘 𝗙𝗢𝗔𝗠𝗬 (Goma EVA) listos para cualquier proyecto que te pidan, solo descarga e imprime. 🔠Letras, Números y Personajes de Moda 🌸 Flores, Animales y Figuras Geométricas ❤️ San Valentín, Navidad, Pascua, Temas Bíblicos 🎊 Personajes, Decoraciones, Figuras Infantiles y mucho más 💰 𝐃𝐢 𝐒𝐈́ 𝐚 𝐦𝐚́𝐬 𝐩𝐞𝐝𝐢𝐝𝐨𝐬 = 𝐌𝐚́𝐬 𝐢𝐧𝐠𝐫𝐞𝐬𝐨𝐬 𝐩𝐚𝐫𝐚 𝐭𝐢 ✅ Para Artesanas que quieren CRECER su negocio ✅ Para Maestras que necesitan TODO para el salón ✅ Para Mamás que buscan actividades para sus hijos ✅ Para Principiantes que no saben por dónde empezar ⭐4.9/5 — Más de 1200 Artesanas Felices 🎁 OFERTA HOY: Solo $60 pesos + Regalo Sorpresa Incluido ⬇️ Clic en WhatsApp y recíbelo en 5 minutos ⬇️" [ref=e385]':
+                  - generic [ref=e388]:
+                    - text: 😩 ¿Cuántas veces has rechazado un pedido por no tener el molde perfecto? ¡Eso se acabó! 👇
+                    - text: 🎨 +𝟮𝟬𝟬𝟬 𝗠𝗢𝗟𝗗𝗘𝗦 𝗗𝗘 𝗙𝗢𝗔𝗠𝗬 (Goma EVA) listos para cualquier proyecto que te pidan, solo descarga e imprime.
+                    - text: 🔠Letras, Números y Personajes de Moda
+                    - text: 🌸 Flores, Animales y Figuras Geométricas
+                    - text: ❤️ San Valentín, Navidad, Pascua, Temas Bíblicos
+                    - text: 🎊 Personajes, Decoraciones, Figuras Infantiles y mucho más
+                    - text: 💰 𝐃𝐢 𝐒𝐈́ 𝐚 𝐦𝐚́𝐬 𝐩𝐞𝐝𝐢𝐝𝐨𝐬 = 𝐌𝐚́𝐬 𝐢𝐧𝐠𝐫𝐞𝐬𝐨𝐬 𝐩𝐚𝐫𝐚 𝐭𝐢
+                    - text: ✅ Para Artesanas que quieren CRECER su negocio
+                    - text: ✅ Para Maestras que necesitan TODO para el salón
+                    - text: ✅ Para Mamás que buscan actividades para sus hijos
+                    - text: ✅ Para Principiantes que no saben por dónde empezar
+                    - text: ⭐4.9/5 — Más de 1200 Artesanas Felices
+                    - text: "🎁 OFERTA HOY: Solo $60 pesos + Regalo Sorpresa Incluido"
+                    - text: ⬇️ Clic en WhatsApp y recíbelo en 5 minutos ⬇️
+                - group "Video player" [ref=e399]:
+                  - button "Reproduzir o vídeo" [ref=e401] [cursor=pointer]
+                  - generic [ref=e403]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:38
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+          - generic [ref=e405]:
+            - generic [ref=e407]:
+              - generic [ref=e408]:
+                - generic [ref=e415]: Ativo
+                - generic [ref=e418]: "Identificação da biblioteca: 1437920097960831"
+                - generic [ref=e420]: Veiculação iniciada em 13 de fev de 2026
+                - generic [ref=e422]: Plataformas
+              - button "Menu Menu" [ref=e439] [cursor=pointer]:
+                - generic [ref=e441]:
+                  - generic [ref=e442]: Menu
+                  - img "Menu" [ref=e445]
+            - button "Ver detalhes do anúncio" [ref=e447] [cursor=pointer]:
+              - generic [ref=e451]: Ver detalhes do anúncio
+            - separator [ref=e452]
+            - generic [ref=e457]:
+              - generic [ref=e459]:
+                - img "Archivo Digital" [ref=e460]
+                - generic [ref=e462]:
+                  - link "Archivo Digital" [ref=e463] [cursor=pointer]:
+                    - /url: https://www.facebook.com/archivo.digitaal/
+                  - generic [ref=e467]:
+                    - strong [ref=e469]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e470]:
+                - 'button "😅 ¿En serio sigues perdiendo tiempo buscando moldes en Internet? hay una forma más sencilla 👇 🎨+𝟮𝟬𝟬𝟬 𝗠𝗢𝗟𝗗𝗘𝗦 𝗗𝗘 𝗙𝗢𝗔𝗠𝗬 (Goma EVA) profesionales, organizados y listos para imprimir. 🔠Letras, Números y Personajes de Moda 🌸 Flores, Animales y Figuras Geométricas ❤️ San Valentín, Navidad, Pascua, Temas Bíblicos 🎊 Personajes, Decoraciones, Figuras Infantiles y mucho más ✅ Encuentra lo que necesitas en 10 segundos ✅ Crea proyectos completos en menos de 15 minutos ✅ Ahorra hasta 80% en desperdicio de material ✅ Instrucciones paso a paso incluidas ✅ Diseños con alta demanda todos los días 👉 Diseñado para 𝐀𝐫𝐭𝐞𝐬𝐚𝐧𝐚𝐬, 𝐌𝐚𝐞𝐬𝐭𝐫𝐚𝐬, 𝐌𝐚𝐦𝐚́𝐬 𝐲 𝐏𝐫𝐢𝐧𝐜𝐢𝐩𝐢𝐚𝐧𝐭𝐞𝐬 que valoran su tiempo ⭐ Calificación 4.9/5 — Más de 1200 clientes felices 🎁 OFERTA HOY: Solo $60 pesos + Regalo Sorpresa Incluido ⬇️ Clic en WhatsApp y recíbelo en 5 minutos ⬇️" [ref=e473]':
+                  - generic [ref=e476]:
+                    - text: 😅 ¿En serio sigues perdiendo tiempo buscando moldes en Internet? hay una forma más sencilla 👇
+                    - text: 🎨+𝟮𝟬𝟬𝟬 𝗠𝗢𝗟𝗗𝗘𝗦 𝗗𝗘 𝗙𝗢𝗔𝗠𝗬 (Goma EVA) profesionales, organizados y listos para imprimir.
+                    - text: 🔠Letras, Números y Personajes de Moda
+                    - text: 🌸 Flores, Animales y Figuras Geométricas
+                    - text: ❤️ San Valentín, Navidad, Pascua, Temas Bíblicos
+                    - text: 🎊 Personajes, Decoraciones, Figuras Infantiles y mucho más
+                    - text: ✅ Encuentra lo que necesitas en 10 segundos
+                    - text: ✅ Crea proyectos completos en menos de 15 minutos
+                    - text: ✅ Ahorra hasta 80% en desperdicio de material
+                    - text: ✅ Instrucciones paso a paso incluidas
+                    - text: ✅ Diseños con alta demanda todos los días
+                    - text: 👉 Diseñado para 𝐀𝐫𝐭𝐞𝐬𝐚𝐧𝐚𝐬, 𝐌𝐚𝐞𝐬𝐭𝐫𝐚𝐬, 𝐌𝐚𝐦𝐚́𝐬 𝐲 𝐏𝐫𝐢𝐧𝐜𝐢𝐩𝐢𝐚𝐧𝐭𝐞𝐬 que valoran su tiempo
+                    - text: ⭐ Calificación 4.9/5 — Más de 1200 clientes felices
+                    - text: "🎁 OFERTA HOY: Solo $60 pesos + Regalo Sorpresa Incluido"
+                    - text: ⬇️ Clic en WhatsApp y recíbelo en 5 minutos ⬇️
+                - generic [ref=e479]:
+                  - generic [ref=e480]:
+                    - button "WHATSAPP" [ref=e482]:
+                      - generic [ref=e483]: WHATSAPP
+                    - button "RECIBIR MATERIAL AHORA 👉" [ref=e485]:
+                      - generic [ref=e486]: RECIBIR MATERIAL AHORA 👉
+                    - button "⭐⭐⭐⭐⭐4.9/5" [ref=e488]:
+                      - generic [ref=e489]: ⭐⭐⭐⭐⭐4.9/5
+                    - generic:
+                      - button
+                  - button "Enviar mensagem pelo WhatsApp" [disabled] [ref=e491]:
+                    - generic [ref=e495]: Enviar mensagem pelo WhatsApp
+          - generic [ref=e497]:
+            - generic [ref=e499]:
+              - generic [ref=e500]:
+                - generic [ref=e507]: Ativo
+                - generic [ref=e510]: "Identificação da biblioteca: 2292258831278908"
+                - generic [ref=e512]: Veiculação iniciada em 17 de jan de 2026
+                - generic [ref=e514]: Plataformas
+                - generic [ref=e532]:
+                  - strong [ref=e533]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e534] [cursor=pointer]:
+                - generic [ref=e536]:
+                  - generic [ref=e537]: Menu
+                  - img "Menu" [ref=e540]
+            - button "Ver resumo" [ref=e542] [cursor=pointer]:
+              - generic [ref=e546]: Ver resumo
+            - separator [ref=e547]
+            - generic [ref=e552]:
+              - generic [ref=e554]:
+                - img "Archivo Digital" [ref=e555]
+                - generic [ref=e557]:
+                  - link "Archivo Digital" [ref=e558] [cursor=pointer]:
+                    - /url: https://www.facebook.com/archivo.digitaal/
+                  - generic [ref=e562]:
+                    - strong [ref=e564]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e565]:
+                - button "😩¿Pierdes horas buscando moldes de foamy/goma EVA en Internet?👇 🎨+𝟮𝟬𝟬𝟬 𝗠𝗢𝗟𝗗𝗘𝗦 𝗗𝗘 𝗙𝗢𝗔𝗠𝗬 profesionales, organizados y listos para imprimir. ✅ Encuentra lo que necesitas en 10 segundos ✅ Crea proyectos completos en menos de 15 minutos ✅ Ahorra hasta 80% en desperdicio de material ✅ Instrucciones paso a paso incluidas ✅ Diseños con alta demanda todos los días 👉 Perfecto para Maestras, Artesanas, Mamás Creativas y Principiantes que buscan resultados rápidos y profesionales ⭐ Calificación 4.9/5 — ¡Quienes los probaron, los aprobaron! Compra HOY por solo $60 pesos y recibe GRATIS un regalo sorpresa🎁 ⬇️ Haz clic para recibir TODO por WhatsApp en 5 minutos ⬇️" [ref=e568]:
+                  - generic [ref=e571]:
+                    - text: 😩¿Pierdes horas buscando moldes de foamy/goma EVA en Internet?👇
+                    - text: 🎨+𝟮𝟬𝟬𝟬 𝗠𝗢𝗟𝗗𝗘𝗦 𝗗𝗘 𝗙𝗢𝗔𝗠𝗬 profesionales, organizados y listos para imprimir.
+                    - text: ✅ Encuentra lo que necesitas en 10 segundos
+                    - text: ✅ Crea proyectos completos en menos de 15 minutos
+                    - text: ✅ Ahorra hasta 80% en desperdicio de material
+                    - text: ✅ Instrucciones paso a paso incluidas
+                    - text: ✅ Diseños con alta demanda todos los días
+                    - text: 👉 Perfecto para Maestras, Artesanas, Mamás Creativas y Principiantes que buscan resultados rápidos y profesionales
+                    - text: ⭐ Calificación 4.9/5 — ¡Quienes los probaron, los aprobaron!
+                    - text: Compra HOY por solo $60 pesos y recibe GRATIS un regalo sorpresa🎁
+                    - text: ⬇️ Haz clic para recibir TODO por WhatsApp en 5 minutos ⬇️
+                - group "Video player" [ref=e582]:
+                  - button "Reproduzir o vídeo" [ref=e584] [cursor=pointer]
+                  - generic [ref=e586]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:29
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+          - generic [ref=e588]:
+            - generic [ref=e590]:
+              - generic [ref=e591]:
+                - generic [ref=e598]: Ativo
+                - generic [ref=e601]: "Identificação da biblioteca: 847434408251954"
+                - generic [ref=e603]: Veiculação iniciada em 2 de fev de 2026
+                - generic [ref=e605]: Plataformas
+                - generic [ref=e623]:
+                  - strong [ref=e624]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e625] [cursor=pointer]:
+                - generic [ref=e627]:
+                  - generic [ref=e628]: Menu
+                  - img "Menu" [ref=e631]
+            - button "Ver resumo" [ref=e633] [cursor=pointer]:
+              - generic [ref=e637]: Ver resumo
+            - separator [ref=e638]
+            - generic [ref=e643]:
+              - generic [ref=e645]:
+                - img "Archivo Digital" [ref=e646]
+                - generic [ref=e648]:
+                  - link "Archivo Digital" [ref=e649] [cursor=pointer]:
+                    - /url: https://www.facebook.com/archivo.digitaal/
+                  - generic [ref=e653]:
+                    - strong [ref=e655]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e656]:
+                - 'button "😩 ¿Cuántas veces has rechazado un pedido por no tener el molde perfecto? ¡Eso se acabó! 👇 🎨 +𝟮𝟬𝟬𝟬 𝗠𝗢𝗟𝗗𝗘𝗦 𝗗𝗘 𝗙𝗢𝗔𝗠𝗬 (Goma EVA) listos para cualquier proyecto que te pidan, solo descarga e imprime. 🔠Letras, Números y Personajes de Moda 🌸 Flores, Animales y Figuras Geométricas ❤️ San Valentín, Navidad, Pascua, Temas Bíblicos 🎊 Personajes, Decoraciones, Figuras Infantiles y mucho más 💰 𝐃𝐢 𝐒𝐈́ 𝐚 𝐦𝐚́𝐬 𝐩𝐞𝐝𝐢𝐝𝐨𝐬 = 𝐌𝐚́𝐬 𝐢𝐧𝐠𝐫𝐞𝐬𝐨𝐬 𝐩𝐚𝐫𝐚 𝐭𝐢 ✅ Para Artesanas que quieren CRECER su negocio ✅ Para Maestras que necesitan TODO para el salón ✅ Para Mamás que buscan actividades para sus hijos ✅ Para Principiantes que no saben por dónde empezar ⭐4.9/5 — Más de 1200 Artesanas Felices 🎁 OFERTA HOY: Solo $60 pesos + Regalo Sorpresa Incluido ⬇️ Clic en WhatsApp y recíbelo en 5 minutos ⬇️" [ref=e659]':
+                  - generic [ref=e662]:
+                    - text: 😩 ¿Cuántas veces has rechazado un pedido por no tener el molde perfecto? ¡Eso se acabó! 👇
+                    - text: 🎨 +𝟮𝟬𝟬𝟬 𝗠𝗢𝗟𝗗𝗘𝗦 𝗗𝗘 𝗙𝗢𝗔𝗠𝗬 (Goma EVA) listos para cualquier proyecto que te pidan, solo descarga e imprime.
+                    - text: 🔠Letras, Números y Personajes de Moda
+                    - text: 🌸 Flores, Animales y Figuras Geométricas
+                    - text: ❤️ San Valentín, Navidad, Pascua, Temas Bíblicos
+                    - text: 🎊 Personajes, Decoraciones, Figuras Infantiles y mucho más
+                    - text: 💰 𝐃𝐢 𝐒𝐈́ 𝐚 𝐦𝐚́𝐬 𝐩𝐞𝐝𝐢𝐝𝐨𝐬 = 𝐌𝐚́𝐬 𝐢𝐧𝐠𝐫𝐞𝐬𝐨𝐬 𝐩𝐚𝐫𝐚 𝐭𝐢
+                    - text: ✅ Para Artesanas que quieren CRECER su negocio
+                    - text: ✅ Para Maestras que necesitan TODO para el salón
+                    - text: ✅ Para Mamás que buscan actividades para sus hijos
+                    - text: ✅ Para Principiantes que no saben por dónde empezar
+                    - text: ⭐4.9/5 — Más de 1200 Artesanas Felices
+                    - text: "🎁 OFERTA HOY: Solo $60 pesos + Regalo Sorpresa Incluido"
+                    - text: ⬇️ Clic en WhatsApp y recíbelo en 5 minutos ⬇️
+                - group "Video player" [ref=e673]:
+                  - button "Reproduzir o vídeo" [ref=e675] [cursor=pointer]
+                  - generic [ref=e677]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:42
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+          - generic [ref=e679]:
+            - generic [ref=e681]:
+              - generic [ref=e682]:
+                - generic [ref=e689]: Ativo
+                - generic [ref=e692]: "Identificação da biblioteca: 1438787794312075"
+                - generic [ref=e694]: Veiculação iniciada em 27 de fev de 2026
+                - generic [ref=e696]: Plataformas
+                - generic [ref=e714]:
+                  - strong [ref=e715]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e716] [cursor=pointer]:
+                - generic [ref=e718]:
+                  - generic [ref=e719]: Menu
+                  - img "Menu" [ref=e722]
+            - button "Ver resumo" [ref=e724] [cursor=pointer]:
+              - generic [ref=e728]: Ver resumo
+            - separator [ref=e729]
+            - generic [ref=e734]:
+              - generic [ref=e736]:
+                - img "Archivo Digital" [ref=e737]
+                - generic [ref=e739]:
+                  - link "Archivo Digital" [ref=e740] [cursor=pointer]:
+                    - /url: https://www.facebook.com/archivo.digitaal/
+                  - generic [ref=e744]:
+                    - strong [ref=e746]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e747]:
+                - 'button "😩 ¿Cuántas veces has rechazado un pedido por no tener el molde perfecto? ¡Eso se acabó! 👇 🎨 +𝟮𝟬𝟬𝟬 𝗠𝗢𝗟𝗗𝗘𝗦 𝗗𝗘 𝗙𝗢𝗔𝗠𝗬 (Goma EVA) listos para cualquier proyecto que te pidan, solo descarga e imprime. 🔠Letras, Números y Personajes de Moda 🌸 Flores, Animales y Figuras Geométricas ❤️ San Valentín, Navidad, Pascua, Temas Bíblicos 🎊 Personajes, Decoraciones, Figuras Infantiles y mucho más 💰 𝐃𝐢 𝐒𝐈́ 𝐚 𝐦𝐚́𝐬 𝐩𝐞𝐝𝐢𝐝𝐨𝐬 = 𝐌𝐚́𝐬 𝐢𝐧𝐠𝐫𝐞𝐬𝐨𝐬 𝐩𝐚𝐫𝐚 𝐭𝐢 ✅ Para Artesanas que quieren CRECER su negocio ✅ Para Maestras que necesitan TODO para el salón ✅ Para Mamás que buscan actividades para sus hijos ✅ Para Principiantes que no saben por dónde empezar ⭐4.9/5 — Más de 1200 Artesanas Felices 🎁 OFERTA HOY: Solo $60 pesos + Regalo Sorpresa Incluido ⬇️ Clic en WhatsApp y recíbelo en 5 minutos ⬇️" [ref=e750]':
+                  - generic [ref=e753]:
+                    - text: 😩 ¿Cuántas veces has rechazado un pedido por no tener el molde perfecto? ¡Eso se acabó! 👇
+                    - text: 🎨 +𝟮𝟬𝟬𝟬 𝗠𝗢𝗟𝗗𝗘𝗦 𝗗𝗘 𝗙𝗢𝗔𝗠𝗬 (Goma EVA) listos para cualquier proyecto que te pidan, solo descarga e imprime.
+                    - text: 🔠Letras, Números y Personajes de Moda
+                    - text: 🌸 Flores, Animales y Figuras Geométricas
+                    - text: ❤️ San Valentín, Navidad, Pascua, Temas Bíblicos
+                    - text: 🎊 Personajes, Decoraciones, Figuras Infantiles y mucho más
+                    - text: 💰 𝐃𝐢 𝐒𝐈́ 𝐚 𝐦𝐚́𝐬 𝐩𝐞𝐝𝐢𝐝𝐨𝐬 = 𝐌𝐚́𝐬 𝐢𝐧𝐠𝐫𝐞𝐬𝐨𝐬 𝐩𝐚𝐫𝐚 𝐭𝐢
+                    - text: ✅ Para Artesanas que quieren CRECER su negocio
+                    - text: ✅ Para Maestras que necesitan TODO para el salón
+                    - text: ✅ Para Mamás que buscan actividades para sus hijos
+                    - text: ✅ Para Principiantes que no saben por dónde empezar
+                    - text: ⭐4.9/5 — Más de 1200 Artesanas Felices
+                    - text: "🎁 OFERTA HOY: Solo $60 pesos + Regalo Sorpresa Incluido"
+                    - text: ⬇️ Clic en WhatsApp y recíbelo en 5 minutos ⬇️
+                - group "Video player" [ref=e764]:
+                  - button "Reproduzir o vídeo" [ref=e766] [cursor=pointer]
+                  - generic [ref=e768]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:37
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+          - generic [ref=e770]:
+            - generic [ref=e772]:
+              - generic [ref=e773]:
+                - generic [ref=e780]: Ativo
+                - generic [ref=e783]: "Identificação da biblioteca: 852545977784093"
+                - generic [ref=e785]: Veiculação iniciada em 6 de fev de 2026
+                - generic [ref=e787]: Plataformas
+              - button "Menu Menu" [ref=e804] [cursor=pointer]:
+                - generic [ref=e806]:
+                  - generic [ref=e807]: Menu
+                  - img "Menu" [ref=e810]
+            - button "Ver detalhes do anúncio" [ref=e812] [cursor=pointer]:
+              - generic [ref=e816]: Ver detalhes do anúncio
+            - separator [ref=e817]
+            - generic [ref=e822]:
+              - generic [ref=e824]:
+                - img "Archivo Digital" [ref=e825]
+                - generic [ref=e827]:
+                  - link "Archivo Digital" [ref=e828] [cursor=pointer]:
+                    - /url: https://www.facebook.com/archivo.digitaal/
+                  - generic [ref=e832]:
+                    - strong [ref=e834]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e835]:
+                - 'button "😅 ¿En serio sigues perdiendo tiempo buscando moldes en Internet? hay una forma más sencilla 👇 🎨+𝟮𝟬𝟬𝟬 𝗠𝗢𝗟𝗗𝗘𝗦 𝗗𝗘 𝗙𝗢𝗔𝗠𝗬 (Goma EVA) profesionales, organizados y listos para imprimir. 🔠Letras, Números y Personajes de Moda 🌸 Flores, Animales y Figuras Geométricas ❤️ San Valentín, Navidad, Pascua, Temas Bíblicos 🎊 Personajes, Decoraciones, Figuras Infantiles y mucho más ✅ Encuentra lo que necesitas en 10 segundos ✅ Crea proyectos completos en menos de 15 minutos ✅ Ahorra hasta 80% en desperdicio de material ✅ Instrucciones paso a paso incluidas ✅ Diseños con alta demanda todos los días 👉 Diseñado para 𝐀𝐫𝐭𝐞𝐬𝐚𝐧𝐚𝐬, 𝐌𝐚𝐞𝐬𝐭𝐫𝐚𝐬, 𝐌𝐚𝐦𝐚́𝐬 𝐲 𝐏𝐫𝐢𝐧𝐜𝐢𝐩𝐢𝐚𝐧𝐭𝐞𝐬 que valoran su tiempo ⭐ Calificación 4.9/5 — Más de 1200 clientes felices 🎁 OFERTA HOY: Solo $60 pesos + Regalo Sorpresa Incluido ⬇️ Clic en WhatsApp y recíbelo en 5 minutos ⬇️" [ref=e838]':
+                  - generic [ref=e841]:
+                    - text: 😅 ¿En serio sigues perdiendo tiempo buscando moldes en Internet? hay una forma más sencilla 👇
+                    - text: 🎨+𝟮𝟬𝟬𝟬 𝗠𝗢𝗟𝗗𝗘𝗦 𝗗𝗘 𝗙𝗢𝗔𝗠𝗬 (Goma EVA) profesionales, organizados y listos para imprimir.
+                    - text: 🔠Letras, Números y Personajes de Moda
+                    - text: 🌸 Flores, Animales y Figuras Geométricas
+                    - text: ❤️ San Valentín, Navidad, Pascua, Temas Bíblicos
+                    - text: 🎊 Personajes, Decoraciones, Figuras Infantiles y mucho más
+                    - text: ✅ Encuentra lo que necesitas en 10 segundos
+                    - text: ✅ Crea proyectos completos en menos de 15 minutos
+                    - text: ✅ Ahorra hasta 80% en desperdicio de material
+                    - text: ✅ Instrucciones paso a paso incluidas
+                    - text: ✅ Diseños con alta demanda todos los días
+                    - text: 👉 Diseñado para 𝐀𝐫𝐭𝐞𝐬𝐚𝐧𝐚𝐬, 𝐌𝐚𝐞𝐬𝐭𝐫𝐚𝐬, 𝐌𝐚𝐦𝐚́𝐬 𝐲 𝐏𝐫𝐢𝐧𝐜𝐢𝐩𝐢𝐚𝐧𝐭𝐞𝐬 que valoran su tiempo
+                    - text: ⭐ Calificación 4.9/5 — Más de 1200 clientes felices
+                    - text: "🎁 OFERTA HOY: Solo $60 pesos + Regalo Sorpresa Incluido"
+                    - text: ⬇️ Clic en WhatsApp y recíbelo en 5 minutos ⬇️
+                - generic [ref=e844]:
+                  - generic [ref=e845]:
+                    - button "API.WHATSAPP.COM" [ref=e847]:
+                      - generic [ref=e848]: API.WHATSAPP.COM
+                    - button "RECIBIR MATERIAL AHORA 👉" [ref=e850]:
+                      - generic [ref=e851]: RECIBIR MATERIAL AHORA 👉
+                    - button "⭐⭐⭐⭐⭐4.9/5" [ref=e853]:
+                      - generic [ref=e854]: ⭐⭐⭐⭐⭐4.9/5
+                    - generic:
+                      - button
+                  - button "Enviar mensagem pelo WhatsApp" [disabled] [ref=e856]:
+                    - generic [ref=e860]: Enviar mensagem pelo WhatsApp
+          - generic [ref=e862]:
+            - generic [ref=e864]:
+              - generic [ref=e865]:
+                - generic [ref=e872]: Ativo
+                - generic [ref=e875]: "Identificação da biblioteca: 1517763809300151"
+                - generic [ref=e877]: Veiculação iniciada em 15 de jan de 2026
+                - generic [ref=e879]: Plataformas
+              - button "Menu Menu" [ref=e896] [cursor=pointer]:
+                - generic [ref=e898]:
+                  - generic [ref=e899]: Menu
+                  - img "Menu" [ref=e902]
+            - button "Ver detalhes do anúncio" [ref=e904] [cursor=pointer]:
+              - generic [ref=e908]: Ver detalhes do anúncio
+            - separator [ref=e909]
+            - generic [ref=e914]:
+              - generic [ref=e916]:
+                - img "Archivo Digital" [ref=e917]
+                - generic [ref=e919]:
+                  - link "Archivo Digital" [ref=e920] [cursor=pointer]:
+                    - /url: https://www.facebook.com/archivo.digitaal/
+                  - generic [ref=e924]:
+                    - strong [ref=e926]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e927]:
+                - button "😩¿Pierdes horas buscando moldes de foamy/goma EVA en Internet?👇 🎨+𝟮𝟬𝟬𝟬 𝗠𝗢𝗟𝗗𝗘𝗦 𝗗𝗘 𝗙𝗢𝗔𝗠𝗬 profesionales, organizados y listos para imprimir. ✅ Encuentra lo que necesitas en 10 segundos ✅ Crea proyectos completos en menos de 15 minutos ✅ Ahorra hasta 80% en desperdicio de material ✅ Instrucciones paso a paso incluidas ✅ Diseños con alta demanda todos los días 👉 Perfecto para Maestras, Artesanas, Mamás Creativas y Principiantes que buscan resultados rápidos y profesionales ⭐ Calificación 4.9/5 — ¡Quienes los probaron, los aprobaron! Compra HOY por solo $60 pesos y recibe GRATIS un regalo sorpresa🎁 ⬇️ Haz clic para recibir TODO por WhatsApp en 5 minutos ⬇️" [ref=e930]:
+                  - generic [ref=e933]:
+                    - text: 😩¿Pierdes horas buscando moldes de foamy/goma EVA en Internet?👇
+                    - text: 🎨+𝟮𝟬𝟬𝟬 𝗠𝗢𝗟𝗗𝗘𝗦 𝗗𝗘 𝗙𝗢𝗔𝗠𝗬 profesionales, organizados y listos para imprimir.
+                    - text: ✅ Encuentra lo que necesitas en 10 segundos
+                    - text: ✅ Crea proyectos completos en menos de 15 minutos
+                    - text: ✅ Ahorra hasta 80% en desperdicio de material
+                    - text: ✅ Instrucciones paso a paso incluidas
+                    - text: ✅ Diseños con alta demanda todos los días
+                    - text: 👉 Perfecto para Maestras, Artesanas, Mamás Creativas y Principiantes que buscan resultados rápidos y profesionales
+                    - text: ⭐ Calificación 4.9/5 — ¡Quienes los probaron, los aprobaron!
+                    - text: Compra HOY por solo $60 pesos y recibe GRATIS un regalo sorpresa🎁
+                    - text: ⬇️ Haz clic para recibir TODO por WhatsApp en 5 minutos ⬇️
+                - group "Video player" [ref=e944]:
+                  - button "Reproduzir o vídeo" [ref=e946] [cursor=pointer]
+                  - generic [ref=e948]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:30
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic [ref=e949]:
+                  - generic [ref=e950]:
+                    - button "API.WHATSAPP.COM" [ref=e952]:
+                      - generic [ref=e953]: API.WHATSAPP.COM
+                    - button "RECIBIR MATERIAL AHORA 👉" [ref=e955]:
+                      - generic [ref=e956]: RECIBIR MATERIAL AHORA 👉
+                    - button "⭐⭐⭐⭐⭐4.9/5" [ref=e958]:
+                      - generic [ref=e959]: ⭐⭐⭐⭐⭐4.9/5
+                    - generic:
+                      - button
+                  - button "Enviar mensagem pelo WhatsApp" [disabled] [ref=e961]:
+                    - generic [ref=e965]: Enviar mensagem pelo WhatsApp
+          - generic [ref=e967]:
+            - generic [ref=e969]:
+              - generic [ref=e970]:
+                - generic [ref=e977]: Ativo
+                - generic [ref=e980]: "Identificação da biblioteca: 1272882341402942"
+                - generic [ref=e982]: Veiculação iniciada em 23 de fev de 2026
+                - generic [ref=e984]: Plataformas
+                - generic [ref=e1002]:
+                  - strong [ref=e1003]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1004] [cursor=pointer]:
+                - generic [ref=e1006]:
+                  - generic [ref=e1007]: Menu
+                  - img "Menu" [ref=e1010]
+            - button "Ver resumo" [ref=e1012] [cursor=pointer]:
+              - generic [ref=e1016]: Ver resumo
+            - separator [ref=e1017]
+            - generic [ref=e1022]:
+              - generic [ref=e1024]:
+                - img "Archivo Digital" [ref=e1025]
+                - generic [ref=e1027]:
+                  - link "Archivo Digital" [ref=e1028] [cursor=pointer]:
+                    - /url: https://www.facebook.com/archivo.digitaal/
+                  - generic [ref=e1032]:
+                    - strong [ref=e1034]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1035]:
+                - 'button "😩 ¿Cuántas veces has rechazado un pedido por no tener el molde perfecto? ¡Eso se acabó! 👇 🎨 +𝟮𝟬𝟬𝟬 𝗠𝗢𝗟𝗗𝗘𝗦 𝗗𝗘 𝗙𝗢𝗔𝗠𝗬 (Goma EVA) listos para cualquier proyecto que te pidan, solo descarga e imprime. 🔠Letras, Números y Personajes de Moda 🌸 Flores, Animales y Figuras Geométricas ❤️ San Valentín, Navidad, Pascua, Temas Bíblicos 🎊 Personajes, Decoraciones, Figuras Infantiles y mucho más 💰 𝐃𝐢 𝐒𝐈́ 𝐚 𝐦𝐚́𝐬 𝐩𝐞𝐝𝐢𝐝𝐨𝐬 = 𝐌𝐚́𝐬 𝐢𝐧𝐠𝐫𝐞𝐬𝐨𝐬 𝐩𝐚𝐫𝐚 𝐭𝐢 ✅ Para Artesanas que quieren CRECER su negocio ✅ Para Maestras que necesitan TODO para el salón ✅ Para Mamás que buscan actividades para sus hijos ✅ Para Principiantes que no saben por dónde empezar ⭐4.9/5 — Más de 1200 Artesanas Felices 🎁 OFERTA HOY: Solo $60 pesos + Regalo Sorpresa Incluido ⬇️ Clic en WhatsApp y recíbelo en 5 minutos ⬇️" [ref=e1038]':
+                  - generic [ref=e1041]:
+                    - text: 😩 ¿Cuántas veces has rechazado un pedido por no tener el molde perfecto? ¡Eso se acabó! 👇
+                    - text: 🎨 +𝟮𝟬𝟬𝟬 𝗠𝗢𝗟𝗗𝗘𝗦 𝗗𝗘 𝗙𝗢𝗔𝗠𝗬 (Goma EVA) listos para cualquier proyecto que te pidan, solo descarga e imprime.
+                    - text: 🔠Letras, Números y Personajes de Moda
+                    - text: 🌸 Flores, Animales y Figuras Geométricas
+                    - text: ❤️ San Valentín, Navidad, Pascua, Temas Bíblicos
+                    - text: 🎊 Personajes, Decoraciones, Figuras Infantiles y mucho más
+                    - text: 💰 𝐃𝐢 𝐒𝐈́ 𝐚 𝐦𝐚́𝐬 𝐩𝐞𝐝𝐢𝐝𝐨𝐬 = 𝐌𝐚́𝐬 𝐢𝐧𝐠𝐫𝐞𝐬𝐨𝐬 𝐩𝐚𝐫𝐚 𝐭𝐢
+                    - text: ✅ Para Artesanas que quieren CRECER su negocio
+                    - text: ✅ Para Maestras que necesitan TODO para el salón
+                    - text: ✅ Para Mamás que buscan actividades para sus hijos
+                    - text: ✅ Para Principiantes que no saben por dónde empezar
+                    - text: ⭐4.9/5 — Más de 1200 Artesanas Felices
+                    - text: "🎁 OFERTA HOY: Solo $60 pesos + Regalo Sorpresa Incluido"
+                    - text: ⬇️ Clic en WhatsApp y recíbelo en 5 minutos ⬇️
+                - group "Video player" [ref=e1052]:
+                  - button "Reproduzir o vídeo" [ref=e1054] [cursor=pointer]
+                  - generic [ref=e1056]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:32
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+          - generic [ref=e1058]:
+            - generic [ref=e1060]:
+              - generic [ref=e1061]:
+                - generic [ref=e1068]: Ativo
+                - generic [ref=e1071]: "Identificação da biblioteca: 1440101207566567"
+                - generic [ref=e1073]: Veiculação iniciada em 18 de mar de 2026
+                - generic [ref=e1075]: Plataformas
+              - button "Menu Menu" [ref=e1092] [cursor=pointer]:
+                - generic [ref=e1094]:
+                  - generic [ref=e1095]: Menu
+                  - img "Menu" [ref=e1098]
+            - button "Ver detalhes do anúncio" [ref=e1100] [cursor=pointer]:
+              - generic [ref=e1104]: Ver detalhes do anúncio
+            - separator [ref=e1105]
+            - generic [ref=e1110]:
+              - generic [ref=e1112]:
+                - img "Archivo Digital" [ref=e1113]
+                - generic [ref=e1115]:
+                  - link "Archivo Digital" [ref=e1116] [cursor=pointer]:
+                    - /url: https://www.facebook.com/archivo.digitaal/
+                  - generic [ref=e1120]:
+                    - strong [ref=e1122]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1123]:
+                - 'button "🤔 ¿Cuánto te cobraría un estudio de arquitectura por 75 proyectos completos con planos, modelos 3D y renders HD? 👇 Miles de dólares. Semanas de trabajo. Y aún así dependerías de ellos para cada cambio 😩 ✅Hoy liberamos un paquete exclusivo con 𝟳𝟱 𝗣𝗿𝗼𝘆𝗲𝗰𝘁𝗼𝘀 𝗱𝗲 𝗔𝗿𝗾𝘂𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮 𝗽𝗿𝗼𝗳𝗲𝘀𝗶𝗼𝗻𝗮𝗹𝗲𝘀, listos para usar, editar y presentar desde el primer día. 📐 Planos PDF con Layout Profesional 🧱 Archivos DWG Editables para AutoCAD 🏗️ Modelos 3D Nativos en Revit 🖼️ Renders HD para Clientes y Presentaciones 📁 Todo organizado, todo editable, todo tuyo por un precio simbólico. 🔥 Y lo mejor: 𝗽𝗿𝗶𝗺𝗲𝗿𝗼 𝗿𝗲𝗰𝗶𝗯𝗲𝘀 𝘁𝗼𝗱𝗼 𝗲𝗹 𝗺𝗮𝘁𝗲𝗿𝗶𝗮𝗹 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼 𝗲𝗻 𝘁𝘂 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝘆 𝗱𝗲𝘀𝗽𝘂𝗲́𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝘀 𝘁𝘂 𝗰𝗼𝗻𝘁𝗿𝗶𝗯𝘂𝗰𝗶𝗼́𝗻. Sin riesgos, sin compromisos. 👇 Escríbenos a WhatsApp y recibe todo el material hoy mismo 👇" [ref=e1126]':
+                  - generic [ref=e1129]:
+                    - text: 🤔 ¿Cuánto te cobraría un estudio de arquitectura por 75 proyectos completos con planos, modelos 3D y renders HD? 👇
+                    - text: Miles de dólares. Semanas de trabajo. Y aún así dependerías de ellos para cada cambio 😩
+                    - text: ✅Hoy liberamos un paquete exclusivo con 𝟳𝟱 𝗣𝗿𝗼𝘆𝗲𝗰𝘁𝗼𝘀 𝗱𝗲 𝗔𝗿𝗾𝘂𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮 𝗽𝗿𝗼𝗳𝗲𝘀𝗶𝗼𝗻𝗮𝗹𝗲𝘀, listos para usar, editar y presentar desde el primer día.
+                    - text: 📐 Planos PDF con Layout Profesional
+                    - text: 🧱 Archivos DWG Editables para AutoCAD
+                    - text: 🏗️ Modelos 3D Nativos en Revit
+                    - text: 🖼️ Renders HD para Clientes y Presentaciones
+                    - text: 📁 Todo organizado, todo editable, todo tuyo por un precio simbólico.
+                    - text: "🔥 Y lo mejor: 𝗽𝗿𝗶𝗺𝗲𝗿𝗼 𝗿𝗲𝗰𝗶𝗯𝗲𝘀 𝘁𝗼𝗱𝗼 𝗲𝗹 𝗺𝗮𝘁𝗲𝗿𝗶𝗮𝗹 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼 𝗲𝗻 𝘁𝘂 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝘆 𝗱𝗲𝘀𝗽𝘂𝗲́𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝘀 𝘁𝘂 𝗰𝗼𝗻𝘁𝗿𝗶𝗯𝘂𝗰𝗶𝗼́𝗻. Sin riesgos, sin compromisos."
+                    - text: 👇 Escríbenos a WhatsApp y recibe todo el material hoy mismo 👇
+                - group "Video player" [ref=e1139]:
+                  - button "Reproduzir o vídeo" [ref=e1141] [cursor=pointer]
+                  - generic [ref=e1143]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:32
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic [ref=e1144]:
+                  - generic [ref=e1145]:
+                    - button "API.WHATSAPP.COM" [ref=e1147]:
+                      - generic [ref=e1148]: API.WHATSAPP.COM
+                    - button "RECIBIR MATERIAL AHORA 👉" [ref=e1150]:
+                      - generic [ref=e1151]: RECIBIR MATERIAL AHORA 👉
+                    - button "⭐⭐⭐⭐⭐4.9/5" [ref=e1153]:
+                      - generic [ref=e1154]: ⭐⭐⭐⭐⭐4.9/5
+                    - generic:
+                      - button
+                  - button "Enviar mensagem pelo WhatsApp" [disabled] [ref=e1156]:
+                    - generic [ref=e1160]: Enviar mensagem pelo WhatsApp
+          - generic [ref=e1162]:
+            - generic [ref=e1164]:
+              - generic [ref=e1165]:
+                - generic [ref=e1172]: Ativo
+                - generic [ref=e1175]: "Identificação da biblioteca: 1457037442666579"
+                - generic [ref=e1177]: Veiculação iniciada em 18 de mar de 2026
+                - generic [ref=e1179]: Plataformas
+              - button "Menu Menu" [ref=e1196] [cursor=pointer]:
+                - generic [ref=e1198]:
+                  - generic [ref=e1199]: Menu
+                  - img "Menu" [ref=e1202]
+            - button "Ver detalhes do anúncio" [ref=e1204] [cursor=pointer]:
+              - generic [ref=e1208]: Ver detalhes do anúncio
+            - separator [ref=e1209]
+            - generic [ref=e1214]:
+              - generic [ref=e1216]:
+                - img "Archivo Digital" [ref=e1217]
+                - generic [ref=e1219]:
+                  - link "Archivo Digital" [ref=e1220] [cursor=pointer]:
+                    - /url: https://www.facebook.com/archivo.digitaal/
+                  - generic [ref=e1224]:
+                    - strong [ref=e1226]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1227]:
+                - button "👷‍♂️ Si eres arquitecto, vendedor de proyectos o emprendedor del rubro y aún pierdes horas armando presentaciones desde cero... Esto es para ti 👇 🏠 Acabamos de liberar 𝟳𝟱 𝗣𝗿𝗼𝘆𝗲𝗰𝘁𝗼𝘀 𝗱𝗲 𝗔𝗿𝗾𝘂𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮 𝗖𝗼𝗺𝗽𝗹𝗲𝘁𝗼𝘀, cada uno con planos PDF, DWG editables, modelo 3D en Revit y render HD profesional. ✅ Presenta propuestas de alto nivel en minutos ✅ Amplía tu catálogo con material de primer nivel ✅ Cierra más clientes con renders que impactan ✅ Vende con material profesional 🔥 Y antes de pagar un solo peso, 𝘁𝗲 𝗲𝗻𝘃𝗶𝗮𝗺𝗼𝘀 𝘁𝗼𝗱𝗼 𝗲𝗹 𝗺𝗮𝘁𝗲𝗿𝗶𝗮𝗹 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼 𝗽𝗮𝗿𝗮 𝗾𝘂𝗲 𝗹𝗼 𝗿𝗲𝘃𝗶𝘀𝗲𝘀 𝗰𝗼𝗻 𝘁𝘂𝘀 𝗽𝗿𝗼𝗽𝗶𝗼𝘀 𝗼𝗷𝗼𝘀. Así de seguros estamos de su calidad. Un recurso que normalmente costaría miles de dólares, ahora disponible por una contribución simbólica. 👇 Escríbenos a WhatsApp y recibe todo el material ahora mismo 👇" [ref=e1230]:
+                  - generic [ref=e1233]:
+                    - text: 👷‍♂️ Si eres arquitecto, vendedor de proyectos o emprendedor del rubro y aún pierdes horas armando presentaciones desde cero... Esto es para ti 👇
+                    - text: 🏠 Acabamos de liberar 𝟳𝟱 𝗣𝗿𝗼𝘆𝗲𝗰𝘁𝗼𝘀 𝗱𝗲 𝗔𝗿𝗾𝘂𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮 𝗖𝗼𝗺𝗽𝗹𝗲𝘁𝗼𝘀, cada uno con planos PDF, DWG editables, modelo 3D en Revit y render HD profesional.
+                    - text: ✅ Presenta propuestas de alto nivel en minutos
+                    - text: ✅ Amplía tu catálogo con material de primer nivel
+                    - text: ✅ Cierra más clientes con renders que impactan
+                    - text: ✅ Vende con material profesional
+                    - text: 🔥 Y antes de pagar un solo peso, 𝘁𝗲 𝗲𝗻𝘃𝗶𝗮𝗺𝗼𝘀 𝘁𝗼𝗱𝗼 𝗲𝗹 𝗺𝗮𝘁𝗲𝗿𝗶𝗮𝗹 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼 𝗽𝗮𝗿𝗮 𝗾𝘂𝗲 𝗹𝗼 𝗿𝗲𝘃𝗶𝘀𝗲𝘀 𝗰𝗼𝗻 𝘁𝘂𝘀 𝗽𝗿𝗼𝗽𝗶𝗼𝘀 𝗼𝗷𝗼𝘀. Así de seguros estamos de su calidad.
+                    - text: Un recurso que normalmente costaría miles de dólares, ahora disponible por una contribución simbólica.
+                    - text: 👇 Escríbenos a WhatsApp y recibe todo el material ahora mismo 👇
+                - group "Video player" [ref=e1244]:
+                  - button "Reproduzir o vídeo" [ref=e1246] [cursor=pointer]
+                  - generic [ref=e1248]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:33
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic [ref=e1249]:
+                  - generic [ref=e1250]:
+                    - button "API.WHATSAPP.COM" [ref=e1252]:
+                      - generic [ref=e1253]: API.WHATSAPP.COM
+                    - button "RECIBIR MATERIAL AHORA 👉" [ref=e1255]:
+                      - generic [ref=e1256]: RECIBIR MATERIAL AHORA 👉
+                    - button "⭐⭐⭐⭐⭐4.9/5" [ref=e1258]:
+                      - generic [ref=e1259]: ⭐⭐⭐⭐⭐4.9/5
+                    - generic:
+                      - button
+                  - button "Enviar mensagem pelo WhatsApp" [disabled] [ref=e1261]:
+                    - generic [ref=e1265]: Enviar mensagem pelo WhatsApp
+          - generic [ref=e1267]:
+            - generic [ref=e1269]:
+              - generic [ref=e1270]:
+                - generic [ref=e1277]: Ativo
+                - generic [ref=e1280]: "Identificação da biblioteca: 2052051665720021"
+                - generic [ref=e1282]: Veiculação iniciada em 18 de mar de 2026
+                - generic [ref=e1284]: Plataformas
+              - button "Menu Menu" [ref=e1301] [cursor=pointer]:
+                - generic [ref=e1303]:
+                  - generic [ref=e1304]: Menu
+                  - img "Menu" [ref=e1307]
+            - button "Ver detalhes do anúncio" [ref=e1309] [cursor=pointer]:
+              - generic [ref=e1313]: Ver detalhes do anúncio
+            - separator [ref=e1314]
+            - generic [ref=e1319]:
+              - generic [ref=e1321]:
+                - img "Archivo Digital" [ref=e1322]
+                - generic [ref=e1324]:
+                  - link "Archivo Digital" [ref=e1325] [cursor=pointer]:
+                    - /url: https://www.facebook.com/archivo.digitaal/
+                  - generic [ref=e1329]:
+                    - strong [ref=e1331]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1332]:
+                - 'button "😤 ¿Cansado de que los arquitectos te cobren fortunas solo por mostrarte unos planos? ¡Hoy eso cambia! 👇 Liberamos 𝟳𝟱 𝗣𝗿𝗼𝘆𝗲𝗰𝘁𝗼𝘀 𝗱𝗲 𝗔𝗿𝗾𝘂𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮 𝗿𝗲𝗮𝗹𝗲𝘀 𝘆 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼𝘀, desarrollados por profesionales, para que puedas visualizar, planificar y construir tu casa con información técnica real en tus manos. 📐 Planos completos listos para imprimir 🧱 Archivos editables para adaptar a tu terreno 🏗️ Modelos 3D para entender cada detalle 🖼️ Renders HD para visualizar el resultado final Sin intermediarios. Sin precios absurdos. Sin depender de nadie. 🔥 Y para que no tengas ninguna duda: 𝗽𝗿𝗶𝗺𝗲𝗿𝗼 𝗿𝗲𝗰𝗶𝗯𝗲𝘀 𝘁𝗼𝗱𝗼 𝗲𝗹 𝗺𝗮𝘁𝗲𝗿𝗶𝗮𝗹 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼 𝗲𝗻 𝘁𝘂 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝘆 𝗱𝗲𝘀𝗽𝘂𝗲́𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝘀 𝘁𝘂 𝗰𝗼𝗻𝘁𝗿𝗶𝗯𝘂𝗰𝗶𝗼́𝗻. Primero recibe, luego paga. 👇 Escríbenos ahora y recibe todo el material hoy mismo 👇" [ref=e1335]':
+                  - generic [ref=e1338]:
+                    - text: 😤 ¿Cansado de que los arquitectos te cobren fortunas solo por mostrarte unos planos? ¡Hoy eso cambia! 👇
+                    - text: Liberamos 𝟳𝟱 𝗣𝗿𝗼𝘆𝗲𝗰𝘁𝗼𝘀 𝗱𝗲 𝗔𝗿𝗾𝘂𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮 𝗿𝗲𝗮𝗹𝗲𝘀 𝘆 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼𝘀, desarrollados por profesionales, para que puedas visualizar, planificar y construir tu casa con información técnica real en tus manos.
+                    - text: 📐 Planos completos listos para imprimir
+                    - text: 🧱 Archivos editables para adaptar a tu terreno
+                    - text: 🏗️ Modelos 3D para entender cada detalle
+                    - text: 🖼️ Renders HD para visualizar el resultado final
+                    - text: Sin intermediarios. Sin precios absurdos. Sin depender de nadie.
+                    - text: "🔥 Y para que no tengas ninguna duda: 𝗽𝗿𝗶𝗺𝗲𝗿𝗼 𝗿𝗲𝗰𝗶𝗯𝗲𝘀 𝘁𝗼𝗱𝗼 𝗲𝗹 𝗺𝗮𝘁𝗲𝗿𝗶𝗮𝗹 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼 𝗲𝗻 𝘁𝘂 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝘆 𝗱𝗲𝘀𝗽𝘂𝗲́𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝘀 𝘁𝘂 𝗰𝗼𝗻𝘁𝗿𝗶𝗯𝘂𝗰𝗶𝗼́𝗻. Primero recibe, luego paga."
+                    - text: 👇 Escríbenos ahora y recibe todo el material hoy mismo 👇
+                - group "Video player" [ref=e1349]:
+                  - button "Reproduzir o vídeo" [ref=e1351] [cursor=pointer]
+                  - generic [ref=e1353]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:29
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic [ref=e1354]:
+                  - generic [ref=e1355]:
+                    - button "API.WHATSAPP.COM" [ref=e1357]:
+                      - generic [ref=e1358]: API.WHATSAPP.COM
+                    - button "RECIBIR MATERIAL AHORA 👉" [ref=e1360]:
+                      - generic [ref=e1361]: RECIBIR MATERIAL AHORA 👉
+                    - button "⭐⭐⭐⭐⭐4.9/5" [ref=e1363]:
+                      - generic [ref=e1364]: ⭐⭐⭐⭐⭐4.9/5
+                    - generic:
+                      - button
+                  - button "Enviar mensagem pelo WhatsApp" [disabled] [ref=e1366]:
+                    - generic [ref=e1370]: Enviar mensagem pelo WhatsApp
+          - generic [ref=e1372]:
+            - generic [ref=e1374]:
+              - generic [ref=e1375]:
+                - generic [ref=e1382]: Ativo
+                - generic [ref=e1385]: "Identificação da biblioteca: 2135898160479357"
+                - generic [ref=e1387]: Veiculação iniciada em 18 de mar de 2026
+                - generic [ref=e1389]: Plataformas
+              - button "Menu Menu" [ref=e1406] [cursor=pointer]:
+                - generic [ref=e1408]:
+                  - generic [ref=e1409]: Menu
+                  - img "Menu" [ref=e1412]
+            - button "Ver detalhes do anúncio" [ref=e1414] [cursor=pointer]:
+              - generic [ref=e1418]: Ver detalhes do anúncio
+            - separator [ref=e1419]
+            - generic [ref=e1424]:
+              - generic [ref=e1426]:
+                - img "Archivo Digital" [ref=e1427]
+                - generic [ref=e1429]:
+                  - link "Archivo Digital" [ref=e1430] [cursor=pointer]:
+                    - /url: https://www.facebook.com/archivo.digitaal/
+                  - generic [ref=e1434]:
+                    - strong [ref=e1436]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1437]:
+                - 'button "✅La diferencia entre un estudiante de arquitectura que destaca y uno que pasa desapercibido es el nivel de su portafolio 😎 ¿El tuyo refleja tu verdadero potencial? 👉 Con nuestra biblioteca de 𝟳𝟱 𝗣𝗿𝗼𝘆𝗲𝗰𝘁𝗼𝘀 𝗱𝗲 𝗔𝗿𝗾𝘂𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮 𝗽𝗿𝗼𝗳𝗲𝘀𝗶𝗼𝗻𝗮𝗹𝗲𝘀 tendrás acceso a proyectos reales con planos PDF, archivos DWG editables, modelos 3D en Revit y renders HD, exactamente lo que los estudios de arquitectura nunca te enseñan en la universidad. 🏠 Aprende de proyectos reales 📐 Crea un portafolio de nivel profesional 🖼️ Destaca desde hoy con material que habla por ti 🔥 Y lo mejor de todo: 𝗣𝗼𝗿 𝘂𝗻 𝗽𝗿𝗲𝗰𝗶𝗼 𝘀𝗶𝗺𝗯𝗼́𝗹𝗶𝗰𝗼 𝗾𝘂𝗲 𝗻𝗼 𝗲𝗻𝗰𝗼𝗻𝘁𝗿𝗮𝗿𝗮́𝘀 𝗲𝗻 𝗻𝗶𝗻𝗴𝘂́𝗻 𝗼𝘁𝗿𝗼 𝗹𝗮𝗱𝗼. Primero recibe, luego paga. 👇 Escríbenos ahora y empieza a destacar hoy mismo 👇" [ref=e1440]':
+                  - generic [ref=e1443]:
+                    - text: ✅La diferencia entre un estudiante de arquitectura que destaca y uno que pasa desapercibido es el nivel de su portafolio 😎
+                    - text: ¿El tuyo refleja tu verdadero potencial?
+                    - text: 👉 Con nuestra biblioteca de 𝟳𝟱 𝗣𝗿𝗼𝘆𝗲𝗰𝘁𝗼𝘀 𝗱𝗲 𝗔𝗿𝗾𝘂𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮 𝗽𝗿𝗼𝗳𝗲𝘀𝗶𝗼𝗻𝗮𝗹𝗲𝘀 tendrás acceso a proyectos reales con planos PDF, archivos DWG editables, modelos 3D en Revit y renders HD, exactamente lo que los estudios de arquitectura nunca te enseñan en la universidad.
+                    - text: 🏠 Aprende de proyectos reales
+                    - text: 📐 Crea un portafolio de nivel profesional
+                    - text: 🖼️ Destaca desde hoy con material que habla por ti
+                    - text: "🔥 Y lo mejor de todo: 𝗣𝗼𝗿 𝘂𝗻 𝗽𝗿𝗲𝗰𝗶𝗼 𝘀𝗶𝗺𝗯𝗼́𝗹𝗶𝗰𝗼 𝗾𝘂𝗲 𝗻𝗼 𝗲𝗻𝗰𝗼𝗻𝘁𝗿𝗮𝗿𝗮́𝘀 𝗲𝗻 𝗻𝗶𝗻𝗴𝘂́𝗻 𝗼𝘁𝗿𝗼 𝗹𝗮𝗱𝗼. Primero recibe, luego paga."
+                    - text: 👇 Escríbenos ahora y empieza a destacar hoy mismo 👇
+                - group "Video player" [ref=e1453]:
+                  - button "Reproduzir o vídeo" [ref=e1455] [cursor=pointer]
+                  - generic [ref=e1457]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:32
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic [ref=e1458]:
+                  - generic [ref=e1459]:
+                    - button "API.WHATSAPP.COM" [ref=e1461]:
+                      - generic [ref=e1462]: API.WHATSAPP.COM
+                    - button "RECIBIR MATERIAL AHORA 👉" [ref=e1464]:
+                      - generic [ref=e1465]: RECIBIR MATERIAL AHORA 👉
+                    - button "⭐⭐⭐⭐⭐4.9/5" [ref=e1467]:
+                      - generic [ref=e1468]: ⭐⭐⭐⭐⭐4.9/5
+                    - generic:
+                      - button
+                  - button "Enviar mensagem pelo WhatsApp" [disabled] [ref=e1470]:
+                    - generic [ref=e1474]: Enviar mensagem pelo WhatsApp
+          - generic [ref=e1476]:
+            - generic [ref=e1478]:
+              - generic [ref=e1479]:
+                - generic [ref=e1486]: Ativo
+                - generic [ref=e1489]: "Identificação da biblioteca: 915397477768441"
+                - generic [ref=e1491]: Veiculação iniciada em 18 de mar de 2026
+                - generic [ref=e1493]: Plataformas
+              - button "Menu Menu" [ref=e1510] [cursor=pointer]:
+                - generic [ref=e1512]:
+                  - generic [ref=e1513]: Menu
+                  - img "Menu" [ref=e1516]
+            - button "Ver detalhes do anúncio" [ref=e1518] [cursor=pointer]:
+              - generic [ref=e1522]: Ver detalhes do anúncio
+            - separator [ref=e1523]
+            - generic [ref=e1528]:
+              - generic [ref=e1530]:
+                - img "Archivo Digital" [ref=e1531]
+                - generic [ref=e1533]:
+                  - link "Archivo Digital" [ref=e1534] [cursor=pointer]:
+                    - /url: https://www.facebook.com/archivo.digitaal/
+                  - generic [ref=e1538]:
+                    - strong [ref=e1540]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1541]:
+                - 'button "😤 ¿Cansado de que los arquitectos te cobren fortunas solo por mostrarte unos planos? ¡Hoy eso cambia! 👇 Liberamos 𝟳𝟱 𝗣𝗿𝗼𝘆𝗲𝗰𝘁𝗼𝘀 𝗱𝗲 𝗔𝗿𝗾𝘂𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮 𝗿𝗲𝗮𝗹𝗲𝘀 𝘆 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼𝘀, desarrollados por profesionales, para que puedas visualizar, planificar y construir tu casa con información técnica real en tus manos. 📐 Planos completos listos para imprimir 🧱 Archivos editables para adaptar a tu terreno 🏗️ Modelos 3D para entender cada detalle 🖼️ Renders HD para visualizar el resultado final Sin intermediarios. Sin precios absurdos. Sin depender de nadie. 🔥 Y para que no tengas ninguna duda: 𝗽𝗿𝗶𝗺𝗲𝗿𝗼 𝗿𝗲𝗰𝗶𝗯𝗲𝘀 𝘁𝗼𝗱𝗼 𝗲𝗹 𝗺𝗮𝘁𝗲𝗿𝗶𝗮𝗹 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼 𝗲𝗻 𝘁𝘂 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝘆 𝗱𝗲𝘀𝗽𝘂𝗲́𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝘀 𝘁𝘂 𝗰𝗼𝗻𝘁𝗿𝗶𝗯𝘂𝗰𝗶𝗼́𝗻. Primero recibe, luego paga. 👇 Escríbenos ahora y recibe todo el material hoy mismo 👇" [ref=e1544]':
+                  - generic [ref=e1547]:
+                    - text: 😤 ¿Cansado de que los arquitectos te cobren fortunas solo por mostrarte unos planos? ¡Hoy eso cambia! 👇
+                    - text: Liberamos 𝟳𝟱 𝗣𝗿𝗼𝘆𝗲𝗰𝘁𝗼𝘀 𝗱𝗲 𝗔𝗿𝗾𝘂𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮 𝗿𝗲𝗮𝗹𝗲𝘀 𝘆 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼𝘀, desarrollados por profesionales, para que puedas visualizar, planificar y construir tu casa con información técnica real en tus manos.
+                    - text: 📐 Planos completos listos para imprimir
+                    - text: 🧱 Archivos editables para adaptar a tu terreno
+                    - text: 🏗️ Modelos 3D para entender cada detalle
+                    - text: 🖼️ Renders HD para visualizar el resultado final
+                    - text: Sin intermediarios. Sin precios absurdos. Sin depender de nadie.
+                    - text: "🔥 Y para que no tengas ninguna duda: 𝗽𝗿𝗶𝗺𝗲𝗿𝗼 𝗿𝗲𝗰𝗶𝗯𝗲𝘀 𝘁𝗼𝗱𝗼 𝗲𝗹 𝗺𝗮𝘁𝗲𝗿𝗶𝗮𝗹 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼 𝗲𝗻 𝘁𝘂 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝘆 𝗱𝗲𝘀𝗽𝘂𝗲́𝘀 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝘀 𝘁𝘂 𝗰𝗼𝗻𝘁𝗿𝗶𝗯𝘂𝗰𝗶𝗼́𝗻. Primero recibe, luego paga."
+                    - text: 👇 Escríbenos ahora y recibe todo el material hoy mismo 👇
+                - group "Video player" [ref=e1558]:
+                  - button "Reproduzir o vídeo" [ref=e1560] [cursor=pointer]
+                  - generic [ref=e1562]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:35
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic [ref=e1563]:
+                  - generic [ref=e1564]:
+                    - button "API.WHATSAPP.COM" [ref=e1566]:
+                      - generic [ref=e1567]: API.WHATSAPP.COM
+                    - button "RECIBIR MATERIAL AHORA 👉" [ref=e1569]:
+                      - generic [ref=e1570]: RECIBIR MATERIAL AHORA 👉
+                    - button "⭐⭐⭐⭐⭐4.9/5" [ref=e1572]:
+                      - generic [ref=e1573]: ⭐⭐⭐⭐⭐4.9/5
+                    - generic:
+                      - button
+                  - button "Enviar mensagem pelo WhatsApp" [disabled] [ref=e1575]:
+                    - generic [ref=e1579]: Enviar mensagem pelo WhatsApp
+    - generic [ref=e1581]:
+      - generic [ref=e1589]: Status do sistema
+      - generic [ref=e1593]:
+        - list [ref=e1594]:
+          - listitem [ref=e1595]:
+            - link "API da Biblioteca de Anúncios" [ref=e1597] [cursor=pointer]:
+              - /url: /ads/library/api/?source=archive-landing-page
+          - listitem [ref=e1598]:
+            - link "Sobre anúncios e uso de dados" [ref=e1600] [cursor=pointer]:
+              - /url: /ads/about/?entry_product=ad_library
+          - listitem [ref=e1601]:
+            - link "Privacidade" [ref=e1603] [cursor=pointer]:
+              - /url: /privacy/center/?entry_point=privacy_basics_redirect
+          - listitem [ref=e1604]:
+            - link "Termos" [ref=e1606] [cursor=pointer]:
+              - /url: /policies/
+          - listitem [ref=e1607]:
+            - link "Cookies" [ref=e1609] [cursor=pointer]:
+              - /url: /policies/cookies/
+        - generic [ref=e1611]:
+          - text: Meta © 2026 |
+          - link "Português (Brasil)" [ref=e1612] [cursor=pointer]:
+            - /url: /language/

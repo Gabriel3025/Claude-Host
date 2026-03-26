@@ -1,0 +1,164 @@
+- generic [ref=e12]:
+  - generic [ref=e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=e27] [cursor=pointer]:
+      - generic [ref=e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=e33] [cursor=pointer]
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - combobox "Tudo" [ref=e44] [cursor=pointer]:
+        - generic [ref=e51]: Tudo
+      - combobox "Todos os anúncios" [ref=e58] [cursor=pointer]:
+        - generic [ref=e68]: Todos os anúncios
+    - generic [ref=e78]:
+      - generic [ref=e84]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=e90]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=e96]: henriquemiguel.com
+        - button "Limpar" [ref=e98] [cursor=pointer]
+  - dialog [ref=e100]:
+    - generic [ref=e101]:
+      - link [ref=e102] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=e103]: Entrar
+      - menuitem [ref=e104] [cursor=pointer]
+    - generic [ref=e106]:
+      - generic [ref=e107]:
+        - heading [level=4] [ref=e109]: Biblioteca de Anúncios
+        - menuitem [ref=e111] [cursor=pointer]:
+          - heading [level=4] [ref=e113]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=e115] [cursor=pointer]:
+          - heading [level=4] [ref=e117]: API da Biblioteca de Anúncios
+        - menuitem [ref=e119] [cursor=pointer]:
+          - heading [level=4] [ref=e121]: Conteúdo de marca
+      - separator [ref=e122]
+      - generic [ref=e123]:
+        - menuitem [ref=e125] [cursor=pointer]:
+          - heading [level=4] [ref=e127]: Status do sistema
+        - menuitem [ref=e129] [cursor=pointer]:
+          - heading [level=4] [ref=e131]: Assinar para receber atualizações por email
+        - menuitem [ref=e133] [cursor=pointer]:
+          - heading [level=4] [ref=e135]: Perguntas frequentes
+        - menuitem [ref=e137] [cursor=pointer]:
+          - heading [level=4] [ref=e139]: Sobre anúncios e uso de dados
+        - menuitem [ref=e141] [cursor=pointer]:
+          - heading [level=4] [ref=e143]: Privacidade
+        - menuitem [ref=e145] [cursor=pointer]:
+          - heading [level=4] [ref=e147]: Termos
+        - menuitem [ref=e149] [cursor=pointer]:
+          - heading [level=4] [ref=e151]: Cookies
+  - generic [ref=e152]:
+    - generic [ref=e166]:
+      - generic [ref=e172]:
+        - heading "~23 resultados" [level=3] [ref=e174]
+        - generic [ref=e176]:
+          - text: Esses resultados incluem anúncios que correspondem à sua
+          - strong [ref=e177]: pesquisa por palavra-chave.
+      - generic [ref=e178]:
+        - generic [ref=e184]:
+          - button "Filtros (1)" [ref=e186] [cursor=pointer]:
+            - generic [ref=e192]: Filtros (1)
+          - button "Classificar por" [ref=e195] [cursor=pointer]:
+            - generic [ref=e200]: Classificar por
+        - generic [ref=e203]:
+          - generic [ref=e205]:
+            - generic [ref=e207]:
+              - generic [ref=e208]:
+                - generic [ref=e215]: Ativo
+                - generic [ref=e218]: "Identificação da biblioteca: 929564531847136"
+                - generic [ref=e220]: Veiculação iniciada em 17 de fev de 2024
+                - generic [ref=e222]: Plataformas
+                - generic [ref=e235]:
+                  - strong [ref=e236]: 12 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e237] [cursor=pointer]:
+                - generic [ref=e239]:
+                  - generic [ref=e240]: Menu
+                  - img "Menu" [ref=e243]
+            - button "Ver resumo" [ref=e245] [cursor=pointer]:
+              - generic [ref=e249]: Ver resumo
+            - separator [ref=e250]
+            - generic [ref=e255]:
+              - generic [ref=e257]:
+                - img "HenriqueMiguel" [ref=e258]
+                - generic [ref=e260]:
+                  - link "HenriqueMiguel" [ref=e261] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100063571171462/
+                  - generic [ref=e265]:
+                    - strong [ref=e267]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e268]:
+                - button "🚀Aprenda tudo o que você precisa saber para aplicar de forma segura e precisa os diversos métodos de treino na musculação! Oportunidade imperdível para estudantes e profissionais de educação física. Curso completo em videoaulas + material de apoio em PDF + Bônus exclusivos + certificado! Venha também fazer parte do curso que já possui mais de 10 mil alunos pelo mundo!" [ref=e271]:
+                  - generic [ref=e274]:
+                    - text: 🚀Aprenda tudo o que você precisa saber para aplicar de forma segura e precisa os diversos métodos de treino na musculação!
+                    - text: Oportunidade imperdível para estudantes e profissionais de educação física.
+                    - text: Curso completo em videoaulas + material de apoio em PDF + Bônus exclusivos + certificado!
+                    - text: Venha também fazer parte do curso que já possui mais de 10 mil alunos pelo mundo!
+                - link [ref=e276] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.henriquemiguel.com%2F51metodos&h=AT7mtuSL99zEv00vP0iRIAoUCIyNO4vKm4nVyLgBTvdTPOtb615df1aPiFeKvfLMX0Oh4uCd6hnPLgZiputmGVxVGaKtHHj7dKGReHDFgdggdPFVC2FewDmSEKDLg0qwuEJ04HN_UJaVsqgrrNze4g
+          - generic [ref=e279]:
+            - generic [ref=e281]:
+              - generic [ref=e282]:
+                - generic [ref=e289]: Ativo
+                - generic [ref=e292]: "Identificação da biblioteca: 3443020532675443"
+                - generic [ref=e294]: Veiculação iniciada em 16 de fev de 2024
+                - generic [ref=e296]: Plataformas
+                - generic [ref=e309]:
+                  - strong [ref=e310]: 11 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e311] [cursor=pointer]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]: Menu
+                  - img "Menu" [ref=e317]
+            - button "Ver resumo" [ref=e319] [cursor=pointer]:
+              - generic [ref=e323]: Ver resumo
+            - separator [ref=e324]
+            - generic [ref=e329]:
+              - generic [ref=e331]:
+                - img "HenriqueMiguel" [ref=e332]
+                - generic [ref=e334]:
+                  - link "HenriqueMiguel" [ref=e335] [cursor=pointer]:
+                    - /url: https://www.facebook.com/100063571171462/
+                  - generic [ref=e339]:
+                    - strong [ref=e341]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e342]:
+                - button "🚀Aprenda tudo o que você precisa saber para aplicar de forma segura e precisa os diversos métodos de treino na musculação! Oportunidade imperdível para estudantes e profissionais de educação física. Curso completo em videoaulas + material de apoio em PDF + Bônus exclusivos + certificado! Venha também fazer parte do curso que já possui mais de 10 mil alunos pelo mundo!" [ref=e345]:
+                  - generic [ref=e348]:
+                    - text: 🚀Aprenda tudo o que você precisa saber para aplicar de forma segura e precisa os diversos métodos de treino na musculação!
+                    - text: Oportunidade imperdível para estudantes e profissionais de educação física.
+                    - text: Curso completo em videoaulas + material de apoio em PDF + Bônus exclusivos + certificado!
+                    - text: Venha também fazer parte do curso que já possui mais de 10 mil alunos pelo mundo!
+                - link [ref=e350] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.henriquemiguel.com%2F51metodos&h=AT7mtuSL99zEv00vP0iRIAoUCIyNO4vKm4nVyLgBTvdTPOtb615df1aPiFeKvfLMX0Oh4uCd6hnPLgZiputmGVxVGaKtHHj7dKGReHDFgdggdPFVC2FewDmSEKDLg0qwuEJ04HN_UJaVsqgrrNze4g
+    - generic [ref=e353]:
+      - generic [ref=e361]: Status do sistema
+      - generic [ref=e365]:
+        - list [ref=e366]:
+          - listitem [ref=e367]:
+            - link "API da Biblioteca de Anúncios" [ref=e369] [cursor=pointer]:
+              - /url: /ads/library/api/?source=archive-landing-page
+          - listitem [ref=e370]:
+            - link "Sobre anúncios e uso de dados" [ref=e372] [cursor=pointer]:
+              - /url: /ads/about/?entry_product=ad_library
+          - listitem [ref=e373]:
+            - link "Privacidade" [ref=e375] [cursor=pointer]:
+              - /url: /privacy/center/?entry_point=privacy_basics_redirect
+          - listitem [ref=e376]:
+            - link "Termos" [ref=e378] [cursor=pointer]:
+              - /url: /policies/
+          - listitem [ref=e379]:
+            - link "Cookies" [ref=e381] [cursor=pointer]:
+              - /url: /policies/cookies/
+        - generic [ref=e383]:
+          - text: Meta © 2026 |
+          - link "Português (Brasil)" [ref=e384] [cursor=pointer]:
+            - /url: /language/

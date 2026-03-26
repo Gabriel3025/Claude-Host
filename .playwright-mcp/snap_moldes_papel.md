@@ -1,0 +1,1208 @@
+- generic [ref=e12]:
+  - generic [ref=e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=e27] [cursor=pointer]:
+      - generic [ref=e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=e33] [cursor=pointer]
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - combobox "Tudo" [ref=e44] [cursor=pointer]:
+        - generic [ref=e51]: Tudo
+      - combobox "Todos os anúncios" [ref=e63] [cursor=pointer]:
+        - generic [ref=e73]: Todos os anúncios
+    - generic [ref=e83]:
+      - generic [ref=e89]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=e95]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=e101]: Criando Em Casa
+        - button "Limpar" [ref=e103] [cursor=pointer]
+  - generic [ref=e106]:
+    - img "Foto do perfil da Página" [ref=e111]
+    - heading "Criando Em Casa" [level=1] [ref=e116]
+  - generic [ref=e118]:
+    - link "Anúncios" [ref=e119] [cursor=pointer]
+    - link "Sobre" [ref=e120] [cursor=pointer]
+  - dialog [ref=e121]:
+    - generic [ref=e122]:
+      - link [ref=e123] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=e124]: Entrar
+      - menuitem [ref=e125] [cursor=pointer]
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - heading [level=4] [ref=e130]: Biblioteca de Anúncios
+        - menuitem [ref=e132] [cursor=pointer]:
+          - heading [level=4] [ref=e134]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=e136] [cursor=pointer]:
+          - heading [level=4] [ref=e138]: API da Biblioteca de Anúncios
+        - menuitem [ref=e140] [cursor=pointer]:
+          - heading [level=4] [ref=e142]: Conteúdo de marca
+      - separator [ref=e143]
+      - generic [ref=e144]:
+        - menuitem [ref=e146] [cursor=pointer]:
+          - heading [level=4] [ref=e148]: Status do sistema
+        - menuitem [ref=e150] [cursor=pointer]:
+          - heading [level=4] [ref=e152]: Assinar para receber atualizações por email
+        - menuitem [ref=e154] [cursor=pointer]:
+          - heading [level=4] [ref=e156]: Perguntas frequentes
+        - menuitem [ref=e158] [cursor=pointer]:
+          - heading [level=4] [ref=e160]: Sobre anúncios e uso de dados
+        - menuitem [ref=e162] [cursor=pointer]:
+          - heading [level=4] [ref=e164]: Privacidade
+        - menuitem [ref=e166] [cursor=pointer]:
+          - heading [level=4] [ref=e168]: Termos
+        - menuitem [ref=e170] [cursor=pointer]:
+          - heading [level=4] [ref=e172]: Cookies
+  - generic [ref=e173]:
+    - generic [ref=e187]:
+      - heading "~56 resultados" [level=3] [ref=e195]
+      - generic [ref=e196]:
+        - generic [ref=e202]:
+          - button "Filtros (1)" [ref=e204] [cursor=pointer]:
+            - generic [ref=e210]: Filtros (1)
+          - button "Classificar por" [ref=e213] [cursor=pointer]:
+            - generic [ref=e218]: Classificar por
+        - generic [ref=e221]:
+          - generic [ref=e223]:
+            - generic [ref=e225]:
+              - generic [ref=e226]:
+                - generic [ref=e233]: Ativo
+                - generic [ref=e236]: "Identificação da biblioteca: 1686189999204323"
+                - generic [ref=e238]: Veiculação iniciada em 14 de fev de 2026
+                - generic [ref=e240]: Plataformas
+                - generic [ref=e268]:
+                  - strong [ref=e269]: 4 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e270] [cursor=pointer]:
+                - generic [ref=e272]:
+                  - generic [ref=e273]: Menu
+                  - img "Menu" [ref=e276]
+            - button "Ver resumo" [ref=e278] [cursor=pointer]:
+              - generic [ref=e282]: Ver resumo
+            - separator [ref=e283]
+            - generic [ref=e288]:
+              - generic [ref=e290]:
+                - img "Criando Em Casa" [ref=e291]
+                - generic [ref=e293]:
+                  - link "Criando Em Casa" [ref=e294] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e298]:
+                    - strong [ref=e300]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e301]:
+                - button "Você sabia que um brinquedo comum pode custar R$80 ou mais? 😳 Agora imagine ter +1200 modelos 3D de dinossauros para imprimir em casa por apenas R$10,00! 🦖 É só baixar 🖨️ Imprimir ✂️ Montar 🎉 E brincar! Uma atividade criativa que tira as crianças das telas e ainda estimula foco, coordenação motora e imaginação. 💥 Pague menos que um lanche e garanta diversão por meses! 👉 Clique agora e receba acesso imediato." [ref=e304]:
+                  - generic [ref=e307]:
+                    - text: Você sabia que um brinquedo comum pode custar R$80 ou mais? 😳
+                    - text: Agora imagine ter +1200 modelos 3D de dinossauros para imprimir em casa por apenas R$10,00!
+                    - text: 🦖 É só baixar
+                    - text: 🖨️ Imprimir
+                    - text: ✂️ Montar
+                    - text: 🎉 E brincar!
+                    - text: Uma atividade criativa que tira as crianças das telas e ainda estimula foco, coordenação motora e imaginação.
+                    - text: 💥 Pague menos que um lanche e garanta diversão por meses!
+                    - text: 👉 Clique agora e receba acesso imediato.
+                - link [ref=e309] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+          - generic [ref=e312]:
+            - generic [ref=e314]:
+              - generic [ref=e315]:
+                - generic [ref=e322]: Ativo
+                - generic [ref=e325]: "Identificação da biblioteca: 887863197496315"
+                - generic [ref=e327]: Veiculação iniciada em 15 de fev de 2026
+                - generic [ref=e329]: Plataformas
+                - generic [ref=e357]:
+                  - strong [ref=e358]: 4 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e359] [cursor=pointer]:
+                - generic [ref=e361]:
+                  - generic [ref=e362]: Menu
+                  - img "Menu" [ref=e365]
+            - button "Ver resumo" [ref=e367] [cursor=pointer]:
+              - generic [ref=e371]: Ver resumo
+            - separator [ref=e372]
+            - generic [ref=e377]:
+              - generic [ref=e379]:
+                - img "Criando Em Casa" [ref=e380]
+                - generic [ref=e382]:
+                  - link "Criando Em Casa" [ref=e383] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e387]:
+                    - strong [ref=e389]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e390]:
+                - 'button "Sua filha ama princesas? Agora ela pode montar, criar e brincar longe das telas com mais de 1200 modelos 3D para imprimir em casa. Uma atividade simples que estimula: ✔️ Criatividade ✔️ Coordenação motora ✔️ Foco ✔️ Imaginação É só baixar, imprimir e começar. Diversão criativa sem telas por apenas R$10. Clique em “Saiba Mais” e descubra todos os modelos disponíveis." [ref=e393]':
+                  - generic [ref=e396]:
+                    - text: Sua filha ama princesas?
+                    - text: Agora ela pode montar, criar e brincar longe das telas com mais de 1200 modelos 3D para imprimir em casa.
+                    - text: "Uma atividade simples que estimula:"
+                    - text: ✔️ Criatividade
+                    - text: ✔️ Coordenação motora
+                    - text: ✔️ Foco
+                    - text: ✔️ Imaginação
+                    - text: É só baixar, imprimir e começar.
+                    - text: Diversão criativa sem telas por apenas R$10.
+                    - text: Clique em “Saiba Mais” e descubra todos os modelos disponíveis.
+                - link [ref=e398] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+          - generic [ref=e401]:
+            - generic [ref=e403]:
+              - generic [ref=e404]:
+                - generic [ref=e411]: Ativo
+                - generic [ref=e414]: "Identificação da biblioteca: 2139774586799837"
+                - generic [ref=e416]: Veiculação iniciada em 14 de fev de 2026
+                - generic [ref=e418]: Plataformas
+                - generic [ref=e446]:
+                  - strong [ref=e447]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e448] [cursor=pointer]:
+                - generic [ref=e450]:
+                  - generic [ref=e451]: Menu
+                  - img "Menu" [ref=e454]
+            - button "Ver resumo" [ref=e456] [cursor=pointer]:
+              - generic [ref=e460]: Ver resumo
+            - separator [ref=e461]
+            - generic [ref=e466]:
+              - generic [ref=e468]:
+                - img "Criando Em Casa" [ref=e469]
+                - generic [ref=e471]:
+                  - link "Criando Em Casa" [ref=e472] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e476]:
+                    - strong [ref=e478]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e479]:
+                - button "+1200 brinquedos de papel 3D para imprimir e montar. Dinossauros, princesas, fazendinha e muito mais. Atividade simples, sem tela, para crianças de 2 a 8 anos. Acesso imediato." [ref=e482]:
+                  - generic [ref=e485]:
+                    - text: +1200 brinquedos de papel 3D para imprimir e montar.
+                    - text: Dinossauros, princesas, fazendinha e muito mais.
+                    - text: Atividade simples, sem tela, para crianças de 2 a 8 anos.
+                    - text: Acesso imediato.
+                - link [ref=e486] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+          - generic [ref=e489]:
+            - generic [ref=e491]:
+              - generic [ref=e492]:
+                - generic [ref=e499]: Ativo
+                - generic [ref=e502]: "Identificação da biblioteca: 1668880437612002"
+                - generic [ref=e504]: Veiculação iniciada em 14 de fev de 2026
+                - generic [ref=e506]: Plataformas
+                - generic [ref=e534]:
+                  - strong [ref=e535]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e536] [cursor=pointer]:
+                - generic [ref=e538]:
+                  - generic [ref=e539]: Menu
+                  - img "Menu" [ref=e542]
+            - button "Ver resumo" [ref=e544] [cursor=pointer]:
+              - generic [ref=e548]: Ver resumo
+            - separator [ref=e549]
+            - generic [ref=e554]:
+              - generic [ref=e556]:
+                - img "Criando Em Casa" [ref=e557]
+                - generic [ref=e559]:
+                  - link "Criando Em Casa" [ref=e560] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e564]:
+                    - strong [ref=e566]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e567]:
+                - 'button "🚨 PROMOÇÃO POR TEMPO LIMITADO Mais de 1200 modelos 3D para imprimir em casa por apenas R$10. Enquanto muitos pais continuam gastando R$80, R$100 em brinquedos que quebram rápido… Você pode oferecer criatividade, coordenação e diversão sem telas por uma fração do preço. ✔️ Download imediato ✔️ Imprima quando quiser ✔️ Monte quantas vezes quiser ✔️ 100% sem telas Mas atenção: esse valor promocional pode sair do ar a qualquer momento. Clique agora e aproveite antes que termine." [ref=e570]':
+                  - generic [ref=e573]:
+                    - text: 🚨 PROMOÇÃO POR TEMPO LIMITADO
+                    - text: Mais de 1200 modelos 3D para imprimir em casa por apenas R$10.
+                    - text: Enquanto muitos pais continuam gastando R$80, R$100 em brinquedos que quebram rápido…
+                    - text: Você pode oferecer criatividade, coordenação e diversão sem telas por uma fração do preço.
+                    - text: ✔️ Download imediato
+                    - text: ✔️ Imprima quando quiser
+                    - text: ✔️ Monte quantas vezes quiser
+                    - text: ✔️ 100% sem telas
+                    - text: "Mas atenção: esse valor promocional pode sair do ar a qualquer momento."
+                    - text: Clique agora e aproveite antes que termine.
+                - link [ref=e575] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+          - generic [ref=e578]:
+            - generic [ref=e580]:
+              - generic [ref=e581]:
+                - generic [ref=e588]: Ativo
+                - generic [ref=e591]: "Identificação da biblioteca: 1609377393577392"
+                - generic [ref=e593]: Veiculação iniciada em 15 de fev de 2026
+                - generic [ref=e595]: Plataformas
+                - generic [ref=e624]: Esse anúncio tem várias versões
+              - button "Menu Menu" [ref=e629] [cursor=pointer]:
+                - generic [ref=e631]:
+                  - generic [ref=e632]: Menu
+                  - img "Menu" [ref=e635]
+            - button "Ver detalhes do anúncio" [ref=e637] [cursor=pointer]:
+              - generic [ref=e641]: Ver detalhes do anúncio
+            - separator [ref=e642]
+            - generic [ref=e647]:
+              - generic [ref=e650]:
+                - img "Criando Em Casa" [ref=e651]
+                - generic [ref=e653]:
+                  - link "Criando Em Casa" [ref=e654] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e658]:
+                    - strong [ref=e660]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e662]:
+                - button "Mais de 1200 modelos 3D para imprimir e montar em casa. Uma forma encantadora de estimular criatividade, foco e coordenação motora — sem depender de telas. Com princesas e personagens mágicos, sua filha cria histórias enquanto desenvolve habilidades importantes. ✔️ Fácil de imprimir ✔️ Monte quantas vezes quiser ✔️ Diversão educativa ✔️ Download imediato Tudo isso por apenas R$10. Clique em “Saiba Mais” e veja todos os modelos disponíveis." [ref=e665]:
+                  - generic [ref=e668]:
+                    - text: Mais de 1200 modelos 3D para imprimir e montar em casa.
+                    - text: Uma forma encantadora de estimular criatividade, foco e coordenação motora — sem depender de telas.
+                    - text: Com princesas e personagens mágicos, sua filha cria histórias enquanto desenvolve habilidades importantes.
+                    - text: ✔️ Fácil de imprimir
+                    - text: ✔️ Monte quantas vezes quiser
+                    - text: ✔️ Diversão educativa
+                    - text: ✔️ Download imediato
+                    - text: Tudo isso por apenas R$10.
+                    - text: Clique em “Saiba Mais” e veja todos os modelos disponíveis.
+                - link "CRIANDOEMCASA.COM +1200 Modelos 3D Para Imprimir Diversão criativa sem telas | Apenas R$10 Learn More" [ref=e670] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+                  - generic [ref=e672]:
+                    - generic [ref=e673]:
+                      - button "CRIANDOEMCASA.COM" [ref=e675]:
+                        - generic [ref=e676]: CRIANDOEMCASA.COM
+                      - button "+1200 Modelos 3D Para Imprimir" [ref=e678]:
+                        - generic [ref=e679]: +1200 Modelos 3D Para Imprimir
+                      - button "Diversão criativa sem telas | Apenas R$10" [ref=e681]:
+                        - generic [ref=e682]: Diversão criativa sem telas | Apenas R$10
+                      - generic:
+                        - button
+                    - button "Learn More" [ref=e684]:
+                      - generic [ref=e688]: Learn More
+          - generic [ref=e690]:
+            - generic [ref=e692]:
+              - generic [ref=e693]:
+                - generic [ref=e700]: Ativo
+                - generic [ref=e703]: "Identificação da biblioteca: 940392871744662"
+                - generic [ref=e705]: Veiculação iniciada em 14 de fev de 2026
+                - generic [ref=e707]: Plataformas
+                - generic [ref=e735]:
+                  - strong [ref=e736]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e737] [cursor=pointer]:
+                - generic [ref=e739]:
+                  - generic [ref=e740]: Menu
+                  - img "Menu" [ref=e743]
+            - button "Ver resumo" [ref=e745] [cursor=pointer]:
+              - generic [ref=e749]: Ver resumo
+            - separator [ref=e750]
+            - generic [ref=e755]:
+              - generic [ref=e757]:
+                - img "Criando Em Casa" [ref=e758]
+                - generic [ref=e760]:
+                  - link "Criando Em Casa" [ref=e761] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e765]:
+                    - strong [ref=e767]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e768]:
+                - button "🦖 O MAIOR kit de dinossauros 3D que você já viu! São +1200 modelos exclusivos para imprimir em casa e montar com as crianças. ✔ Download imediato ✔ Imprima quantas vezes quiser ✔ Diversão criativa sem telas ✔ Atividade educativa que desenvolve coordenação e foco Tudo isso por apenas R$10,00. É menos que um brinquedo simples — e rende horas de diversão! 👉 Garanta agora seu acesso completo." [ref=e771]:
+                  - generic [ref=e774]:
+                    - text: 🦖 O MAIOR kit de dinossauros 3D que você já viu!
+                    - text: São +1200 modelos exclusivos para imprimir em casa e montar com as crianças.
+                    - text: ✔ Download imediato
+                    - text: ✔ Imprima quantas vezes quiser
+                    - text: ✔ Diversão criativa sem telas
+                    - text: ✔ Atividade educativa que desenvolve coordenação e foco
+                    - text: Tudo isso por apenas R$10,00.
+                    - text: É menos que um brinquedo simples — e rende horas de diversão!
+                    - text: 👉 Garanta agora seu acesso completo.
+                - link [ref=e776] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+          - generic [ref=e779]:
+            - generic [ref=e781]:
+              - generic [ref=e782]:
+                - generic [ref=e789]: Ativo
+                - generic [ref=e792]: "Identificação da biblioteca: 1610944606905712"
+                - generic [ref=e794]: Veiculação iniciada em 18 de fev de 2026
+                - generic [ref=e796]: Plataformas
+                - generic [ref=e824]:
+                  - strong [ref=e825]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e826] [cursor=pointer]:
+                - generic [ref=e828]:
+                  - generic [ref=e829]: Menu
+                  - img "Menu" [ref=e832]
+            - button "Ver resumo" [ref=e834] [cursor=pointer]:
+              - generic [ref=e838]: Ver resumo
+            - separator [ref=e839]
+            - generic [ref=e844]:
+              - generic [ref=e846]:
+                - img "Criando Em Casa" [ref=e847]
+                - generic [ref=e849]:
+                  - link "Criando Em Casa" [ref=e850] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e854]:
+                    - strong [ref=e856]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e857]:
+                - button "Mais de 1200 modelos 3D para imprimir, montar e brincar. Dinossauros, princesas, animais e muito mais. Um kit completo para transformar qualquer tarde em diversão." [ref=e860]:
+                  - generic [ref=e863]:
+                    - text: Mais de 1200 modelos 3D para imprimir, montar e brincar.
+                    - text: Dinossauros, princesas, animais e muito mais.
+                    - text: Um kit completo para transformar qualquer tarde em diversão.
+                - link [ref=e864] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+          - generic [ref=e867]:
+            - generic [ref=e869]:
+              - generic [ref=e870]:
+                - generic [ref=e877]: Ativo
+                - generic [ref=e880]: "Identificação da biblioteca: 1937561567115147"
+                - generic [ref=e882]: Veiculação iniciada em 14 de fev de 2026
+                - generic [ref=e884]: Plataformas
+                - generic [ref=e912]:
+                  - strong [ref=e913]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e914] [cursor=pointer]:
+                - generic [ref=e916]:
+                  - generic [ref=e917]: Menu
+                  - img "Menu" [ref=e920]
+            - button "Ver resumo" [ref=e922] [cursor=pointer]:
+              - generic [ref=e926]: Ver resumo
+            - separator [ref=e927]
+            - generic [ref=e932]:
+              - generic [ref=e934]:
+                - img "Criando Em Casa" [ref=e935]
+                - generic [ref=e937]:
+                  - link "Criando Em Casa" [ref=e938] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e942]:
+                    - strong [ref=e944]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e945]:
+                - button "Você já percebeu que às vezes um lanche custa mais de R$10? Agora imagina investir menos que isso em mais de 1200 dinossauros 3D para imprimir e montar em casa. ✔️ Diversão criativa ✔️ Download imediato ✔️ Monte quantas vezes quiser ✔️ Alternativa sem telas É menos que um lanche… mas entrega horas de diversão. Clique em “Comprar Agora” e aproveite." [ref=e948]:
+                  - generic [ref=e951]:
+                    - text: Você já percebeu que às vezes um lanche custa mais de R$10?
+                    - text: Agora imagina investir menos que isso em mais de 1200 dinossauros 3D para imprimir e montar em casa.
+                    - text: ✔️ Diversão criativa
+                    - text: ✔️ Download imediato
+                    - text: ✔️ Monte quantas vezes quiser
+                    - text: ✔️ Alternativa sem telas
+                    - text: É menos que um lanche…
+                    - text: mas entrega horas de diversão.
+                    - text: Clique em “Comprar Agora” e aproveite.
+                - link [ref=e953] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+          - generic [ref=e956]:
+            - generic [ref=e958]:
+              - generic [ref=e959]:
+                - generic [ref=e966]: Ativo
+                - generic [ref=e969]: "Identificação da biblioteca: 1450481083275138"
+                - generic [ref=e971]: Veiculação iniciada em 15 de fev de 2026
+                - generic [ref=e973]: Plataformas
+                - generic [ref=e1001]:
+                  - strong [ref=e1002]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1003] [cursor=pointer]:
+                - generic [ref=e1005]:
+                  - generic [ref=e1006]: Menu
+                  - img "Menu" [ref=e1009]
+            - button "Ver resumo" [ref=e1011] [cursor=pointer]:
+              - generic [ref=e1015]: Ver resumo
+            - separator [ref=e1016]
+            - generic [ref=e1021]:
+              - generic [ref=e1023]:
+                - img "Criando Em Casa" [ref=e1024]
+                - generic [ref=e1026]:
+                  - link "Criando Em Casa" [ref=e1027] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e1031]:
+                    - strong [ref=e1033]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1034]:
+                - 'button "🚨 PROMOÇÃO POR TEMPO LIMITADO 🚨 Se você estava esperando o momento certo… é agora. São +1200 modelos 3D para imprimir, montar e brincar — por um valor que custa menos que um lanche. Ideal para: 🦖 Tirar as crianças das telas ✂️ Estimular coordenação motora 🧠 Desenvolver foco e criatividade 🏠 Criar momentos em família Você imprime, monta, cola e a diversão começa. Sem mensalidade. Sem enrolação. Download imediato. Mas atenção: é oferta de últimos dias. 💰 Tudo isso por apenas R$10,00 Clique agora e aproveite antes que o valor volte ao normal." [ref=e1037]':
+                  - generic [ref=e1040]:
+                    - text: 🚨 PROMOÇÃO POR TEMPO LIMITADO 🚨
+                    - text: Se você estava esperando o momento certo… é agora.
+                    - text: São +1200 modelos 3D para imprimir, montar e brincar — por um valor que custa menos que um lanche.
+                    - text: "Ideal para:"
+                    - text: 🦖 Tirar as crianças das telas
+                    - text: ✂️ Estimular coordenação motora
+                    - text: 🧠 Desenvolver foco e criatividade
+                    - text: 🏠 Criar momentos em família
+                    - text: Você imprime, monta, cola e a diversão começa.
+                    - text: Sem mensalidade.
+                    - text: Sem enrolação.
+                    - text: Download imediato.
+                    - text: "Mas atenção: é oferta de últimos dias."
+                    - text: 💰 Tudo isso por apenas R$10,00
+                    - text: Clique agora e aproveite antes que o valor volte ao normal.
+                - link [ref=e1042] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+          - generic [ref=e1045]:
+            - generic [ref=e1047]:
+              - generic [ref=e1048]:
+                - generic [ref=e1055]: Ativo
+                - generic [ref=e1058]: "Identificação da biblioteca: 1589279662273672"
+                - generic [ref=e1060]: Veiculação iniciada em 15 de fev de 2026
+                - generic [ref=e1062]: Plataformas
+                - generic [ref=e1090]:
+                  - strong [ref=e1091]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1092] [cursor=pointer]:
+                - generic [ref=e1094]:
+                  - generic [ref=e1095]: Menu
+                  - img "Menu" [ref=e1098]
+            - button "Ver resumo" [ref=e1100] [cursor=pointer]:
+              - generic [ref=e1104]: Ver resumo
+            - separator [ref=e1105]
+            - generic [ref=e1110]:
+              - generic [ref=e1112]:
+                - img "Criando Em Casa" [ref=e1113]
+                - generic [ref=e1115]:
+                  - link "Criando Em Casa" [ref=e1116] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e1120]:
+                    - strong [ref=e1122]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1123]:
+                - 'button "⏰ ÚLTIMOS DIAS DE PROMOÇÃO Se você quer uma atividade criativa, educativa e barata para as crianças… essa é a hora. São +1200 modelos 3D para imprimir Diversão prática, longe das telas e cheia de aprendizado. 🦖 Monte dinossauros incríveis ✂️ Desenvolva coordenação motora 🧠 Estimule foco e criatividade 👨‍👩‍👧 Crie momentos em família Você imprime em casa, monta com papel e cola — e a brincadeira começa. Sem assinatura. Sem mensalidade. Download imediato. Mas atenção: é por tempo limitado. 💰 Tudo isso por apenas R$10,00 Clique agora antes que a promoção termine." [ref=e1126]':
+                  - generic [ref=e1129]:
+                    - text: ⏰ ÚLTIMOS DIAS DE PROMOÇÃO
+                    - text: Se você quer uma atividade criativa, educativa e barata para as crianças… essa é a hora.
+                    - text: São +1200 modelos 3D para imprimir
+                    - text: Diversão prática, longe das telas e cheia de aprendizado.
+                    - text: 🦖 Monte dinossauros incríveis
+                    - text: ✂️ Desenvolva coordenação motora
+                    - text: 🧠 Estimule foco e criatividade
+                    - text: 👨‍👩‍👧 Crie momentos em família
+                    - text: Você imprime em casa, monta com papel e cola — e a brincadeira começa.
+                    - text: Sem assinatura.
+                    - text: Sem mensalidade.
+                    - text: Download imediato.
+                    - text: "Mas atenção: é por tempo limitado."
+                    - text: 💰 Tudo isso por apenas R$10,00
+                    - text: Clique agora antes que a promoção termine.
+                - link [ref=e1131] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+          - generic [ref=e1134]:
+            - generic [ref=e1136]:
+              - generic [ref=e1137]:
+                - generic [ref=e1144]: Ativo
+                - generic [ref=e1147]: "Identificação da biblioteca: 1459866882394863"
+                - generic [ref=e1149]: Veiculação iniciada em 14 de fev de 2026
+                - generic [ref=e1151]: Plataformas
+              - button "Menu Menu" [ref=e1178] [cursor=pointer]:
+                - generic [ref=e1180]:
+                  - generic [ref=e1181]: Menu
+                  - img "Menu" [ref=e1184]
+            - button "Ver detalhes do anúncio" [ref=e1186] [cursor=pointer]:
+              - generic [ref=e1190]: Ver detalhes do anúncio
+            - separator [ref=e1191]
+            - generic [ref=e1196]:
+              - generic [ref=e1198]:
+                - img "Criando Em Casa" [ref=e1199]
+                - generic [ref=e1201]:
+                  - link "Criando Em Casa" [ref=e1202] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e1206]:
+                    - strong [ref=e1208]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1209]:
+                - button "Criança não precisa de mais tela. Precisa de mais criatividade. Com +1200 modelos 3D para imprimir, seu filho pode montar fazendinha, animais e muito mais usando apenas papel, tesoura e imaginação. ✔️ Diversão criativa ✔️ Desenvolve coordenação motora ✔️ Estimula foco ✔️ 100% sem telas Você baixa, imprime e começa na hora. Tudo isso por apenas R$10. Uma alternativa simples, educativa e acessível para transformar qualquer tarde em momento produtivo. Clique em “Saiba Mais” e veja todos os modelos disponíveis." [ref=e1212]:
+                  - generic [ref=e1215]:
+                    - text: Criança não precisa de mais tela.
+                    - text: Precisa de mais criatividade.
+                    - text: Com +1200 modelos 3D para imprimir, seu filho pode montar fazendinha, animais e muito mais usando apenas papel, tesoura e imaginação.
+                    - text: ✔️ Diversão criativa
+                    - text: ✔️ Desenvolve coordenação motora
+                    - text: ✔️ Estimula foco
+                    - text: ✔️ 100% sem telas
+                    - text: Você baixa, imprime e começa na hora.
+                    - text: Tudo isso por apenas R$10.
+                    - text: Uma alternativa simples, educativa e acessível para transformar qualquer tarde em momento produtivo.
+                    - text: Clique em “Saiba Mais” e veja todos os modelos disponíveis.
+                - link "CRIANDOEMCASA.COM +1200 Modelos 3D Para Imprimir Diversão criativa sem telas | Apenas R$10 Saiba mais" [ref=e1217] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+                  - generic [ref=e1219]:
+                    - generic [ref=e1220]:
+                      - button "CRIANDOEMCASA.COM" [ref=e1222]:
+                        - generic [ref=e1223]: CRIANDOEMCASA.COM
+                      - button "+1200 Modelos 3D Para Imprimir" [ref=e1225]:
+                        - generic [ref=e1226]: +1200 Modelos 3D Para Imprimir
+                      - button "Diversão criativa sem telas | Apenas R$10" [ref=e1228]:
+                        - generic [ref=e1229]: Diversão criativa sem telas | Apenas R$10
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e1231]:
+                      - generic [ref=e1235]: Saiba mais
+          - generic [ref=e1237]:
+            - generic [ref=e1239]:
+              - generic [ref=e1240]:
+                - generic [ref=e1247]: Ativo
+                - generic [ref=e1250]: "Identificação da biblioteca: 2201864270340506"
+                - generic [ref=e1252]: Veiculação iniciada em 18 de fev de 2026
+                - generic [ref=e1254]: Plataformas
+                - generic [ref=e1282]:
+                  - strong [ref=e1283]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1284] [cursor=pointer]:
+                - generic [ref=e1286]:
+                  - generic [ref=e1287]: Menu
+                  - img "Menu" [ref=e1290]
+            - button "Ver resumo" [ref=e1292] [cursor=pointer]:
+              - generic [ref=e1296]: Ver resumo
+            - separator [ref=e1297]
+            - generic [ref=e1302]:
+              - generic [ref=e1304]:
+                - img "Criando Em Casa" [ref=e1305]
+                - generic [ref=e1307]:
+                  - link "Criando Em Casa" [ref=e1308] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e1312]:
+                    - strong [ref=e1314]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1315]:
+                - button "Quanto você já gastou com brinquedos que a criança usa por poucos dias? Por apenas R$10 você recebe um kit digital com +1200 atividades e brinquedos 3D para imprimir quantas vezes quiser. Economia inteligente para pais práticos." [ref=e1318]:
+                  - generic [ref=e1321]:
+                    - text: Quanto você já gastou com brinquedos que a criança usa por poucos dias?
+                    - text: Por apenas R$10 você recebe um kit digital com +1200 atividades e brinquedos 3D para imprimir quantas vezes quiser.
+                    - text: Economia inteligente para pais práticos.
+                - link [ref=e1322] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+          - generic [ref=e1325]:
+            - generic [ref=e1327]:
+              - generic [ref=e1328]:
+                - generic [ref=e1335]: Ativo
+                - generic [ref=e1338]: "Identificação da biblioteca: 1570613887572897"
+                - generic [ref=e1340]: Veiculação iniciada em 15 de fev de 2026
+                - generic [ref=e1342]: Plataformas
+                - generic [ref=e1370]:
+                  - strong [ref=e1371]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1372] [cursor=pointer]:
+                - generic [ref=e1374]:
+                  - generic [ref=e1375]: Menu
+                  - img "Menu" [ref=e1378]
+            - button "Ver resumo" [ref=e1380] [cursor=pointer]:
+              - generic [ref=e1384]: Ver resumo
+            - separator [ref=e1385]
+            - generic [ref=e1390]:
+              - generic [ref=e1392]:
+                - img "Criando Em Casa" [ref=e1393]
+                - generic [ref=e1395]:
+                  - link "Criando Em Casa" [ref=e1396] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e1400]:
+                    - strong [ref=e1402]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1403]:
+                - button "Mais de 1200 modelos 3D para imprimir e montar em casa. Uma alternativa criativa para tirar as crianças das telas e estimular imaginação, foco e coordenação motora. ✔️ Animais da fazenda ✔️ Fácil de montar ✔️ Imprima quantas vezes quiser ✔️ Diversão educativa Você baixa, imprime e começa na hora. Tudo isso por apenas R$10. Clique em “Saiba Mais” e veja todos os modelos disponíveis." [ref=e1406]:
+                  - generic [ref=e1409]:
+                    - text: Mais de 1200 modelos 3D para imprimir e montar em casa.
+                    - text: Uma alternativa criativa para tirar as crianças das telas e estimular imaginação, foco e coordenação motora.
+                    - text: ✔️ Animais da fazenda
+                    - text: ✔️ Fácil de montar
+                    - text: ✔️ Imprima quantas vezes quiser
+                    - text: ✔️ Diversão educativa
+                    - text: Você baixa, imprime e começa na hora.
+                    - text: Tudo isso por apenas R$10.
+                    - text: Clique em “Saiba Mais” e veja todos os modelos disponíveis.
+                - link [ref=e1411] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+          - generic [ref=e1414]:
+            - generic [ref=e1416]:
+              - generic [ref=e1417]:
+                - generic [ref=e1424]: Ativo
+                - generic [ref=e1427]: "Identificação da biblioteca: 1258394656396354"
+                - generic [ref=e1429]: Veiculação iniciada em 14 de fev de 2026
+                - generic [ref=e1431]: Plataformas
+                - generic [ref=e1459]:
+                  - strong [ref=e1460]: 3 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1461] [cursor=pointer]:
+                - generic [ref=e1463]:
+                  - generic [ref=e1464]: Menu
+                  - img "Menu" [ref=e1467]
+            - button "Ver resumo" [ref=e1469] [cursor=pointer]:
+              - generic [ref=e1473]: Ver resumo
+            - separator [ref=e1474]
+            - generic [ref=e1479]:
+              - generic [ref=e1481]:
+                - img "Criando Em Casa" [ref=e1482]
+                - generic [ref=e1484]:
+                  - link "Criando Em Casa" [ref=e1485] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e1489]:
+                    - strong [ref=e1491]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1492]:
+                - button "💸 Cansado de gastar R$80 ou mais em brinquedos que logo ficam de lado? Com apenas R$10,00 você leva um kit com +1200 modelos 3D de dinossauros para imprimir em casa 🦖 ✔ Muito mais barato que brinquedos comuns ✔ Diversão criativa sem telas ✔ Monte, cole e brinque ✔ Ideal para crianças de 4 a 10 anos Imprima quantas vezes quiser e transforme papel em diversão!" [ref=e1495]:
+                  - generic [ref=e1498]:
+                    - text: 💸 Cansado de gastar R$80 ou mais em brinquedos que logo ficam de lado?
+                    - text: Com apenas R$10,00 você leva um kit com +1200 modelos 3D de dinossauros para imprimir em casa 🦖
+                    - text: ✔ Muito mais barato que brinquedos comuns
+                    - text: ✔ Diversão criativa sem telas
+                    - text: ✔ Monte, cole e brinque
+                    - text: ✔ Ideal para crianças de 4 a 10 anos
+                    - text: Imprima quantas vezes quiser e transforme papel em diversão!
+                - link [ref=e1500] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+          - generic [ref=e1503]:
+            - generic [ref=e1505]:
+              - generic [ref=e1506]:
+                - generic [ref=e1513]: Ativo
+                - generic [ref=e1516]: "Identificação da biblioteca: 1228739728814123"
+                - generic [ref=e1518]: Veiculação iniciada em 14 de fev de 2026
+                - generic [ref=e1520]: Plataformas
+                - generic [ref=e1548]:
+                  - strong [ref=e1549]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1550] [cursor=pointer]:
+                - generic [ref=e1552]:
+                  - generic [ref=e1553]: Menu
+                  - img "Menu" [ref=e1556]
+            - button "Ver resumo" [ref=e1558] [cursor=pointer]:
+              - generic [ref=e1562]: Ver resumo
+            - separator [ref=e1563]
+            - generic [ref=e1568]:
+              - generic [ref=e1570]:
+                - img "Criando Em Casa" [ref=e1571]
+                - generic [ref=e1573]:
+                  - link "Criando Em Casa" [ref=e1574] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e1578]:
+                    - strong [ref=e1580]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1581]:
+                - button "Hoje em dia um simples lanche já custa mais de R$10. Agora imagina pagar isso por acesso a mais de 1200 dinossauros 3D para imprimir e montar em casa. ✔️ Diversão criativa ✔️ Download imediato ✔️ Imprima quantas vezes quiser ✔️ Alternativa sem telas É menos que um lanche… mas entrega horas de brincadeira. Clique em “Comprar Agora” e aproveite a oferta." [ref=e1584]:
+                  - generic [ref=e1587]:
+                    - text: Hoje em dia um simples lanche já custa mais de R$10.
+                    - text: Agora imagina pagar isso por acesso a mais de 1200 dinossauros 3D para imprimir e montar em casa.
+                    - text: ✔️ Diversão criativa
+                    - text: ✔️ Download imediato
+                    - text: ✔️ Imprima quantas vezes quiser
+                    - text: ✔️ Alternativa sem telas
+                    - text: É menos que um lanche…
+                    - text: mas entrega horas de brincadeira.
+                    - text: Clique em “Comprar Agora” e aproveite a oferta.
+                - link [ref=e1589] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+          - generic [ref=e1592]:
+            - generic [ref=e1594]:
+              - generic [ref=e1595]:
+                - generic [ref=e1602]: Ativo
+                - generic [ref=e1605]: "Identificação da biblioteca: 1444259300743334"
+                - generic [ref=e1607]: Veiculação iniciada em 15 de fev de 2026
+                - generic [ref=e1609]: Plataformas
+                - generic [ref=e1638]: Esse anúncio tem várias versões
+              - button "Menu Menu" [ref=e1643] [cursor=pointer]:
+                - generic [ref=e1645]:
+                  - generic [ref=e1646]: Menu
+                  - img "Menu" [ref=e1649]
+            - button "Ver detalhes do anúncio" [ref=e1651] [cursor=pointer]:
+              - generic [ref=e1655]: Ver detalhes do anúncio
+            - separator [ref=e1656]
+            - generic [ref=e1661]:
+              - generic [ref=e1664]:
+                - img "Criando Em Casa" [ref=e1665]
+                - generic [ref=e1667]:
+                  - link "Criando Em Casa" [ref=e1668] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e1672]:
+                    - strong [ref=e1674]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1676]:
+                - button "Transforme papel em diversão. Monte, cole e brinque com mais de 1200 modelos 3D prontos para imprimir em casa. Uma atividade simples que estimula criatividade, foco e coordenação motora — sem depender de telas. ✔️ Download imediato ✔️ Imprima quantas vezes quiser ✔️ Diversão educativa ✔️ Apenas papel, tesoura e imaginação Tudo isso por apenas R$10. Clique em “Saiba Mais” e veja todos os modelos disponíveis." [ref=e1679]:
+                  - generic [ref=e1682]:
+                    - text: Transforme papel em diversão.
+                    - text: Monte, cole e brinque com mais de 1200 modelos 3D prontos para imprimir em casa.
+                    - text: Uma atividade simples que estimula criatividade, foco e coordenação motora — sem depender de telas.
+                    - text: ✔️ Download imediato
+                    - text: ✔️ Imprima quantas vezes quiser
+                    - text: ✔️ Diversão educativa
+                    - text: ✔️ Apenas papel, tesoura e imaginação
+                    - text: Tudo isso por apenas R$10.
+                    - text: Clique em “Saiba Mais” e veja todos os modelos disponíveis.
+                - link "CRIANDOEMCASA.COM Transforme Papel em Diversão +1200 Modelos 3D | Sem telas | R$10 Learn More" [ref=e1684] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+                  - generic [ref=e1686]:
+                    - generic [ref=e1687]:
+                      - button "CRIANDOEMCASA.COM" [ref=e1689]:
+                        - generic [ref=e1690]: CRIANDOEMCASA.COM
+                      - button "Transforme Papel em Diversão" [ref=e1692]:
+                        - generic [ref=e1693]: Transforme Papel em Diversão
+                      - button "+1200 Modelos 3D | Sem telas | R$10" [ref=e1695]:
+                        - generic [ref=e1696]: +1200 Modelos 3D | Sem telas | R$10
+                      - generic:
+                        - button
+                    - button "Learn More" [ref=e1698]:
+                      - generic [ref=e1702]: Learn More
+          - generic [ref=e1704]:
+            - generic [ref=e1706]:
+              - generic [ref=e1707]:
+                - generic [ref=e1714]: Ativo
+                - generic [ref=e1717]: "Identificação da biblioteca: 1307679338052468"
+                - generic [ref=e1719]: Veiculação iniciada em 19 de fev de 2026
+                - generic [ref=e1721]: Plataformas
+                - generic [ref=e1749]:
+                  - strong [ref=e1750]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1751] [cursor=pointer]:
+                - generic [ref=e1753]:
+                  - generic [ref=e1754]: Menu
+                  - img "Menu" [ref=e1757]
+            - button "Ver resumo" [ref=e1759] [cursor=pointer]:
+              - generic [ref=e1763]: Ver resumo
+            - separator [ref=e1764]
+            - generic [ref=e1769]:
+              - generic [ref=e1771]:
+                - img "Criando Em Casa" [ref=e1772]
+                - generic [ref=e1774]:
+                  - link "Criando Em Casa" [ref=e1775] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e1779]:
+                    - strong [ref=e1781]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1782]:
+                - button "Atividades simples podem desenvolver foco, coordenação e criatividade. Com mais de 1200 modelos 3D prontos para imprimir, seu filho aprende brincando. Ideal para crianças de 2 a 8 anos." [ref=e1785]:
+                  - generic [ref=e1788]:
+                    - text: Atividades simples podem desenvolver foco, coordenação e criatividade.
+                    - text: Com mais de 1200 modelos 3D prontos para imprimir, seu filho aprende brincando.
+                    - text: Ideal para crianças de 2 a 8 anos.
+                - link [ref=e1789] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+          - generic [ref=e1792]:
+            - generic [ref=e1794]:
+              - generic [ref=e1795]:
+                - generic [ref=e1802]: Ativo
+                - generic [ref=e1805]: "Identificação da biblioteca: 908092858292181"
+                - generic [ref=e1807]: Veiculação iniciada em 14 de fev de 2026
+                - generic [ref=e1809]: Plataformas
+                - generic [ref=e1837]:
+                  - strong [ref=e1838]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1839] [cursor=pointer]:
+                - generic [ref=e1841]:
+                  - generic [ref=e1842]: Menu
+                  - img "Menu" [ref=e1845]
+            - button "Ver resumo" [ref=e1847] [cursor=pointer]:
+              - generic [ref=e1851]: Ver resumo
+            - separator [ref=e1852]
+            - generic [ref=e1857]:
+              - generic [ref=e1859]:
+                - img "Criando Em Casa" [ref=e1860]
+                - generic [ref=e1862]:
+                  - link "Criando Em Casa" [ref=e1863] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e1867]:
+                    - strong [ref=e1869]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1870]:
+                - 'button "Você quer tirar seu filho do celular, mas não sabe como? 📱❌ Apresente uma alternativa que diverte, ensina e ainda estimula o desenvolvimento! São +1200 atividades criativas em 3D para imprimir, montar, colar e brincar. Tudo de forma simples, prática e acessível. 🧠 Desenvolve foco ✂️ Estimula coordenação motora 🎨 Incentiva criatividade 📚 100% educativo 🚫 Sem telas Ideal para manter as crianças ocupadas de forma saudável, especialmente em férias, finais de semana ou depois da escola. E o melhor: custa menos que um lanche! 💰 Apenas R$10,00 📥 Download imediato Garanta agora e transforme papel em diversão!" [ref=e1873]':
+                  - generic [ref=e1876]:
+                    - text: Você quer tirar seu filho do celular, mas não sabe como? 📱❌
+                    - text: Apresente uma alternativa que diverte, ensina e ainda estimula o desenvolvimento!
+                    - text: São +1200 atividades criativas em 3D para imprimir, montar, colar e brincar.
+                    - text: Tudo de forma simples, prática e acessível.
+                    - text: 🧠 Desenvolve foco
+                    - text: ✂️ Estimula coordenação motora
+                    - text: 🎨 Incentiva criatividade
+                    - text: 📚 100% educativo
+                    - text: 🚫 Sem telas
+                    - text: Ideal para manter as crianças ocupadas de forma saudável, especialmente em férias, finais de semana ou depois da escola.
+                    - text: "E o melhor: custa menos que um lanche!"
+                    - text: 💰 Apenas R$10,00
+                    - text: 📥 Download imediato
+                    - text: Garanta agora e transforme papel em diversão!
+                - link [ref=e1878] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+          - generic [ref=e1881]:
+            - generic [ref=e1883]:
+              - generic [ref=e1884]:
+                - generic [ref=e1891]: Ativo
+                - generic [ref=e1894]: "Identificação da biblioteca: 1834183213955571"
+                - generic [ref=e1896]: Veiculação iniciada em 14 de fev de 2026
+                - generic [ref=e1898]: Plataformas
+                - generic [ref=e1926]:
+                  - strong [ref=e1927]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1928] [cursor=pointer]:
+                - generic [ref=e1930]:
+                  - generic [ref=e1931]: Menu
+                  - img "Menu" [ref=e1934]
+            - button "Ver resumo" [ref=e1936] [cursor=pointer]:
+              - generic [ref=e1940]: Ver resumo
+            - separator [ref=e1941]
+            - generic [ref=e1946]:
+              - generic [ref=e1948]:
+                - img "Criando Em Casa" [ref=e1949]
+                - generic [ref=e1951]:
+                  - link "Criando Em Casa" [ref=e1952] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e1956]:
+                    - strong [ref=e1958]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1959]:
+                - 'button "Seu filho passa horas no celular… mas quando você sugere outra atividade, ele diz que está entediado? Talvez só esteja faltando algo simples e criativo. Com mais de 1200 modelos 3D para imprimir, a diversão começa com papel, tesoura e imaginação. ✔️ Animais fofos ✔️ Fácil de montar ✔️ Desenvolve coordenação ✔️ 100% sem telas E o melhor: custa apenas R$10. Imprima em casa e transforme qualquer tarde comum em momento de criatividade. Clique agora e veja todos os modelos disponíveis." [ref=e1962]':
+                  - generic [ref=e1965]:
+                    - text: Seu filho passa horas no celular…
+                    - text: mas quando você sugere outra atividade, ele diz que está entediado?
+                    - text: Talvez só esteja faltando algo simples e criativo.
+                    - text: Com mais de 1200 modelos 3D para imprimir, a diversão começa com papel, tesoura e imaginação.
+                    - text: ✔️ Animais fofos
+                    - text: ✔️ Fácil de montar
+                    - text: ✔️ Desenvolve coordenação
+                    - text: ✔️ 100% sem telas
+                    - text: "E o melhor: custa apenas R$10."
+                    - text: Imprima em casa e transforme qualquer tarde comum em momento de criatividade.
+                    - text: Clique agora e veja todos os modelos disponíveis.
+                - link [ref=e1967] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+          - generic [ref=e1970]:
+            - generic [ref=e1972]:
+              - generic [ref=e1973]:
+                - generic [ref=e1980]: Ativo
+                - generic [ref=e1983]: "Identificação da biblioteca: 1389947942453442"
+                - generic [ref=e1985]: Veiculação iniciada em 14 de fev de 2026
+                - generic [ref=e1987]: Plataformas
+              - button "Menu Menu" [ref=e2014] [cursor=pointer]:
+                - generic [ref=e2016]:
+                  - generic [ref=e2017]: Menu
+                  - img "Menu" [ref=e2020]
+            - button "Ver detalhes do anúncio" [ref=e2022] [cursor=pointer]:
+              - generic [ref=e2026]: Ver detalhes do anúncio
+            - separator [ref=e2027]
+            - generic [ref=e2032]:
+              - generic [ref=e2034]:
+                - img "Criando Em Casa" [ref=e2035]
+                - generic [ref=e2037]:
+                  - link "Criando Em Casa" [ref=e2038] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e2042]:
+                    - strong [ref=e2044]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2045]:
+                - button "Seu filho só quer saber de celular? Você não está sozinha. Mas existe uma alternativa simples que pode mudar isso. Com +1200 modelos 3D para imprimir, seu filho troca horas de tela por criatividade, foco e aprendizado. ✔️ Montagem divertida ✔️ Estimula coordenação motora ✔️ Desenvolve paciência ✔️ 100% sem telas É só baixar, imprimir e começar. Tudo isso por apenas R$10. Transforme o tempo de tela em tempo de criação. Clique em “Saiba Mais” e veja todos os modelos disponíveis." [ref=e2048]:
+                  - generic [ref=e2051]:
+                    - text: Seu filho só quer saber de celular?
+                    - text: Você não está sozinha.
+                    - text: Mas existe uma alternativa simples que pode mudar isso.
+                    - text: Com +1200 modelos 3D para imprimir, seu filho troca horas de tela por criatividade, foco e aprendizado.
+                    - text: ✔️ Montagem divertida
+                    - text: ✔️ Estimula coordenação motora
+                    - text: ✔️ Desenvolve paciência
+                    - text: ✔️ 100% sem telas
+                    - text: É só baixar, imprimir e começar.
+                    - text: Tudo isso por apenas R$10.
+                    - text: Transforme o tempo de tela em tempo de criação.
+                    - text: Clique em “Saiba Mais” e veja todos os modelos disponíveis.
+                - link "CRIANDOEMCASA.COM Seu Filho Só Vive no Celular? +1200 Modelos 3D | Apenas R$10 Saiba mais" [ref=e2053] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+                  - generic [ref=e2055]:
+                    - generic [ref=e2056]:
+                      - button "CRIANDOEMCASA.COM" [ref=e2058]:
+                        - generic [ref=e2059]: CRIANDOEMCASA.COM
+                      - button "Seu Filho Só Vive no Celular?" [ref=e2061]:
+                        - generic [ref=e2062]: Seu Filho Só Vive no Celular?
+                      - button "+1200 Modelos 3D | Apenas R$10" [ref=e2064]:
+                        - generic [ref=e2065]: +1200 Modelos 3D | Apenas R$10
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e2067]:
+                      - generic [ref=e2071]: Saiba mais
+          - generic [ref=e2073]:
+            - generic [ref=e2075]:
+              - generic [ref=e2076]:
+                - generic [ref=e2083]: Ativo
+                - generic [ref=e2086]: "Identificação da biblioteca: 899842165783643"
+                - generic [ref=e2088]: Veiculação iniciada em 18 de fev de 2026
+                - generic [ref=e2090]: Plataformas
+                - generic [ref=e2118]:
+                  - strong [ref=e2119]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e2120] [cursor=pointer]:
+                - generic [ref=e2122]:
+                  - generic [ref=e2123]: Menu
+                  - img "Menu" [ref=e2126]
+            - button "Ver resumo" [ref=e2128] [cursor=pointer]:
+              - generic [ref=e2132]: Ver resumo
+            - separator [ref=e2133]
+            - generic [ref=e2138]:
+              - generic [ref=e2140]:
+                - img "Criando Em Casa" [ref=e2141]
+                - generic [ref=e2143]:
+                  - link "Criando Em Casa" [ref=e2144] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e2148]:
+                    - strong [ref=e2150]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2151]:
+                - button "Milhares de pais já estão usando atividades criativas para reduzir o tempo de tela e estimular o desenvolvimento dos filhos. Agora você também pode. Conheça o Criando em Casa." [ref=e2154]:
+                  - generic [ref=e2157]:
+                    - text: Milhares de pais já estão usando atividades criativas para reduzir o tempo de tela e estimular o desenvolvimento dos filhos.
+                    - text: Agora você também pode.
+                    - text: Conheça o Criando em Casa.
+                - link [ref=e2158] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+          - generic [ref=e2161]:
+            - generic [ref=e2163]:
+              - generic [ref=e2164]:
+                - generic [ref=e2171]: Ativo
+                - generic [ref=e2174]: "Identificação da biblioteca: 760597180032102"
+                - generic [ref=e2176]: Veiculação iniciada em 15 de fev de 2026
+                - generic [ref=e2178]: Plataformas
+              - button "Menu Menu" [ref=e2205] [cursor=pointer]:
+                - generic [ref=e2207]:
+                  - generic [ref=e2208]: Menu
+                  - img "Menu" [ref=e2211]
+            - button "Ver detalhes do anúncio" [ref=e2213] [cursor=pointer]:
+              - generic [ref=e2217]: Ver detalhes do anúncio
+            - separator [ref=e2218]
+            - generic [ref=e2223]:
+              - generic [ref=e2225]:
+                - img "Criando Em Casa" [ref=e2226]
+                - generic [ref=e2228]:
+                  - link "Criando Em Casa" [ref=e2229] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e2233]:
+                    - strong [ref=e2235]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2236]:
+                - 'button "Seu filho passa muito tempo nas telas? Existem atividades simples que ajudam no desenvolvimento e ainda divertem. Com mais de 1200 atividades criativas 3D para imprimir, você estimula: ✔️ Foco ✔️ Coordenação motora ✔️ Criatividade ✔️ Paciência Tudo de forma leve e educativa. É só baixar, imprimir e montar. E o melhor: acesso completo por apenas R$10. Uma alternativa inteligente para transformar o tempo livre em aprendizado. Clique em “Saiba Mais” e veja todos os modelos disponíveis." [ref=e2239]':
+                  - generic [ref=e2242]:
+                    - text: Seu filho passa muito tempo nas telas?
+                    - text: Existem atividades simples que ajudam no desenvolvimento e ainda divertem.
+                    - text: "Com mais de 1200 atividades criativas 3D para imprimir, você estimula:"
+                    - text: ✔️ Foco
+                    - text: ✔️ Coordenação motora
+                    - text: ✔️ Criatividade
+                    - text: ✔️ Paciência
+                    - text: Tudo de forma leve e educativa.
+                    - text: É só baixar, imprimir e montar.
+                    - text: "E o melhor: acesso completo por apenas R$10."
+                    - text: Uma alternativa inteligente para transformar o tempo livre em aprendizado.
+                    - text: Clique em “Saiba Mais” e veja todos os modelos disponíveis.
+                - link "CRIANDOEMCASA.COM +1200 Atividades Criativas 3D Desenvolve foco e coordenação | R$10 Saiba mais" [ref=e2244] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+                  - generic [ref=e2246]:
+                    - generic [ref=e2247]:
+                      - button "CRIANDOEMCASA.COM" [ref=e2249]:
+                        - generic [ref=e2250]: CRIANDOEMCASA.COM
+                      - button "+1200 Atividades Criativas 3D" [ref=e2252]:
+                        - generic [ref=e2253]: +1200 Atividades Criativas 3D
+                      - button "Desenvolve foco e coordenação | R$10" [ref=e2255]:
+                        - generic [ref=e2256]: Desenvolve foco e coordenação | R$10
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e2258]:
+                      - generic [ref=e2262]: Saiba mais
+          - generic [ref=e2264]:
+            - generic [ref=e2266]:
+              - generic [ref=e2267]:
+                - generic [ref=e2274]: Ativo
+                - generic [ref=e2277]: "Identificação da biblioteca: 927596509972127"
+                - generic [ref=e2279]: Veiculação iniciada em 14 de fev de 2026
+                - generic [ref=e2281]: Plataformas
+              - button "Menu Menu" [ref=e2308] [cursor=pointer]:
+                - generic [ref=e2310]:
+                  - generic [ref=e2311]: Menu
+                  - img "Menu" [ref=e2314]
+            - button "Ver detalhes do anúncio" [ref=e2316] [cursor=pointer]:
+              - generic [ref=e2320]: Ver detalhes do anúncio
+            - separator [ref=e2321]
+            - generic [ref=e2326]:
+              - generic [ref=e2328]:
+                - img "Criando Em Casa" [ref=e2329]
+                - generic [ref=e2331]:
+                  - link "Criando Em Casa" [ref=e2332] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e2336]:
+                    - strong [ref=e2338]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2339]:
+                - button "Você já reparou como qualquer brinquedo hoje custa R$80, R$100 ou mais? E muitas vezes a criança usa 2 dias… e encosta. Agora imagina pagar apenas R$10 e ter acesso a mais de 1200 modelos 3D para imprimir em casa. ✔️ Imprima quando quiser ✔️ Monte quantas vezes quiser ✔️ Sem telas ✔️ Muito mais econômico É diversão criativa por uma fração do preço dos brinquedos comuns. Clique agora e veja todos os modelos disponíveis." [ref=e2342]:
+                  - generic [ref=e2345]:
+                    - text: Você já reparou como qualquer brinquedo hoje custa R$80, R$100 ou mais?
+                    - text: E muitas vezes a criança usa 2 dias… e encosta.
+                    - text: Agora imagina pagar apenas R$10 e ter acesso a mais de 1200 modelos 3D para imprimir em casa.
+                    - text: ✔️ Imprima quando quiser
+                    - text: ✔️ Monte quantas vezes quiser
+                    - text: ✔️ Sem telas
+                    - text: ✔️ Muito mais econômico
+                    - text: É diversão criativa por uma fração do preço dos brinquedos comuns.
+                    - text: Clique agora e veja todos os modelos disponíveis.
+                - link "CRIANDOEMCASA.COM Economize com brinquedos caros +1200 Modelos 3D | Imprima em casa | Apenas R$10 Saiba mais" [ref=e2347] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+                  - generic [ref=e2349]:
+                    - generic [ref=e2350]:
+                      - button "CRIANDOEMCASA.COM" [ref=e2352]:
+                        - generic [ref=e2353]: CRIANDOEMCASA.COM
+                      - button "Economize com brinquedos caros" [ref=e2355]:
+                        - generic [ref=e2356]: Economize com brinquedos caros
+                      - button "+1200 Modelos 3D | Imprima em casa | Apenas R$10" [ref=e2358]:
+                        - generic [ref=e2359]: +1200 Modelos 3D | Imprima em casa | Apenas R$10
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e2361]:
+                      - generic [ref=e2365]: Saiba mais
+          - generic [ref=e2367]:
+            - generic [ref=e2369]:
+              - generic [ref=e2370]:
+                - generic [ref=e2377]: Ativo
+                - generic [ref=e2380]: "Identificação da biblioteca: 1791415834874975"
+                - generic [ref=e2382]: Veiculação iniciada em 18 de fev de 2026
+                - generic [ref=e2384]: Plataformas
+                - generic [ref=e2412]:
+                  - strong [ref=e2413]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e2414] [cursor=pointer]:
+                - generic [ref=e2416]:
+                  - generic [ref=e2417]: Menu
+                  - img "Menu" [ref=e2420]
+            - button "Ver resumo" [ref=e2422] [cursor=pointer]:
+              - generic [ref=e2426]: Ver resumo
+            - separator [ref=e2427]
+            - generic [ref=e2432]:
+              - generic [ref=e2434]:
+                - img "Criando Em Casa" [ref=e2435]
+                - generic [ref=e2437]:
+                  - link "Criando Em Casa" [ref=e2438] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e2442]:
+                    - strong [ref=e2444]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2445]:
+                - button "Imagina ter um ano inteiro de atividades criativas por apenas R$10. Criando em Casa é um kit digital com +1200 modelos 3D prontos para imprimir. Diversão garantida longe das telas." [ref=e2448]:
+                  - generic [ref=e2451]:
+                    - text: Imagina ter um ano inteiro de atividades criativas por apenas R$10.
+                    - text: Criando em Casa é um kit digital com +1200 modelos 3D prontos para imprimir.
+                    - text: Diversão garantida longe das telas.
+                - link [ref=e2452] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+          - generic [ref=e2455]:
+            - generic [ref=e2457]:
+              - generic [ref=e2458]:
+                - generic [ref=e2465]: Ativo
+                - generic [ref=e2468]: "Identificação da biblioteca: 1269256891744116"
+                - generic [ref=e2470]: Veiculação iniciada em 15 de fev de 2026
+                - generic [ref=e2472]: Plataformas
+                - generic [ref=e2500]:
+                  - strong [ref=e2501]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e2502] [cursor=pointer]:
+                - generic [ref=e2504]:
+                  - generic [ref=e2505]: Menu
+                  - img "Menu" [ref=e2508]
+            - button "Ver resumo" [ref=e2510] [cursor=pointer]:
+              - generic [ref=e2514]: Ver resumo
+            - separator [ref=e2515]
+            - generic [ref=e2520]:
+              - generic [ref=e2522]:
+                - img "Criando Em Casa" [ref=e2523]
+                - generic [ref=e2525]:
+                  - link "Criando Em Casa" [ref=e2526] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e2530]:
+                    - strong [ref=e2532]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2533]:
+                - button "Sem ideia do que fazer nas férias? Transforme o tempo livre em diversão criativa sem telas. Com mais de 1200 dinossauros 3D para imprimir, seu filho monta, brinca e aprende usando apenas papel e imaginação. ✔️ Download imediato ✔️ Fácil de montar ✔️ Estimula foco e coordenação ✔️ Alternativa longe das telas Uma solução simples para ocupar as férias sem gastar muito. Tudo isso por apenas R$10. Clique em “Saiba Mais” e veja como funciona." [ref=e2536]:
+                  - generic [ref=e2539]:
+                    - text: Sem ideia do que fazer nas férias?
+                    - text: Transforme o tempo livre em diversão criativa sem telas.
+                    - text: Com mais de 1200 dinossauros 3D para imprimir, seu filho monta, brinca e aprende usando apenas papel e imaginação.
+                    - text: ✔️ Download imediato
+                    - text: ✔️ Fácil de montar
+                    - text: ✔️ Estimula foco e coordenação
+                    - text: ✔️ Alternativa longe das telas
+                    - text: Uma solução simples para ocupar as férias sem gastar muito.
+                    - text: Tudo isso por apenas R$10.
+                    - text: Clique em “Saiba Mais” e veja como funciona.
+                - link [ref=e2541] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+          - generic [ref=e2544]:
+            - generic [ref=e2546]:
+              - generic [ref=e2547]:
+                - generic [ref=e2549]:
+                  - generic [ref=e2554]: Ativo
+                  - generic [ref=e2556]: Baixo volume de impressões
+                - generic [ref=e2563]: "Identificação da biblioteca: 838014272628952"
+                - generic [ref=e2565]: Veiculação iniciada em 18 de fev de 2026
+                - generic [ref=e2567]: Plataformas
+                - generic [ref=e2595]:
+                  - strong [ref=e2596]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e2597] [cursor=pointer]:
+                - generic [ref=e2599]:
+                  - generic [ref=e2600]: Menu
+                  - img "Menu" [ref=e2603]
+            - button "Ver resumo" [ref=e2605] [cursor=pointer]:
+              - generic [ref=e2609]: Ver resumo
+            - separator [ref=e2610]
+            - generic [ref=e2615]:
+              - generic [ref=e2617]:
+                - img "Criando Em Casa" [ref=e2618]
+                - generic [ref=e2620]:
+                  - link "Criando Em Casa" [ref=e2621] [cursor=pointer]:
+                    - /url: https://www.facebook.com/criandoemcasa.of/
+                  - generic [ref=e2625]:
+                    - strong [ref=e2627]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2628]:
+                - button "Mais tempo juntos. Menos telas. Criando em Casa ajuda você a transformar momentos simples em experiências criativas com seu filho. Atividades prontas para imprimir e brincar." [ref=e2631]:
+                  - generic [ref=e2634]:
+                    - text: Mais tempo juntos. Menos telas.
+                    - text: Criando em Casa ajuda você a transformar momentos simples em experiências criativas com seu filho.
+                    - text: Atividades prontas para imprimir e brincar.
+                - generic [ref=e2636]: Baixo volume de impressões
+                - link [ref=e2637] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.saudementalinfantil.site%2F&h=AT5ozDNqeUadDqUvIR86qEe5RRWQmTCDFTfPQJXIe_2u2a7MK9Uim3dvIxgflE9xC_khDKYpH5KOfGH-6h32xNNpyF12wmcdfYk9DqgfPTebUpq0fWYAAisM-Jd4yf1gQVsb0k67_uV9ipDN5eRcDQ
+        - button "Ver mais" [ref=e2639] [cursor=pointer]:
+          - generic [ref=e2640]: Ver mais
+    - generic [ref=e2643]:
+      - generic [ref=e2651]: Status do sistema
+      - generic [ref=e2655]:
+        - list [ref=e2656]:
+          - listitem [ref=e2657]:
+            - link "API da Biblioteca de Anúncios" [ref=e2659] [cursor=pointer]:
+              - /url: /ads/library/api/?source=archive-landing-page
+          - listitem [ref=e2660]:
+            - link "Sobre anúncios e uso de dados" [ref=e2662] [cursor=pointer]:
+              - /url: /ads/about/?entry_product=ad_library
+          - listitem [ref=e2663]:
+            - link "Privacidade" [ref=e2665] [cursor=pointer]:
+              - /url: /privacy/center/?entry_point=privacy_basics_redirect
+          - listitem [ref=e2666]:
+            - link "Termos" [ref=e2668] [cursor=pointer]:
+              - /url: /policies/
+          - listitem [ref=e2669]:
+            - link "Cookies" [ref=e2671] [cursor=pointer]:
+              - /url: /policies/cookies/
+        - generic [ref=e2673]:
+          - text: Meta © 2026 |
+          - link "Português (Brasil)" [ref=e2674] [cursor=pointer]:
+            - /url: /language/

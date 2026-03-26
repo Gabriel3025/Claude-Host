@@ -1,0 +1,1111 @@
+- generic [ref=e12]:
+  - generic [ref=e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=e27] [cursor=pointer]:
+      - generic [ref=e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=e33] [cursor=pointer]
+  - generic [ref=e40]:
+    - combobox "Tudo" [ref=e44] [cursor=pointer]:
+      - generic [ref=e51]: Tudo
+    - combobox "Todos os anúncios" [ref=e62] [cursor=pointer]:
+      - generic [ref=e72]: Todos os anúncios
+    - generic [ref=e82]:
+      - generic [ref=e88]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=e94]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=e100]: Educacao mind
+        - button "Limpar" [ref=e102] [cursor=pointer]
+  - generic [ref=e105]:
+    - generic [ref=e107]:
+      - img "Foto do perfil da Página" [ref=e112]
+      - link "Educacao mind" [ref=e115] [cursor=pointer]:
+        - /url: https://facebook.com/61551398121232
+        - heading "Educacao mind" [level=1] [ref=e116]
+    - generic [ref=e117]:
+      - link "Anúncios" [ref=e118] [cursor=pointer]
+      - link "Sobre" [ref=e119] [cursor=pointer]
+  - dialog [ref=e120]:
+    - generic [ref=e121]:
+      - link [ref=e122] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=e123]: Entrar
+      - menuitem [ref=e124] [cursor=pointer]
+    - generic [ref=e126]:
+      - generic [ref=e127]:
+        - heading [level=4] [ref=e129]: Biblioteca de Anúncios
+        - menuitem [ref=e131] [cursor=pointer]:
+          - heading [level=4] [ref=e133]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=e135] [cursor=pointer]:
+          - heading [level=4] [ref=e137]: API da Biblioteca de Anúncios
+        - menuitem [ref=e139] [cursor=pointer]:
+          - heading [level=4] [ref=e141]: Conteúdo de marca
+      - separator [ref=e142]
+      - generic [ref=e143]:
+        - menuitem [ref=e145] [cursor=pointer]:
+          - heading [level=4] [ref=e147]: Status do sistema
+        - menuitem [ref=e149] [cursor=pointer]:
+          - heading [level=4] [ref=e151]: Assinar para receber atualizações por email
+        - menuitem [ref=e153] [cursor=pointer]:
+          - heading [level=4] [ref=e155]: Perguntas frequentes
+        - menuitem [ref=e157] [cursor=pointer]:
+          - heading [level=4] [ref=e159]: Sobre anúncios e uso de dados
+        - menuitem [ref=e161] [cursor=pointer]:
+          - heading [level=4] [ref=e163]: Privacidade
+        - menuitem [ref=e165] [cursor=pointer]:
+          - heading [level=4] [ref=e167]: Termos
+        - menuitem [ref=e169] [cursor=pointer]:
+          - heading [level=4] [ref=e171]: Cookies
+  - generic [ref=e172]:
+    - generic [ref=e186]:
+      - heading "~98 resultados" [level=3] [ref=e194]
+      - generic [ref=e195]:
+        - generic [ref=e203]:
+          - generic [ref=e204]:
+            - textbox "Palavra-chave" [ref=e206]
+            - button "Filtros" [ref=e210] [cursor=pointer]:
+              - generic [ref=e215]: Filtros
+            - generic [ref=e217]:
+              - generic [ref=e223]: Classificar
+              - combobox "Classificar" [ref=e228] [cursor=pointer]:
+                - generic [ref=e235]: Classificar por
+          - generic [ref=e240]:
+            - generic [ref=e241]:
+              - strong [ref=e242]: Status online
+              - text: ": Anúncios ativos"
+            - button "Remover" [ref=e243] [cursor=pointer]:
+              - generic [ref=e246]: Remover
+        - generic [ref=e250]:
+          - generic [ref=e252]:
+            - generic [ref=e254]:
+              - generic [ref=e255]:
+                - generic [ref=e262]: Ativo
+                - generic [ref=e265]: "Identificação da biblioteca: 3765995150359772"
+                - generic [ref=e267]: Veiculação iniciada em 9 de jul de 2025
+                - generic [ref=e269]: Plataformas
+                - generic [ref=e297]:
+                  - strong [ref=e298]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e300] [cursor=pointer]:
+                - generic [ref=e303]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e306] [cursor=pointer]:
+              - generic [ref=e310]: Ver resumo
+            - separator [ref=e311]
+            - generic [ref=e316]:
+              - generic [ref=e318]:
+                - img "Educacao mind" [ref=e319]
+                - generic [ref=e321]:
+                  - link "Educacao mind" [ref=e322] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e326]:
+                    - strong [ref=e328]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e329]:
+                - button "Tenha um combo completo para rastreio de dificuldades de aprendizagem!" [ref=e332]:
+                  - generic [ref=e334]: Tenha um combo completo para rastreio de dificuldades de aprendizagem!
+                - link [ref=e335] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Faprendizagem&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+          - generic [ref=e338]:
+            - generic [ref=e340]:
+              - generic [ref=e341]:
+                - generic [ref=e348]: Ativo
+                - generic [ref=e351]: "Identificação da biblioteca: 1145282110422191"
+                - generic [ref=e353]: Veiculação iniciada em 15 de out de 2025
+                - generic [ref=e355]: Plataformas
+                - generic [ref=e383]:
+                  - strong [ref=e384]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e386] [cursor=pointer]:
+                - generic [ref=e389]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e392] [cursor=pointer]:
+              - generic [ref=e396]: Ver resumo
+            - separator [ref=e397]
+            - generic [ref=e402]:
+              - generic [ref=e404]:
+                - img "Educacao mind" [ref=e405]
+                - generic [ref=e407]:
+                  - link "Educacao mind" [ref=e408] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e412]:
+                    - strong [ref=e414]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e415]:
+                - button "Tenha um combo completo para rastreio de dificuldades de aprendizagem!" [ref=e418]:
+                  - generic [ref=e420]: Tenha um combo completo para rastreio de dificuldades de aprendizagem!
+                - link [ref=e421] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Faprendizagem&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+          - generic [ref=e424]:
+            - generic [ref=e426]:
+              - generic [ref=e427]:
+                - generic [ref=e434]: Ativo
+                - generic [ref=e437]: "Identificação da biblioteca: 1207096221279530"
+                - generic [ref=e439]: Veiculação iniciada em 16 de dez de 2025
+                - generic [ref=e441]: Plataformas
+              - button "Abrir menu suspenso" [ref=e469] [cursor=pointer]:
+                - generic [ref=e472]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e475] [cursor=pointer]:
+              - generic [ref=e479]: Ver detalhes do anúncio
+            - separator [ref=e480]
+            - generic [ref=e485]:
+              - generic [ref=e487]:
+                - img "Educacao mind" [ref=e488]
+                - generic [ref=e490]:
+                  - link "Educacao mind" [ref=e491] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e495]:
+                    - strong [ref=e497]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e498]:
+                - button "🚀 Atenda com mais segurança, precisão e profissionalismo. O NeuroPro reúne ferramentas completas para avaliar, identificar e intervir em casos de Dislexia, Autismo e TDAH — tudo em um único lugar. ✔️ Protocolos de avaliação ✔️ Roteiros e guias de intervenção ✔️ Materiais editáveis ✔️ Recursos para acompanhamento clínico ✔️ +100 ferramentas essenciais Ideal para psicólogos, psicopedagogos, terapeutas e profissionais que desejam melhorar a qualidade dos atendimentos e elevar sua autoridade na prática clínica. 📘 Organizado. Completo. Profissional. Tudo pronto para usar — é só aplicar no seu consultório ou instituição. 👉 Clique em “Saiba Mais” e veja como transformar seus atendimentos." [ref=e501]:
+                  - generic [ref=e504]:
+                    - text: 🚀 Atenda com mais segurança, precisão e profissionalismo.
+                    - text: O NeuroPro reúne ferramentas completas para avaliar, identificar e intervir em casos de Dislexia, Autismo e TDAH — tudo em um único lugar.
+                    - text: ✔️ Protocolos de avaliação
+                    - text: ✔️ Roteiros e guias de intervenção
+                    - text: ✔️ Materiais editáveis
+                    - text: ✔️ Recursos para acompanhamento clínico
+                    - text: ✔️ +100 ferramentas essenciais
+                    - text: Ideal para psicólogos, psicopedagogos, terapeutas e profissionais que desejam melhorar a qualidade dos atendimentos e elevar sua autoridade na prática clínica.
+                    - text: 📘 Organizado. Completo. Profissional.
+                    - text: Tudo pronto para usar — é só aplicar no seu consultório ou instituição.
+                    - text: 👉 Clique em “Saiba Mais” e veja como transformar seus atendimentos.
+                - link "EDUCACAOMIND.COM.BR neuropro – educacaomind.com.br Um guia completo com 650 perguntas terapêuticas para aprofundar sessões, desbloquear emoções, estimular reflexões e gerar insights transformadores em qualquer abordagem clínica. Saiba mais" [ref=e506] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Fneuropro%2F&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+                  - generic [ref=e508]:
+                    - generic [ref=e509]:
+                      - button "EDUCACAOMIND.COM.BR" [ref=e511]:
+                        - generic [ref=e512]: EDUCACAOMIND.COM.BR
+                      - button "neuropro – educacaomind.com.br" [ref=e514]:
+                        - generic [ref=e515]: neuropro – educacaomind.com.br
+                      - button "Um guia completo com 650 perguntas terapêuticas para aprofundar sessões, desbloquear emoções, estimular reflexões e gerar insights transformadores em qualquer abordagem clínica." [ref=e517]:
+                        - generic [ref=e518]: Um guia completo com 650 perguntas terapêuticas para aprofundar sessões, desbloquear emoções, estimular reflexões e gerar insights transformadores em qualquer abordagem clínica.
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e520]:
+                      - generic [ref=e524]: Saiba mais
+          - generic [ref=e526]:
+            - generic [ref=e528]:
+              - generic [ref=e529]:
+                - generic [ref=e536]: Ativo
+                - generic [ref=e539]: "Identificação da biblioteca: 783027861279553"
+                - generic [ref=e541]: Veiculação iniciada em 14 de out de 2025
+                - generic [ref=e543]: Plataformas
+              - button "Abrir menu suspenso" [ref=e571] [cursor=pointer]:
+                - generic [ref=e574]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e577] [cursor=pointer]:
+              - generic [ref=e581]: Ver detalhes do anúncio
+            - separator [ref=e582]
+            - generic [ref=e587]:
+              - generic [ref=e589]:
+                - img "Educacao mind" [ref=e590]
+                - generic [ref=e592]:
+                  - link "Educacao mind" [ref=e593] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e597]:
+                    - strong [ref=e599]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e600]:
+                - button "Combo completo de ferramentas para Autismo e TDAH!" [ref=e603]:
+                  - generic [ref=e605]: Combo completo de ferramentas para Autismo e TDAH!
+                - link "EDUCACAOMIND.COM.BR tdah – educacaomind.com.br ✅ Ferramentas para Avaliação e Diagnóstico – TDAH📊 ASRS-18 (colorida e padrão) – Escala adulto📊 SNAP-IV – Avaliação infantil e adolescente📊 Conners – Versões para pais e professores📄 Entrevista, tabelas e perguntas norteadoras📄 Modelos de anamnese e relatórios pronto... Saiba mais" [ref=e606] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Fteatdah%2F&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+                  - generic [ref=e608]:
+                    - generic [ref=e609]:
+                      - button "EDUCACAOMIND.COM.BR" [ref=e611]:
+                        - generic [ref=e612]: EDUCACAOMIND.COM.BR
+                      - button "tdah – educacaomind.com.br" [ref=e614]:
+                        - generic [ref=e615]: tdah – educacaomind.com.br
+                      - button "✅ Ferramentas para Avaliação e Diagnóstico – TDAH📊 ASRS-18 (colorida e padrão) – Escala adulto📊 SNAP-IV – Avaliação infantil e adolescente📊 Conners – Versões para pais e professores📄 Entrevista, tabelas e perguntas norteadoras📄 Modelos de anamnese e relatórios pronto..." [ref=e617]:
+                        - generic [ref=e618]: ✅ Ferramentas para Avaliação e Diagnóstico – TDAH📊 ASRS-18 (colorida e padrão) – Escala adulto📊 SNAP-IV – Avaliação infantil e adolescente📊 Conners – Versões para pais e professores📄 Entrevista, tabelas e perguntas norteadoras📄 Modelos de anamnese e relatórios pronto...
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e620]:
+                      - generic [ref=e624]: Saiba mais
+          - generic [ref=e626]:
+            - generic [ref=e628]:
+              - generic [ref=e629]:
+                - generic [ref=e636]: Ativo
+                - generic [ref=e639]: "Identificação da biblioteca: 735497432750037"
+                - generic [ref=e641]: Veiculação iniciada em 17 de jul de 2025
+                - generic [ref=e643]: Plataformas
+                - generic [ref=e666]:
+                  - strong [ref=e667]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e669] [cursor=pointer]:
+                - generic [ref=e672]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e675] [cursor=pointer]:
+              - generic [ref=e679]: Ver resumo
+            - separator [ref=e680]
+            - generic [ref=e685]:
+              - generic [ref=e687]:
+                - img "Educacao mind" [ref=e688]
+                - generic [ref=e690]:
+                  - link "Educacao mind" [ref=e691] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e695]:
+                    - strong [ref=e697]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e698]:
+                - button "Ferramentas TCC para trabalhar ansiedade e Depressão!" [ref=e701]:
+                  - generic [ref=e703]: Ferramentas TCC para trabalhar ansiedade e Depressão!
+                - link [ref=e704] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Fansiedade&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+          - generic [ref=e707]:
+            - generic [ref=e709]:
+              - generic [ref=e710]:
+                - generic [ref=e717]: Ativo
+                - generic [ref=e720]: "Identificação da biblioteca: 4050166545311849"
+                - generic [ref=e722]: Veiculação iniciada em 17 de jul de 2025
+                - generic [ref=e724]: Plataformas
+                - generic [ref=e747]:
+                  - strong [ref=e748]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e750] [cursor=pointer]:
+                - generic [ref=e753]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e756] [cursor=pointer]:
+              - generic [ref=e760]: Ver resumo
+            - separator [ref=e761]
+            - generic [ref=e766]:
+              - generic [ref=e768]:
+                - img "Educacao mind" [ref=e769]
+                - generic [ref=e771]:
+                  - link "Educacao mind" [ref=e772] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e776]:
+                    - strong [ref=e778]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e779]:
+                - button "Ferramentas TCC para trabalhar ansiedade e Depressão!" [ref=e782]:
+                  - generic [ref=e784]: Ferramentas TCC para trabalhar ansiedade e Depressão!
+                - link [ref=e785] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Fansiedade&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+          - generic [ref=e788]:
+            - generic [ref=e790]:
+              - generic [ref=e791]:
+                - generic [ref=e798]: Ativo
+                - generic [ref=e801]: "Identificação da biblioteca: 1398296378654151"
+                - generic [ref=e803]: Veiculação iniciada em 10 de jan de 2026
+                - generic [ref=e805]: Plataformas
+              - button "Abrir menu suspenso" [ref=e833] [cursor=pointer]:
+                - generic [ref=e836]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e839] [cursor=pointer]:
+              - generic [ref=e843]: Ver detalhes do anúncio
+            - separator [ref=e844]
+            - generic [ref=e849]:
+              - generic [ref=e851]:
+                - img "Educacao mind" [ref=e852]
+                - generic [ref=e854]:
+                  - link "Educacao mind" [ref=e855] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e859]:
+                    - strong [ref=e861]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e862]:
+                - 'button "Já ficou na dúvida sobre qual instrumento aplicar ou como fechar um relatório com segurança? O Kit Psicopedagógico Completo resolve isso pra você. ✔️ Testes e escalas ✔️ Anamneses e fichas de observação ✔️ Relatórios editáveis em PDF e Word 🎁 Bônus: +15 modelos de PEI prontos Tudo organizado, prático e profissional. 👉 Saiba Mais" [ref=e865]':
+                  - generic [ref=e868]:
+                    - text: Já ficou na dúvida sobre qual instrumento aplicar ou como fechar um relatório com segurança?
+                    - text: O Kit Psicopedagógico Completo resolve isso pra você.
+                    - text: ✔️ Testes e escalas
+                    - text: ✔️ Anamneses e fichas de observação
+                    - text: ✔️ Relatórios editáveis em PDF e Word
+                    - text: "🎁 Bônus: +15 modelos de PEI prontos"
+                    - text: Tudo organizado, prático e profissional.
+                    - text: 👉 Saiba Mais
+                - link "EDUCACAOMIND.COM.BR psicopedagogia – educacaomind.com.br ✔️ Mais de 75 instrumentos e documentos✔️ Arquivos em PDF e Word (100% editáveis)✔️ Material organizado por tipo de uso✔️ Pronto para download e aplicação imediata✔️ Ideal para consultórios, clínicas e contexto escolar Saiba mais" [ref=e870] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Fpsicopedagogia%2F&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+                  - generic [ref=e872]:
+                    - generic [ref=e873]:
+                      - button "EDUCACAOMIND.COM.BR" [ref=e875]:
+                        - generic [ref=e876]: EDUCACAOMIND.COM.BR
+                      - button "psicopedagogia – educacaomind.com.br" [ref=e878]:
+                        - generic [ref=e879]: psicopedagogia – educacaomind.com.br
+                      - button "✔️ Mais de 75 instrumentos e documentos✔️ Arquivos em PDF e Word (100% editáveis)✔️ Material organizado por tipo de uso✔️ Pronto para download e aplicação imediata✔️ Ideal para consultórios, clínicas e contexto escolar" [ref=e881]:
+                        - generic [ref=e882]: ✔️ Mais de 75 instrumentos e documentos✔️ Arquivos em PDF e Word (100% editáveis)✔️ Material organizado por tipo de uso✔️ Pronto para download e aplicação imediata✔️ Ideal para consultórios, clínicas e contexto escolar
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e884]:
+                      - generic [ref=e888]: Saiba mais
+          - generic [ref=e890]:
+            - generic [ref=e892]:
+              - generic [ref=e893]:
+                - generic [ref=e900]: Ativo
+                - generic [ref=e903]: "Identificação da biblioteca: 1646821729350751"
+                - generic [ref=e905]: Veiculação iniciada em 9 de jul de 2025
+                - generic [ref=e907]: Plataformas
+              - button "Abrir menu suspenso" [ref=e935] [cursor=pointer]:
+                - generic [ref=e938]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e941] [cursor=pointer]:
+              - generic [ref=e945]: Ver detalhes do anúncio
+            - separator [ref=e946]
+            - generic [ref=e951]:
+              - generic [ref=e953]:
+                - img "Educacao mind" [ref=e954]
+                - generic [ref=e956]:
+                  - link "Educacao mind" [ref=e957] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e961]:
+                    - strong [ref=e963]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e964]:
+                - button "Tenha um combo completo para rastreio de dificuldades de aprendizagem!" [ref=e967]:
+                  - generic [ref=e969]: Tenha um combo completo para rastreio de dificuldades de aprendizagem!
+                - link "EDUCACAOMIND.COM.BR aprendizagem – educacaomind.com.br While you can always use global snippets, in the PRO version you can easily add page-specific scripts and snippets directly from the post edit screen. Comprar agora" [ref=e970] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Faprendizagem&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+                  - generic [ref=e972]:
+                    - generic [ref=e973]:
+                      - button "EDUCACAOMIND.COM.BR" [ref=e975]:
+                        - generic [ref=e976]: EDUCACAOMIND.COM.BR
+                      - button "aprendizagem – educacaomind.com.br" [ref=e978]:
+                        - generic [ref=e979]: aprendizagem – educacaomind.com.br
+                      - button "While you can always use global snippets, in the PRO version you can easily add page-specific scripts and snippets directly from the post edit screen." [ref=e981]:
+                        - generic [ref=e982]: While you can always use global snippets, in the PRO version you can easily add page-specific scripts and snippets directly from the post edit screen.
+                      - generic:
+                        - button
+                    - button "Comprar agora" [ref=e984]:
+                      - generic [ref=e988]: Comprar agora
+          - generic [ref=e990]:
+            - generic [ref=e992]:
+              - generic [ref=e993]:
+                - generic [ref=e1000]: Ativo
+                - generic [ref=e1003]: "Identificação da biblioteca: 1508324356898381"
+                - generic [ref=e1005]: Veiculação iniciada em 10 de jan de 2026
+                - generic [ref=e1007]: Plataformas
+              - button "Abrir menu suspenso" [ref=e1035] [cursor=pointer]:
+                - generic [ref=e1038]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e1041] [cursor=pointer]:
+              - generic [ref=e1045]: Ver detalhes do anúncio
+            - separator [ref=e1046]
+            - generic [ref=e1051]:
+              - generic [ref=e1053]:
+                - img "Educacao mind" [ref=e1054]
+                - generic [ref=e1056]:
+                  - link "Educacao mind" [ref=e1057] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e1061]:
+                    - strong [ref=e1063]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1064]:
+                - 'button "Já ficou na dúvida sobre qual instrumento aplicar ou como fechar um relatório com segurança? O Kit Psicopedagógico Completo resolve isso pra você. ✔️ Testes e escalas ✔️ Anamneses e fichas de observação ✔️ Relatórios editáveis em PDF e Word 🎁 Bônus: +15 modelos de PEI prontos Tudo organizado, prático e profissional. 👉 Saiba Mais" [ref=e1067]':
+                  - generic [ref=e1070]:
+                    - text: Já ficou na dúvida sobre qual instrumento aplicar ou como fechar um relatório com segurança?
+                    - text: O Kit Psicopedagógico Completo resolve isso pra você.
+                    - text: ✔️ Testes e escalas
+                    - text: ✔️ Anamneses e fichas de observação
+                    - text: ✔️ Relatórios editáveis em PDF e Word
+                    - text: "🎁 Bônus: +15 modelos de PEI prontos"
+                    - text: Tudo organizado, prático e profissional.
+                    - text: 👉 Saiba Mais
+                - link "EDUCACAOMIND.COM.BR psicopedagogia – educacaomind.com.br ✔️ Mais de 75 instrumentos e documentos✔️ Arquivos em PDF e Word (100% editáveis)✔️ Material organizado por tipo de uso✔️ Pronto para download e aplicação imediata✔️ Ideal para consultórios, clínicas e contexto escolar Saiba mais" [ref=e1072] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Fpsicopedagogia%2F&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+                  - generic [ref=e1074]:
+                    - generic [ref=e1075]:
+                      - button "EDUCACAOMIND.COM.BR" [ref=e1077]:
+                        - generic [ref=e1078]: EDUCACAOMIND.COM.BR
+                      - button "psicopedagogia – educacaomind.com.br" [ref=e1080]:
+                        - generic [ref=e1081]: psicopedagogia – educacaomind.com.br
+                      - button "✔️ Mais de 75 instrumentos e documentos✔️ Arquivos em PDF e Word (100% editáveis)✔️ Material organizado por tipo de uso✔️ Pronto para download e aplicação imediata✔️ Ideal para consultórios, clínicas e contexto escolar" [ref=e1083]:
+                        - generic [ref=e1084]: ✔️ Mais de 75 instrumentos e documentos✔️ Arquivos em PDF e Word (100% editáveis)✔️ Material organizado por tipo de uso✔️ Pronto para download e aplicação imediata✔️ Ideal para consultórios, clínicas e contexto escolar
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e1086]:
+                      - generic [ref=e1090]: Saiba mais
+          - generic [ref=e1092]:
+            - generic [ref=e1094]:
+              - generic [ref=e1095]:
+                - generic [ref=e1102]: Ativo
+                - generic [ref=e1105]: "Identificação da biblioteca: 827450210312355"
+                - generic [ref=e1107]: Veiculação iniciada em 11 de fev de 2026
+                - generic [ref=e1109]: Plataformas
+                - generic [ref=e1138]: Esse anúncio tem várias versões
+              - button "Abrir menu suspenso" [ref=e1144] [cursor=pointer]:
+                - generic [ref=e1147]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e1150] [cursor=pointer]:
+              - generic [ref=e1154]: Ver detalhes do anúncio
+            - separator [ref=e1155]
+            - generic [ref=e1160]:
+              - generic [ref=e1163]:
+                - img "Educacao mind" [ref=e1164]
+                - generic [ref=e1166]:
+                  - link "Educacao mind" [ref=e1167] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e1171]:
+                    - strong [ref=e1173]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1175]:
+                - 'button "Identificar e apoiar crianças superdotadas? Não comece do zero! Reunimos ferramentas prontas para psicólogos, pedagogos e educadores: Escalas Inventários Testes Atividades práticas Acesso imediato em PDF por apenas R$ 24,90 (oferta limitada). Garanta agora!" [ref=e1178]':
+                  - generic [ref=e1181]:
+                    - text: Identificar e apoiar crianças superdotadas?
+                    - text: Não comece do zero!
+                    - text: "Reunimos ferramentas prontas para psicólogos, pedagogos e educadores:"
+                    - text: Escalas
+                    - text: Inventários
+                    - text: Testes
+                    - text: Atividades práticas
+                    - text: Acesso imediato em PDF por apenas R$ 24,90 (oferta limitada). Garanta agora!
+                - link "Testes e escalas para HDS Altas Habilidades Learn More" [ref=e1183] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Fhabilidadesnw%2F&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+                  - generic [ref=e1185]:
+                    - generic [ref=e1186]:
+                      - generic:
+                        - button
+                      - button "Testes e escalas para HDS Altas Habilidades" [ref=e1188]:
+                        - generic [ref=e1189]: Testes e escalas para HDS Altas Habilidades
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Learn More" [ref=e1191]:
+                      - generic [ref=e1195]: Learn More
+          - generic [ref=e1197]:
+            - generic [ref=e1199]:
+              - generic [ref=e1200]:
+                - generic [ref=e1207]: Ativo
+                - generic [ref=e1210]: "Identificação da biblioteca: 1332466611547581"
+                - generic [ref=e1212]: Veiculação iniciada em 20 de ago de 2025
+                - generic [ref=e1214]: Plataformas
+                - generic [ref=e1237]:
+                  - strong [ref=e1238]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e1240] [cursor=pointer]:
+                - generic [ref=e1243]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e1246] [cursor=pointer]:
+              - generic [ref=e1250]: Ver resumo
+            - separator [ref=e1251]
+            - generic [ref=e1256]:
+              - generic [ref=e1258]:
+                - img "Educacao mind" [ref=e1259]
+                - generic [ref=e1261]:
+                  - link "Educacao mind" [ref=e1262] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e1266]:
+                    - strong [ref=e1268]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1269]:
+                - button "Ferramentas TCC para trabalhar ansiedade e Depressão!" [ref=e1272]:
+                  - generic [ref=e1274]: Ferramentas TCC para trabalhar ansiedade e Depressão!
+                - link [ref=e1275] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Fansiedade&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+          - generic [ref=e1278]:
+            - generic [ref=e1280]:
+              - generic [ref=e1281]:
+                - generic [ref=e1288]: Ativo
+                - generic [ref=e1291]: "Identificação da biblioteca: 693066229909223"
+                - generic [ref=e1293]: Veiculação iniciada em 13 de out de 2025
+                - generic [ref=e1295]: Plataformas
+                - generic [ref=e1318]:
+                  - strong [ref=e1319]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e1321] [cursor=pointer]:
+                - generic [ref=e1324]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e1327] [cursor=pointer]:
+              - generic [ref=e1331]: Ver resumo
+            - separator [ref=e1332]
+            - generic [ref=e1337]:
+              - generic [ref=e1339]:
+                - img "Educacao mind" [ref=e1340]
+                - generic [ref=e1342]:
+                  - link "Educacao mind" [ref=e1343] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e1347]:
+                    - strong [ref=e1349]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1350]:
+                - button "Ferramentas TCC para trabalhar ansiedade e Depressão!" [ref=e1353]:
+                  - generic [ref=e1355]: Ferramentas TCC para trabalhar ansiedade e Depressão!
+                - link [ref=e1356] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Fansiedade&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+          - generic [ref=e1359]:
+            - generic [ref=e1361]:
+              - generic [ref=e1362]:
+                - generic [ref=e1369]: Ativo
+                - generic [ref=e1372]: "Identificação da biblioteca: 26126471083617151"
+                - generic [ref=e1374]: Veiculação iniciada em 10 de jan de 2026
+                - generic [ref=e1376]: Plataformas
+              - button "Abrir menu suspenso" [ref=e1404] [cursor=pointer]:
+                - generic [ref=e1407]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e1410] [cursor=pointer]:
+              - generic [ref=e1414]: Ver detalhes do anúncio
+            - separator [ref=e1415]
+            - generic [ref=e1420]:
+              - generic [ref=e1422]:
+                - img "Educacao mind" [ref=e1423]
+                - generic [ref=e1425]:
+                  - link "Educacao mind" [ref=e1426] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e1430]:
+                    - strong [ref=e1432]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1433]:
+                - 'button "Já ficou na dúvida sobre qual instrumento aplicar ou como fechar um relatório com segurança? O Kit Psicopedagógico Completo resolve isso pra você. ✔️ Testes e escalas ✔️ Anamneses e fichas de observação ✔️ Relatórios editáveis em PDF e Word 🎁 Bônus: +15 modelos de PEI prontos Tudo organizado, prático e profissional. 👉 Saiba Mais" [ref=e1436]':
+                  - generic [ref=e1439]:
+                    - text: Já ficou na dúvida sobre qual instrumento aplicar ou como fechar um relatório com segurança?
+                    - text: O Kit Psicopedagógico Completo resolve isso pra você.
+                    - text: ✔️ Testes e escalas
+                    - text: ✔️ Anamneses e fichas de observação
+                    - text: ✔️ Relatórios editáveis em PDF e Word
+                    - text: "🎁 Bônus: +15 modelos de PEI prontos"
+                    - text: Tudo organizado, prático e profissional.
+                    - text: 👉 Saiba Mais
+                - link "EDUCACAOMIND.COM.BR psicopedagogia – educacaomind.com.br ✔️ Mais de 75 instrumentos e documentos✔️ Arquivos em PDF e Word (100% editáveis)✔️ Material organizado por tipo de uso✔️ Pronto para download e aplicação imediata✔️ Ideal para consultórios, clínicas e contexto escolar Saiba mais" [ref=e1441] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Fpsicopedagogia%2F&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+                  - generic [ref=e1443]:
+                    - generic [ref=e1444]:
+                      - button "EDUCACAOMIND.COM.BR" [ref=e1446]:
+                        - generic [ref=e1447]: EDUCACAOMIND.COM.BR
+                      - button "psicopedagogia – educacaomind.com.br" [ref=e1449]:
+                        - generic [ref=e1450]: psicopedagogia – educacaomind.com.br
+                      - button "✔️ Mais de 75 instrumentos e documentos✔️ Arquivos em PDF e Word (100% editáveis)✔️ Material organizado por tipo de uso✔️ Pronto para download e aplicação imediata✔️ Ideal para consultórios, clínicas e contexto escolar" [ref=e1452]:
+                        - generic [ref=e1453]: ✔️ Mais de 75 instrumentos e documentos✔️ Arquivos em PDF e Word (100% editáveis)✔️ Material organizado por tipo de uso✔️ Pronto para download e aplicação imediata✔️ Ideal para consultórios, clínicas e contexto escolar
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e1455]:
+                      - generic [ref=e1459]: Saiba mais
+          - generic [ref=e1461]:
+            - generic [ref=e1463]:
+              - generic [ref=e1464]:
+                - generic [ref=e1471]: Ativo
+                - generic [ref=e1474]: "Identificação da biblioteca: 1375482140799164"
+                - generic [ref=e1476]: Veiculação iniciada em 15 de out de 2025
+                - generic [ref=e1478]: Plataformas
+                - generic [ref=e1506]:
+                  - strong [ref=e1507]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e1509] [cursor=pointer]:
+                - generic [ref=e1512]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e1515] [cursor=pointer]:
+              - generic [ref=e1519]: Ver resumo
+            - separator [ref=e1520]
+            - generic [ref=e1525]:
+              - generic [ref=e1527]:
+                - img "Educacao mind" [ref=e1528]
+                - generic [ref=e1530]:
+                  - link "Educacao mind" [ref=e1531] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e1535]:
+                    - strong [ref=e1537]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1538]:
+                - button "Tenha um combo completo para rastreio de dificuldades de aprendizagem!" [ref=e1541]:
+                  - generic [ref=e1543]: Tenha um combo completo para rastreio de dificuldades de aprendizagem!
+                - link [ref=e1544] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Faprendizagem&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+          - generic [ref=e1547]:
+            - generic [ref=e1549]:
+              - generic [ref=e1550]:
+                - generic [ref=e1557]: Ativo
+                - generic [ref=e1560]: "Identificação da biblioteca: 1506198964010122"
+                - generic [ref=e1562]: Veiculação iniciada em 16 de dez de 2025
+                - generic [ref=e1564]: Plataformas
+              - button "Abrir menu suspenso" [ref=e1592] [cursor=pointer]:
+                - generic [ref=e1595]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e1598] [cursor=pointer]:
+              - generic [ref=e1602]: Ver detalhes do anúncio
+            - separator [ref=e1603]
+            - generic [ref=e1608]:
+              - generic [ref=e1610]:
+                - img "Educacao mind" [ref=e1611]
+                - generic [ref=e1613]:
+                  - link "Educacao mind" [ref=e1614] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e1618]:
+                    - strong [ref=e1620]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1621]:
+                - button "🚀 Atenda com mais segurança, precisão e profissionalismo. O NeuroPro reúne ferramentas completas para avaliar, identificar e intervir em casos de Dislexia, Autismo e TDAH — tudo em um único lugar. ✔️ Protocolos de avaliação ✔️ Roteiros e guias de intervenção ✔️ Materiais editáveis ✔️ Recursos para acompanhamento clínico ✔️ +100 ferramentas essenciais Ideal para psicólogos, psicopedagogos, terapeutas e profissionais que desejam melhorar a qualidade dos atendimentos e elevar sua autoridade na prática clínica. 📘 Organizado. Completo. Profissional. Tudo pronto para usar — é só aplicar no seu consultório ou instituição. 👉 Clique em “Saiba Mais” e veja como transformar seus atendimentos." [ref=e1624]:
+                  - generic [ref=e1627]:
+                    - text: 🚀 Atenda com mais segurança, precisão e profissionalismo.
+                    - text: O NeuroPro reúne ferramentas completas para avaliar, identificar e intervir em casos de Dislexia, Autismo e TDAH — tudo em um único lugar.
+                    - text: ✔️ Protocolos de avaliação
+                    - text: ✔️ Roteiros e guias de intervenção
+                    - text: ✔️ Materiais editáveis
+                    - text: ✔️ Recursos para acompanhamento clínico
+                    - text: ✔️ +100 ferramentas essenciais
+                    - text: Ideal para psicólogos, psicopedagogos, terapeutas e profissionais que desejam melhorar a qualidade dos atendimentos e elevar sua autoridade na prática clínica.
+                    - text: 📘 Organizado. Completo. Profissional.
+                    - text: Tudo pronto para usar — é só aplicar no seu consultório ou instituição.
+                    - text: 👉 Clique em “Saiba Mais” e veja como transformar seus atendimentos.
+                - link "EDUCACAOMIND.COM.BR neuropro – educacaomind.com.br Um guia completo com 650 perguntas terapêuticas para aprofundar sessões, desbloquear emoções, estimular reflexões e gerar insights transformadores em qualquer abordagem clínica. Saiba mais" [ref=e1629] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Fneuropro%2F&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+                  - generic [ref=e1631]:
+                    - generic [ref=e1632]:
+                      - button "EDUCACAOMIND.COM.BR" [ref=e1634]:
+                        - generic [ref=e1635]: EDUCACAOMIND.COM.BR
+                      - button "neuropro – educacaomind.com.br" [ref=e1637]:
+                        - generic [ref=e1638]: neuropro – educacaomind.com.br
+                      - button "Um guia completo com 650 perguntas terapêuticas para aprofundar sessões, desbloquear emoções, estimular reflexões e gerar insights transformadores em qualquer abordagem clínica." [ref=e1640]:
+                        - generic [ref=e1641]: Um guia completo com 650 perguntas terapêuticas para aprofundar sessões, desbloquear emoções, estimular reflexões e gerar insights transformadores em qualquer abordagem clínica.
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e1643]:
+                      - generic [ref=e1647]: Saiba mais
+          - generic [ref=e1649]:
+            - generic [ref=e1651]:
+              - generic [ref=e1652]:
+                - generic [ref=e1659]: Ativo
+                - generic [ref=e1662]: "Identificação da biblioteca: 1386570582367666"
+                - generic [ref=e1664]: Veiculação iniciada em 10 de jan de 2026
+                - generic [ref=e1666]: Plataformas
+              - button "Abrir menu suspenso" [ref=e1694] [cursor=pointer]:
+                - generic [ref=e1697]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e1700] [cursor=pointer]:
+              - generic [ref=e1704]: Ver detalhes do anúncio
+            - separator [ref=e1705]
+            - generic [ref=e1710]:
+              - generic [ref=e1712]:
+                - img "Educacao mind" [ref=e1713]
+                - generic [ref=e1715]:
+                  - link "Educacao mind" [ref=e1716] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e1720]:
+                    - strong [ref=e1722]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1723]:
+                - 'button "Já ficou na dúvida sobre qual instrumento aplicar ou como fechar um relatório com segurança? O Kit Psicopedagógico Completo resolve isso pra você. ✔️ Testes e escalas ✔️ Anamneses e fichas de observação ✔️ Relatórios editáveis em PDF e Word 🎁 Bônus: +15 modelos de PEI prontos Tudo organizado, prático e profissional. 👉 Saiba Mais" [ref=e1726]':
+                  - generic [ref=e1729]:
+                    - text: Já ficou na dúvida sobre qual instrumento aplicar ou como fechar um relatório com segurança?
+                    - text: O Kit Psicopedagógico Completo resolve isso pra você.
+                    - text: ✔️ Testes e escalas
+                    - text: ✔️ Anamneses e fichas de observação
+                    - text: ✔️ Relatórios editáveis em PDF e Word
+                    - text: "🎁 Bônus: +15 modelos de PEI prontos"
+                    - text: Tudo organizado, prático e profissional.
+                    - text: 👉 Saiba Mais
+                - link "EDUCACAOMIND.COM.BR psicopedagogia – educacaomind.com.br ✔️ Mais de 75 instrumentos e documentos✔️ Arquivos em PDF e Word (100% editáveis)✔️ Material organizado por tipo de uso✔️ Pronto para download e aplicação imediata✔️ Ideal para consultórios, clínicas e contexto escolar Saiba mais" [ref=e1731] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Fpsicopedagogia%2F&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+                  - generic [ref=e1733]:
+                    - generic [ref=e1734]:
+                      - button "EDUCACAOMIND.COM.BR" [ref=e1736]:
+                        - generic [ref=e1737]: EDUCACAOMIND.COM.BR
+                      - button "psicopedagogia – educacaomind.com.br" [ref=e1739]:
+                        - generic [ref=e1740]: psicopedagogia – educacaomind.com.br
+                      - button "✔️ Mais de 75 instrumentos e documentos✔️ Arquivos em PDF e Word (100% editáveis)✔️ Material organizado por tipo de uso✔️ Pronto para download e aplicação imediata✔️ Ideal para consultórios, clínicas e contexto escolar" [ref=e1742]:
+                        - generic [ref=e1743]: ✔️ Mais de 75 instrumentos e documentos✔️ Arquivos em PDF e Word (100% editáveis)✔️ Material organizado por tipo de uso✔️ Pronto para download e aplicação imediata✔️ Ideal para consultórios, clínicas e contexto escolar
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e1745]:
+                      - generic [ref=e1749]: Saiba mais
+          - generic [ref=e1751]:
+            - generic [ref=e1753]:
+              - generic [ref=e1754]:
+                - generic [ref=e1761]: Ativo
+                - generic [ref=e1764]: "Identificação da biblioteca: 3192553864261246"
+                - generic [ref=e1766]: Veiculação iniciada em 26 de fev de 2026
+                - generic [ref=e1768]: Plataformas
+                - generic [ref=e1796]:
+                  - strong [ref=e1797]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e1799] [cursor=pointer]:
+                - generic [ref=e1802]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e1805] [cursor=pointer]:
+              - generic [ref=e1809]: Ver resumo
+            - separator [ref=e1810]
+            - generic [ref=e1815]:
+              - generic [ref=e1817]:
+                - img "Educacao mind" [ref=e1818]
+                - generic [ref=e1820]:
+                  - link "Educacao mind" [ref=e1821] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e1825]:
+                    - strong [ref=e1827]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1828]:
+                - 'button "O NR-01 + Testes Vocacionais entrega tudo pronto para você atuar com mais autoridade: ✔ Implantação técnica da NR-01 ✔ Diagnósticos e relatórios psicossociais ✔ Testes vocacionais completos e organizados ✔ Modelos editáveis em Word e PDF Chega de perder tempo montando material do zero. Eleve sua prática profissional agora. 👉 Clique em Saiba Mais" [ref=e1831]':
+                  - generic [ref=e1834]:
+                    - text: "O NR-01 + Testes Vocacionais entrega tudo pronto para você atuar com mais autoridade:"
+                    - text: ✔ Implantação técnica da NR-01
+                    - text: ✔ Diagnósticos e relatórios psicossociais
+                    - text: ✔ Testes vocacionais completos e organizados
+                    - text: ✔ Modelos editáveis em Word e PDF
+                    - text: Chega de perder tempo montando material do zero.
+                    - text: Eleve sua prática profissional agora.
+                    - text: 👉 Clique em Saiba Mais
+                - link [ref=e1836] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Fnr01nova%2F&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+          - generic [ref=e1839]:
+            - generic [ref=e1841]:
+              - generic [ref=e1842]:
+                - generic [ref=e1849]: Ativo
+                - generic [ref=e1852]: "Identificação da biblioteca: 1686537865503022"
+                - generic [ref=e1854]: Veiculação iniciada em 11 de fev de 2026
+                - generic [ref=e1856]: Plataformas
+              - button "Abrir menu suspenso" [ref=e1884] [cursor=pointer]:
+                - generic [ref=e1887]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e1890] [cursor=pointer]:
+              - generic [ref=e1894]: Ver detalhes do anúncio
+            - separator [ref=e1895]
+            - generic [ref=e1900]:
+              - generic [ref=e1902]:
+                - img "Educacao mind" [ref=e1903]
+                - generic [ref=e1905]:
+                  - link "Educacao mind" [ref=e1906] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e1910]:
+                    - strong [ref=e1912]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1913]:
+                - button "🎓 ALTAS HABILIDADES / SUPERDOTAÇÃO Você não precisa mais criar tudo do zero. Reunimos materiais prontos e validados para identificação, avaliação e intervenção em crianças e adolescentes com altas habilidades. ✔️ Escalas ✔️ Inventários ✔️ Testes ✔️ Atividades práticas ✔️ Anamneses ✔️ Protocolos organizados Ideal para psicólogos, pedagogos, psicopedagogos e educadores que querem mais segurança e agilidade no atendimento. 🔥 Oferta especial por tempo limitado De R$ 99,90 👉 Por apenas R$ 24,90 📲 Acesso imediato em PDF 📚 Material organizado e fácil de aplicar 👉 Clique em “Saiba mais” e garanta agora" [ref=e1916]:
+                  - generic [ref=e1919]:
+                    - text: 🎓 ALTAS HABILIDADES / SUPERDOTAÇÃO
+                    - text: Você não precisa mais criar tudo do zero.
+                    - text: Reunimos materiais prontos e validados para identificação, avaliação e intervenção em crianças e adolescentes com altas habilidades.
+                    - text: ✔️ Escalas
+                    - text: ✔️ Inventários
+                    - text: ✔️ Testes
+                    - text: ✔️ Atividades práticas
+                    - text: ✔️ Anamneses
+                    - text: ✔️ Protocolos organizados
+                    - text: Ideal para psicólogos, pedagogos, psicopedagogos e educadores que querem mais segurança e agilidade no atendimento.
+                    - text: 🔥 Oferta especial por tempo limitado
+                    - text: De R$ 99,90
+                    - text: 👉 Por apenas R$ 24,90
+                    - text: 📲 Acesso imediato em PDF
+                    - text: 📚 Material organizado e fácil de aplicar
+                    - text: 👉 Clique em “Saiba mais” e garanta agora
+                - link "EDUCACAOMIND.COM.BR Testes e escalas para HDS Altas Habilidades Avaliação, documentação e intervenção prática em Altas Habilidades e Superdotação, com clareza clínica, ética e segurança profissional. Saiba mais" [ref=e1921] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Fhabilidadesnw%2F&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+                  - generic [ref=e1923]:
+                    - generic [ref=e1924]:
+                      - button "EDUCACAOMIND.COM.BR" [ref=e1926]:
+                        - generic [ref=e1927]: EDUCACAOMIND.COM.BR
+                      - button "Testes e escalas para HDS Altas Habilidades" [ref=e1929]:
+                        - generic [ref=e1930]: Testes e escalas para HDS Altas Habilidades
+                      - button "Avaliação, documentação e intervenção prática em Altas Habilidades e Superdotação, com clareza clínica, ética e segurança profissional." [ref=e1932]:
+                        - generic [ref=e1933]: Avaliação, documentação e intervenção prática em Altas Habilidades e Superdotação, com clareza clínica, ética e segurança profissional.
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e1935]:
+                      - generic [ref=e1939]: Saiba mais
+          - generic [ref=e1941]:
+            - generic [ref=e1943]:
+              - generic [ref=e1944]:
+                - generic [ref=e1951]: Ativo
+                - generic [ref=e1954]: "Identificação da biblioteca: 894022936353891"
+                - generic [ref=e1956]: Veiculação iniciada em 14 de jan de 2026
+                - generic [ref=e1958]: Plataformas
+              - button "Abrir menu suspenso" [ref=e1986] [cursor=pointer]:
+                - generic [ref=e1989]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e1992] [cursor=pointer]:
+              - generic [ref=e1996]: Ver detalhes do anúncio
+            - separator [ref=e1997]
+            - generic [ref=e2002]:
+              - generic [ref=e2004]:
+                - img "Educacao mind" [ref=e2005]
+                - generic [ref=e2007]:
+                  - link "Educacao mind" [ref=e2008] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e2012]:
+                    - strong [ref=e2014]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2015]:
+                - 'button "Já ficou na dúvida sobre qual instrumento aplicar ou como fechar um relatório com segurança? O Kit Psicopedagógico Completo resolve isso pra você. ✔️ Testes e escalas ✔️ Anamneses e fichas de observação ✔️ Relatórios editáveis em PDF e Word 🎁 Bônus: +15 modelos de PEI prontos Tudo organizado, prático e profissional. 👉 Saiba Mais" [ref=e2018]':
+                  - generic [ref=e2021]:
+                    - text: Já ficou na dúvida sobre qual instrumento aplicar ou como fechar um relatório com segurança?
+                    - text: O Kit Psicopedagógico Completo resolve isso pra você.
+                    - text: ✔️ Testes e escalas
+                    - text: ✔️ Anamneses e fichas de observação
+                    - text: ✔️ Relatórios editáveis em PDF e Word
+                    - text: "🎁 Bônus: +15 modelos de PEI prontos"
+                    - text: Tudo organizado, prático e profissional.
+                    - text: 👉 Saiba Mais
+                - link "EDUCACAOMIND.COM.BR psicopedagogia – educacaomind.com.br ✔️ Mais de 75 instrumentos e documentos✔️ Arquivos em PDF e Word (100% editáveis)✔️ Material organizado por tipo de uso✔️ Pronto para download e aplicação imediata✔️ Ideal para consultórios, clínicas e contexto escolar Saiba mais" [ref=e2023] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Fpsicopedagogia%2F&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+                  - generic [ref=e2025]:
+                    - generic [ref=e2026]:
+                      - button "EDUCACAOMIND.COM.BR" [ref=e2028]:
+                        - generic [ref=e2029]: EDUCACAOMIND.COM.BR
+                      - button "psicopedagogia – educacaomind.com.br" [ref=e2031]:
+                        - generic [ref=e2032]: psicopedagogia – educacaomind.com.br
+                      - button "✔️ Mais de 75 instrumentos e documentos✔️ Arquivos em PDF e Word (100% editáveis)✔️ Material organizado por tipo de uso✔️ Pronto para download e aplicação imediata✔️ Ideal para consultórios, clínicas e contexto escolar" [ref=e2034]:
+                        - generic [ref=e2035]: ✔️ Mais de 75 instrumentos e documentos✔️ Arquivos em PDF e Word (100% editáveis)✔️ Material organizado por tipo de uso✔️ Pronto para download e aplicação imediata✔️ Ideal para consultórios, clínicas e contexto escolar
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e2037]:
+                      - generic [ref=e2041]: Saiba mais
+          - generic [ref=e2043]:
+            - generic [ref=e2045]:
+              - generic [ref=e2046]:
+                - generic [ref=e2053]: Ativo
+                - generic [ref=e2056]: "Identificação da biblioteca: 811886684585892"
+                - generic [ref=e2058]: Veiculação iniciada em 25 de out de 2025
+                - generic [ref=e2060]: Plataformas
+                - generic [ref=e2088]:
+                  - strong [ref=e2089]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e2091] [cursor=pointer]:
+                - generic [ref=e2094]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e2097] [cursor=pointer]:
+              - generic [ref=e2101]: Ver resumo
+            - separator [ref=e2102]
+            - generic [ref=e2107]:
+              - generic [ref=e2109]:
+                - img "Educacao mind" [ref=e2110]
+                - generic [ref=e2112]:
+                  - link "Educacao mind" [ref=e2113] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e2117]:
+                    - strong [ref=e2119]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2120]:
+                - button "Tenha um combo completo para rastreio de dificuldades de aprendizagem!" [ref=e2123]:
+                  - generic [ref=e2125]: Tenha um combo completo para rastreio de dificuldades de aprendizagem!
+                - link [ref=e2126] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Faprendizagem&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+          - generic [ref=e2129]:
+            - generic [ref=e2131]:
+              - generic [ref=e2132]:
+                - generic [ref=e2139]: Ativo
+                - generic [ref=e2142]: "Identificação da biblioteca: 647469601632889"
+                - generic [ref=e2144]: Veiculação iniciada em 21 de out de 2025
+                - generic [ref=e2146]: Plataformas
+                - generic [ref=e2174]:
+                  - strong [ref=e2175]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e2177] [cursor=pointer]:
+                - generic [ref=e2180]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e2183] [cursor=pointer]:
+              - generic [ref=e2187]: Ver resumo
+            - separator [ref=e2188]
+            - generic [ref=e2193]:
+              - generic [ref=e2195]:
+                - img "Educacao mind" [ref=e2196]
+                - generic [ref=e2198]:
+                  - link "Educacao mind" [ref=e2199] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e2203]:
+                    - strong [ref=e2205]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2206]:
+                - button "Tenha um combo completo para rastreio de dificuldades de aprendizagem!" [ref=e2209]:
+                  - generic [ref=e2211]: Tenha um combo completo para rastreio de dificuldades de aprendizagem!
+                - link [ref=e2212] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Faprendizagem&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+          - generic [ref=e2215]:
+            - generic [ref=e2217]:
+              - generic [ref=e2218]:
+                - generic [ref=e2225]: Ativo
+                - generic [ref=e2228]: "Identificação da biblioteca: 24757163943958941"
+                - generic [ref=e2230]: Veiculação iniciada em 16 de dez de 2025
+                - generic [ref=e2232]: Plataformas
+              - button "Abrir menu suspenso" [ref=e2260] [cursor=pointer]:
+                - generic [ref=e2263]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e2266] [cursor=pointer]:
+              - generic [ref=e2270]: Ver detalhes do anúncio
+            - separator [ref=e2271]
+            - generic [ref=e2276]:
+              - generic [ref=e2278]:
+                - img "Educacao mind" [ref=e2279]
+                - generic [ref=e2281]:
+                  - link "Educacao mind" [ref=e2282] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e2286]:
+                    - strong [ref=e2288]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2289]:
+                - button "🚀 Atenda com mais segurança, precisão e profissionalismo. O NeuroPro reúne ferramentas completas para avaliar, identificar e intervir em casos de Dislexia, Autismo e TDAH — tudo em um único lugar. ✔️ Protocolos de avaliação ✔️ Roteiros e guias de intervenção ✔️ Materiais editáveis ✔️ Recursos para acompanhamento clínico ✔️ +100 ferramentas essenciais Ideal para psicólogos, psicopedagogos, terapeutas e profissionais que desejam melhorar a qualidade dos atendimentos e elevar sua autoridade na prática clínica. 📘 Organizado. Completo. Profissional. Tudo pronto para usar — é só aplicar no seu consultório ou instituição. 👉 Clique em “Saiba Mais” e veja como transformar seus atendimentos." [ref=e2292]:
+                  - generic [ref=e2295]:
+                    - text: 🚀 Atenda com mais segurança, precisão e profissionalismo.
+                    - text: O NeuroPro reúne ferramentas completas para avaliar, identificar e intervir em casos de Dislexia, Autismo e TDAH — tudo em um único lugar.
+                    - text: ✔️ Protocolos de avaliação
+                    - text: ✔️ Roteiros e guias de intervenção
+                    - text: ✔️ Materiais editáveis
+                    - text: ✔️ Recursos para acompanhamento clínico
+                    - text: ✔️ +100 ferramentas essenciais
+                    - text: Ideal para psicólogos, psicopedagogos, terapeutas e profissionais que desejam melhorar a qualidade dos atendimentos e elevar sua autoridade na prática clínica.
+                    - text: 📘 Organizado. Completo. Profissional.
+                    - text: Tudo pronto para usar — é só aplicar no seu consultório ou instituição.
+                    - text: 👉 Clique em “Saiba Mais” e veja como transformar seus atendimentos.
+                - link "EDUCACAOMIND.COM.BR neuropro – educacaomind.com.br Um guia completo com 650 perguntas terapêuticas para aprofundar sessões, desbloquear emoções, estimular reflexões e gerar insights transformadores em qualquer abordagem clínica. Saiba mais" [ref=e2297] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Fneuropro%2F&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+                  - generic [ref=e2299]:
+                    - generic [ref=e2300]:
+                      - button "EDUCACAOMIND.COM.BR" [ref=e2302]:
+                        - generic [ref=e2303]: EDUCACAOMIND.COM.BR
+                      - button "neuropro – educacaomind.com.br" [ref=e2305]:
+                        - generic [ref=e2306]: neuropro – educacaomind.com.br
+                      - button "Um guia completo com 650 perguntas terapêuticas para aprofundar sessões, desbloquear emoções, estimular reflexões e gerar insights transformadores em qualquer abordagem clínica." [ref=e2308]:
+                        - generic [ref=e2309]: Um guia completo com 650 perguntas terapêuticas para aprofundar sessões, desbloquear emoções, estimular reflexões e gerar insights transformadores em qualquer abordagem clínica.
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e2311]:
+                      - generic [ref=e2315]: Saiba mais
+          - generic [ref=e2317]:
+            - generic [ref=e2319]:
+              - generic [ref=e2320]:
+                - generic [ref=e2327]: Ativo
+                - generic [ref=e2330]: "Identificação da biblioteca: 1471772930709533"
+                - generic [ref=e2332]: Veiculação iniciada em 16 de out de 2025
+                - generic [ref=e2334]: Plataformas
+                - generic [ref=e2362]:
+                  - strong [ref=e2363]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e2365] [cursor=pointer]:
+                - generic [ref=e2368]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e2371] [cursor=pointer]:
+              - generic [ref=e2375]: Ver resumo
+            - separator [ref=e2376]
+            - generic [ref=e2381]:
+              - generic [ref=e2383]:
+                - img "Educacao mind" [ref=e2384]
+                - generic [ref=e2386]:
+                  - link "Educacao mind" [ref=e2387] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e2391]:
+                    - strong [ref=e2393]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2394]:
+                - button "Tenha um combo completo para rastreio de dificuldades de aprendizagem!" [ref=e2397]:
+                  - generic [ref=e2399]: Tenha um combo completo para rastreio de dificuldades de aprendizagem!
+                - link [ref=e2400] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Faprendizagem&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+          - generic [ref=e2403]:
+            - generic [ref=e2405]:
+              - generic [ref=e2406]:
+                - generic [ref=e2413]: Ativo
+                - generic [ref=e2416]: "Identificação da biblioteca: 2002945870280770"
+                - generic [ref=e2418]: Veiculação iniciada em 11 de fev de 2026
+                - generic [ref=e2420]: Plataformas
+              - button "Abrir menu suspenso" [ref=e2448] [cursor=pointer]:
+                - generic [ref=e2451]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e2454] [cursor=pointer]:
+              - generic [ref=e2458]: Ver detalhes do anúncio
+            - separator [ref=e2459]
+            - generic [ref=e2464]:
+              - generic [ref=e2466]:
+                - img "Educacao mind" [ref=e2467]
+                - generic [ref=e2469]:
+                  - link "Educacao mind" [ref=e2470] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e2474]:
+                    - strong [ref=e2476]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2477]:
+                - button "🎓 ALTAS HABILIDADES / SUPERDOTAÇÃO Você não precisa mais criar tudo do zero. Reunimos materiais prontos e validados para identificação, avaliação e intervenção em crianças e adolescentes com altas habilidades. ✔️ Escalas ✔️ Inventários ✔️ Testes ✔️ Atividades práticas ✔️ Anamneses ✔️ Protocolos organizados Ideal para psicólogos, pedagogos, psicopedagogos e educadores que querem mais segurança e agilidade no atendimento. 🔥 Oferta especial por tempo limitado De R$ 99,90 👉 Por apenas R$ 24,90 📲 Acesso imediato em PDF 📚 Material organizado e fácil de aplicar 👉 Clique em “Saiba mais” e garanta agora" [ref=e2480]:
+                  - generic [ref=e2483]:
+                    - text: 🎓 ALTAS HABILIDADES / SUPERDOTAÇÃO
+                    - text: Você não precisa mais criar tudo do zero.
+                    - text: Reunimos materiais prontos e validados para identificação, avaliação e intervenção em crianças e adolescentes com altas habilidades.
+                    - text: ✔️ Escalas
+                    - text: ✔️ Inventários
+                    - text: ✔️ Testes
+                    - text: ✔️ Atividades práticas
+                    - text: ✔️ Anamneses
+                    - text: ✔️ Protocolos organizados
+                    - text: Ideal para psicólogos, pedagogos, psicopedagogos e educadores que querem mais segurança e agilidade no atendimento.
+                    - text: 🔥 Oferta especial por tempo limitado
+                    - text: De R$ 99,90
+                    - text: 👉 Por apenas R$ 24,90
+                    - text: 📲 Acesso imediato em PDF
+                    - text: 📚 Material organizado e fácil de aplicar
+                    - text: 👉 Clique em “Saiba mais” e garanta agora
+                - link "EDUCACAOMIND.COM.BR Testes e escalas para HDS Altas Habilidades Avaliação, documentação e intervenção prática em Altas Habilidades e Superdotação, com clareza clínica, ética e segurança profissional. Saiba mais" [ref=e2485] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Fhabilidadesnw%2F&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+                  - generic [ref=e2487]:
+                    - generic [ref=e2488]:
+                      - button "EDUCACAOMIND.COM.BR" [ref=e2490]:
+                        - generic [ref=e2491]: EDUCACAOMIND.COM.BR
+                      - button "Testes e escalas para HDS Altas Habilidades" [ref=e2493]:
+                        - generic [ref=e2494]: Testes e escalas para HDS Altas Habilidades
+                      - button "Avaliação, documentação e intervenção prática em Altas Habilidades e Superdotação, com clareza clínica, ética e segurança profissional." [ref=e2496]:
+                        - generic [ref=e2497]: Avaliação, documentação e intervenção prática em Altas Habilidades e Superdotação, com clareza clínica, ética e segurança profissional.
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e2499]:
+                      - generic [ref=e2503]: Saiba mais
+          - generic [ref=e2505]:
+            - generic [ref=e2507]:
+              - generic [ref=e2508]:
+                - generic [ref=e2515]: Ativo
+                - generic [ref=e2518]: "Identificação da biblioteca: 1654003855267091"
+                - generic [ref=e2520]: Veiculação iniciada em 9 de jul de 2025
+                - generic [ref=e2522]: Plataformas
+              - button "Abrir menu suspenso" [ref=e2550] [cursor=pointer]:
+                - generic [ref=e2553]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e2556] [cursor=pointer]:
+              - generic [ref=e2560]: Ver detalhes do anúncio
+            - separator [ref=e2561]
+            - generic [ref=e2566]:
+              - generic [ref=e2568]:
+                - img "Educacao mind" [ref=e2569]
+                - generic [ref=e2571]:
+                  - link "Educacao mind" [ref=e2572] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61551398121232/
+                  - generic [ref=e2576]:
+                    - strong [ref=e2578]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2579]:
+                - button "Combo completo de ferramentas para Autismo e TDAH!" [ref=e2582]:
+                  - generic [ref=e2584]: Combo completo de ferramentas para Autismo e TDAH!
+                - link "EDUCACAOMIND.COM.BR tdah – educacaomind.com.br ✅ Ferramentas para Avaliação e Diagnóstico – TDAH📊 ASRS-18 (colorida e padrão) – Escala adulto📊 SNAP-IV – Avaliação infantil e adolescente📊 Conners – Versões para pais e professores📄 Entrevista, tabelas e perguntas norteadoras📄 Modelos de anamnese e relatórios pronto... Saiba mais" [ref=e2585] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Feducacaomind.com.br%2Fteatdah%2F&h=AT6KmPQcUozvCI1faTzFU4WyhMlsDh1isKY2EZOI3q3FUeSyCCx-oeBG5MmZmQ_jzzjhemNm_cFgNt1aSlND7OM0dmog3vB4zus2I1PVQNYuQrJaY8nV_K6b33ojLwFVX7dxBTovHmEERz5blY2HMQ
+                  - generic [ref=e2587]:
+                    - generic [ref=e2588]:
+                      - button "EDUCACAOMIND.COM.BR" [ref=e2590]:
+                        - generic [ref=e2591]: EDUCACAOMIND.COM.BR
+                      - button "tdah – educacaomind.com.br" [ref=e2593]:
+                        - generic [ref=e2594]: tdah – educacaomind.com.br
+                      - button "✅ Ferramentas para Avaliação e Diagnóstico – TDAH📊 ASRS-18 (colorida e padrão) – Escala adulto📊 SNAP-IV – Avaliação infantil e adolescente📊 Conners – Versões para pais e professores📄 Entrevista, tabelas e perguntas norteadoras📄 Modelos de anamnese e relatórios pronto..." [ref=e2596]:
+                        - generic [ref=e2597]: ✅ Ferramentas para Avaliação e Diagnóstico – TDAH📊 ASRS-18 (colorida e padrão) – Escala adulto📊 SNAP-IV – Avaliação infantil e adolescente📊 Conners – Versões para pais e professores📄 Entrevista, tabelas e perguntas norteadoras📄 Modelos de anamnese e relatórios pronto...
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e2599]:
+                      - generic [ref=e2603]: Saiba mais
+        - button "Ver mais" [ref=e2604] [cursor=pointer]:
+          - generic [ref=e2605]: Ver mais
+    - generic [ref=e2608]:
+      - generic [ref=e2616]: Status do sistema
+      - generic [ref=e2620]:
+        - list [ref=e2621]:
+          - listitem [ref=e2622]:
+            - heading "API da Biblioteca de Anúncios" [level=3] [ref=e2623]:
+              - link "API da Biblioteca de Anúncios" [ref=e2624] [cursor=pointer]:
+                - /url: /ads/library/api/?source=archive-landing-page
+          - listitem [ref=e2625]:
+            - heading "Sobre anúncios e uso de dados" [level=3] [ref=e2626]:
+              - link "Sobre anúncios e uso de dados" [ref=e2627] [cursor=pointer]:
+                - /url: /ads/about/?entry_product=ad_library
+          - listitem [ref=e2628]:
+            - heading "Privacidade" [level=3] [ref=e2629]:
+              - link "Privacidade" [ref=e2630] [cursor=pointer]:
+                - /url: /privacy/center/?entry_point=privacy_basics_redirect
+          - listitem [ref=e2631]:
+            - heading "Termos" [level=3] [ref=e2632]:
+              - link "Termos" [ref=e2633] [cursor=pointer]:
+                - /url: /policies/
+          - listitem [ref=e2634]:
+            - heading "Cookies" [level=3] [ref=e2635]:
+              - link "Cookies" [ref=e2636] [cursor=pointer]:
+                - /url: /policies/cookies/
+        - heading "Meta © 2026 | Português (Brasil)" [level=3] [ref=e2638]:
+          - text: Meta © 2026 |
+          - link "Português (Brasil)" [ref=e2639] [cursor=pointer]:
+            - /url: /language/

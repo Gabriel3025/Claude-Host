@@ -1,0 +1,1242 @@
+- generic [ref=e12]:
+  - generic [ref=e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=e27] [cursor=pointer]:
+      - generic [ref=e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=e33] [cursor=pointer]
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - combobox "Tudo" [ref=e44] [cursor=pointer]:
+        - generic [ref=e51]: Tudo
+      - combobox "Todos os anúncios" [ref=e58] [cursor=pointer]:
+        - generic [ref=e68]: Todos os anúncios
+    - generic [ref=e78]:
+      - generic [ref=e84]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=e90]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=e96]: Espaço Compartilhando Saberes
+        - button "Limpar" [ref=e98] [cursor=pointer]
+  - dialog [ref=e100]:
+    - generic [ref=e101]:
+      - link [ref=e102] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=e103]: Entrar
+      - menuitem [ref=e104] [cursor=pointer]
+    - generic [ref=e106]:
+      - generic [ref=e107]:
+        - heading [level=4] [ref=e109]: Biblioteca de Anúncios
+        - menuitem [ref=e111] [cursor=pointer]:
+          - heading [level=4] [ref=e113]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=e115] [cursor=pointer]:
+          - heading [level=4] [ref=e117]: API da Biblioteca de Anúncios
+        - menuitem [ref=e119] [cursor=pointer]:
+          - heading [level=4] [ref=e121]: Conteúdo de marca
+      - separator [ref=e122]
+      - generic [ref=e123]:
+        - menuitem [ref=e125] [cursor=pointer]:
+          - heading [level=4] [ref=e127]: Status do sistema
+        - menuitem [ref=e129] [cursor=pointer]:
+          - heading [level=4] [ref=e131]: Assinar para receber atualizações por email
+        - menuitem [ref=e133] [cursor=pointer]:
+          - heading [level=4] [ref=e135]: Perguntas frequentes
+        - menuitem [ref=e137] [cursor=pointer]:
+          - heading [level=4] [ref=e139]: Sobre anúncios e uso de dados
+        - menuitem [ref=e141] [cursor=pointer]:
+          - heading [level=4] [ref=e143]: Privacidade
+        - menuitem [ref=e145] [cursor=pointer]:
+          - heading [level=4] [ref=e147]: Termos
+        - menuitem [ref=e149] [cursor=pointer]:
+          - heading [level=4] [ref=e151]: Cookies
+  - generic [ref=e152]:
+    - generic [ref=e166]:
+      - generic [ref=e172]:
+        - heading "~49 resultados" [level=3] [ref=e174]
+        - generic [ref=e176]:
+          - text: Esses resultados incluem anúncios que correspondem à sua
+          - strong [ref=e177]: pesquisa por palavra-chave.
+      - generic [ref=e178]:
+        - generic [ref=e184]:
+          - button "Filtros (1)" [ref=e186] [cursor=pointer]:
+            - generic [ref=e192]: Filtros (1)
+          - button "Classificar por" [ref=e195] [cursor=pointer]:
+            - generic [ref=e200]: Classificar por
+        - generic [ref=e203]:
+          - generic [ref=e205]:
+            - generic [ref=e207]:
+              - generic [ref=e208]:
+                - generic [ref=e215]: Ativo
+                - generic [ref=e218]: "Identificação da biblioteca: 1786892332271595"
+                - generic [ref=e220]: Veiculação iniciada em 31 de jan de 2026
+                - generic [ref=e222]: Plataformas
+                - generic [ref=e250]:
+                  - strong [ref=e251]: 3 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e252] [cursor=pointer]:
+                - generic [ref=e254]:
+                  - generic [ref=e255]: Menu
+                  - img "Menu" [ref=e258]
+            - button "Ver resumo" [ref=e260] [cursor=pointer]:
+              - generic [ref=e264]: Ver resumo
+            - separator [ref=e265]
+            - generic [ref=e270]:
+              - generic [ref=e272]:
+                - img "Espaço Compartilhando Saberes" [ref=e273]
+                - generic [ref=e275]:
+                  - link "Espaço Compartilhando Saberes" [ref=e276] [cursor=pointer]:
+                    - /url: https://www.facebook.com/espacocompartilhandosaberes/
+                  - generic [ref=e280]:
+                    - strong [ref=e282]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e283]:
+                - button "Adquira já e desperte a imaginação, coordenação e amor pela poesia com A Linha Assanhada Poema! 📄✨" [ref=e286]:
+                  - generic [ref=e288]: Adquira já e desperte a imaginação, coordenação e amor pela poesia com A Linha Assanhada Poema! 📄✨
+                - group "Video player" [ref=e298]:
+                  - button "Reproduzir o vídeo" [ref=e300] [cursor=pointer]
+                  - generic [ref=e302]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:44
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcompartilhandosaberes.com.br%2Floja%2Fdatas-comemorativas%2Fjunho%2Falinhaassanhadapoema%2F&h=AT5WJSPSawzRGs39gEgoa9-u2qyqJeTc7umdst_h4Ufu7TYZAj0pyHCz2lJCKjALoQrYv5_JisDZorBCET4cwX-vSpqOt9AEIv3p84QBgiF6jtrpYh2oYdP6qeNzOFwIHxmf5rYCP3o2JXiVZROpmQ
+          - generic [ref=e304]:
+            - generic [ref=e306]:
+              - generic [ref=e307]:
+                - generic [ref=e314]: Ativo
+                - generic [ref=e317]: "Identificação da biblioteca: 25607243808962933"
+                - generic [ref=e319]: Veiculação iniciada em 7 de jan de 2026
+                - generic [ref=e321]: Plataformas
+                - generic [ref=e349]:
+                  - strong [ref=e350]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e351] [cursor=pointer]:
+                - generic [ref=e353]:
+                  - generic [ref=e354]: Menu
+                  - img "Menu" [ref=e357]
+            - button "Ver resumo" [ref=e359] [cursor=pointer]:
+              - generic [ref=e363]: Ver resumo
+            - separator [ref=e364]
+            - generic [ref=e369]:
+              - generic [ref=e371]:
+                - img "Espaço Compartilhando Saberes" [ref=e372]
+                - generic [ref=e374]:
+                  - link "Espaço Compartilhando Saberes" [ref=e375] [cursor=pointer]:
+                    - /url: https://www.facebook.com/espacocompartilhandosaberes/
+                  - generic [ref=e379]:
+                    - strong [ref=e381]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e382]:
+                - button "Portfólio para Educação Infantil tema Safari" [ref=e385]:
+                  - generic [ref=e387]: Portfólio para Educação Infantil tema Safari
+                - group "Video player" [ref=e397]:
+                  - button "Reproduzir o vídeo" [ref=e399] [cursor=pointer]
+                  - generic [ref=e401]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:33
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fpay.hotmart.com%2FD103719995M%3FcheckoutMode%3D10%26bid%3D1767794662405&h=AT5WJSPSawzRGs39gEgoa9-u2qyqJeTc7umdst_h4Ufu7TYZAj0pyHCz2lJCKjALoQrYv5_JisDZorBCET4cwX-vSpqOt9AEIv3p84QBgiF6jtrpYh2oYdP6qeNzOFwIHxmf5rYCP3o2JXiVZROpmQ
+          - generic [ref=e403]:
+            - generic [ref=e405]:
+              - generic [ref=e406]:
+                - generic [ref=e413]: Ativo
+                - generic [ref=e416]: "Identificação da biblioteca: 3136412643227469"
+                - generic [ref=e418]: Veiculação iniciada em 24 de jan de 2026
+                - generic [ref=e420]: Plataformas
+                - generic [ref=e448]:
+                  - strong [ref=e449]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e450] [cursor=pointer]:
+                - generic [ref=e452]:
+                  - generic [ref=e453]: Menu
+                  - img "Menu" [ref=e456]
+            - button "Ver resumo" [ref=e458] [cursor=pointer]:
+              - generic [ref=e462]: Ver resumo
+            - separator [ref=e463]
+            - generic [ref=e468]:
+              - generic [ref=e470]:
+                - img "Espaço Compartilhando Saberes" [ref=e471]
+                - generic [ref=e473]:
+                  - link "Espaço Compartilhando Saberes" [ref=e474] [cursor=pointer]:
+                    - /url: https://www.facebook.com/espacocompartilhandosaberes/
+                  - generic [ref=e478]:
+                    - strong [ref=e480]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e481]:
+                - 'button "Livrinho dos Nomes: aprender o nome nunca foi tão fácil e divertido." [ref=e484]':
+                  - generic [ref=e486]: "Livrinho dos Nomes: aprender o nome nunca foi tão fácil e divertido."
+                - link [ref=e487] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcompartilhandosaberes.com.br%2Floja%2Flancamento%2Flivrodosnomes%2F&h=AT5WJSPSawzRGs39gEgoa9-u2qyqJeTc7umdst_h4Ufu7TYZAj0pyHCz2lJCKjALoQrYv5_JisDZorBCET4cwX-vSpqOt9AEIv3p84QBgiF6jtrpYh2oYdP6qeNzOFwIHxmf5rYCP3o2JXiVZROpmQ
+          - generic [ref=e490]:
+            - generic [ref=e492]:
+              - generic [ref=e493]:
+                - generic [ref=e500]: Ativo
+                - generic [ref=e503]: "Identificação da biblioteca: 1420195323221164"
+                - generic [ref=e505]: Veiculação iniciada em 23 de fev de 2026
+                - generic [ref=e507]: Plataformas
+                - generic [ref=e536]: Esse anúncio tem várias versões
+              - button "Menu Menu" [ref=e541] [cursor=pointer]:
+                - generic [ref=e543]:
+                  - generic [ref=e544]: Menu
+                  - img "Menu" [ref=e547]
+            - button "Ver detalhes do anúncio" [ref=e549] [cursor=pointer]:
+              - generic [ref=e553]: Ver detalhes do anúncio
+            - separator [ref=e554]
+            - generic [ref=e559]:
+              - generic [ref=e562]:
+                - img "Espaço Compartilhando Saberes" [ref=e563]
+                - generic [ref=e565]:
+                  - link "Espaço Compartilhando Saberes" [ref=e566] [cursor=pointer]:
+                    - /url: https://www.facebook.com/espacocompartilhandosaberes/
+                  - generic [ref=e570]:
+                    - strong [ref=e572]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e574]:
+                - button "Zero telas, 100 brincadeiras para bebês que estimulam e encantam! Adquira já!" [ref=e577]:
+                  - generic [ref=e579]: Zero telas, 100 brincadeiras para bebês que estimulam e encantam! Adquira já!
+                - group "Video player" [ref=e589]:
+                  - button "Reproduzir o vídeo" [ref=e591] [cursor=pointer]
+                  - generic [ref=e593]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:25
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "100 Brincadeiras para bebês que encantam, desenvolvem e facilitam a sua rotina! Um guia completo com 100 brincadeiras para bebês, pensadas para estimular o desenvolvimento de forma natural e afetiva. Mais conexão, mais descobertas e zero telas na rotina dos pequenos. 👶💛 Learn More" [ref=e595] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcompartilhandosaberes.com.br%2Febookbebescompartilhando%2F&h=AT5WJSPSawzRGs39gEgoa9-u2qyqJeTc7umdst_h4Ufu7TYZAj0pyHCz2lJCKjALoQrYv5_JisDZorBCET4cwX-vSpqOt9AEIv3p84QBgiF6jtrpYh2oYdP6qeNzOFwIHxmf5rYCP3o2JXiVZROpmQ
+                  - generic [ref=e596]:
+                    - generic [ref=e597]:
+                      - generic:
+                        - button
+                      - button "100 Brincadeiras para bebês que encantam, desenvolvem e facilitam a sua rotina!" [ref=e599]:
+                        - generic [ref=e600]: 100 Brincadeiras para bebês que encantam, desenvolvem e facilitam a sua rotina!
+                      - button "Um guia completo com 100 brincadeiras para bebês, pensadas para estimular o desenvolvimento de forma natural e afetiva. Mais conexão, mais descobertas e zero telas na rotina dos pequenos. 👶💛" [ref=e602]:
+                        - generic [ref=e603]: Um guia completo com 100 brincadeiras para bebês, pensadas para estimular o desenvolvimento de forma natural e afetiva. Mais conexão, mais descobertas e zero telas na rotina dos pequenos. 👶💛
+                      - generic:
+                        - button
+                    - button "Learn More" [ref=e605]:
+                      - generic [ref=e609]: Learn More
+          - generic [ref=e611]:
+            - generic [ref=e613]:
+              - generic [ref=e614]:
+                - generic [ref=e621]: Ativo
+                - generic [ref=e624]: "Identificação da biblioteca: 741806828515951"
+                - generic [ref=e626]: Veiculação iniciada em 7 de jan de 2026
+                - generic [ref=e628]: Plataformas
+                - generic [ref=e657]: Esse anúncio tem várias versões
+                - generic [ref=e663]:
+                  - strong [ref=e664]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e665] [cursor=pointer]:
+                - generic [ref=e667]:
+                  - generic [ref=e668]: Menu
+                  - img "Menu" [ref=e671]
+            - button "Ver resumo" [ref=e673] [cursor=pointer]:
+              - generic [ref=e677]: Ver resumo
+            - separator [ref=e678]
+            - generic [ref=e683]:
+              - generic [ref=e686]:
+                - img "Espaço Compartilhando Saberes" [ref=e687]
+                - generic [ref=e689]:
+                  - link "Espaço Compartilhando Saberes" [ref=e690] [cursor=pointer]:
+                    - /url: https://www.facebook.com/espacocompartilhandosaberes/
+                  - generic [ref=e694]:
+                    - strong [ref=e696]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e698]:
+                - button "Portfólio para Educação Infantil tema Safari" [ref=e701]:
+                  - generic [ref=e703]: Portfólio para Educação Infantil tema Safari
+                - link "Adquira agora! Modelinho de portfólio. -Portfólio para Educação Infantil – Tema SAFARI 📌 Para enfeitar e colorir. 📌 35 páginas em PDF. Learn More" [ref=e704] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fpay.hotmart.com%2FD103719995M%3FcheckoutMode%3D10%26bid%3D1767794662405&h=AT5WJSPSawzRGs39gEgoa9-u2qyqJeTc7umdst_h4Ufu7TYZAj0pyHCz2lJCKjALoQrYv5_JisDZorBCET4cwX-vSpqOt9AEIv3p84QBgiF6jtrpYh2oYdP6qeNzOFwIHxmf5rYCP3o2JXiVZROpmQ
+                  - generic [ref=e706]:
+                    - generic [ref=e707]:
+                      - generic:
+                        - button
+                      - button "Adquira agora! Modelinho de portfólio." [ref=e709]:
+                        - generic [ref=e710]: Adquira agora! Modelinho de portfólio.
+                      - button "-Portfólio para Educação Infantil – Tema SAFARI 📌 Para enfeitar e colorir. 📌 35 páginas em PDF." [ref=e712]:
+                        - generic [ref=e713]: "-Portfólio para Educação Infantil – Tema SAFARI 📌 Para enfeitar e colorir. 📌 35 páginas em PDF."
+                      - generic:
+                        - button
+                    - button "Learn More" [ref=e715]:
+                      - generic [ref=e719]: Learn More
+          - generic [ref=e721]:
+            - generic [ref=e723]:
+              - generic [ref=e724]:
+                - generic [ref=e731]: Ativo
+                - generic [ref=e734]: "Identificação da biblioteca: 967213419308508"
+                - generic [ref=e736]: Veiculação iniciada em 23 de fev de 2026
+                - generic [ref=e738]: Plataformas
+                - generic [ref=e767]: Esse anúncio tem várias versões
+              - button "Menu Menu" [ref=e772] [cursor=pointer]:
+                - generic [ref=e774]:
+                  - generic [ref=e775]: Menu
+                  - img "Menu" [ref=e778]
+            - button "Ver detalhes do anúncio" [ref=e780] [cursor=pointer]:
+              - generic [ref=e784]: Ver detalhes do anúncio
+            - separator [ref=e785]
+            - generic [ref=e790]:
+              - generic [ref=e793]:
+                - img "Espaço Compartilhando Saberes" [ref=e794]
+                - generic [ref=e796]:
+                  - link "Espaço Compartilhando Saberes" [ref=e797] [cursor=pointer]:
+                    - /url: https://www.facebook.com/espacocompartilhandosaberes/
+                  - generic [ref=e801]:
+                    - strong [ref=e803]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e805]:
+                - button "Zero telas, 100 brincadeiras para bebês que estimulam e encantam! Adquira já!" [ref=e808]:
+                  - generic [ref=e810]: Zero telas, 100 brincadeiras para bebês que estimulam e encantam! Adquira já!
+                - group "Video player" [ref=e820]:
+                  - button "Reproduzir o vídeo" [ref=e822] [cursor=pointer]
+                  - generic [ref=e824]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:29
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "100 Brincadeiras para bebês que encantam, desenvolvem e facilitam a sua rotina! Um guia completo com 100 brincadeiras para bebês, pensadas para estimular o desenvolvimento de forma natural e afetiva. Mais conexão, mais descobertas e zero telas na rotina dos pequenos. 👶💛 Learn More" [ref=e826] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcompartilhandosaberes.com.br%2Febookbebescompartilhando%2F&h=AT5WJSPSawzRGs39gEgoa9-u2qyqJeTc7umdst_h4Ufu7TYZAj0pyHCz2lJCKjALoQrYv5_JisDZorBCET4cwX-vSpqOt9AEIv3p84QBgiF6jtrpYh2oYdP6qeNzOFwIHxmf5rYCP3o2JXiVZROpmQ
+                  - generic [ref=e827]:
+                    - generic [ref=e828]:
+                      - generic:
+                        - button
+                      - button "100 Brincadeiras para bebês que encantam, desenvolvem e facilitam a sua rotina!" [ref=e830]:
+                        - generic [ref=e831]: 100 Brincadeiras para bebês que encantam, desenvolvem e facilitam a sua rotina!
+                      - button "Um guia completo com 100 brincadeiras para bebês, pensadas para estimular o desenvolvimento de forma natural e afetiva. Mais conexão, mais descobertas e zero telas na rotina dos pequenos. 👶💛" [ref=e833]:
+                        - generic [ref=e834]: Um guia completo com 100 brincadeiras para bebês, pensadas para estimular o desenvolvimento de forma natural e afetiva. Mais conexão, mais descobertas e zero telas na rotina dos pequenos. 👶💛
+                      - generic:
+                        - button
+                    - button "Learn More" [ref=e836]:
+                      - generic [ref=e840]: Learn More
+          - generic [ref=e842]:
+            - generic [ref=e844]:
+              - generic [ref=e845]:
+                - generic [ref=e852]: Ativo
+                - generic [ref=e855]: "Identificação da biblioteca: 2799900933694650"
+                - generic [ref=e857]: Veiculação iniciada em 15 de mar de 2026
+                - generic [ref=e859]: Plataformas
+              - button "Menu Menu" [ref=e886] [cursor=pointer]:
+                - generic [ref=e888]:
+                  - generic [ref=e889]: Menu
+                  - img "Menu" [ref=e892]
+            - button "Ver detalhes do anúncio" [ref=e894] [cursor=pointer]:
+              - generic [ref=e898]: Ver detalhes do anúncio
+            - separator [ref=e899]
+            - generic [ref=e904]:
+              - generic [ref=e906]:
+                - img "Espaço Compartilhando Saberes" [ref=e907]
+                - generic [ref=e909]:
+                  - link "Espaço Compartilhando Saberes" [ref=e910] [cursor=pointer]:
+                    - /url: https://www.facebook.com/espacocompartilhandosaberes/
+                  - generic [ref=e914]:
+                    - strong [ref=e916]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e917]:
+                - button "Adquira já! Páscoa Divertida com o coelhinho sonoro!" [ref=e920]:
+                  - generic [ref=e922]: Adquira já! Páscoa Divertida com o coelhinho sonoro!
+                - group "Video player" [ref=e932]:
+                  - button "Reproduzir o vídeo" [ref=e934] [cursor=pointer]
+                  - generic [ref=e936]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:15
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "COMPARTILHANDOSABERES.COM.BR Arquivo em PDF com 3 páginas para a criança colorir, colar a sua foto ou desenhar o seu rostinho e ainda colar tampinhas de garrafa. Páscoa Divertida com o coelhinho sonoro! Arquivo em PDF com 3 páginas para a criança colorir, colar a sua foto ou desenhar o seu rostinho e ainda colar tampinhas de garrafa PET nas mãos, estimulando a criatividade e a coordenação motora. Saiba mais" [ref=e938] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcompartilhandosaberes.com.br%2Floja%2Fdatas-comemorativas%2Fabril%2Fcoelhosonoro%2F&h=AT5WJSPSawzRGs39gEgoa9-u2qyqJeTc7umdst_h4Ufu7TYZAj0pyHCz2lJCKjALoQrYv5_JisDZorBCET4cwX-vSpqOt9AEIv3p84QBgiF6jtrpYh2oYdP6qeNzOFwIHxmf5rYCP3o2JXiVZROpmQ
+                  - generic [ref=e939]:
+                    - generic [ref=e940]:
+                      - button "COMPARTILHANDOSABERES.COM.BR" [ref=e942]:
+                        - generic [ref=e943]: COMPARTILHANDOSABERES.COM.BR
+                      - button "Arquivo em PDF com 3 páginas para a criança colorir, colar a sua foto ou desenhar o seu rostinho e ainda colar tampinhas de garrafa." [ref=e945]:
+                        - generic [ref=e946]: Arquivo em PDF com 3 páginas para a criança colorir, colar a sua foto ou desenhar o seu rostinho e ainda colar tampinhas de garrafa.
+                      - button "Páscoa Divertida com o coelhinho sonoro! Arquivo em PDF com 3 páginas para a criança colorir, colar a sua foto ou desenhar o seu rostinho e ainda colar tampinhas de garrafa PET nas mãos, estimulando a criatividade e a coordenação motora." [ref=e948]:
+                        - generic [ref=e949]: Páscoa Divertida com o coelhinho sonoro! Arquivo em PDF com 3 páginas para a criança colorir, colar a sua foto ou desenhar o seu rostinho e ainda colar tampinhas de garrafa PET nas mãos, estimulando a criatividade e a coordenação motora.
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e951]:
+                      - generic [ref=e955]: Saiba mais
+          - generic [ref=e957]:
+            - generic [ref=e959]:
+              - generic [ref=e960]:
+                - generic [ref=e967]: Ativo
+                - generic [ref=e970]: "Identificação da biblioteca: 761662256801705"
+                - generic [ref=e972]: Veiculação iniciada em 15 de mar de 2026
+                - generic [ref=e974]: Plataformas
+                - generic [ref=e1002]:
+                  - strong [ref=e1003]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1004] [cursor=pointer]:
+                - generic [ref=e1006]:
+                  - generic [ref=e1007]: Menu
+                  - img "Menu" [ref=e1010]
+            - button "Ver resumo" [ref=e1012] [cursor=pointer]:
+              - generic [ref=e1016]: Ver resumo
+            - separator [ref=e1017]
+            - generic [ref=e1022]:
+              - generic [ref=e1024]:
+                - img "Espaço Compartilhando Saberes" [ref=e1025]
+                - generic [ref=e1027]:
+                  - link "Espaço Compartilhando Saberes" [ref=e1028] [cursor=pointer]:
+                    - /url: https://www.facebook.com/espacocompartilhandosaberes/
+                  - generic [ref=e1032]:
+                    - strong [ref=e1034]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1035]:
+                - button "Seu bebê não precisa de telas… precisa de estímulos! Adquira agora o E-book com 100 brincadeiras para bebês!" [ref=e1038]:
+                  - generic [ref=e1040]: Seu bebê não precisa de telas… precisa de estímulos! Adquira agora o E-book com 100 brincadeiras para bebês!
+                - group "Video player" [ref=e1050]:
+                  - button "Reproduzir o vídeo" [ref=e1052] [cursor=pointer]
+                  - generic [ref=e1054]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:17
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcompartilhandosaberes.com.br%2Febookbebescompartilhando%2F&h=AT5WJSPSawzRGs39gEgoa9-u2qyqJeTc7umdst_h4Ufu7TYZAj0pyHCz2lJCKjALoQrYv5_JisDZorBCET4cwX-vSpqOt9AEIv3p84QBgiF6jtrpYh2oYdP6qeNzOFwIHxmf5rYCP3o2JXiVZROpmQ
+          - generic [ref=e1056]:
+            - generic [ref=e1058]:
+              - generic [ref=e1059]:
+                - generic [ref=e1066]: Ativo
+                - generic [ref=e1069]: "Identificação da biblioteca: 1060621290474239"
+                - generic [ref=e1071]: Veiculação iniciada em 15 de mar de 2026
+                - generic [ref=e1073]: Plataformas
+                - generic [ref=e1101]:
+                  - strong [ref=e1102]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1103] [cursor=pointer]:
+                - generic [ref=e1105]:
+                  - generic [ref=e1106]: Menu
+                  - img "Menu" [ref=e1109]
+            - button "Ver resumo" [ref=e1111] [cursor=pointer]:
+              - generic [ref=e1115]: Ver resumo
+            - separator [ref=e1116]
+            - generic [ref=e1121]:
+              - generic [ref=e1123]:
+                - img "Espaço Compartilhando Saberes" [ref=e1124]
+                - generic [ref=e1126]:
+                  - link "Espaço Compartilhando Saberes" [ref=e1127] [cursor=pointer]:
+                    - /url: https://www.facebook.com/espacocompartilhandosaberes/
+                  - generic [ref=e1131]:
+                    - strong [ref=e1133]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1134]:
+                - button "Adquira já! Dia da Pascoa com uma atividade simples, fofa e perfeita para trabalhar com as crianças." [ref=e1137]:
+                  - generic [ref=e1139]: Adquira já! Dia da Pascoa com uma atividade simples, fofa e perfeita para trabalhar com as crianças.
+                - link [ref=e1140] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcompartilhandosaberes.com.br%2Floja%2Fdatas-comemorativas%2Fabril%2Fsurpresapascoacoelhofofura%2F&h=AT5WJSPSawzRGs39gEgoa9-u2qyqJeTc7umdst_h4Ufu7TYZAj0pyHCz2lJCKjALoQrYv5_JisDZorBCET4cwX-vSpqOt9AEIv3p84QBgiF6jtrpYh2oYdP6qeNzOFwIHxmf5rYCP3o2JXiVZROpmQ
+          - generic [ref=e1143]:
+            - generic [ref=e1145]:
+              - generic [ref=e1146]:
+                - generic [ref=e1153]: Ativo
+                - generic [ref=e1156]: "Identificação da biblioteca: 1236281088291752"
+                - generic [ref=e1158]: Veiculação iniciada em 15 de mar de 2026
+                - generic [ref=e1160]: Plataformas
+                - generic [ref=e1188]:
+                  - strong [ref=e1189]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1190] [cursor=pointer]:
+                - generic [ref=e1192]:
+                  - generic [ref=e1193]: Menu
+                  - img "Menu" [ref=e1196]
+            - button "Ver resumo" [ref=e1198] [cursor=pointer]:
+              - generic [ref=e1202]: Ver resumo
+            - separator [ref=e1203]
+            - generic [ref=e1208]:
+              - generic [ref=e1210]:
+                - img "Espaço Compartilhando Saberes" [ref=e1211]
+                - generic [ref=e1213]:
+                  - link "Espaço Compartilhando Saberes" [ref=e1214] [cursor=pointer]:
+                    - /url: https://www.facebook.com/espacocompartilhandosaberes/
+                  - generic [ref=e1218]:
+                    - strong [ref=e1220]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1221]:
+                - button "🐰 A atividade de Páscoa que as crianças AMAM!" [ref=e1224]:
+                  - generic [ref=e1226]: 🐰 A atividade de Páscoa que as crianças AMAM!
+                - group "Video player" [ref=e1236]:
+                  - button "Reproduzir o vídeo" [ref=e1238] [cursor=pointer]
+                  - generic [ref=e1240]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:17
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcompartilhandosaberes.com.br%2Floja%2Fdatas-comemorativas%2Fmarco%2Fcoelhojogueodadoemonte%2F&h=AT5WJSPSawzRGs39gEgoa9-u2qyqJeTc7umdst_h4Ufu7TYZAj0pyHCz2lJCKjALoQrYv5_JisDZorBCET4cwX-vSpqOt9AEIv3p84QBgiF6jtrpYh2oYdP6qeNzOFwIHxmf5rYCP3o2JXiVZROpmQ
+          - generic [ref=e1242]:
+            - generic [ref=e1244]:
+              - generic [ref=e1245]:
+                - generic [ref=e1252]: Ativo
+                - generic [ref=e1255]: "Identificação da biblioteca: 908803652013327"
+                - generic [ref=e1257]: Veiculação iniciada em 24 de jan de 2026
+                - generic [ref=e1259]: Plataformas
+                - generic [ref=e1288]: Esse anúncio tem várias versões
+                - generic [ref=e1294]:
+                  - strong [ref=e1295]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1296] [cursor=pointer]:
+                - generic [ref=e1298]:
+                  - generic [ref=e1299]: Menu
+                  - img "Menu" [ref=e1302]
+            - button "Ver resumo" [ref=e1304] [cursor=pointer]:
+              - generic [ref=e1308]: Ver resumo
+            - separator [ref=e1309]
+            - generic [ref=e1314]:
+              - generic [ref=e1317]:
+                - img "Espaço Compartilhando Saberes" [ref=e1318]
+                - generic [ref=e1320]:
+                  - link "Espaço Compartilhando Saberes" [ref=e1321] [cursor=pointer]:
+                    - /url: https://www.facebook.com/espacocompartilhandosaberes/
+                  - generic [ref=e1325]:
+                    - strong [ref=e1327]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1329]:
+                - 'button "Livrinho dos Nomes: aprender o nome nunca foi tão fácil e divertido." [ref=e1332]':
+                  - generic [ref=e1334]: "Livrinho dos Nomes: aprender o nome nunca foi tão fácil e divertido."
+                - group "Video player" [ref=e1344]:
+                  - button "Reproduzir o vídeo" [ref=e1346] [cursor=pointer]
+                  - generic [ref=e1348]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:38
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "Aprender o nome nunca foi tão fácil e encantador! O Livrinho dos Nomes é um material pedagógico, pensado para ajudar a criança a reconhecer, montar, traçar e escrever o próprio nome de forma lúdica, divertida e significativa. Learn More" [ref=e1350] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcompartilhandosaberes.com.br%2Floja%2Flancamento%2Flivrodosnomes%2F&h=AT5WJSPSawzRGs39gEgoa9-u2qyqJeTc7umdst_h4Ufu7TYZAj0pyHCz2lJCKjALoQrYv5_JisDZorBCET4cwX-vSpqOt9AEIv3p84QBgiF6jtrpYh2oYdP6qeNzOFwIHxmf5rYCP3o2JXiVZROpmQ
+                  - generic [ref=e1351]:
+                    - generic [ref=e1352]:
+                      - generic:
+                        - button
+                      - button "Aprender o nome nunca foi tão fácil e encantador!" [ref=e1354]:
+                        - generic [ref=e1355]: Aprender o nome nunca foi tão fácil e encantador!
+                      - button "O Livrinho dos Nomes é um material pedagógico, pensado para ajudar a criança a reconhecer, montar, traçar e escrever o próprio nome de forma lúdica, divertida e significativa." [ref=e1357]:
+                        - generic [ref=e1358]: O Livrinho dos Nomes é um material pedagógico, pensado para ajudar a criança a reconhecer, montar, traçar e escrever o próprio nome de forma lúdica, divertida e significativa.
+                      - generic:
+                        - button
+                    - button "Learn More" [ref=e1360]:
+                      - generic [ref=e1364]: Learn More
+          - generic [ref=e1366]:
+            - generic [ref=e1368]:
+              - generic [ref=e1369]:
+                - generic [ref=e1376]: Ativo
+                - generic [ref=e1379]: "Identificação da biblioteca: 1193799569280889"
+                - generic [ref=e1381]: Veiculação iniciada em 15 de mar de 2026
+                - generic [ref=e1383]: Plataformas
+                - generic [ref=e1411]:
+                  - strong [ref=e1412]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1413] [cursor=pointer]:
+                - generic [ref=e1415]:
+                  - generic [ref=e1416]: Menu
+                  - img "Menu" [ref=e1419]
+            - button "Ver resumo" [ref=e1421] [cursor=pointer]:
+              - generic [ref=e1425]: Ver resumo
+            - separator [ref=e1426]
+            - generic [ref=e1431]:
+              - generic [ref=e1433]:
+                - img "Espaço Compartilhando Saberes" [ref=e1434]
+                - generic [ref=e1436]:
+                  - link "Espaço Compartilhando Saberes" [ref=e1437] [cursor=pointer]:
+                    - /url: https://www.facebook.com/espacocompartilhandosaberes/
+                  - generic [ref=e1441]:
+                    - strong [ref=e1443]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1444]:
+                - button "Adquira já! 100 acolhidas criativas, para sala de aula, que vão encantar suas crianças todos os dias." [ref=e1447]:
+                  - generic [ref=e1449]: Adquira já! 100 acolhidas criativas, para sala de aula, que vão encantar suas crianças todos os dias.
+                - group "Video player" [ref=e1459]:
+                  - button "Reproduzir o vídeo" [ref=e1461] [cursor=pointer]
+                  - generic [ref=e1463]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:23
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcompartilhandosaberes.com.br%2F100acolhidascriativas%2F&h=AT5WJSPSawzRGs39gEgoa9-u2qyqJeTc7umdst_h4Ufu7TYZAj0pyHCz2lJCKjALoQrYv5_JisDZorBCET4cwX-vSpqOt9AEIv3p84QBgiF6jtrpYh2oYdP6qeNzOFwIHxmf5rYCP3o2JXiVZROpmQ
+          - generic [ref=e1465]:
+            - generic [ref=e1467]:
+              - generic [ref=e1468]:
+                - generic [ref=e1475]: Ativo
+                - generic [ref=e1478]: "Identificação da biblioteca: 927819626482925"
+                - generic [ref=e1480]: Veiculação iniciada em 24 de jan de 2026
+                - generic [ref=e1482]: Plataformas
+                - generic [ref=e1511]: Esse anúncio tem várias versões
+                - generic [ref=e1517]:
+                  - strong [ref=e1518]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1519] [cursor=pointer]:
+                - generic [ref=e1521]:
+                  - generic [ref=e1522]: Menu
+                  - img "Menu" [ref=e1525]
+            - button "Ver resumo" [ref=e1527] [cursor=pointer]:
+              - generic [ref=e1531]: Ver resumo
+            - separator [ref=e1532]
+            - generic [ref=e1537]:
+              - generic [ref=e1540]:
+                - img "Espaço Compartilhando Saberes" [ref=e1541]
+                - generic [ref=e1543]:
+                  - link "Espaço Compartilhando Saberes" [ref=e1544] [cursor=pointer]:
+                    - /url: https://www.facebook.com/espacocompartilhandosaberes/
+                  - generic [ref=e1548]:
+                    - strong [ref=e1550]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1552]:
+                - 'button "Livrinho dos Nomes: aprender o nome nunca foi tão fácil e divertido." [ref=e1555]':
+                  - generic [ref=e1557]: "Livrinho dos Nomes: aprender o nome nunca foi tão fácil e divertido."
+                - link "Aprender o nome nunca foi tão fácil e encantador! O Livrinho dos Nomes é um material pedagógico, pensado para ajudar a criança a reconhecer, montar, traçar e escrever o próprio nome de forma lúdica, divertida e significativa. Learn More" [ref=e1558] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcompartilhandosaberes.com.br%2Floja%2Flancamento%2Flivrodosnomes%2F&h=AT5WJSPSawzRGs39gEgoa9-u2qyqJeTc7umdst_h4Ufu7TYZAj0pyHCz2lJCKjALoQrYv5_JisDZorBCET4cwX-vSpqOt9AEIv3p84QBgiF6jtrpYh2oYdP6qeNzOFwIHxmf5rYCP3o2JXiVZROpmQ
+                  - generic [ref=e1560]:
+                    - generic [ref=e1561]:
+                      - generic:
+                        - button
+                      - button "Aprender o nome nunca foi tão fácil e encantador!" [ref=e1563]:
+                        - generic [ref=e1564]: Aprender o nome nunca foi tão fácil e encantador!
+                      - button "O Livrinho dos Nomes é um material pedagógico, pensado para ajudar a criança a reconhecer, montar, traçar e escrever o próprio nome de forma lúdica, divertida e significativa." [ref=e1566]:
+                        - generic [ref=e1567]: O Livrinho dos Nomes é um material pedagógico, pensado para ajudar a criança a reconhecer, montar, traçar e escrever o próprio nome de forma lúdica, divertida e significativa.
+                      - generic:
+                        - button
+                    - button "Learn More" [ref=e1569]:
+                      - generic [ref=e1573]: Learn More
+          - generic [ref=e1575]:
+            - generic [ref=e1577]:
+              - generic [ref=e1578]:
+                - generic [ref=e1585]: Ativo
+                - generic [ref=e1588]: "Identificação da biblioteca: 4300904286842842"
+                - generic [ref=e1590]: Veiculação iniciada em 23 de fev de 2026
+                - generic [ref=e1592]: Plataformas
+                - generic [ref=e1621]: Esse anúncio tem várias versões
+              - button "Menu Menu" [ref=e1626] [cursor=pointer]:
+                - generic [ref=e1628]:
+                  - generic [ref=e1629]: Menu
+                  - img "Menu" [ref=e1632]
+            - button "Ver detalhes do anúncio" [ref=e1634] [cursor=pointer]:
+              - generic [ref=e1638]: Ver detalhes do anúncio
+            - separator [ref=e1639]
+            - generic [ref=e1644]:
+              - generic [ref=e1647]:
+                - img "Espaço Compartilhando Saberes" [ref=e1648]
+                - generic [ref=e1650]:
+                  - link "Espaço Compartilhando Saberes" [ref=e1651] [cursor=pointer]:
+                    - /url: https://www.facebook.com/espacocompartilhandosaberes/
+                  - generic [ref=e1655]:
+                    - strong [ref=e1657]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1659]:
+                - button "Zero telas, 100 brincadeiras para bebês que estimulam e encantam! Adquira já!" [ref=e1662]:
+                  - generic [ref=e1664]: Zero telas, 100 brincadeiras para bebês que estimulam e encantam! Adquira já!
+                - group "Video player" [ref=e1674]:
+                  - button "Reproduzir o vídeo" [ref=e1676] [cursor=pointer]
+                  - generic [ref=e1678]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:37
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "100 Brincadeiras para bebês que encantam, desenvolvem e facilitam a sua rotina! Um guia completo com 100 brincadeiras para bebês, pensadas para estimular o desenvolvimento de forma natural e afetiva. Mais conexão, mais descobertas e zero telas na rotina dos pequenos. 👶💛 Learn More" [ref=e1680] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcompartilhandosaberes.com.br%2Febookbebescompartilhando%2F&h=AT5WJSPSawzRGs39gEgoa9-u2qyqJeTc7umdst_h4Ufu7TYZAj0pyHCz2lJCKjALoQrYv5_JisDZorBCET4cwX-vSpqOt9AEIv3p84QBgiF6jtrpYh2oYdP6qeNzOFwIHxmf5rYCP3o2JXiVZROpmQ
+                  - generic [ref=e1681]:
+                    - generic [ref=e1682]:
+                      - generic:
+                        - button
+                      - button "100 Brincadeiras para bebês que encantam, desenvolvem e facilitam a sua rotina!" [ref=e1684]:
+                        - generic [ref=e1685]: 100 Brincadeiras para bebês que encantam, desenvolvem e facilitam a sua rotina!
+                      - button "Um guia completo com 100 brincadeiras para bebês, pensadas para estimular o desenvolvimento de forma natural e afetiva. Mais conexão, mais descobertas e zero telas na rotina dos pequenos. 👶💛" [ref=e1687]:
+                        - generic [ref=e1688]: Um guia completo com 100 brincadeiras para bebês, pensadas para estimular o desenvolvimento de forma natural e afetiva. Mais conexão, mais descobertas e zero telas na rotina dos pequenos. 👶💛
+                      - generic:
+                        - button
+                    - button "Learn More" [ref=e1690]:
+                      - generic [ref=e1694]: Learn More
+          - generic [ref=e1696]:
+            - generic [ref=e1698]:
+              - generic [ref=e1699]:
+                - generic [ref=e1706]: Ativo
+                - generic [ref=e1709]: "Identificação da biblioteca: 1246611670348550"
+                - generic [ref=e1711]: Veiculação iniciada em 15 de mar de 2026
+                - generic [ref=e1713]: Plataformas
+                - generic [ref=e1741]:
+                  - strong [ref=e1742]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1743] [cursor=pointer]:
+                - generic [ref=e1745]:
+                  - generic [ref=e1746]: Menu
+                  - img "Menu" [ref=e1749]
+            - button "Ver resumo" [ref=e1751] [cursor=pointer]:
+              - generic [ref=e1755]: Ver resumo
+            - separator [ref=e1756]
+            - generic [ref=e1761]:
+              - generic [ref=e1763]:
+                - img "Espaço Compartilhando Saberes" [ref=e1764]
+                - generic [ref=e1766]:
+                  - link "Espaço Compartilhando Saberes" [ref=e1767] [cursor=pointer]:
+                    - /url: https://www.facebook.com/espacocompartilhandosaberes/
+                  - generic [ref=e1771]:
+                    - strong [ref=e1773]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1774]:
+                - button "Adquira já! 100 acolhidas criativas, para sala de aula, que vão encantar suas crianças todos os dias." [ref=e1777]:
+                  - generic [ref=e1779]: Adquira já! 100 acolhidas criativas, para sala de aula, que vão encantar suas crianças todos os dias.
+                - group "Video player" [ref=e1789]:
+                  - button "Reproduzir o vídeo" [ref=e1791] [cursor=pointer]
+                  - generic [ref=e1793]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:31
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcompartilhandosaberes.com.br%2F100acolhidascriativas%2F&h=AT5WJSPSawzRGs39gEgoa9-u2qyqJeTc7umdst_h4Ufu7TYZAj0pyHCz2lJCKjALoQrYv5_JisDZorBCET4cwX-vSpqOt9AEIv3p84QBgiF6jtrpYh2oYdP6qeNzOFwIHxmf5rYCP3o2JXiVZROpmQ
+          - generic [ref=e1795]:
+            - generic [ref=e1797]:
+              - generic [ref=e1798]:
+                - generic [ref=e1805]: Ativo
+                - generic [ref=e1808]: "Identificação da biblioteca: 2299296967146529"
+                - generic [ref=e1810]: Veiculação iniciada em 15 de mar de 2026
+                - generic [ref=e1812]: Plataformas
+                - generic [ref=e1840]:
+                  - strong [ref=e1841]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1842] [cursor=pointer]:
+                - generic [ref=e1844]:
+                  - generic [ref=e1845]: Menu
+                  - img "Menu" [ref=e1848]
+            - button "Ver resumo" [ref=e1850] [cursor=pointer]:
+              - generic [ref=e1854]: Ver resumo
+            - separator [ref=e1855]
+            - generic [ref=e1860]:
+              - generic [ref=e1862]:
+                - img "Espaço Compartilhando Saberes" [ref=e1863]
+                - generic [ref=e1865]:
+                  - link "Espaço Compartilhando Saberes" [ref=e1866] [cursor=pointer]:
+                    - /url: https://www.facebook.com/espacocompartilhandosaberes/
+                  - generic [ref=e1870]:
+                    - strong [ref=e1872]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1873]:
+                - button "Seu bebê não precisa de telas… precisa de estímulos! Adquira agora o E-book com 100 brincadeiras para bebês!" [ref=e1876]:
+                  - generic [ref=e1878]: Seu bebê não precisa de telas… precisa de estímulos! Adquira agora o E-book com 100 brincadeiras para bebês!
+                - group "Video player" [ref=e1888]:
+                  - button "Reproduzir o vídeo" [ref=e1890] [cursor=pointer]
+                  - generic [ref=e1892]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:22
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcompartilhandosaberes.com.br%2Febookbebescompartilhando%2F&h=AT5WJSPSawzRGs39gEgoa9-u2qyqJeTc7umdst_h4Ufu7TYZAj0pyHCz2lJCKjALoQrYv5_JisDZorBCET4cwX-vSpqOt9AEIv3p84QBgiF6jtrpYh2oYdP6qeNzOFwIHxmf5rYCP3o2JXiVZROpmQ
+          - generic [ref=e1894]:
+            - generic [ref=e1896]:
+              - generic [ref=e1897]:
+                - generic [ref=e1904]: Ativo
+                - generic [ref=e1907]: "Identificação da biblioteca: 960543176631273"
+                - generic [ref=e1909]: Veiculação iniciada em 15 de mar de 2026
+                - generic [ref=e1911]: Plataformas
+                - generic [ref=e1939]:
+                  - strong [ref=e1940]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e1941] [cursor=pointer]:
+                - generic [ref=e1943]:
+                  - generic [ref=e1944]: Menu
+                  - img "Menu" [ref=e1947]
+            - button "Ver resumo" [ref=e1949] [cursor=pointer]:
+              - generic [ref=e1953]: Ver resumo
+            - separator [ref=e1954]
+            - generic [ref=e1959]:
+              - generic [ref=e1961]:
+                - img "Espaço Compartilhando Saberes" [ref=e1962]
+                - generic [ref=e1964]:
+                  - link "Espaço Compartilhando Saberes" [ref=e1965] [cursor=pointer]:
+                    - /url: https://www.facebook.com/espacocompartilhandosaberes/
+                  - generic [ref=e1969]:
+                    - strong [ref=e1971]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1972]:
+                - button "Adquira já! Dia da Pascoa com uma atividade simples, fofa e perfeita para trabalhar com as crianças." [ref=e1975]:
+                  - generic [ref=e1977]: Adquira já! Dia da Pascoa com uma atividade simples, fofa e perfeita para trabalhar com as crianças.
+                - group "Video player" [ref=e1987]:
+                  - button "Reproduzir o vídeo" [ref=e1989] [cursor=pointer]
+                  - generic [ref=e1991]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:13
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcompartilhandosaberes.com.br%2Floja%2Fdatas-comemorativas%2Fabril%2Fsurpresapascoacoelhofofura%2F&h=AT5WJSPSawzRGs39gEgoa9-u2qyqJeTc7umdst_h4Ufu7TYZAj0pyHCz2lJCKjALoQrYv5_JisDZorBCET4cwX-vSpqOt9AEIv3p84QBgiF6jtrpYh2oYdP6qeNzOFwIHxmf5rYCP3o2JXiVZROpmQ
+          - generic [ref=e1993]:
+            - generic [ref=e1995]:
+              - generic [ref=e1996]:
+                - generic [ref=e2003]: Ativo
+                - generic [ref=e2006]: "Identificação da biblioteca: 1540941220498562"
+                - generic [ref=e2008]: Veiculação iniciada em 7 de jan de 2026
+                - generic [ref=e2010]: Plataformas
+                - generic [ref=e2038]:
+                  - strong [ref=e2039]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e2040] [cursor=pointer]:
+                - generic [ref=e2042]:
+                  - generic [ref=e2043]: Menu
+                  - img "Menu" [ref=e2046]
+            - button "Ver resumo" [ref=e2048] [cursor=pointer]:
+              - generic [ref=e2052]: Ver resumo
+            - separator [ref=e2053]
+            - generic [ref=e2058]:
+              - generic [ref=e2061]:
+                - img "Espaço Compartilhando Saberes" [ref=e2062]
+                - generic [ref=e2064]:
+                  - link "Espaço Compartilhando Saberes" [ref=e2065] [cursor=pointer]:
+                    - /url: https://www.facebook.com/espacocompartilhandosaberes/
+                  - generic [ref=e2069]:
+                    - strong [ref=e2071]: Patrocinado
+                    - generic:
+                      - strong
+              - button "Portfólio para Educação Infantil tema Safari" [ref=e2076]:
+                - generic [ref=e2078]: Portfólio para Educação Infantil tema Safari
+              - generic [ref=e2080]:
+                - generic:
+                  - button [disabled]:
+                    - img
+                - generic [ref=e2083]:
+                  - generic [ref=e2087]:
+                    - link "PAY.HOTMART.COM Aprender e divertir com este portfólio tema Safari. Não perca essa oportunidade de adquirir este portfólio da educação infantil. -Portfólio para Educação Infantil – Tema SAFARI 📌 Para enfeitar e colorir. 📌 35 páginas em PDF. Learn More" [ref=e2088] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fpay.hotmart.com%2FD103719995M%3FcheckoutMode%3D10%26bid%3D1767794662405&h=AT5WJSPSawzRGs39gEgoa9-u2qyqJeTc7umdst_h4Ufu7TYZAj0pyHCz2lJCKjALoQrYv5_JisDZorBCET4cwX-vSpqOt9AEIv3p84QBgiF6jtrpYh2oYdP6qeNzOFwIHxmf5rYCP3o2JXiVZROpmQ
+                      - generic [ref=e2090]:
+                        - generic [ref=e2091]:
+                          - button "PAY.HOTMART.COM" [ref=e2093]:
+                            - generic [ref=e2094]: PAY.HOTMART.COM
+                          - button "Aprender e divertir com este portfólio tema Safari. Não perca essa oportunidade de adquirir este portfólio da educação infantil." [ref=e2096]:
+                            - generic [ref=e2097]: Aprender e divertir com este portfólio tema Safari. Não perca essa oportunidade de adquirir este portfólio da educação infantil.
+                          - button "-Portfólio para Educação Infantil – Tema SAFARI 📌 Para enfeitar e colorir. 📌 35 páginas em PDF." [ref=e2099]:
+                            - generic [ref=e2100]: "-Portfólio para Educação Infantil – Tema SAFARI 📌 Para enfeitar e colorir. 📌 35 páginas em PDF."
+                          - generic:
+                            - button
+                        - button "Learn More" [ref=e2102]:
+                          - generic [ref=e2106]: Learn More
+                    - button "-Portfólio para Educação Infantil – Tema SAFARI 📌 Para enfeitar e colorir. 📌 35 páginas em PDF." [ref=e2109]:
+                      - generic [ref=e2111]: "-Portfólio para Educação Infantil – Tema SAFARI 📌 Para enfeitar e colorir. 📌 35 páginas em PDF."
+                  - generic [ref=e2115]:
+                    - link "PAY.HOTMART.COM Aprender e divertir com este portfólio tema Safari. Não perca essa oportunidade de adquirir este portfólio da educação infantil. -Portfólio para Educação Infantil – Tema SAFARI 📌 Para enfeitar e colorir. 📌 35 páginas em PDF. Learn More" [ref=e2116] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fpay.hotmart.com%2FD103719995M%3FcheckoutMode%3D10%26bid%3D1767794662405&h=AT5WJSPSawzRGs39gEgoa9-u2qyqJeTc7umdst_h4Ufu7TYZAj0pyHCz2lJCKjALoQrYv5_JisDZorBCET4cwX-vSpqOt9AEIv3p84QBgiF6jtrpYh2oYdP6qeNzOFwIHxmf5rYCP3o2JXiVZROpmQ
+                      - generic [ref=e2118]:
+                        - generic [ref=e2119]:
+                          - button "PAY.HOTMART.COM" [ref=e2121]:
+                            - generic [ref=e2122]: PAY.HOTMART.COM
+                          - button "Aprender e divertir com este portfólio tema Safari. Não perca essa oportunidade de adquirir este portfólio da educação infantil." [ref=e2124]:
+                            - generic [ref=e2125]: Aprender e divertir com este portfólio tema Safari. Não perca essa oportunidade de adquirir este portfólio da educação infantil.
+                          - button "-Portfólio para Educação Infantil – Tema SAFARI 📌 Para enfeitar e colorir. 📌 35 páginas em PDF." [ref=e2127]:
+                            - generic [ref=e2128]: "-Portfólio para Educação Infantil – Tema SAFARI 📌 Para enfeitar e colorir. 📌 35 páginas em PDF."
+                          - generic:
+                            - button
+                        - button "Learn More" [ref=e2130]:
+                          - generic [ref=e2134]: Learn More
+                    - button "-Portfólio para Educação Infantil – Tema SAFARI 📌 Para enfeitar e colorir. 📌 35 páginas em PDF." [ref=e2137]:
+                      - generic [ref=e2139]: "-Portfólio para Educação Infantil – Tema SAFARI 📌 Para enfeitar e colorir. 📌 35 páginas em PDF."
+                  - generic [ref=e2143]:
+                    - link "PAY.HOTMART.COM Aprender e divertir com este portfólio tema Safari. Não perca essa oportunidade de adquirir este portfólio da educação infantil. -Portfólio para Educação Infantil – Tema SAFARI 📌 Para enfeitar e colorir. 📌 35 páginas em PDF. Learn More" [ref=e2144] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fpay.hotmart.com%2FD103719995M%3FcheckoutMode%3D10%26bid%3D1767794662405&h=AT5WJSPSawzRGs39gEgoa9-u2qyqJeTc7umdst_h4Ufu7TYZAj0pyHCz2lJCKjALoQrYv5_JisDZorBCET4cwX-vSpqOt9AEIv3p84QBgiF6jtrpYh2oYdP6qeNzOFwIHxmf5rYCP3o2JXiVZROpmQ
+                      - generic [ref=e2146]:
+                        - generic [ref=e2147]:
+                          - button "PAY.HOTMART.COM" [ref=e2149]:
+                            - generic [ref=e2150]: PAY.HOTMART.COM
+                          - button "Aprender e divertir com este portfólio tema Safari. Não perca essa oportunidade de adquirir este portfólio da educação infantil." [ref=e2152]:
+                            - generic [ref=e2153]: Aprender e divertir com este portfólio tema Safari. Não perca essa oportunidade de adquirir este portfólio da educação infantil.
+                          - button "-Portfólio para Educação Infantil – Tema SAFARI 📌 Para enfeitar e colorir. 📌 35 páginas em PDF." [ref=e2155]:
+                            - generic [ref=e2156]: "-Portfólio para Educação Infantil – Tema SAFARI 📌 Para enfeitar e colorir. 📌 35 páginas em PDF."
+                          - generic:
+                            - button
+                        - button "Learn More" [ref=e2158]:
+                          - generic [ref=e2162]: Learn More
+                    - button "-Portfólio para Educação Infantil – Tema SAFARI 📌 Para enfeitar e colorir. 📌 35 páginas em PDF." [ref=e2165]:
+                      - generic [ref=e2167]: "-Portfólio para Educação Infantil – Tema SAFARI 📌 Para enfeitar e colorir. 📌 35 páginas em PDF."
+                  - generic [ref=e2171]:
+                    - link [ref=e2172] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fpay.hotmart.com%2FD103719995M%3FcheckoutMode%3D10%26bid%3D1767794662405&h=AT5WJSPSawzRGs39gEgoa9-u2qyqJeTc7umdst_h4Ufu7TYZAj0pyHCz2lJCKjALoQrYv5_JisDZorBCET4cwX-vSpqOt9AEIv3p84QBgiF6jtrpYh2oYdP6qeNzOFwIHxmf5rYCP3o2JXiVZROpmQ
+                      - generic [ref=e2174]:
+                        - generic [ref=e2175]:
+                          - button [ref=e2177]:
+                            - generic [ref=e2178]: PAY.HOTMART.COM
+                          - button [ref=e2180]:
+                            - generic [ref=e2181]: Aprender e divertir com este portfólio tema Safari. Não perca essa oportunidade de adquirir este portfólio da educação infantil.
+                          - button [ref=e2183]:
+                            - generic [ref=e2184]: "-Portfólio para Educação Infantil – Tema SAFARI 📌 Para enfeitar e colorir. 📌 35 páginas em PDF."
+                        - button [ref=e2186]:
+                          - generic [ref=e2190]: Learn More
+                    - button [ref=e2193]:
+                      - generic [ref=e2195]: "-Portfólio para Educação Infantil – Tema SAFARI 📌 Para enfeitar e colorir. 📌 35 páginas em PDF."
+                - button "Próximos itens" [ref=e2197] [cursor=pointer]:
+                  - img [ref=e2198]
+        - button "Ver mais" [ref=e2200] [cursor=pointer]:
+          - generic [ref=e2201]: Ver mais
+    - generic [ref=e2204]:
+      - generic [ref=e2212]: Status do sistema
+      - generic [ref=e2216]:
+        - list [ref=e2217]:
+          - listitem [ref=e2218]:
+            - link "API da Biblioteca de Anúncios" [ref=e2220] [cursor=pointer]:
+              - /url: /ads/library/api/?source=archive-landing-page
+          - listitem [ref=e2221]:
+            - link "Sobre anúncios e uso de dados" [ref=e2223] [cursor=pointer]:
+              - /url: /ads/about/?entry_product=ad_library
+          - listitem [ref=e2224]:
+            - link "Privacidade" [ref=e2226] [cursor=pointer]:
+              - /url: /privacy/center/?entry_point=privacy_basics_redirect
+          - listitem [ref=e2227]:
+            - link "Termos" [ref=e2229] [cursor=pointer]:
+              - /url: /policies/
+          - listitem [ref=e2230]:
+            - link "Cookies" [ref=e2232] [cursor=pointer]:
+              - /url: /policies/cookies/
+        - generic [ref=e2234]:
+          - text: Meta © 2026 |
+          - link "Português (Brasil)" [ref=e2235] [cursor=pointer]:
+            - /url: /language/

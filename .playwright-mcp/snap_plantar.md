@@ -1,0 +1,261 @@
+- generic [ref=e12]:
+  - generic [ref=e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=e27] [cursor=pointer]:
+      - generic [ref=e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=e33] [cursor=pointer]
+  - generic [ref=e40]:
+    - combobox "Tudo" [ref=e44] [cursor=pointer]:
+      - generic [ref=e51]: Tudo
+    - combobox "Todos os anúncios" [ref=e57] [cursor=pointer]:
+      - generic [ref=e67]: Todos os anúncios
+    - generic [ref=e77]:
+      - generic [ref=e83]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=e89]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=e95]: agroescola.blog.br
+        - button "Limpar" [ref=e97] [cursor=pointer]
+  - dialog [ref=e99]:
+    - generic [ref=e100]:
+      - link [ref=e101] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=e102]: Entrar
+      - menuitem [ref=e103] [cursor=pointer]
+    - generic [ref=e105]:
+      - generic [ref=e106]:
+        - heading [level=4] [ref=e108]: Biblioteca de Anúncios
+        - menuitem [ref=e110] [cursor=pointer]:
+          - heading [level=4] [ref=e112]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=e114] [cursor=pointer]:
+          - heading [level=4] [ref=e116]: API da Biblioteca de Anúncios
+        - menuitem [ref=e118] [cursor=pointer]:
+          - heading [level=4] [ref=e120]: Conteúdo de marca
+      - separator [ref=e121]
+      - generic [ref=e122]:
+        - menuitem [ref=e124] [cursor=pointer]:
+          - heading [level=4] [ref=e126]: Status do sistema
+        - menuitem [ref=e128] [cursor=pointer]:
+          - heading [level=4] [ref=e130]: Assinar para receber atualizações por email
+        - menuitem [ref=e132] [cursor=pointer]:
+          - heading [level=4] [ref=e134]: Perguntas frequentes
+        - menuitem [ref=e136] [cursor=pointer]:
+          - heading [level=4] [ref=e138]: Sobre anúncios e uso de dados
+        - menuitem [ref=e140] [cursor=pointer]:
+          - heading [level=4] [ref=e142]: Privacidade
+        - menuitem [ref=e144] [cursor=pointer]:
+          - heading [level=4] [ref=e146]: Termos
+        - menuitem [ref=e148] [cursor=pointer]:
+          - heading [level=4] [ref=e150]: Cookies
+  - generic [ref=e151]:
+    - generic [ref=e165]:
+      - generic [ref=e171]:
+        - heading "~4 resultados" [level=3] [ref=e173]
+        - generic [ref=e175]:
+          - text: Esses resultados incluem anúncios que correspondem à sua
+          - strong [ref=e176]: pesquisa por palavra-chave.
+      - generic [ref=e177]:
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - button "Filtros" [ref=e187] [cursor=pointer]:
+              - generic [ref=e192]: Filtros
+            - generic [ref=e194]:
+              - generic [ref=e200]: Classificar
+              - combobox "Classificar" [ref=e205] [cursor=pointer]:
+                - generic [ref=e212]: Classificar por
+          - generic [ref=e217]:
+            - generic [ref=e218]:
+              - strong [ref=e219]: Status online
+              - text: ": Anúncios ativos"
+            - button "Remover" [ref=e220] [cursor=pointer]:
+              - generic [ref=e223]: Remover
+        - generic [ref=e227]:
+          - generic [ref=e229]:
+            - generic [ref=e231]:
+              - generic [ref=e232]:
+                - generic [ref=e239]: Ativo
+                - generic [ref=e242]: "Identificação da biblioteca: 474965458674240"
+                - generic [ref=e244]: Veiculação iniciada em 22 de ago de 2024
+                - generic [ref=e246]: Plataformas
+              - button "Abrir menu suspenso" [ref=e269] [cursor=pointer]:
+                - generic [ref=e272]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e275] [cursor=pointer]:
+              - generic [ref=e279]: Ver detalhes do anúncio
+            - separator [ref=e280]
+            - generic [ref=e285]:
+              - generic [ref=e287]:
+                - img "Cultivo Brasil" [ref=e288]
+                - generic [ref=e290]:
+                  - link "Cultivo Brasil" [ref=e291] [cursor=pointer]:
+                    - /url: https://www.facebook.com/cultivobr23/
+                  - generic [ref=e295]:
+                    - strong [ref=e297]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e298]:
+                - button "Aprenda como cultivar mais de 20 espécies de árvore frutífera em vaso. Mesmo em espaços pequenos." [ref=e301]:
+                  - generic [ref=e303]: Aprenda como cultivar mais de 20 espécies de árvore frutífera em vaso. Mesmo em espaços pequenos.
+                - link "AGROESCOLA.BLOG.BR Aprenda a Cultivar Árvores Frutíferas em Vaso Aprenda como cultivar sua árvore frutífera em vaso. Mesmo em espaços pequenos. Saiba mais" [ref=e304] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fagroescola.blog.br%2Flp%2Farvoresfrutiferasemvasos%2F&h=AT44YAFCDG7d3CRg4juZFXTpkpJVKXfuiiRE0ZZs-EMx1Xx_aDjyXQHH5XCvj5r_eQla1SuJMIzyzC2hppCA8aZBXyv9Tin0cByeCVli58CM-SkqD8qVwkB8WxUG1vtXgBvrHO3CswXJeWqeNAq0fg
+                  - generic [ref=e306]:
+                    - generic [ref=e307]:
+                      - button "AGROESCOLA.BLOG.BR" [ref=e309]:
+                        - generic [ref=e310]: AGROESCOLA.BLOG.BR
+                      - button "Aprenda a Cultivar Árvores Frutíferas em Vaso" [ref=e312]:
+                        - generic [ref=e313]: Aprenda a Cultivar Árvores Frutíferas em Vaso
+                      - button "Aprenda como cultivar sua árvore frutífera em vaso. Mesmo em espaços pequenos." [ref=e315]:
+                        - generic [ref=e316]: Aprenda como cultivar sua árvore frutífera em vaso. Mesmo em espaços pequenos.
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e318]:
+                      - generic [ref=e322]: Saiba mais
+          - generic [ref=e324]:
+            - generic [ref=e326]:
+              - generic [ref=e327]:
+                - generic [ref=e334]: Ativo
+                - generic [ref=e337]: "Identificação da biblioteca: 1402777543966715"
+                - generic [ref=e339]: Veiculação iniciada em 15 de dez de 2023
+                - generic [ref=e341]: Plataformas
+              - button "Abrir menu suspenso" [ref=e354] [cursor=pointer]:
+                - generic [ref=e357]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e360] [cursor=pointer]:
+              - generic [ref=e364]: Ver detalhes do anúncio
+            - separator [ref=e365]
+            - generic [ref=e370]:
+              - generic [ref=e372]:
+                - img "Cultivo Brasil" [ref=e373]
+                - generic [ref=e375]:
+                  - link "Cultivo Brasil" [ref=e376] [cursor=pointer]:
+                    - /url: https://www.facebook.com/cultivobr23/
+                  - generic [ref=e380]:
+                    - strong [ref=e382]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e383]:
+                - button "Aprenda como cultivar mais de 20 espécies de árvore frutífera em vaso. Mesmo em espaços pequenos." [ref=e386]:
+                  - generic [ref=e388]: Aprenda como cultivar mais de 20 espécies de árvore frutífera em vaso. Mesmo em espaços pequenos.
+                - link "AGROESCOLA.BLOG.BR Aprenda a Cultivar Árvores Frutíferas em Vaso Aprenda como cultivar sua árvore frutífera em vaso. Mesmo em espaços pequenos. Saiba mais" [ref=e389] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fagroescola.blog.br%2Flp%2Farvoresfrutiferasemvasos%2F&h=AT44YAFCDG7d3CRg4juZFXTpkpJVKXfuiiRE0ZZs-EMx1Xx_aDjyXQHH5XCvj5r_eQla1SuJMIzyzC2hppCA8aZBXyv9Tin0cByeCVli58CM-SkqD8qVwkB8WxUG1vtXgBvrHO3CswXJeWqeNAq0fg
+                  - generic [ref=e391]:
+                    - generic [ref=e392]:
+                      - button "AGROESCOLA.BLOG.BR" [ref=e394]:
+                        - generic [ref=e395]: AGROESCOLA.BLOG.BR
+                      - button "Aprenda a Cultivar Árvores Frutíferas em Vaso" [ref=e397]:
+                        - generic [ref=e398]: Aprenda a Cultivar Árvores Frutíferas em Vaso
+                      - button "Aprenda como cultivar sua árvore frutífera em vaso. Mesmo em espaços pequenos." [ref=e400]:
+                        - generic [ref=e401]: Aprenda como cultivar sua árvore frutífera em vaso. Mesmo em espaços pequenos.
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e403]:
+                      - generic [ref=e407]: Saiba mais
+          - generic [ref=e409]:
+            - generic [ref=e411]:
+              - generic [ref=e412]:
+                - generic [ref=e419]: Ativo
+                - generic [ref=e422]: "Identificação da biblioteca: 1371468020935011"
+                - generic [ref=e424]: Veiculação iniciada em 12 de mar de 2025
+                - generic [ref=e426]: Plataformas
+              - button "Abrir menu suspenso" [ref=e449] [cursor=pointer]:
+                - generic [ref=e452]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e455] [cursor=pointer]:
+              - generic [ref=e459]: Ver detalhes do anúncio
+            - separator [ref=e460]
+            - generic [ref=e465]:
+              - generic [ref=e467]:
+                - img "Cultivo Brasil" [ref=e468]
+                - generic [ref=e470]:
+                  - link "Cultivo Brasil" [ref=e471] [cursor=pointer]:
+                    - /url: https://www.facebook.com/cultivobr23/
+                  - generic [ref=e475]:
+                    - strong [ref=e477]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e478]:
+                - button "Aprenda como cultivar mais de 20 espécies de árvore frutífera em vaso. Mesmo em espaços pequenos." [ref=e481]:
+                  - generic [ref=e483]: Aprenda como cultivar mais de 20 espécies de árvore frutífera em vaso. Mesmo em espaços pequenos.
+                - link "AGROESCOLA.BLOG.BR Aprenda a Cultivar Árvores Frutíferas em Vaso Aprenda como cultivar sua árvore frutífera em vaso. Mesmo em espaços pequenos. Saiba mais" [ref=e484] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fagroescola.blog.br%2Flp%2Farvoresfrutiferasemvasos%2F&h=AT44YAFCDG7d3CRg4juZFXTpkpJVKXfuiiRE0ZZs-EMx1Xx_aDjyXQHH5XCvj5r_eQla1SuJMIzyzC2hppCA8aZBXyv9Tin0cByeCVli58CM-SkqD8qVwkB8WxUG1vtXgBvrHO3CswXJeWqeNAq0fg
+                  - generic [ref=e486]:
+                    - generic [ref=e487]:
+                      - button "AGROESCOLA.BLOG.BR" [ref=e489]:
+                        - generic [ref=e490]: AGROESCOLA.BLOG.BR
+                      - button "Aprenda a Cultivar Árvores Frutíferas em Vaso" [ref=e492]:
+                        - generic [ref=e493]: Aprenda a Cultivar Árvores Frutíferas em Vaso
+                      - button "Aprenda como cultivar sua árvore frutífera em vaso. Mesmo em espaços pequenos." [ref=e495]:
+                        - generic [ref=e496]: Aprenda como cultivar sua árvore frutífera em vaso. Mesmo em espaços pequenos.
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e498]:
+                      - generic [ref=e502]: Saiba mais
+          - generic [ref=e504]:
+            - generic [ref=e506]:
+              - generic [ref=e507]:
+                - generic [ref=e514]: Ativo
+                - generic [ref=e517]: "Identificação da biblioteca: 1055716819698278"
+                - generic [ref=e519]: Veiculação iniciada em 12 de mar de 2025
+                - generic [ref=e521]: Plataformas
+              - button "Abrir menu suspenso" [ref=e534] [cursor=pointer]:
+                - generic [ref=e537]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e540] [cursor=pointer]:
+              - generic [ref=e544]: Ver detalhes do anúncio
+            - separator [ref=e545]
+            - generic [ref=e550]:
+              - generic [ref=e552]:
+                - img "Cultivo Brasil" [ref=e553]
+                - generic [ref=e555]:
+                  - link "Cultivo Brasil" [ref=e556] [cursor=pointer]:
+                    - /url: https://www.facebook.com/cultivobr23/
+                  - generic [ref=e560]:
+                    - strong [ref=e562]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e563]:
+                - button "Aprenda como cultivar mais de 20 espécies de árvore frutífera em vaso. Mesmo em espaços pequenos." [ref=e566]:
+                  - generic [ref=e568]: Aprenda como cultivar mais de 20 espécies de árvore frutífera em vaso. Mesmo em espaços pequenos.
+                - link "AGROESCOLA.BLOG.BR Aprenda a Cultivar Árvores Frutíferas em Vaso Aprenda como cultivar sua árvore frutífera em vaso. Mesmo em espaços pequenos. Saiba mais" [ref=e569] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fagroescola.blog.br%2Flp%2Farvoresfrutiferasemvasos%2F&h=AT44YAFCDG7d3CRg4juZFXTpkpJVKXfuiiRE0ZZs-EMx1Xx_aDjyXQHH5XCvj5r_eQla1SuJMIzyzC2hppCA8aZBXyv9Tin0cByeCVli58CM-SkqD8qVwkB8WxUG1vtXgBvrHO3CswXJeWqeNAq0fg
+                  - generic [ref=e571]:
+                    - generic [ref=e572]:
+                      - button "AGROESCOLA.BLOG.BR" [ref=e574]:
+                        - generic [ref=e575]: AGROESCOLA.BLOG.BR
+                      - button "Aprenda a Cultivar Árvores Frutíferas em Vaso" [ref=e577]:
+                        - generic [ref=e578]: Aprenda a Cultivar Árvores Frutíferas em Vaso
+                      - button "Aprenda como cultivar sua árvore frutífera em vaso. Mesmo em espaços pequenos." [ref=e580]:
+                        - generic [ref=e581]: Aprenda como cultivar sua árvore frutífera em vaso. Mesmo em espaços pequenos.
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e583]:
+                      - generic [ref=e587]: Saiba mais
+    - generic [ref=e589]:
+      - generic [ref=e597]: Status do sistema
+      - generic [ref=e601]:
+        - list [ref=e602]:
+          - listitem [ref=e603]:
+            - heading "API da Biblioteca de Anúncios" [level=3] [ref=e604]:
+              - link "API da Biblioteca de Anúncios" [ref=e605] [cursor=pointer]:
+                - /url: /ads/library/api/?source=archive-landing-page
+          - listitem [ref=e606]:
+            - heading "Sobre anúncios e uso de dados" [level=3] [ref=e607]:
+              - link "Sobre anúncios e uso de dados" [ref=e608] [cursor=pointer]:
+                - /url: /ads/about/?entry_product=ad_library
+          - listitem [ref=e609]:
+            - heading "Privacidade" [level=3] [ref=e610]:
+              - link "Privacidade" [ref=e611] [cursor=pointer]:
+                - /url: /privacy/center/?entry_point=privacy_basics_redirect
+          - listitem [ref=e612]:
+            - heading "Termos" [level=3] [ref=e613]:
+              - link "Termos" [ref=e614] [cursor=pointer]:
+                - /url: /policies/
+          - listitem [ref=e615]:
+            - heading "Cookies" [level=3] [ref=e616]:
+              - link "Cookies" [ref=e617] [cursor=pointer]:
+                - /url: /policies/cookies/
+        - heading "Meta © 2026 | Português (Brasil)" [level=3] [ref=e619]:
+          - text: Meta © 2026 |
+          - link "Português (Brasil)" [ref=e620] [cursor=pointer]:
+            - /url: /language/

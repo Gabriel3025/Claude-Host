@@ -1,0 +1,1453 @@
+- generic [ref=e12]:
+  - generic [ref=e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=e27] [cursor=pointer]:
+      - generic [ref=e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=e33] [cursor=pointer]
+  - generic [ref=e40]:
+    - combobox "Tudo" [ref=e44] [cursor=pointer]:
+      - generic [ref=e51]: Tudo
+    - combobox "Todos os anúncios" [ref=e62] [cursor=pointer]:
+      - generic [ref=e72]: Todos os anúncios
+    - generic [ref=e82]:
+      - generic [ref=e88]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=e94]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=e100]: Bianca Montenegro
+        - button "Limpar" [ref=e102] [cursor=pointer]
+  - generic [ref=e105]:
+    - generic [ref=e107]:
+      - img "Foto do perfil da Página" [ref=e112]
+      - link "Bianca Montenegro" [ref=e115] [cursor=pointer]:
+        - /url: https://facebook.com/biamontenegrobr
+        - heading "Bianca Montenegro" [level=1] [ref=e116]
+    - generic [ref=e117]:
+      - link "Anúncios" [ref=e118] [cursor=pointer]
+      - link "Sobre" [ref=e119] [cursor=pointer]
+  - dialog [ref=e120]:
+    - generic [ref=e121]:
+      - link [ref=e122] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=e123]: Entrar
+      - menuitem [ref=e124] [cursor=pointer]
+    - generic [ref=e126]:
+      - generic [ref=e127]:
+        - heading [level=4] [ref=e129]: Biblioteca de Anúncios
+        - menuitem [ref=e131] [cursor=pointer]:
+          - heading [level=4] [ref=e133]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=e135] [cursor=pointer]:
+          - heading [level=4] [ref=e137]: API da Biblioteca de Anúncios
+        - menuitem [ref=e139] [cursor=pointer]:
+          - heading [level=4] [ref=e141]: Conteúdo de marca
+      - separator [ref=e142]
+      - generic [ref=e143]:
+        - menuitem [ref=e145] [cursor=pointer]:
+          - heading [level=4] [ref=e147]: Status do sistema
+        - menuitem [ref=e149] [cursor=pointer]:
+          - heading [level=4] [ref=e151]: Assinar para receber atualizações por email
+        - menuitem [ref=e153] [cursor=pointer]:
+          - heading [level=4] [ref=e155]: Perguntas frequentes
+        - menuitem [ref=e157] [cursor=pointer]:
+          - heading [level=4] [ref=e159]: Sobre anúncios e uso de dados
+        - menuitem [ref=e161] [cursor=pointer]:
+          - heading [level=4] [ref=e163]: Privacidade
+        - menuitem [ref=e165] [cursor=pointer]:
+          - heading [level=4] [ref=e167]: Termos
+        - menuitem [ref=e169] [cursor=pointer]:
+          - heading [level=4] [ref=e171]: Cookies
+  - generic [ref=e172]:
+    - generic [ref=e186]:
+      - heading "~180 resultados" [level=3] [ref=e194]
+      - generic [ref=e195]:
+        - generic [ref=e203]:
+          - generic [ref=e204]:
+            - textbox "Palavra-chave" [ref=e206]
+            - button "Filtros" [ref=e210] [cursor=pointer]:
+              - generic [ref=e215]: Filtros
+            - generic [ref=e217]:
+              - generic [ref=e223]: Classificar
+              - combobox "Classificar" [ref=e228] [cursor=pointer]:
+                - generic [ref=e235]: Classificar por
+          - generic [ref=e240]:
+            - generic [ref=e241]:
+              - strong [ref=e242]: Status online
+              - text: ": Anúncios ativos"
+            - button "Remover" [ref=e243] [cursor=pointer]:
+              - generic [ref=e246]: Remover
+        - generic [ref=e250]:
+          - generic [ref=e252]:
+            - generic [ref=e254]:
+              - generic [ref=e255]:
+                - generic [ref=e262]: Ativo
+                - generic [ref=e265]: "Identificação da biblioteca: 1235729441605934"
+                - generic [ref=e267]: Veiculação iniciada em 30 de abr de 2025
+                - generic [ref=e269]: Plataformas
+              - button "Abrir menu suspenso" [ref=e292] [cursor=pointer]:
+                - generic [ref=e295]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e298] [cursor=pointer]:
+              - generic [ref=e302]: Ver detalhes do anúncio
+            - separator [ref=e303]
+            - generic [ref=e308]:
+              - generic [ref=e310]:
+                - img "Bianca Montenegro" [ref=e311]
+                - generic [ref=e313]:
+                  - link "Bianca Montenegro" [ref=e314] [cursor=pointer]:
+                    - /url: https://www.facebook.com/biamontenegrobr/
+                  - generic [ref=e318]:
+                    - strong [ref=e320]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e321]:
+                - button "🚨 NÃO COMPRE NENHUMA CALCINHA ANTES DISSO! Antes de gastar seu dinheiro com qualquer calcinha por aí, dá uma olhada nesse descontão! Kit com 10 calcinhas de algodão antibacteriano por um preço que você não vai acreditar. 🌿 Conforto, frescor e proteção íntima no seu dia a dia 💖 Compre 5, leve 10 + Frete Grátis 👉 Recomendadas por ginecologistas e aprovadas por mais de 40.000 clientes 👉 Clique agora e me agradeça depois... mas corre, os cupons são limitados!" [ref=e324]:
+                  - generic [ref=e327]:
+                    - text: 🚨 NÃO COMPRE NENHUMA CALCINHA ANTES DISSO!
+                    - text: Antes de gastar seu dinheiro com qualquer calcinha por aí, dá uma olhada nesse descontão!
+                    - text: Kit com 10 calcinhas de algodão antibacteriano por um preço que você não vai acreditar.
+                    - text: 🌿 Conforto, frescor e proteção íntima no seu dia a dia
+                    - text: 💖 Compre 5, leve 10 + Frete Grátis
+                    - text: 👉 Recomendadas por ginecologistas e aprovadas por mais de 40.000 clientes
+                    - text: 👉 Clique agora e me agradeça depois... mas corre, os cupons são limitados!
+                - link "HTTPS://MAISOFERTASHOP.COM/COLLECTIONS/MAIS-VENDID... Compre 5, Leve 10 Melhor Negócio do Ano Saiba mais" [ref=e329] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmaisofertashop.com%2Fcollections%2Fmais-vendidos%2Fproducts%2Fkit10-calcinhas-cottonconfort-frete-gratis&h=AT67l7_Qb08KDApW1y_teMYs60svhY3intSLe38lfYp8Bwkby84L27m__WmDiUf8qZ4-9M4vHR4_xr4pqZ1p5kvf2HT8XRnWSfNGrF0tgBkNqKbUy99IUjXA73iuIi4u4-uv3Sd2ql6bbAZMQ2EuHw
+                  - generic [ref=e331]:
+                    - generic [ref=e332]:
+                      - button "HTTPS://MAISOFERTASHOP.COM/COLLECTIONS/MAIS-VENDID..." [ref=e334]:
+                        - generic [ref=e335]: HTTPS://MAISOFERTASHOP.COM/COLLECTIONS/MAIS-VENDID...
+                      - button "Compre 5, Leve 10" [ref=e337]:
+                        - generic [ref=e338]: Compre 5, Leve 10
+                      - button "Melhor Negócio do Ano" [ref=e340]:
+                        - generic [ref=e341]: Melhor Negócio do Ano
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e343]:
+                      - generic [ref=e347]: Saiba mais
+          - generic [ref=e349]:
+            - generic [ref=e351]:
+              - generic [ref=e352]:
+                - generic [ref=e359]: Ativo
+                - generic [ref=e362]: "Identificação da biblioteca: 1293963871640022"
+                - generic [ref=e364]: Veiculação iniciada em 23 de nov de 2024
+                - generic [ref=e366]: Plataformas
+              - button "Abrir menu suspenso" [ref=e374] [cursor=pointer]:
+                - generic [ref=e377]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e380] [cursor=pointer]:
+              - generic [ref=e384]: Ver detalhes do anúncio
+            - separator [ref=e385]
+            - generic [ref=e390]:
+              - generic [ref=e392]:
+                - img "Bianca Montenegro" [ref=e393]
+                - generic [ref=e395]:
+                  - link "Bianca Montenegro" [ref=e396] [cursor=pointer]:
+                    - /url: https://www.facebook.com/biamontenegrobr/
+                  - generic [ref=e400]:
+                    - strong [ref=e402]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e403]:
+                - button "NÃO COMPRE calcinhas de tecido sintético! 👎 Conheça as nossas calcinhas indicadas por Ginecologistas e feitas de algodão antibacteriano CottonConfort ☁️ ✨Vão te ajudar no cuidado íntimo ✨Altamente respiráveis ✨Antibacterianas ✨Confortáveis e seguras! ✨PROMOÇÃO BA-BA-DO COMPRE 5 LEVE 10 + Frete Grátis 🤩 👉 Clique em saiba mais e aproveite a promo, porque cuidar da sua intimidade não tem preço! 💖✨" [ref=e406]:
+                  - generic [ref=e409]:
+                    - text: NÃO COMPRE calcinhas de tecido sintético! 👎
+                    - text: Conheça as nossas calcinhas indicadas por Ginecologistas e feitas de algodão antibacteriano CottonConfort ☁️
+                    - text: ✨Vão te ajudar no cuidado íntimo
+                    - text: ✨Altamente respiráveis
+                    - text: ✨Antibacterianas
+                    - text: ✨Confortáveis e seguras!
+                    - text: ✨PROMOÇÃO BA-BA-DO COMPRE 5 LEVE 10 + Frete Grátis 🤩
+                    - text: 👉 Clique em saiba mais e aproveite a promo, porque cuidar da sua intimidade não tem preço! 💖✨
+                - group "Video player" [ref=e420]:
+                  - button "Reproduzir o vídeo" [ref=e422] [cursor=pointer]
+                  - generic [ref=e424]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:25
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "MAISOFERTASHOP.COM Bianca Montenegro Saiba mais" [ref=e426] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmaisofertashop.com%2Fcollections%2Fmais-vendidos%2Fproducts%2Fkit10-calcinhas-cottonconfort-frete-gratis&h=AT67l7_Qb08KDApW1y_teMYs60svhY3intSLe38lfYp8Bwkby84L27m__WmDiUf8qZ4-9M4vHR4_xr4pqZ1p5kvf2HT8XRnWSfNGrF0tgBkNqKbUy99IUjXA73iuIi4u4-uv3Sd2ql6bbAZMQ2EuHw
+                  - generic [ref=e427]:
+                    - generic [ref=e428]:
+                      - button "MAISOFERTASHOP.COM" [ref=e430]:
+                        - generic [ref=e431]: MAISOFERTASHOP.COM
+                      - button "Bianca Montenegro" [ref=e433]:
+                        - generic [ref=e434]: Bianca Montenegro
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e436]:
+                      - generic [ref=e440]: Saiba mais
+          - generic [ref=e442]:
+            - generic [ref=e444]:
+              - generic [ref=e445]:
+                - generic [ref=e452]: Ativo
+                - generic [ref=e455]: "Identificação da biblioteca: 780828934781056"
+                - generic [ref=e457]: Veiculação iniciada em 8 de out de 2025
+                - generic [ref=e459]: Plataformas
+                - generic [ref=e487]:
+                  - strong [ref=e488]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e490] [cursor=pointer]:
+                - generic [ref=e493]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e496] [cursor=pointer]:
+              - generic [ref=e500]: Ver resumo
+            - separator [ref=e501]
+            - generic [ref=e506]:
+              - generic [ref=e508]:
+                - img "Bianca Montenegro" [ref=e509]
+                - generic [ref=e511]:
+                  - link "Bianca Montenegro" [ref=e512] [cursor=pointer]:
+                    - /url: https://www.facebook.com/biamontenegrobr/
+                  - generic [ref=e516]:
+                    - strong [ref=e518]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e519]:
+                - button "Calcinha Antibacteriana + vendida do Brasil! 👙 Promoção válida SOMENTE HOJE!" [ref=e522]:
+                  - generic [ref=e525]:
+                    - text: Calcinha Antibacteriana + vendida do Brasil! 👙
+                    - text: Promoção válida SOMENTE HOJE!
+                - group "Video player" [ref=e535]:
+                  - button "Reproduzir o vídeo" [ref=e537] [cursor=pointer]
+                  - generic [ref=e539]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:29
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmaisofertashop.com%2Fcollections%2Fmais-vendidos%2Fproducts%2Fkit10-calcinhas-cottonconfort-frete-gratis&h=AT67l7_Qb08KDApW1y_teMYs60svhY3intSLe38lfYp8Bwkby84L27m__WmDiUf8qZ4-9M4vHR4_xr4pqZ1p5kvf2HT8XRnWSfNGrF0tgBkNqKbUy99IUjXA73iuIi4u4-uv3Sd2ql6bbAZMQ2EuHw
+          - generic [ref=e541]:
+            - generic [ref=e543]:
+              - generic [ref=e544]:
+                - generic [ref=e551]: Ativo
+                - generic [ref=e554]: "Identificação da biblioteca: 743359348737033"
+                - generic [ref=e556]: Veiculação iniciada em 10 de out de 2025
+                - generic [ref=e558]: Plataformas
+                - generic [ref=e586]:
+                  - strong [ref=e587]: 5 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e589] [cursor=pointer]:
+                - generic [ref=e592]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e595] [cursor=pointer]:
+              - generic [ref=e599]: Ver resumo
+            - separator [ref=e600]
+            - generic [ref=e605]:
+              - generic [ref=e607]:
+                - img "Bianca Montenegro" [ref=e608]
+                - generic [ref=e610]:
+                  - link "Bianca Montenegro" [ref=e611] [cursor=pointer]:
+                    - /url: https://www.facebook.com/biamontenegrobr/
+                  - generic [ref=e615]:
+                    - strong [ref=e617]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e618]:
+                - button "ESTOQUE ESTÁ DE VOLTA 🚨 As calcinhas mais vendidas do Brasil ✨ Kit com 10 + Frete Grátis 🌿 Única com algodão antibacteriano" [ref=e621]:
+                  - generic [ref=e624]:
+                    - text: ESTOQUE ESTÁ DE VOLTA 🚨
+                    - text: As calcinhas mais vendidas do Brasil
+                    - text: ✨ Kit com 10 + Frete Grátis
+                    - text: 🌿 Única com algodão antibacteriano
+                - group "Video player" [ref=e634]:
+                  - button "Reproduzir o vídeo" [ref=e636] [cursor=pointer]
+                  - generic [ref=e638]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:28
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmaisofertashop.com%2Fcollections%2Fmais-vendidos%2Fproducts%2Fkit10-calcinhas-cottonconfort-frete-gratis&h=AT67l7_Qb08KDApW1y_teMYs60svhY3intSLe38lfYp8Bwkby84L27m__WmDiUf8qZ4-9M4vHR4_xr4pqZ1p5kvf2HT8XRnWSfNGrF0tgBkNqKbUy99IUjXA73iuIi4u4-uv3Sd2ql6bbAZMQ2EuHw
+          - generic [ref=e640]:
+            - generic [ref=e642]:
+              - generic [ref=e643]:
+                - generic [ref=e650]: Ativo
+                - generic [ref=e653]: "Identificação da biblioteca: 671352702594176"
+                - generic [ref=e655]: Veiculação iniciada em 16 de jul de 2025
+                - generic [ref=e657]: Plataformas
+              - button "Abrir menu suspenso" [ref=e665] [cursor=pointer]:
+                - generic [ref=e668]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e671] [cursor=pointer]:
+              - generic [ref=e675]: Ver detalhes do anúncio
+            - separator [ref=e676]
+            - generic [ref=e681]:
+              - generic [ref=e683]:
+                - img "Bianca Montenegro" [ref=e684]
+                - generic [ref=e686]:
+                  - link "Bianca Montenegro" [ref=e687] [cursor=pointer]:
+                    - /url: https://www.facebook.com/biamontenegrobr/
+                  - generic [ref=e691]:
+                    - strong [ref=e693]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e694]:
+                - button "🚨 NÃO COMPRE NENHUMA CALCINHA ANTES DISSO! Antes de gastar seu dinheiro com qualquer calcinha por aí, dá uma olhada nesse descontão! Kit com 10 calcinhas de algodão antibacteriano por um preço que você não vai acreditar. 🌿 Conforto, frescor e proteção íntima no seu dia a dia 💖 Compre 5, leve 10 + Frete Grátis 👉 Recomendadas por ginecologistas e aprovadas por mais de 40.000 clientes 👉 Clique agora e me agradeça depois... mas corre, os cupons são limitados!" [ref=e697]:
+                  - generic [ref=e700]:
+                    - text: 🚨 NÃO COMPRE NENHUMA CALCINHA ANTES DISSO!
+                    - text: Antes de gastar seu dinheiro com qualquer calcinha por aí, dá uma olhada nesse descontão!
+                    - text: Kit com 10 calcinhas de algodão antibacteriano por um preço que você não vai acreditar.
+                    - text: 🌿 Conforto, frescor e proteção íntima no seu dia a dia
+                    - text: 💖 Compre 5, leve 10 + Frete Grátis
+                    - text: 👉 Recomendadas por ginecologistas e aprovadas por mais de 40.000 clientes
+                    - text: 👉 Clique agora e me agradeça depois... mas corre, os cupons são limitados!
+                - group "Video player" [ref=e711]:
+                  - button "Reproduzir o vídeo" [ref=e713] [cursor=pointer]
+                  - generic [ref=e715]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:29
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "MAISOFERTASHOP.COM Bianca Montenegro Saiba mais" [ref=e717] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmaisofertashop.com%2Fcollections%2Fmais-vendidos%2Fproducts%2Fkit10-calcinhas-cottonconfort-frete-gratis&h=AT67l7_Qb08KDApW1y_teMYs60svhY3intSLe38lfYp8Bwkby84L27m__WmDiUf8qZ4-9M4vHR4_xr4pqZ1p5kvf2HT8XRnWSfNGrF0tgBkNqKbUy99IUjXA73iuIi4u4-uv3Sd2ql6bbAZMQ2EuHw
+                  - generic [ref=e718]:
+                    - generic [ref=e719]:
+                      - button "MAISOFERTASHOP.COM" [ref=e721]:
+                        - generic [ref=e722]: MAISOFERTASHOP.COM
+                      - button "Bianca Montenegro" [ref=e724]:
+                        - generic [ref=e725]: Bianca Montenegro
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e727]:
+                      - generic [ref=e731]: Saiba mais
+          - generic [ref=e733]:
+            - generic [ref=e735]:
+              - generic [ref=e736]:
+                - generic [ref=e743]: Ativo
+                - generic [ref=e746]: "Identificação da biblioteca: 1371393244445556"
+                - generic [ref=e748]: Veiculação iniciada em 3 de dez de 2025
+                - generic [ref=e750]: Plataformas
+                - generic [ref=e778]:
+                  - strong [ref=e779]: 3 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e781] [cursor=pointer]:
+                - generic [ref=e784]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e787] [cursor=pointer]:
+              - generic [ref=e791]: Ver resumo
+            - separator [ref=e792]
+            - generic [ref=e797]:
+              - generic [ref=e799]:
+                - img "Bianca Montenegro" [ref=e800]
+                - generic [ref=e802]:
+                  - link "Bianca Montenegro" [ref=e803] [cursor=pointer]:
+                    - /url: https://www.facebook.com/biamontenegrobr/
+                  - generic [ref=e807]:
+                    - strong [ref=e809]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e810]:
+                - button "TÁ CHEGANDO AO FIM!🚨 Ela vicia! Porque toda mulher gosta de conforto e cuidado com sua saúde íntima certo? As calcinhas mais vendidas do Brasil ✨ Kit Compre 5 e Leve 10 + Frete Grátis 🌿 Única com algodão antibacteriano" [ref=e813]:
+                  - generic [ref=e816]:
+                    - text: TÁ CHEGANDO AO FIM!🚨
+                    - text: Ela vicia! Porque toda mulher gosta de conforto e cuidado com sua saúde íntima certo?
+                    - text: As calcinhas mais vendidas do Brasil
+                    - text: ✨ Kit Compre 5 e Leve 10 + Frete Grátis
+                    - text: 🌿 Única com algodão antibacteriano
+                - group "Video player" [ref=e827]:
+                  - button "Reproduzir o vídeo" [ref=e829] [cursor=pointer]
+                  - generic [ref=e831]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:24
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmaisofertashop.com%2Fcollections%2Fmais-vendidos%2Fproducts%2Fkit10-calcinhas-cottonconfort-frete-gratis&h=AT67l7_Qb08KDApW1y_teMYs60svhY3intSLe38lfYp8Bwkby84L27m__WmDiUf8qZ4-9M4vHR4_xr4pqZ1p5kvf2HT8XRnWSfNGrF0tgBkNqKbUy99IUjXA73iuIi4u4-uv3Sd2ql6bbAZMQ2EuHw
+          - generic [ref=e833]:
+            - generic [ref=e835]:
+              - generic [ref=e836]:
+                - generic [ref=e843]: Ativo
+                - generic [ref=e846]: "Identificação da biblioteca: 1746415662739849"
+                - generic [ref=e848]: Veiculação iniciada em 7 de nov de 2025
+                - generic [ref=e850]: Plataformas
+                - generic [ref=e879]: Esse anúncio tem várias versões
+                - generic [ref=e885]:
+                  - strong [ref=e886]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e888] [cursor=pointer]:
+                - generic [ref=e891]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e894] [cursor=pointer]:
+              - generic [ref=e898]: Ver resumo
+            - separator [ref=e899]
+            - generic [ref=e904]:
+              - generic [ref=e907]:
+                - img "Bianca Montenegro" [ref=e908]
+                - generic [ref=e910]:
+                  - link "Bianca Montenegro" [ref=e911] [cursor=pointer]:
+                    - /url: https://www.facebook.com/biamontenegrobr/
+                  - generic [ref=e915]:
+                    - strong [ref=e917]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e919]:
+                - button "Calcinha de algodão antibacteriano canelado, não adianta, você só encontra aqui! 💖 Recuse imitações! A autêntica Calcinha Antibacteriana é CottonConfort ✨ Estoque promocional limitado 🏃‍♀️ 👉 Use o cupom TORRATUDO e ganhe até 50% de desconto!" [ref=e922]:
+                  - generic [ref=e925]:
+                    - text: Calcinha de algodão antibacteriano canelado, não adianta, você só encontra aqui! 💖
+                    - text: Recuse imitações! A autêntica Calcinha Antibacteriana é CottonConfort ✨
+                    - text: Estoque promocional limitado 🏃‍♀️
+                    - text: 👉 Use o cupom TORRATUDO e ganhe até 50% de desconto!
+                - group "Video player" [ref=e936]:
+                  - button "Reproduzir o vídeo" [ref=e938] [cursor=pointer]
+                  - generic [ref=e940]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:34
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-FRETE-GRATIS Learn More" [ref=e942] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmaisofertashop.com%2Fcollections%2Fmais-vendidos%2Fproducts%2Fkit10-calcinhas-cottonconfort-frete-gratis&h=AT67l7_Qb08KDApW1y_teMYs60svhY3intSLe38lfYp8Bwkby84L27m__WmDiUf8qZ4-9M4vHR4_xr4pqZ1p5kvf2HT8XRnWSfNGrF0tgBkNqKbUy99IUjXA73iuIi4u4-uv3Sd2ql6bbAZMQ2EuHw
+                  - generic [ref=e943]:
+                    - generic [ref=e944]:
+                      - button "MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-FRETE-GRATIS" [ref=e946]:
+                        - generic [ref=e947]: MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-FRETE-GRATIS
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Learn More" [ref=e949]:
+                      - generic [ref=e953]: Learn More
+          - generic [ref=e955]:
+            - generic [ref=e957]:
+              - generic [ref=e958]:
+                - generic [ref=e965]: Ativo
+                - generic [ref=e968]: "Identificação da biblioteca: 883605924085291"
+                - generic [ref=e970]: Veiculação iniciada em 22 de dez de 2025
+                - generic [ref=e972]: Plataformas
+              - button "Abrir menu suspenso" [ref=e1000] [cursor=pointer]:
+                - generic [ref=e1003]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e1006] [cursor=pointer]:
+              - generic [ref=e1010]: Ver detalhes do anúncio
+            - separator [ref=e1011]
+            - generic [ref=e1016]:
+              - generic [ref=e1018]:
+                - img "Bianca Montenegro" [ref=e1019]
+                - generic [ref=e1021]:
+                  - generic [ref=e1022]:
+                    - link "Bianca Montenegro" [ref=e1023] [cursor=pointer]:
+                      - /url: https://www.facebook.com/biamontenegrobr/
+                    - text: com
+                    - link "taina_brm" [ref=e1024] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Ftaina_brm&h=AT67l7_Qb08KDApW1y_teMYs60svhY3intSLe38lfYp8Bwkby84L27m__WmDiUf8qZ4-9M4vHR4_xr4pqZ1p5kvf2HT8XRnWSfNGrF0tgBkNqKbUy99IUjXA73iuIi4u4-uv3Sd2ql6bbAZMQ2EuHw
+                  - generic [ref=e1028]:
+                    - strong [ref=e1030]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1031]:
+                - button "TU VAI METER ESSA? 🚨 Desconforto, mau cheiro e infecções são coisas do passado para aquelas que descobriram a CottonConfort 🫶 As calcinhas mais vendidas do Brasil ✨ Compre 5 e Leve 10 + Frete Grátis 🌿 Única com algodão antibacteriano de verdade" [ref=e1034]:
+                  - generic [ref=e1037]:
+                    - text: TU VAI METER ESSA? 🚨
+                    - text: Desconforto, mau cheiro e infecções são coisas do passado
+                    - text: para aquelas que descobriram a CottonConfort 🫶
+                    - text: As calcinhas mais vendidas do Brasil
+                    - text: ✨ Compre 5 e Leve 10 + Frete Grátis
+                    - text: 🌿 Única com algodão antibacteriano de verdade
+                - group "Video player" [ref=e1048]:
+                  - button "Reproduzir o vídeo" [ref=e1050] [cursor=pointer]
+                  - generic [ref=e1052]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:31
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-FRETE-GRATIS Bianca Montenegro Saiba mais" [ref=e1054] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmaisofertashop.com%2Fcollections%2Fmais-vendidos%2Fproducts%2Fkit10-calcinhas-cottonconfort-frete-gratis&h=AT67l7_Qb08KDApW1y_teMYs60svhY3intSLe38lfYp8Bwkby84L27m__WmDiUf8qZ4-9M4vHR4_xr4pqZ1p5kvf2HT8XRnWSfNGrF0tgBkNqKbUy99IUjXA73iuIi4u4-uv3Sd2ql6bbAZMQ2EuHw
+                  - generic [ref=e1055]:
+                    - generic [ref=e1056]:
+                      - button "MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-FRETE-GRATIS" [ref=e1058]:
+                        - generic [ref=e1059]: MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-FRETE-GRATIS
+                      - button "Bianca Montenegro" [ref=e1061]:
+                        - generic [ref=e1062]: Bianca Montenegro
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e1064]:
+                      - generic [ref=e1068]: Saiba mais
+          - generic [ref=e1070]:
+            - generic [ref=e1072]:
+              - generic [ref=e1073]:
+                - generic [ref=e1080]: Ativo
+                - generic [ref=e1083]: "Identificação da biblioteca: 870798795774500"
+                - generic [ref=e1085]: Veiculação iniciada em 2 de fev de 2026
+                - generic [ref=e1087]: Plataformas
+                - generic [ref=e1116]: Esse anúncio tem várias versões
+              - button "Abrir menu suspenso" [ref=e1122] [cursor=pointer]:
+                - generic [ref=e1125]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e1128] [cursor=pointer]:
+              - generic [ref=e1132]: Ver detalhes do anúncio
+            - separator [ref=e1133]
+            - generic [ref=e1138]:
+              - generic [ref=e1141]:
+                - img "Bianca Montenegro" [ref=e1142]
+                - generic [ref=e1144]:
+                  - link "Bianca Montenegro" [ref=e1145] [cursor=pointer]:
+                    - /url: https://www.facebook.com/biamontenegrobr/
+                  - generic [ref=e1149]:
+                    - strong [ref=e1151]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1153]:
+                - button "AUTÊNTICA CALCINHA ANTI-ABAFAMENTO ♨️ Desconforto, PPK suada, com mau cheiro e infecções são coisas do passado para aquelas que descobriram a CottonConfort 🫶 As calcinhas mais vendidas do Brasil! ✨ Compre 5 e Leve 10 + Frete Grátis 👉 Recomendadas por ginecologistas e aprovadas por mais de 200.000 clientes 🌿 Única com algodão antibacteriano de verdade" [ref=e1156]:
+                  - generic [ref=e1159]:
+                    - text: AUTÊNTICA CALCINHA ANTI-ABAFAMENTO ♨️
+                    - text: Desconforto, PPK suada, com mau cheiro e infecções são coisas do passado
+                    - text: para aquelas que descobriram a CottonConfort 🫶
+                    - text: As calcinhas mais vendidas do Brasil!
+                    - text: ✨ Compre 5 e Leve 10 + Frete Grátis
+                    - text: 👉 Recomendadas por ginecologistas e aprovadas por mais de 200.000 clientes
+                    - text: 🌿 Única com algodão antibacteriano de verdade
+                - group "Video player" [ref=e1170]:
+                  - button "Reproduzir o vídeo" [ref=e1172] [cursor=pointer]
+                  - generic [ref=e1174]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:29
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-FRETE-GRATIS Learn More" [ref=e1176] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmaisofertashop.com%2Fcollections%2Fmais-vendidos%2Fproducts%2Fkit10-calcinhas-cottonconfort-frete-gratis&h=AT67l7_Qb08KDApW1y_teMYs60svhY3intSLe38lfYp8Bwkby84L27m__WmDiUf8qZ4-9M4vHR4_xr4pqZ1p5kvf2HT8XRnWSfNGrF0tgBkNqKbUy99IUjXA73iuIi4u4-uv3Sd2ql6bbAZMQ2EuHw
+                  - generic [ref=e1177]:
+                    - generic [ref=e1178]:
+                      - button "MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-FRETE-GRATIS" [ref=e1180]:
+                        - generic [ref=e1181]: MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-FRETE-GRATIS
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Learn More" [ref=e1183]:
+                      - generic [ref=e1187]: Learn More
+          - generic [ref=e1189]:
+            - generic [ref=e1191]:
+              - generic [ref=e1192]:
+                - generic [ref=e1199]: Ativo
+                - generic [ref=e1202]: "Identificação da biblioteca: 4062166234045362"
+                - generic [ref=e1204]: Veiculação iniciada em 24 de nov de 2025
+                - generic [ref=e1206]: Plataformas
+                - generic [ref=e1234]:
+                  - strong [ref=e1235]: 3 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e1237] [cursor=pointer]:
+                - generic [ref=e1240]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e1243] [cursor=pointer]:
+              - generic [ref=e1247]: Ver resumo
+            - separator [ref=e1248]
+            - generic [ref=e1253]:
+              - generic [ref=e1255]:
+                - img "Bianca Montenegro" [ref=e1256]
+                - generic [ref=e1258]:
+                  - link "Bianca Montenegro" [ref=e1259] [cursor=pointer]:
+                    - /url: https://www.facebook.com/biamontenegrobr/
+                  - generic [ref=e1263]:
+                    - strong [ref=e1265]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1266]:
+                - button "Calcinha Antibacteriana + vendida do Brasil! 👙 Promoção válida SOMENTE HOJE!" [ref=e1269]:
+                  - generic [ref=e1272]:
+                    - text: Calcinha Antibacteriana + vendida do Brasil! 👙
+                    - text: Promoção válida SOMENTE HOJE!
+                - group "Video player" [ref=e1282]:
+                  - button "Reproduzir o vídeo" [ref=e1284] [cursor=pointer]
+                  - generic [ref=e1286]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:29
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmaisofertashop.com%2Fcollections%2Fmais-vendidos%2Fproducts%2Fkit10-calcinhas-cottonconfort-frete-gratis&h=AT67l7_Qb08KDApW1y_teMYs60svhY3intSLe38lfYp8Bwkby84L27m__WmDiUf8qZ4-9M4vHR4_xr4pqZ1p5kvf2HT8XRnWSfNGrF0tgBkNqKbUy99IUjXA73iuIi4u4-uv3Sd2ql6bbAZMQ2EuHw
+          - generic [ref=e1288]:
+            - generic [ref=e1290]:
+              - generic [ref=e1291]:
+                - generic [ref=e1298]: Ativo
+                - generic [ref=e1301]: "Identificação da biblioteca: 1408528880792450"
+                - generic [ref=e1303]: Veiculação iniciada em 2 de dez de 2025
+                - generic [ref=e1305]: Plataformas
+              - button "Abrir menu suspenso" [ref=e1333] [cursor=pointer]:
+                - generic [ref=e1336]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e1339] [cursor=pointer]:
+              - generic [ref=e1343]: Ver detalhes do anúncio
+            - separator [ref=e1344]
+            - generic [ref=e1349]:
+              - generic [ref=e1351]:
+                - img "Bianca Montenegro" [ref=e1352]
+                - generic [ref=e1354]:
+                  - link "Bianca Montenegro" [ref=e1355] [cursor=pointer]:
+                    - /url: https://www.facebook.com/biamontenegrobr/
+                  - generic [ref=e1359]:
+                    - strong [ref=e1361]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1362]:
+                - button "TÁ CHEGANDO AO FIM!🚨 Ela vicia! Porque toda mulher gosta de conforto e cuidado com sua saúde íntima certo? As calcinhas mais vendidas do Brasil ✨ Kit Compre 5 e Leve 10 + Frete Grátis 🌿 Única com algodão antibacteriano" [ref=e1365]:
+                  - generic [ref=e1368]:
+                    - text: TÁ CHEGANDO AO FIM!🚨
+                    - text: Ela vicia! Porque toda mulher gosta de conforto e cuidado com sua saúde íntima certo?
+                    - text: As calcinhas mais vendidas do Brasil
+                    - text: ✨ Kit Compre 5 e Leve 10 + Frete Grátis
+                    - text: 🌿 Única com algodão antibacteriano
+                - group "Video player" [ref=e1379]:
+                  - button "Reproduzir o vídeo" [ref=e1381] [cursor=pointer]
+                  - generic [ref=e1383]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:24
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-FRETE-GRATIS Bianca Montenegro Calcinha antibacteriana mais amada do Brasil. Kit com 10 + frete grátis. Estoque limitado! Saiba mais" [ref=e1385] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmaisofertashop.com%2Fcollections%2Fmais-vendidos%2Fproducts%2Fkit10-calcinhas-cottonconfort-frete-gratis&h=AT67l7_Qb08KDApW1y_teMYs60svhY3intSLe38lfYp8Bwkby84L27m__WmDiUf8qZ4-9M4vHR4_xr4pqZ1p5kvf2HT8XRnWSfNGrF0tgBkNqKbUy99IUjXA73iuIi4u4-uv3Sd2ql6bbAZMQ2EuHw
+                  - generic [ref=e1386]:
+                    - generic [ref=e1387]:
+                      - button "MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-FRETE-GRATIS" [ref=e1389]:
+                        - generic [ref=e1390]: MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-FRETE-GRATIS
+                      - button "Bianca Montenegro" [ref=e1392]:
+                        - generic [ref=e1393]: Bianca Montenegro
+                      - button "Calcinha antibacteriana mais amada do Brasil. Kit com 10 + frete grátis. Estoque limitado!" [ref=e1395]:
+                        - generic [ref=e1396]: Calcinha antibacteriana mais amada do Brasil. Kit com 10 + frete grátis. Estoque limitado!
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e1398]:
+                      - generic [ref=e1402]: Saiba mais
+          - generic [ref=e1404]:
+            - generic [ref=e1406]:
+              - generic [ref=e1407]:
+                - generic [ref=e1414]: Ativo
+                - generic [ref=e1417]: "Identificação da biblioteca: 1509248586821336"
+                - generic [ref=e1419]: Veiculação iniciada em 9 de jan de 2026
+                - generic [ref=e1421]: Plataformas
+                - generic [ref=e1449]:
+                  - strong [ref=e1450]: 4 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e1452] [cursor=pointer]:
+                - generic [ref=e1455]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e1458] [cursor=pointer]:
+              - generic [ref=e1462]: Ver resumo
+            - separator [ref=e1463]
+            - generic [ref=e1468]:
+              - generic [ref=e1470]:
+                - img "Bianca Montenegro" [ref=e1471]
+                - generic [ref=e1473]:
+                  - link "Bianca Montenegro" [ref=e1474] [cursor=pointer]:
+                    - /url: https://www.facebook.com/biamontenegrobr/
+                  - generic [ref=e1478]:
+                    - strong [ref=e1480]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1481]:
+                - button "CC de ppk amiga? 🤢 Desconforto, mau cheiro e infecções são coisas do passado para aquelas que descobriram a CottonConfort 🫶 As calcinhas mais vendidas do Brasil ✨ Compre 5 e Leve 10 + Frete Grátis 🌿 Única com algodão antibacteriano de verdade Você nunca mais vai querer usar outra calcinha!" [ref=e1484]:
+                  - generic [ref=e1487]:
+                    - text: CC de ppk amiga? 🤢
+                    - text: Desconforto, mau cheiro e infecções são coisas do passado para aquelas que descobriram a CottonConfort 🫶
+                    - text: As calcinhas mais vendidas do Brasil
+                    - text: ✨ Compre 5 e Leve 10 + Frete Grátis
+                    - text: 🌿 Única com algodão antibacteriano de verdade
+                    - text: Você nunca mais vai querer usar outra calcinha!
+                - group "Video player" [ref=e1498]:
+                  - button "Reproduzir o vídeo" [ref=e1500] [cursor=pointer]
+                  - generic [ref=e1502]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:40
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmaisofertashop.com%2Fcollections%2Fmais-vendidos%2Fproducts%2Fkit10-calcinhas-cottonconfort-frete-gratis&h=AT67l7_Qb08KDApW1y_teMYs60svhY3intSLe38lfYp8Bwkby84L27m__WmDiUf8qZ4-9M4vHR4_xr4pqZ1p5kvf2HT8XRnWSfNGrF0tgBkNqKbUy99IUjXA73iuIi4u4-uv3Sd2ql6bbAZMQ2EuHw
+          - generic [ref=e1504]:
+            - generic [ref=e1506]:
+              - generic [ref=e1507]:
+                - generic [ref=e1514]: Ativo
+                - generic [ref=e1517]: "Identificação da biblioteca: 2278432775994406"
+                - generic [ref=e1519]: Veiculação iniciada em 31 de out de 2025
+                - generic [ref=e1521]: Plataformas
+                - generic [ref=e1550]: Esse anúncio tem várias versões
+                - generic [ref=e1556]:
+                  - strong [ref=e1557]: 3 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e1559] [cursor=pointer]:
+                - generic [ref=e1562]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e1565] [cursor=pointer]:
+              - generic [ref=e1569]: Ver resumo
+            - separator [ref=e1570]
+            - generic [ref=e1575]:
+              - generic [ref=e1578]:
+                - img "Bianca Montenegro" [ref=e1579]
+                - generic [ref=e1581]:
+                  - link "Bianca Montenegro" [ref=e1582] [cursor=pointer]:
+                    - /url: https://www.facebook.com/biamontenegrobr/
+                  - generic [ref=e1586]:
+                    - strong [ref=e1588]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1590]:
+                - button "🚨BLACK NOVEMBER CHEGOU! 🚨 As calcinhas mais vendidas do Brasil ✨ Kit com 10 + Frete Grátis 🌿 Única com algodão antibacteriano 👉 Use o cupom BLACK e ganhe até 50% de desconto! UNIDADES COM PREÇO PROMOCIONAL SUJEITAS A DISPONIBILIDADE EM ESTOQUE ⚠️" [ref=e1593]:
+                  - generic [ref=e1596]:
+                    - text: 🚨BLACK NOVEMBER CHEGOU! 🚨
+                    - text: As calcinhas mais vendidas do Brasil
+                    - text: ✨ Kit com 10 + Frete Grátis
+                    - text: 🌿 Única com algodão antibacteriano
+                    - text: 👉 Use o cupom BLACK e ganhe até 50% de desconto!
+                    - text: UNIDADES COM PREÇO PROMOCIONAL SUJEITAS A DISPONIBILIDADE EM ESTOQUE ⚠️
+                - group "Video player" [ref=e1607]:
+                  - button "Reproduzir o vídeo" [ref=e1609] [cursor=pointer]
+                  - generic [ref=e1611]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:32
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-FRETE-GRATIS NÃO FIQUE SEM A SUA! ⏳ Learn More" [ref=e1613] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmaisofertashop.com%2Fcollections%2Fmais-vendidos%2Fproducts%2Fkit10-calcinhas-cottonconfort-frete-gratis&h=AT67l7_Qb08KDApW1y_teMYs60svhY3intSLe38lfYp8Bwkby84L27m__WmDiUf8qZ4-9M4vHR4_xr4pqZ1p5kvf2HT8XRnWSfNGrF0tgBkNqKbUy99IUjXA73iuIi4u4-uv3Sd2ql6bbAZMQ2EuHw
+                  - generic [ref=e1614]:
+                    - generic [ref=e1615]:
+                      - button "MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-FRETE-GRATIS" [ref=e1617]:
+                        - generic [ref=e1618]: MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-FRETE-GRATIS
+                      - button "NÃO FIQUE SEM A SUA! ⏳" [ref=e1620]:
+                        - generic [ref=e1621]: NÃO FIQUE SEM A SUA! ⏳
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Learn More" [ref=e1623]:
+                      - generic [ref=e1627]: Learn More
+          - generic [ref=e1629]:
+            - generic [ref=e1631]:
+              - generic [ref=e1632]:
+                - generic [ref=e1639]: Ativo
+                - generic [ref=e1642]: "Identificação da biblioteca: 1195021679481966"
+                - generic [ref=e1644]: Veiculação iniciada em 20 de jan de 2026
+                - generic [ref=e1646]: Plataformas
+                - generic [ref=e1674]:
+                  - strong [ref=e1675]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e1677] [cursor=pointer]:
+                - generic [ref=e1680]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e1683] [cursor=pointer]:
+              - generic [ref=e1687]: Ver resumo
+            - separator [ref=e1688]
+            - generic [ref=e1693]:
+              - generic [ref=e1695]:
+                - img "Bianca Montenegro" [ref=e1696]
+                - generic [ref=e1698]:
+                  - link "Bianca Montenegro" [ref=e1699] [cursor=pointer]:
+                    - /url: https://www.facebook.com/biamontenegrobr/
+                  - generic [ref=e1703]:
+                    - strong [ref=e1705]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1706]:
+                - button "Cheirinho e suor lá na priquita amiga? 🤢 Desconforto, mau cheiro e infecções são coisas do passado para aquelas que descobriram a CottonConfort 🫶 As calcinhas mais vendidas do Brasil ✨ Compre 5 e Leve 10 + Frete Grátis 🌿 Única com algodão antibacteriano de verdade Você nunca mais vai querer usar outra calcinha!" [ref=e1709]:
+                  - generic [ref=e1712]:
+                    - text: Cheirinho e suor lá na priquita amiga? 🤢
+                    - text: Desconforto, mau cheiro e infecções são coisas do passado para aquelas que descobriram a CottonConfort 🫶
+                    - text: As calcinhas mais vendidas do Brasil
+                    - text: ✨ Compre 5 e Leve 10 + Frete Grátis
+                    - text: 🌿 Única com algodão antibacteriano de verdade
+                    - text: Você nunca mais vai querer usar outra calcinha!
+                - group "Video player" [ref=e1723]:
+                  - button "Reproduzir o vídeo" [ref=e1725] [cursor=pointer]
+                  - generic [ref=e1727]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:40
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmaisofertashop.com%2Fcollections%2Fmais-vendidos%2Fproducts%2Fkit10-calcinhas-cottonconfort-frete-gratis&h=AT67l7_Qb08KDApW1y_teMYs60svhY3intSLe38lfYp8Bwkby84L27m__WmDiUf8qZ4-9M4vHR4_xr4pqZ1p5kvf2HT8XRnWSfNGrF0tgBkNqKbUy99IUjXA73iuIi4u4-uv3Sd2ql6bbAZMQ2EuHw
+          - generic [ref=e1729]:
+            - generic [ref=e1731]:
+              - generic [ref=e1732]:
+                - generic [ref=e1739]: Ativo
+                - generic [ref=e1742]: "Identificação da biblioteca: 891172676257815"
+                - generic [ref=e1744]: Veiculação iniciada em 29 de jan de 2025
+                - generic [ref=e1746]: Plataformas
+              - button "Abrir menu suspenso" [ref=e1754] [cursor=pointer]:
+                - generic [ref=e1757]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e1760] [cursor=pointer]:
+              - generic [ref=e1764]: Ver detalhes do anúncio
+            - separator [ref=e1765]
+            - generic [ref=e1770]:
+              - generic [ref=e1772]:
+                - img "Bianca Montenegro" [ref=e1773]
+                - generic [ref=e1775]:
+                  - link "Bianca Montenegro" [ref=e1776] [cursor=pointer]:
+                    - /url: https://www.facebook.com/biamontenegrobr/
+                  - generic [ref=e1780]:
+                    - strong [ref=e1782]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1783]:
+                - button "QUEIMA ESTOQUE LIMITADO 🚨 Oportunidade UNICA E LIMITADA pra você garantir as calcinhas mais amadas da internet com descontão! ✨Antibacterianas ✨Tecido Respirável ✨Indicadas por Ginecologistas! ✨PROMOÇÃO BA-BA-DO COMPRE 5 LEVE 10 + Frete Grátis 🤩 👉 Clique em saiba mais e aproveite a promo, porque cuidar da sua intimidade não tem preço! 💖✨" [ref=e1786]:
+                  - generic [ref=e1789]:
+                    - text: QUEIMA ESTOQUE LIMITADO 🚨
+                    - text: Oportunidade UNICA E LIMITADA pra você garantir as calcinhas mais amadas da internet com descontão!
+                    - text: ✨Antibacterianas
+                    - text: ✨Tecido Respirável
+                    - text: ✨Indicadas por Ginecologistas!
+                    - text: ✨PROMOÇÃO BA-BA-DO COMPRE 5 LEVE 10 + Frete Grátis 🤩
+                    - text: 👉 Clique em saiba mais e aproveite a promo, porque cuidar da sua intimidade não tem preço! 💖✨
+                - link "MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-F... Bianca Montenegro Saiba mais" [ref=e1791] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmaisofertashop.com%2Fcollections%2Fmais-vendidos%2Fproducts%2Fkit10-calcinhas-cottonconfort-frete-gratis&h=AT67l7_Qb08KDApW1y_teMYs60svhY3intSLe38lfYp8Bwkby84L27m__WmDiUf8qZ4-9M4vHR4_xr4pqZ1p5kvf2HT8XRnWSfNGrF0tgBkNqKbUy99IUjXA73iuIi4u4-uv3Sd2ql6bbAZMQ2EuHw
+                  - generic [ref=e1793]:
+                    - generic [ref=e1794]:
+                      - button "MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-F..." [ref=e1796]:
+                        - generic [ref=e1797]: MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-F...
+                      - button "Bianca Montenegro" [ref=e1799]:
+                        - generic [ref=e1800]: Bianca Montenegro
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e1802]:
+                      - generic [ref=e1806]: Saiba mais
+          - generic [ref=e1808]:
+            - generic [ref=e1810]:
+              - generic [ref=e1811]:
+                - generic [ref=e1818]: Ativo
+                - generic [ref=e1821]: "Identificação da biblioteca: 859178756826960"
+                - generic [ref=e1823]: Veiculação iniciada em 8 de jan de 2026
+                - generic [ref=e1825]: Plataformas
+                - generic [ref=e1853]:
+                  - strong [ref=e1854]: 3 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e1856] [cursor=pointer]:
+                - generic [ref=e1859]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e1862] [cursor=pointer]:
+              - generic [ref=e1866]: Ver resumo
+            - separator [ref=e1867]
+            - generic [ref=e1872]:
+              - generic [ref=e1874]:
+                - img "Bianca Montenegro" [ref=e1875]
+                - generic [ref=e1877]:
+                  - link "Bianca Montenegro" [ref=e1878] [cursor=pointer]:
+                    - /url: https://www.facebook.com/biamontenegrobr/
+                  - generic [ref=e1882]:
+                    - strong [ref=e1884]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1885]:
+                - button "CC de ppk amiga? 🤢 Desconforto, mau cheiro e infecções são coisas do passado para aquelas que descobriram a CottonConfort 🫶 As calcinhas mais vendidas do Brasil ✨ Compre 5 e Leve 10 + Frete Grátis 🌿 Única com algodão antibacteriano de verdade Você nunca mais vai querer usar outra calcinha!" [ref=e1888]:
+                  - generic [ref=e1891]:
+                    - text: CC de ppk amiga? 🤢
+                    - text: Desconforto, mau cheiro e infecções são coisas do passado para aquelas que descobriram a CottonConfort 🫶
+                    - text: As calcinhas mais vendidas do Brasil
+                    - text: ✨ Compre 5 e Leve 10 + Frete Grátis
+                    - text: 🌿 Única com algodão antibacteriano de verdade
+                    - text: Você nunca mais vai querer usar outra calcinha!
+                - group "Video player" [ref=e1902]:
+                  - button "Reproduzir o vídeo" [ref=e1904] [cursor=pointer]
+                  - generic [ref=e1906]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:40
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmaisofertashop.com%2Fcollections%2Fmais-vendidos%2Fproducts%2Fkit10-calcinhas-cottonconfort-frete-gratis&h=AT67l7_Qb08KDApW1y_teMYs60svhY3intSLe38lfYp8Bwkby84L27m__WmDiUf8qZ4-9M4vHR4_xr4pqZ1p5kvf2HT8XRnWSfNGrF0tgBkNqKbUy99IUjXA73iuIi4u4-uv3Sd2ql6bbAZMQ2EuHw
+          - generic [ref=e1908]:
+            - generic [ref=e1910]:
+              - generic [ref=e1911]:
+                - generic [ref=e1918]: Ativo
+                - generic [ref=e1921]: "Identificação da biblioteca: 2312863849226641"
+                - generic [ref=e1923]: Veiculação iniciada em 2 de mar de 2026
+                - generic [ref=e1925]: Plataformas
+                - generic [ref=e1953]:
+                  - strong [ref=e1954]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e1956] [cursor=pointer]:
+                - generic [ref=e1959]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e1962] [cursor=pointer]:
+              - generic [ref=e1966]: Ver resumo
+            - separator [ref=e1967]
+            - generic [ref=e1972]:
+              - generic [ref=e1974]:
+                - img "Bianca Montenegro" [ref=e1975]
+                - generic [ref=e1977]:
+                  - link "Bianca Montenegro" [ref=e1978] [cursor=pointer]:
+                    - /url: https://www.facebook.com/biamontenegrobr/
+                  - generic [ref=e1982]:
+                    - strong [ref=e1984]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1985]:
+                - button "A calcinha antibacteriana mais recomendada por Ginecologistas!👩🏼‍⚕" [ref=e1988]:
+                  - generic [ref=e1990]: A calcinha antibacteriana mais recomendada por Ginecologistas!👩🏼‍⚕
+                - group "Video player" [ref=e2000]:
+                  - button "Reproduzir o vídeo" [ref=e2002] [cursor=pointer]
+                  - generic [ref=e2004]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:31
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmaisofertashop.com%2Fcollections%2Fmais-vendidos%2Fproducts%2Fkit10-calcinhas-cottonconfort-frete-gratis&h=AT67l7_Qb08KDApW1y_teMYs60svhY3intSLe38lfYp8Bwkby84L27m__WmDiUf8qZ4-9M4vHR4_xr4pqZ1p5kvf2HT8XRnWSfNGrF0tgBkNqKbUy99IUjXA73iuIi4u4-uv3Sd2ql6bbAZMQ2EuHw
+          - generic [ref=e2006]:
+            - generic [ref=e2008]:
+              - generic [ref=e2009]:
+                - generic [ref=e2016]: Ativo
+                - generic [ref=e2019]: "Identificação da biblioteca: 1511481916593252"
+                - generic [ref=e2021]: Veiculação iniciada em 31 de out de 2025
+                - generic [ref=e2023]: Plataformas
+                - generic [ref=e2052]: Esse anúncio tem várias versões
+              - button "Abrir menu suspenso" [ref=e2058] [cursor=pointer]:
+                - generic [ref=e2061]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e2064] [cursor=pointer]:
+              - generic [ref=e2068]: Ver detalhes do anúncio
+            - separator [ref=e2069]
+            - generic [ref=e2074]:
+              - generic [ref=e2077]:
+                - img "Bianca Montenegro" [ref=e2078]
+                - generic [ref=e2080]:
+                  - link "Bianca Montenegro" [ref=e2081] [cursor=pointer]:
+                    - /url: https://www.facebook.com/biamontenegrobr/
+                  - generic [ref=e2085]:
+                    - strong [ref=e2087]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2089]:
+                - button "⚡ BLACK NOVEMBER CHEGOU! ⚡ GANHE 5 CALCINHAS HOJE 👙 Leve 10, pague 5! ✅ Mais vendidas do Brasil 🌿 Respiráveis & antibacterianas 👉 Use o cupom BLACK e ganhe até 50% de desconto!" [ref=e2092]:
+                  - generic [ref=e2095]:
+                    - text: ⚡ BLACK NOVEMBER CHEGOU! ⚡
+                    - text: GANHE 5 CALCINHAS HOJE 👙
+                    - text: Leve 10, pague 5!
+                    - text: ✅ Mais vendidas do Brasil
+                    - text: 🌿 Respiráveis & antibacterianas
+                    - text: 👉 Use o cupom BLACK e ganhe até 50% de desconto!
+                - group "Video player" [ref=e2106]:
+                  - button "Reproduzir o vídeo" [ref=e2108] [cursor=pointer]
+                  - generic [ref=e2110]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:33
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-FRETE-GRATIS NÃO FIQUE SEM A SUA! ⏳ Learn More" [ref=e2112] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmaisofertashop.com%2Fcollections%2Fmais-vendidos%2Fproducts%2Fkit10-calcinhas-cottonconfort-frete-gratis&h=AT67l7_Qb08KDApW1y_teMYs60svhY3intSLe38lfYp8Bwkby84L27m__WmDiUf8qZ4-9M4vHR4_xr4pqZ1p5kvf2HT8XRnWSfNGrF0tgBkNqKbUy99IUjXA73iuIi4u4-uv3Sd2ql6bbAZMQ2EuHw
+                  - generic [ref=e2113]:
+                    - generic [ref=e2114]:
+                      - button "MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-FRETE-GRATIS" [ref=e2116]:
+                        - generic [ref=e2117]: MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-FRETE-GRATIS
+                      - button "NÃO FIQUE SEM A SUA! ⏳" [ref=e2119]:
+                        - generic [ref=e2120]: NÃO FIQUE SEM A SUA! ⏳
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Learn More" [ref=e2122]:
+                      - generic [ref=e2126]: Learn More
+          - generic [ref=e2128]:
+            - generic [ref=e2130]:
+              - generic [ref=e2131]:
+                - generic [ref=e2138]: Ativo
+                - generic [ref=e2141]: "Identificação da biblioteca: 3245625495616269"
+                - generic [ref=e2143]: Veiculação iniciada em 3 de fev de 2026
+                - generic [ref=e2145]: Plataformas
+                - generic [ref=e2174]: Esse anúncio tem várias versões
+                - generic [ref=e2180]:
+                  - strong [ref=e2181]: 4 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Abrir menu suspenso" [ref=e2183] [cursor=pointer]:
+                - generic [ref=e2186]: Abrir menu suspenso
+            - button "Ver resumo" [ref=e2189] [cursor=pointer]:
+              - generic [ref=e2193]: Ver resumo
+            - separator [ref=e2194]
+            - generic [ref=e2199]:
+              - generic [ref=e2202]:
+                - img "Bianca Montenegro" [ref=e2203]
+                - generic [ref=e2205]:
+                  - link "Bianca Montenegro" [ref=e2206] [cursor=pointer]:
+                    - /url: https://www.facebook.com/biamontenegrobr/
+                  - generic [ref=e2210]:
+                    - strong [ref=e2212]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e2214]:
+                - button "AUTÊNTICA CALCINHA ANTI-ABAFAMENTO ♨️ Desconforto, PPK suada, com mau cheiro e infecções são coisas do passado para aquelas que descobriram a CottonConfort 🫶 As calcinhas mais vendidas do Brasil! ✨ Compre 5 e Leve 10 + Frete Grátis 👉 Recomendadas por ginecologistas e aprovadas por mais de 200.000 clientes 🌿 Única com algodão antibacteriano de verdade" [ref=e2217]:
+                  - generic [ref=e2220]:
+                    - text: AUTÊNTICA CALCINHA ANTI-ABAFAMENTO ♨️
+                    - text: Desconforto, PPK suada, com mau cheiro e infecções são coisas do passado
+                    - text: para aquelas que descobriram a CottonConfort 🫶
+                    - text: As calcinhas mais vendidas do Brasil!
+                    - text: ✨ Compre 5 e Leve 10 + Frete Grátis
+                    - text: 👉 Recomendadas por ginecologistas e aprovadas por mais de 200.000 clientes
+                    - text: 🌿 Única com algodão antibacteriano de verdade
+                - group "Video player" [ref=e2231]:
+                  - button "Reproduzir o vídeo" [ref=e2233] [cursor=pointer]
+                  - generic [ref=e2235]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:28
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-FRETE-GRATIS Learn More" [ref=e2237] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmaisofertashop.com%2Fcollections%2Fmais-vendidos%2Fproducts%2Fkit10-calcinhas-cottonconfort-frete-gratis&h=AT67l7_Qb08KDApW1y_teMYs60svhY3intSLe38lfYp8Bwkby84L27m__WmDiUf8qZ4-9M4vHR4_xr4pqZ1p5kvf2HT8XRnWSfNGrF0tgBkNqKbUy99IUjXA73iuIi4u4-uv3Sd2ql6bbAZMQ2EuHw
+                  - generic [ref=e2238]:
+                    - generic [ref=e2239]:
+                      - button "MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-FRETE-GRATIS" [ref=e2241]:
+                        - generic [ref=e2242]: MAISOFERTASHOP.COM/KIT10-CALCINHAS-COTTONCONFORT-FRETE-GRATIS
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Learn More" [ref=e2244]:
+                      - generic [ref=e2248]: Learn More
+        - button "Ver mais" [ref=e2249] [cursor=pointer]:
+          - generic [ref=e2250]: Ver mais
+    - generic [ref=e2253]:
+      - generic [ref=e2261]: Status do sistema
+      - generic [ref=e2265]:
+        - list [ref=e2266]:
+          - listitem [ref=e2267]:
+            - heading "API da Biblioteca de Anúncios" [level=3] [ref=e2268]:
+              - link "API da Biblioteca de Anúncios" [ref=e2269] [cursor=pointer]:
+                - /url: /ads/library/api/?source=archive-landing-page
+          - listitem [ref=e2270]:
+            - heading "Sobre anúncios e uso de dados" [level=3] [ref=e2271]:
+              - link "Sobre anúncios e uso de dados" [ref=e2272] [cursor=pointer]:
+                - /url: /ads/about/?entry_product=ad_library
+          - listitem [ref=e2273]:
+            - heading "Privacidade" [level=3] [ref=e2274]:
+              - link "Privacidade" [ref=e2275] [cursor=pointer]:
+                - /url: /privacy/center/?entry_point=privacy_basics_redirect
+          - listitem [ref=e2276]:
+            - heading "Termos" [level=3] [ref=e2277]:
+              - link "Termos" [ref=e2278] [cursor=pointer]:
+                - /url: /policies/
+          - listitem [ref=e2279]:
+            - heading "Cookies" [level=3] [ref=e2280]:
+              - link "Cookies" [ref=e2281] [cursor=pointer]:
+                - /url: /policies/cookies/
+        - heading "Meta © 2026 | Português (Brasil)" [level=3] [ref=e2283]:
+          - text: Meta © 2026 |
+          - link "Português (Brasil)" [ref=e2284] [cursor=pointer]:
+            - /url: /language/

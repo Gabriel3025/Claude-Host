@@ -1,0 +1,590 @@
+- generic [ref=e12]:
+  - generic [ref=e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=e27] [cursor=pointer]:
+      - generic [ref=e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=e33] [cursor=pointer]
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - combobox "Tudo" [ref=e44] [cursor=pointer]:
+        - generic [ref=e51]: Tudo
+      - combobox "Todos os anúncios" [ref=e58] [cursor=pointer]:
+        - generic [ref=e68]: Todos os anúncios
+    - generic [ref=e78]:
+      - generic [ref=e84]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=e90]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=e96]: centraldaeducacao.site
+        - button "Limpar" [ref=e98] [cursor=pointer]
+  - dialog [ref=e100]:
+    - generic [ref=e101]:
+      - link [ref=e102] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=e103]: Entrar
+      - menuitem [ref=e104] [cursor=pointer]
+    - generic [ref=e106]:
+      - generic [ref=e107]:
+        - heading [level=4] [ref=e109]: Biblioteca de Anúncios
+        - menuitem [ref=e111] [cursor=pointer]:
+          - heading [level=4] [ref=e113]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=e115] [cursor=pointer]:
+          - heading [level=4] [ref=e117]: API da Biblioteca de Anúncios
+        - menuitem [ref=e119] [cursor=pointer]:
+          - heading [level=4] [ref=e121]: Conteúdo de marca
+      - separator [ref=e122]
+      - generic [ref=e123]:
+        - menuitem [ref=e125] [cursor=pointer]:
+          - heading [level=4] [ref=e127]: Status do sistema
+        - menuitem [ref=e129] [cursor=pointer]:
+          - heading [level=4] [ref=e131]: Assinar para receber atualizações por email
+        - menuitem [ref=e133] [cursor=pointer]:
+          - heading [level=4] [ref=e135]: Perguntas frequentes
+        - menuitem [ref=e137] [cursor=pointer]:
+          - heading [level=4] [ref=e139]: Sobre anúncios e uso de dados
+        - menuitem [ref=e141] [cursor=pointer]:
+          - heading [level=4] [ref=e143]: Privacidade
+        - menuitem [ref=e145] [cursor=pointer]:
+          - heading [level=4] [ref=e147]: Termos
+        - menuitem [ref=e149] [cursor=pointer]:
+          - heading [level=4] [ref=e151]: Cookies
+  - generic [ref=e152]:
+    - generic [ref=e166]:
+      - generic [ref=e172]:
+        - heading "~31 resultados" [level=3] [ref=e174]
+        - generic [ref=e176]:
+          - text: Esses resultados incluem anúncios que correspondem à sua
+          - strong [ref=e177]: pesquisa por palavra-chave.
+      - generic [ref=e178]:
+        - generic [ref=e184]:
+          - button "Filtros (1)" [ref=e186] [cursor=pointer]:
+            - generic [ref=e192]: Filtros (1)
+          - button "Classificar por" [ref=e195] [cursor=pointer]:
+            - generic [ref=e200]: Classificar por
+        - generic [ref=e203]:
+          - generic [ref=e205]:
+            - generic [ref=e207]:
+              - generic [ref=e208]:
+                - generic [ref=e215]: Ativo
+                - generic [ref=e218]: "Identificação da biblioteca: 2272417756584209"
+                - generic [ref=e220]: Veiculação iniciada em 6 de fev de 2026
+                - generic [ref=e222]: Plataformas
+                - generic [ref=e250]:
+                  - strong [ref=e251]: 12 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e252] [cursor=pointer]:
+                - generic [ref=e254]:
+                  - generic [ref=e255]: Menu
+                  - img "Menu" [ref=e258]
+            - button "Ver resumo" [ref=e260] [cursor=pointer]:
+              - generic [ref=e264]: Ver resumo
+            - separator [ref=e265]
+            - generic [ref=e270]:
+              - generic [ref=e272]:
+                - img "EUAMOAnatomia" [ref=e273]
+                - generic [ref=e275]:
+                  - link "EUAMOAnatomia" [ref=e276] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61587039882034/
+                  - generic [ref=e280]:
+                    - strong [ref=e282]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e283]:
+                - button "+60 exercícios visuais práticos, você memoriza a nomenclatura do esqueleto humano de forma rápida, simples e sem teoria cansativa. Material em PDF, com gabarito e acesso imediato. 👉 Memorize de forma simples e pratica" [ref=e286]:
+                  - generic [ref=e289]:
+                    - text: +60 exercícios visuais práticos, você memoriza a nomenclatura do esqueleto humano de forma rápida, simples e sem teoria cansativa.
+                    - text: Material em PDF, com gabarito e acesso imediato.
+                    - text: 👉 Memorize de forma simples e pratica
+                - group "Video player" [ref=e299]:
+                  - button "Reproduzir o vídeo" [ref=e301] [cursor=pointer]
+                  - generic [ref=e303]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:25
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcentraldaeducacao.site%2F&h=AT49taka5AUbOQpghyxP8ETg_Cg4TgoSteyZ1JGuU-_F1lEx7d3pc-iSem8bbEAzgsS2sdrKiXOkxelIPB8AFvoPwBC9zT8liONlXCKlYt2S4Csm8Jpq_9vAHSGpPk10RuVPSKAbnuws-oeR1HZaLg
+          - generic [ref=e305]:
+            - generic [ref=e307]:
+              - generic [ref=e308]:
+                - generic [ref=e315]: Ativo
+                - generic [ref=e318]: "Identificação da biblioteca: 1421410342773514"
+                - generic [ref=e320]: Veiculação iniciada em 6 de fev de 2026
+                - generic [ref=e322]: Plataformas
+                - generic [ref=e350]:
+                  - strong [ref=e351]: 13 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e352] [cursor=pointer]:
+                - generic [ref=e354]:
+                  - generic [ref=e355]: Menu
+                  - img "Menu" [ref=e358]
+            - button "Ver resumo" [ref=e360] [cursor=pointer]:
+              - generic [ref=e364]: Ver resumo
+            - separator [ref=e365]
+            - generic [ref=e370]:
+              - generic [ref=e372]:
+                - img "EUAMOAnatomia" [ref=e373]
+                - generic [ref=e375]:
+                  - link "EUAMOAnatomia" [ref=e376] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61587039882034/
+                  - generic [ref=e380]:
+                    - strong [ref=e382]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e383]:
+                - button "+60 exercícios visuais práticos, você memoriza a nomenclatura do esqueleto humano de forma rápida, simples e sem teoria cansativa. Material em PDF, com gabarito e acesso imediato. 👉 Memorize de forma simples e pratica" [ref=e386]:
+                  - generic [ref=e389]:
+                    - text: +60 exercícios visuais práticos, você memoriza a nomenclatura do esqueleto humano de forma rápida, simples e sem teoria cansativa.
+                    - text: Material em PDF, com gabarito e acesso imediato.
+                    - text: 👉 Memorize de forma simples e pratica
+                - group "Video player" [ref=e399]:
+                  - button "Reproduzir o vídeo" [ref=e401] [cursor=pointer]
+                  - generic [ref=e403]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:18
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcentraldaeducacao.site%2F&h=AT49taka5AUbOQpghyxP8ETg_Cg4TgoSteyZ1JGuU-_F1lEx7d3pc-iSem8bbEAzgsS2sdrKiXOkxelIPB8AFvoPwBC9zT8liONlXCKlYt2S4Csm8Jpq_9vAHSGpPk10RuVPSKAbnuws-oeR1HZaLg
+          - generic [ref=e405]:
+            - generic [ref=e407]:
+              - generic [ref=e408]:
+                - generic [ref=e415]: Ativo
+                - generic [ref=e418]: "Identificação da biblioteca: 1448065163561606"
+                - generic [ref=e420]: Veiculação iniciada em 15 de fev de 2026
+                - generic [ref=e422]: Plataformas
+              - button "Menu Menu" [ref=e449] [cursor=pointer]:
+                - generic [ref=e451]:
+                  - generic [ref=e452]: Menu
+                  - img "Menu" [ref=e455]
+            - button "Ver detalhes do anúncio" [ref=e457] [cursor=pointer]:
+              - generic [ref=e461]: Ver detalhes do anúncio
+            - separator [ref=e462]
+            - generic [ref=e467]:
+              - generic [ref=e469]:
+                - img "EUAMOAnatomia" [ref=e470]
+                - generic [ref=e472]:
+                  - link "EUAMOAnatomia" [ref=e473] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61587039882034/
+                  - generic [ref=e477]:
+                    - strong [ref=e479]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e480]:
+                - button "+60 exercícios visuais práticos, você memoriza a nomenclatura do esqueleto humano de forma rápida, simples e sem teoria cansativa. Material em PDF, com gabarito e acesso imediato. 👉 Memorize de forma simples e pratica" [ref=e483]:
+                  - generic [ref=e486]:
+                    - text: +60 exercícios visuais práticos, você memoriza a nomenclatura do esqueleto humano de forma rápida, simples e sem teoria cansativa.
+                    - text: Material em PDF, com gabarito e acesso imediato.
+                    - text: 👉 Memorize de forma simples e pratica
+                - group "Video player" [ref=e496]:
+                  - button "Reproduzir o vídeo" [ref=e498] [cursor=pointer]
+                  - generic [ref=e500]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:21
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "CENTRALDAEDUCACAO.SITE +60 Exercícios Visuais para Memorizar a Anatomia Óssea Saiba mais" [ref=e502] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcentraldaeducacao.site%2F&h=AT49taka5AUbOQpghyxP8ETg_Cg4TgoSteyZ1JGuU-_F1lEx7d3pc-iSem8bbEAzgsS2sdrKiXOkxelIPB8AFvoPwBC9zT8liONlXCKlYt2S4Csm8Jpq_9vAHSGpPk10RuVPSKAbnuws-oeR1HZaLg
+                  - generic [ref=e503]:
+                    - generic [ref=e504]:
+                      - button "CENTRALDAEDUCACAO.SITE" [ref=e506]:
+                        - generic [ref=e507]: CENTRALDAEDUCACAO.SITE
+                      - button "+60 Exercícios Visuais para Memorizar a Anatomia Óssea" [ref=e509]:
+                        - generic [ref=e510]: +60 Exercícios Visuais para Memorizar a Anatomia Óssea
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e512]:
+                      - generic [ref=e516]: Saiba mais
+          - generic [ref=e518]:
+            - generic [ref=e520]:
+              - generic [ref=e521]:
+                - generic [ref=e528]: Ativo
+                - generic [ref=e531]: "Identificação da biblioteca: 26101604066115369"
+                - generic [ref=e533]: Veiculação iniciada em 17 de mar de 2026
+                - generic [ref=e535]: Plataformas
+              - button "Menu Menu" [ref=e562] [cursor=pointer]:
+                - generic [ref=e564]:
+                  - generic [ref=e565]: Menu
+                  - img "Menu" [ref=e568]
+            - button "Ver detalhes do anúncio" [ref=e570] [cursor=pointer]:
+              - generic [ref=e574]: Ver detalhes do anúncio
+            - separator [ref=e575]
+            - generic [ref=e580]:
+              - generic [ref=e582]:
+                - img "EUAMOAnatomia" [ref=e583]
+                - generic [ref=e585]:
+                  - link "EUAMOAnatomia" [ref=e586] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61587039882034/
+                  - generic [ref=e590]:
+                    - strong [ref=e592]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e593]:
+                - button "Origem, inserção, ação e inervação dos principais músculos reunidos em 75 páginas ilustradas. Tudo que você precisa num só lugar — sem precisar cruzar atlas, livro e anotações pra estudar um único músculo." [ref=e596]:
+                  - generic [ref=e598]: Origem, inserção, ação e inervação dos principais músculos reunidos em 75 páginas ilustradas. Tudo que você precisa num só lugar — sem precisar cruzar atlas, livro e anotações pra estudar um único músculo.
+                - group "Video player" [ref=e608]:
+                  - button "Reproduzir o vídeo" [ref=e610] [cursor=pointer]
+                  - generic [ref=e612]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:32
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "CENTRALDAEDUCACAO.SITE Guia Ilustrado Para Dominar Cada Músculo do Corpo Humano de Forma Visual e Organizada Saiba mais" [ref=e614] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcentraldaeducacao.site%2Fmusculos&h=AT49taka5AUbOQpghyxP8ETg_Cg4TgoSteyZ1JGuU-_F1lEx7d3pc-iSem8bbEAzgsS2sdrKiXOkxelIPB8AFvoPwBC9zT8liONlXCKlYt2S4Csm8Jpq_9vAHSGpPk10RuVPSKAbnuws-oeR1HZaLg
+                  - generic [ref=e615]:
+                    - generic [ref=e616]:
+                      - button "CENTRALDAEDUCACAO.SITE" [ref=e618]:
+                        - generic [ref=e619]: CENTRALDAEDUCACAO.SITE
+                      - button "Guia Ilustrado Para Dominar Cada Músculo do Corpo Humano de Forma Visual e Organizada" [ref=e621]:
+                        - generic [ref=e622]: Guia Ilustrado Para Dominar Cada Músculo do Corpo Humano de Forma Visual e Organizada
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e624]:
+                      - generic [ref=e628]: Saiba mais
+          - generic [ref=e630]:
+            - generic [ref=e632]:
+              - generic [ref=e633]:
+                - generic [ref=e640]: Ativo
+                - generic [ref=e643]: "Identificação da biblioteca: 948575004322662"
+                - generic [ref=e645]: Veiculação iniciada em 18 de mar de 2026
+                - generic [ref=e647]: Plataformas
+                - generic [ref=e675]:
+                  - strong [ref=e676]: 2 anúncios
+                  - text: usam esse criativo e esse texto
+              - button "Menu Menu" [ref=e677] [cursor=pointer]:
+                - generic [ref=e679]:
+                  - generic [ref=e680]: Menu
+                  - img "Menu" [ref=e683]
+            - button "Ver resumo" [ref=e685] [cursor=pointer]:
+              - generic [ref=e689]: Ver resumo
+            - separator [ref=e690]
+            - generic [ref=e695]:
+              - generic [ref=e697]:
+                - img "EUAMOAnatomia" [ref=e698]
+                - generic [ref=e700]:
+                  - link "EUAMOAnatomia" [ref=e701] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61587039882034/
+                  - generic [ref=e705]:
+                    - strong [ref=e707]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e708]:
+                - button "Origem, inserção, ação e inervação dos principais músculos reunidos em 75 páginas ilustradas. Tudo que você precisa num só lugar — sem precisar cruzar atlas, livro e anotações pra estudar um único músculo." [ref=e711]:
+                  - generic [ref=e713]: Origem, inserção, ação e inervação dos principais músculos reunidos em 75 páginas ilustradas. Tudo que você precisa num só lugar — sem precisar cruzar atlas, livro e anotações pra estudar um único músculo.
+                - group "Video player" [ref=e723]:
+                  - button "Reproduzir o vídeo" [ref=e725] [cursor=pointer]
+                  - generic [ref=e727]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:30
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - generic:
+                  - link:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcentraldaeducacao.site%2Fmusculos&h=AT49taka5AUbOQpghyxP8ETg_Cg4TgoSteyZ1JGuU-_F1lEx7d3pc-iSem8bbEAzgsS2sdrKiXOkxelIPB8AFvoPwBC9zT8liONlXCKlYt2S4Csm8Jpq_9vAHSGpPk10RuVPSKAbnuws-oeR1HZaLg
+          - generic [ref=e729]:
+            - generic [ref=e731]:
+              - generic [ref=e732]:
+                - generic [ref=e739]: Ativo
+                - generic [ref=e742]: "Identificação da biblioteca: 2118700315595445"
+                - generic [ref=e744]: Veiculação iniciada em 17 de mar de 2026
+                - generic [ref=e746]: Plataformas
+              - button "Menu Menu" [ref=e773] [cursor=pointer]:
+                - generic [ref=e775]:
+                  - generic [ref=e776]: Menu
+                  - img "Menu" [ref=e779]
+            - button "Ver detalhes do anúncio" [ref=e781] [cursor=pointer]:
+              - generic [ref=e785]: Ver detalhes do anúncio
+            - separator [ref=e786]
+            - generic [ref=e791]:
+              - generic [ref=e793]:
+                - img "EUAMOAnatomia" [ref=e794]
+                - generic [ref=e796]:
+                  - link "EUAMOAnatomia" [ref=e797] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61587039882034/
+                  - generic [ref=e801]:
+                    - strong [ref=e803]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e804]:
+                - button "Origem, inserção, ação e inervação dos principais músculos reunidos em 75 páginas ilustradas. Tudo que você precisa num só lugar — sem precisar cruzar atlas, livro e anotações pra estudar um único músculo." [ref=e807]:
+                  - generic [ref=e809]: Origem, inserção, ação e inervação dos principais músculos reunidos em 75 páginas ilustradas. Tudo que você precisa num só lugar — sem precisar cruzar atlas, livro e anotações pra estudar um único músculo.
+                - group "Video player" [ref=e819]:
+                  - button "Reproduzir o vídeo" [ref=e821] [cursor=pointer]
+                  - generic [ref=e823]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:21
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "CENTRALDAEDUCACAO.SITE Guia Ilustrado Para Dominar Cada Músculo do Corpo Humano de Forma Visual e Organizada Saiba mais" [ref=e825] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcentraldaeducacao.site%2Fmusculos&h=AT49taka5AUbOQpghyxP8ETg_Cg4TgoSteyZ1JGuU-_F1lEx7d3pc-iSem8bbEAzgsS2sdrKiXOkxelIPB8AFvoPwBC9zT8liONlXCKlYt2S4Csm8Jpq_9vAHSGpPk10RuVPSKAbnuws-oeR1HZaLg
+                  - generic [ref=e826]:
+                    - generic [ref=e827]:
+                      - button "CENTRALDAEDUCACAO.SITE" [ref=e829]:
+                        - generic [ref=e830]: CENTRALDAEDUCACAO.SITE
+                      - button "Guia Ilustrado Para Dominar Cada Músculo do Corpo Humano de Forma Visual e Organizada" [ref=e832]:
+                        - generic [ref=e833]: Guia Ilustrado Para Dominar Cada Músculo do Corpo Humano de Forma Visual e Organizada
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e835]:
+                      - generic [ref=e839]: Saiba mais
+          - generic [ref=e841]:
+            - generic [ref=e843]:
+              - generic [ref=e844]:
+                - generic [ref=e851]: Ativo
+                - generic [ref=e854]: "Identificação da biblioteca: 1484361696538967"
+                - generic [ref=e856]: Veiculação iniciada em 17 de mar de 2026
+                - generic [ref=e858]: Plataformas
+              - button "Menu Menu" [ref=e885] [cursor=pointer]:
+                - generic [ref=e887]:
+                  - generic [ref=e888]: Menu
+                  - img "Menu" [ref=e891]
+            - button "Ver detalhes do anúncio" [ref=e893] [cursor=pointer]:
+              - generic [ref=e897]: Ver detalhes do anúncio
+            - separator [ref=e898]
+            - generic [ref=e903]:
+              - generic [ref=e905]:
+                - img "EUAMOAnatomia" [ref=e906]
+                - generic [ref=e908]:
+                  - link "EUAMOAnatomia" [ref=e909] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61587039882034/
+                  - generic [ref=e913]:
+                    - strong [ref=e915]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e916]:
+                - button "Origem, inserção, ação e inervação dos principais músculos reunidos em 75 páginas ilustradas. Tudo que você precisa num só lugar — sem precisar cruzar atlas, livro e anotações pra estudar um único músculo." [ref=e919]:
+                  - generic [ref=e921]: Origem, inserção, ação e inervação dos principais músculos reunidos em 75 páginas ilustradas. Tudo que você precisa num só lugar — sem precisar cruzar atlas, livro e anotações pra estudar um único músculo.
+                - group "Video player" [ref=e931]:
+                  - button "Reproduzir o vídeo" [ref=e933] [cursor=pointer]
+                  - generic [ref=e935]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:21
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "CENTRALDAEDUCACAO.SITE Guia Ilustrado Para Dominar Cada Músculo do Corpo Humano de Forma Visual e Organizada Saiba mais" [ref=e937] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcentraldaeducacao.site%2Fmusculos&h=AT49taka5AUbOQpghyxP8ETg_Cg4TgoSteyZ1JGuU-_F1lEx7d3pc-iSem8bbEAzgsS2sdrKiXOkxelIPB8AFvoPwBC9zT8liONlXCKlYt2S4Csm8Jpq_9vAHSGpPk10RuVPSKAbnuws-oeR1HZaLg
+                  - generic [ref=e938]:
+                    - generic [ref=e939]:
+                      - button "CENTRALDAEDUCACAO.SITE" [ref=e941]:
+                        - generic [ref=e942]: CENTRALDAEDUCACAO.SITE
+                      - button "Guia Ilustrado Para Dominar Cada Músculo do Corpo Humano de Forma Visual e Organizada" [ref=e944]:
+                        - generic [ref=e945]: Guia Ilustrado Para Dominar Cada Músculo do Corpo Humano de Forma Visual e Organizada
+                      - generic:
+                        - button
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e947]:
+                      - generic [ref=e951]: Saiba mais
+        - button "Ver mais" [ref=e952] [cursor=pointer]:
+          - generic [ref=e953]: Ver mais
+    - generic [ref=e956]:
+      - generic [ref=e964]: Status do sistema
+      - generic [ref=e968]:
+        - list [ref=e969]:
+          - listitem [ref=e970]:
+            - link "API da Biblioteca de Anúncios" [ref=e972] [cursor=pointer]:
+              - /url: /ads/library/api/?source=archive-landing-page
+          - listitem [ref=e973]:
+            - link "Sobre anúncios e uso de dados" [ref=e975] [cursor=pointer]:
+              - /url: /ads/about/?entry_product=ad_library
+          - listitem [ref=e976]:
+            - link "Privacidade" [ref=e978] [cursor=pointer]:
+              - /url: /privacy/center/?entry_point=privacy_basics_redirect
+          - listitem [ref=e979]:
+            - link "Termos" [ref=e981] [cursor=pointer]:
+              - /url: /policies/
+          - listitem [ref=e982]:
+            - link "Cookies" [ref=e984] [cursor=pointer]:
+              - /url: /policies/cookies/
+        - generic [ref=e986]:
+          - text: Meta © 2026 |
+          - link "Português (Brasil)" [ref=e987] [cursor=pointer]:
+            - /url: /language/

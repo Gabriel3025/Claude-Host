@@ -1,0 +1,777 @@
+- generic [ref=e12]:
+  - generic [ref=e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=e27] [cursor=pointer]:
+      - generic [ref=e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=e33] [cursor=pointer]
+  - generic [ref=e40]:
+    - combobox "Tudo" [ref=e44] [cursor=pointer]:
+      - generic [ref=e51]: Tudo
+    - combobox "Todos os anúncios" [ref=e62] [cursor=pointer]:
+      - generic [ref=e72]: Todos os anúncios
+    - generic [ref=e82]:
+      - generic [ref=e88]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=e94]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=e100]: Educar Kids
+        - button "Limpar" [ref=e102] [cursor=pointer]
+  - generic [ref=e105]:
+    - generic [ref=e107]:
+      - img "Foto do perfil da Página" [ref=e112]
+      - link "Educar Kids" [ref=e115] [cursor=pointer]:
+        - /url: https://facebook.com/61580928050288
+        - heading "Educar Kids" [level=1] [ref=e116]
+    - generic [ref=e117]:
+      - link "Anúncios" [ref=e118] [cursor=pointer]
+      - link "Sobre" [ref=e119] [cursor=pointer]
+  - dialog [ref=e120]:
+    - generic [ref=e121]:
+      - link [ref=e122] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=e123]: Entrar
+      - menuitem [ref=e124] [cursor=pointer]
+    - generic [ref=e126]:
+      - generic [ref=e127]:
+        - heading [level=4] [ref=e129]: Biblioteca de Anúncios
+        - menuitem [ref=e131] [cursor=pointer]:
+          - heading [level=4] [ref=e133]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=e135] [cursor=pointer]:
+          - heading [level=4] [ref=e137]: API da Biblioteca de Anúncios
+        - menuitem [ref=e139] [cursor=pointer]:
+          - heading [level=4] [ref=e141]: Conteúdo de marca
+      - separator [ref=e142]
+      - generic [ref=e143]:
+        - menuitem [ref=e145] [cursor=pointer]:
+          - heading [level=4] [ref=e147]: Status do sistema
+        - menuitem [ref=e149] [cursor=pointer]:
+          - heading [level=4] [ref=e151]: Assinar para receber atualizações por email
+        - menuitem [ref=e153] [cursor=pointer]:
+          - heading [level=4] [ref=e155]: Perguntas frequentes
+        - menuitem [ref=e157] [cursor=pointer]:
+          - heading [level=4] [ref=e159]: Sobre anúncios e uso de dados
+        - menuitem [ref=e161] [cursor=pointer]:
+          - heading [level=4] [ref=e163]: Privacidade
+        - menuitem [ref=e165] [cursor=pointer]:
+          - heading [level=4] [ref=e167]: Termos
+        - menuitem [ref=e169] [cursor=pointer]:
+          - heading [level=4] [ref=e171]: Cookies
+  - generic [ref=e172]:
+    - generic [ref=e186]:
+      - heading "~9 resultados" [level=3] [ref=e194]
+      - generic [ref=e195]:
+        - generic [ref=e203]:
+          - generic [ref=e204]:
+            - textbox "Palavra-chave" [ref=e206]
+            - button "Filtros" [ref=e210] [cursor=pointer]:
+              - generic [ref=e215]: Filtros
+            - generic [ref=e217]:
+              - generic [ref=e223]: Classificar
+              - combobox "Classificar" [ref=e228] [cursor=pointer]:
+                - generic [ref=e235]: Classificar por
+          - generic [ref=e240]:
+            - generic [ref=e241]:
+              - strong [ref=e242]: Status online
+              - text: ": Anúncios ativos"
+            - button "Remover" [ref=e243] [cursor=pointer]:
+              - generic [ref=e246]: Remover
+        - generic [ref=e250]:
+          - generic [ref=e252]:
+            - generic [ref=e254]:
+              - generic [ref=e255]:
+                - generic [ref=e262]: Ativo
+                - generic [ref=e265]: "Identificação da biblioteca: 1391651692319013"
+                - generic [ref=e267]: Veiculação iniciada em 20 de out de 2025
+                - generic [ref=e269]: Plataformas
+              - button "Abrir menu suspenso" [ref=e297] [cursor=pointer]:
+                - generic [ref=e300]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e303] [cursor=pointer]:
+              - generic [ref=e307]: Ver detalhes do anúncio
+            - separator [ref=e308]
+            - generic [ref=e313]:
+              - generic [ref=e315]:
+                - img "Educar Kids" [ref=e316]
+                - generic [ref=e318]:
+                  - link "Educar Kids" [ref=e319] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61580928050288/
+                  - generic [ref=e323]:
+                    - strong [ref=e325]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e326]:
+                - button "Já ficou sem ideia na hora de entreter ou ensinar as crianças? Com o pacote 120 Dinâmicas para Educação Infantil, você terá sempre uma atividade rápida, criativa e pedagógica, pronta para imprimir e aplicar. Transforme cada aula em um momento de diversão e aprendizado — tudo isso por apenas R$10." [ref=e329]:
+                  - generic [ref=e332]:
+                    - text: Já ficou sem ideia na hora de entreter ou ensinar as crianças?
+                    - text: Com o pacote 120 Dinâmicas para Educação Infantil, você terá sempre uma atividade rápida, criativa e pedagógica, pronta para imprimir e aplicar.
+                    - text: Transforme cada aula em um momento de diversão e aprendizado — tudo isso por apenas R$10.
+                - group "Video player" [ref=e342]:
+                  - button "Reproduzir o vídeo" [ref=e344] [cursor=pointer]
+                  - generic [ref=e346]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:33
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "DINAMICASCRIATIVAS.NETLIFY.APP Apenas R$10! ⭐⭐⭐⭐⭐ (4.9/5) Saiba mais" [ref=e348] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdinamicascriativas.netlify.app%2F&h=AT5MIUwKKXEL6Ls4ziLMuw3Z8xz4MhtR4c3kfCLLmIKFiy1z1ANCcZM-0TEe07XIGl6jEa3ZUvV7yOtQZ_8eOgxzy-Nuh-D5TgDhUT-cc1XuJ64hrOC9Ky_9UhQVy4L8UljMxq_KF-GP1cwbDju4bw
+                  - generic [ref=e349]:
+                    - generic [ref=e350]:
+                      - button "DINAMICASCRIATIVAS.NETLIFY.APP" [ref=e352]:
+                        - generic [ref=e353]: DINAMICASCRIATIVAS.NETLIFY.APP
+                      - button "Apenas R$10!" [ref=e355]:
+                        - generic [ref=e356]: Apenas R$10!
+                      - button "⭐⭐⭐⭐⭐ (4.9/5)" [ref=e358]:
+                        - generic [ref=e359]: ⭐⭐⭐⭐⭐ (4.9/5)
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e361]:
+                      - generic [ref=e365]: Saiba mais
+          - generic [ref=e367]:
+            - generic [ref=e369]:
+              - generic [ref=e370]:
+                - generic [ref=e377]: Ativo
+                - generic [ref=e380]: "Identificação da biblioteca: 2034153104079312"
+                - generic [ref=e382]: Veiculação iniciada em 20 de out de 2025
+                - generic [ref=e384]: Plataformas
+              - button "Abrir menu suspenso" [ref=e412] [cursor=pointer]:
+                - generic [ref=e415]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e418] [cursor=pointer]:
+              - generic [ref=e422]: Ver detalhes do anúncio
+            - separator [ref=e423]
+            - generic [ref=e428]:
+              - generic [ref=e430]:
+                - img "Educar Kids" [ref=e431]
+                - generic [ref=e433]:
+                  - link "Educar Kids" [ref=e434] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61580928050288/
+                  - generic [ref=e438]:
+                    - strong [ref=e440]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e441]:
+                - button "Já ficou sem ideia na hora de entreter ou ensinar as crianças? Com o pacote 120 Dinâmicas para Educação Infantil, você terá sempre uma atividade rápida, criativa e pedagógica, pronta para imprimir e aplicar. Transforme cada aula em um momento de diversão e aprendizado — tudo isso por apenas R$10." [ref=e444]:
+                  - generic [ref=e447]:
+                    - text: Já ficou sem ideia na hora de entreter ou ensinar as crianças?
+                    - text: Com o pacote 120 Dinâmicas para Educação Infantil, você terá sempre uma atividade rápida, criativa e pedagógica, pronta para imprimir e aplicar.
+                    - text: Transforme cada aula em um momento de diversão e aprendizado — tudo isso por apenas R$10.
+                - group "Video player" [ref=e457]:
+                  - button "Reproduzir o vídeo" [ref=e459] [cursor=pointer]
+                  - generic [ref=e461]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:32
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "DINAMICASCRIATIVAS.NETLIFY.APP Apenas R$10! ⭐⭐⭐⭐⭐ (4.9/5) Saiba mais" [ref=e463] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdinamicascriativas.netlify.app%2F&h=AT5MIUwKKXEL6Ls4ziLMuw3Z8xz4MhtR4c3kfCLLmIKFiy1z1ANCcZM-0TEe07XIGl6jEa3ZUvV7yOtQZ_8eOgxzy-Nuh-D5TgDhUT-cc1XuJ64hrOC9Ky_9UhQVy4L8UljMxq_KF-GP1cwbDju4bw
+                  - generic [ref=e464]:
+                    - generic [ref=e465]:
+                      - button "DINAMICASCRIATIVAS.NETLIFY.APP" [ref=e467]:
+                        - generic [ref=e468]: DINAMICASCRIATIVAS.NETLIFY.APP
+                      - button "Apenas R$10!" [ref=e470]:
+                        - generic [ref=e471]: Apenas R$10!
+                      - button "⭐⭐⭐⭐⭐ (4.9/5)" [ref=e473]:
+                        - generic [ref=e474]: ⭐⭐⭐⭐⭐ (4.9/5)
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e476]:
+                      - generic [ref=e480]: Saiba mais
+          - generic [ref=e482]:
+            - generic [ref=e484]:
+              - generic [ref=e485]:
+                - generic [ref=e492]: Ativo
+                - generic [ref=e495]: "Identificação da biblioteca: 1344200297119178"
+                - generic [ref=e497]: Veiculação iniciada em 20 de out de 2025
+                - generic [ref=e499]: Plataformas
+              - button "Abrir menu suspenso" [ref=e527] [cursor=pointer]:
+                - generic [ref=e530]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e533] [cursor=pointer]:
+              - generic [ref=e537]: Ver detalhes do anúncio
+            - separator [ref=e538]
+            - generic [ref=e543]:
+              - generic [ref=e545]:
+                - img "Educar Kids" [ref=e546]
+                - generic [ref=e548]:
+                  - link "Educar Kids" [ref=e549] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61580928050288/
+                  - generic [ref=e553]:
+                    - strong [ref=e555]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e556]:
+                - button "Já ficou sem ideia na hora de entreter ou ensinar as crianças? Com o pacote 120 Dinâmicas para Educação Infantil, você terá sempre uma atividade rápida, criativa e pedagógica, pronta para imprimir e aplicar. Transforme cada aula em um momento de diversão e aprendizado — tudo isso por apenas R$10." [ref=e559]:
+                  - generic [ref=e562]:
+                    - text: Já ficou sem ideia na hora de entreter ou ensinar as crianças?
+                    - text: Com o pacote 120 Dinâmicas para Educação Infantil, você terá sempre uma atividade rápida, criativa e pedagógica, pronta para imprimir e aplicar.
+                    - text: Transforme cada aula em um momento de diversão e aprendizado — tudo isso por apenas R$10.
+                - group "Video player" [ref=e572]:
+                  - button "Reproduzir o vídeo" [ref=e574] [cursor=pointer]
+                  - generic [ref=e576]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:49
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "DINAMICASCRIATIVAS.NETLIFY.APP Apenas R$10! ⭐⭐⭐⭐⭐ (4.9/5) Saiba mais" [ref=e578] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdinamicascriativas.netlify.app%2F&h=AT5MIUwKKXEL6Ls4ziLMuw3Z8xz4MhtR4c3kfCLLmIKFiy1z1ANCcZM-0TEe07XIGl6jEa3ZUvV7yOtQZ_8eOgxzy-Nuh-D5TgDhUT-cc1XuJ64hrOC9Ky_9UhQVy4L8UljMxq_KF-GP1cwbDju4bw
+                  - generic [ref=e579]:
+                    - generic [ref=e580]:
+                      - button "DINAMICASCRIATIVAS.NETLIFY.APP" [ref=e582]:
+                        - generic [ref=e583]: DINAMICASCRIATIVAS.NETLIFY.APP
+                      - button "Apenas R$10!" [ref=e585]:
+                        - generic [ref=e586]: Apenas R$10!
+                      - button "⭐⭐⭐⭐⭐ (4.9/5)" [ref=e588]:
+                        - generic [ref=e589]: ⭐⭐⭐⭐⭐ (4.9/5)
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e591]:
+                      - generic [ref=e595]: Saiba mais
+          - generic [ref=e597]:
+            - generic [ref=e599]:
+              - generic [ref=e600]:
+                - generic [ref=e607]: Ativo
+                - generic [ref=e610]: "Identificação da biblioteca: 1206186784655006"
+                - generic [ref=e612]: Veiculação iniciada em 21 de out de 2025
+                - generic [ref=e614]: Plataformas
+              - button "Abrir menu suspenso" [ref=e642] [cursor=pointer]:
+                - generic [ref=e645]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e648] [cursor=pointer]:
+              - generic [ref=e652]: Ver detalhes do anúncio
+            - separator [ref=e653]
+            - generic [ref=e658]:
+              - generic [ref=e660]:
+                - img "Educar Kids" [ref=e661]
+                - generic [ref=e663]:
+                  - link "Educar Kids" [ref=e664] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61580928050288/
+                  - generic [ref=e668]:
+                    - strong [ref=e670]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e671]:
+                - button "Já ficou sem ideia na hora de entreter ou ensinar as crianças? Com o pacote 120 Dinâmicas para Educação Infantil, você terá sempre uma atividade rápida, criativa e pedagógica, pronta para imprimir e aplicar. Transforme cada aula em um momento de diversão e aprendizado — tudo isso por apenas R$10." [ref=e674]:
+                  - generic [ref=e677]:
+                    - text: Já ficou sem ideia na hora de entreter ou ensinar as crianças?
+                    - text: Com o pacote 120 Dinâmicas para Educação Infantil, você terá sempre uma atividade rápida, criativa e pedagógica, pronta para imprimir e aplicar.
+                    - text: Transforme cada aula em um momento de diversão e aprendizado — tudo isso por apenas R$10.
+                - group "Video player" [ref=e687]:
+                  - button "Reproduzir o vídeo" [ref=e689] [cursor=pointer]
+                  - generic [ref=e691]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:32
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "DINAMICASCRIATIVAS.NETLIFY.APP Apenas R$10! ⭐⭐⭐⭐⭐ (4.9/5) Saiba mais" [ref=e693] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdinamicascriativas.netlify.app%2F&h=AT5MIUwKKXEL6Ls4ziLMuw3Z8xz4MhtR4c3kfCLLmIKFiy1z1ANCcZM-0TEe07XIGl6jEa3ZUvV7yOtQZ_8eOgxzy-Nuh-D5TgDhUT-cc1XuJ64hrOC9Ky_9UhQVy4L8UljMxq_KF-GP1cwbDju4bw
+                  - generic [ref=e694]:
+                    - generic [ref=e695]:
+                      - button "DINAMICASCRIATIVAS.NETLIFY.APP" [ref=e697]:
+                        - generic [ref=e698]: DINAMICASCRIATIVAS.NETLIFY.APP
+                      - button "Apenas R$10!" [ref=e700]:
+                        - generic [ref=e701]: Apenas R$10!
+                      - button "⭐⭐⭐⭐⭐ (4.9/5)" [ref=e703]:
+                        - generic [ref=e704]: ⭐⭐⭐⭐⭐ (4.9/5)
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e706]:
+                      - generic [ref=e710]: Saiba mais
+          - generic [ref=e712]:
+            - generic [ref=e714]:
+              - generic [ref=e715]:
+                - generic [ref=e722]: Ativo
+                - generic [ref=e725]: "Identificação da biblioteca: 2492201094485925"
+                - generic [ref=e727]: Veiculação iniciada em 20 de out de 2025
+                - generic [ref=e729]: Plataformas
+              - button "Abrir menu suspenso" [ref=e757] [cursor=pointer]:
+                - generic [ref=e760]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e763] [cursor=pointer]:
+              - generic [ref=e767]: Ver detalhes do anúncio
+            - separator [ref=e768]
+            - generic [ref=e773]:
+              - generic [ref=e775]:
+                - img "Educar Kids" [ref=e776]
+                - generic [ref=e778]:
+                  - link "Educar Kids" [ref=e779] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61580928050288/
+                  - generic [ref=e783]:
+                    - strong [ref=e785]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e786]:
+                - button "Já ficou sem ideia na hora de entreter ou ensinar as crianças? Com o pacote 120 Dinâmicas para Educação Infantil, você terá sempre uma atividade rápida, criativa e pedagógica, pronta para imprimir e aplicar. Transforme cada aula em um momento de diversão e aprendizado — tudo isso por apenas R$10." [ref=e789]:
+                  - generic [ref=e792]:
+                    - text: Já ficou sem ideia na hora de entreter ou ensinar as crianças?
+                    - text: Com o pacote 120 Dinâmicas para Educação Infantil, você terá sempre uma atividade rápida, criativa e pedagógica, pronta para imprimir e aplicar.
+                    - text: Transforme cada aula em um momento de diversão e aprendizado — tudo isso por apenas R$10.
+                - group "Video player" [ref=e802]:
+                  - button "Reproduzir o vídeo" [ref=e804] [cursor=pointer]
+                  - generic [ref=e806]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:22
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "DINAMICASCRIATIVAS.NETLIFY.APP Apenas R$10! ⭐⭐⭐⭐⭐ (4.9/5) Saiba mais" [ref=e808] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdinamicascriativas.netlify.app%2F&h=AT5MIUwKKXEL6Ls4ziLMuw3Z8xz4MhtR4c3kfCLLmIKFiy1z1ANCcZM-0TEe07XIGl6jEa3ZUvV7yOtQZ_8eOgxzy-Nuh-D5TgDhUT-cc1XuJ64hrOC9Ky_9UhQVy4L8UljMxq_KF-GP1cwbDju4bw
+                  - generic [ref=e809]:
+                    - generic [ref=e810]:
+                      - button "DINAMICASCRIATIVAS.NETLIFY.APP" [ref=e812]:
+                        - generic [ref=e813]: DINAMICASCRIATIVAS.NETLIFY.APP
+                      - button "Apenas R$10!" [ref=e815]:
+                        - generic [ref=e816]: Apenas R$10!
+                      - button "⭐⭐⭐⭐⭐ (4.9/5)" [ref=e818]:
+                        - generic [ref=e819]: ⭐⭐⭐⭐⭐ (4.9/5)
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e821]:
+                      - generic [ref=e825]: Saiba mais
+          - generic [ref=e827]:
+            - generic [ref=e829]:
+              - generic [ref=e830]:
+                - generic [ref=e837]: Ativo
+                - generic [ref=e840]: "Identificação da biblioteca: 24865751789744557"
+                - generic [ref=e842]: Veiculação iniciada em 21 de out de 2025
+                - generic [ref=e844]: Plataformas
+              - button "Abrir menu suspenso" [ref=e872] [cursor=pointer]:
+                - generic [ref=e875]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e878] [cursor=pointer]:
+              - generic [ref=e882]: Ver detalhes do anúncio
+            - separator [ref=e883]
+            - generic [ref=e888]:
+              - generic [ref=e890]:
+                - img "Educar Kids" [ref=e891]
+                - generic [ref=e893]:
+                  - link "Educar Kids" [ref=e894] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61580928050288/
+                  - generic [ref=e898]:
+                    - strong [ref=e900]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e901]:
+                - button "Já ficou sem ideia na hora de entreter ou ensinar as crianças? Com o pacote 120 Dinâmicas para Educação Infantil, você terá sempre uma atividade rápida, criativa e pedagógica, pronta para imprimir e aplicar. Transforme cada aula em um momento de diversão e aprendizado — tudo isso por apenas R$10." [ref=e904]:
+                  - generic [ref=e907]:
+                    - text: Já ficou sem ideia na hora de entreter ou ensinar as crianças?
+                    - text: Com o pacote 120 Dinâmicas para Educação Infantil, você terá sempre uma atividade rápida, criativa e pedagógica, pronta para imprimir e aplicar.
+                    - text: Transforme cada aula em um momento de diversão e aprendizado — tudo isso por apenas R$10.
+                - group "Video player" [ref=e917]:
+                  - button "Reproduzir o vídeo" [ref=e919] [cursor=pointer]
+                  - generic [ref=e921]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:29
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "DINAMICASCRIATIVAS.NETLIFY.APP Apenas R$10! ⭐⭐⭐⭐⭐ (4.9/5) Saiba mais" [ref=e923] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdinamicascriativas.netlify.app%2F&h=AT5MIUwKKXEL6Ls4ziLMuw3Z8xz4MhtR4c3kfCLLmIKFiy1z1ANCcZM-0TEe07XIGl6jEa3ZUvV7yOtQZ_8eOgxzy-Nuh-D5TgDhUT-cc1XuJ64hrOC9Ky_9UhQVy4L8UljMxq_KF-GP1cwbDju4bw
+                  - generic [ref=e924]:
+                    - generic [ref=e925]:
+                      - button "DINAMICASCRIATIVAS.NETLIFY.APP" [ref=e927]:
+                        - generic [ref=e928]: DINAMICASCRIATIVAS.NETLIFY.APP
+                      - button "Apenas R$10!" [ref=e930]:
+                        - generic [ref=e931]: Apenas R$10!
+                      - button "⭐⭐⭐⭐⭐ (4.9/5)" [ref=e933]:
+                        - generic [ref=e934]: ⭐⭐⭐⭐⭐ (4.9/5)
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e936]:
+                      - generic [ref=e940]: Saiba mais
+          - generic [ref=e942]:
+            - generic [ref=e944]:
+              - generic [ref=e945]:
+                - generic [ref=e952]: Ativo
+                - generic [ref=e955]: "Identificação da biblioteca: 933501769423621"
+                - generic [ref=e957]: Veiculação iniciada em 23 de mar de 2026
+                - generic [ref=e959]: Plataformas
+              - button "Abrir menu suspenso" [ref=e972] [cursor=pointer]:
+                - generic [ref=e975]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e978] [cursor=pointer]:
+              - generic [ref=e982]: Ver detalhes do anúncio
+            - separator [ref=e983]
+            - generic [ref=e988]:
+              - generic [ref=e990]:
+                - img "Educar Kids" [ref=e991]
+                - generic [ref=e993]:
+                  - link "Educar Kids" [ref=e994] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61580928050288/
+                  - generic [ref=e998]:
+                    - strong [ref=e1000]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1001]:
+                - button "Já ficou sem ideia na hora de entreter ou ensinar as crianças? Com o pacote 120 Dinâmicas para Educação Infantil, você terá sempre uma atividade rápida, criativa e pedagógica, pronta para imprimir e aplicar. Transforme cada aula em um momento de diversão e aprendizado — tudo isso por apenas R$10." [ref=e1004]:
+                  - generic [ref=e1007]:
+                    - text: Já ficou sem ideia na hora de entreter ou ensinar as crianças?
+                    - text: Com o pacote 120 Dinâmicas para Educação Infantil, você terá sempre uma atividade rápida, criativa e pedagógica, pronta para imprimir e aplicar.
+                    - text: Transforme cada aula em um momento de diversão e aprendizado — tudo isso por apenas R$10.
+                - group "Video player" [ref=e1017]:
+                  - button "Reproduzir o vídeo" [ref=e1019] [cursor=pointer]
+                  - generic [ref=e1021]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:32
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "DINAMICASCRIATIVAS.NETLIFY.APP Apenas R$10! ⭐⭐⭐⭐⭐(4.9/5) Saiba mais" [ref=e1023] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdinamicascriativas.netlify.app%2F&h=AT5MIUwKKXEL6Ls4ziLMuw3Z8xz4MhtR4c3kfCLLmIKFiy1z1ANCcZM-0TEe07XIGl6jEa3ZUvV7yOtQZ_8eOgxzy-Nuh-D5TgDhUT-cc1XuJ64hrOC9Ky_9UhQVy4L8UljMxq_KF-GP1cwbDju4bw
+                  - generic [ref=e1024]:
+                    - generic [ref=e1025]:
+                      - button "DINAMICASCRIATIVAS.NETLIFY.APP" [ref=e1027]:
+                        - generic [ref=e1028]: DINAMICASCRIATIVAS.NETLIFY.APP
+                      - button "Apenas R$10!" [ref=e1030]:
+                        - generic [ref=e1031]: Apenas R$10!
+                      - button "⭐⭐⭐⭐⭐(4.9/5)" [ref=e1033]:
+                        - generic [ref=e1034]: ⭐⭐⭐⭐⭐(4.9/5)
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e1036]:
+                      - generic [ref=e1040]: Saiba mais
+          - generic [ref=e1042]:
+            - generic [ref=e1044]:
+              - generic [ref=e1045]:
+                - generic [ref=e1052]: Ativo
+                - generic [ref=e1055]: "Identificação da biblioteca: 922283277286750"
+                - generic [ref=e1057]: Veiculação iniciada em 23 de mar de 2026
+                - generic [ref=e1059]: Plataformas
+              - button "Abrir menu suspenso" [ref=e1072] [cursor=pointer]:
+                - generic [ref=e1075]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e1078] [cursor=pointer]:
+              - generic [ref=e1082]: Ver detalhes do anúncio
+            - separator [ref=e1083]
+            - generic [ref=e1088]:
+              - generic [ref=e1090]:
+                - img "Educar Kids" [ref=e1091]
+                - generic [ref=e1093]:
+                  - link "Educar Kids" [ref=e1094] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61580928050288/
+                  - generic [ref=e1098]:
+                    - strong [ref=e1100]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1101]:
+                - button "Já ficou sem ideia na hora de entreter ou ensinar as crianças? Com o pacote 120 Dinâmicas para Educação Infantil, você terá sempre uma atividade rápida, criativa e pedagógica, pronta para imprimir e aplicar. Transforme cada aula em um momento de diversão e aprendizado — tudo isso por apenas R$10." [ref=e1104]:
+                  - generic [ref=e1107]:
+                    - text: Já ficou sem ideia na hora de entreter ou ensinar as crianças?
+                    - text: Com o pacote 120 Dinâmicas para Educação Infantil, você terá sempre uma atividade rápida, criativa e pedagógica, pronta para imprimir e aplicar.
+                    - text: Transforme cada aula em um momento de diversão e aprendizado — tudo isso por apenas R$10.
+                - group "Video player" [ref=e1117]:
+                  - button "Reproduzir o vídeo" [ref=e1119] [cursor=pointer]
+                  - generic [ref=e1121]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:30
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "DINAMICASCRIATIVAS.NETLIFY.APP Apenas R$10! ⭐⭐⭐⭐⭐(4.9/5) Saiba mais" [ref=e1123] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdinamicascriativas.netlify.app%2F&h=AT5MIUwKKXEL6Ls4ziLMuw3Z8xz4MhtR4c3kfCLLmIKFiy1z1ANCcZM-0TEe07XIGl6jEa3ZUvV7yOtQZ_8eOgxzy-Nuh-D5TgDhUT-cc1XuJ64hrOC9Ky_9UhQVy4L8UljMxq_KF-GP1cwbDju4bw
+                  - generic [ref=e1124]:
+                    - generic [ref=e1125]:
+                      - button "DINAMICASCRIATIVAS.NETLIFY.APP" [ref=e1127]:
+                        - generic [ref=e1128]: DINAMICASCRIATIVAS.NETLIFY.APP
+                      - button "Apenas R$10!" [ref=e1130]:
+                        - generic [ref=e1131]: Apenas R$10!
+                      - button "⭐⭐⭐⭐⭐(4.9/5)" [ref=e1133]:
+                        - generic [ref=e1134]: ⭐⭐⭐⭐⭐(4.9/5)
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e1136]:
+                      - generic [ref=e1140]: Saiba mais
+          - generic [ref=e1142]:
+            - generic [ref=e1144]:
+              - generic [ref=e1145]:
+                - generic [ref=e1152]: Ativo
+                - generic [ref=e1155]: "Identificação da biblioteca: 1390242536457398"
+                - generic [ref=e1157]: Veiculação iniciada em 24 de mar de 2026
+                - generic [ref=e1159]: Plataformas
+              - button "Abrir menu suspenso" [ref=e1172] [cursor=pointer]:
+                - generic [ref=e1175]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=e1178] [cursor=pointer]:
+              - generic [ref=e1182]: Ver detalhes do anúncio
+            - separator [ref=e1183]
+            - generic [ref=e1188]:
+              - generic [ref=e1190]:
+                - img "Educar Kids" [ref=e1191]
+                - generic [ref=e1193]:
+                  - link "Educar Kids" [ref=e1194] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61580928050288/
+                  - generic [ref=e1198]:
+                    - strong [ref=e1200]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=e1201]:
+                - button "Já ficou sem ideia na hora de entreter ou ensinar as crianças? Com o pacote 120 Dinâmicas para Educação Infantil, você terá sempre uma atividade rápida, criativa e pedagógica, pronta para imprimir e aplicar. Transforme cada aula em um momento de diversão e aprendizado — tudo isso por apenas R$10." [ref=e1204]:
+                  - generic [ref=e1207]:
+                    - text: Já ficou sem ideia na hora de entreter ou ensinar as crianças?
+                    - text: Com o pacote 120 Dinâmicas para Educação Infantil, você terá sempre uma atividade rápida, criativa e pedagógica, pronta para imprimir e aplicar.
+                    - text: Transforme cada aula em um momento de diversão e aprendizado — tudo isso por apenas R$10.
+                - group "Video player" [ref=e1217]:
+                  - button "Reproduzir o vídeo" [ref=e1219] [cursor=pointer]
+                  - generic [ref=e1221]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:26
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar"
+                - link "DINAMICASCRIATIVAS.NETLIFY.APP Apenas R$10! ⭐⭐⭐⭐⭐(4.9/5) Saiba mais" [ref=e1223] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdinamicascriativas.netlify.app%2F&h=AT5MIUwKKXEL6Ls4ziLMuw3Z8xz4MhtR4c3kfCLLmIKFiy1z1ANCcZM-0TEe07XIGl6jEa3ZUvV7yOtQZ_8eOgxzy-Nuh-D5TgDhUT-cc1XuJ64hrOC9Ky_9UhQVy4L8UljMxq_KF-GP1cwbDju4bw
+                  - generic [ref=e1224]:
+                    - generic [ref=e1225]:
+                      - button "DINAMICASCRIATIVAS.NETLIFY.APP" [ref=e1227]:
+                        - generic [ref=e1228]: DINAMICASCRIATIVAS.NETLIFY.APP
+                      - button "Apenas R$10!" [ref=e1230]:
+                        - generic [ref=e1231]: Apenas R$10!
+                      - button "⭐⭐⭐⭐⭐(4.9/5)" [ref=e1233]:
+                        - generic [ref=e1234]: ⭐⭐⭐⭐⭐(4.9/5)
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=e1236]:
+                      - generic [ref=e1240]: Saiba mais
+    - generic [ref=e1242]:
+      - generic [ref=e1250]: Status do sistema
+      - generic [ref=e1254]:
+        - list [ref=e1255]:
+          - listitem [ref=e1256]:
+            - heading "API da Biblioteca de Anúncios" [level=3] [ref=e1257]:
+              - link "API da Biblioteca de Anúncios" [ref=e1258] [cursor=pointer]:
+                - /url: /ads/library/api/?source=archive-landing-page
+          - listitem [ref=e1259]:
+            - heading "Sobre anúncios e uso de dados" [level=3] [ref=e1260]:
+              - link "Sobre anúncios e uso de dados" [ref=e1261] [cursor=pointer]:
+                - /url: /ads/about/?entry_product=ad_library
+          - listitem [ref=e1262]:
+            - heading "Privacidade" [level=3] [ref=e1263]:
+              - link "Privacidade" [ref=e1264] [cursor=pointer]:
+                - /url: /privacy/center/?entry_point=privacy_basics_redirect
+          - listitem [ref=e1265]:
+            - heading "Termos" [level=3] [ref=e1266]:
+              - link "Termos" [ref=e1267] [cursor=pointer]:
+                - /url: /policies/
+          - listitem [ref=e1268]:
+            - heading "Cookies" [level=3] [ref=e1269]:
+              - link "Cookies" [ref=e1270] [cursor=pointer]:
+                - /url: /policies/cookies/
+        - heading "Meta © 2026 | Português (Brasil)" [level=3] [ref=e1272]:
+          - text: Meta © 2026 |
+          - link "Português (Brasil)" [ref=e1273] [cursor=pointer]:
+            - /url: /language/
