@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Checklist de Produtividade — Calendário da Faxina</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #e8e0d5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+      font-family: 'Lato', sans-serif;
+    }
+
+    /* ─── DICA ─── */
+    .dica {
+      text-align: center;
+      font-size: 8pt;
+      color: #9B7D5E;
+      padding: 8px 20px;
+      background: #FFF8EC;
+      border-radius: 20px;
+      margin-bottom: 14px;
+    }
+    .dica strong { color: #7A5200; }
+
+    /* ─── PÁGINA A4 PAISAGEM ─── */
+    .pagina {
+      width: 297mm;
+      height: 210mm;
+      background: #FEFCF8;
+      padding: 8mm 10mm 7mm 10mm;
+      box-shadow: 0 6px 40px rgba(0,0,0,0.15);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ─── DECORAÇÃO CANTOS ─── */
+    .deco {
+      position: absolute;
+      opacity: 0.15;
+      pointer-events: none;
+    }
+    .deco-tl { top: -6px; left: -6px; }
+    .deco-tr { top: -6px; right: -6px; transform: rotate(90deg); }
+    .deco svg { width: 80px; height: 80px; }
+
+    /* ─── CABEÇALHO ─── */
+    .cabecalho {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 5mm;
+      flex-shrink: 0;
+    }
+
+    .titulo-wrap h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 21pt;
+      color: #3D2B1F;
+      font-weight: 400;
+      line-height: 1;
+    }
+    .titulo-wrap .subtitulo {
+      font-size: 8pt;
+      color: #9B7D5E;
+      font-style: italic;
+      margin-top: 2px;
+      letter-spacing: 0.4px;
+    }
+
+    .campo-semana {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 8.5pt;
+      color: #7A5C3E;
+    }
+    .campo-semana input[type="text"] {
+      border: none;
+      border-bottom: 1px solid #C4A882;
+      background: transparent;
+      font-family: 'Lato', sans-serif;
+      font-size: 8.5pt;
+      color: #3D2B1F;
+      width: 44mm;
+      outline: none;
+      padding: 0 2px;
+    }
+    .campo-semana input[type="text"]:focus {
+      border-bottom: 2px solid #8B5E35;
+      background: #FFFDF0;
+    }
+
+    .marca {
+      text-align: center;
+      color: #3D2B1F;
+      user-select: none;
+      pointer-events: none;
+    }
+    .marca .marca-icon { font-size: 16pt; display: block; margin-bottom: 1px; }
+    .marca .marca-nome {
+      font-family: 'Playfair Display', serif;
+      font-size: 9.5pt;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      display: block;
+      border-top: 1.5px solid #C4A882;
+      border-bottom: 1.5px solid #C4A882;
+      padding: 1px 6px;
+    }
+
+    /* ─── GRADE DOS DIAS ─── */
+    .grade {
+      display: flex;
+      gap: 0;
+      flex: 1;
+      min-height: 0;
+    }
+
+    .coluna-dia {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #E5DDD0;
+      border-right: none;
+      background: #FFFDF8;
+    }
+    .coluna-dia:last-child { border-right: 1px solid #E5DDD0; }
+
+    /* Destaque fins de semana */
+    .coluna-dia.fds { background: #FDF8F2; }
+
+    .dia-header {
+      background: #C4A882;
+      padding: 4px 0;
+      text-align: center;
+      font-family: 'Lato', sans-serif;
+      font-size: 7.5pt;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #3D2B1F;
+      flex-shrink: 0;
+      border-bottom: 2px solid #A8855A;
+      user-select: none;
+    }
+    .coluna-dia.fds .dia-header {
+      background: #D4B896;
+    }
+
+    /* ─── LISTA DE TAREFAS ─── */
+    .lista-tarefas {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding: 3px 0;
+      overflow: hidden;
+    }
+
+    .tarefa-item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 0 6px;
+      flex: 1;
+      min-height: 0;
+      border-bottom: 1px dashed #EDE5D8;
+    }
+    .tarefa-item:last-child { border-bottom: none; }
+
+    /* Checkbox customizado */
+    .tarefa-item input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      width: 13px;
+      height: 13px;
+      min-width: 13px;
+      border: 1.5px solid #C4A882;
+      border-radius: 3px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      flex-shrink: 0;
+    }
+    .tarefa-item input[type="checkbox"]:checked {
+      background: #C4A882;
+      border-color: #A8855A;
+    }
+    .tarefa-item input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: -2px;
+      left: 1px;
+      font-size: 10px;
+      color: white;
+      font-weight: 700;
+    }
+
+    /* Texto editável da tarefa */
+    .tarefa-texto {
+      flex: 1;
+      font-size: 7.5pt;
+      color: #3D2B1F;
+      line-height: 1.3;
+      outline: none;
+      cursor: text;
+      min-width: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .tarefa-texto:focus {
+      white-space: normal;
+      overflow: visible;
+    }
+    .tarefa-texto:empty::before {
+      content: attr(data-placeholder);
+      color: #D4C4B0;
+      font-style: italic;
+      pointer-events: none;
+    }
+
+    /* Strike-through ao marcar */
+    .tarefa-item:has(input:checked) .tarefa-texto {
+      text-decoration: line-through;
+      opacity: 0.4;
+    }
+
+    /* ─── RODAPÉ ─── */
+    .rodape {
+      margin-top: 4mm;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-shrink: 0;
+    }
+    .frase {
+      font-size: 7.5pt;
+      color: #9B7D5E;
+      font-style: italic;
+    }
+    .contador {
+      font-size: 7.5pt;
+      color: #C4A882;
+      font-family: 'Playfair Display', serif;
+    }
+
+    /* ─── IMPRESSÃO ─── */
+    @media print {
+      body { background: white; padding: 0; }
+      .dica { display: none; }
+      .pagina {
+        width: 297mm;
+        height: 210mm;
+        box-shadow: none;
+        padding: 7mm 10mm 6mm 10mm;
+      }
+      .tarefa-texto:empty::before { display: none; }
+      @page { size: A4 landscape; margin: 0; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="dica">
+  ✏️ <strong>Clique em qualquer tarefa</strong> para editar · Marque o checkbox quando concluir · <strong>Ctrl+P</strong> para salvar como PDF
+</div>
+
+<div class="pagina">
+
+  <!-- Decoração cantos -->
+  <div class="deco deco-tl">
+    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10 90 Q20 40 70 10" stroke="#5C8A4A" stroke-width="3" fill="none"/>
+      <ellipse cx="35" cy="55" rx="14" ry="9" transform="rotate(-40 35 55)" fill="#5C8A4A"/>
+      <ellipse cx="55" cy="35" rx="12" ry="8" transform="rotate(-55 55 35)" fill="#5C8A4A"/>
+      <ellipse cx="20" cy="72" rx="10" ry="7" transform="rotate(-25 20 72)" fill="#7AAD60"/>
+      <ellipse cx="68" cy="18" rx="9" ry="6" transform="rotate(-65 68 18)" fill="#7AAD60"/>
+    </svg>
+  </div>
+  <div class="deco deco-tr">
+    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10 90 Q20 40 70 10" stroke="#5C8A4A" stroke-width="3" fill="none"/>
+      <ellipse cx="35" cy="55" rx="14" ry="9" transform="rotate(-40 35 55)" fill="#5C8A4A"/>
+      <ellipse cx="55" cy="35" rx="12" ry="8" transform="rotate(-55 55 35)" fill="#5C8A4A"/>
+      <ellipse cx="20" cy="72" rx="10" ry="7" transform="rotate(-25 20 72)" fill="#7AAD60"/>
+      <ellipse cx="68" cy="18" rx="9" ry="6" transform="rotate(-65 68 18)" fill="#7AAD60"/>
+    </svg>
+  </div>
+
+  <!-- CABEÇALHO -->
+  <div class="cabecalho">
+    <div class="titulo-wrap">
+      <h1>Checklist de Produtividade</h1>
+      <span class="subtitulo">Organize suas tarefas semana a semana, um dia de cada vez</span>
+    </div>
+
+    <div class="campo-semana">
+      <span>Semana de</span>
+      <input type="text" placeholder="__/__  a  __/__">
+    </div>
+
+    <div class="marca">
+      <span class="marca-icon">🏠</span>
+      <span class="marca-nome">Calendário da Faxina</span>
+    </div>
+  </div>
+
+  <!-- GRADE DOS DIAS -->
+  <div class="grade">
+
+    <!-- SEGUNDA -->
+    <div class="coluna-dia">
+      <div class="dia-header">Segunda</div>
+      <div class="lista-tarefas">
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+      </div>
+    </div>
+
+    <!-- TERÇA -->
+    <div class="coluna-dia">
+      <div class="dia-header">Terça</div>
+      <div class="lista-tarefas">
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+      </div>
+    </div>
+
+    <!-- QUARTA -->
+    <div class="coluna-dia">
+      <div class="dia-header">Quarta</div>
+      <div class="lista-tarefas">
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+      </div>
+    </div>
+
+    <!-- QUINTA -->
+    <div class="coluna-dia">
+      <div class="dia-header">Quinta</div>
+      <div class="lista-tarefas">
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+      </div>
+    </div>
+
+    <!-- SEXTA -->
+    <div class="coluna-dia">
+      <div class="dia-header">Sexta</div>
+      <div class="lista-tarefas">
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+      </div>
+    </div>
+
+    <!-- SÁBADO -->
+    <div class="coluna-dia fds">
+      <div class="dia-header">Sábado</div>
+      <div class="lista-tarefas">
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+      </div>
+    </div>
+
+    <!-- DOMINGO -->
+    <div class="coluna-dia fds">
+      <div class="dia-header">Domingo</div>
+      <div class="lista-tarefas">
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+        <div class="tarefa-item"><input type="checkbox"><span class="tarefa-texto" contenteditable="true" data-placeholder="tarefa..."></span></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- RODAPÉ -->
+  <div class="rodape">
+    <p class="frase">"Produtividade não é fazer mais — é fazer o que importa."</p>
+    <span class="contador">18 tarefas por dia · 126 tarefas na semana</span>
+  </div>
+
+</div>
+</body>
+</html>
