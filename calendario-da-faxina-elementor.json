@@ -62,7 +62,7 @@
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "LIMPE SUA CASA EM APENAS <span style=\"color:#ff8c42;\">2 HORAS</span> E TENHA MAIS TEMPO PARA VOCÊ",
+                "title": "TERMINE COM AS FAXINAS EXAUSTIVAS E COMECE A <span style=\"color:#ff8c42;\">FAXINA PLANEJADA.</span>",
                 "header_size": "h1",
                 "align": "left",
                 "title_color": "#ffffff",
@@ -81,7 +81,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Você não precisa de um dia com 48 horas, você só precisa de um método de organização validado.</p>",
+                "editor": "<p>Um planner simples e prático (semanal e mensal) que transforma a bagunça em rotina leve, com pequenas tarefas diárias que evitam o acúmulo e devolvem a sensação de controle da sua casa.</p>",
                 "text_color": "#e6e2d5",
                 "typography_typography": "custom",
                 "typography_font_family": "Inter",
@@ -483,7 +483,7 @@
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "MAIS 3 BÔNUS PARA VOCÊ!",
+                "title": "5 BÔNUS EXCLUSIVOS PARA VOCÊ!",
                 "header_size": "h2",
                 "align": "center",
                 "title_color": "#9b4500",
@@ -935,11 +935,12 @@
               "widgetType": "icon-list",
               "settings": {
                 "icon_list": [
-                  {"_id": "b1", "text": "Mais tempo para você", "icon": {"library": "solid", "value": "fas fa-clock"}},
-                  {"_id": "b2", "text": "Casa sempre limpa para você", "icon": {"library": "solid", "value": "fas fa-sparkles"}},
-                  {"_id": "b3", "text": "Mais faxina e menos esforço", "icon": {"library": "solid", "value": "fas fa-dumbbell"}},
-                  {"_id": "b4", "text": "Tornando a casa leve para uma vida leve", "icon": {"library": "solid", "value": "fas fa-leaf"}},
-                  {"_id": "b5", "text": "Casa emocionalmente acolhedora", "icon": {"library": "solid", "value": "fas fa-heart"}}
+                  {"_id": "b1", "text": "Menos acúmulo, mais leveza no dia a dia: Você para de deixar tudo para depois e começa a manter a casa em ordem com pequenas ações que realmente funcionam.", "icon": {"library": "solid", "value": "fas fa-leaf"}},
+                  {"_id": "b2", "text": "Clareza total do que fazer em cada dia: Nada de ficar perdida pensando por onde começar — o planner já organiza sua rotina de forma simples e objetiva.", "icon": {"library": "solid", "value": "fas fa-tasks"}},
+                  {"_id": "b3", "text": "Adeus faxinas pesadas e cansativas: Ao manter a constância, você elimina aquele ciclo de deixar acumular e precisar gastar horas limpando tudo de uma vez.", "icon": {"library": "solid", "value": "fas fa-seedling"}},
+                  {"_id": "b4", "text": "Redução da sobrecarga mental: Você não precisa mais carregar tudo na cabeça, o planner organiza por você e traz mais tranquilidade.", "icon": {"library": "solid", "value": "fas fa-brain"}},
+                  {"_id": "b5", "text": "Mais tempo livre e menos estresse: Com tarefas bem distribuídas, você resolve o necessário sem perder o dia inteiro limpando a casa.", "icon": {"library": "solid", "value": "fas fa-clock"}},
+                  {"_id": "b6", "text": "Uma casa funcional, não perfeita: Você não precisa de uma casa de revista, apenas de um método que mantenha tudo sob controle de forma realista.", "icon": {"library": "solid", "value": "fas fa-home"}}
                 ],
                 "space_between": {"unit": "px", "size": 8},
                 "icon_size": {"unit": "px", "size": 28},
@@ -1340,133 +1341,6 @@
           "elType": "column",
           "settings": {"_column_size": 100},
           "elements": [
-            {
-              "id": "qs_cta_top",
-              "elType": "widget",
-              "widgetType": "button",
-              "settings": {
-                "text": "QUERO ORGANIZAR A CASA COM MAIS LEVEZA",
-                "link": {"url": "#metodo", "is_external": false, "nofollow": false},
-                "align": "center",
-                "background_color": "#ff8c42",
-                "button_text_color": "#ffffff",
-                "button_hover_background_color": "#9b4500",
-                "typography_typography": "custom",
-                "typography_font_family": "Plus Jakarta Sans",
-                "typography_font_weight": "900",
-                "typography_font_size": {"unit": "px", "size": 14},
-                "border_radius": {"unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true},
-                "text_padding": {"unit": "px", "top": "14", "right": "32", "bottom": "14", "left": "32", "isLinked": false},
-                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "48", "left": "0", "isLinked": false},
-                "custom_css": "selector a.elementor-button { background: linear-gradient(to top, #9b4500, #ff8c42) !important; }"
-              }
-            },
-            {
-              "id": "qs_h2",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Quem Sou",
-                "header_size": "h2",
-                "align": "center",
-                "title_color": "#ffffff",
-                "typography_typography": "custom",
-                "typography_font_family": "Plus Jakarta Sans",
-                "typography_font_size": {"unit": "px", "size": 46},
-                "typography_font_weight": "700",
-                "typography_letter_spacing": {"unit": "px", "size": -1},
-                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "40", "left": "0", "isLinked": false}
-              }
-            },
-            {
-              "id": "qs_profile_img",
-              "elType": "widget",
-              "widgetType": "image",
-              "settings": {
-                "image": {
-                  "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuBj9rHmOD8SmqcTQ6PRZ4foTmJG8Noe4eBc1tA7WQ7UDjRAWrDjt8K4R-lGT78I9zSM3JzyLMjXtHEEeO0Y_Z4xEp54xacH8mFJzBDSzxq7HgpVthle1cZwdwOZl1xNwIvfiUmBo588EJCzUecftjtb4ZNmQCL0kgocUXGnt7YubhT3mpRitNqzKxwNWvKfAdmr2GOfZ8R2tKmnR3ojZiFBzHS0oX5GE_RKNdeM3jdq6zRGopF-V1h24CaZMisoX3ph-5pWIXBKKMs",
-                  "alt": "Ana Carolina - @mae_desajustada"
-                },
-                "image_size": "medium",
-                "align": "center",
-                "width": {"unit": "px", "size": 200},
-                "custom_css": "selector img { border-radius: 50%; width: 200px; height: 200px; object-fit: cover; border: 4px solid rgba(255,255,255,0.1); display: block; margin: 0 auto; }"
-              }
-            },
-            {
-              "id": "qs_name",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Ana Carolina",
-                "header_size": "h3",
-                "align": "center",
-                "title_color": "#ffffff",
-                "typography_typography": "custom",
-                "typography_font_family": "Plus Jakarta Sans",
-                "typography_font_size": {"unit": "px", "size": 44},
-                "typography_font_weight": "700",
-                "typography_letter_spacing": {"unit": "px", "size": -1},
-                "_margin": {"unit": "px", "top": "24", "right": "0", "bottom": "4", "left": "0", "isLinked": false}
-              }
-            },
-            {
-              "id": "qs_handle",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "@mae_desajustada",
-                "header_size": "p",
-                "align": "center",
-                "title_color": "#e6e2d5",
-                "typography_typography": "custom",
-                "typography_font_family": "Plus Jakarta Sans",
-                "typography_font_size": {"unit": "px", "size": 20},
-                "typography_font_weight": "400",
-                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "40", "left": "0", "isLinked": false}
-              }
-            },
-            {
-              "id": "qs_bio1",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<p style=\"text-align:center;\"><strong>Sou Ana Carolina, mãe e dona de casa, moro no interior de São Paulo.</strong></p>",
-                "text_color": "#e6e2d5",
-                "typography_typography": "custom",
-                "typography_font_family": "Inter",
-                "typography_font_size": {"unit": "px", "size": 17},
-                "typography_line_height": {"unit": "em", "size": 1.75},
-                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false},
-                "custom_css": "selector { max-width: 700px; margin-left: auto; margin-right: auto; }"
-              }
-            },
-            {
-              "id": "qs_bio2",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<p style=\"text-align:center;\">Baseio minha rotina nos princípios de Tim Ferriss, aplicando o método de eliminação, planejamento e foco no essencial — a tríade que permite alcançar mais resultados com menos esforço e tempo. Uso essa técnica para otimizar as tarefas domésticas e transformar o cuidado com a casa em um processo leve, eficiente e cheio de significado — porque acredito que uma casa organizada é também um reflexo de uma mente em paz.</p>",
-                "text_color": "#e6e2d5",
-                "typography_typography": "custom",
-                "typography_font_family": "Inter",
-                "typography_font_size": {"unit": "px", "size": 17},
-                "typography_line_height": {"unit": "em", "size": 1.75},
-                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "64", "left": "0", "isLinked": false},
-                "custom_css": "selector { max-width: 700px; margin-left: auto; margin-right: auto; }"
-              }
-            },
-            {
-              "id": "qs_guarantee_divider",
-              "elType": "widget",
-              "widgetType": "divider",
-              "settings": {
-                "style": "solid",
-                "color": "rgba(255,255,255,0.1)",
-                "weight": {"unit": "px", "size": 1},
-                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "64", "left": "0", "isLinked": false}
-              }
-            },
             {
               "id": "qs_guarantee_h2",
               "elType": "widget",
