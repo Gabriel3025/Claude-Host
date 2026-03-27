@@ -1,0 +1,1849 @@
+{
+  "version": "0.4",
+  "title": "Calendário da Faxina - Landing Page",
+  "type": "page",
+  "content": [
+    {
+      "id": "sec_hero",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1a1d2b",
+        "padding": {"unit": "px", "top": "120", "right": "40", "bottom": "80", "left": "40", "isLinked": false},
+        "padding_mobile": {"unit": "px", "top": "80", "right": "20", "bottom": "60", "left": "20", "isLinked": false},
+        "custom_css": "selector { background-color: #1a1d2b !important; overflow: hidden; }"
+      },
+      "elements": [
+        {
+          "id": "hero_col_left",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "padding": {"unit": "px", "top": "0", "right": "40", "bottom": "0", "left": "0", "isLinked": false}
+          },
+          "elements": [
+            {
+              "id": "hero_stats_number",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "+ de 5.259",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#ff8c42",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {"unit": "px", "size": 32},
+                "typography_font_weight": "800",
+                "typography_line_height": {"unit": "em", "size": 1.2},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "4", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "hero_stats_label",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Mães que estão usando nosso método",
+                "header_size": "p",
+                "align": "left",
+                "title_color": "#e6e2d5",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {"unit": "px", "size": 11},
+                "typography_font_weight": "500",
+                "typography_letter_spacing": {"unit": "px", "size": 2},
+                "typography_text_transform": "uppercase",
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "28", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "hero_h1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "LIMPE SUA CASA EM APENAS <span style=\"color:#ff8c42;\">2 HORAS</span> E TENHA MAIS TEMPO PARA VOCÊ",
+                "header_size": "h1",
+                "align": "left",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {"unit": "px", "size": 50},
+                "typography_font_size_tablet": {"unit": "px", "size": 38},
+                "typography_font_size_mobile": {"unit": "px", "size": 30},
+                "typography_font_weight": "800",
+                "typography_line_height": {"unit": "em", "size": 1.1},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "hero_subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Você não precisa de um dia com 48 horas, você só precisa de um método de organização validado.</p>",
+                "text_color": "#e6e2d5",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {"unit": "px", "size": 18},
+                "typography_font_size_mobile": {"unit": "px", "size": 16},
+                "typography_line_height": {"unit": "em", "size": 1.7},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "40", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "hero_cta_btn",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "QUERO COMEÇAR AGORA",
+                "link": {"url": "#metodo", "is_external": false, "nofollow": false},
+                "align": "left",
+                "background_color": "#ff8c42",
+                "button_text_color": "#ffffff",
+                "button_hover_background_color": "#9b4500",
+                "hover_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_weight": "800",
+                "typography_font_size": {"unit": "px", "size": 17},
+                "typography_letter_spacing": {"unit": "px", "size": -0.5},
+                "border_radius": {"unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true},
+                "text_padding": {"unit": "px", "top": "20", "right": "40", "bottom": "20", "left": "40", "isLinked": false},
+                "custom_css": "selector a.elementor-button { background: linear-gradient(to top, #9b4500, #ff8c42) !important; box-shadow: 0 8px 30px rgba(255,140,66,0.35); }"
+              }
+            }
+          ]
+        },
+        {
+          "id": "hero_col_right",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {
+              "id": "hero_img_main",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuC9ztGs_4H-kn_dYOjoYDkiURDG_PebiDtGnbMRmtQ6iNT_fFi5sw6RiuY179L2L_M0cfIgmhQbWRapRNuc689utBANwsso-jTb9dkyVKQWzAr2AOQ2gSFaYQRyiT6TOJUkzi4SKvUps8k_BtgDymDPt_USSo84Ci7dzelM95ljnal3rwFZvNswDGcGLkvCS6P9cP5QNVxj7bvwl8YNueZFVAM3XWApWMXOWNIW7pAeIH1PoEYScdq4fHzfl5WqLymybB2dzK7d5bo",
+                  "alt": "Composição de planners e checklists impressos"
+                },
+                "image_size": "full",
+                "align": "center",
+                "width": {"unit": "px", "size": 500},
+                "custom_css": "selector img { border-radius: 12px; box-shadow: 0 24px 60px rgba(0,0,0,0.5); border: 4px solid #1a1d2b; }"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "sec_assets",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#fdf9eb",
+        "padding": {"unit": "px", "top": "96", "right": "40", "bottom": "96", "left": "40", "isLinked": false},
+        "padding_mobile": {"unit": "px", "top": "60", "right": "20", "bottom": "60", "left": "20", "isLinked": false},
+        "custom_css": "selector { background-color: #fdf9eb !important; }"
+      },
+      "elements": [
+        {
+          "id": "assets_col",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "assets_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "VOCÊ VAI RECEBER TUDO PRONTO! 100% EDITÁVEIS",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#9b4500",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {"unit": "px", "size": 44},
+                "typography_font_size_tablet": {"unit": "px", "size": 34},
+                "typography_font_size_mobile": {"unit": "px", "size": 26},
+                "typography_font_weight": "900",
+                "typography_line_height": {"unit": "em", "size": 1.15},
+                "typography_letter_spacing": {"unit": "px", "size": -1},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "assets_intro",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\">Sabe aquela sensação de passar o dia inteiro limpando... e no final parecer que nada mudou? Existe uma forma simples e eficaz de acabar <strong>de uma vez por todas</strong> com isso.</p>",
+                "text_color": "#564338",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {"unit": "px", "size": 16},
+                "typography_line_height": {"unit": "em", "size": 1.7},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "48", "left": "0", "isLinked": false},
+                "custom_css": "selector { max-width: 700px; margin-left: auto; margin-right: auto; }"
+              }
+            },
+            {
+              "id": "assets_grid_inner",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "default",
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "48", "left": "0", "isLinked": false}
+              },
+              "elements": [
+                {
+                  "id": "grid_col1",
+                  "elType": "column",
+                  "settings": {"_column_size": 25},
+                  "elements": [
+                    {
+                      "id": "grid_img1",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuD9ztGs_4H-kn_dYOjoYDkiURDG_PebiDtGnbMRmtQ6iNT_fFi5sw6RiuY179L2L_M0cfIgmhQbWRapRNuc689utBANwsso-jTb9dkyVKQWzAr2AOQ2gSFaYQRyiT6TOJUkzi4SKvUps8k_BtgDymDPt_USSo84Ci7dzelM95ljnal3rwFZvNswDGcGLkvCS6P9cP5QNVxj7bvwl8YNueZFVAM3XWApWMXOWNIW7pAeIH1PoEYScdq4fHzfl5WqLymybB2dzK7d5bo",
+                          "alt": "Card limpeza Sala de Estar"
+                        },
+                        "image_size": "full",
+                        "align": "center",
+                        "custom_css": "selector img { border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); transition: transform 0.3s ease; } selector img:hover { transform: scale(1.05); }"
+                      }
+                    },
+                    {
+                      "id": "grid_label1",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Sala de Estar",
+                        "header_size": "p",
+                        "align": "center",
+                        "title_color": "#9b4500",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {"unit": "px", "size": 11},
+                        "typography_font_weight": "800",
+                        "typography_letter_spacing": {"unit": "px", "size": 2.5},
+                        "typography_text_transform": "uppercase",
+                        "_margin": {"unit": "px", "top": "12", "right": "0", "bottom": "0", "left": "0", "isLinked": false}
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "grid_col2",
+                  "elType": "column",
+                  "settings": {"_column_size": 25},
+                  "elements": [
+                    {
+                      "id": "grid_img2",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuD044nXS64WBgnxxHtCCDdhnNfuuitoFZbbk_0vnlUHRkZ0aZ4UnNaYuIZQ61FywL7SToJ2L36yUwpGaPrtUEYaMOlBXxTE-iirxxX8BDHTRODK9FZB7RO36APXoimqBD_W8qyTkQ-MQZdQUoV31AHVkkQj8Wk6tyZ75dcNsKRwQD2NxM6MldSsROkKI5zDTMqa26lootvExltJJYHjbs8MMcK0Woa7AKVIbsfvCN4X6uwqZi1L-O6Nvi_Utbbful70IZKaFet3_A4",
+                          "alt": "Planejamento de Refeições"
+                        },
+                        "image_size": "full",
+                        "align": "center",
+                        "custom_css": "selector img { border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); transition: transform 0.3s ease; } selector img:hover { transform: scale(1.05); }"
+                      }
+                    },
+                    {
+                      "id": "grid_label2",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Refeições",
+                        "header_size": "p",
+                        "align": "center",
+                        "title_color": "#9b4500",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {"unit": "px", "size": 11},
+                        "typography_font_weight": "800",
+                        "typography_letter_spacing": {"unit": "px", "size": 2.5},
+                        "typography_text_transform": "uppercase",
+                        "_margin": {"unit": "px", "top": "12", "right": "0", "bottom": "0", "left": "0", "isLinked": false}
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "grid_col3",
+                  "elType": "column",
+                  "settings": {"_column_size": 25},
+                  "elements": [
+                    {
+                      "id": "grid_img3",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuAvuvlLtA2NOeUBnjctEH6-oLYtJ_QG0OixlTC0FCcSfWChCBOF28IJ8Km_VrE6BjJqlnYt1a0T0LlcRUR7wTQZbG6Vi0Y0tIS1sRtkdS4vYAK6LKJDslsmaXl8sQ3O6sz7EPl89Gbp4PeM0rxvGsrPBpxahjoONPWYAtFdue5T5E5pnMHMtJpYkpoCyD0CctLbJFuBpkAmII25AWGuYzIfRueFp4IjSAqxm_Vd1NVQxiaNagppdwtMe_rGJh8WmukO1xoFvrnNUlo",
+                          "alt": "Desafio 30 Dias de Organização"
+                        },
+                        "image_size": "full",
+                        "align": "center",
+                        "custom_css": "selector img { border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); transition: transform 0.3s ease; } selector img:hover { transform: scale(1.05); }"
+                      }
+                    },
+                    {
+                      "id": "grid_label3",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Desafio 30 Dias",
+                        "header_size": "p",
+                        "align": "center",
+                        "title_color": "#9b4500",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {"unit": "px", "size": 11},
+                        "typography_font_weight": "800",
+                        "typography_letter_spacing": {"unit": "px", "size": 2.5},
+                        "typography_text_transform": "uppercase",
+                        "_margin": {"unit": "px", "top": "12", "right": "0", "bottom": "0", "left": "0", "isLinked": false}
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "grid_col4",
+                  "elType": "column",
+                  "settings": {"_column_size": 25},
+                  "elements": [
+                    {
+                      "id": "grid_img4",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuAsIpnuzCcrEbTRasI-hrQnuM9VNYw7F8FsPOFFryofXRoHkCN8cigLAfErCYOCevUs7r0rqf3cBqryOEA2cEPcvS8jlsqy0I8VvQFvaoM3d0JQlD7JEWkmkoTtYX_ZXprf_qqRJb8PuMjXe0egzmkg9yHib4WiaMyXYTNIWLibozrXB8Y6KpOSIsgbZ-kkArVYoOpHfOH6k4KXSrRNFB7vVxQ4S89Vq0iIaXCgTVj5AWrVPOfJpBge5OAFnjpu-V3wXLnJk3CCa0Q",
+                          "alt": "Missão Família Organizada"
+                        },
+                        "image_size": "full",
+                        "align": "center",
+                        "custom_css": "selector img { border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); transition: transform 0.3s ease; } selector img:hover { transform: scale(1.05); }"
+                      }
+                    },
+                    {
+                      "id": "grid_label4",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Missão Família",
+                        "header_size": "p",
+                        "align": "center",
+                        "title_color": "#9b4500",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {"unit": "px", "size": 11},
+                        "typography_font_weight": "800",
+                        "typography_letter_spacing": {"unit": "px", "size": 2.5},
+                        "typography_text_transform": "uppercase",
+                        "_margin": {"unit": "px", "top": "12", "right": "0", "bottom": "0", "left": "0", "isLinked": false}
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "assets_text1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\">Você arruma a sala. Lava a louça. Dobra roupa. Limpa o banheiro. Mas quando olha em volta, já tem brinquedo espalhado de novo. A pia já tem copo sujo. E você está exausta.</p>",
+                "text_color": "#564338",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {"unit": "px", "size": 17},
+                "typography_line_height": {"unit": "em", "size": 1.75},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false},
+                "custom_css": "selector { max-width: 750px; margin-left: auto; margin-right: auto; }"
+              }
+            },
+            {
+              "id": "assets_text2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\"><strong>O problema não é você. Não é preguiça. Não é falta de TEMPO ou força de vontade.</strong></p>",
+                "text_color": "#564338",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {"unit": "px", "size": 17},
+                "typography_line_height": {"unit": "em", "size": 1.75},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false},
+                "custom_css": "selector { max-width: 750px; margin-left: auto; margin-right: auto; }"
+              }
+            },
+            {
+              "id": "assets_text3",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\">É que ninguém nunca te ensinou a limpar de forma estratégica. Você está gastando energia nas coisas erradas, na ordem errada, no momento errado. E por isso a casa nunca fica pronta... e você nunca descansa.</p>",
+                "text_color": "#564338",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {"unit": "px", "size": 17},
+                "typography_line_height": {"unit": "em", "size": 1.75},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "40", "left": "0", "isLinked": false},
+                "custom_css": "selector { max-width: 750px; margin-left: auto; margin-right: auto; }"
+              }
+            },
+            {
+              "id": "assets_h3",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "VOCÊ SÓ PRECISA DE <span style=\"color:#ff8c42;\">UM MÉTODO</span> COMPROVADO",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#1d1c14",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {"unit": "px", "size": 36},
+                "typography_font_size_mobile": {"unit": "px", "size": 26},
+                "typography_font_weight": "900",
+                "typography_letter_spacing": {"unit": "px", "size": -1},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "32", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "assets_cta",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "QUERO ORGANIZAR A CASA COM MAIS LEVEZA",
+                "link": {"url": "#metodo", "is_external": false, "nofollow": false},
+                "align": "center",
+                "background_color": "#ff8c42",
+                "button_text_color": "#ffffff",
+                "button_hover_background_color": "#9b4500",
+                "hover_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_weight": "900",
+                "typography_font_size": {"unit": "px", "size": 18},
+                "border_radius": {"unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true},
+                "text_padding": {"unit": "px", "top": "24", "right": "48", "bottom": "24", "left": "48", "isLinked": false},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "40", "left": "0", "isLinked": false},
+                "custom_css": "selector a.elementor-button { background: linear-gradient(to top, #9b4500, #ff8c42) !important; box-shadow: 0 16px 40px rgba(155,69,0,0.3); }"
+              }
+            },
+            {
+              "id": "assets_blockquote",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\">Esse método funciona porque você aprende a focar apenas nos <strong>Pontos de Impacto</strong> — as áreas que realmente deixam sua casa com aparência limpa. Assim, você para de gastar energia no que não muda nada e passa a agir onde o resultado é imediato. Quando você segue essa priorização simples, sua casa fica leve e organizada sem esforço.</p>",
+                "text_color": "#564338",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {"unit": "px", "size": 15},
+                "typography_line_height": {"unit": "em", "size": 1.75},
+                "custom_css": "selector { max-width: 800px; margin-left: auto; margin-right: auto; background: rgba(242,238,224,0.5); border: 1px solid #ddc1b3; border-radius: 16px; padding: 32px; }"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "sec_bonus",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f2eee0",
+        "padding": {"unit": "px", "top": "96", "right": "40", "bottom": "96", "left": "40", "isLinked": false},
+        "padding_mobile": {"unit": "px", "top": "60", "right": "20", "bottom": "60", "left": "20", "isLinked": false},
+        "custom_css": "selector { background-color: #f2eee0 !important; }"
+      },
+      "elements": [
+        {
+          "id": "bonus_col",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "bonus_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "MAIS 3 BÔNUS PARA VOCÊ!",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#9b4500",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {"unit": "px", "size": 36},
+                "typography_font_weight": "900",
+                "typography_letter_spacing": {"unit": "px", "size": -0.5},
+                "typography_text_transform": "uppercase",
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "8", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "bonus_divider",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "style": "solid",
+                "color": "#9b4500",
+                "weight": {"unit": "px", "size": 5},
+                "width": {"unit": "px", "size": 96},
+                "align": "center",
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "48", "left": "0", "isLinked": false},
+                "custom_css": "selector { border-radius: 99px; }"
+              }
+            },
+            {
+              "id": "bonus_cards_inner",
+              "elType": "section",
+              "isInner": true,
+              "settings": {"gap": "default"},
+              "elements": [
+                {
+                  "id": "bonus_card1_col",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {"unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true},
+                    "padding": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true},
+                    "custom_css": "selector { box-shadow: 0 8px 30px rgba(29,28,20,0.06); overflow: hidden; }"
+                  },
+                  "elements": [
+                    {
+                      "id": "bonus1_img",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuAvuvlLtA2NOeUBnjctEH6-oLYtJ_QG0OixlTC0FCcSfWChCBOF28IJ8Km_VrE6BjJqlnYt1a0T0LlcRUR7wTQZbG6Vi0Y0tIS1sRtkdS4vYAK6LKJDslsmaXl8sQ3O6sz7EPl89Gbp4PeM0rxvGsrPBpxahjoONPWYAtFdue5T5E5pnMHMtJpYkpoCyD0CctLbJFuBpkAmII25AWGuYzIfRueFp4IjSAqxm_Vd1NVQxiaNagppdwtMe_rGJh8WmukO1xoFvrnNUlo",
+                          "alt": "Planner de Produtividade Feminina"
+                        },
+                        "image_size": "full",
+                        "custom_css": "selector img { width: 100%; height: 192px; object-fit: cover; display: block; transition: transform 0.7s ease; } selector:hover img { transform: scale(1.1); }"
+                      }
+                    },
+                    {
+                      "id": "bonus1_badge",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Primeiro Bônus",
+                        "header_size": "p",
+                        "align": "left",
+                        "title_color": "#9b4500",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {"unit": "px", "size": 11},
+                        "typography_font_weight": "700",
+                        "typography_letter_spacing": {"unit": "px", "size": 2},
+                        "typography_text_transform": "uppercase",
+                        "_padding": {"unit": "px", "top": "32", "right": "32", "bottom": "4", "left": "32", "isLinked": false}
+                      }
+                    },
+                    {
+                      "id": "bonus1_title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Planner de Produtividade Feminina",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#1d1c14",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {"unit": "px", "size": 19},
+                        "typography_font_weight": "800",
+                        "typography_line_height": {"unit": "em", "size": 1.3},
+                        "_padding": {"unit": "px", "top": "0", "right": "32", "bottom": "8", "left": "32", "isLinked": false}
+                      }
+                    },
+                    {
+                      "id": "bonus1_text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Organize sua rotina, defina prioridades e conquiste sua liberdade diária com nosso guia exclusivo.</p>",
+                        "text_color": "#564338",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {"unit": "px", "size": 14},
+                        "typography_line_height": {"unit": "em", "size": 1.7},
+                        "_padding": {"unit": "px", "top": "0", "right": "32", "bottom": "32", "left": "32", "isLinked": false}
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "bonus_card2_col",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {"unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true},
+                    "padding": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true},
+                    "custom_css": "selector { box-shadow: 0 8px 30px rgba(29,28,20,0.06); overflow: hidden; }"
+                  },
+                  "elements": [
+                    {
+                      "id": "bonus2_img",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuD044nXS64WBgnxxHtCCDdhnNfuuitoFZbbk_0vnlUHRkZ0aZ4UnNaYuIZQ61FywL7SToJ2L36yUwpGaPrtUEYaMOlBXxTE-iirxxX8BDHTRODK9FZB7RO36APXoimqBD_W8qyTkQ-MQZdQUoV31AHVkkQj8Wk6tyZ75dcNsKRwQD2NxM6MldSsROkKI5zDTMqa26lootvExltJJYHjbs8MMcK0Woa7AKVIbsfvCN4X6uwqZi1L-O6Nvi_Utbbful70IZKaFet3_A4",
+                          "alt": "Organizador Financeiro do Lar"
+                        },
+                        "image_size": "full",
+                        "custom_css": "selector img { width: 100%; height: 192px; object-fit: cover; display: block; transition: transform 0.7s ease; } selector:hover img { transform: scale(1.1); }"
+                      }
+                    },
+                    {
+                      "id": "bonus2_badge",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Segundo Bônus",
+                        "header_size": "p",
+                        "align": "left",
+                        "title_color": "#9b4500",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {"unit": "px", "size": 11},
+                        "typography_font_weight": "700",
+                        "typography_letter_spacing": {"unit": "px", "size": 2},
+                        "typography_text_transform": "uppercase",
+                        "_padding": {"unit": "px", "top": "32", "right": "32", "bottom": "4", "left": "32", "isLinked": false}
+                      }
+                    },
+                    {
+                      "id": "bonus2_title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Organizador Financeiro do Lar",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#1d1c14",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {"unit": "px", "size": 19},
+                        "typography_font_weight": "800",
+                        "typography_line_height": {"unit": "em", "size": 1.3},
+                        "_padding": {"unit": "px", "top": "0", "right": "32", "bottom": "8", "left": "32", "isLinked": false}
+                      }
+                    },
+                    {
+                      "id": "bonus2_text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Tenha controle total sobre as despesas da sua casa de forma prática, rápida e visualmente clara.</p>",
+                        "text_color": "#564338",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {"unit": "px", "size": 14},
+                        "typography_line_height": {"unit": "em", "size": 1.7},
+                        "_padding": {"unit": "px", "top": "0", "right": "32", "bottom": "32", "left": "32", "isLinked": false}
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "bonus_card3_col",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {"unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true},
+                    "padding": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true},
+                    "custom_css": "selector { box-shadow: 0 8px 30px rgba(29,28,20,0.06); overflow: hidden; }"
+                  },
+                  "elements": [
+                    {
+                      "id": "bonus3_img",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuAsIpnuzCcrEbTRasI-hrQnuM9VNYw7F8FsPOFFryofXRoHkCN8cigLAfErCYOCevUs7r0rqf3cBqryOEA2cEPcvS8jlsqy0I8VvQFvaoM3d0JQlD7JEWkmkoTtYX_ZXprf_qqRJb8PuMjXe0egzmkg9yHib4WiaMyXYTNIWLibozrXB8Y6KpOSIsgbZ-kkArVYoOpHfOH6k4KXSrRNFB7vVxQ4S89Vq0iIaXCgTVj5AWrVPOfJpBge5OAFnjpu-V3wXLnJk3CCa0Q",
+                          "alt": "Método Zero Ferro"
+                        },
+                        "image_size": "full",
+                        "custom_css": "selector img { width: 100%; height: 192px; object-fit: cover; display: block; transition: transform 0.7s ease; } selector:hover img { transform: scale(1.1); }"
+                      }
+                    },
+                    {
+                      "id": "bonus3_badge",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Terceiro Bônus",
+                        "header_size": "p",
+                        "align": "left",
+                        "title_color": "#9b4500",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {"unit": "px", "size": 11},
+                        "typography_font_weight": "700",
+                        "typography_letter_spacing": {"unit": "px", "size": 2},
+                        "typography_text_transform": "uppercase",
+                        "_padding": {"unit": "px", "top": "32", "right": "32", "bottom": "4", "left": "32", "isLinked": false}
+                      }
+                    },
+                    {
+                      "id": "bonus3_title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Método Zero Ferro",
+                        "header_size": "h3",
+                        "align": "left",
+                        "title_color": "#1d1c14",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {"unit": "px", "size": 19},
+                        "typography_font_weight": "800",
+                        "typography_line_height": {"unit": "em", "size": 1.3},
+                        "_padding": {"unit": "px", "top": "0", "right": "32", "bottom": "8", "left": "32", "isLinked": false}
+                      }
+                    },
+                    {
+                      "id": "bonus3_text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Aprenda as técnicas para lavar e secar roupas que eliminam a necessidade de passar ferro.</p>",
+                        "text_color": "#564338",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {"unit": "px", "size": 14},
+                        "typography_line_height": {"unit": "em", "size": 1.7},
+                        "_padding": {"unit": "px", "top": "0", "right": "32", "bottom": "32", "left": "32", "isLinked": false}
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "sec_receber",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#fdf9eb",
+        "padding": {"unit": "px", "top": "96", "right": "40", "bottom": "96", "left": "40", "isLinked": false},
+        "padding_mobile": {"unit": "px", "top": "60", "right": "20", "bottom": "60", "left": "20", "isLinked": false},
+        "custom_css": "selector { background-color: #fdf9eb !important; }",
+        "attributes": {"id": "metodo"}
+      },
+      "elements": [
+        {
+          "id": "receber_col_left",
+          "elType": "column",
+          "settings": {
+            "_column_size": 42,
+            "padding": {"unit": "px", "top": "0", "right": "24", "bottom": "0", "left": "0", "isLinked": false}
+          },
+          "elements": [
+            {
+              "id": "receber_img",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuD1QI2RwB3sDPKkUWnj7_WPVvSMlfXLZYwe3OAVXWzTVEb4ePVESAQit_wCg_aBAU5uRxn10in1i5LBqVKt9ohgBAxfVjQRPowy1VDZf4fL59lhc_zWT0lIZ6rzEETm41Sqq1bMbBiGBlLvzOU8vwzroj3cQuvfekvI8agDEMNQe0kPWUI6SKix73Jo_XAcy1ur-HAgja44XnFzOycb0RjYHXDnf7ImWlFVq6OKGOH-nhe8d7XTOl82EEvkjn4L3jB9hYaPRKYiS6I",
+                  "alt": "Vídeo-aula do método de organização"
+                },
+                "image_size": "full",
+                "custom_css": "selector img { border-radius: 16px; box-shadow: 0 20px 60px rgba(155,69,0,0.15); width: 100%; aspect-ratio: 16/9; object-fit: cover; }"
+              }
+            }
+          ]
+        },
+        {
+          "id": "receber_col_right",
+          "elType": "column",
+          "settings": {
+            "_column_size": 58,
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_radius": {"unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true},
+            "padding": {"unit": "px", "top": "48", "right": "48", "bottom": "48", "left": "48", "isLinked": false},
+            "custom_css": "selector { box-shadow: 0 20px 60px rgba(29,28,20,0.12); border: 1px solid #ece8da; }"
+          },
+          "elements": [
+            {
+              "id": "receber_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "O que vou Receber",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#1d1c14",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {"unit": "px", "size": 30},
+                "typography_font_weight": "800",
+                "typography_letter_spacing": {"unit": "px", "size": -0.5},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "receber_checklist",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {"_id": "rc1", "text": "Aula: Praticando o Desapego emocional", "icon": {"library": "solid", "value": "fas fa-check-circle"}},
+                  {"_id": "rc2", "text": "Desafio 30 dias de limpeza", "icon": {"library": "solid", "value": "fas fa-check-circle"}},
+                  {"_id": "rc3", "text": "Método casa Limpa em 2 horas", "icon": {"library": "solid", "value": "fas fa-check-circle"}},
+                  {"_id": "rc4", "text": "Card de Limpeza (Kanban)", "icon": {"library": "solid", "value": "fas fa-check-circle"}},
+                  {"_id": "rc5", "text": "Planejamento de refeições", "icon": {"library": "solid", "value": "fas fa-check-circle"}},
+                  {"_id": "rc6", "text": "Missão Família Organizada", "icon": {"library": "solid", "value": "fas fa-check-circle"}},
+                  {"_id": "rc7", "text": "Bônus: Planejamento de orçamento", "icon": {"library": "solid", "value": "fas fa-star"}},
+                  {"_id": "rc8", "text": "Bônus: Planner de produtividade", "icon": {"library": "solid", "value": "fas fa-star"}}
+                ],
+                "space_between": {"unit": "px", "size": 16},
+                "icon_size": {"unit": "px", "size": 20},
+                "icon_color": "#006e1c",
+                "icon_color_hover": "#006e1c",
+                "text_color": "#564338",
+                "text_indent": {"unit": "px", "size": 8},
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {"unit": "px", "size": 15},
+                "typography_font_weight": "500",
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "32", "left": "0", "isLinked": false},
+                "custom_css": "selector .elementor-icon-list-item:nth-child(n+7) .elementor-icon-list-icon i { color: #9b4500 !important; } selector .elementor-icon-list-item:nth-child(n+7) .elementor-icon-list-text { font-weight: 700; }"
+              }
+            },
+            {
+              "id": "receber_divider",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "style": "solid",
+                "color": "#ece8da",
+                "weight": {"unit": "px", "size": 1},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "receber_price",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:#5b5d6e;text-decoration:line-through;font-size:14px;margin:0 0 4px;\">De R$297 por</p><p style=\"color:#9b4500;font-family:'Plus Jakarta Sans',sans-serif;font-size:40px;font-weight:900;line-height:1;margin:0 0 4px;\">R$ 27,00 <span style=\"font-size:14px;font-weight:500;\">à vista</span></p><p style=\"color:#564338;font-size:14px;font-weight:500;margin:0;\">Ou 3x de R$ 9,64 no cartão</p>",
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "receber_cta",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Obter oferta especial",
+                "link": {"url": "#", "is_external": false, "nofollow": false},
+                "align": "left",
+                "background_color": "#ff8c42",
+                "button_text_color": "#ffffff",
+                "button_hover_background_color": "#9b4500",
+                "hover_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_weight": "700",
+                "typography_font_size": {"unit": "px", "size": 16},
+                "border_radius": {"unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true},
+                "text_padding": {"unit": "px", "top": "16", "right": "32", "bottom": "16", "left": "32", "isLinked": false},
+                "custom_css": "selector a.elementor-button { background: linear-gradient(to top, #9b4500, #ff8c42) !important; box-shadow: 0 8px 24px rgba(155,69,0,0.25); }"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "sec_beneficios",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1a1d2b",
+        "padding": {"unit": "px", "top": "96", "right": "40", "bottom": "96", "left": "40", "isLinked": false},
+        "padding_mobile": {"unit": "px", "top": "60", "right": "20", "bottom": "60", "left": "20", "isLinked": false},
+        "custom_css": "selector { background-color: #1a1d2b !important; }"
+      },
+      "elements": [
+        {
+          "id": "ben_col_left",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "padding": {"unit": "px", "top": "0", "right": "40", "bottom": "0", "left": "0", "isLinked": false}
+          },
+          "elements": [
+            {
+              "id": "ben_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Benefícios <span style=\"color:#ff8c42;\">claros e tangíveis</span>",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {"unit": "px", "size": 44},
+                "typography_font_size_tablet": {"unit": "px", "size": 34},
+                "typography_font_size_mobile": {"unit": "px", "size": 28},
+                "typography_font_weight": "800",
+                "typography_line_height": {"unit": "em", "size": 1.2},
+                "typography_letter_spacing": {"unit": "px", "size": -1},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "40", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "ben_list",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {"_id": "b1", "text": "Mais tempo para você", "icon": {"library": "solid", "value": "fas fa-clock"}},
+                  {"_id": "b2", "text": "Casa sempre limpa para você", "icon": {"library": "solid", "value": "fas fa-sparkles"}},
+                  {"_id": "b3", "text": "Mais faxina e menos esforço", "icon": {"library": "solid", "value": "fas fa-dumbbell"}},
+                  {"_id": "b4", "text": "Tornando a casa leve para uma vida leve", "icon": {"library": "solid", "value": "fas fa-leaf"}},
+                  {"_id": "b5", "text": "Casa emocionalmente acolhedora", "icon": {"library": "solid", "value": "fas fa-heart"}}
+                ],
+                "space_between": {"unit": "px", "size": 8},
+                "icon_size": {"unit": "px", "size": 28},
+                "icon_color": "#ff8c42",
+                "text_color": "#ffffff",
+                "text_indent": {"unit": "px", "size": 12},
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {"unit": "px", "size": 17},
+                "typography_font_weight": "500",
+                "custom_css": "selector .elementor-icon-list-item { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 16px; margin-bottom: 4px; }"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ben_col_right",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {
+              "id": "ben_img",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuDauHvGu6-232oI4oEZIKyHazVmDfXIIYRE07HF47NUADMNV6Yb16v1yQnI1Mexneou90DKVG-qAlu3ISrK6aFq7ocquBcNtX7infNu2G0OR_bbBT9WI-IGp6PVXugmotB7uGBLAtRbjhYQUXc5qkKz6qWsgLUS0bs0tdn6HiMedZokudmlT4KOncenAGDAxHWkG47CQ6IoZIjsCMXwCWqeYTXOgC_916Zk3hgCy01tguOdDFSgh3AKFx66ugt-54RnSL3Qof2z3Ok",
+                  "alt": "App Calendário da Faxina no tablet com cards físicos"
+                },
+                "image_size": "full",
+                "align": "center",
+                "custom_css": "selector img { border-radius: 16px; box-shadow: 0 24px 60px rgba(0,0,0,0.4); transform: rotate(3deg); transition: transform 0.5s ease; } selector img:hover { transform: rotate(0deg); }"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "sec_testimonials",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#fdf9eb",
+        "padding": {"unit": "px", "top": "96", "right": "40", "bottom": "96", "left": "40", "isLinked": false},
+        "padding_mobile": {"unit": "px", "top": "60", "right": "20", "bottom": "60", "left": "20", "isLinked": false},
+        "custom_css": "selector { background-color: #fdf9eb !important; }"
+      },
+      "elements": [
+        {
+          "id": "testi_col",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "testi_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Veja os comentários",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#1d1c14",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {"unit": "px", "size": 28},
+                "typography_font_weight": "800",
+                "typography_text_transform": "uppercase",
+                "typography_letter_spacing": {"unit": "px", "size": -0.5},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "4", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "testi_h3",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "de nossas seguidoras que adquiriram",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#9b4500",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {"unit": "px", "size": 26},
+                "typography_font_weight": "800",
+                "typography_letter_spacing": {"unit": "px", "size": -0.5},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "48", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "testi_card1",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_radius": {"unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true},
+                "padding": {"unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false},
+                "custom_css": "selector { box-shadow: 0 2px 12px rgba(29,28,20,0.06); border: 1px solid #ece8da; max-width: 800px; margin-left: auto; margin-right: auto; }"
+              },
+              "elements": [
+                {
+                  "id": "t1_avatar_col",
+                  "elType": "column",
+                  "settings": {"_column_size": 10},
+                  "elements": [
+                    {
+                      "id": "t1_avatar",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuCqBu8oNe40_U3NCCDdCgPNA5uM6uNqwvb_-wWk8OfNdyTzYQXIIN6t5i75_TbxDcEuJz2f-69t-AkY-swEBivpivTbJ3PtUNEcU2TH7RMr2FJYxig1jmfeiFCe4VHQefB_aSrmHKOkSE45RDfErceDMxxKMaa2jHNvODlrUE9CbDitKr-IBdLci0V1-3d9dO0-WQXTEV3eguyvftUWVHgWu2JSyDSe6_L7ltMA7bdjN8BgsrJChuYaVXPS0flxsG_JhNFyg_GOB0A",
+                          "alt": "ceciliaangelica1983"
+                        },
+                        "image_size": "thumbnail",
+                        "width": {"unit": "px", "size": 48},
+                        "custom_css": "selector img { border-radius: 50%; width: 48px; height: 48px; object-fit: cover; }"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "t1_content_col",
+                  "elType": "column",
+                  "settings": {"_column_size": 90},
+                  "elements": [
+                    {
+                      "id": "t1_username",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "ceciliaangelica1983 · <span style=\"color:#5b5d6e;font-weight:400;\">81 sem</span>",
+                        "header_size": "p",
+                        "align": "left",
+                        "title_color": "#1d1c14",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {"unit": "px", "size": 14},
+                        "typography_font_weight": "700",
+                        "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "6", "left": "0", "isLinked": false}
+                      }
+                    },
+                    {
+                      "id": "t1_comment",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Mãe de 4 filhos, trabalhando o dia inteiro, sem tempo pra nada. Soh esse material pra me dar animo e uma direcao. Me salvou demais. Tem me ajudado muita na rotina e organização.</p>",
+                        "text_color": "#564338",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {"unit": "px", "size": 14},
+                        "typography_line_height": {"unit": "em", "size": 1.65}
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "testi_card2",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_radius": {"unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true},
+                "padding": {"unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false},
+                "custom_css": "selector { box-shadow: 0 2px 12px rgba(29,28,20,0.06); border: 1px solid #ece8da; max-width: 800px; margin-left: auto; margin-right: auto; }"
+              },
+              "elements": [
+                {
+                  "id": "t2_avatar_col",
+                  "elType": "column",
+                  "settings": {"_column_size": 10},
+                  "elements": [
+                    {
+                      "id": "t2_avatar",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuARuWQknf5MeCDacOdJIVMcGrK9a53KDwVmU08jJDGGl_ktqiaA4gSM45PqUpxjXqSTMqz3UvCAUEg5qbg_a4LDd-xvkzejUkDOfjhR2D28nGeSh2IQ30atX75beCAC32GtLlI5BzrX3cIc0FFmNNgwvE7I8pM2eZomw4v2QVLPLtidyc6XP4V3k_zAowcUtTJvBN7bM2DRBmwsxsfyoquc6w6rCeKf5KqAZjWsSXQ62OUQ4FpD9vd4bnsMxqFVgeOVwBwDmUZpgj0",
+                          "alt": "pinkcakecg"
+                        },
+                        "image_size": "thumbnail",
+                        "width": {"unit": "px", "size": 48},
+                        "custom_css": "selector img { border-radius: 50%; width: 48px; height: 48px; object-fit: cover; border: 2px solid #9b4500; }"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "t2_content_col",
+                  "elType": "column",
+                  "settings": {"_column_size": 90},
+                  "elements": [
+                    {
+                      "id": "t2_username",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "pinkcakecg · <span style=\"color:#5b5d6e;font-weight:400;\">81 sem</span>",
+                        "header_size": "p",
+                        "align": "left",
+                        "title_color": "#1d1c14",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {"unit": "px", "size": 14},
+                        "typography_font_weight": "700",
+                        "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "6", "left": "0", "isLinked": false}
+                      }
+                    },
+                    {
+                      "id": "t2_comment",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Eu tenho. Eu amo... consigo organizar toda minha limpeza.. anoto tudo que faço nos meses.. como limpeza da janela, ventilador, vidro... e consigo saber qual mês limpei e qual não... muito bom.. inclusive o kit de rotina para as crianças é perfeito tbm.. eu comprei e uso com meus filhos... Tudo da Carol é maravilhoso 😍</p>",
+                        "text_color": "#564338",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {"unit": "px", "size": 14},
+                        "typography_line_height": {"unit": "em", "size": 1.65}
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "testi_card3",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_radius": {"unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true},
+                "padding": {"unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false},
+                "custom_css": "selector { box-shadow: 0 2px 12px rgba(29,28,20,0.06); border: 1px solid #ece8da; max-width: 800px; margin-left: auto; margin-right: auto; }"
+              },
+              "elements": [
+                {
+                  "id": "t3_avatar_col",
+                  "elType": "column",
+                  "settings": {"_column_size": 10},
+                  "elements": [
+                    {
+                      "id": "t3_avatar",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuBTllNvp394HppMp1d5gHTY6jAwJUNxsdX9T1ayscPnlCpe3ZZkVl52NTbBOI-pCXLcv-Yjw2I0ma9yPY6A8xFRzDRlj-XBnID5GfaK47cUMo-9I6nWM-UmNWYkc8NTu-a01qyECadc0KXNx-r7FxGPTNAHkjh71W5KxpA6zsieQV17d_1KzmutApVkceRgMZ6oJcIB9g6Sw8-OO7lb8IBcJ0p-jmeewj6bBnnX8sa4vecDuSwbKXPc1NBbzNu_v9_i0CdWqVU0Ubg",
+                          "alt": "paula2012rafael"
+                        },
+                        "image_size": "thumbnail",
+                        "width": {"unit": "px", "size": 48},
+                        "custom_css": "selector img { border-radius: 50%; width: 48px; height: 48px; object-fit: cover; }"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "t3_content_col",
+                  "elType": "column",
+                  "settings": {"_column_size": 90},
+                  "elements": [
+                    {
+                      "id": "t3_username",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "paula2012rafael · <span style=\"color:#5b5d6e;font-weight:400;\">75 sem</span>",
+                        "header_size": "p",
+                        "align": "left",
+                        "title_color": "#1d1c14",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {"unit": "px", "size": 14},
+                        "typography_font_weight": "700",
+                        "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "6", "left": "0", "isLinked": false}
+                      }
+                    },
+                    {
+                      "id": "t3_comment",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Estou amando, já apliquei a regra de organizar em 2 horas e deu super certo 🙌</p>",
+                        "text_color": "#564338",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {"unit": "px", "size": 14},
+                        "typography_line_height": {"unit": "em", "size": 1.65}
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "testi_card4",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_radius": {"unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true},
+                "padding": {"unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": false},
+                "custom_css": "selector { box-shadow: 0 2px 12px rgba(29,28,20,0.06); border: 1px solid #ece8da; max-width: 800px; margin-left: auto; margin-right: auto; }"
+              },
+              "elements": [
+                {
+                  "id": "t4_avatar_col",
+                  "elType": "column",
+                  "settings": {"_column_size": 10},
+                  "elements": [
+                    {
+                      "id": "t4_avatar",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuAH8BPDyWw9ExA2bnK2fB1q0HC7UmqmNyrGJ_3H0zxlDvNlrio2acnF3zdf7LNebtW_e3f6XrCkIp0j8oD_b0_4JSIsp0Q4o6gxEhZiHxakQeiTrKw4U22nfZNSDvXN6sf5S6P8uYlwAfbAakRXEzz6kwHXweKBwhOB14XTQTeAyIS9kzSiVAE3UfTs7hZ1YOm-1r6URHAmVpv7FNrKMKRjzCnUV-tux5bXKxOvyGS_EECd16nyvLbeogaExNMEt5L1zGJl-MhAIlg",
+                          "alt": "silvinhalealmendes_"
+                        },
+                        "image_size": "thumbnail",
+                        "width": {"unit": "px", "size": 48},
+                        "custom_css": "selector img { border-radius: 50%; width: 48px; height: 48px; object-fit: cover; }"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "t4_content_col",
+                  "elType": "column",
+                  "settings": {"_column_size": 90},
+                  "elements": [
+                    {
+                      "id": "t4_username",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "silvinhalealmendes_ · <span style=\"color:#5b5d6e;font-weight:400;\">67 sem</span>",
+                        "header_size": "p",
+                        "align": "left",
+                        "title_color": "#1d1c14",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {"unit": "px", "size": 14},
+                        "typography_font_weight": "700",
+                        "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "6", "left": "0", "isLinked": false}
+                      }
+                    },
+                    {
+                      "id": "t4_comment",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Isso mudou minha vida, trabalho fora e tenho uma ajudante apenas 1 vez no mês! Essa organização pra quem não \"nasceu\" com dotes domésticos facilita demais!</p>",
+                        "text_color": "#564338",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {"unit": "px", "size": 14},
+                        "typography_line_height": {"unit": "em", "size": 1.65}
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "sec_quem_sou",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1a1d2b",
+        "padding": {"unit": "px", "top": "96", "right": "40", "bottom": "96", "left": "40", "isLinked": false},
+        "padding_mobile": {"unit": "px", "top": "60", "right": "20", "bottom": "60", "left": "20", "isLinked": false},
+        "layout": "full_width",
+        "custom_css": "selector { background-color: #1a1d2b !important; }"
+      },
+      "elements": [
+        {
+          "id": "qs_col",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "qs_cta_top",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "QUERO ORGANIZAR A CASA COM MAIS LEVEZA",
+                "link": {"url": "#metodo", "is_external": false, "nofollow": false},
+                "align": "center",
+                "background_color": "#ff8c42",
+                "button_text_color": "#ffffff",
+                "button_hover_background_color": "#9b4500",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_weight": "900",
+                "typography_font_size": {"unit": "px", "size": 14},
+                "border_radius": {"unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true},
+                "text_padding": {"unit": "px", "top": "14", "right": "32", "bottom": "14", "left": "32", "isLinked": false},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "48", "left": "0", "isLinked": false},
+                "custom_css": "selector a.elementor-button { background: linear-gradient(to top, #9b4500, #ff8c42) !important; }"
+              }
+            },
+            {
+              "id": "qs_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Quem Sou",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {"unit": "px", "size": 46},
+                "typography_font_weight": "700",
+                "typography_letter_spacing": {"unit": "px", "size": -1},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "40", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "qs_profile_img",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuBj9rHmOD8SmqcTQ6PRZ4foTmJG8Noe4eBc1tA7WQ7UDjRAWrDjt8K4R-lGT78I9zSM3JzyLMjXtHEEeO0Y_Z4xEp54xacH8mFJzBDSzxq7HgpVthle1cZwdwOZl1xNwIvfiUmBo588EJCzUecftjtb4ZNmQCL0kgocUXGnt7YubhT3mpRitNqzKxwNWvKfAdmr2GOfZ8R2tKmnR3ojZiFBzHS0oX5GE_RKNdeM3jdq6zRGopF-V1h24CaZMisoX3ph-5pWIXBKKMs",
+                  "alt": "Ana Carolina - @mae_desajustada"
+                },
+                "image_size": "medium",
+                "align": "center",
+                "width": {"unit": "px", "size": 200},
+                "custom_css": "selector img { border-radius: 50%; width: 200px; height: 200px; object-fit: cover; border: 4px solid rgba(255,255,255,0.1); display: block; margin: 0 auto; }"
+              }
+            },
+            {
+              "id": "qs_name",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Ana Carolina",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {"unit": "px", "size": 44},
+                "typography_font_weight": "700",
+                "typography_letter_spacing": {"unit": "px", "size": -1},
+                "_margin": {"unit": "px", "top": "24", "right": "0", "bottom": "4", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "qs_handle",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "@mae_desajustada",
+                "header_size": "p",
+                "align": "center",
+                "title_color": "#e6e2d5",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {"unit": "px", "size": 20},
+                "typography_font_weight": "400",
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "40", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "qs_bio1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\"><strong>Sou Ana Carolina, mãe e dona de casa, moro no interior de São Paulo.</strong></p>",
+                "text_color": "#e6e2d5",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {"unit": "px", "size": 17},
+                "typography_line_height": {"unit": "em", "size": 1.75},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false},
+                "custom_css": "selector { max-width: 700px; margin-left: auto; margin-right: auto; }"
+              }
+            },
+            {
+              "id": "qs_bio2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\">Baseio minha rotina nos princípios de Tim Ferriss, aplicando o método de eliminação, planejamento e foco no essencial — a tríade que permite alcançar mais resultados com menos esforço e tempo. Uso essa técnica para otimizar as tarefas domésticas e transformar o cuidado com a casa em um processo leve, eficiente e cheio de significado — porque acredito que uma casa organizada é também um reflexo de uma mente em paz.</p>",
+                "text_color": "#e6e2d5",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {"unit": "px", "size": 17},
+                "typography_line_height": {"unit": "em", "size": 1.75},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "64", "left": "0", "isLinked": false},
+                "custom_css": "selector { max-width: 700px; margin-left: auto; margin-right: auto; }"
+              }
+            },
+            {
+              "id": "qs_guarantee_divider",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "style": "solid",
+                "color": "rgba(255,255,255,0.1)",
+                "weight": {"unit": "px", "size": 1},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "64", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "qs_guarantee_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Sem Riscos",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {"unit": "px", "size": 44},
+                "typography_font_weight": "700",
+                "typography_letter_spacing": {"unit": "px", "size": -1},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "32", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "qs_guarantee_text1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\">Se não gostar do nosso produto, você tem uma garantia de 7 dias podendo pedir reembolso de 100% do seu dinheiro; Você não receberá nada em sua residência. Esse é um produto totalmente digital e você receberá por e-mail. Você não terá nenhuma despesa de envio ou frete.</p>",
+                "text_color": "#e6e2d5",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {"unit": "px", "size": 15},
+                "typography_line_height": {"unit": "em", "size": 1.75},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false},
+                "custom_css": "selector { max-width: 600px; margin-left: auto; margin-right: auto; }"
+              }
+            },
+            {
+              "id": "qs_guarantee_text2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\"><em>Pedimos apenas que remova o arquivo do seu computador. Acreditamos que um país digno se faz com empresas e pessoas que atuam de maneira correta, assim como consumidores que hajam de boa fé.</em></p>",
+                "text_color": "rgba(230,226,213,0.7)",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {"unit": "px", "size": 14},
+                "typography_line_height": {"unit": "em", "size": 1.75},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "48", "left": "0", "isLinked": false},
+                "custom_css": "selector { max-width: 600px; margin-left: auto; margin-right: auto; }"
+              }
+            },
+            {
+              "id": "qs_guarantee_badge",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"display:flex;justify-content:center;align-items:center;margin:0 auto;\">\n  <div style=\"position:relative;width:160px;height:160px;display:flex;align-items:center;justify-content:center;\">\n    <svg width=\"160\" height=\"160\" viewBox=\"0 0 160 160\" style=\"position:absolute;top:0;left:0;animation:spin 10s linear infinite;\">\n      <defs><path id=\"circlePath\" d=\"M80,80 m-60,0 a60,60 0 1,1 120,0 a60,60 0 1,1 -120,0\"/></defs>\n      <text fill=\"#ff8c42\" font-family=\"Plus Jakarta Sans,sans-serif\" font-size=\"13\" font-weight=\"800\">\n        <textPath href=\"#circlePath\" spacing=\"auto\">100% DINHEIRO DE VOLTA • GARANTIDO • </textPath>\n      </text>\n    </svg>\n    <div style=\"background:#ff8c42;border-radius:50%;width:112px;height:112px;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 8px 30px rgba(255,140,66,0.4);\">\n      <span style=\"color:#1d1c14;font-family:Plus Jakarta Sans,sans-serif;font-size:40px;font-weight:900;line-height:1;\">7</span>\n      <span style=\"color:#1d1c14;font-family:Plus Jakarta Sans,sans-serif;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:2px;\">Dias</span>\n      <span style=\"color:#1d1c14;font-family:Plus Jakarta Sans,sans-serif;font-size:9px;font-weight:700;text-transform:uppercase;\">Garantido</span>\n    </div>\n  </div>\n</div>\n<style>@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}</style>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "sec_faq",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1a1d2b",
+        "padding": {"unit": "px", "top": "96", "right": "40", "bottom": "96", "left": "40", "isLinked": false},
+        "padding_mobile": {"unit": "px", "top": "60", "right": "20", "bottom": "60", "left": "20", "isLinked": false},
+        "custom_css": "selector { background-color: #1a1d2b !important; }"
+      },
+      "elements": [
+        {
+          "id": "faq_col",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "faq_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "DÚVIDAS & PERGUNTAS FREQUENTES",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {"unit": "px", "size": 34},
+                "typography_font_size_mobile": {"unit": "px", "size": 24},
+                "typography_font_weight": "700",
+                "typography_text_transform": "uppercase",
+                "typography_letter_spacing": {"unit": "px", "size": -0.5},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "48", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "faq_grid",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "default",
+                "custom_css": "selector { max-width: 960px; margin-left: auto; margin-right: auto; }"
+              },
+              "elements": [
+                {
+                  "id": "faq_col_left",
+                  "elType": "column",
+                  "settings": {"_column_size": 50},
+                  "elements": [
+                    {
+                      "id": "faq1_card",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<div style=\"display:flex;gap:16px;align-items:flex-start;\"><div style=\"flex-shrink:0;color:#ff8c42;font-size:22px;\">📄</div><div><h4 style=\"color:#ff8c42;font-family:'Plus Jakarta Sans',sans-serif;font-size:17px;font-weight:700;margin:0 0 8px;\">O material é digital?</h4><p style=\"color:rgba(230,226,213,0.8);font-family:Inter,sans-serif;font-size:13px;line-height:1.7;margin:0;\">Isso mesmo! Você recebe acesso com login e senha, escolhe a ferramenta do método que mais se adequa à sua família e então é só seguir.</p></div></div>",
+                        "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false},
+                        "custom_css": "selector { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 32px; transition: background 0.2s; } selector:hover { background: rgba(255,255,255,0.08); }"
+                      }
+                    },
+                    {
+                      "id": "faq2_card",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<div style=\"display:flex;gap:16px;align-items:flex-start;\"><div style=\"flex-shrink:0;color:#ff8c42;font-size:22px;\">🎬</div><div><h4 style=\"color:#ff8c42;font-family:'Plus Jakarta Sans',sans-serif;font-size:17px;font-weight:700;margin:0 0 8px;\">É só arquivo digital ou tem aula também?</h4><p style=\"color:rgba(230,226,213,0.8);font-family:Inter,sans-serif;font-size:13px;line-height:1.7;margin:0;\">Tem aula também, você vai aprender a se libertar do apego emocional que te prende ao excesso e assim descobrir o prazer de viver uma vida mais leve.</p></div></div>",
+                        "custom_css": "selector { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 32px; transition: background 0.2s; } selector:hover { background: rgba(255,255,255,0.08); }"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "faq_col_right",
+                  "elType": "column",
+                  "settings": {"_column_size": 50},
+                  "elements": [
+                    {
+                      "id": "faq3_card",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<div style=\"display:flex;gap:16px;align-items:flex-start;\"><div style=\"flex-shrink:0;color:#ff8c42;font-size:22px;\">🛡️</div><div><h4 style=\"color:#ff8c42;font-family:'Plus Jakarta Sans',sans-serif;font-size:17px;font-weight:700;margin:0 0 8px;\">Como funciona a garantia?</h4><p style=\"color:rgba(230,226,213,0.8);font-family:Inter,sans-serif;font-size:13px;line-height:1.7;margin:0;\">Sua compra é 100% garantida pela Hotmart, que possui uma das melhores avaliações no Reclame Aqui. Se precisar, você pode solicitar o reembolso em até 7 dias.</p></div></div>",
+                        "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false},
+                        "custom_css": "selector { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 32px; transition: background 0.2s; } selector:hover { background: rgba(255,255,255,0.08); }"
+                      }
+                    },
+                    {
+                      "id": "faq4_card",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<div style=\"display:flex;gap:16px;align-items:flex-start;\"><div style=\"flex-shrink:0;color:#ff8c42;font-size:22px;\">📅</div><div><h4 style=\"color:#ff8c42;font-family:'Plus Jakarta Sans',sans-serif;font-size:17px;font-weight:700;margin:0 0 8px;\">Como faz para contratar sua palestra para um evento?</h4><p style=\"color:rgba(230,226,213,0.8);font-family:Inter,sans-serif;font-size:13px;line-height:1.7;margin:0;\">No momento, nossa agenda está fechada. Reabriremos em agosto de 2026. Obrigada!</p></div></div>",
+                        "custom_css": "selector { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 32px; transition: background 0.2s; } selector:hover { background: rgba(255,255,255,0.08); }"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "faq_trust_badge",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style=\"text-align:center;margin-top:80px;\"><div style=\"display:inline-flex;align-items:center;gap:8px;background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.3);padding:12px 24px;border-radius:999px;margin-bottom:32px;\"><span style=\"color:#22c55e;font-size:18px;\">🛡️</span><span style=\"color:#ffffff;font-family:'Plus Jakarta Sans',sans-serif;font-weight:900;font-size:16px;letter-spacing:3px;text-transform:uppercase;\">SITE BLINDADO</span></div><div style=\"display:flex;flex-wrap:wrap;justify-content:center;gap:32px;opacity:0.6;margin-bottom:40px;\"><span style=\"color:#ffffff;font-family:'Plus Jakarta Sans',sans-serif;font-size:11px;font-weight:700;text-transform:uppercase;\">🔒 Checkout Seguro</span><span style=\"color:#ffffff;font-family:'Plus Jakarta Sans',sans-serif;font-size:11px;font-weight:700;text-transform:uppercase;\">🏆 Satisfação Garantida</span><span style=\"color:#ffffff;font-family:'Plus Jakarta Sans',sans-serif;font-size:11px;font-weight:700;text-transform:uppercase;\">🔕 Privacidade Protegida</span></div><div style=\"display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:24px;opacity:0.5;\"><span style=\"color:#ffffff;font-family:'Plus Jakarta Sans',sans-serif;font-size:12px;font-weight:700;\">VISA &nbsp; MASTERCARD &nbsp; PAYPAL &nbsp; PIX &nbsp; BOLETO</span></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "sec_final_cta",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f8f4e6",
+        "padding": {"unit": "px", "top": "96", "right": "40", "bottom": "96", "left": "40", "isLinked": false},
+        "padding_mobile": {"unit": "px", "top": "60", "right": "20", "bottom": "60", "left": "20", "isLinked": false},
+        "custom_css": "selector { background-color: #f8f4e6 !important; }"
+      },
+      "elements": [
+        {
+          "id": "cta_col",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "cta_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "VOCÊ SÓ PRECISA DE UM <span style=\"color:#9b4500;\">MÉTODO COMPROVADO</span>",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#1a1d2b",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {"unit": "px", "size": 46},
+                "typography_font_size_tablet": {"unit": "px", "size": 36},
+                "typography_font_size_mobile": {"unit": "px", "size": 28},
+                "typography_font_weight": "900",
+                "typography_line_height": {"unit": "em", "size": 1.15},
+                "typography_letter_spacing": {"unit": "px", "size": -1},
+                "typography_text_transform": "uppercase",
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false},
+                "custom_css": "selector { max-width: 800px; margin-left: auto; margin-right: auto; }"
+              }
+            },
+            {
+              "id": "cta_subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\">Milhares de mulheres já transformaram suas casas e suas vidas. O próximo passo para a sua liberdade doméstica começa agora.</p>",
+                "text_color": "#564338",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {"unit": "px", "size": 18},
+                "typography_line_height": {"unit": "em", "size": 1.7},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "40", "left": "0", "isLinked": false},
+                "custom_css": "selector { max-width: 600px; margin-left: auto; margin-right: auto; }"
+              }
+            },
+            {
+              "id": "cta_btn_final",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "QUERO ORGANIZAR A CASA COM MAIS LEVEZA",
+                "link": {"url": "#", "is_external": false, "nofollow": false},
+                "align": "center",
+                "background_color": "#ff8c42",
+                "button_text_color": "#ffffff",
+                "button_hover_background_color": "#9b4500",
+                "hover_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_weight": "900",
+                "typography_font_size": {"unit": "px", "size": 20},
+                "border_radius": {"unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true},
+                "text_padding": {"unit": "px", "top": "24", "right": "48", "bottom": "24", "left": "48", "isLinked": false},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false},
+                "custom_css": "selector a.elementor-button { background: linear-gradient(to top, #9b4500, #ff8c42) !important; box-shadow: 0 16px 40px rgba(155,69,0,0.3); }"
+              }
+            },
+            {
+              "id": "cta_note",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\"><em>Resultados visíveis nos primeiros 7 dias de uso.</em></p>",
+                "text_color": "#5b5d6e",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {"unit": "px", "size": 15},
+                "typography_font_weight": "500"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "sec_footer",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1a1d2b",
+        "padding": {"unit": "px", "top": "64", "right": "48", "bottom": "64", "left": "48", "isLinked": false},
+        "padding_mobile": {"unit": "px", "top": "48", "right": "24", "bottom": "48", "left": "24", "isLinked": false},
+        "custom_css": "selector { background-color: #1a1d2b !important; }"
+      },
+      "elements": [
+        {
+          "id": "footer_col_left",
+          "elType": "column",
+          "settings": {
+            "_column_size": 70,
+            "padding": {"unit": "px", "top": "0", "right": "40", "bottom": "0", "left": "0", "isLinked": false}
+          },
+          "elements": [
+            {
+              "id": "footer_logo",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Calendário da Faxina",
+                "header_size": "p",
+                "align": "left",
+                "title_color": "#fdf9eb",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {"unit": "px", "size": 17},
+                "typography_font_weight": "900",
+                "typography_letter_spacing": {"unit": "px", "size": 1},
+                "typography_text_transform": "uppercase",
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "footer_copy",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>© 2024 Calendário da Faxina. Todos os direitos reservados. O Arquiteto Doméstico.</p>",
+                "text_color": "rgba(253,249,235,0.6)",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {"unit": "px", "size": 11},
+                "typography_letter_spacing": {"unit": "px", "size": 1},
+                "typography_text_transform": "uppercase",
+                "typography_line_height": {"unit": "em", "size": 1.8},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "footer_disclaimer",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Atenção! O Produto anunciado NÃO é de procedência pirata e cumpre todas as normas, além de ser um produto exclusivo para todos os usuários. Por ser uma obra Open Source e regida com licença GPL, temos integralmente os créditos a esta obra. Sendo assim, estamos de acordo com a Lei Nº 9.906 de 19/02/1998.</p>",
+                "text_color": "rgba(253,249,235,0.35)",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {"unit": "px", "size": 10},
+                "typography_line_height": {"unit": "em", "size": 1.75},
+                "custom_css": "selector { max-width: 600px; }"
+              }
+            }
+          ]
+        },
+        {
+          "id": "footer_col_right",
+          "elType": "column",
+          "settings": {
+            "_column_size": 30,
+            "content_position": "middle"
+          },
+          "elements": [
+            {
+              "id": "footer_links",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {"_id": "fl1", "text": "Políticas", "icon": {"library": "solid", "value": "fas fa-circle"}, "link": {"url": "#"}},
+                  {"_id": "fl2", "text": "Privacidade", "icon": {"library": "solid", "value": "fas fa-circle"}, "link": {"url": "#"}},
+                  {"_id": "fl3", "text": "Suporte", "icon": {"library": "solid", "value": "fas fa-circle"}, "link": {"url": "#"}}
+                ],
+                "layout": "inline",
+                "space_between": {"unit": "px", "size": 24},
+                "icon_size": {"unit": "px", "size": 4},
+                "icon_color": "rgba(253,249,235,0.4)",
+                "text_color": "rgba(253,249,235,0.6)",
+                "text_indent": {"unit": "px", "size": 4},
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {"unit": "px", "size": 11},
+                "typography_font_weight": "500",
+                "typography_text_transform": "uppercase",
+                "typography_letter_spacing": {"unit": "px", "size": 1},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false}
+              }
+            },
+            {
+              "id": "footer_payment",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:flex-end;opacity:0.5;\"><span style=\"color:#ffffff;font-family:'Plus Jakarta Sans',sans-serif;font-size:11px;font-weight:700;\">VISA</span><span style=\"color:#ffffff;font-family:'Plus Jakarta Sans',sans-serif;font-size:11px;font-weight:700;\">MASTERCARD</span><span style=\"color:#ffffff;font-family:'Plus Jakarta Sans',sans-serif;font-size:11px;font-weight:700;\">PAYPAL</span><span style=\"color:#ffffff;font-family:'Plus Jakarta Sans',sans-serif;font-size:11px;font-weight:700;\">PIX</span><span style=\"color:#ffffff;font-family:'Plus Jakarta Sans',sans-serif;font-size:11px;font-weight:700;\">BOLETO</span></div>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
