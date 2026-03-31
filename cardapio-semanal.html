@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio Semanal — Redução de BF</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --green:#16a34a;--green-d:#15803d;--green-l:#f0fdf4;
+      --bg:#f1f5f9;--card:#fff;--text:#1e293b;--muted:#64748b;--border:#e2e8f0;
+      --p:#2563eb;--pb:#dbeafe;--c:#d97706;--cb:#fef3c7;
+      --f:#dc2626;--fb:#fee2e2;--k:#7c3aed;--kb:#f3e8ff;
+      --w:#0284c7;--wb:#e0f2fe;
+    }
+    body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+
+    /* HEADER */
+    .hdr{background:linear-gradient(135deg,#14532d 0%,#0f766e 100%);color:#fff;padding:36px 24px;text-align:center}
+    .hdr h1{font-size:2rem;font-weight:800;letter-spacing:-.02em;margin-bottom:6px}
+    .hdr p{opacity:.8;font-size:.95rem}
+
+    /* MACRO BAR */
+    .mbar{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;padding:20px 24px;background:#fff;border-bottom:1px solid var(--border)}
+    .mc{text-align:center;padding:14px 20px;border-radius:12px;min-width:110px}
+    .mc.k{background:var(--kb)}.mc.p{background:var(--pb)}.mc.c{background:var(--cb)}.mc.f{background:var(--fb)}.mc.w{background:var(--wb)}.mc.s{background:#f0fdf4}
+    .mc .v{font-size:1.35rem;font-weight:800}
+    .mc.k .v{color:var(--k)}.mc.p .v{color:var(--p)}.mc.c .v{color:var(--c)}.mc.f .v{color:var(--f)}.mc.w .v{color:var(--w)}.mc.s .v{color:var(--green)}
+    .mc .l{font-size:.7rem;text-transform:uppercase;color:var(--muted);margin-top:3px;letter-spacing:.06em}
+
+    /* TABS */
+    .tabs{display:flex;overflow-x:auto;background:#fff;border-bottom:2px solid var(--border);padding:0 20px;position:sticky;top:0;z-index:20;box-shadow:0 2px 8px rgba(0,0,0,.07)}
+    .tabs::-webkit-scrollbar{height:3px}.tabs::-webkit-scrollbar-thumb{background:var(--border)}
+    .tb{padding:15px 18px;border:none;background:none;cursor:pointer;font-size:.88rem;font-weight:700;color:var(--muted);white-space:nowrap;border-bottom:3px solid transparent;margin-bottom:-2px;transition:.2s}
+    .tb:hover{color:var(--green)}.tb.act{color:var(--green);border-bottom-color:var(--green)}
+
+    /* DAY CONTENT */
+    .dc{display:none;padding:24px 20px;max-width:880px;margin:0 auto}.dc.act{display:block}
+    .dh{display:flex;align-items:center;flex-wrap:wrap;justify-content:space-between;gap:12px;margin-bottom:20px}
+    .dt{font-size:1.4rem;font-weight:800}
+    .dm{display:flex;gap:6px;flex-wrap:wrap}
+    .badge{padding:4px 11px;border-radius:20px;font-size:.75rem;font-weight:700}
+    .badge.k{background:var(--kb);color:var(--k)}.badge.p{background:var(--pb);color:var(--p)}.badge.c{background:var(--cb);color:var(--c)}.badge.f{background:var(--fb);color:var(--f)}
+
+    /* MEAL CARD */
+    .mc-card{background:#fff;border-radius:16px;padding:18px 20px;margin-bottom:14px;border:1px solid var(--border);box-shadow:0 1px 3px rgba(0,0,0,.04)}
+    .mh{display:flex;align-items:center;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+    .mico{width:44px;height:44px;border-radius:10px;background:var(--green-l);display:flex;align-items:center;justify-content:center;font-size:1.5rem;flex-shrink:0}
+    .mn{font-weight:700;font-size:.98rem}.mt{font-size:.78rem;color:var(--muted);margin-top:2px}
+    .mm{display:flex;gap:5px;flex-wrap:wrap;margin-left:auto}
+    .mb{padding:3px 8px;border-radius:10px;font-size:.7rem;font-weight:700}
+    .mb.k{background:var(--kb);color:var(--k)}.mb.p{background:var(--pb);color:var(--p)}.mb.c{background:var(--cb);color:var(--c)}.mb.f{background:var(--fb);color:var(--f)}
+
+    ul.ing{list-style:none;display:flex;flex-direction:column;gap:4px}
+    ul.ing li{display:flex;gap:8px;font-size:.88rem;padding:5px 0;border-bottom:1px solid #f8fafc;align-items:flex-start}
+    ul.ing li:last-child{border:none}
+    ul.ing li::before{content:'✓';color:var(--green);font-weight:800;flex-shrink:0;margin-top:1px}
+    .pt{margin-top:12px;padding:9px 13px;background:var(--green-l);border-radius:8px;font-size:.8rem;color:#166534;border-left:3px solid var(--green)}
+
+    /* TIPS */
+    .section{max-width:880px;margin:0 auto;padding:24px 20px}
+    .section h2{font-size:1.25rem;font-weight:800;margin-bottom:16px}
+    .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+    .tip-c{background:#fff;border-radius:14px;padding:18px;border:1px solid var(--border)}
+    .tip-c .icon{font-size:1.6rem;margin-bottom:8px}
+    .tip-c h3{font-size:.9rem;font-weight:700;margin-bottom:6px}
+    .tip-c p{font-size:.82rem;color:var(--muted);line-height:1.65}
+
+    /* SUPP */
+    .supp-c{background:#fff;border-radius:12px;padding:16px;border:1px solid var(--border);display:flex;gap:12px}
+    .supp-c .si{font-size:1.4rem;flex-shrink:0}
+    .supp-c h4{font-size:.88rem;font-weight:700;margin-bottom:3px}
+    .supp-c p{font-size:.78rem;color:var(--muted);line-height:1.5}
+
+    footer{text-align:center;padding:20px;font-size:.78rem;color:var(--muted);background:#fff;border-top:1px solid var(--border);margin-top:16px}
+
+    @media(max-width:600px){.hdr h1{font-size:1.5rem}.mc{min-width:90px;padding:10px 14px}.mc .v{font-size:1.1rem}}
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="hdr">
+  <h1>🥗 Cardápio Semanal</h1>
+  <p>Objetivo: Redução de Gordura Corporal · Nutricionista & Chef Pessoal</p>
+</header>
+
+<!-- MACRO BAR -->
+<div class="mbar">
+  <div class="mc k"><div class="v">~2.300</div><div class="l">Calorias (kcal)</div></div>
+  <div class="mc p"><div class="v">170–190g</div><div class="l">Proteína</div></div>
+  <div class="mc c"><div class="v">200–240g</div><div class="l">Carboidrato</div></div>
+  <div class="mc f"><div class="v">60–70g</div><div class="l">Gordura</div></div>
+  <div class="mc w"><div class="v">3,5–4 L</div><div class="l">Água</div></div>
+  <div class="mc s"><div class="v">7–8 h</div><div class="l">Sono</div></div>
+</div>
+
+<!-- TABS -->
+<div class="tabs">
+  <button class="tb act" onclick="sd(this,'seg')">Segunda</button>
+  <button class="tb" onclick="sd(this,'ter')">Terça</button>
+  <button class="tb" onclick="sd(this,'qua')">Quarta</button>
+  <button class="tb" onclick="sd(this,'qui')">Quinta</button>
+  <button class="tb" onclick="sd(this,'sex')">Sexta</button>
+  <button class="tb" onclick="sd(this,'sab')">Sábado</button>
+  <button class="tb" onclick="sd(this,'dom')">Domingo</button>
+</div>
+
+<!-- ══════════ SEGUNDA ══════════ -->
+<div id="seg" class="dc act">
+  <div class="dh">
+    <div class="dt">🟢 Segunda-feira</div>
+    <div class="dm">
+      <span class="badge k">~2.280 kcal</span>
+      <span class="badge p">P 178g</span>
+      <span class="badge c">C 218g</span>
+      <span class="badge f">G 63g</span>
+    </div>
+  </div>
+
+  <!-- CAFÉ -->
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">☀️</div>
+      <div><div class="mn">Café da Manhã</div><div class="mt">07:00 · Omelete Proteico</div></div>
+      <div class="mm">
+        <span class="mb k">~430 kcal</span><span class="mb p">P 32g</span><span class="mb c">C 55g</span><span class="mb f">G 10g</span>
+      </div>
+    </div>
+    <ul class="ing">
+      <li>1 ovo inteiro + 4 claras (omelete com espinafre e tomate)</li>
+      <li>40g aveia em flocos finos + 150ml leite desnatado (cozido ou mingau)</li>
+      <li>1 banana média</li>
+      <li>Café preto sem açúcar à vontade</li>
+    </ul>
+    <div class="pt">🍳 Preparo: Omelete em frigideira antiaderente sem óleo. Misture aveia no leite e aqueça 2 min no micro-ondas. Adoce com canela em pó.</div>
+  </div>
+
+  <!-- LANCHE MANHÃ -->
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🍎</div>
+      <div><div class="mn">Lanche da Manhã</div><div class="mt">10:00 · Shake Pré-Treino</div></div>
+      <div class="mm">
+        <span class="mb k">~260 kcal</span><span class="mb p">P 32g</span><span class="mb c">C 28g</span><span class="mb f">G 3g</span>
+      </div>
+    </div>
+    <ul class="ing">
+      <li>30g Whey Protein (qualquer sabor) + 200ml leite desnatado</li>
+      <li>1 maçã média</li>
+    </ul>
+    <div class="pt">💡 Se treinar às 11h, tome este lanche 30–40 min antes do treino.</div>
+  </div>
+
+  <!-- ALMOÇO -->
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🍽️</div>
+      <div><div class="mn">Almoço</div><div class="mt">13:00 · Frango com Arroz & Feijão</div></div>
+      <div class="mm">
+        <span class="mb k">~680 kcal</span><span class="mb p">P 58g</span><span class="mb c">C 72g</span><span class="mb f">G 16g</span>
+      </div>
+    </div>
+    <ul class="ing">
+      <li>150g peito de frango grelhado (tempero: limão, alho, sal, páprica)</li>
+      <li>170g arroz branco cozido (5 colheres de sopa cheias)</li>
+      <li>80g feijão cozido (3 colheres de sopa)</li>
+      <li>1 col. sopa azeite de oliva extra virgem (finalizar no prato)</li>
+      <li>Salada verde à vontade: alface, tomate, pepino, cenoura ralada</li>
+    </ul>
+    <div class="pt">🥗 Dica: Tempere a salada só com limão, sal e o azeite já contabilizado. Não use molhos industriais.</div>
+  </div>
+
+  <!-- LANCHE TARDE -->
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🐟</div>
+      <div><div class="mn">Lanche da Tarde</div><div class="mt">16:00 · Pão com Atum</div></div>
+      <div class="mm">
+        <span class="mb k">~295 kcal</span><span class="mb p">P 34g</span><span class="mb c">C 32g</span><span class="mb f">G 4g</span>
+      </div>
+    </div>
+    <ul class="ing">
+      <li>1 lata de atum ao natural (120g, escorrido)</li>
+      <li>2 fatias de pão integral</li>
+      <li>Tomate fatiado + rúcula + mostarda dijon (sem mayonnaise)</li>
+    </ul>
+  </div>
+
+  <!-- JANTAR -->
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🌙</div>
+      <div><div class="mn">Jantar</div><div class="mt">19:30 · Tilápia com Batata Doce</div></div>
+      <div class="mm">
+        <span class="mb k">~420 kcal</span><span class="mb p">P 42g</span><span class="mb c">C 31g</span><span class="mb f">G 13g</span>
+      </div>
+    </div>
+    <ul class="ing">
+      <li>150g filé de tilápia grelhado (limão, alho, ervas)</li>
+      <li>150g batata doce cozida ou assada</li>
+      <li>100g brócolis refogado com alho e 1 fio de azeite</li>
+    </ul>
+    <div class="pt">🌙 Jantar leve e baixo em carboidrato simples. Priorize vegetais fibrosos à noite para controlar insulina.</div>
+  </div>
+
+  <!-- CEIA -->
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🌛</div>
+      <div><div class="mn">Ceia</div><div class="mt">21:30 · Proteína de Digestão Lenta</div></div>
+      <div class="mm">
+        <span class="mb k">~195 kcal</span><span class="mb p">P 24g</span><span class="mb c">C 8g</span><span class="mb f">G 7g</span>
+      </div>
+    </div>
+    <ul class="ing">
+      <li>200g queijo cottage integral</li>
+      <li>Canela em pó + adoçante a gosto (sem açúcar)</li>
+    </ul>
+    <div class="pt">🛌 Cottage tem caseína (proteína de digestão lenta) — ideal antes de dormir para preservar músculo.</div>
+  </div>
+</div>
+
+<!-- ══════════ TERÇA ══════════ -->
+<div id="ter" class="dc">
+  <div class="dh">
+    <div class="dt">🔵 Terça-feira</div>
+    <div class="dm">
+      <span class="badge k">~2.300 kcal</span>
+      <span class="badge p">P 182g</span>
+      <span class="badge c">C 222g</span>
+      <span class="badge f">G 62g</span>
+    </div>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">☀️</div>
+      <div><div class="mn">Café da Manhã</div><div class="mt">07:00 · Overnight Oats</div></div>
+      <div class="mm"><span class="mb k">~420 kcal</span><span class="mb p">P 38g</span><span class="mb c">C 52g</span><span class="mb f">G 8g</span></div>
+    </div>
+    <ul class="ing">
+      <li>40g aveia em flocos + 200ml leite desnatado + 30g whey baunilha (misturar na noite anterior)</li>
+      <li>1 pera ou 1 kiwi (por cima, na hora de comer)</li>
+      <li>Canela em pó</li>
+    </ul>
+    <div class="pt">🕐 Preparo: Misture tudo em pote com tampa e deixe na geladeira. De manhã é só pegar e comer.</div>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🥜</div>
+      <div><div class="mn">Lanche da Manhã</div><div class="mt">10:00 · Proteína + Gordura Boa</div></div>
+      <div class="mm"><span class="mb k">~280 kcal</span><span class="mb p">P 24g</span><span class="mb c">C 10g</span><span class="mb f">G 15g</span></div>
+    </div>
+    <ul class="ing">
+      <li>200g iogurte grego natural zero % gordura</li>
+      <li>20g pasta de amendoim integral (sem açúcar adicionado)</li>
+      <li>1 col. chá de mel</li>
+    </ul>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🍽️</div>
+      <div><div class="mn">Almoço</div><div class="mt">13:00 · Macarrão Integral com Frango</div></div>
+      <div class="mm"><span class="mb k">~700 kcal</span><span class="mb p">P 55g</span><span class="mb c">C 80g</span><span class="mb f">G 14g</span></div>
+    </div>
+    <ul class="ing">
+      <li>150g peito de frango desfiado (cozido no tempero)</li>
+      <li>120g macarrão integral (peso cru) — penne ou fusilli</li>
+      <li>Molho de tomate natural (tomate, alho, manjericão, sem industrializados)</li>
+      <li>1 col. sopa azeite para finalizar</li>
+      <li>Salada de rúcula com tomate cereja</li>
+    </ul>
+    <div class="pt">🍝 Cozinhe o macarrão al dente (índice glicêmico menor). Use molho de tomate caseiro — evite molhos em caixinha com açúcar.</div>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🥚</div>
+      <div><div class="mn">Lanche da Tarde</div><div class="mt">16:00 · Ovos Cozidos</div></div>
+      <div class="mm"><span class="mb k">~290 kcal</span><span class="mb p">P 26g</span><span class="mb c">C 28g</span><span class="mb f">G 10g</span></div>
+    </div>
+    <ul class="ing">
+      <li>3 ovos cozidos (inteiros)</li>
+      <li>2 torradas integrais</li>
+      <li>Sal, pimenta e orégano a gosto</li>
+    </ul>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🌙</div>
+      <div><div class="mn">Jantar</div><div class="mt">19:30 · Frango com Inhame</div></div>
+      <div class="mm"><span class="mb k">~415 kcal</span><span class="mb p">P 45g</span><span class="mb c">C 38g</span><span class="mb f">G 9g</span></div>
+    </div>
+    <ul class="ing">
+      <li>160g peito de frango grelhado (orégano, açafrão, alho)</li>
+      <li>150g inhame cozido (alternativa a batata doce)</li>
+      <li>Mix de legumes: abobrinha + pimentão + cebola refogados</li>
+      <li>1 fio de azeite</li>
+    </ul>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🌛</div>
+      <div><div class="mn">Ceia</div><div class="mt">21:30 · Shake de Caseína</div></div>
+      <div class="mm"><span class="mb k">~195 kcal</span><span class="mb p">P 31g</span><span class="mb c">C 14g</span><span class="mb f">G 2g</span></div>
+    </div>
+    <ul class="ing">
+      <li>30g Whey Protein (ou Casein) + 200ml leite desnatado</li>
+      <li>Cubos de gelo (para shake gelado)</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ══════════ QUARTA ══════════ -->
+<div id="qua" class="dc">
+  <div class="dh">
+    <div class="dt">🟡 Quarta-feira</div>
+    <div class="dm">
+      <span class="badge k">~2.290 kcal</span>
+      <span class="badge p">P 177g</span>
+      <span class="badge c">C 225g</span>
+      <span class="badge f">G 65g</span>
+    </div>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">☀️</div>
+      <div><div class="mn">Café da Manhã</div><div class="mt">07:00 · Panqueca Proteica</div></div>
+      <div class="mm"><span class="mb k">~440 kcal</span><span class="mb p">P 36g</span><span class="mb c">C 48g</span><span class="mb f">G 11g</span></div>
+    </div>
+    <ul class="ing">
+      <li>Massa: 2 ovos inteiros + 1 banana amassada + 40g aveia (bater no liquidificador)</li>
+      <li>Fritar em frigideira antiaderente sem óleo (3–4 panquecas)</li>
+      <li>Cobertura: 200g iogurte grego zero + canela</li>
+    </ul>
+    <div class="pt">🥞 Adicione uma colher de whey na massa para turbinar a proteína sem alterar o sabor.</div>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🥗</div>
+      <div><div class="mn">Lanche da Manhã</div><div class="mt">10:00 · Cottage Power</div></div>
+      <div class="mm"><span class="mb k">~240 kcal</span><span class="mb p">P 28g</span><span class="mb c">C 16g</span><span class="mb f">G 7g</span></div>
+    </div>
+    <ul class="ing">
+      <li>200g queijo cottage</li>
+      <li>1 fruta de baixo IG: pera, maçã ou kiwi</li>
+      <li>Canela em pó a gosto</li>
+    </ul>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🍽️</div>
+      <div><div class="mn">Almoço</div><div class="mt">13:00 · Frango com Arroz & Feijão</div></div>
+      <div class="mm"><span class="mb k">~690 kcal</span><span class="mb p">P 56g</span><span class="mb c">C 78g</span><span class="mb f">G 16g</span></div>
+    </div>
+    <ul class="ing">
+      <li>160g frango grelhado (açafrão + páprica defumada)</li>
+      <li>180g arroz integral cozido</li>
+      <li>80g feijão preto cozido</li>
+      <li>1 col. sopa azeite + salsa fresca</li>
+      <li>Salada: couve manteiga crua fatiada + cenoura + tomate</li>
+    </ul>
+    <div class="pt">🌾 Use arroz integral: mais fibra, menor pico de insulina, maior saciedade.</div>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🐟</div>
+      <div><div class="mn">Lanche da Tarde</div><div class="mt">16:00 · Atum com Torrada</div></div>
+      <div class="mm"><span class="mb k">~285 kcal</span><span class="mb p">P 32g</span><span class="mb c">C 30g</span><span class="mb f">G 4g</span></div>
+    </div>
+    <ul class="ing">
+      <li>120g atum ao natural escorrido</li>
+      <li>2 torradas integrais</li>
+      <li>Tomate + orégano + fio de azeite</li>
+    </ul>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🌙</div>
+      <div><div class="mn">Jantar</div><div class="mt">19:30 · Carne Magra com Batata Doce</div></div>
+      <div class="mm"><span class="mb k">~445 kcal</span><span class="mb p">P 44g</span><span class="mb c">C 33g</span><span class="mb f">G 16g</span></div>
+    </div>
+    <ul class="ing">
+      <li>150g patinho ou coxão mole grelhado</li>
+      <li>160g batata doce assada (com casca — mais fibra)</li>
+      <li>Brócolis e couve-flor cozidos no vapor</li>
+      <li>Alho, sal, pimenta e limão siciliano</li>
+    </ul>
+    <div class="pt">🥩 Carne vermelha 2x/semana é saudável. Rica em creatina, ferro e zinco — importantes para hormônios e recuperação.</div>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🌛</div>
+      <div><div class="mn">Ceia</div><div class="mt">21:30</div></div>
+      <div class="mm"><span class="mb k">~190 kcal</span><span class="mb p">P 21g</span><span class="mb c">C 20g</span><span class="mb f">G 3g</span></div>
+    </div>
+    <ul class="ing">
+      <li>200g iogurte grego zero gordura</li>
+      <li>Extrato de baunilha sem açúcar + adoçante natural</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ══════════ QUINTA ══════════ -->
+<div id="qui" class="dc">
+  <div class="dh">
+    <div class="dt">🟠 Quinta-feira</div>
+    <div class="dm">
+      <span class="badge k">~2.310 kcal</span>
+      <span class="badge p">P 185g</span>
+      <span class="badge c">C 220g</span>
+      <span class="badge f">G 64g</span>
+    </div>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">☀️</div>
+      <div><div class="mn">Café da Manhã</div><div class="mt">07:00 · Scrambled Eggs Gourmet</div></div>
+      <div class="mm"><span class="mb k">~425 kcal</span><span class="mb p">P 33g</span><span class="mb c">C 46g</span><span class="mb f">G 12g</span></div>
+    </div>
+    <ul class="ing">
+      <li>3 ovos mexidos (com manteiga ghee — 1 col. chá) + cebolinha e cúrcuma</li>
+      <li>2 fatias de pão integral torrado</li>
+      <li>1 banana amassada como "geleia" natural</li>
+      <li>Café preto sem açúcar</li>
+    </ul>
+    <div class="pt">🧈 Use manteiga ghee (clarificada) no lugar do óleo — mais estável ao calor e sem lactose.</div>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🍎</div>
+      <div><div class="mn">Lanche da Manhã</div><div class="mt">10:00</div></div>
+      <div class="mm"><span class="mb k">~260 kcal</span><span class="mb p">P 32g</span><span class="mb c">C 24g</span><span class="mb f">G 3g</span></div>
+    </div>
+    <ul class="ing">
+      <li>30g Whey Protein + 200ml leite desnatado</li>
+      <li>1 laranja média</li>
+    </ul>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🍽️</div>
+      <div><div class="mn">Almoço</div><div class="mt">13:00 · Tilápia com Lentilha</div></div>
+      <div class="mm"><span class="mb k">~680 kcal</span><span class="mb p">P 58g</span><span class="mb c">C 72g</span><span class="mb f">G 16g</span></div>
+    </div>
+    <ul class="ing">
+      <li>160g filé de tilápia assado com limão e ervas</li>
+      <li>100g arroz branco cozido</li>
+      <li>100g lentilha cozida (rica em fibra + proteína vegetal)</li>
+      <li>1 col. sopa azeite extra virgem</li>
+      <li>Salada: espinafre cru + tomate + pepino + limão</li>
+    </ul>
+    <div class="pt">🫘 Lentilha: proteína vegetal com baixo índice glicêmico. Ótima combinação com peixe para variar as fontes proteicas.</div>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🍗</div>
+      <div><div class="mn">Lanche da Tarde</div><div class="mt">16:00 · Frango na Wrap</div></div>
+      <div class="mm"><span class="mb k">~310 kcal</span><span class="mb p">P 38g</span><span class="mb c">C 28g</span><span class="mb f">G 6g</span></div>
+    </div>
+    <ul class="ing">
+      <li>120g frango desfiado temperado</li>
+      <li>1 wrap integral (ou 2 torradas grandes)</li>
+      <li>Folhas verdes + tomate + mostarda dijon</li>
+    </ul>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🌙</div>
+      <div><div class="mn">Jantar</div><div class="mt">19:30 · Salmão Grelhado ⭐</div></div>
+      <div class="mm"><span class="mb k">~440 kcal</span><span class="mb p">P 42g</span><span class="mb c">C 30g</span><span class="mb f">G 18g</span></div>
+    </div>
+    <ul class="ing">
+      <li>150g filé de salmão grelhado (limão siciliano + ervas)</li>
+      <li>150g batata doce cozida</li>
+      <li>Aspargos ou vagem refogados</li>
+    </ul>
+    <div class="pt">🐟 Salmão 1–2x/semana: ômega-3 combate inflamação, melhora sensibilidade à insulina e auxilia a oxidação de gordura.</div>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🌛</div>
+      <div><div class="mn">Ceia</div><div class="mt">21:30</div></div>
+      <div class="mm"><span class="mb k">~195 kcal</span><span class="mb p">P 24g</span><span class="mb c">C 8g</span><span class="mb f">G 7g</span></div>
+    </div>
+    <ul class="ing">
+      <li>200g queijo cottage + canela em pó</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ══════════ SEXTA ══════════ -->
+<div id="sex" class="dc">
+  <div class="dh">
+    <div class="dt">🟣 Sexta-feira</div>
+    <div class="dm">
+      <span class="badge k">~2.270 kcal</span>
+      <span class="badge p">P 175g</span>
+      <span class="badge c">C 223g</span>
+      <span class="badge f">G 62g</span>
+    </div>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">☀️</div>
+      <div><div class="mn">Café da Manhã</div><div class="mt">07:00 · Smoothie Verde Proteico</div></div>
+      <div class="mm"><span class="mb k">~435 kcal</span><span class="mb p">P 38g</span><span class="mb c">C 56g</span><span class="mb f">G 7g</span></div>
+    </div>
+    <ul class="ing">
+      <li>30g whey protein baunilha</li>
+      <li>200ml leite desnatado</li>
+      <li>1 banana congelada</li>
+      <li>30g aveia em flocos</li>
+      <li>Handful de espinafre cru (sem alterar o sabor)</li>
+      <li>Canela em pó — bater tudo no liquidificador</li>
+    </ul>
+    <div class="pt">🥤 Congele bananas maduras em pedaços para smoothies cremosos sem açúcar nem sorvete.</div>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🫐</div>
+      <div><div class="mn">Lanche da Manhã</div><div class="mt">10:00 · Bowl de Iogurte</div></div>
+      <div class="mm"><span class="mb k">~255 kcal</span><span class="mb p">P 24g</span><span class="mb c">C 26g</span><span class="mb f">G 8g</span></div>
+    </div>
+    <ul class="ing">
+      <li>200g iogurte grego natural zero gordura</li>
+      <li>25g granola low sugar (sem xarope)</li>
+      <li>1 punhado de morango ou mirtilo</li>
+    </ul>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🍽️</div>
+      <div><div class="mn">Almoço</div><div class="mt">13:00 · Bowl de Frango Asiático</div></div>
+      <div class="mm"><span class="mb k">~685 kcal</span><span class="mb p">P 52g</span><span class="mb c">C 78g</span><span class="mb f">G 17g</span></div>
+    </div>
+    <ul class="ing">
+      <li>150g frango em tiras salteado (shoyu light + alho + gengibre)</li>
+      <li>180g arroz branco cozido</li>
+      <li>Brócolis + cenoura + cebola refogados (legumes no ponto crocante)</li>
+      <li>1 col. sopa azeite de gergelim (finalizar)</li>
+      <li>Gergelim tostado para decorar</li>
+    </ul>
+    <div class="pt">🥢 Substitua o shoyu comum por shoyu light (55% menos sódio) ou tamari sem glúten.</div>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🥚</div>
+      <div><div class="mn">Lanche da Tarde</div><div class="mt">16:00</div></div>
+      <div class="mm"><span class="mb k">~285 kcal</span><span class="mb p">P 25g</span><span class="mb c">C 28g</span><span class="mb f">G 9g</span></div>
+    </div>
+    <ul class="ing">
+      <li>3 ovos cozidos inteiros</li>
+      <li>2 torradas integrais</li>
+      <li>Tomate + orégano</li>
+    </ul>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🌙</div>
+      <div><div class="mn">Jantar</div><div class="mt">19:30 · Atum Selado com Batata</div></div>
+      <div class="mm"><span class="mb k">~415 kcal</span><span class="mb p">P 40g</span><span class="mb c">C 35g</span><span class="mb f">G 12g</span></div>
+    </div>
+    <ul class="ing">
+      <li>150g atum fresco ou em lata (grelhado/selado)</li>
+      <li>160g batata inglesa cozida</li>
+      <li>Mix de folhas verdes + cenoura + limão</li>
+      <li>1 col. sopa azeite</li>
+    </ul>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🌛</div>
+      <div><div class="mn">Ceia</div><div class="mt">21:30</div></div>
+      <div class="mm"><span class="mb k">~195 kcal</span><span class="mb p">P 31g</span><span class="mb c">C 14g</span><span class="mb f">G 2g</span></div>
+    </div>
+    <ul class="ing">
+      <li>30g Whey + 200ml leite desnatado</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ══════════ SÁBADO ══════════ -->
+<div id="sab" class="dc">
+  <div class="dh">
+    <div class="dt">🔴 Sábado</div>
+    <div class="dm">
+      <span class="badge k">~2.350 kcal</span>
+      <span class="badge p">P 180g</span>
+      <span class="badge c">C 230g</span>
+      <span class="badge f">G 68g</span>
+    </div>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">☀️</div>
+      <div><div class="mn">Café da Manhã</div><div class="mt">08:00 · Café Reforçado de Fim de Semana</div></div>
+      <div class="mm"><span class="mb k">~490 kcal</span><span class="mb p">P 36g</span><span class="mb c">C 52g</span><span class="mb f">G 15g</span></div>
+    </div>
+    <ul class="ing">
+      <li>4 ovos mexidos (1 col. chá manteiga ghee + cebolinha + cúrcuma)</li>
+      <li>2 fatias pão integral torrado</li>
+      <li>1 laranja ou mamão fresco</li>
+      <li>Café com leite desnatado (sem açúcar)</li>
+    </ul>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🍎</div>
+      <div><div class="mn">Lanche da Manhã</div><div class="mt">10:30</div></div>
+      <div class="mm"><span class="mb k">~260 kcal</span><span class="mb p">P 32g</span><span class="mb c">C 22g</span><span class="mb f">G 3g</span></div>
+    </div>
+    <ul class="ing">
+      <li>30g Whey Protein + 200ml leite desnatado</li>
+      <li>1 banana</li>
+    </ul>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🥩</div>
+      <div><div class="mn">Almoço</div><div class="mt">13:00 · Almoço Especial de Sábado ⭐</div></div>
+      <div class="mm"><span class="mb k">~730 kcal</span><span class="mb p">P 56g</span><span class="mb c">C 76g</span><span class="mb f">G 21g</span></div>
+    </div>
+    <ul class="ing">
+      <li>180g picanha ou contrafilé grelhado (sem exagerar na gordura visível)</li>
+      <li>150g arroz branco cozido</li>
+      <li>80g feijão cozido</li>
+      <li>Farofa light (20g farinha mandioca + salsinha + alho — sem manteiga extra)</li>
+      <li>Salada à vontade com azeite + limão</li>
+    </ul>
+    <div class="pt">🎉 Sábado é dia do "almoço especial". Carne vermelha magra 1x/semana está dentro do plano. Aproveite sem culpa!</div>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🥜</div>
+      <div><div class="mn">Lanche da Tarde</div><div class="mt">16:00</div></div>
+      <div class="mm"><span class="mb k">~290 kcal</span><span class="mb p">P 24g</span><span class="mb c">C 16g</span><span class="mb f">G 14g</span></div>
+    </div>
+    <ul class="ing">
+      <li>200g queijo cottage</li>
+      <li>30g mix de castanhas (castanha-de-caju, nozes, amêndoas)</li>
+    </ul>
+    <div class="pt">🥜 Castanhas: gordura monoinsaturada que regula colesterol e auxilia na sensação de saciedade.</div>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🌙</div>
+      <div><div class="mn">Jantar</div><div class="mt">19:30 · Frango Leve</div></div>
+      <div class="mm"><span class="mb k">~385 kcal</span><span class="mb p">P 44g</span><span class="mb c">C 30g</span><span class="mb f">G 10g</span></div>
+    </div>
+    <ul class="ing">
+      <li>160g frango grelhado</li>
+      <li>150g batata doce assada</li>
+      <li>Salada verde + limão (após o almoço especial, jantar leve compensa)</li>
+    </ul>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🌛</div>
+      <div><div class="mn">Ceia</div><div class="mt">21:30</div></div>
+      <div class="mm"><span class="mb k">~195 kcal</span><span class="mb p">P 24g</span><span class="mb c">C 8g</span><span class="mb f">G 7g</span></div>
+    </div>
+    <ul class="ing">
+      <li>200g queijo cottage + canela em pó</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ══════════ DOMINGO ══════════ -->
+<div id="dom" class="dc">
+  <div class="dh">
+    <div class="dt">⚪ Domingo · Recuperação Ativa</div>
+    <div class="dm">
+      <span class="badge k">~2.250 kcal</span>
+      <span class="badge p">P 172g</span>
+      <span class="badge c">C 215g</span>
+      <span class="badge f">G 62g</span>
+    </div>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">☀️</div>
+      <div><div class="mn">Café da Manhã</div><div class="mt">08:30 · Aveia na Tigela</div></div>
+      <div class="mm"><span class="mb k">~405 kcal</span><span class="mb p">P 34g</span><span class="mb c">C 54g</span><span class="mb f">G 7g</span></div>
+    </div>
+    <ul class="ing">
+      <li>40g aveia + 200ml leite desnatado (aquecido)</li>
+      <li>30g whey protein misturado na aveia</li>
+      <li>Banana fatiada + canela em pó</li>
+    </ul>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🥚</div>
+      <div><div class="mn">Lanche da Manhã</div><div class="mt">10:30</div></div>
+      <div class="mm"><span class="mb k">~245 kcal</span><span class="mb p">P 22g</span><span class="mb c">C 24g</span><span class="mb f">G 8g</span></div>
+    </div>
+    <ul class="ing">
+      <li>3 ovos cozidos</li>
+      <li>2 torradas integrais + tomate fatiado</li>
+    </ul>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🍽️</div>
+      <div><div class="mn">Almoço</div><div class="mt">13:00 · Refeição Livre Controlada</div></div>
+      <div class="mm"><span class="mb k">~680 kcal</span><span class="mb p">P 50g</span><span class="mb c">C 72g</span><span class="mb f">G 20g</span></div>
+    </div>
+    <ul class="ing">
+      <li>⭐ Refeição de preferência pessoal — sem restrição rígida</li>
+      <li>Mantenha: 1 fonte de proteína (mínimo 150g de carne/peixe/frango)</li>
+      <li>Evite: frituras em imersão, refrigerantes, molhos ultra-processados</li>
+      <li>Sirva-se uma vez, sem repetição</li>
+    </ul>
+    <div class="pt">🔓 A refeição livre não é um "cheat meal" descontrolado. É planejada: 1 refeição, 1 vez, escolhida com consciência. Isso mantém a aderência sem sabotar o déficit semanal.</div>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🍎</div>
+      <div><div class="mn">Lanche da Tarde</div><div class="mt">16:00</div></div>
+      <div class="mm"><span class="mb k">~255 kcal</span><span class="mb p">P 30g</span><span class="mb c">C 22g</span><span class="mb f">G 3g</span></div>
+    </div>
+    <ul class="ing">
+      <li>30g Whey Protein + 200ml leite desnatado</li>
+      <li>1 maçã ou pera</li>
+    </ul>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🌙</div>
+      <div><div class="mn">Jantar</div><div class="mt">19:30 · Reset da Semana</div></div>
+      <div class="mm"><span class="mb k">~470 kcal</span><span class="mb p">P 48g</span><span class="mb c">C 36g</span><span class="mb f">G 17g</span></div>
+    </div>
+    <ul class="ing">
+      <li>160g frango grelhado</li>
+      <li>150g arroz integral cozido</li>
+      <li>Legumes variados no vapor (abobrinha, cenoura, brócolis)</li>
+      <li>1 col. sopa azeite + limão</li>
+    </ul>
+  </div>
+
+  <div class="mc-card">
+    <div class="mh">
+      <div class="mico">🌛</div>
+      <div><div class="mn">Ceia</div><div class="mt">21:30</div></div>
+      <div class="mm"><span class="mb k">~195 kcal</span><span class="mb p">P 24g</span><span class="mb c">C 8g</span><span class="mb f">G 7g</span></div>
+    </div>
+    <ul class="ing">
+      <li>200g queijo cottage + canela</li>
+    </ul>
+  </div>
+</div>
+
+<!-- DICAS -->
+<div class="section">
+  <h2>💡 Diretrizes Nutricionais</h2>
+  <div class="grid2">
+    <div class="tip-c">
+      <div class="icon">💧</div>
+      <h3>Hidratação (3,5–4 L/dia)</h3>
+      <p>Comece com 500ml ao acordar. Mantenha garrafa de 1L sempre visível. Beba 500ml antes de cada refeição principal. Chás sem açúcar contam para a meta. Urina clara = hidratado.</p>
+    </div>
+    <div class="tip-c">
+      <div class="icon">🛌</div>
+      <h3>Sono (7–8h) — Prioridade #1</h3>
+      <p>Sono ruim eleva cortisol e grelina (hormônio da fome), reduz leptina (saciedade). Sem sono adequado, mesmo com dieta perfeita o corpo resiste em perder gordura. Desligue telas 1h antes de dormir.</p>
+    </div>
+    <div class="tip-c">
+      <div class="icon">⏰</div>
+      <h3>Timing das Refeições</h3>
+      <p>Carboidratos: priorize no café e almoço (antes do treino). Proteínas: distribuídas igualmente ao longo do dia (melhor síntese muscular). Jantar: leve e de baixo IG. Ceia: caseína (cottage/iogurte) para proteger músculo durante o jejum noturno.</p>
+    </div>
+    <div class="tip-c">
+      <div class="icon">🔥</div>
+      <h3>Déficit Calórico</h3>
+      <p>~2.300 kcal representa um déficit moderado de 300–400 kcal (ajuste conforme seu TDEE). Déficit sustentável: perda de 0,5–1% do peso corporal por semana. Mais que isso, você perde músculo junto com gordura.</p>
+    </div>
+    <div class="tip-c">
+      <div class="icon">🥦</div>
+      <h3>Vegetais à Vontade</h3>
+      <p>Folhas verdes, tomate, pepino, abobrinha, brócolis, couve-flor, aspargos — caloria negligível, alto volume, muita fibra. Coma sem medo. Aumentam saciedade e regulam glicemia.</p>
+    </div>
+    <div class="tip-c">
+      <div class="icon">🚫</div>
+      <h3>O Que Evitar</h3>
+      <p>Açúcar refinado, refrigerante (zero também impacta microbiota), álcool (vazio calórico + suprime oxidação de gordura), frituras em imersão, ultraprocessados com lista extensa de ingredientes.</p>
+    </div>
+    <div class="tip-c">
+      <div class="icon">🧂</div>
+      <h3>Sódio e Retenção</h3>
+      <p>Prefira sal rosa do Himalaia ou sal marinho. Evite temperos prontos ricos em sódio. Alta ingestão de sódio mascara a perda de gordura com retenção de água — o peso não cai, mas a gordura está sendo perdida.</p>
+    </div>
+    <div class="tip-c">
+      <div class="icon">📏</div>
+      <h3>Medindo o Progresso</h3>
+      <p>Pese-se sempre no mesmo horário (manhã, em jejum). Tire medidas (cintura, quadril) semanalmente. Tire foto quinzenal. A balança oscila — confie mais no espelho e nas medidas.</p>
+    </div>
+  </div>
+</div>
+
+<!-- SUPLEMENTAÇÃO -->
+<div class="section" style="padding-top:0">
+  <h2>💊 Suplementação Opcional</h2>
+  <div class="grid2">
+    <div class="supp-c">
+      <div class="si">🥛</div>
+      <div><h4>Whey Protein</h4><p>30g por dose. Uso: lanche manhã, lanche tarde ou ceia. Facilita atingir a meta proteica sem excesso calórico.</p></div>
+    </div>
+    <div class="supp-c">
+      <div class="si">💪</div>
+      <div><h4>Creatina</h4><p>5g/dia, qualquer horário. Sem fase de carga. Aumenta força, preserva massa magra durante déficit. Evidência sólida.</p></div>
+    </div>
+    <div class="supp-c">
+      <div class="si">🐟</div>
+      <div><h4>Ômega-3</h4><p>2–3g EPA+DHA/dia. Antiinflamatório, melhora sensibilidade à insulina, auxilia oxidação de gordura.</p></div>
+    </div>
+    <div class="supp-c">
+      <div class="si">☀️</div>
+      <div><h4>Vitamina D3 + K2</h4><p>5.000 UI D3 + 100mcg K2 (MK7). A maioria das pessoas tem deficiência. Impacta testosterona, imunidade e saúde óssea.</p></div>
+    </div>
+    <div class="supp-c">
+      <div class="si">🧠</div>
+      <div><h4>Magnésio Quelato</h4><p>300–400mg antes de dormir. Melhora qualidade do sono, regula cortisol, relaxa musculatura.</p></div>
+    </div>
+    <div class="supp-c">
+      <div class="si">☕</div>
+      <div><h4>Cafeína (Pré-Treino)</h4><p>100–200mg (1–2 cafés) 30–45 min antes do treino. Aumenta lipólise e performance. Corte após 14h para não prejudicar o sono.</p></div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  Cardápio elaborado por IA Nutricionista & Chef · Ajuste conforme avaliação presencial com profissional de saúde · Atualizado em 2026
+</footer>
+
+<script>
+  function sd(btn, day) {
+    document.querySelectorAll('.dc').forEach(d => d.classList.remove('act'));
+    document.querySelectorAll('.tb').forEach(b => b.classList.remove('act'));
+    document.getElementById(day).classList.add('act');
+    btn.classList.add('act');
+    window.scrollTo({top: document.querySelector('.tabs').offsetTop - 10, behavior: 'smooth'});
+  }
+</script>
+</body>
+</html>
