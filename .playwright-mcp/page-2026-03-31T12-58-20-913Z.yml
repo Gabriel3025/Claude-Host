@@ -1,0 +1,66 @@
+- generic [ref=e12]:
+  - generic [ref=e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=e27] [cursor=pointer]:
+      - generic [ref=e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=e33] [cursor=pointer]
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - combobox "Tudo" [ref=e44] [cursor=pointer]:
+        - generic [ref=e51]: Tudo
+      - combobox "Todos os anúncios" [ref=e58] [cursor=pointer]:
+        - generic [ref=e68]: Todos os anúncios
+    - generic [ref=e78]:
+      - generic [ref=e84]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=e90]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=e96]: calisteniakids.com.br
+        - button "Limpar" [ref=e98] [cursor=pointer]
+  - dialog [ref=e100]:
+    - generic [ref=e101]:
+      - link [ref=e102] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=e103]: Entrar
+      - menuitem [ref=e104] [cursor=pointer]
+    - generic [ref=e106]:
+      - generic [ref=e107]:
+        - heading [level=4] [ref=e109]: Biblioteca de Anúncios
+        - menuitem [ref=e111] [cursor=pointer]:
+          - heading [level=4] [ref=e113]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=e115] [cursor=pointer]:
+          - heading [level=4] [ref=e117]: API da Biblioteca de Anúncios
+        - menuitem [ref=e119] [cursor=pointer]:
+          - heading [level=4] [ref=e121]: Conteúdo de marca
+      - separator [ref=e122]
+      - generic [ref=e123]:
+        - menuitem [ref=e125] [cursor=pointer]:
+          - heading [level=4] [ref=e127]: Status do sistema
+        - menuitem [ref=e129] [cursor=pointer]:
+          - heading [level=4] [ref=e131]: Assinar para receber atualizações por email
+        - menuitem [ref=e133] [cursor=pointer]:
+          - heading [level=4] [ref=e135]: Perguntas frequentes
+        - menuitem [ref=e137] [cursor=pointer]:
+          - heading [level=4] [ref=e139]: Sobre anúncios e uso de dados
+        - menuitem [ref=e141] [cursor=pointer]:
+          - heading [level=4] [ref=e143]: Privacidade
+        - menuitem [ref=e145] [cursor=pointer]:
+          - heading [level=4] [ref=e147]: Termos
+        - menuitem [ref=e149] [cursor=pointer]:
+          - heading [level=4] [ref=e151]: Cookies
+  - generic [ref=e155]:
+    - progressbar [ref=e156]
+    - progressbar [ref=e157]
+    - progressbar [ref=e158]
+    - progressbar [ref=e159]
+    - progressbar [ref=e160]
+    - progressbar [ref=e161]
+    - progressbar [ref=e162]
+    - progressbar [ref=e163]
+    - progressbar [ref=e164]
+    - progressbar [ref=e165]
