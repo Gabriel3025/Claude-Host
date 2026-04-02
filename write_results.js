@@ -9,25 +9,22 @@ const SHEET_RADAR = '1ZBQ3uukBeIIzSDaD1H1H-1xCkyNcB_dHHSck76m9G_8';
 
 // ACOMPANHAMENTO OFERTAS — rowIdx (0-based), colDia (0-based)
 const acompUpdates = [
-  { rowIdx: 28, colDia: 15, produto: 'Ficha de Treino',          valor: 23  },
-  { rowIdx: 29, colDia: 15, produto: '1.200 Moldes de Papel',    valor: 0   },
-  { rowIdx: 30, colDia: 15, produto: 'Exerc. Anatomia',          valor: 15  },
-  { rowIdx: 31, colDia: 13, produto: '100 Brincadeiras Bebês',   valor: 39  },
-  { rowIdx: 32, colDia: 13, produto: 'Moldes em FOAM (Dol)',     valor: 20  },
-  { rowIdx: 33, colDia: 13, produto: 'Organização do Lar',       valor: 59  },
-  { rowIdx: 34, colDia: 13, produto: 'DryWall',                  valor: 160 },
-  { rowIdx: 35, colDia: 13, produto: 'Tarot',                    valor: 85  },
-  { rowIdx: 36, colDia: 13, produto: 'Como plantar',             valor: 4   },
-  { rowIdx: 37, colDia: 13, produto: 'Neuropro',                 valor: 100 },
-  { rowIdx: 38, colDia: 13, produto: '120 dinamicas infan',      valor: 0   },
-  { rowIdx: 39, colDia: 13, produto: 'Moldes EVA',               valor: 8   },
-  { rowIdx: 40, colDia: 7,  produto: 'Airfryer',                 valor: 15  },
-  { rowIdx: 41, colDia: 7,  produto: 'Saude (Euro)',             valor: 69  },
+  { rowIdx: 31, colDia: 14, produto: '100 Brincadeiras Bebês',   valor: 29  },
+  { rowIdx: 32, colDia: 14, produto: 'Moldes em FOAM (Dol)',     valor: 20  },
+  { rowIdx: 33, colDia: 14, produto: 'Organização do Lar',       valor: 60  },
+  { rowIdx: 34, colDia: 14, produto: 'DryWall',                  valor: 160 },
+  { rowIdx: 35, colDia: 14, produto: 'Tarot',                    valor: 85  },
+  { rowIdx: 36, colDia: 14, produto: 'Como plantar',             valor: 4   },
+  { rowIdx: 37, colDia: 14, produto: 'Neuropro',                 valor: 100 },
+  { rowIdx: 38, colDia: 14, produto: '120 dinamicas infan',      valor: 0   },
+  { rowIdx: 39, colDia: 14, produto: 'Moldes EVA',               valor: 17  },
+  { rowIdx: 40, colDia: 8,  produto: 'Airfryer',                 valor: 53  },
+  { rowIdx: 41, colDia: 8,  produto: 'Saude (Euro)',             valor: 92  },
 ];
 
 // RADAR DE OFERTAS — rowIdx (0-based), colDia (0-based)
 const radarUpdates = [
-  { rowIdx: 34, colDia: 14, produto: 'Calcinhas (DROP)',         valor: 55  },
+  { rowIdx: 34, colDia: 15, produto: 'Calcinhas (DROP)',         valor: 88  },
 ];
 
 function colToLetter(col) {
