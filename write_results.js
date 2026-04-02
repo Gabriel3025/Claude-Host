@@ -9,26 +9,25 @@ const SHEET_RADAR = '1ZBQ3uukBeIIzSDaD1H1H-1xCkyNcB_dHHSck76m9G_8';
 
 // ACOMPANHAMENTO OFERTAS — rowIdx (0-based), colDia (0-based)
 const acompUpdates = [
-  { rowIdx: 27, colDia: 15, produto: 'Ebook bibílico (Infant)',  valor: 0   },
-  { rowIdx: 28, colDia: 14, produto: 'Ficha de Treino',          valor: 23  },
-  { rowIdx: 29, colDia: 14, produto: '1.200 Moldes de Papel',    valor: 0   },
-  { rowIdx: 30, colDia: 14, produto: 'Exerc. Anatomia',          valor: 28  },
-  { rowIdx: 31, colDia: 12, produto: '100 Brincadeiras Bebês',   valor: 37  },
-  { rowIdx: 32, colDia: 12, produto: 'Moldes em FOAM (Dol)',     valor: 18  },
-  { rowIdx: 33, colDia: 12, produto: 'Organização do Lar',       valor: 62  },
-  { rowIdx: 34, colDia: 12, produto: 'DryWall',                  valor: 160 },
-  { rowIdx: 35, colDia: 12, produto: 'Tarot',                    valor: 85  },
-  { rowIdx: 36, colDia: 12, produto: 'Como plantar',             valor: 4   },
-  { rowIdx: 37, colDia: 12, produto: 'Neuropro',                 valor: 100 },
-  { rowIdx: 38, colDia: 12, produto: '120 dinamicas infan',      valor: 6   },
-  { rowIdx: 39, colDia: 12, produto: 'Moldes EVA',               valor: 11  },
+  { rowIdx: 28, colDia: 15, produto: 'Ficha de Treino',          valor: 23  },
+  { rowIdx: 29, colDia: 15, produto: '1.200 Moldes de Papel',    valor: 0   },
+  { rowIdx: 30, colDia: 15, produto: 'Exerc. Anatomia',          valor: 15  },
+  { rowIdx: 31, colDia: 13, produto: '100 Brincadeiras Bebês',   valor: 39  },
+  { rowIdx: 32, colDia: 13, produto: 'Moldes em FOAM (Dol)',     valor: 20  },
+  { rowIdx: 33, colDia: 13, produto: 'Organização do Lar',       valor: 59  },
+  { rowIdx: 34, colDia: 13, produto: 'DryWall',                  valor: 160 },
+  { rowIdx: 35, colDia: 13, produto: 'Tarot',                    valor: 85  },
+  { rowIdx: 36, colDia: 13, produto: 'Como plantar',             valor: 4   },
+  { rowIdx: 37, colDia: 13, produto: 'Neuropro',                 valor: 100 },
+  { rowIdx: 38, colDia: 13, produto: '120 dinamicas infan',      valor: 0   },
+  { rowIdx: 39, colDia: 13, produto: 'Moldes EVA',               valor: 8   },
+  { rowIdx: 40, colDia: 7,  produto: 'Airfryer',                 valor: 15  },
+  { rowIdx: 41, colDia: 7,  produto: 'Saude (Euro)',             valor: 69  },
 ];
 
 // RADAR DE OFERTAS — rowIdx (0-based), colDia (0-based)
 const radarUpdates = [
-  { rowIdx: 32, colDia: 16, produto: 'Calistenia kids',          valor: 6   },
-  { rowIdx: 33, colDia: 16, produto: 'Ebook bibílico (Infant)',  valor: 0   },
-  { rowIdx: 34, colDia: 13, produto: 'Calcinhas (DROP)',         valor: 55  },
+  { rowIdx: 34, colDia: 14, produto: 'Calcinhas (DROP)',         valor: 55  },
 ];
 
 function colToLetter(col) {
