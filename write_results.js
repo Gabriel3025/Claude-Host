@@ -9,22 +9,25 @@ const SHEET_RADAR = '1ZBQ3uukBeIIzSDaD1H1H-1xCkyNcB_dHHSck76m9G_8';
 
 // ACOMPANHAMENTO OFERTAS — rowIdx (0-based), colDia (0-based)
 const acompUpdates = [
-  { rowIdx: 31, colDia: 14, produto: '100 Brincadeiras Bebês',   valor: 29  },
-  { rowIdx: 32, colDia: 14, produto: 'Moldes em FOAM (Dol)',     valor: 20  },
-  { rowIdx: 33, colDia: 14, produto: 'Organização do Lar',       valor: 60  },
-  { rowIdx: 34, colDia: 14, produto: 'DryWall',                  valor: 160 },
-  { rowIdx: 35, colDia: 14, produto: 'Tarot',                    valor: 85  },
-  { rowIdx: 36, colDia: 14, produto: 'Como plantar',             valor: 4   },
-  { rowIdx: 37, colDia: 14, produto: 'Neuropro',                 valor: 100 },
-  { rowIdx: 38, colDia: 14, produto: '120 dinamicas infan',      valor: 0   },
-  { rowIdx: 39, colDia: 14, produto: 'Moldes EVA',               valor: 17  },
-  { rowIdx: 40, colDia: 8,  produto: 'Airfryer',                 valor: 53  },
-  { rowIdx: 41, colDia: 8,  produto: 'Saude (Euro)',             valor: 92  },
+  { rowIdx: 31, colDia: 15, produto: '100 Brincadeiras Bebês',   valor: 31  },
+  { rowIdx: 32, colDia: 15, produto: 'Moldes em FOAM (Dol)',     valor: 19  },
+  { rowIdx: 33, colDia: 15, produto: 'Organização do Lar',       valor: 60  },
+  { rowIdx: 34, colDia: 15, produto: 'DryWall',                  valor: 150 },
+  { rowIdx: 35, colDia: 15, produto: 'Tarot',                    valor: 86  },
+  { rowIdx: 36, colDia: 15, produto: 'Como plantar',             valor: 4   },
+  { rowIdx: 37, colDia: 15, produto: 'Neuropro',                 valor: 100 },
+  { rowIdx: 38, colDia: 15, produto: '120 dinamicas infan',      valor: 0   },
+  { rowIdx: 39, colDia: 15, produto: 'Moldes EVA',               valor: 9   },
+  { rowIdx: 40, colDia: 9,  produto: 'Airfryer',                 valor: 42  },
+  { rowIdx: 41, colDia: 9,  produto: 'Saude (Euro)',             valor: 120 },
+  { rowIdx: 43, colDia: 7,  produto: '100 Cards Anti-Bullying',  valor: 57  },
+  { rowIdx: 44, colDia: 7,  produto: 'Planilha Capivarinha',     valor: 31  },
+  { rowIdx: 45, colDia: 7,  produto: 'JiuJistsu (LATAM)',        valor: 9   },
 ];
 
 // RADAR DE OFERTAS — rowIdx (0-based), colDia (0-based)
 const radarUpdates = [
-  { rowIdx: 34, colDia: 15, produto: 'Calcinhas (DROP)',         valor: 88  },
+  { rowIdx: 34, colDia: 16, produto: 'Calcinhas (DROP)',         valor: 79  },
 ];
 
 function colToLetter(col) {
