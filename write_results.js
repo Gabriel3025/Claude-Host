@@ -9,11 +9,13 @@ const SHEET_RADAR = '1ZBQ3uukBeIIzSDaD1H1H-1xCkyNcB_dHHSck76m9G_8';
 
 // ACOMPANHAMENTO OFERTAS — rowIdx (0-based), colDia (0-based)
 const acompUpdates = [
-  { rowIdx: 40, colDia: 12, produto: 'Airfryer',                 valor: 55  },
-  { rowIdx: 41, colDia: 12, produto: 'Saude (Euro)',             valor: 160 },
-  { rowIdx: 43, colDia: 10, produto: '100 Cards Anti-Bullying',  valor: 56  },
-  { rowIdx: 44, colDia: 10, produto: 'Planilha Capivarinha',     valor: 24  },
-  { rowIdx: 45, colDia: 10, produto: 'JiuJistsu (LATAM)',        valor: 11  },
+  { rowIdx: 40, colDia: 13, produto: 'Airfryer',                 valor: 43 },
+  { rowIdx: 41, colDia: 13, produto: 'Saude (Euro)',             valor: 92 },
+  { rowIdx: 43, colDia: 11, produto: '100 Cards Anti-Bullying',  valor: 55 },
+  { rowIdx: 44, colDia: 11, produto: 'Planilha Capivarinha',     valor: 21 },
+  { rowIdx: 45, colDia: 11, produto: 'JiuJistsu (LATAM)',        valor: 11 },
+  { rowIdx: 46, colDia: 7,  produto: 'Kit Casinhas de Boneca',   valor: 19 },
+  { rowIdx: 47, colDia: 7,  produto: 'Kit Figurinhas Educativas',valor: 74 },
 ];
 
 // RADAR DE OFERTAS — rowIdx (0-based), colDia (0-based)
