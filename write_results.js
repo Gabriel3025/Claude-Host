@@ -8,17 +8,13 @@ const SHEET_ACOMP = '1902H_f_1PpnA9M0E_MpHEYfavj4U-nwKGzurbvf8PYg';
 const SHEET_RADAR = '1ZBQ3uukBeIIzSDaD1H1H-1xCkyNcB_dHHSck76m9G_8';
 
 // ACOMPANHAMENTO OFERTAS — rowIdx (0-based), colDia (0-based)
+// col 15 = P = DIA 10 (index 15)
 const acompUpdates = [
-  { rowIdx: 40, colDia: 14, produto: 'Airfryer',                 valor: 69 },
-  { rowIdx: 41, colDia: 14, produto: 'Saude (Euro)',             valor: 82 },
-  { rowIdx: 43, colDia: 12, produto: '100 Cards Anti-Bullying',  valor: 60 },
-  { rowIdx: 44, colDia: 12, produto: 'Planilha Capivarinha',     valor: 19 },
-  { rowIdx: 45, colDia: 12, produto: 'JiuJistsu (LATAM)',        valor: 16 },
-  { rowIdx: 46, colDia: 8,  produto: 'Kit Casinhas de Boneca',   valor: 22 },
-  { rowIdx: 47, colDia: 8,  produto: 'Kit Figurinhas Educativas',valor: 94 },
+  { rowIdx: 39, colDia: 15, produto: 'Airfryer',     valor: 60 },
+  { rowIdx: 40, colDia: 15, produto: 'Saude (Euro)', valor: 140 },
 ];
 
-// RADAR DE OFERTAS — rowIdx (0-based), colDia (0-based)
+// RADAR DE OFERTAS — nenhum pendente hoje
 const radarUpdates = [];
 
 function colToLetter(col) {
@@ -43,6 +39,10 @@ async function getAuthClient() {
 }
 
 async function batchWrite(auth, spreadsheetId, updates, label) {
+  if (updates.length === 0) {
+    console.log(`⏭️  ${label}: nenhum pendente.`);
+    return;
+  }
   const sheets = google.sheets({ version: 'v4', auth });
   const data = updates.map(u => {
     const col = colToLetter(u.colDia);
