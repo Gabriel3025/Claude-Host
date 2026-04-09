@@ -18,6 +18,8 @@
     "get_links.js": true,
     "conferencia.js": true,
     "package.json": true,
-    "package-lock.json": true
+    "package-lock.json": true,
+    ".vscode": true,
+    "Primeiro teste.xlsx": true
   }
 }
