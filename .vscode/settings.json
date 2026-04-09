@@ -1,0 +1,23 @@
+{
+  "files.exclude": {
+    "node_modules": true,
+    ".playwright-mcp": true,
+    "**/*.png": true,
+    "**/*.jpg": true,
+    "**/*.jpeg": true,
+    "**/*.webp": true,
+    "**/*.svg": true,
+    "**/*.mp4": true,
+    "**/*.zip": true,
+    "bonus*.html": true,
+    "cardapio-semanal.html": true,
+    "airfryer-page*.png": true,
+    "calendario-da-faxina*.json": true,
+    "collect_ads.js": true,
+    "collect_counts.js": true,
+    "get_links.js": true,
+    "conferencia.js": true,
+    "package.json": true,
+    "package-lock.json": true
+  }
+}
