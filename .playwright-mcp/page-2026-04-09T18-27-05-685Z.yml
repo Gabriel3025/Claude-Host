@@ -1,0 +1,98 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]: Carregamento concluído
+  - dialog "Primeiro, vamos falar dos cookies 🍪" [ref=e5]:
+    - heading "Primeiro, vamos falar dos cookies 🍪" [level=4] [ref=e6]
+    - generic [ref=e8]:
+      - text: Utilizamos cookies essenciais para o funcionamento do Canva. Gostaríamos de usar outros cookies para melhorar e personalizar a sua experiência, selecionar melhor os anúncios do Canva que você vê no nosso site e em sites parceiros e analisar o desempenho do nosso site, mas somente se você permitir. Para saber mais sobre suas opções,
+      - link "consulte a nossa Política de cookies" [ref=e9] [cursor=pointer]:
+        - /url: https://www.canva.com/policies/cookies-policy/
+      - text: .
+    - generic [ref=e10]:
+      - button "Aceitar todos os cookies" [ref=e11] [cursor=pointer]:
+        - generic [ref=e12]: Aceitar todos os cookies
+      - button "Administrar cookies" [ref=e13] [cursor=pointer]:
+        - generic [ref=e14]: Administrar cookies
+  - main [ref=e17]:
+    - generic [ref=e26]:
+      - link "Página de início do Canva" [ref=e29] [cursor=pointer]:
+        - /url: /pt_br/
+        - generic [ref=e30]: Página de início do Canva
+      - navigation [ref=e36]:
+        - list [ref=e37]:
+          - listitem [ref=e38]:
+            - button "Design" [ref=e39] [cursor=pointer]:
+              - generic [ref=e40]: Design
+          - listitem [ref=e41]:
+            - button "Produto" [ref=e42] [cursor=pointer]:
+              - generic [ref=e43]: Produto
+          - listitem [ref=e44]:
+            - button "Planos" [ref=e45] [cursor=pointer]:
+              - generic [ref=e46]: Planos
+          - listitem [ref=e47]:
+            - button "Negócios" [ref=e48] [cursor=pointer]:
+              - generic [ref=e49]: Negócios
+          - listitem [ref=e50]:
+            - button "Educação" [ref=e51] [cursor=pointer]:
+              - generic [ref=e52]: Educação
+          - listitem [ref=e53]:
+            - button "Ajuda" [ref=e54] [cursor=pointer]:
+              - generic [ref=e55]: Ajuda
+    - region [ref=e64]:
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - generic [ref=e69]:
+            - heading "Faça login ou registre-se em segundos" [level=3] [ref=e72]
+            - paragraph [ref=e74]: Use seu e-mail ou outra plataforma de identificação para entrar no Canva. É grátis!
+          - generic [ref=e75]:
+            - button "Continuar com o Google" [ref=e76] [cursor=pointer]:
+              - generic [ref=e77]:
+                - generic [ref=e78]:
+                  - generic:
+                    - img
+                - paragraph [ref=e80]: Continuar com o Google
+            - button "Continuar com o Facebook" [ref=e81] [cursor=pointer]:
+              - generic [ref=e82]:
+                - generic [ref=e83]:
+                  - generic:
+                    - img
+                - paragraph [ref=e85]: Continuar com o Facebook
+            - button "Continuar com e-mail" [ref=e86] [cursor=pointer]:
+              - generic [ref=e87]:
+                - generic [ref=e88]:
+                  - generic:
+                    - img
+                - paragraph [ref=e90]: Continuar com e-mail
+          - button "Continuar de outra forma" [ref=e91] [cursor=pointer]:
+            - generic [ref=e92]: Continuar de outra forma
+        - generic [ref=e95]:
+          - paragraph [ref=e97]:
+            - text: Ao continuar, você concorda com os
+            - link "Termos de Uso⁠ (abre em uma nova aba ou janela)" [ref=e98] [cursor=pointer]:
+              - /url: /pt_br/politicas/terms-of-use/
+              - text: Termos de Uso
+              - generic:
+                - text: ⁠
+                - generic [ref=e99]: (abre em uma nova aba ou janela)
+            - text: do Canva. Leia nossa
+            - link "Política de Privacidade⁠ (abre em uma nova aba ou janela)" [ref=e100] [cursor=pointer]:
+              - /url: /pt_br/politicas/privacy-policy/
+              - text: Política de Privacidade
+              - generic:
+                - text: ⁠
+                - generic [ref=e101]: (abre em uma nova aba ou janela)
+            - text: .
+          - button "Registrar-se como empresa" [ref=e102]:
+            - generic:
+              - img
+            - paragraph [ref=e103]: Registrar-se como empresa
+    - generic [ref=e106]:
+      - generic [ref=e107]:
+        - link "Política de Privacidade" [ref=e108] [cursor=pointer]:
+          - /url: /pt_br/politicas/privacy-policy/
+        - link "Condições" [ref=e110] [cursor=pointer]:
+          - /url: /pt_br/politicas/terms-of-use/
+      - button "Português (Brasil)" [ref=e116] [cursor=pointer]:
+        - generic [ref=e117]:
+          - generic:
+            - img
+        - generic [ref=e119]: Português (Brasil)
