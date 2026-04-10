@@ -19,6 +19,10 @@
       }
     ]
   },
+  "statusLine": {
+    "type": "command",
+    "command": "bash \"C:/Users/Administrador.LAURAFERREIRA/.claude/statusline.sh\""
+  },
   "permissions": {
     "allow": [
       "Bash(node -e \":*)"
