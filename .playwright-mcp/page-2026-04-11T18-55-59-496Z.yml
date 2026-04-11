@@ -1,0 +1,72 @@
+- generic [ref=e12]:
+  - generic [ref=e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=e27] [cursor=pointer]:
+      - generic [ref=e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=e33] [cursor=pointer]
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - combobox "Tudo" [ref=e44] [cursor=pointer]:
+        - generic [ref=e51]: Tudo
+      - combobox "Todos os anúncios" [ref=e63] [cursor=pointer]:
+        - generic [ref=e73]: Todos os anúncios
+    - generic [ref=e83]:
+      - generic [ref=e89]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=e95]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=e101]: Kit Casinha em PDF
+        - button "Limpar" [ref=e103] [cursor=pointer]
+  - generic [ref=e106]:
+    - img "Foto do perfil da Página" [ref=e111]
+    - heading "Kit Casinha em PDF" [level=1] [ref=e116]
+  - generic [ref=e118]:
+    - link "Anúncios" [ref=e119] [cursor=pointer]
+    - link "Sobre" [ref=e120] [cursor=pointer]
+  - dialog [ref=e121]:
+    - generic [ref=e122]:
+      - link [ref=e123] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=e124]: Entrar
+      - menuitem [ref=e125] [cursor=pointer]
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - heading [level=4] [ref=e130]: Biblioteca de Anúncios
+        - menuitem [ref=e132] [cursor=pointer]:
+          - heading [level=4] [ref=e134]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=e136] [cursor=pointer]:
+          - heading [level=4] [ref=e138]: API da Biblioteca de Anúncios
+        - menuitem [ref=e140] [cursor=pointer]:
+          - heading [level=4] [ref=e142]: Conteúdo de marca
+      - separator [ref=e143]
+      - generic [ref=e144]:
+        - menuitem [ref=e146] [cursor=pointer]:
+          - heading [level=4] [ref=e148]: Status do sistema
+        - menuitem [ref=e150] [cursor=pointer]:
+          - heading [level=4] [ref=e152]: Assinar para receber atualizações por email
+        - menuitem [ref=e154] [cursor=pointer]:
+          - heading [level=4] [ref=e156]: Perguntas frequentes
+        - menuitem [ref=e158] [cursor=pointer]:
+          - heading [level=4] [ref=e160]: Sobre anúncios e uso de dados
+        - menuitem [ref=e162] [cursor=pointer]:
+          - heading [level=4] [ref=e164]: Privacidade
+        - menuitem [ref=e166] [cursor=pointer]:
+          - heading [level=4] [ref=e168]: Termos
+        - menuitem [ref=e170] [cursor=pointer]:
+          - heading [level=4] [ref=e172]: Cookies
+  - generic [ref=e176]:
+    - progressbar [ref=e177]
+    - progressbar [ref=e178]
+    - progressbar [ref=e179]
+    - progressbar [ref=e180]
+    - progressbar [ref=e181]
+    - progressbar [ref=e182]
+    - progressbar [ref=e183]
+    - progressbar [ref=e184]
+    - progressbar [ref=e185]
+    - progressbar [ref=e186]

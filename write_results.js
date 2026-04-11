@@ -1,25 +1,31 @@
-const { google } = require('C:/Users/Administrador.LAURAFERREIRA/AppData/Roaming/npm/node_modules/@modelcontextprotocol/server-gdrive/node_modules/googleapis/build/src/index.js');
+const { google } = require(
+  'C:/Users/Administrador.LAURAFERREIRA/AppData/Roaming/npm/node_modules/@modelcontextprotocol/server-gdrive/node_modules/googleapis/build/src/index.js'
+);
 const fs = require('fs');
 
-const KEYS_PATH = 'C:/Users/Administrador.LAURAFERREIRA/Downloads/gcp-oauth.keys.json';
 const CREDENTIALS_PATH = 'C:/Users/Administrador.LAURAFERREIRA/Downloads/.gdrive-server-credentials.json';
+const SHEET_ID = '1902H_f_1PpnA9M0E_MpHEYfavj4U-nwKGzurbvf8PYg';
 
-const SHEET_ACOMP = '1902H_f_1PpnA9M0E_MpHEYfavj4U-nwKGzurbvf8PYg';
-const SHEET_RADAR = '1ZBQ3uukBeIIzSDaD1H1H-1xCkyNcB_dHHSck76m9G_8';
-
-// ACOMPANHAMENTO OFERTAS — rowIdx (0-based), colDia (0-based)
-// col 15 = P = DIA 10 (index 15)
-const acompUpdates = [
-  { rowIdx: 39, colDia: 15, produto: 'Airfryer',     valor: 60 },
-  { rowIdx: 40, colDia: 15, produto: 'Saude (Euro)', valor: 140 },
+const results = [
+  { rowIdx: 42, colDia: 15, produto: '100 Cards Anti-Bullying', valor: 65 },
+  { rowIdx: 43, colDia: 15, produto: 'Planilha Capivarinha', valor: 20 },
+  { rowIdx: 44, colDia: 15, produto: 'JiuJistsu (LATAM)', valor: 12 },
+  { rowIdx: 45, colDia: 11, produto: 'Kit Casinhas de Boneca', valor: 19 },
+  { rowIdx: 46, colDia: 11, produto: 'Kit Figurinhas Educativas', valor: 99 },
+  { rowIdx: 47, colDia: 9,  produto: 'Fichas e Resumos de Letras', valor: 110 },
+  { rowIdx: 48, colDia: 7,  produto: 'Projeto Marcenaria', valor: 12 },
+  { rowIdx: 49, colDia: 7,  produto: 'Bijuteria', valor: 12 },
+  { rowIdx: 50, colDia: 7,  produto: 'Alfabetização', valor: 40 },
+  { rowIdx: 51, colDia: 7,  produto: 'Creme AntRugas (DROP)', valor: 46 },
+  { rowIdx: 52, colDia: 7,  produto: 'Atividades Copa do mundo', valor: 10 },
+  { rowIdx: 53, colDia: 7,  produto: 'Calistenia asiática', valor: 26 },
+  { rowIdx: 54, colDia: 7,  produto: 'Religião LATAM', valor: 15 },
+  { rowIdx: 55, colDia: 7,  produto: 'Dinamicas terapeuticas', valor: 9 },
 ];
-
-// RADAR DE OFERTAS — nenhum pendente hoje
-const radarUpdates = [];
 
 function colToLetter(col) {
   let letter = '';
-  col += 1;
+  col = col + 1;
   while (col > 0) {
     const rem = (col - 1) % 26;
     letter = String.fromCharCode(65 + rem) + letter;
@@ -28,43 +34,35 @@ function colToLetter(col) {
   return letter;
 }
 
-async function getAuthClient() {
-  const credentials = JSON.parse(fs.readFileSync(CREDENTIALS_PATH));
-  const keys = JSON.parse(fs.readFileSync(KEYS_PATH));
-  const { client_id, client_secret } = keys.installed || keys.web;
-  const { refresh_token } = credentials;
-  const oauth2Client = new google.auth.OAuth2(client_id, client_secret);
-  oauth2Client.setCredentials({ refresh_token });
-  return oauth2Client;
-}
+async function main() {
+  const creds = JSON.parse(fs.readFileSync(CREDENTIALS_PATH));
+  const auth = new google.auth.OAuth2();
+  auth.setCredentials(creds);
 
-async function batchWrite(auth, spreadsheetId, updates, label) {
-  if (updates.length === 0) {
-    console.log(`⏭️  ${label}: nenhum pendente.`);
-    return;
-  }
   const sheets = google.sheets({ version: 'v4', auth });
-  const data = updates.map(u => {
-    const col = colToLetter(u.colDia);
-    const row = u.rowIdx + 1;
-    return { range: `${col}${row}`, values: [[u.valor]] };
+
+  const data = results.map(r => {
+    const col = colToLetter(r.colDia);
+    const range = `${col}${r.rowIdx}`;
+    return { range, values: [[r.valor]] };
   });
 
   const res = await sheets.spreadsheets.values.batchUpdate({
-    spreadsheetId,
-    requestBody: { valueInputOption: 'RAW', data },
+    spreadsheetId: SHEET_ID,
+    requestBody: {
+      valueInputOption: 'USER_ENTERED',
+      data,
+    },
   });
 
-  console.log(`✅ ${label}: ${res.data.totalUpdatedCells} células gravadas.`);
+  console.log(`✅ ${res.data.totalUpdatedCells} células atualizadas.`);
+  results.forEach(r => {
+    const col = colToLetter(r.colDia);
+    console.log(`  [linha ${r.rowIdx}] ${r.produto} → ${col}${r.rowIdx} = ${r.valor}`);
+  });
 }
 
-(async () => {
-  try {
-    const auth = await getAuthClient();
-    await batchWrite(auth, SHEET_ACOMP, acompUpdates, 'Acompanhamento Ofertas');
-    await batchWrite(auth, SHEET_RADAR, radarUpdates, 'Radar de Ofertas');
-    console.log('✅ Conferência de hoje concluída!');
-  } catch (err) {
-    console.error('❌ Erro:', err.message);
-  }
-})();
+main().catch(err => {
+  console.error('Erro:', err.message);
+  process.exit(1);
+});
