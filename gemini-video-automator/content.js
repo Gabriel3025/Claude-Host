@@ -205,21 +205,39 @@ async function submitPrompt() {
     }
   }
 
-  // Estratégia 3: Enter no campo
+  // Estratégia 3: busca global por botão de envio (pode estar em qualquer parte do DOM)
+  const allBtns = Array.from(document.querySelectorAll('button:not([disabled])'));
+  log(`Buscando globalmente... ${allBtns.length} botões ativos na página.`);
+  for (const btn of allBtns) {
+    const label = (btn.getAttribute('aria-label') || btn.textContent || '').toLowerCase().trim();
+    const jsname = btn.getAttribute('jsname') || '';
+    if (
+      label.includes('send') || label.includes('enviar') ||
+      label.includes('submit') || label.includes('gerar') ||
+      jsname === 'Qx7uuf' || jsname === 'M2UYVd' || jsname === 'Nu4kNd'
+    ) {
+      btn.click();
+      log('Enviado via busca global: "' + (btn.getAttribute('aria-label') || jsname || label).substring(0, 50) + '"');
+      return;
+    }
+  }
+
+  // Estratégia 4: Ctrl+Enter (atalho comum do Gemini)
   if (input) {
-    log('Botão não encontrado — tentando Enter...');
     input.focus();
     await sleep(200);
-
-    // Tenta via evento nativo do teclado
-    const enterDown = new KeyboardEvent('keydown', { key: 'Enter', code: 'Enter', keyCode: 13, which: 13, bubbles: true, cancelable: true });
-    input.dispatchEvent(enterDown);
+    log('Tentando Ctrl+Enter...');
+    input.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', code: 'Enter', keyCode: 13, ctrlKey: true, bubbles: true, cancelable: true }));
     await sleep(100);
-    input.dispatchEvent(new KeyboardEvent('keypress', { key: 'Enter', code: 'Enter', keyCode: 13, which: 13, bubbles: true }));
-    await sleep(100);
-    input.dispatchEvent(new KeyboardEvent('keyup', { key: 'Enter', code: 'Enter', keyCode: 13, bubbles: true }));
+    input.dispatchEvent(new KeyboardEvent('keyup',   { key: 'Enter', code: 'Enter', keyCode: 13, ctrlKey: true, bubbles: true }));
+    await sleep(200);
 
-    log('Enter disparado. Aguarde...');
+    // Estratégia 5: Enter simples como último recurso
+    log('Tentando Enter simples...');
+    input.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', code: 'Enter', keyCode: 13, bubbles: true, cancelable: true }));
+    await sleep(100);
+    input.dispatchEvent(new KeyboardEvent('keyup',   { key: 'Enter', code: 'Enter', keyCode: 13, bubbles: true }));
+    log('Teclas disparadas. Aguardando...');
   } else {
     throw new Error('Campo de texto e botão de envio não encontrados.');
   }
@@ -345,20 +363,15 @@ function diagnose() {
   const videos  = document.querySelectorAll('video');
   const dlBtn   = findDownloadButton();
 
-  // Lista botões próximos ao campo de texto
-  let nearbyBtns = [];
-  if (input) {
-    let parent = input.parentElement;
-    for (let i = 0; i < 5; i++) {
-      if (!parent) break;
-      const btns = parent.querySelectorAll('button');
-      btns.forEach(b => {
-        nearbyBtns.push((b.getAttribute('aria-label') || b.getAttribute('jsname') || b.className || 'sem-label').substring(0, 40));
-      });
-      if (nearbyBtns.length > 0) break;
-      parent = parent.parentElement;
-    }
-  }
+  // Lista TODOS os botões ativos da página
+  const allPageBtns = Array.from(document.querySelectorAll('button:not([disabled])'));
+  let nearbyBtns = allPageBtns.slice(0, 10).map(b => {
+    const label  = b.getAttribute('aria-label') || '';
+    const jsname = b.getAttribute('jsname') || '';
+    const cls    = (b.className || '').substring(0, 30);
+    const txt    = b.textContent.trim().substring(0, 20);
+    return `[${label || jsname || cls || txt || 'sem-label'}]`;
+  });
 
   return {
     inputFound:       !!input,
