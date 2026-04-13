@@ -1,4 +1,4 @@
-// Content script — business.gemini.google
+// Content script — coordena com o background que roda no MAIN world
 
 let state = {
   queue: [], currentIndex: 0,
@@ -19,15 +19,13 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
     case 'STOP':
       state.isRunning = false; state.isPaused = false;
       state.queue = []; state.currentIndex = 0; sendResponse({ ok: true }); break;
-    case 'GET_STATUS':
-      sendResponse({ currentIndex: state.currentIndex, total: state.queue.length, isRunning: state.isRunning }); break;
     case 'DIAGNOSE':
-      sendResponse(diagnose()); break;
+      runDiagnose().then(sendResponse); break;
   }
   return true;
 });
 
-// ── Main loop ────────────────────────────────────────────────────────────────
+// ── Loop principal ────────────────────────────────────────────────────────────
 
 async function processNext() {
   if (!state.isRunning || state.isPaused) return;
@@ -39,31 +37,43 @@ async function processNext() {
   const block = state.queue[state.currentIndex];
   const n = state.currentIndex + 1;
 
-  notifyPopup({ type: 'PROGRESS', current: n, total: state.queue.length,
-    preview: block.substring(0, 60) + (block.length > 60 ? '...' : '') });
+  notifyPopup({
+    type: 'PROGRESS', current: n, total: state.queue.length,
+    preview: block.substring(0, 60) + (block.length > 60 ? '...' : '')
+  });
 
   try {
+    // PASSO 1: Preenche o campo via MAIN world
     log(`[${n}/${state.queue.length}] Preenchendo campo...`);
-    await fillField(block);
-    await sleep(1000); // garante que framework processou o texto
+    const fillResult = await bgExec('FILL_FIELD', { text: block });
+    if (!fillResult?.ok) throw new Error(fillResult?.error || 'Falha ao preencher campo.');
+    log(`Campo preenchido: ${fillResult.result?.length || 0} chars ✓`);
 
+    // Aguarda o framework processar e habilitar o botão
+    await sleep(1200);
+
+    // PASSO 2: Envia via MAIN world
     log(`[${n}] Enviando...`);
-    await sendMessage();
+    const submitResult = await bgExec('SUBMIT_FORM');
+    log(`Envio: ${JSON.stringify(submitResult?.result || {})}`);
 
-    log(`[${n}] Aguardando vídeo...`);
+    // PASSO 3: Aguarda geração
+    log(`[${n}] Aguardando vídeo (até 3 min)...`);
     await waitForVideo();
     await sleep(1500);
 
+    // PASSO 4: Download
     log(`[${n}] Baixando...`);
     const dl = await downloadVideo(n);
 
     notifyPopup({ type: 'BLOCK_DONE', current: n, total: state.queue.length, downloaded: dl });
 
     const delay = state.settings.delayBetween || 5000;
-    log(`[${n}] ✓ Concluído. Próximo em ${delay / 1000}s...`);
+    log(`[${n}] ✓ Pronto. Próximo em ${delay / 1000}s...`);
     await sleep(delay);
     state.currentIndex++;
     processNext();
+
   } catch (err) {
     log(`[${n}] ERRO: ${err.message}`);
     notifyPopup({ type: 'ERROR', current: n, message: err.message });
@@ -71,183 +81,18 @@ async function processNext() {
   }
 }
 
-// ── Encontrar o campo de texto ───────────────────────────────────────────────
+// ── Comunicação com background ────────────────────────────────────────────────
 
-function findField() {
-  // O campo do Gemini Video é um <textarea> com placeholder específico
-  const byPlaceholder = document.querySelector('textarea[placeholder*="Descreva"]') ||
-                        document.querySelector('textarea[placeholder*="vídeo"]') ||
-                        document.querySelector('textarea[placeholder*="video"]');
-  if (byPlaceholder) return byPlaceholder;
-
-  // Fallback: último textarea ou contenteditable da página
-  const textareas = document.querySelectorAll('textarea');
-  if (textareas.length) return textareas[textareas.length - 1];
-
-  const editables = document.querySelectorAll('[contenteditable="true"]');
-  if (editables.length) return editables[editables.length - 1];
-
-  return null;
-}
-
-// ── Preencher campo (método que aciona React/Angular) ────────────────────────
-
-async function fillField(text) {
-  const field = findField();
-  if (!field) throw new Error('Campo de texto não encontrado na página.');
-
-  // 1. Clica para focar (necessário para ativar event listeners)
-  field.click();
-  await sleep(200);
-  field.focus();
-  await sleep(300);
-
-  // 2. Seleciona tudo e apaga
-  document.execCommand('selectAll', false, null);
-  await sleep(100);
-
-  // 3. Tenta inserir via execCommand (mais compatível com React)
-  const inserted = document.execCommand('insertText', false, text);
-  await sleep(300);
-
-  // 4. Verifica se funcionou
-  const currentVal = field.value || field.textContent || '';
-  if (currentVal.trim().length > 0) {
-    log(`Campo preenchido: ${currentVal.length} chars ✓`);
-    return;
-  }
-
-  // 5. Fallback: setter nativo + evento input (compatível com React controlled components)
-  log('execCommand falhou, usando setter nativo...');
-  const nativeSetter = Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, 'value').set;
-  nativeSetter.call(field, text);
-
-  // Dispara os eventos que React/Angular escutam
-  field.dispatchEvent(new Event('focus',  { bubbles: true }));
-  field.dispatchEvent(new Event('input',  { bubbles: true }));
-  field.dispatchEvent(new Event('change', { bubbles: true }));
-  field.dispatchEvent(new InputEvent('input', { bubbles: true, inputType: 'insertText', data: text }));
-
-  await sleep(400);
-
-  // 6. Simula paste como última tentativa
-  const dt = new DataTransfer();
-  dt.setData('text/plain', text);
-  field.dispatchEvent(new ClipboardEvent('paste', { clipboardData: dt, bubbles: true, cancelable: true }));
-  await sleep(300);
-
-  log(`Campo preenchido (fallback): ${text.length} chars`);
-}
-
-// ── Enviar mensagem ──────────────────────────────────────────────────────────
-
-async function sendMessage() {
-  // Aguarda framework processar o input
-  await sleep(800);
-
-  const field = findField();
-
-  // Estratégia 0: requestSubmit no form (nativo, funciona com qualquer framework)
-  const form = field?.closest('form');
-  if (form) {
-    try {
-      form.requestSubmit();
-      log('Enviado via form.requestSubmit() ✓');
-      return;
-    } catch (e) {
-      // form.submit() como fallback do requestSubmit
-      try { form.submit(); log('Enviado via form.submit() ✓'); return; } catch (_) {}
-    }
-  }
-
-  // Tenta encontrar o botão de envio via MutationObserver por 3 segundos
-  const btn = await waitForSendButton(3000);
-  if (btn) {
-    btn.click();
-    log('Enviado via botão: ' + (btn.getAttribute('aria-label') || btn.getAttribute('jsname') || btn.className.substring(0, 40)));
-    return;
-  }
-
-  // Busca manual por todos os botões habilitados
-  const field = findField();
-  const allButtons = Array.from(document.querySelectorAll('button:not([disabled])'));
-  log(`${allButtons.length} botões ativos. Procurando envio...`);
-
-  // Tenta botões com aria-label de envio
-  for (const b of allButtons) {
-    const label = (b.getAttribute('aria-label') || '').toLowerCase();
-    if (label.includes('send') || label.includes('enviar') || label.includes('submit')) {
-      b.click();
-      log('Enviado: ' + label);
-      return;
-    }
-  }
-
-  // Tenta clicar no botão à direita do campo
-  if (field) {
-    const rect = field.getBoundingClientRect();
-    for (const xOffset of [50, 80, 40, 100]) {
-      const el = document.elementFromPoint(rect.right + xOffset, rect.top + rect.height / 2);
-      const btn = el?.closest('button') || (el?.tagName === 'BUTTON' ? el : null);
-      if (btn && !btn.disabled) {
-        btn.click();
-        log('Enviado via clique posicional (right+' + xOffset + ')');
-        return;
-      }
-    }
-
-    // Tenta dentro do container do campo (botão irmão)
-    let parent = field.parentElement;
-    for (let i = 0; i < 8; i++) {
-      if (!parent) break;
-      const btns = Array.from(parent.querySelectorAll('button:not([disabled])'));
-      if (btns.length > 0 && btns.length <= 5) {
-        // Pega o último botão do container (geralmente é o de envio)
-        const last = btns[btns.length - 1];
-        last.click();
-        log('Enviado via último botão do container (nível ' + i + ')');
-        return;
-      }
-      parent = parent.parentElement;
-    }
-
-    // Último recurso: Enter no campo
-    log('Usando Enter como último recurso...');
-    field.focus();
-    await sleep(200);
-    field.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', keyCode: 13, bubbles: true, cancelable: true }));
-    await sleep(100);
-    field.dispatchEvent(new KeyboardEvent('keyup', { key: 'Enter', keyCode: 13, bubbles: true }));
-  }
-}
-
-// Aguarda o botão de envio habilitar (fica disabled=false após React processar o texto)
-function waitForSendButton(timeout = 3000) {
+function bgExec(type, extra = {}) {
   return new Promise((resolve) => {
-    const start = Date.now();
-
-    function check() {
-      // Busca botões que possam ser de envio
-      const candidates = document.querySelectorAll('button:not([disabled])');
-      for (const b of candidates) {
-        const label = (b.getAttribute('aria-label') || '').toLowerCase();
-        const jsname = b.getAttribute('jsname') || '';
-        if (
-          label.includes('send') || label.includes('enviar') ||
-          jsname === 'Qx7uuf' || jsname === 'M2UYVd' || jsname === 'Nu4kNd'
-        ) {
-          resolve(b); return;
-        }
-      }
-      if (Date.now() - start < timeout) setTimeout(check, 200);
-      else resolve(null);
-    }
-
-    check();
+    chrome.runtime.sendMessage({ type, ...extra }, (res) => {
+      if (chrome.runtime.lastError) resolve({ ok: false, error: chrome.runtime.lastError.message });
+      else resolve(res);
+    });
   });
 }
 
-// ── Aguardar geração do vídeo ────────────────────────────────────────────────
+// ── Aguardar vídeo (MutationObserver) ────────────────────────────────────────
 
 function waitForVideo() {
   return new Promise((resolve, reject) => {
@@ -257,8 +102,7 @@ function waitForVideo() {
     function finish(reason) {
       if (done) return; done = true;
       clearTimeout(t); clearInterval(poll); observer.disconnect();
-      log('Vídeo detectado: ' + reason);
-      resolve();
+      log('Vídeo detectado: ' + reason); resolve();
     }
     function fail(msg) {
       if (done) return; done = true;
@@ -267,22 +111,20 @@ function waitForVideo() {
     }
 
     const observer = new MutationObserver(() => {
-      if (findDownloadButton()) { finish('botão download apareceu'); return; }
+      if (findDownloadButton()) { finish('botão download'); return; }
       const v = document.querySelector('video');
-      if (v && (v.src || v.currentSrc || v.readyState >= 1)) finish('elemento video detectado');
+      if (v && (v.src || v.currentSrc || v.readyState >= 1)) finish('elemento video');
     });
-    observer.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['src', 'aria-label', 'disabled'] });
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['src', 'disabled'] });
 
     const poll = setInterval(() => {
-      if (findDownloadButton()) { finish('poll: botão download'); return; }
+      if (findDownloadButton()) { finish('poll: download btn'); return; }
       const v = document.querySelector('video');
       if (v && (v.src || v.currentSrc)) finish('poll: video src');
     }, 2000);
 
     const t = setTimeout(() => fail('Timeout: vídeo não gerado em 3 minutos.'), MAX);
-
-    // Começa a verificar após 5s (geração leva tempo)
-    sleep(5000).then(() => { if (!done) observer.observe(document.body, { childList: true, subtree: true }); });
+    sleep(5000); // mínimo antes de começar a verificar
   });
 }
 
@@ -295,7 +137,6 @@ function findDownloadButton() {
     '[aria-label*="Baixar" i]',
     '[aria-label*="Download" i]',
     '[title*="Baixar" i]',
-    '[title*="Download" i]',
     'a[download]',
   ];
   for (const s of selectors) {
@@ -307,20 +148,19 @@ function findDownloadButton() {
 
 async function downloadVideo(n) {
   const btn = findDownloadButton();
-  if (btn) { btn.click(); log(`Download: clicou no botão ✓`); return true; }
+  if (btn) { btn.click(); log('Download via botão ✓'); return true; }
 
   const v = document.querySelector('video');
-  if (!v) { log('Sem vídeo para baixar.'); return false; }
+  if (!v) { log('Sem vídeo — baixe manualmente.'); return false; }
 
   const url = v.src || v.currentSrc;
-  if (!url) { log('Sem URL de vídeo.'); return false; }
+  if (!url) { log('Sem URL — baixe manualmente.'); return false; }
 
   if (url.startsWith('blob:')) {
     const a = document.createElement('a');
-    a.href = url;
-    a.download = `video_${String(n).padStart(3,'0')}.mp4`;
+    a.href = url; a.download = `video_${String(n).padStart(3,'0')}.mp4`;
     document.body.appendChild(a); a.click(); document.body.removeChild(a);
-    log('Download blob iniciado ✓'); return true;
+    log('Download blob ✓'); return true;
   }
 
   chrome.runtime.sendMessage({ type: 'DOWNLOAD', url, filename: `video_${String(n).padStart(3,'0')}.mp4` });
@@ -329,25 +169,17 @@ async function downloadVideo(n) {
 
 // ── Diagnóstico ───────────────────────────────────────────────────────────────
 
-function diagnose() {
-  const field = findField();
-  const videos = document.querySelectorAll('video');
-  const dlBtn = findDownloadButton();
-  const allBtns = Array.from(document.querySelectorAll('button')).map(b => ({
-    label: b.getAttribute('aria-label') || '',
-    jsname: b.getAttribute('jsname') || '',
-    disabled: b.disabled,
-    text: b.textContent.trim().substring(0, 20)
-  }));
-
+async function runDiagnose() {
+  const res = await bgExec('INSPECT_BUTTONS');
+  const buttons = res?.result || [];
+  const v = document.querySelector('video');
+  const dl = findDownloadButton();
   return {
-    fieldFound: !!field,
-    fieldTag: field?.tagName,
-    fieldPlaceholder: field?.placeholder || field?.getAttribute('placeholder'),
-    allButtons: allBtns.slice(0, 15),
-    videosCount: videos.length,
-    downloadBtn: !!dlBtn,
-    downloadBtnLabel: dlBtn ? (dlBtn.getAttribute('aria-label') || dlBtn.textContent.trim()) : null
+    buttons,
+    videosCount: document.querySelectorAll('video').length,
+    videoSrc: v?.src || v?.currentSrc || null,
+    downloadBtn: !!dl,
+    downloadLabel: dl?.getAttribute('aria-label') || null
   };
 }
 

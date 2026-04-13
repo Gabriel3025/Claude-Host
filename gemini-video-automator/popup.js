@@ -110,12 +110,16 @@ btnDiagnose.addEventListener('click', async () => {
       return;
     }
     addLog('── Diagnóstico ──', 'info');
-    addLog(`Campo texto: ${res.inputFound ? `✓ <${res.inputTag}>` : '✗ NÃO encontrado'}`, res.inputFound ? 'success' : 'error');
-    if (res.inputPlaceholder) addLog(`Placeholder: "${res.inputPlaceholder}"`, 'info');
-    if (res.nearbyButtons && res.nearbyButtons.length) addLog(`Botões próximos: ${res.nearbyButtons.join(' | ')}`, 'info');
-    else addLog('Botões próximos: nenhum encontrado', 'error');
-    addLog(`Vídeos na página: ${res.videosCount}`, res.videosCount > 0 ? 'success' : 'info');
-    addLog(`Botão download: ${res.downloadBtn ? `✓ "${res.downloadBtnLabel}"` : '✗ não encontrado'}`, res.downloadBtn ? 'success' : 'info');
+    addLog(`Vídeos: ${res.videosCount} | Download btn: ${res.downloadBtn ? '✓' : '✗'}`, 'info');
+    if (res.buttons && res.buttons.length) {
+      addLog(`${res.buttons.length} botões na página:`, 'info');
+      res.buttons.forEach((b, i) => {
+        const info = b.label || b.jsname || b.text || b.class.substring(0,30) || 'sem-label';
+        addLog(`  [${i+1}] ${b.disabled?'(disabled)':''} ${info}`, b.disabled ? '' : 'info');
+      });
+    } else {
+      addLog('Nenhum botão encontrado — página não conectada?', 'error');
+    }
   });
 });
 
