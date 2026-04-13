@@ -159,7 +159,32 @@ async function typePrompt(text) {
 
 // ─── PASSO 2: Enviar ──────────────────────────────────────────────────────────
 async function submitPrompt() {
-  // Botões de envio do Gemini (por ordem de preferência)
+  // Tenta encontrar botão de envio na vizinhança do campo de texto
+  const input = findInputElement();
+
+  // Estratégia 1: busca o botão no mesmo container do input (subindo até 5 níveis)
+  if (input) {
+    let parent = input.parentElement;
+    for (let i = 0; i < 5; i++) {
+      if (!parent) break;
+      const btns = parent.querySelectorAll('button:not([disabled])');
+      for (const btn of btns) {
+        const label = (btn.getAttribute('aria-label') || btn.textContent || '').toLowerCase();
+        // Ignora botão de microfone e de adicionar
+        if (label.includes('microfone') || label.includes('microphone') || label.includes('adicionar') || label.includes('add')) continue;
+        // Prefere botões com ícone de envio
+        const hasSendIcon = btn.querySelector('svg, [data-icon], mat-icon');
+        if (btns.length <= 3 || hasSendIcon) {
+          btn.click();
+          log('Enviado via botão próximo ao campo: ' + (btn.getAttribute('aria-label') || btn.className || 'sem label'));
+          return;
+        }
+      }
+      parent = parent.parentElement;
+    }
+  }
+
+  // Estratégia 2: seletores globais conhecidos
   const selectors = [
     'button[aria-label="Send message"]',
     'button[aria-label="Enviar mensagem"]',
@@ -167,28 +192,36 @@ async function submitPrompt() {
     'button[aria-label*="Enviar" i]',
     'button[data-testid="send-button"]',
     'button[jsname="Qx7uuf"]',
+    'button[jsname="M2UYVd"]',
     'button.send-button',
     'form button[type="submit"]',
   ];
-
   for (const sel of selectors) {
     const btn = document.querySelector(sel);
     if (btn && !btn.disabled) {
       btn.click();
-      log('Enviado via botão: ' + sel);
+      log('Enviado via seletor: ' + sel);
       return;
     }
   }
 
-  // Fallback: pressionar Enter no campo
-  const input = findInputElement();
+  // Estratégia 3: Enter no campo
   if (input) {
-    log('Botão não encontrado — usando Enter...');
-    input.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', code: 'Enter', keyCode: 13, bubbles: true, cancelable: true }));
-    await sleep(80);
-    input.dispatchEvent(new KeyboardEvent('keyup',   { key: 'Enter', code: 'Enter', keyCode: 13, bubbles: true }));
+    log('Botão não encontrado — tentando Enter...');
+    input.focus();
+    await sleep(200);
+
+    // Tenta via evento nativo do teclado
+    const enterDown = new KeyboardEvent('keydown', { key: 'Enter', code: 'Enter', keyCode: 13, which: 13, bubbles: true, cancelable: true });
+    input.dispatchEvent(enterDown);
+    await sleep(100);
+    input.dispatchEvent(new KeyboardEvent('keypress', { key: 'Enter', code: 'Enter', keyCode: 13, which: 13, bubbles: true }));
+    await sleep(100);
+    input.dispatchEvent(new KeyboardEvent('keyup', { key: 'Enter', code: 'Enter', keyCode: 13, bubbles: true }));
+
+    log('Enter disparado. Aguarde...');
   } else {
-    throw new Error('Botão de envio não encontrado.');
+    throw new Error('Campo de texto e botão de envio não encontrados.');
   }
 }
 
@@ -311,11 +344,28 @@ function diagnose() {
   const input   = findInputElement();
   const videos  = document.querySelectorAll('video');
   const dlBtn   = findDownloadButton();
+
+  // Lista botões próximos ao campo de texto
+  let nearbyBtns = [];
+  if (input) {
+    let parent = input.parentElement;
+    for (let i = 0; i < 5; i++) {
+      if (!parent) break;
+      const btns = parent.querySelectorAll('button');
+      btns.forEach(b => {
+        nearbyBtns.push((b.getAttribute('aria-label') || b.getAttribute('jsname') || b.className || 'sem-label').substring(0, 40));
+      });
+      if (nearbyBtns.length > 0) break;
+      parent = parent.parentElement;
+    }
+  }
+
   return {
     inputFound:       !!input,
     inputTag:         input ? input.tagName : null,
     inputEditable:    input ? input.isContentEditable : null,
     inputPlaceholder: input ? (input.placeholder || input.getAttribute('placeholder') || null) : null,
+    nearbyButtons:    nearbyBtns.slice(0, 6),
     videosCount:      videos.length,
     videoSrcs:        Array.from(videos).map(v => v.src || v.currentSrc || '(no src)').slice(0, 3),
     downloadBtn:      !!dlBtn,

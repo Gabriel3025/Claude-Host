@@ -111,9 +111,11 @@ btnDiagnose.addEventListener('click', async () => {
     }
     addLog('── Diagnóstico ──', 'info');
     addLog(`Campo texto: ${res.inputFound ? `✓ <${res.inputTag}>` : '✗ NÃO encontrado'}`, res.inputFound ? 'success' : 'error');
-    addLog(`Vídeos na página: ${res.videosCount}`, res.videosCount > 0 ? 'success' : 'info');
-    if (res.videoSrcs.length) addLog(`Srcs: ${res.videoSrcs.join(' | ')}`, 'info');
     if (res.inputPlaceholder) addLog(`Placeholder: "${res.inputPlaceholder}"`, 'info');
+    if (res.nearbyButtons && res.nearbyButtons.length) addLog(`Botões próximos: ${res.nearbyButtons.join(' | ')}`, 'info');
+    else addLog('Botões próximos: nenhum encontrado', 'error');
+    addLog(`Vídeos na página: ${res.videosCount}`, res.videosCount > 0 ? 'success' : 'info');
+    addLog(`Botão download: ${res.downloadBtn ? `✓ "${res.downloadBtnLabel}"` : '✗ não encontrado'}`, res.downloadBtn ? 'success' : 'info');
   });
 });
 
