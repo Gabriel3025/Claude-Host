@@ -13,7 +13,9 @@
     "sidePanel"
   ],
   "host_permissions": [
-    "https://business.gemini.google.com/*"
+    "https://business.gemini.google.com/*",
+    "https://business.gemini.google/*",
+    "https://gemini.google.com/*"
   ],
   "action": {
     "default_title": "Gemini Video Automator"
@@ -23,7 +25,11 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://business.gemini.google.com/*"],
+      "matches": [
+        "https://business.gemini.google.com/*",
+        "https://business.gemini.google/*",
+        "https://gemini.google.com/*"
+      ],
       "js": ["content.js"],
       "run_at": "document_idle"
     }
