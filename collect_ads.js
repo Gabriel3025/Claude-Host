@@ -1,21 +1,17 @@
 const { chromium } = require('playwright');
 
 const links = [
-  { id: 1,  produto: "100 Brincadeiras Bebês",  link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&q=Espa%C3%A7o%20Compartilhando%20Saberes&search_type=keyword_unordered&sort_data[direction]=desc&sort_data[mode]=total_impressions&source=fb-logo" },
-  { id: 2,  produto: "Moldes em FOAM (Dol)",    link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=1438201469839415" },
-  { id: 3,  produto: "Organização do Lar",      link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&id=4306298432934563&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=323957035217343" },
-  { id: 4,  produto: "DryWall",                link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=106015925221593" },
-  { id: 5,  produto: "Tarot",                  link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=332302629966050" },
-  { id: 6,  produto: "Como plantar",           link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=agroescola.blog.br&search_type=keyword_unordered&sort_data[mode]=total_impressions&sort_data[direction]=desc" },
-  { id: 7,  produto: "Neuropro",               link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=137915816063469" },
-  { id: 8,  produto: "120 dinamicas infan",    link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=814376505087684" },
-  { id: 9,  produto: "Moldes EVA",             link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=612639831936335" },
-  { id: 10, produto: "Airfryer",               link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=568879309640604" },
-  { id: 11, produto: "Saude (Euro)",           link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=985969307931107" },
-  { id: 12, produto: "100 Cards Anti-Bullying",link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&id=1566627487729300&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=620103851191814" },
-  { id: 13, produto: "Planilha Capivarinha",   link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=103914724705901" },
-  { id: 14, produto: "JiuJistsu (LATAM)",      link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=1014540858412585" },
-  { id: 15, produto: "Calcinhas (DROP)",       link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=1684748261643829" },
+  { rowIdx: 45, colDia: 12, produto: "Kit Casinhas de Boneca", diaNome: "DIA 7", link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&id=894236146555718&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=889932910880439" },
+  { rowIdx: 46, colDia: 12, produto: "Kit Figurinhas Educativas", diaNome: "DIA 7", link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&id=1286271340269388&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=520638794477144" },
+  { rowIdx: 47, colDia: 10, produto: "Fichas e Resumos de Letras", diaNome: "DIA 5", link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&id=4299287350328499&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=104104989446273" },
+  { rowIdx: 48, colDia: 8, produto: "Projeto Marcenaria", diaNome: "DIA 3", link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=633981863122900" },
+  { rowIdx: 49, colDia: 8, produto: "Bijuteria", diaNome: "DIA 3", link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=866928149845118" },
+  { rowIdx: 50, colDia: 8, produto: "Alfabetização", diaNome: "DIA 3", link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=292286153965893" },
+  { rowIdx: 51, colDia: 8, produto: "Creme AntRugas (DROP)", diaNome: "DIA 3", link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=1030626216804522" },
+  { rowIdx: 52, colDia: 8, produto: "Atividades Copa do mundo", diaNome: "DIA 3", link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=104124204625179" },
+  { rowIdx: 53, colDia: 8, produto: "Calistenia asiática", diaNome: "DIA 3", link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=634382966425687" },
+  { rowIdx: 54, colDia: 8, produto: "Religião LATAM", diaNome: "DIA 3", link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=402138022974258" },
+  { rowIdx: 55, colDia: 8, produto: "Dinamicas terapeuticas", diaNome: "DIA 3", link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=519466767912828" },
 ];
 
 (async () => {
@@ -32,9 +28,6 @@ const links = [
       await page.keyboard.press('Escape');
       await page.waitForTimeout(1000);
 
-      // Tirar screenshot
-      await page.screenshot({ path: `screenshot_${item.id}.png` });
-
       // Tentar ler o número de resultados
       const text = await page.evaluate(() => document.body.innerText);
 
@@ -45,15 +38,14 @@ const links = [
 
       let valor = 0;
       if (match) {
-        // Remover pontos/vírgulas de milhar e converter
         const numStr = match[1].replace(/\./g, '').replace(/,/g, '');
         valor = parseInt(numStr, 10);
       }
 
-      console.log(`[${item.id}] ${item.produto}: ${valor}`);
+      console.log(`${item.produto} (${item.diaNome}): ${valor}`);
       results.push({ ...item, valor });
     } catch (err) {
-      console.log(`[${item.id}] ${item.produto}: ERRO - ${err.message}`);
+      console.log(`${item.produto} (${item.diaNome}): ERRO - ${err.message}`);
       results.push({ ...item, valor: 0, erro: err.message });
     } finally {
       await page.close();
