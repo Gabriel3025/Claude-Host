@@ -1,0 +1,204 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - region "Notifications (F8)":
+      - list
+    - region "Notifications alt+T"
+    - main [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - heading "Freud acreditava que a cura vinha pela fala. Talvez seja isso que o seu aluno vítima de bullying precisa." [level=1] [ref=e10]
+            - paragraph [ref=e11]: 100 cartas para combater o bullying nas escolas e promover empatia, respeito e convivência saudável entre os alunos, sem precisar preparar atividades complexas ou expor ninguém diretamente.
+            - button "Baixar agora" [ref=e13] [cursor=pointer]:
+              - img
+              - text: Baixar agora
+              - img
+          - img "Cartas da Empatia - Baralho Antibullying" [ref=e15]
+        - img [ref=e17]
+      - generic [ref=e20]:
+        - heading "O silêncio dentro de uma sala de aula fala mais alto do que você imagina." [level=2] [ref=e22]
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - img [ref=e26]
+            - heading "Casos crescentes de bullying" [level=3] [ref=e28]
+            - paragraph [ref=e29]: A violência escolar aumenta a cada ano e muitos educadores não sabem como intervir de forma eficaz.
+          - generic [ref=e30]:
+            - img [ref=e32]
+            - heading "Dificuldade em identificar sinais" [level=3] [ref=e35]
+            - paragraph [ref=e36]: Muitas vezes o bullying acontece de forma silenciosa e os profissionais não conseguem detectar a tempo.
+          - generic [ref=e37]:
+            - img [ref=e39]
+            - heading "Impacto na saúde mental" [level=3] [ref=e42]
+            - paragraph [ref=e43]: Alunos vítimas de bullying sofrem com ansiedade, depressão e queda no rendimento escolar.
+          - generic [ref=e44]:
+            - img [ref=e46]
+            - heading "Falta de material prático" [level=3] [ref=e51]
+            - paragraph [ref=e52]: Educadores buscam recursos prontos para usar em sala de aula, mas encontram pouco conteúdo aplicável.
+      - generic [ref=e54]:
+        - heading "Perguntas que geram coragem em quem sempre teve medo." [level=2] [ref=e56]
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - img [ref=e60]
+            - heading "Combata o bullying de forma prática" [level=3] [ref=e62]
+            - paragraph [ref=e63]: Utilize perguntas reflexivas que ajudam os alunos a pensar sobre atitudes, respeito e convivência de maneira natural.
+          - generic [ref=e64]:
+            - img [ref=e66]
+            - heading "Promova empatia entre os alunos" [level=3] [ref=e68]
+            - paragraph [ref=e69]: Os flashcards incentivam os estudantes a se colocarem no lugar do outro e refletirem sobre suas ações.
+          - generic [ref=e70]:
+            - img [ref=e72]
+            - heading "Tenha rodas de conversa prontas" [level=3] [ref=e74]
+            - paragraph [ref=e75]: Basta pegar um card e iniciar a discussão. Sem planejamento demorado ou atividades complicadas.
+          - generic [ref=e76]:
+            - img [ref=e78]
+            - heading "Trabalhe habilidades socioemocionais com facilidade" [level=3] [ref=e88]
+            - paragraph [ref=e89]: Desenvolva respeito, autocontrole, escuta e convivência saudável de forma leve e participativa.
+          - generic [ref=e90]:
+            - img [ref=e92]
+            - heading "Utilize em qualquer momento da aula" [level=3] [ref=e95]
+            - paragraph [ref=e96]: Ideal para mediação de conflitos, projetos socioemocionais, início das aulas ou atividades semanais.
+          - generic [ref=e97]:
+            - img [ref=e99]
+            - heading "Melhore o clima da sala de aula" [level=3] [ref=e102]
+            - paragraph [ref=e103]: As conversas guiadas ajudam a reduzir conflitos, provocações e desentendimentos entre os alunos.
+      - generic [ref=e105]:
+        - heading "O que você vai receber?" [level=2] [ref=e107]
+        - generic [ref=e109]:
+          - heading "100 cards organizados por temas" [level=3] [ref=e110]
+          - generic [ref=e111]:
+            - generic [ref=e114]: Empatia
+            - generic [ref=e117]: Respeito
+            - generic [ref=e120]: Bullying
+            - generic [ref=e123]: Emoções
+            - generic [ref=e126]: Amizade
+            - generic [ref=e129]: Autoestima
+          - paragraph [ref=e130]: E muito mais.
+      - generic [ref=e132]:
+        - heading "Para quem é?" [level=2] [ref=e134]
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - img [ref=e138]
+            - paragraph [ref=e141]: Professores
+          - generic [ref=e142]:
+            - img [ref=e144]
+            - paragraph [ref=e154]: Psicólogos e Psicopedagogos
+          - generic [ref=e155]:
+            - img [ref=e157]
+            - paragraph [ref=e162]: Coordenadores e orientadores educacionais
+          - generic [ref=e163]:
+            - img [ref=e165]
+            - paragraph [ref=e168]: Pais e responsáveis
+      - generic [ref=e170]:
+        - generic [ref=e171]:
+          - generic [ref=e172]: BÔNUS EXCLUSIVOS
+          - heading "Você ainda leva 3 bônus" [level=2] [ref=e173]
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - img "Dinâmicas para trabalhar respeito e empatia" [ref=e177]
+            - generic [ref=e178]: Bônus 1
+            - heading "Dinâmicas para trabalhar respeito e empatia" [level=3] [ref=e179]
+            - paragraph [ref=e180]: Atividades rápidas e práticas para desenvolver valores e melhorar a convivência entre os alunos.
+          - generic [ref=e181]:
+            - img "Jogo da Memória das Emoções" [ref=e183]
+            - generic [ref=e184]: Bônus 2
+            - heading "Jogo da Memória das Emoções" [level=3] [ref=e185]
+            - paragraph [ref=e186]: Cartas com emoções para ajudar os alunos a identificar sentimentos e desenvolver inteligência emocional.
+          - generic [ref=e187]:
+            - img "Quebrando o Cyberbullying" [ref=e189]
+            - generic [ref=e190]: Bônus 3
+            - heading "Quebrando o Cyberbullying" [level=3] [ref=e191]
+            - paragraph [ref=e192]: Cards com perguntas específicas para discutir respeito no ambiente digital e prevenir situações de cyberbullying.
+      - generic [ref=e194]:
+        - heading "Tudo isso por um valor surpreendente" [level=2] [ref=e196]
+        - generic [ref=e200]:
+          - img "Kit completo - Cartas da Empatia com bônus" [ref=e202]
+          - generic [ref=e203]:
+            - generic [ref=e204]:
+              - generic [ref=e205]:
+                - generic [ref=e206]: R$
+                - generic [ref=e207]: "24"
+                - generic [ref=e208]: ",90"
+              - paragraph [ref=e209]: Pagamento único
+            - generic [ref=e210]:
+              - generic [ref=e211]:
+                - img [ref=e213]
+                - generic [ref=e215]: Suporte incluso
+              - generic [ref=e216]:
+                - img [ref=e218]
+                - generic [ref=e220]: Garantia de 7 dias
+              - generic [ref=e221]:
+                - img [ref=e223]
+                - generic [ref=e225]: Acesso vitalício e imediato
+              - generic [ref=e226]:
+                - img [ref=e228]
+                - generic [ref=e230]: Baralho Cartas da Empatia
+              - generic [ref=e231]:
+                - img [ref=e233]
+                - generic [ref=e235]: "Bônus 1: Dinâmicas para trabalhar respeito e empatia"
+              - generic [ref=e236]:
+                - img [ref=e238]
+                - generic [ref=e240]: "Bônus 2: Jogo da Memória das Emoções"
+              - generic [ref=e241]:
+                - img [ref=e243]
+                - generic [ref=e245]: "Bônus 3: Quebrando o cyberbullying"
+            - button "Adquirir agora" [ref=e246] [cursor=pointer]:
+              - img
+              - text: Adquirir agora
+            - generic [ref=e247]:
+              - img [ref=e248]
+              - generic [ref=e250]: Compra 100% segura
+      - generic [ref=e254]:
+        - img [ref=e256]
+        - heading "Garantia Incondicional de 7 Dias" [level=3] [ref=e259]
+        - paragraph [ref=e260]: Se por qualquer motivo você não ficar satisfeito, devolvemos 100% do seu investimento. Sem perguntas, sem burocracia.
+      - generic [ref=e262]:
+        - heading "Dúvidas Frequentes" [level=2] [ref=e264]
+        - generic [ref=e266]:
+          - heading "Para qual faixa etária os flashcards são indicados?" [level=3] [ref=e268]:
+            - button "Para qual faixa etária os flashcards são indicados?" [ref=e269] [cursor=pointer]:
+              - text: Para qual faixa etária os flashcards são indicados?
+              - img [ref=e270]
+          - generic [ref=e272]:
+            - heading "O pagamento é seguro?" [level=3] [ref=e273]:
+              - button "O pagamento é seguro?" [expanded] [active] [ref=e274] [cursor=pointer]:
+                - text: O pagamento é seguro?
+                - img [ref=e275]
+            - region "O pagamento é seguro?" [ref=e322]:
+              - generic [ref=e323]: Sim! O pagamento é processado pela Hotmart, uma das maiores plataformas de produtos digitais do Brasil, com criptografia de dados e total segurança. Você pode pagar com cartão de crédito ou PIX.
+          - heading "Como recebo o material após a compra?" [level=3] [ref=e278]:
+            - button "Como recebo o material após a compra?" [ref=e279] [cursor=pointer]:
+              - text: Como recebo o material após a compra?
+              - img [ref=e280]
+          - heading "Posso imprimir os flashcards?" [level=3] [ref=e283]:
+            - button "Posso imprimir os flashcards?" [ref=e284] [cursor=pointer]:
+              - text: Posso imprimir os flashcards?
+              - img [ref=e285]
+          - heading "Como funciona a garantia de 7 dias?" [level=3] [ref=e288]:
+            - button "Como funciona a garantia de 7 dias?" [ref=e289] [cursor=pointer]:
+              - text: Como funciona a garantia de 7 dias?
+              - img [ref=e290]
+        - button "Adquirir agora" [ref=e293] [cursor=pointer]:
+          - text: Adquirir agora
+          - img
+      - generic [ref=e296]:
+        - paragraph [ref=e297]: Kit Flashcards Antibullying
+        - paragraph [ref=e298]: Transformando escolas em ambientes mais seguros e acolhedores
+        - generic [ref=e299]:
+          - link "Termos de Uso" [ref=e300] [cursor=pointer]:
+            - /url: "#"
+          - link "Política de Privacidade" [ref=e301] [cursor=pointer]:
+            - /url: "#"
+          - link "Contato" [ref=e302] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e303]:
+          - generic [ref=e304]: Feito com
+          - img [ref=e305]
+          - generic [ref=e307]: para quem educa
+        - paragraph [ref=e308]: © 2026 Todos os direitos reservados.
+  - complementary "Edit with Lovable" [ref=e309]:
+    - link "Edit with Lovable" [ref=e310] [cursor=pointer]:
+      - /url: https://lovable.dev/projects/240e69ee-133a-4477-93c7-28787ddf6081?utm_source=lovable-badge
+      - generic [ref=e311]: Edit with
+      - img [ref=e312]
+    - button "Dismiss" [ref=e317] [cursor=pointer]:
+      - img [ref=e318]
