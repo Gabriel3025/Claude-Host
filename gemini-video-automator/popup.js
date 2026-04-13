@@ -78,18 +78,13 @@ btnStart.addEventListener('click', async () => {
   inputBody.style.display = 'none';
   toggleIcon.classList.add('collapsed');
 
-  chrome.tabs.sendMessage(tab.id, { type: 'START', blocks: parsed, settings }, (res) => {
-    if (chrome.runtime.lastError) {
-      addLog('Erro ao conectar: recarregue a página do Gemini e tente de novo.', 'error');
-      setUIState('idle');
-    }
-  });
+  sendToTab(tab.id, { type: 'START', blocks: parsed, settings });
 });
 
 btnPause.addEventListener('click', async () => {
   const tab = await getActiveTab();
   if (!tab) return;
-  chrome.tabs.sendMessage(tab.id, { type: 'PAUSE' });
+  chrome.tabs.sendMessage(tab.id, { type: 'PAUSE' }, () => {});
   setUIState('paused');
   addLog('Pausado.', 'info');
 });
@@ -97,10 +92,9 @@ btnPause.addEventListener('click', async () => {
 btnStop.addEventListener('click', async () => {
   const tab = await getActiveTab();
   if (!tab) return;
-  chrome.tabs.sendMessage(tab.id, { type: 'STOP' });
+  chrome.tabs.sendMessage(tab.id, { type: 'STOP' }, () => {});
   setUIState('idle');
   addLog('Parado pelo usuário.', 'error');
-  // Mark remaining running/pending as stopped
   blocks.forEach(b => { if (b.status === 'running' || b.status === 'pending') { b.status = 'error'; b.msg = 'Parado'; } });
   renderBlockList();
 });
@@ -255,6 +249,35 @@ function addLog(msg, type = '') {
 async function getActiveTab() {
   return new Promise(resolve => {
     chrome.tabs.query({ active: true, currentWindow: true }, tabs => resolve(tabs[0] || null));
+  });
+}
+
+// Envia mensagem ao content script; se não estiver injetado, injeta primeiro e tenta de novo
+async function sendToTab(tabId, message) {
+  chrome.tabs.sendMessage(tabId, message, (res) => {
+    if (!chrome.runtime.lastError) return; // sucesso
+
+    // Content script não carregado — injeta e tenta de novo
+    addLog('Content script não detectado. Injetando automaticamente...', 'info');
+    chrome.scripting.executeScript(
+      { target: { tabId }, files: ['content.js'] },
+      () => {
+        if (chrome.runtime.lastError) {
+          addLog('Falha ao injetar: ' + chrome.runtime.lastError.message, 'error');
+          setUIState('idle');
+          return;
+        }
+        // Pequena pausa para o script inicializar
+        setTimeout(() => {
+          chrome.tabs.sendMessage(tabId, message, (res2) => {
+            if (chrome.runtime.lastError) {
+              addLog('Erro após injeção: ' + chrome.runtime.lastError.message, 'error');
+              setUIState('idle');
+            }
+          });
+        }, 500);
+      }
+    );
   });
 }
 
