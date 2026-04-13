@@ -1,20 +1,21 @@
 // Content script — business.gemini.google.com
+// Fluxo: separar blocos → digitar no campo "Descreva como deve ser o vídeo"
+//        → enviar → aguardar geração → clicar "Baixar arquivo de vídeo" → próximo bloco
 
 let state = {
   queue: [],
   currentIndex: 0,
   isRunning: false,
   isPaused: false,
-  settings: { delayBetween: 3000 }
+  settings: { delayBetween: 5000 }
 };
 
-// ─── Message listener ─────────────────────────────────────────────────────────
-
+// ─── Messages ─────────────────────────────────────────────────────────────────
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   switch (message.type) {
     case 'START':
-      state.queue    = message.blocks;
-      state.settings = message.settings || state.settings;
+      state.queue        = message.blocks;
+      state.settings     = message.settings || state.settings;
       state.currentIndex = 0;
       state.isRunning    = true;
       state.isPaused     = false;
@@ -33,19 +34,14 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       sendResponse({ ok: true });
       break;
     case 'STOP':
-      state.isRunning = false;
-      state.isPaused  = false;
-      state.queue     = [];
+      state.isRunning    = false;
+      state.isPaused     = false;
+      state.queue        = [];
       state.currentIndex = 0;
       sendResponse({ ok: true });
       break;
     case 'GET_STATUS':
-      sendResponse({
-        currentIndex: state.currentIndex,
-        total:        state.queue.length,
-        isRunning:    state.isRunning,
-        isPaused:     state.isPaused
-      });
+      sendResponse({ currentIndex: state.currentIndex, total: state.queue.length, isRunning: state.isRunning });
       break;
     case 'DIAGNOSE':
       sendResponse(diagnose());
@@ -55,7 +51,6 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 });
 
 // ─── Main loop ────────────────────────────────────────────────────────────────
-
 async function processNext() {
   if (!state.isRunning || state.isPaused) return;
   if (state.currentIndex >= state.queue.length) {
@@ -70,29 +65,34 @@ async function processNext() {
   notifyPopup({
     type: 'PROGRESS',
     current: blockNum,
-    total:   state.queue.length,
+    total: state.queue.length,
     preview: block.substring(0, 60) + (block.length > 60 ? '...' : '')
   });
 
   try {
-    log(`[${blockNum}/${state.queue.length}] Digitando prompt...`);
+    // PASSO 1: Digitar o bloco no campo de texto
+    log(`[${blockNum}/${state.queue.length}] Digitando bloco...`);
     await typePrompt(block);
-    await sleep(700);
+    await sleep(800);
 
-    log(`[${blockNum}] Enviando...`);
+    // PASSO 2: Enviar
+    log(`[${blockNum}] Enviando para o Gemini...`);
     await submitPrompt();
 
-    log(`[${blockNum}] Aguardando geração do vídeo...`);
+    // PASSO 3: Aguardar geração do vídeo
+    log(`[${blockNum}] Aguardando geração (pode levar 1-2 min)...`);
     await waitForVideoReady();
+    await sleep(1500); // pausa extra para o botão de download aparecer
 
-    log(`[${blockNum}] Vídeo pronto! Tentando baixar...`);
-    await sleep(1000);
-    downloadLatestVideo(blockNum); // fire-and-forget — não bloqueia o fluxo
+    // PASSO 4: Baixar o vídeo
+    log(`[${blockNum}] Vídeo pronto! Clicando em "Baixar arquivo de vídeo"...`);
+    const downloaded = await downloadVideo(blockNum);
 
-    notifyPopup({ type: 'BLOCK_DONE', current: blockNum, total: state.queue.length });
+    notifyPopup({ type: 'BLOCK_DONE', current: blockNum, total: state.queue.length, downloaded });
 
-    const delay = state.settings.delayBetween || 3000;
-    log(`[${blockNum}] Aguardando ${delay / 1000}s antes do próximo bloco...`);
+    // PASSO 5: Aguardar delay e ir para o próximo
+    const delay = state.settings.delayBetween || 5000;
+    log(`[${blockNum}] Concluído. Aguardando ${delay / 1000}s antes do próximo bloco...`);
     await sleep(delay);
 
     state.currentIndex++;
@@ -105,76 +105,68 @@ async function processNext() {
   }
 }
 
-// ─── Input detection ─────────────────────────────────────────────────────────
-
+// ─── PASSO 1: Digitar no campo de vídeo ──────────────────────────────────────
 function findInputElement() {
-  // Try selectors from most specific to most generic
+  // O campo do Gemini para vídeo tem placeholder "Descreva como deve ser o vídeo"
   const selectors = [
-    // Gemini video prompt input (Portuguese placeholder)
-    '[placeholder*="como deve ser"]',
-    '[placeholder*="vídeo"]',
-    '[aria-label*="vídeo" i]',
-    // Rich textarea (Gemini's custom component)
+    'textarea[placeholder*="Descreva como deve ser"]',
+    'textarea[placeholder*="vídeo"]',
+    'div[contenteditable][placeholder*="Descreva"]',
+    '[placeholder*="Descreva como deve ser o vídeo"]',
+    // Fallbacks genéricos
     'rich-textarea [contenteditable="true"]',
-    'rich-textarea div[contenteditable]',
-    // Generic contenteditable inputs at the bottom of the page
     'div[contenteditable="true"]',
-    // Fallback textarea
     'textarea',
   ];
 
   for (const sel of selectors) {
     const els = document.querySelectorAll(sel);
-    if (els.length > 0) {
-      // Always pick the LAST match (bottom of page = active input)
-      return els[els.length - 1];
-    }
+    if (els.length > 0) return els[els.length - 1]; // sempre o último (campo ativo)
   }
   return null;
 }
 
 async function typePrompt(text) {
   const input = findInputElement();
-  if (!input) throw new Error('Campo de texto não encontrado. Abra um chat no Gemini e tente novamente.');
+  if (!input) throw new Error('Campo "Descreva como deve ser o vídeo" não encontrado. Certifique-se de estar na interface de vídeo do Gemini.');
 
   input.focus();
-  await sleep(300);
+  await sleep(400);
 
   const isEditable = input.isContentEditable || input.contentEditable === 'true';
 
   if (isEditable) {
-    // Select all existing text and replace
     document.execCommand('selectAll', false, null);
     await sleep(100);
     const ok = document.execCommand('insertText', false, text);
     if (!ok) {
-      // Fallback for browsers that block execCommand
       input.textContent = '';
       input.textContent = text;
       input.dispatchEvent(new InputEvent('input', { bubbles: true, data: text, inputType: 'insertText' }));
     }
   } else {
-    // Standard textarea
+    // textarea padrão
     const setter = Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, 'value').set;
     setter.call(input, text);
     input.dispatchEvent(new Event('input',  { bubbles: true }));
     input.dispatchEvent(new Event('change', { bubbles: true }));
   }
 
-  // Fire extra input event so React/Lit detects the change
   input.dispatchEvent(new Event('input', { bubbles: true }));
   await sleep(300);
+  log(`Campo preenchido com ${text.length} caracteres.`);
 }
 
+// ─── PASSO 2: Enviar ──────────────────────────────────────────────────────────
 async function submitPrompt() {
-  // Button selectors — Gemini's send button
+  // Botões de envio do Gemini (por ordem de preferência)
   const selectors = [
     'button[aria-label="Send message"]',
     'button[aria-label="Enviar mensagem"]',
     'button[aria-label*="Send" i]',
     'button[aria-label*="Enviar" i]',
     'button[data-testid="send-button"]',
-    'button[jsname="Qx7uuf"]',    // common Gemini send button jsname
+    'button[jsname="Qx7uuf"]',
     'button.send-button',
     'form button[type="submit"]',
   ];
@@ -188,189 +180,150 @@ async function submitPrompt() {
     }
   }
 
-  // Fallback: Enter key on the input
+  // Fallback: pressionar Enter no campo
   const input = findInputElement();
   if (input) {
-    log('Botão não encontrado, usando Enter...');
-    input.dispatchEvent(new KeyboardEvent('keydown', {
-      key: 'Enter', code: 'Enter', keyCode: 13,
-      bubbles: true, cancelable: true
-    }));
-    await sleep(50);
-    input.dispatchEvent(new KeyboardEvent('keyup', {
-      key: 'Enter', code: 'Enter', keyCode: 13, bubbles: true
-    }));
+    log('Botão não encontrado — usando Enter...');
+    input.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', code: 'Enter', keyCode: 13, bubbles: true, cancelable: true }));
+    await sleep(80);
+    input.dispatchEvent(new KeyboardEvent('keyup',   { key: 'Enter', code: 'Enter', keyCode: 13, bubbles: true }));
   } else {
-    throw new Error('Botão de envio e campo de texto não encontrados.');
+    throw new Error('Botão de envio não encontrado.');
   }
 }
 
-// ─── Video detection via MutationObserver ─────────────────────────────────────
-
+// ─── PASSO 3: Aguardar geração via MutationObserver ──────────────────────────
 function waitForVideoReady() {
   return new Promise((resolve, reject) => {
-    const MAX_WAIT = 180_000; // 3 min
-    let timer;
-    let resolved = false;
+    const MAX_WAIT = 180_000; // 3 minutos
+    let resolved   = false;
 
-    function done() {
+    function done(reason) {
       if (resolved) return;
       resolved = true;
-      clearTimeout(timer);
+      clearTimeout(timeout);
+      clearInterval(poll);
       observer.disconnect();
+      log('Vídeo detectado: ' + reason);
       resolve();
     }
 
     function fail(msg) {
       if (resolved) return;
       resolved = true;
-      clearTimeout(timer);
+      clearTimeout(timeout);
+      clearInterval(poll);
       observer.disconnect();
       reject(new Error(msg));
     }
 
-    // MutationObserver watches for any new video element or src change
+    // MutationObserver: detecta qualquer novo elemento que indique vídeo pronto
     const observer = new MutationObserver(() => {
-      // Check for a video that has a src (even blob)
+      // 1) Botão "Baixar arquivo de vídeo" apareceu → geração concluída
+      if (findDownloadButton()) { done('botão de download encontrado'); return; }
+
+      // 2) Elemento <video> com src
       const videos = document.querySelectorAll('video');
       for (const v of videos) {
-        if (v.src || v.currentSrc || v.querySelector('source')) {
-          // Also make sure it's not paused on frame 0 with no duration (still loading)
-          if (v.readyState >= 1 || v.src) {
-            log('Vídeo detectado pelo MutationObserver.');
-            done();
-            return;
-          }
-        }
-      }
-
-      // Also look for a download/share button appearing (signals generation complete)
-      const doneSignals = [
-        '[aria-label*="Download" i]',
-        '[aria-label*="Baixar" i]',
-        '[aria-label*="download" i]',
-        'button[download]',
-      ];
-      for (const sel of doneSignals) {
-        if (document.querySelector(sel)) {
-          log('Botão de download detectado — vídeo pronto.');
-          done();
-          return;
-        }
+        if (v.readyState >= 1 || v.src || v.currentSrc) { done('elemento <video> detectado'); return; }
       }
     });
 
-    observer.observe(document.body, {
-      childList: true,
-      subtree:   true,
-      attributes: true,
-      attributeFilter: ['src']
-    });
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['src'] });
 
-    // Also poll every 3s as backup
+    // Polling de backup a cada 3s
     const poll = setInterval(() => {
-      if (resolved) { clearInterval(poll); return; }
-      const videos = document.querySelectorAll('video');
-      if (videos.length > 0) {
-        const last = videos[videos.length - 1];
-        if (last.src || last.currentSrc) {
-          clearInterval(poll);
-          log('Vídeo detectado pelo polling.');
-          done();
-        }
-      }
+      if (findDownloadButton())                              { done('poll: botão download'); return; }
+      const v = document.querySelector('video');
+      if (v && (v.src || v.currentSrc || v.readyState >= 1)) { done('poll: video'); }
     }, 3000);
 
-    timer = setTimeout(() => {
-      clearInterval(poll);
-      fail('Timeout: vídeo não foi gerado em 3 minutos.');
-    }, MAX_WAIT);
+    const timeout = setTimeout(() => fail('Timeout: vídeo não gerado em 3 minutos.'), MAX_WAIT);
 
-    // Wait at least 4s before starting to check (generation takes time)
-    sleep(4000).then(() => {
-      if (!resolved) observer.observe(document.body, { childList: true, subtree: true });
-    });
+    // Aguarda no mínimo 5s antes de começar a verificar (geração leva tempo)
+    sleep(5000).then(() => { if (!resolved) observer.observe(document.body, { childList: true, subtree: true }); });
   });
 }
 
-// ─── Download ─────────────────────────────────────────────────────────────────
+// ─── PASSO 4: Clicar em "Baixar arquivo de vídeo" ────────────────────────────
+function findDownloadButton() {
+  // Seletores baseados no que aparece na interface do Gemini
+  const selectors = [
+    '[aria-label="Baixar arquivo de vídeo"]',
+    '[aria-label="Download video file"]',
+    '[title="Baixar arquivo de vídeo"]',
+    '[title="Download video file"]',
+    'button[aria-label*="Baixar" i]',
+    'button[aria-label*="Download" i]',
+    'a[download]',
+  ];
 
-function downloadLatestVideo(index) {
-  try {
-    // 1) Try clicking Gemini's download button
-    const btnSelectors = [
-      '[aria-label*="Download" i]',
-      '[aria-label*="Baixar" i]',
-      '[aria-label*="download" i]',
-      'button[download]',
-      'a[download]',
-    ];
-    for (const sel of btnSelectors) {
-      const btn = document.querySelector(sel);
-      if (btn) {
-        btn.click();
-        log(`[${index}] Download iniciado via botão (${sel}).`);
-        return;
-      }
-    }
-
-    // 2) Get video src
-    const videos = document.querySelectorAll('video');
-    if (videos.length === 0) {
-      log(`[${index}] Nenhum elemento <video> encontrado — pule ou baixe manualmente.`);
-      return;
-    }
-
-    const last = videos[videos.length - 1];
-    const url  = last.src || last.currentSrc || (last.querySelector('source') || {}).src;
-
-    if (!url) {
-      log(`[${index}] URL do vídeo não disponível — tente baixar manualmente.`);
-      return;
-    }
-
-    if (url.startsWith('blob:')) {
-      // Blob URLs can't be downloaded via chrome.downloads directly.
-      // Create a temporary <a> tag and click it (works for same-origin blobs).
-      const a = document.createElement('a');
-      a.href     = url;
-      a.download = `video_${String(index).padStart(3, '0')}.mp4`;
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      log(`[${index}] Download blob iniciado.`);
-      return;
-    }
-
-    // 3) Regular URL — send to background for chrome.downloads
-    chrome.runtime.sendMessage({
-      type:     'DOWNLOAD',
-      url,
-      filename: `video_${String(index).padStart(3, '0')}.mp4`
-    });
-    log(`[${index}] Download enviado ao background.`);
-
-  } catch (e) {
-    log(`[${index}] Aviso no download: ${e.message} — continue manualmente se necessário.`);
+  for (const sel of selectors) {
+    const el = document.querySelector(sel);
+    if (el) return el;
   }
+  return null;
 }
 
-// ─── Diagnose (debug helper) ──────────────────────────────────────────────────
+async function downloadVideo(blockNum) {
+  // Tenta clicar no botão de download do Gemini
+  let btn = findDownloadButton();
 
-function diagnose() {
-  const input = findInputElement();
+  if (btn) {
+    btn.click();
+    log(`[${blockNum}] Clicou em "Baixar arquivo de vídeo".`);
+    return true;
+  }
+
+  // Fallback: pegar src do <video> e baixar via blob link
+  log(`[${blockNum}] Botão de download não encontrado — tentando via <video>...`);
   const videos = document.querySelectorAll('video');
+  if (videos.length === 0) {
+    log(`[${blockNum}] Sem vídeo encontrado — baixe manualmente.`);
+    return false;
+  }
+
+  const last = videos[videos.length - 1];
+  const url  = last.src || last.currentSrc || (last.querySelector('source') || {}).src;
+
+  if (!url) {
+    log(`[${blockNum}] Sem URL — baixe manualmente.`);
+    return false;
+  }
+
+  if (url.startsWith('blob:')) {
+    const a = document.createElement('a');
+    a.href     = url;
+    a.download = `video_${String(blockNum).padStart(3, '0')}.mp4`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    log(`[${blockNum}] Download blob iniciado.`);
+    return true;
+  }
+
+  chrome.runtime.sendMessage({ type: 'DOWNLOAD', url, filename: `video_${String(blockNum).padStart(3, '0')}.mp4` });
+  return true;
+}
+
+// ─── Diagnóstico ─────────────────────────────────────────────────────────────
+function diagnose() {
+  const input   = findInputElement();
+  const videos  = document.querySelectorAll('video');
+  const dlBtn   = findDownloadButton();
   return {
-    inputFound:    !!input,
-    inputTag:      input ? input.tagName : null,
-    inputEditable: input ? input.isContentEditable : null,
-    videosCount:   videos.length,
-    videoSrcs:     Array.from(videos).map(v => v.src || v.currentSrc || '(no src)').slice(0, 3),
+    inputFound:       !!input,
+    inputTag:         input ? input.tagName : null,
+    inputEditable:    input ? input.isContentEditable : null,
+    inputPlaceholder: input ? (input.placeholder || input.getAttribute('placeholder') || null) : null,
+    videosCount:      videos.length,
+    videoSrcs:        Array.from(videos).map(v => v.src || v.currentSrc || '(no src)').slice(0, 3),
+    downloadBtn:      !!dlBtn,
+    downloadBtnLabel: dlBtn ? (dlBtn.getAttribute('aria-label') || dlBtn.textContent.trim()) : null,
   };
 }
 
-// ─── Utilities ────────────────────────────────────────────────────────────────
-
+// ─── Utils ───────────────────────────────────────────────────────────────────
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 function log(msg) {

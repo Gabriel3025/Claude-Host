@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Gemini Video Automator",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Automatiza geração sequencial de vídeos no Gemini Enterprise",
   "permissions": [
     "activeTab",
@@ -9,14 +9,17 @@
     "scripting",
     "downloads",
     "storage",
-    "clipboardWrite"
+    "clipboardWrite",
+    "sidePanel"
   ],
   "host_permissions": [
     "https://business.gemini.google.com/*"
   ],
   "action": {
-    "default_popup": "popup.html",
     "default_title": "Gemini Video Automator"
+  },
+  "side_panel": {
+    "default_path": "popup.html"
   },
   "content_scripts": [
     {

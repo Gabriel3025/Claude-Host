@@ -1,78 +1,86 @@
-// popup.js — controls the extension UI and communicates with content.js
+// popup.js
 
-const scriptInput     = document.getElementById('scriptInput');
-const blockCount      = document.getElementById('blockCount');
-const separatorSelect = document.getElementById('separatorSelect');
-const delayInput      = document.getElementById('delayInput');
-const btnStart        = document.getElementById('btnStart');
-const btnPause        = document.getElementById('btnPause');
-const btnStop         = document.getElementById('btnStop');
-const btnClearLog     = document.getElementById('btnClearLog');
-const statusText      = document.getElementById('statusText');
-const progressText    = document.getElementById('progressText');
-const progressFill    = document.getElementById('progressFill');
-const progressLabel   = document.getElementById('progressLabel');
+const scriptInput      = document.getElementById('scriptInput');
+const blockCount       = document.getElementById('blockCount');
+const separatorSelect  = document.getElementById('separatorSelect');
+const delayInput       = document.getElementById('delayInput');
+const btnStart         = document.getElementById('btnStart');
+const btnPause         = document.getElementById('btnPause');
+const btnStop          = document.getElementById('btnStop');
+const btnClearLog      = document.getElementById('btnClearLog');
+const btnDiagnose      = document.getElementById('btnDiagnose');
+const statusText       = document.getElementById('statusText');
+const progressText     = document.getElementById('progressText');
+const progressFill     = document.getElementById('progressFill');
+const progressLabel    = document.getElementById('progressLabel');
 const progressContainer = document.getElementById('progressContainer');
-const logEl           = document.getElementById('log');
-const dot             = document.querySelector('.dot');
+const blockListEl      = document.getElementById('blockList');
+const blockListSection = document.getElementById('blockListSection');
+const logEl            = document.getElementById('log');
+const dot              = document.getElementById('dot');
+const toggleIcon       = document.getElementById('toggleIcon');
+const inputBody        = document.getElementById('inputBody');
 
-let currentState = 'idle'; // idle | running | paused
+// ─── Block tracking ───────────────────────────────────────────────────────────
+// Each: { text, status: 'pending'|'running'|'done'|'error', downloaded: false, msg: '' }
+let blocks = [];
 
-// ─── Separator ───────────────────────────────────────────────────────────────
+// ─── Collapsible input section ────────────────────────────────────────────────
+document.getElementById('toggleInput').addEventListener('click', () => {
+  const collapsed = inputBody.style.display === 'none';
+  inputBody.style.display = collapsed ? '' : 'none';
+  toggleIcon.classList.toggle('collapsed', !collapsed);
+});
 
+// ─── Separator & block count ──────────────────────────────────────────────────
 function getSeparator() {
   const val = separatorSelect.value;
   if (val === '\\n\\n') return '\n\n';
   if (val === '\\n')    return '\n';
-  return val; // --- or ###
+  return val;
 }
 
 function parseBlocks(text) {
   const sep = getSeparator();
-  return text
-    .split(sep)
-    .map(b => b.trim())
-    .filter(b => b.length > 0);
+  return text.split(sep).map(b => b.trim()).filter(b => b.length > 0);
 }
-
-// ─── Block count update ───────────────────────────────────────────────────────
 
 scriptInput.addEventListener('input', updateBlockCount);
 separatorSelect.addEventListener('change', updateBlockCount);
 
 function updateBlockCount() {
-  const blocks = parseBlocks(scriptInput.value);
-  blockCount.textContent = `${blocks.length} bloco${blocks.length !== 1 ? 's' : ''} detectado${blocks.length !== 1 ? 's' : ''}`;
+  const b = parseBlocks(scriptInput.value);
+  blockCount.textContent = `${b.length} bloco${b.length !== 1 ? 's' : ''} detectado${b.length !== 1 ? 's' : ''}`;
 }
 
 // ─── Controls ─────────────────────────────────────────────────────────────────
-
 btnStart.addEventListener('click', async () => {
   const text = scriptInput.value.trim();
   if (!text) { addLog('Cole o roteiro antes de iniciar.', 'error'); return; }
 
-  const blocks = parseBlocks(text);
-  if (blocks.length === 0) { addLog('Nenhum bloco encontrado.', 'error'); return; }
+  const parsed = parseBlocks(text);
+  if (parsed.length === 0) { addLog('Nenhum bloco encontrado.', 'error'); return; }
 
   const tab = await getActiveTab();
   if (!tab) { addLog('Nenhuma aba ativa encontrada.', 'error'); return; }
 
-  // Warn but don't block — tab.url may be undefined without "tabs" permission in older installs
-  if (tab.url && !tab.url.includes('business.gemini.google.com')) {
-    addLog('Aviso: aba ativa não parece ser o Gemini Enterprise.', 'info');
-  }
+  // Init block list
+  blocks = parsed.map(t => ({ text: t, status: 'pending', downloaded: false, msg: 'Aguardando...' }));
+  renderBlockList();
 
-  const settings = {
-    delayBetween: (parseInt(delayInput.value) || 3) * 1000
-  };
+  const settings = { delayBetween: (parseInt(delayInput.value) || 5) * 1000 };
 
   addLog(`Iniciando: ${blocks.length} blocos`, 'info');
   setUIState('running');
   showProgress(0, blocks.length);
 
-  chrome.tabs.sendMessage(tab.id, { type: 'START', blocks, settings }, (res) => {
+  // Collapse input to give more space for the list
+  inputBody.style.display = 'none';
+  toggleIcon.classList.add('collapsed');
+
+  chrome.tabs.sendMessage(tab.id, { type: 'START', blocks: parsed, settings }, (res) => {
     if (chrome.runtime.lastError) {
-      addLog('Erro ao conectar: ' + chrome.runtime.lastError.message, 'error');
+      addLog('Erro ao conectar: recarregue a página do Gemini e tente de novo.', 'error');
       setUIState('idle');
     }
   });
@@ -91,48 +99,62 @@ btnStop.addEventListener('click', async () => {
   if (!tab) return;
   chrome.tabs.sendMessage(tab.id, { type: 'STOP' });
   setUIState('idle');
-  addLog('Parado.', 'error');
+  addLog('Parado pelo usuário.', 'error');
+  // Mark remaining running/pending as stopped
+  blocks.forEach(b => { if (b.status === 'running' || b.status === 'pending') { b.status = 'error'; b.msg = 'Parado'; } });
+  renderBlockList();
 });
 
 btnClearLog.addEventListener('click', () => { logEl.innerHTML = ''; });
 
-document.getElementById('btnDiagnose').addEventListener('click', async () => {
+btnDiagnose.addEventListener('click', async () => {
   const tab = await getActiveTab();
   if (!tab) { addLog('Nenhuma aba ativa.', 'error'); return; }
   chrome.tabs.sendMessage(tab.id, { type: 'DIAGNOSE' }, (res) => {
     if (chrome.runtime.lastError) {
-      addLog('Diagnóstico: extensão não conectada à aba. Recarregue a página do Gemini.', 'error');
+      addLog('Extensão não conectada à aba. Recarregue a página do Gemini.', 'error');
       return;
     }
-    addLog(`Diagnóstico:`, 'info');
-    addLog(`  Campo texto: ${res.inputFound ? `✓ <${res.inputTag}> editável=${res.inputEditable}` : '✗ NÃO encontrado'}`, res.inputFound ? 'success' : 'error');
-    addLog(`  Vídeos na página: ${res.videosCount}`, res.videosCount > 0 ? 'success' : 'info');
-    if (res.videoSrcs.length > 0) addLog(`  Srcs: ${res.videoSrcs.join(' | ')}`, 'info');
+    addLog('── Diagnóstico ──', 'info');
+    addLog(`Campo texto: ${res.inputFound ? `✓ <${res.inputTag}>` : '✗ NÃO encontrado'}`, res.inputFound ? 'success' : 'error');
+    addLog(`Vídeos na página: ${res.videosCount}`, res.videosCount > 0 ? 'success' : 'info');
+    if (res.videoSrcs.length) addLog(`Srcs: ${res.videoSrcs.join(' | ')}`, 'info');
+    if (res.inputPlaceholder) addLog(`Placeholder: "${res.inputPlaceholder}"`, 'info');
   });
 });
 
 // ─── Messages from content.js ─────────────────────────────────────────────────
-
 chrome.runtime.onMessage.addListener((message) => {
   switch (message.type) {
-    case 'PROGRESS':
-      updateProgress(message.current, message.total);
+
+    case 'PROGRESS': {
+      // Mark previous block done if needed, mark current as running
+      if (message.current > 1) {
+        // previous already handled by BLOCK_DONE
+      }
+      setBlockStatus(message.current - 1, 'running', 'Gerando vídeo...');
+      updateProgress(message.current - 1, message.total);
       addLog(`Bloco ${message.current}/${message.total}: ${message.preview}`, 'info');
       break;
+    }
 
     case 'BLOCK_DONE':
+      setBlockStatus(message.current - 1, 'done', message.downloaded ? '✓ Concluído e baixado' : '✓ Concluído (baixe manualmente)');
+      blocks[message.current - 1].downloaded = message.downloaded;
+      updateProgress(message.current, message.total);
       addLog(`✓ Bloco ${message.current} concluído!`, 'success');
       break;
 
     case 'COMPLETE':
       addLog(`✓ Todos os ${message.total} vídeos gerados!`, 'success');
-      setUIState('idle');
+      setUIState('done');
       updateProgress(message.total, message.total);
       statusText.textContent = 'Concluído!';
       break;
 
     case 'ERROR':
-      addLog(`✗ Erro no bloco ${message.current}: ${message.message}`, 'error');
+      setBlockStatus(message.current - 1, 'error', `Erro: ${message.message}`);
+      addLog(`✗ Bloco ${message.current}: ${message.message}`, 'error');
       setUIState('idle');
       statusText.textContent = 'Erro — verifique o log';
       break;
@@ -143,25 +165,70 @@ chrome.runtime.onMessage.addListener((message) => {
   }
 });
 
-// ─── UI helpers ───────────────────────────────────────────────────────────────
+// ─── Block list rendering ─────────────────────────────────────────────────────
+function renderBlockList() {
+  blockListSection.style.display = '';
+  blockListEl.innerHTML = '';
+  blocks.forEach((b, i) => {
+    const item = document.createElement('div');
+    item.id = `block-item-${i}`;
+    item.className = `block-item ${b.status}`;
 
+    const icon = b.status === 'running'  ? '<span class="spinner">⟳</span>'
+               : b.status === 'done'     ? '✓'
+               : b.status === 'error'    ? '✗'
+               : '○';
+
+    item.innerHTML = `
+      <div class="block-num">${i + 1}</div>
+      <div class="block-content">
+        <div class="block-preview">${escHtml(b.text.substring(0, 55))}${b.text.length > 55 ? '…' : ''}</div>
+        <div class="block-status">${b.msg}</div>
+      </div>
+      <div class="block-icon">${icon}</div>`;
+
+    blockListEl.appendChild(item);
+  });
+}
+
+function setBlockStatus(index, status, msg) {
+  if (!blocks[index]) return;
+  blocks[index].status = status;
+  blocks[index].msg    = msg;
+
+  const item = document.getElementById(`block-item-${index}`);
+  if (!item) return;
+
+  item.className = `block-item ${status}`;
+  item.querySelector('.block-status').textContent = msg;
+  const icon = status === 'running' ? '<span class="spinner">⟳</span>'
+             : status === 'done'    ? '✓'
+             : status === 'error'   ? '✗'
+             : '○';
+  item.querySelector('.block-icon').innerHTML = icon;
+
+  // Auto-scroll to current block
+  item.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+// ─── UI state ─────────────────────────────────────────────────────────────────
 function setUIState(state) {
-  currentState = state;
-
   dot.className = 'dot';
-  if (state === 'running') dot.classList.add(''); // green (default)
-  if (state === 'paused')  dot.classList.add('paused');
-  if (state === 'idle')    dot.classList.add('stopped');
+  if (state === 'running') dot.classList.add('running');
+  else if (state === 'paused') dot.classList.add('paused');
+  else if (state === 'done')   dot.classList.add('done');
+  else                         dot.classList.add('error');
 
   btnStart.disabled = state === 'running';
   btnPause.disabled = state !== 'running';
-  btnStop.disabled  = state === 'idle';
+  btnStop.disabled  = state === 'idle' || state === 'done';
 
   if (state === 'running') statusText.textContent = 'Gerando vídeos...';
   if (state === 'paused')  statusText.textContent = 'Pausado';
   if (state === 'idle')    statusText.textContent = 'Pronto';
+  if (state === 'done')    statusText.textContent = 'Concluído!';
 
-  progressContainer.style.display = state !== 'idle' ? 'block' : 'none';
+  progressContainer.style.display = (state !== 'idle') ? 'block' : 'none';
 }
 
 function showProgress(current, total) {
@@ -173,7 +240,7 @@ function updateProgress(current, total) {
   const pct = total > 0 ? Math.round((current / total) * 100) : 0;
   progressFill.style.width = pct + '%';
   progressLabel.textContent = `${current} / ${total}`;
-  progressText.textContent = total > 0 ? `${current}/${total}` : '';
+  progressText.textContent  = total > 0 ? `${current}/${total}` : '';
 }
 
 function addLog(msg, type = '') {
@@ -186,13 +253,15 @@ function addLog(msg, type = '') {
 }
 
 async function getActiveTab() {
-  return new Promise((resolve) => {
-    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-      resolve(tabs[0] || null);
-    });
+  return new Promise(resolve => {
+    chrome.tabs.query({ active: true, currentWindow: true }, tabs => resolve(tabs[0] || null));
   });
 }
 
-// Initialize
+function escHtml(str) {
+  return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// Init
 updateBlockCount();
 setUIState('idle');

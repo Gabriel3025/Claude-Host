@@ -6,46 +6,53 @@
   <link rel="stylesheet" href="popup.css" />
 </head>
 <body>
+
+  <!-- Header -->
   <div class="header">
     <div class="header-title">
-      <span class="dot"></span>
+      <span class="dot" id="dot"></span>
       Gemini Video Automator
     </div>
-    <span class="version">v1.0</span>
+    <span class="version">v2.0</span>
   </div>
 
   <!-- Status bar -->
-  <div class="status-bar" id="statusBar">
+  <div class="status-bar">
     <span id="statusText">Pronto</span>
     <span id="progressText" class="progress-text"></span>
   </div>
 
-  <!-- Script input -->
-  <div class="section">
-    <label class="label">Roteiro completo</label>
-    <textarea
-      id="scriptInput"
-      class="script-input"
-      placeholder="Cole aqui todo o seu roteiro. Cada bloco separado por linha em branco (dois Enters) vira um vídeo separado."
-      rows="8"
-    ></textarea>
-    <div class="block-count" id="blockCount">0 blocos detectados</div>
-  </div>
-
-  <!-- Settings -->
-  <div class="section settings-row">
-    <div class="setting-item">
-      <label class="label-sm">Separador</label>
-      <select id="separatorSelect" class="select-sm">
-        <option value="\n\n">Linha em branco (padrão)</option>
-        <option value="---">---</option>
-        <option value="###">###</option>
-        <option value="\n">Cada linha</option>
-      </select>
+  <!-- Input section (colapsa após iniciar) -->
+  <div class="section" id="inputSection">
+    <div class="section-header" id="toggleInput">
+      <span class="label">Roteiro</span>
+      <span class="toggle-icon" id="toggleIcon">▼</span>
     </div>
-    <div class="setting-item">
-      <label class="label-sm">Delay entre blocos (s)</label>
-      <input type="number" id="delayInput" class="input-sm" value="3" min="1" max="60" />
+    <div id="inputBody">
+      <textarea
+        id="scriptInput"
+        class="script-input"
+        placeholder="Cole aqui todo o seu roteiro. Cada bloco separado por linha em branco vira um vídeo."
+        rows="6"
+      ></textarea>
+      <div class="block-count" id="blockCount">0 blocos detectados</div>
+
+      <!-- Settings -->
+      <div class="settings-row">
+        <div class="setting-item">
+          <label class="label-sm">Separador</label>
+          <select id="separatorSelect" class="select-sm">
+            <option value="\n\n">Linha em branco</option>
+            <option value="---">---</option>
+            <option value="###">###</option>
+            <option value="\n">Cada linha</option>
+          </select>
+        </div>
+        <div class="setting-item">
+          <label class="label-sm">Delay (segundos)</label>
+          <input type="number" id="delayInput" class="input-sm" value="5" min="1" max="120" />
+        </div>
+      </div>
     </div>
   </div>
 
@@ -53,10 +60,7 @@
   <div class="controls">
     <button id="btnStart" class="btn btn-primary">▶ Iniciar</button>
     <button id="btnPause" class="btn btn-warning" disabled>⏸ Pausar</button>
-    <button id="btnStop" class="btn btn-danger" disabled>■ Parar</button>
-  </div>
-  <div style="padding: 0 14px 6px; text-align:right">
-    <button id="btnDiagnose" class="btn-link" style="font-size:11px;color:#4a5568">🔍 Diagnóstico da página</button>
+    <button id="btnStop"  class="btn btn-danger"  disabled>■ Parar</button>
   </div>
 
   <!-- Progress bar -->
@@ -67,6 +71,12 @@
     <div class="progress-label" id="progressLabel">0 / 0</div>
   </div>
 
+  <!-- Block list -->
+  <div class="section" id="blockListSection" style="display:none">
+    <div class="label" style="padding:0 0 6px">Acompanhamento</div>
+    <div class="block-list" id="blockList"></div>
+  </div>
+
   <!-- Log -->
   <div class="log-container">
     <div class="log-header">
@@ -74,6 +84,10 @@
       <button id="btnClearLog" class="btn-link">Limpar</button>
     </div>
     <div class="log" id="log"></div>
+  </div>
+
+  <div style="padding:6px 14px 4px;text-align:right">
+    <button id="btnDiagnose" class="btn-link" style="font-size:11px;color:#4a5568">🔍 Diagnóstico</button>
   </div>
 
   <script src="popup.js"></script>
