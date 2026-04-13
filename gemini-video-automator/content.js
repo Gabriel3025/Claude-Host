@@ -154,51 +154,123 @@ async function fillField(text) {
 // ── Clicar no botão de envio ──────────────────────────────────────────────────
 
 async function clickSend() {
-  const field = findField();
-  if (!field) throw new Error('Campo não encontrado para envio.');
+  // ── Seletores exatos obtidos do DevTools do Gemini ──
+  // Estrutura: <md-icon-button class="send-button" data-aria-label="Enviar">
+  //              #shadow-root > <button aria-label="Enviar">
 
-  // 1. Busca o botão de envio dentro do Shadow DOM
-  const sendBtn = shadowFind(el => {
-    const tag   = (el.tagName || '').toLowerCase();
-    const label = (el.getAttribute?.('aria-label') || '').toLowerCase();
-    const jsname = el.getAttribute?.('jsname') || '';
-    const type  = el.getAttribute?.('type') || el.type || '';
-    return (
-      label.includes('send') || label.includes('enviar') ||
-      jsname === 'Qx7uuf' || jsname === 'M2UYVd' ||
-      type === 'submit' ||
-      (tag === 'button' && !el.disabled)
-    );
-  });
+  // 1. Tenta clicar diretamente no md-icon-button de envio (custom element)
+  const sendSelectors = [
+    'md-icon-button.send-button',
+    'md-icon-button[data-aria-label="Enviar"]',
+    'md-icon-button[data-aria-label="Send"]',
+    '[data-aria-label="Enviar"]',
+    '[data-aria-label="Send"]',
+  ];
 
-  if (sendBtn) {
-    sendBtn.click();
-    log(`Enviado via shadow DOM: <${sendBtn.tagName}> "${sendBtn.getAttribute?.('aria-label') || sendBtn.getAttribute?.('jsname') || ''}"`);
+  for (const sel of sendSelectors) {
+    const el = shadowQueryAll(sel)[0];
+    if (el) {
+      // Tenta clicar no inner button do shadow root primeiro
+      const innerBtn = el.shadowRoot?.querySelector('button');
+      if (innerBtn) {
+        innerBtn.click();
+        log(`✓ Enviado via inner button: "${innerBtn.getAttribute('aria-label')}"`);
+        return;
+      }
+      el.click();
+      log(`✓ Enviado via custom element: ${sel}`);
+      return;
+    }
+  }
+
+  // 2. Busca qualquer button[aria-label="Enviar"] ou "Send" no shadow DOM
+  const enviarBtn = shadowFind(el =>
+    el.tagName === 'BUTTON' &&
+    /enviar|send/i.test(el.getAttribute('aria-label') || '')
+  );
+  if (enviarBtn) {
+    enviarBtn.click();
+    log(`✓ Enviado via button[aria-label="Enviar"]`);
     return;
   }
 
-  // 2. Busca qualquer botão visível no shadow DOM
-  const allShadowBtns = shadowQueryAll('button, [role="button"]')
-    .filter(el => { const r = el.getBoundingClientRect(); return r.width > 0 && r.height > 0 && !el.disabled; });
+  // 3. Busca por classe send-button no shadow DOM completo
+  const byClass = shadowFind(el =>
+    (el.className || '').includes('send-button') ||
+    (el.className || '').includes('send_button')
+  );
+  if (byClass) {
+    const inner = byClass.shadowRoot?.querySelector('button') || byClass;
+    inner.click();
+    log(`✓ Enviado via .send-button: <${byClass.tagName}>`);
+    return;
+  }
 
-  log(`${allShadowBtns.length} botões visíveis no shadow DOM.`);
-  allShadowBtns.forEach(el =>
-    log(`  <${el.tagName}> label="${el.getAttribute('aria-label')||''}" jsname="${el.getAttribute('jsname')||''}" pos=(${Math.round(el.getBoundingClientRect().x)},${Math.round(el.getBoundingClientRect().y)})`)
+  const W = window.innerWidth;
+  const H = window.innerHeight;
+
+  const seen = new Set();
+  const found = [];
+
+  // Varre os últimos 250px de altura da tela, coluna direita
+  for (let y = H - 20; y > H - 300; y -= 8) {
+    for (let x = W - 10; x > W * 0.3; x -= 8) {
+      const el = deepElementFromPoint(x, y);
+      if (!el || seen.has(el)) continue;
+      seen.add(el);
+      if (el.tagName === 'BODY' || el.tagName === 'HTML') continue;
+
+      const tag   = el.tagName.toLowerCase();
+      const label = (el.getAttribute?.('aria-label') || '').toLowerCase();
+      const rect  = el.getBoundingClientRect();
+
+      found.push({ el, x: Math.round(x), y: Math.round(y), tag, label, w: Math.round(rect.width), h: Math.round(rect.height) });
+    }
+  }
+
+  log(`deepElementFromPoint encontrou ${found.length} elementos no fundo da tela.`);
+  found.slice(0, 8).forEach(f =>
+    log(`  (${f.x},${f.y}) <${f.tag}> label="${f.label}" ${f.w}x${f.h}`)
   );
 
-  // O botão de envio costuma ser o mais à direita / mais embaixo
-  if (allShadowBtns.length > 0) {
-    allShadowBtns.sort((a, b) => {
-      const ra = a.getBoundingClientRect(), rb = b.getBoundingClientRect();
-      return (rb.x + rb.y) - (ra.x + ra.y); // mais à direita e abaixo primeiro
-    });
-    allShadowBtns[0].click();
-    log(`Clicou no botão mais à direita/baixo do shadow DOM.`);
+  // Tenta clicar num botão com label de envio
+  const sendWords = ['send','enviar','submit','gerar','generate','go'];
+  for (const f of found) {
+    if (sendWords.some(w => f.label.includes(w))) {
+      f.el.click();
+      log(`✓ Enviado via label: "${f.label}" em (${f.x},${f.y})`);
+      return;
+    }
+  }
+
+  // Tenta qualquer elemento pequeno e clicável (botões são geralmente pequenos: <60px)
+  const smallClickable = found.filter(f =>
+    f.w > 0 && f.w < 80 && f.h > 0 && f.h < 80 &&
+    f.tag !== 'textarea' && f.tag !== 'div' && f.tag !== 'span'
+  );
+  if (smallClickable.length > 0) {
+    const btn = smallClickable[0];
+    btn.el.click();
+    log(`✓ Clicou em elemento pequeno: <${btn.tag}> (${btn.x},${btn.y}) ${btn.w}x${btn.h}`);
     return;
   }
 
-  const rect = field.getBoundingClientRect();
-  const centerY = rect.top + rect.height / 2;
+  // Força clique nas coordenadas do canto inferior direito (onde o ➤ fica)
+  // Tenta múltiplas posições
+  for (const [px, py] of [
+    [W - 25, H - 120], [W - 40, H - 120], [W - 60, H - 120],
+    [W - 25, H - 140], [W - 25, H - 100], [W - 25, H - 160]
+  ]) {
+    const el = deepElementFromPoint(px, py);
+    if (el && el.tagName !== 'BODY') {
+      el.click();
+      log(`✓ Clicou por coordenada fixa (${px},${py}): <${el.tagName}>`);
+      return;
+    }
+  }
+
+  const rect = { right: 0, top: 0, height: 0 };
+  const centerY = H / 2;
 
   // O layout do Gemini: textarea em cima, botões embaixo (mic + enviar)
   // Varre: direita do campo + abaixo do campo + canto inferior direito da tela
@@ -304,10 +376,18 @@ function waitForVideo() {
   return new Promise((resolve, reject) => {
     let done = false;
 
+    function check() {
+      if (findDlBtn()) return 'download-btn';
+      const videos = shadowQueryAll('video');
+      const v = videos.find(v => v.src || v.currentSrc || v.readyState >= 1);
+      if (v) return 'video-element';
+      return null;
+    }
+
     function finish(r) {
       if (done) return; done = true;
       clearTimeout(t); clearInterval(p); obs.disconnect();
-      log('Vídeo: ' + r); resolve();
+      log('Vídeo detectado: ' + r); resolve();
     }
     function fail(m) {
       if (done) return; done = true;
@@ -316,35 +396,50 @@ function waitForVideo() {
     }
 
     const obs = new MutationObserver(() => {
-      if (findDlBtn()) { finish('botão download'); return; }
-      const v = document.querySelector('video');
-      if (v?.src || v?.currentSrc) finish('video src');
+      const r = check(); if (r) finish(r);
     });
     obs.observe(document.body, { childList: true, subtree: true, attributes: true });
 
-    const p = setInterval(() => {
-      if (findDlBtn()) { finish('poll dl'); return; }
-      const v = document.querySelector('video');
-      if (v?.src || v?.currentSrc) finish('poll video');
-    }, 2000);
-
+    const p = setInterval(() => { const r = check(); if (r) finish(r); }, 2000);
     const t = setTimeout(() => fail('Timeout: vídeo não gerado em 3 min.'), 180_000);
+
+    // Verifica imediatamente (pode já ter vídeo da geração atual)
+    setTimeout(() => { const r = check(); if (r) finish(r); }, 3000);
   });
 }
 
 // ── Download ──────────────────────────────────────────────────────────────────
 
 function findDlBtn() {
-  return document.querySelector(
-    '[aria-label="Baixar arquivo de vídeo"], [aria-label="Download video file"], [aria-label*="Baixar" i], [aria-label*="Download" i], [title*="Baixar" i], a[download]'
-  );
+  // Busca no DOM normal e no shadow DOM
+  const selectors = [
+    '[aria-label="Baixar arquivo de vídeo"]',
+    '[aria-label="Download video file"]',
+    '[data-aria-label="Baixar arquivo de vídeo"]',
+    '[data-aria-label="Download video file"]',
+    '[aria-label*="Baixar" i]',
+    '[aria-label*="Download" i]',
+    'a[download]',
+  ];
+  for (const sel of selectors) {
+    const results = shadowQueryAll(sel);
+    if (results.length) return results[0];
+  }
+  return null;
 }
 
 async function downloadVideo(n) {
   const btn = findDlBtn();
-  if (btn) { btn.click(); log('Download via botão ✓'); return true; }
+  if (btn) {
+    // Tenta clicar no inner button se for custom element
+    const inner = btn.shadowRoot?.querySelector('button, a') || btn;
+    inner.click();
+    log('Download via botão ✓');
+    return true;
+  }
 
-  const v = document.querySelector('video');
+  const videos = shadowQueryAll('video');
+  const v = videos[videos.length - 1] || document.querySelector('video');
   if (!v) { log('Sem vídeo.'); return false; }
 
   const url = v.src || v.currentSrc;
