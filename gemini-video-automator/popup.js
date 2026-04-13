@@ -104,11 +104,10 @@ btnClearLog.addEventListener('click', () => { logEl.innerHTML = ''; });
 btnDiagnose.addEventListener('click', async () => {
   const tab = await getActiveTab();
   if (!tab) { addLog('Nenhuma aba ativa.', 'error'); return; }
-  chrome.tabs.sendMessage(tab.id, { type: 'DIAGNOSE' }, (res) => {
-    if (chrome.runtime.lastError) {
-      addLog('Extensão não conectada à aba. Recarregue a página do Gemini.', 'error');
-      return;
-    }
+  addLog('Conectando...', 'info');
+  sendToTabWithResponse(tab.id, { type: 'DIAGNOSE' }, (res) => {
+    if (!res) { addLog('Falha ao conectar. Recarregue a aba do Gemini (F5).', 'error'); return; }
+    addLog('── Diagnóstico ──', 'info');
     addLog('── Diagnóstico ──', 'info');
     const btns = res.buttons || [];
     const tas  = res.textareas || [];
@@ -257,32 +256,31 @@ async function getActiveTab() {
   });
 }
 
-// Envia mensagem ao content script; se não estiver injetado, injeta primeiro e tenta de novo
-async function sendToTab(tabId, message) {
+// Envia para tab com auto-inject; chama callback com response ou null em caso de erro
+function sendToTabWithResponse(tabId, message, callback) {
   chrome.tabs.sendMessage(tabId, message, (res) => {
-    if (!chrome.runtime.lastError) return; // sucesso
+    if (!chrome.runtime.lastError) { callback(res); return; }
 
-    // Content script não carregado — injeta e tenta de novo
-    addLog('Content script não detectado. Injetando automaticamente...', 'info');
-    chrome.scripting.executeScript(
-      { target: { tabId }, files: ['content.js'] },
-      () => {
-        if (chrome.runtime.lastError) {
-          addLog('Falha ao injetar: ' + chrome.runtime.lastError.message, 'error');
-          setUIState('idle');
-          return;
-        }
-        // Pequena pausa para o script inicializar
-        setTimeout(() => {
-          chrome.tabs.sendMessage(tabId, message, (res2) => {
-            if (chrome.runtime.lastError) {
-              addLog('Erro após injeção: ' + chrome.runtime.lastError.message, 'error');
-              setUIState('idle');
-            }
-          });
-        }, 500);
+    addLog('Injetando script automaticamente...', 'info');
+    chrome.scripting.executeScript({ target: { tabId }, files: ['content.js'] }, () => {
+      if (chrome.runtime.lastError) {
+        addLog('Falha ao injetar: ' + chrome.runtime.lastError.message, 'error');
+        callback(null); return;
       }
-    );
+      setTimeout(() => {
+        chrome.tabs.sendMessage(tabId, message, (res2) => {
+          if (chrome.runtime.lastError) { addLog('Erro: ' + chrome.runtime.lastError.message, 'error'); callback(null); }
+          else callback(res2);
+        });
+      }, 600);
+    });
+  });
+}
+
+// Versão sem callback (para START)
+function sendToTab(tabId, message) {
+  sendToTabWithResponse(tabId, message, (res) => {
+    if (!res) { addLog('Não foi possível conectar. Recarregue a aba do Gemini (F5) e tente novamente.', 'error'); setUIState('idle'); }
   });
 }
 
