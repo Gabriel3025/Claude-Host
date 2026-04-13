@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gemini Video Automator</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="header">
+    <div class="header-title">
+      <span class="dot"></span>
+      Gemini Video Automator
+    </div>
+    <span class="version">v1.0</span>
+  </div>
+
+  <!-- Status bar -->
+  <div class="status-bar" id="statusBar">
+    <span id="statusText">Pronto</span>
+    <span id="progressText" class="progress-text"></span>
+  </div>
+
+  <!-- Script input -->
+  <div class="section">
+    <label class="label">Roteiro completo</label>
+    <textarea
+      id="scriptInput"
+      class="script-input"
+      placeholder="Cole aqui todo o seu roteiro. Cada bloco separado por linha em branco (dois Enters) vira um vídeo separado."
+      rows="8"
+    ></textarea>
+    <div class="block-count" id="blockCount">0 blocos detectados</div>
+  </div>
+
+  <!-- Settings -->
+  <div class="section settings-row">
+    <div class="setting-item">
+      <label class="label-sm">Separador</label>
+      <select id="separatorSelect" class="select-sm">
+        <option value="\n\n">Linha em branco (padrão)</option>
+        <option value="---">---</option>
+        <option value="###">###</option>
+        <option value="\n">Cada linha</option>
+      </select>
+    </div>
+    <div class="setting-item">
+      <label class="label-sm">Delay entre blocos (s)</label>
+      <input type="number" id="delayInput" class="input-sm" value="3" min="1" max="60" />
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <div class="controls">
+    <button id="btnStart" class="btn btn-primary">▶ Iniciar</button>
+    <button id="btnPause" class="btn btn-warning" disabled>⏸ Pausar</button>
+    <button id="btnStop" class="btn btn-danger" disabled>■ Parar</button>
+  </div>
+
+  <!-- Progress bar -->
+  <div class="progress-container" id="progressContainer" style="display:none">
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+    <div class="progress-label" id="progressLabel">0 / 0</div>
+  </div>
+
+  <!-- Log -->
+  <div class="log-container">
+    <div class="log-header">
+      <span>Log</span>
+      <button id="btnClearLog" class="btn-link">Limpar</button>
+    </div>
+    <div class="log" id="log"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
