@@ -109,15 +109,11 @@ btnDiagnose.addEventListener('click', async () => {
     if (!res) { addLog('Falha ao conectar. Recarregue a aba do Gemini (F5).', 'error'); return; }
     addLog('── Diagnóstico ──', 'info');
     addLog('── Diagnóstico ──', 'info');
-    const btns = res.buttons || [];
-    const tas  = res.textareas || [];
-    addLog(`Campo: ${res.fieldFound ? `✓ <${res.fieldTag}> "${res.fieldPlaceholder}"` : '✗ não encontrado'}`, res.fieldFound ? 'success' : 'error');
-    addLog(`Textareas: ${tas.length} | Clicáveis: ${btns.length} | Vídeos: ${res.videosCount}`, 'info');
-    btns.forEach((b, i) => {
-      const info = b.label || b.text || b.role || 'sem-label';
-      addLog(`  [${i+1}] <${b.tag}> "${info}"`, 'info');
-    });
-    if (!btns.length) addLog('  Nenhum elemento clicável — tente clicar no campo primeiro', 'error');
+    addLog(`Campo: ${res.fieldFound ? `✓ <${res.fieldTag}>` : '✗ não encontrado'}`, res.fieldFound ? 'success' : 'error');
+    addLog(`Vídeos: ${res.videosCount} | Download: ${res.downloadBtn ? '✓' : '✗'}`, 'info');
+    const right = res.rightElements || [];
+    addLog(`Elementos à direita do campo: ${right.length}`, right.length > 0 ? 'success' : 'error');
+    right.forEach(e => addLog(`  x=${e.x} <${e.tag}> label="${e.label}" jsname="${e.jsname}" cls="${e.cls.substring(0,30)}"`, 'info'));
   });
 });
 

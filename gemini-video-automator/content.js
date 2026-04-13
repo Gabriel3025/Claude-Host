@@ -118,66 +118,81 @@ async function clickSend() {
   const field = findField();
   if (!field) throw new Error('Campo não encontrado para envio.');
 
-  // 1. Varre todos os elementos clicáveis da página
-  const clickables = getAllClickable();
-  log(`${clickables.length} elementos clicáveis encontrados.`);
-
-  // 2. Tenta por aria-label / texto
-  const sendWords = ['send','enviar','submit','gerar vídeo','criar vídeo','generate','go'];
-  for (const el of clickables) {
-    const label = (el.getAttribute('aria-label') || el.textContent || el.title || '').toLowerCase().trim();
-    if (sendWords.some(w => label.includes(w))) {
-      el.click();
-      log(`Enviado via label: "${label.substring(0, 40)}"`);
-      return;
-    }
-  }
-
-  // 3. Varre visualmente à DIREITA do campo (onde fica o botão de envio)
   const rect = field.getBoundingClientRect();
-  const checked = new Set();
+  const centerY = rect.top + rect.height / 2;
 
-  // Varre da borda direita do campo até a borda da tela
-  for (let x = rect.right + 5; x < window.innerWidth - 2; x += 8) {
-    for (const y of [rect.top + 8, rect.top + rect.height * 0.5, rect.bottom - 8]) {
-      const el = document.elementFromPoint(x, y);
-      if (!el || checked.has(el) || el === field || el.tagName === 'BODY') continue;
-      checked.add(el);
+  // O layout do Gemini: textarea em cima, botões embaixo (mic + enviar)
+  // Varre: direita do campo + abaixo do campo + canto inferior direito da tela
+  const seen = new Set();
+  const candidates = [];
 
-      const clickable = findClickableParent(el);
-      if (clickable && !clickable.disabled && clickable !== field) {
-        clickable.click();
-        log(`Enviado via scan visual (x=${Math.round(x)}, y=${Math.round(y)}): <${clickable.tagName}> "${(clickable.getAttribute('aria-label')||'').substring(0,30)}"`);
-        return;
-      }
+  const scanPoints = [];
+
+  // Área à direita do textarea
+  for (let x = rect.right + 2; x < window.innerWidth - 1; x += 6) {
+    for (const y of [rect.top + 5, centerY, rect.bottom - 5]) {
+      scanPoints.push({ x, y });
     }
   }
 
-  // 4. Tenta dentro do container do campo (sobe na árvore)
+  // Área ABAIXO do textarea (onde ficam os chips e botões)
+  for (let y = rect.bottom + 2; y < rect.bottom + 80; y += 6) {
+    for (let x = window.innerWidth * 0.4; x < window.innerWidth - 1; x += 8) {
+      scanPoints.push({ x, y });
+    }
+  }
+
+  // Canto inferior direito da janela (botão de envio geralmente fica aqui)
+  for (let y = window.innerHeight - 120; y < window.innerHeight - 5; y += 6) {
+    for (let x = window.innerWidth - 150; x < window.innerWidth - 5; x += 6) {
+      scanPoints.push({ x, y });
+    }
+  }
+
+  for (const { x, y } of scanPoints) {
+    const el = document.elementFromPoint(x, y);
+    if (!el || seen.has(el)) continue;
+    seen.add(el);
+    if (el.tagName === 'BODY' || el.tagName === 'HTML' || el === field) continue;
+    candidates.push({ el, x: Math.round(x), y: Math.round(y) });
+  }
+
+  log(`${candidates.length} elementos encontrados ao redor do campo.`);
+  candidates.slice(0, 5).forEach(({ el, x, y }) =>
+    log(`  (${x},${y}) <${el.tagName}> aria="${el.getAttribute?.('aria-label')||''}" jsname="${el.getAttribute?.('jsname')||''}" cls="${(el.className?.substring?.(0,30))||''}"`)
+  );
+
+  // Clica no elemento mais à direita e abaixo (mais provável ser o botão de envio)
+  if (candidates.length > 0) {
+    // Ordena por x decrescente (mais à direita = botão de envio)
+    candidates.sort((a, b) => b.x - a.x);
+    const { el, x, y } = candidates[0];
+    el.click();
+    log(`Clicou: (${x},${y}) <${el.tagName}> "${el.getAttribute?.('aria-label') || (el.className?.substring?.(0,30)) || ''}"`);
+    return;
+  }
+
+  // Fallback: sobe no DOM e pega irmãos do campo
   let parent = field.parentElement;
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 12; i++) {
     if (!parent || parent === document.body) break;
-    const btns = [...parent.querySelectorAll('button:not([disabled]), [role="button"]')];
-    if (btns.length && btns.length <= 8) {
-      const btn = btns[btns.length - 1]; // último botão do container
-      btn.click();
-      log(`Enviado via container (nível ${i}): "${btn.getAttribute('aria-label') || btn.textContent.trim().substring(0,20)}"`);
+    const siblings = [...parent.children].filter(c => c !== field && c.tagName !== 'TEXTAREA');
+    if (siblings.length) {
+      const last = siblings[siblings.length - 1];
+      last.click();
+      log(`Clicou irmão nível ${i}: <${last.tagName}> "${last.getAttribute('aria-label')||last.textContent?.trim().substring(0,20)}"`);
       return;
     }
     parent = parent.parentElement;
   }
 
-  // 5. Último recurso: Enter
-  log('Nenhum botão encontrado. Tentando Enter...');
+  // Último recurso: Enter
+  log('Sem elemento. Tentando Enter...');
   field.focus();
-  await sleep(200);
-  ['keydown','keypress','keyup'].forEach(type => {
-    field.dispatchEvent(new KeyboardEvent(type, {
-      key: 'Enter', code: 'Enter', keyCode: 13, which: 13,
-      bubbles: true, cancelable: true
-    }));
-  });
-  log('Enter disparado.');
+  await sleep(150);
+  field.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', keyCode: 13, bubbles: true, cancelable: true }));
+  await sleep(80);
+  field.dispatchEvent(new KeyboardEvent('keyup',   { key: 'Enter', keyCode: 13, bubbles: true }));
 }
 
 function getAllClickable() {
@@ -269,25 +284,38 @@ async function downloadVideo(n) {
 // ── Diagnóstico ───────────────────────────────────────────────────────────────
 
 function runDiagnose() {
-  const field     = findField();
-  const clickable = getAllClickable();
-  const dlBtn     = findDlBtn();
-  const videos    = document.querySelectorAll('video');
+  const field  = findField();
+  const dlBtn  = findDlBtn();
+  const videos = document.querySelectorAll('video');
+
+  // Escaneia visualmente o que está à direita do campo
+  const rightElements = [];
+  if (field) {
+    const rect = field.getBoundingClientRect();
+    const seen = new Set();
+    for (let x = rect.right + 2; x < window.innerWidth - 1; x += 6) {
+      for (const y of [rect.top + 5, rect.top + rect.height * 0.5, rect.bottom - 5]) {
+        const el = document.elementFromPoint(x, y);
+        if (!el || seen.has(el) || el === field || el.tagName === 'BODY') continue;
+        seen.add(el);
+        rightElements.push({
+          tag:    el.tagName,
+          label:  el.getAttribute('aria-label') || '',
+          jsname: el.getAttribute('jsname') || '',
+          cls:    (el.className?.substring?.(0, 40)) || '',
+          x:      Math.round(x)
+        });
+      }
+    }
+  }
 
   return {
-    fieldFound:   !!field,
-    fieldTag:     field?.tagName,
+    fieldFound:    !!field,
+    fieldTag:      field?.tagName,
     fieldPlaceholder: field?.placeholder,
-    buttons: clickable.slice(0, 15).map(el => ({
-      tag:     el.tagName,
-      label:   el.getAttribute('aria-label'),
-      text:    el.textContent.trim().substring(0, 25),
-      role:    el.getAttribute('role'),
-      disabled: el.disabled || false
-    })),
-    textareas: [...document.querySelectorAll('textarea')].map(t => ({ placeholder: t.placeholder })),
-    videosCount:  videos.length,
-    downloadBtn:  !!dlBtn,
+    rightElements: rightElements.slice(0, 10),
+    videosCount:   videos.length,
+    downloadBtn:   !!dlBtn,
     downloadLabel: dlBtn?.getAttribute('aria-label')
   };
 }
