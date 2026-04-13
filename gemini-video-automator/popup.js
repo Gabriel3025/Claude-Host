@@ -110,15 +110,15 @@ btnDiagnose.addEventListener('click', async () => {
       return;
     }
     addLog('── Diagnóstico ──', 'info');
-    addLog(`Vídeos: ${res.videosCount} | Download: ${res.downloadBtn ? '✓' : '✗'}`, 'info');
     const btns = res.buttons || [];
     const tas  = res.textareas || [];
-    addLog(`Textareas: ${tas.length} | Botões: ${btns.length}`, tas.length > 0 ? 'success' : 'error');
-    tas.forEach((t, i) => addLog(`  textarea[${i}]: "${t.placeholder}" shadow=${t.inShadow}`, 'info'));
+    addLog(`Campo: ${res.fieldFound ? `✓ <${res.fieldTag}> "${res.fieldPlaceholder}"` : '✗ não encontrado'}`, res.fieldFound ? 'success' : 'error');
+    addLog(`Textareas: ${tas.length} | Clicáveis: ${btns.length} | Vídeos: ${res.videosCount}`, 'info');
     btns.forEach((b, i) => {
-      const info = b.label || b.jsname || b.text || 'sem-label';
-      addLog(`  btn[${i}] ${b.disabled?'⛔':'✓'} "${info}" shadow=${b.inShadow}`, b.disabled ? '' : 'info');
+      const info = b.label || b.text || b.role || 'sem-label';
+      addLog(`  [${i+1}] <${b.tag}> "${info}"`, 'info');
     });
+    if (!btns.length) addLog('  Nenhum elemento clicável — tente clicar no campo primeiro', 'error');
   });
 });
 
