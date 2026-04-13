@@ -110,16 +110,15 @@ btnDiagnose.addEventListener('click', async () => {
       return;
     }
     addLog('── Diagnóstico ──', 'info');
-    addLog(`Vídeos: ${res.videosCount} | Download btn: ${res.downloadBtn ? '✓' : '✗'}`, 'info');
-    if (res.buttons && res.buttons.length) {
-      addLog(`${res.buttons.length} botões na página:`, 'info');
-      res.buttons.forEach((b, i) => {
-        const info = b.label || b.jsname || b.text || b.class.substring(0,30) || 'sem-label';
-        addLog(`  [${i+1}] ${b.disabled?'(disabled)':''} ${info}`, b.disabled ? '' : 'info');
-      });
-    } else {
-      addLog('Nenhum botão encontrado — página não conectada?', 'error');
-    }
+    addLog(`Vídeos: ${res.videosCount} | Download: ${res.downloadBtn ? '✓' : '✗'}`, 'info');
+    const btns = res.buttons || [];
+    const tas  = res.textareas || [];
+    addLog(`Textareas: ${tas.length} | Botões: ${btns.length}`, tas.length > 0 ? 'success' : 'error');
+    tas.forEach((t, i) => addLog(`  textarea[${i}]: "${t.placeholder}" shadow=${t.inShadow}`, 'info'));
+    btns.forEach((b, i) => {
+      const info = b.label || b.jsname || b.text || 'sem-label';
+      addLog(`  btn[${i}] ${b.disabled?'⛔':'✓'} "${info}" shadow=${b.inShadow}`, b.disabled ? '' : 'info');
+    });
   });
 });
 
