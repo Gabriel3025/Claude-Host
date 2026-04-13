@@ -5,6 +5,7 @@
   "description": "Automatiza geração sequencial de vídeos no Gemini Enterprise",
   "permissions": [
     "activeTab",
+    "tabs",
     "scripting",
     "downloads",
     "storage",

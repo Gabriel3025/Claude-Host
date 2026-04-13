@@ -55,11 +55,11 @@ btnStart.addEventListener('click', async () => {
   if (blocks.length === 0) { addLog('Nenhum bloco encontrado.', 'error'); return; }
 
   const tab = await getActiveTab();
-  if (!tab) { addLog('Abra o Gemini Enterprise em uma aba e tente novamente.', 'error'); return; }
+  if (!tab) { addLog('Nenhuma aba ativa encontrada.', 'error'); return; }
 
-  if (!tab.url.includes('business.gemini.google.com')) {
-    addLog('Aba ativa não é o Gemini Enterprise. Navegue para business.gemini.google.com.', 'error');
-    return;
+  // Warn but don't block — tab.url may be undefined without "tabs" permission in older installs
+  if (tab.url && !tab.url.includes('business.gemini.google.com')) {
+    addLog('Aviso: aba ativa não parece ser o Gemini Enterprise.', 'info');
   }
 
   const settings = {
