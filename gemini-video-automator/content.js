@@ -69,16 +69,55 @@ async function processNext() {
   }
 }
 
+// ── Shadow DOM traversal ──────────────────────────────────────────────────────
+
+// Busca recursiva em todo o Shadow DOM da página
+function shadowQueryAll(selector, root) {
+  if (!root) root = document;
+  const results = [];
+  try {
+    results.push(...root.querySelectorAll(selector));
+    const all = root.querySelectorAll('*');
+    for (const el of all) {
+      if (el.shadowRoot) results.push(...shadowQueryAll(selector, el.shadowRoot));
+    }
+  } catch (_) {}
+  return results;
+}
+
+// Busca o primeiro elemento que satisfaz um predicado (com shadow DOM)
+function shadowFind(predicate, root) {
+  if (!root) root = document;
+  try {
+    const all = root.querySelectorAll('*');
+    for (const el of all) {
+      if (predicate(el)) return el;
+      if (el.shadowRoot) {
+        const found = shadowFind(predicate, el.shadowRoot);
+        if (found) return found;
+      }
+    }
+  } catch (_) {}
+  return null;
+}
+
 // ── Encontrar o campo ─────────────────────────────────────────────────────────
 
 function findField() {
-  const all = document.querySelectorAll('textarea');
+  // Busca em todo o shadow DOM — o Gemini esconde o textarea dentro de web components
+  const all = shadowQueryAll('textarea');
   if (!all.length) return null;
-  // Prefere o que tem o placeholder correto
-  for (const t of all) {
-    if (/descreva|vídeo|video/i.test(t.placeholder)) return t;
-  }
-  return all[all.length - 1];
+
+  // Prefere textarea visível com placeholder de vídeo
+  const byPlaceholder = all.find(t => /descreva|vídeo|video/i.test(t.placeholder));
+  if (byPlaceholder) return byPlaceholder;
+
+  // Prefere textarea visível (com área positiva)
+  const visible = all.filter(t => {
+    const r = t.getBoundingClientRect();
+    return r.width > 0 && r.height > 0;
+  });
+  return visible[visible.length - 1] || all[all.length - 1];
 }
 
 // ── Preencher campo ───────────────────────────────────────────────────────────
@@ -117,6 +156,46 @@ async function fillField(text) {
 async function clickSend() {
   const field = findField();
   if (!field) throw new Error('Campo não encontrado para envio.');
+
+  // 1. Busca o botão de envio dentro do Shadow DOM
+  const sendBtn = shadowFind(el => {
+    const tag   = (el.tagName || '').toLowerCase();
+    const label = (el.getAttribute?.('aria-label') || '').toLowerCase();
+    const jsname = el.getAttribute?.('jsname') || '';
+    const type  = el.getAttribute?.('type') || el.type || '';
+    return (
+      label.includes('send') || label.includes('enviar') ||
+      jsname === 'Qx7uuf' || jsname === 'M2UYVd' ||
+      type === 'submit' ||
+      (tag === 'button' && !el.disabled)
+    );
+  });
+
+  if (sendBtn) {
+    sendBtn.click();
+    log(`Enviado via shadow DOM: <${sendBtn.tagName}> "${sendBtn.getAttribute?.('aria-label') || sendBtn.getAttribute?.('jsname') || ''}"`);
+    return;
+  }
+
+  // 2. Busca qualquer botão visível no shadow DOM
+  const allShadowBtns = shadowQueryAll('button, [role="button"]')
+    .filter(el => { const r = el.getBoundingClientRect(); return r.width > 0 && r.height > 0 && !el.disabled; });
+
+  log(`${allShadowBtns.length} botões visíveis no shadow DOM.`);
+  allShadowBtns.forEach(el =>
+    log(`  <${el.tagName}> label="${el.getAttribute('aria-label')||''}" jsname="${el.getAttribute('jsname')||''}" pos=(${Math.round(el.getBoundingClientRect().x)},${Math.round(el.getBoundingClientRect().y)})`)
+  );
+
+  // O botão de envio costuma ser o mais à direita / mais embaixo
+  if (allShadowBtns.length > 0) {
+    allShadowBtns.sort((a, b) => {
+      const ra = a.getBoundingClientRect(), rb = b.getBoundingClientRect();
+      return (rb.x + rb.y) - (ra.x + ra.y); // mais à direita e abaixo primeiro
+    });
+    allShadowBtns[0].click();
+    log(`Clicou no botão mais à direita/baixo do shadow DOM.`);
+    return;
+  }
 
   const rect = field.getBoundingClientRect();
   const centerY = rect.top + rect.height / 2;
