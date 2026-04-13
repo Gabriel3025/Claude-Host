@@ -96,6 +96,21 @@ btnStop.addEventListener('click', async () => {
 
 btnClearLog.addEventListener('click', () => { logEl.innerHTML = ''; });
 
+document.getElementById('btnDiagnose').addEventListener('click', async () => {
+  const tab = await getActiveTab();
+  if (!tab) { addLog('Nenhuma aba ativa.', 'error'); return; }
+  chrome.tabs.sendMessage(tab.id, { type: 'DIAGNOSE' }, (res) => {
+    if (chrome.runtime.lastError) {
+      addLog('Diagnóstico: extensão não conectada à aba. Recarregue a página do Gemini.', 'error');
+      return;
+    }
+    addLog(`Diagnóstico:`, 'info');
+    addLog(`  Campo texto: ${res.inputFound ? `✓ <${res.inputTag}> editável=${res.inputEditable}` : '✗ NÃO encontrado'}`, res.inputFound ? 'success' : 'error');
+    addLog(`  Vídeos na página: ${res.videosCount}`, res.videosCount > 0 ? 'success' : 'info');
+    if (res.videoSrcs.length > 0) addLog(`  Srcs: ${res.videoSrcs.join(' | ')}`, 'info');
+  });
+});
+
 // ─── Messages from content.js ─────────────────────────────────────────────────
 
 chrome.runtime.onMessage.addListener((message) => {
