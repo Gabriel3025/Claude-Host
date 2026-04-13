@@ -45,6 +45,7 @@ async function processNext() {
   try {
     log(`[${n}/${state.queue.length}] Preenchendo campo...`);
     await fillField(block);
+    await sleep(1000); // garante que framework processou o texto
 
     log(`[${n}] Enviando...`);
     await sendMessage();
@@ -141,8 +142,23 @@ async function fillField(text) {
 // ── Enviar mensagem ──────────────────────────────────────────────────────────
 
 async function sendMessage() {
-  // Aguarda React processar o input e habilitar o botão de envio
-  await sleep(600);
+  // Aguarda framework processar o input
+  await sleep(800);
+
+  const field = findField();
+
+  // Estratégia 0: requestSubmit no form (nativo, funciona com qualquer framework)
+  const form = field?.closest('form');
+  if (form) {
+    try {
+      form.requestSubmit();
+      log('Enviado via form.requestSubmit() ✓');
+      return;
+    } catch (e) {
+      // form.submit() como fallback do requestSubmit
+      try { form.submit(); log('Enviado via form.submit() ✓'); return; } catch (_) {}
+    }
+  }
 
   // Tenta encontrar o botão de envio via MutationObserver por 3 segundos
   const btn = await waitForSendButton(3000);
