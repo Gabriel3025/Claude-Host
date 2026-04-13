@@ -128,33 +128,62 @@ function findInputElement() {
 
 async function typePrompt(text) {
   const input = findInputElement();
-  if (!input) throw new Error('Campo "Descreva como deve ser o vídeo" não encontrado. Certifique-se de estar na interface de vídeo do Gemini.');
+  if (!input) throw new Error('Campo "Descreva como deve ser o vídeo" não encontrado.');
 
   input.focus();
   await sleep(400);
 
-  const isEditable = input.isContentEditable || input.contentEditable === 'true';
+  // Limpa o campo primeiro
+  input.select?.();
+  document.execCommand('selectAll', false, null);
+  await sleep(100);
 
-  if (isEditable) {
-    document.execCommand('selectAll', false, null);
-    await sleep(100);
-    const ok = document.execCommand('insertText', false, text);
-    if (!ok) {
-      input.textContent = '';
-      input.textContent = text;
-      input.dispatchEvent(new InputEvent('input', { bubbles: true, data: text, inputType: 'insertText' }));
-    }
-  } else {
-    // textarea padrão
-    const setter = Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, 'value').set;
-    setter.call(input, text);
-    input.dispatchEvent(new Event('input',  { bubbles: true }));
-    input.dispatchEvent(new Event('change', { bubbles: true }));
+  // Método 1: ClipboardEvent paste — aciona o React corretamente
+  const dt = new DataTransfer();
+  dt.setData('text/plain', text);
+  const pasteEvent = new ClipboardEvent('paste', {
+    clipboardData: dt,
+    bubbles: true,
+    cancelable: true
+  });
+  const handled = input.dispatchEvent(pasteEvent);
+  await sleep(300);
+
+  // Verifica se o paste funcionou
+  const val = input.value || input.textContent || '';
+  if (val.trim().length > 0) {
+    log(`✓ Texto inserido via paste (${val.length} chars).`);
+    return;
   }
 
-  input.dispatchEvent(new Event('input', { bubbles: true }));
-  await sleep(300);
-  log(`Campo preenchido com ${text.length} caracteres.`);
+  // Método 2: insertText via execCommand
+  const ok = document.execCommand('insertText', false, text);
+  await sleep(200);
+  const val2 = input.value || input.textContent || '';
+  if (val2.trim().length > 0) {
+    log(`✓ Texto inserido via execCommand (${val2.length} chars).`);
+    return;
+  }
+
+  // Método 3: setter nativo + eventos React
+  if (input.tagName === 'TEXTAREA' || input.tagName === 'INPUT') {
+    const nativeSetter = Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, 'value').set;
+    nativeSetter.call(input, text);
+  } else {
+    input.textContent = text;
+  }
+
+  // Dispara cadeia completa de eventos que o React escuta
+  input.dispatchEvent(new Event('input',  { bubbles: true }));
+  input.dispatchEvent(new Event('change', { bubbles: true }));
+  input.dispatchEvent(new InputEvent('input', {
+    bubbles: true,
+    inputType: 'insertText',
+    data: text
+  }));
+
+  await sleep(200);
+  log(`Texto inserido via setter nativo (${text.length} chars).`);
 }
 
 // ─── PASSO 2: Enviar ──────────────────────────────────────────────────────────
@@ -222,22 +251,42 @@ async function submitPrompt() {
     }
   }
 
-  // Estratégia 4: Ctrl+Enter (atalho comum do Gemini)
+  // Estratégia 4: clica no botão mais próximo visualmente à direita do campo
   if (input) {
-    input.focus();
-    await sleep(200);
+    const rect = input.getBoundingClientRect();
+    // O botão de envio fica à direita do campo — testa pontos ao redor
+    const candidates = [
+      { x: rect.right + 20, y: rect.top + rect.height / 2 },
+      { x: rect.right + 40, y: rect.top + rect.height / 2 },
+      { x: rect.right - 30, y: rect.top + rect.height / 2 },
+    ];
+    for (const pt of candidates) {
+      const el = document.elementFromPoint(pt.x, pt.y);
+      if (el && (el.tagName === 'BUTTON' || el.closest('button'))) {
+        const btn = el.tagName === 'BUTTON' ? el : el.closest('button');
+        if (btn && !btn.disabled) {
+          btn.click();
+          log('Enviado via clique posicional: ' + (btn.getAttribute('aria-label') || btn.className).substring(0, 40));
+          return;
+        }
+      }
+    }
+
+    // Estratégia 5: Ctrl+Enter
     log('Tentando Ctrl+Enter...');
+    input.focus();
+    await sleep(150);
     input.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', code: 'Enter', keyCode: 13, ctrlKey: true, bubbles: true, cancelable: true }));
     await sleep(100);
     input.dispatchEvent(new KeyboardEvent('keyup',   { key: 'Enter', code: 'Enter', keyCode: 13, ctrlKey: true, bubbles: true }));
     await sleep(200);
 
-    // Estratégia 5: Enter simples como último recurso
+    // Estratégia 6: Enter simples
     log('Tentando Enter simples...');
     input.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', code: 'Enter', keyCode: 13, bubbles: true, cancelable: true }));
     await sleep(100);
     input.dispatchEvent(new KeyboardEvent('keyup',   { key: 'Enter', code: 'Enter', keyCode: 13, bubbles: true }));
-    log('Teclas disparadas. Aguardando...');
+    log('Feito. Verificando se enviou...');
   } else {
     throw new Error('Campo de texto e botão de envio não encontrados.');
   }
