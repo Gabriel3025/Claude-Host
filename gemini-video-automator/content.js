@@ -380,45 +380,78 @@ async function downloadVideo(n, videoResult) {
 }
 
 // Auto-confirma o diálogo "Baixar o arquivo?" do Google Workspace DLP
-async function autoConfirmDlpDialog() {
-  // Normaliza texto de um elemento para comparação
-  const getText = el => (el.textContent || '').replace(/\s+/g, ' ').trim().toLowerCase();
+// Usa MutationObserver para reagir imediatamente quando o diálogo aparecer
+function autoConfirmDlpDialog() {
+  return new Promise(resolve => {
+    let resolved = false;
 
-  // Verifica se o texto é o botão de confirmação do diálogo DLP
-  const isConfirm = text =>
-    text.includes('sim, baixar') ||
-    text.includes('yes, download') ||
-    text === 'sim,baixar' ||
-    text === 'yes,download';
+    function getText(el) {
+      return (el.textContent || '').replace(/\s+/g, ' ').trim().toLowerCase();
+    }
 
-  for (let attempt = 0; attempt < 20; attempt++) { // até 10s
-    await sleep(500);
+    function isConfirmBtn(el) {
+      const text  = getText(el);
+      const label = (el.getAttribute?.('aria-label') || '').toLowerCase();
+      return text.includes('sim, baixar') || text.includes('yes, download') ||
+             label.includes('sim, baixar') || label.includes('yes, download');
+    }
 
-    // Estratégia 1: DOM principal (diálogos portais são appendados ao document.body)
-    for (const el of document.querySelectorAll('button, [role="button"], a')) {
-      if (isConfirm(getText(el))) {
-        el.click();
-        log(`✓ Diálogo DLP confirmado (DOM): "${el.textContent.trim()}"`);
-        return;
+    function tryConfirm() {
+      if (resolved) return;
+
+      // 1. Todos os botões no DOM principal (portal dialogs ficam no body)
+      const allBtns = [...document.querySelectorAll('button, [role="button"]')];
+      for (const btn of allBtns) {
+        if (isConfirmBtn(btn)) {
+          resolved = true;
+          obs.disconnect();
+          clearInterval(poll);
+          clearTimeout(timeout);
+          btn.click();
+          log(`✓ DLP confirmado: "${btn.textContent.trim()}"`);
+          resolve();
+          return;
+        }
+      }
+
+      // 2. Shadow DOM (fallback)
+      const shadowBtn = shadowFind(el => {
+        const tag  = el.tagName || '';
+        const role = el.getAttribute?.('role') || '';
+        return (tag === 'BUTTON' || role === 'button') && isConfirmBtn(el);
+      });
+      if (shadowBtn) {
+        resolved = true;
+        obs.disconnect();
+        clearInterval(poll);
+        clearTimeout(timeout);
+        shadowBtn.click();
+        log(`✓ DLP confirmado (shadow): "${shadowBtn.textContent.trim()}"`);
+        resolve();
       }
     }
 
-    // Estratégia 2: Shadow DOM (caso o diálogo esteja dentro de web component)
-    const shadowBtn = shadowFind(el => {
-      const tag  = el.tagName || '';
-      const role = el.getAttribute?.('role') || '';
-      const isBtn = tag === 'BUTTON' || role === 'button' ||
-                    tag === 'A' || tag.endsWith('-BUTTON');
-      return isBtn && isConfirm(getText(el));
-    });
-    if (shadowBtn) {
-      shadowBtn.click();
-      log(`✓ Diálogo DLP confirmado (shadow): "${shadowBtn.textContent.trim()}"`);
-      return;
-    }
-  }
-  // Sem diálogo em 10s — continua normalmente
-  log('Sem diálogo de confirmação detectado, seguindo...');
+    // MutationObserver: reage imediatamente ao DOM mudar
+    const obs = new MutationObserver(() => tryConfirm());
+    obs.observe(document.body, { childList: true, subtree: true });
+
+    // Polling a cada 200ms como segurança
+    const poll = setInterval(() => tryConfirm(), 200);
+
+    // Verifica imediatamente (caso o diálogo já esteja na tela)
+    tryConfirm();
+
+    // Timeout de 12s — sem diálogo, segue normalmente
+    const timeout = setTimeout(() => {
+      if (!resolved) {
+        resolved = true;
+        obs.disconnect();
+        clearInterval(poll);
+        log('Sem diálogo DLP detectado, seguindo...');
+        resolve();
+      }
+    }, 12000);
+  });
 }
 
 // ── Diagnóstico ───────────────────────────────────────────────────────────────
