@@ -53,11 +53,11 @@ async function processNext() {
     await clickSend();
 
     log(`[${n}] Aguardando vídeo... (pode levar 1-2 min)`);
-    await waitForVideo(prevDlBtn, prevVideos);
+    const videoResult = await waitForVideo(prevDlBtn, prevVideos);
     await sleep(1500);
 
     log(`[${n}] Baixando...`);
-    const dl = await downloadVideo(n, prevDlBtn);
+    const dl = await downloadVideo(n, videoResult);
 
     notifyPopup({ type: 'BLOCK_DONE', current: n, total: state.queue.length, downloaded: dl });
 
@@ -270,7 +270,9 @@ async function clickSend() {
 // ── Aguardar vídeo ────────────────────────────────────────────────────────────
 
 // prevDlBtn: botão de download que já existia ANTES de enviar (para ignorar)
-// prevVideos: Set de srcs de vídeos já existentes ANTES de enviar
+// Aguarda o NOVO vídeo ser gerado e retorna { dlBtn, video } com os elementos exatos
+// prevDlBtn: botão de download já existente antes de enviar (para ignorar)
+// prevVideos: Set de srcs já existentes antes de enviar (para ignorar)
 function waitForVideo(prevDlBtn, prevVideos) {
   prevVideos = prevVideos || new Set();
 
@@ -278,25 +280,29 @@ function waitForVideo(prevDlBtn, prevVideos) {
     let done = false;
 
     function check() {
-      // Só aceita botão de download que seja NOVO (diferente do anterior)
-      const dlBtn = findDlBtn();
-      if (dlBtn && dlBtn !== prevDlBtn) return 'download-btn';
+      // Busca TODOS os botões de download e filtra os novos (diferentes do prevDlBtn)
+      const allBtns = findAllDlBtns().filter(el => el !== prevDlBtn);
+      if (allBtns.length > 0) {
+        // Pega o último (mais recente no DOM = mais abaixo na conversa)
+        return { via: 'download-btn', dlBtn: allBtns[allBtns.length - 1], video: null };
+      }
 
-      // Só aceita vídeo com src que não existia antes
+      // Fallback: novo elemento <video> com src que não existia antes
       const videos = shadowQueryAll('video');
       const newVideo = videos.find(v => {
         const src = v.src || v.currentSrc;
         return src && !prevVideos.has(src) && v.readyState >= 1;
       });
-      if (newVideo) return 'video-element';
+      if (newVideo) return { via: 'video-element', dlBtn: null, video: newVideo };
 
       return null;
     }
 
-    function finish(r) {
+    function finish(result) {
       if (done) return; done = true;
       clearTimeout(t); clearInterval(p); obs.disconnect();
-      log('Novo vídeo detectado: ' + r); resolve();
+      log(`Novo vídeo detectado via: ${result.via}`);
+      resolve(result); // resolve com o elemento exato encontrado
     }
     function fail(m) {
       if (done) return; done = true;
@@ -346,34 +352,35 @@ function findDlBtn(skipBtn) {
   return all[all.length - 1] || null; // último = mais recente
 }
 
-async function downloadVideo(n, prevDlBtn) {
-  // Busca o botão mais recente, ignorando o do bloco anterior
-  const btn = findDlBtn(prevDlBtn);
-  if (btn) {
+// videoResult: objeto { via, dlBtn, video } retornado por waitForVideo
+// Usa o elemento EXATO detectado no momento da geração — nunca busca de novo
+async function downloadVideo(n, videoResult) {
+  // Caminho 1: usa o botão de download exato capturado por waitForVideo
+  if (videoResult && videoResult.dlBtn) {
+    const btn   = videoResult.dlBtn;
     const inner = btn.shadowRoot?.querySelector('button, a') || btn;
     inner.click();
-    log('Download via botão (mais recente) ✓');
-    // Auto-confirma o diálogo DLP do Google Workspace se aparecer
+    log(`Download via botão exato (bloco ${n}) ✓`);
     await autoConfirmDlpDialog();
     return true;
   }
 
-  // Fallback: pega o último elemento <video> da página
-  const videos = shadowQueryAll('video');
-  const v = videos[videos.length - 1];
-  if (!v) { log('Sem vídeo e sem botão de download.'); return false; }
-
-  const url = v.src || v.currentSrc;
-  if (!url) { log('Vídeo sem URL.'); return false; }
-
-  if (url.startsWith('blob:')) {
-    const a = Object.assign(document.createElement('a'), { href: url, download: `video_${String(n).padStart(3,'0')}.mp4` });
-    document.body.appendChild(a); a.click(); a.remove();
-    log('Download blob ✓'); return true;
+  // Caminho 2: usa o elemento <video> exato capturado por waitForVideo
+  if (videoResult && videoResult.video) {
+    const v   = videoResult.video;
+    const url = v.src || v.currentSrc;
+    if (url) {
+      if (url.startsWith('blob:')) {
+        const a = Object.assign(document.createElement('a'), { href: url, download: `video_${String(n).padStart(3,'0')}.mp4` });
+        document.body.appendChild(a); a.click(); a.remove();
+        log('Download blob (elemento exato) ✓'); return true;
+      }
+      chrome.runtime.sendMessage({ type: 'DOWNLOAD', url, filename: `video_${String(n).padStart(3,'0')}.mp4` });
+      return true;
+    }
   }
 
-  chrome.runtime.sendMessage({ type: 'DOWNLOAD', url, filename: `video_${String(n).padStart(3,'0')}.mp4` });
-  return true;
+  log('Elemento de download não encontrado.'); return false;
 }
 
 // Auto-confirma o diálogo "Baixar o arquivo?" do Google Workspace DLP
