@@ -59,10 +59,6 @@ async function processNext() {
     log(`[${n}] Baixando...`);
     const dl = await downloadVideo(n, prevDlBtn);
 
-    // Aguarda confirmação do diálogo de download do Chrome Enterprise (se aparecer)
-    log(`[${n}] Aguardando confirmação de download (10s)...`);
-    await sleep(10000);
-
     notifyPopup({ type: 'BLOCK_DONE', current: n, total: state.queue.length, downloaded: dl });
 
     const delay = state.settings.delayBetween || 5000;
@@ -357,6 +353,8 @@ async function downloadVideo(n, prevDlBtn) {
     const inner = btn.shadowRoot?.querySelector('button, a') || btn;
     inner.click();
     log('Download via botão (mais recente) ✓');
+    // Auto-confirma o diálogo DLP do Google Workspace se aparecer
+    await autoConfirmDlpDialog();
     return true;
   }
 
@@ -376,6 +374,32 @@ async function downloadVideo(n, prevDlBtn) {
 
   chrome.runtime.sendMessage({ type: 'DOWNLOAD', url, filename: `video_${String(n).padStart(3,'0')}.mp4` });
   return true;
+}
+
+// Auto-confirma o diálogo "Baixar o arquivo?" do Google Workspace DLP
+// (aparece quando a organização tem política de proteção de dados)
+async function autoConfirmDlpDialog() {
+  // Textos possíveis do botão de confirmação (PT/EN)
+  const confirmTexts = ['sim, baixar', 'yes, download', 'baixar', 'download', 'confirm', 'ok'];
+
+  for (let attempt = 0; attempt < 8; attempt++) {
+    await sleep(500);
+
+    // Busca botão de confirmação no shadow DOM inteiro
+    const confirmBtn = shadowFind(el => {
+      if (el.tagName !== 'BUTTON' && el.tagName !== 'A') return false;
+      const text  = (el.textContent  || '').trim().toLowerCase();
+      const label = (el.getAttribute('aria-label') || '').toLowerCase();
+      return confirmTexts.some(t => text === t || text.startsWith(t) || label === t);
+    });
+
+    if (confirmBtn) {
+      confirmBtn.click();
+      log('✓ Diálogo de download confirmado automaticamente ("' + confirmBtn.textContent.trim() + '")');
+      return;
+    }
+  }
+  // Se não encontrou diálogo em 4s, continua normalmente (não havia diálogo)
 }
 
 // ── Diagnóstico ───────────────────────────────────────────────────────────────
