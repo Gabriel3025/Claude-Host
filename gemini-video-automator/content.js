@@ -326,15 +326,13 @@ function waitForVideo(prevDlBtn, prevVideos) {
 // ── Download ──────────────────────────────────────────────────────────────────
 
 // Retorna TODOS os botões de download encontrados no shadow DOM
+// IMPORTANTE: usar apenas seletores ESPECÍFICOS para não pegar outros botões da UI
 function findAllDlBtns() {
   const selectors = [
     '[aria-label="Baixar arquivo de vídeo"]',
     '[aria-label="Download video file"]',
     '[data-aria-label="Baixar arquivo de vídeo"]',
     '[data-aria-label="Download video file"]',
-    '[aria-label*="Baixar" i]',
-    '[aria-label*="Download" i]',
-    'a[download]',
   ];
   const seen = new Set();
   const all  = [];
