@@ -45,15 +45,15 @@ async function processNext() {
     await fillField(block);
     await sleep(1000);
 
-    // Captura estado ANTES de enviar para detectar apenas elementos NOVOS
-    const prevDlBtn  = findDlBtn();
-    const prevVideos = new Set(shadowQueryAll('video').map(v => v.src || v.currentSrc || '').filter(Boolean));
+    // Captura estado ANTES de enviar — usa CONTAGEM (não referência, que fica stale)
+    const prevDlBtnCount = findAllDlBtns().length;
+    const prevVideos     = new Set(shadowQueryAll('video').map(v => v.src || v.currentSrc || '').filter(Boolean));
 
-    log(`[${n}] Enviando...`);
+    log(`[${n}] Enviando... (botões antes: ${prevDlBtnCount})`);
     await clickSend();
 
     log(`[${n}] Aguardando vídeo... (pode levar 1-2 min)`);
-    const videoResult = await waitForVideo(prevDlBtn, prevVideos);
+    const videoResult = await waitForVideo(prevDlBtnCount, prevVideos);
     await sleep(1500);
 
     log(`[${n}] Baixando...`);
@@ -269,25 +269,23 @@ async function clickSend() {
 
 // ── Aguardar vídeo ────────────────────────────────────────────────────────────
 
-// prevDlBtn: botão de download que já existia ANTES de enviar (para ignorar)
-// Aguarda o NOVO vídeo ser gerado e retorna { dlBtn, video } com os elementos exatos
-// prevDlBtn: botão de download já existente antes de enviar (para ignorar)
-// prevVideos: Set de srcs já existentes antes de enviar (para ignorar)
-function waitForVideo(prevDlBtn, prevVideos) {
+// prevDlBtnCount: quantos botões de download existiam ANTES de enviar (inteiro)
+// prevVideos: Set de srcs de vídeos que já existiam ANTES de enviar
+// Resolve apenas quando COUNT de botões aumenta OU novo src de vídeo aparece
+function waitForVideo(prevDlBtnCount, prevVideos) {
   prevVideos = prevVideos || new Set();
 
   return new Promise((resolve, reject) => {
     let done = false;
 
     function check() {
-      // Busca TODOS os botões de download e filtra os novos (diferentes do prevDlBtn)
-      const allBtns = findAllDlBtns().filter(el => el !== prevDlBtn);
-      if (allBtns.length > 0) {
-        // Pega o último (mais recente no DOM = mais abaixo na conversa)
+      // Condição 1: apareceu pelo menos UM NOVO botão de download (count aumentou)
+      const allBtns = findAllDlBtns();
+      if (allBtns.length > prevDlBtnCount) {
         return { via: 'download-btn', dlBtn: allBtns[allBtns.length - 1], video: null };
       }
 
-      // Fallback: novo elemento <video> com src que não existia antes
+      // Condição 2: apareceu um <video> com src novo (não estava antes do envio)
       const videos = shadowQueryAll('video');
       const newVideo = videos.find(v => {
         const src = v.src || v.currentSrc;
@@ -295,14 +293,14 @@ function waitForVideo(prevDlBtn, prevVideos) {
       });
       if (newVideo) return { via: 'video-element', dlBtn: null, video: newVideo };
 
-      return null;
+      return null; // ainda gerando
     }
 
     function finish(result) {
       if (done) return; done = true;
       clearTimeout(t); clearInterval(p); obs.disconnect();
-      log(`Novo vídeo detectado via: ${result.via}`);
-      resolve(result); // resolve com o elemento exato encontrado
+      log(`Vídeo pronto via: ${result.via} (botões: ${findAllDlBtns().length})`);
+      resolve(result);
     }
     function fail(m) {
       if (done) return; done = true;
@@ -310,44 +308,44 @@ function waitForVideo(prevDlBtn, prevVideos) {
       reject(new Error(m));
     }
 
-    const obs = new MutationObserver(() => {
-      const r = check(); if (r) finish(r);
-    });
+    const obs = new MutationObserver(() => { const r = check(); if (r) finish(r); });
     obs.observe(document.body, { childList: true, subtree: true, attributes: true });
 
     const p = setInterval(() => { const r = check(); if (r) finish(r); }, 2000);
     const t = setTimeout(() => fail('Timeout: vídeo não gerado em 3 min.'), 180_000);
 
-    // Primeira verificação só após 8s (aguarda Gemini começar a gerar)
+    // Primeira checagem após 8s (garante que Gemini começou a gerar antes de checar)
     setTimeout(() => { const r = check(); if (r) finish(r); }, 8000);
   });
 }
 
 // ── Download ──────────────────────────────────────────────────────────────────
 
-// Retorna TODOS os botões de download encontrados no shadow DOM
-// IMPORTANTE: usar apenas seletores ESPECÍFICOS para não pegar outros botões da UI
+// Retorna TODOS os botões de download VISÍVEIS no shadow DOM
+// Seletores específicos + verificação de dimensão mínima (evita elementos hidden no DOM)
 function findAllDlBtns() {
   const selectors = [
     '[aria-label="Baixar arquivo de vídeo"]',
     '[aria-label="Download video file"]',
-    '[data-aria-label="Baixar arquivo de vídeo"]',
-    '[data-aria-label="Download video file"]',
   ];
   const seen = new Set();
   const all  = [];
   for (const sel of selectors) {
     for (const el of shadowQueryAll(sel)) {
-      if (!seen.has(el)) { seen.add(el); all.push(el); }
+      if (seen.has(el)) continue;
+      seen.add(el);
+      // Só conta se for visível (tem dimensões reais)
+      const rect = el.getBoundingClientRect();
+      if (rect.width > 4 && rect.height > 4) all.push(el);
     }
   }
   return all;
 }
 
-// Retorna o botão de download mais recente (último na ordem do DOM)
-function findDlBtn(skipBtn) {
-  const all = findAllDlBtns().filter(el => el !== skipBtn);
-  return all[all.length - 1] || null; // último = mais recente
+// Retorna o botão de download mais recente (último encontrado)
+function findDlBtn() {
+  const all = findAllDlBtns();
+  return all[all.length - 1] || null;
 }
 
 // videoResult: objeto { via, dlBtn, video } retornado por waitForVideo
