@@ -382,29 +382,45 @@ async function downloadVideo(n, videoResult) {
 }
 
 // Auto-confirma o diálogo "Baixar o arquivo?" do Google Workspace DLP
-// (aparece quando a organização tem política de proteção de dados)
 async function autoConfirmDlpDialog() {
-  // Textos possíveis do botão de confirmação (PT/EN)
-  const confirmTexts = ['sim, baixar', 'yes, download', 'baixar', 'download', 'confirm', 'ok'];
+  // Normaliza texto de um elemento para comparação
+  const getText = el => (el.textContent || '').replace(/\s+/g, ' ').trim().toLowerCase();
 
-  for (let attempt = 0; attempt < 8; attempt++) {
+  // Verifica se o texto é o botão de confirmação do diálogo DLP
+  const isConfirm = text =>
+    text.includes('sim, baixar') ||
+    text.includes('yes, download') ||
+    text === 'sim,baixar' ||
+    text === 'yes,download';
+
+  for (let attempt = 0; attempt < 20; attempt++) { // até 10s
     await sleep(500);
 
-    // Busca botão de confirmação no shadow DOM inteiro
-    const confirmBtn = shadowFind(el => {
-      if (el.tagName !== 'BUTTON' && el.tagName !== 'A') return false;
-      const text  = (el.textContent  || '').trim().toLowerCase();
-      const label = (el.getAttribute('aria-label') || '').toLowerCase();
-      return confirmTexts.some(t => text === t || text.startsWith(t) || label === t);
-    });
+    // Estratégia 1: DOM principal (diálogos portais são appendados ao document.body)
+    for (const el of document.querySelectorAll('button, [role="button"], a')) {
+      if (isConfirm(getText(el))) {
+        el.click();
+        log(`✓ Diálogo DLP confirmado (DOM): "${el.textContent.trim()}"`);
+        return;
+      }
+    }
 
-    if (confirmBtn) {
-      confirmBtn.click();
-      log('✓ Diálogo de download confirmado automaticamente ("' + confirmBtn.textContent.trim() + '")');
+    // Estratégia 2: Shadow DOM (caso o diálogo esteja dentro de web component)
+    const shadowBtn = shadowFind(el => {
+      const tag  = el.tagName || '';
+      const role = el.getAttribute?.('role') || '';
+      const isBtn = tag === 'BUTTON' || role === 'button' ||
+                    tag === 'A' || tag.endsWith('-BUTTON');
+      return isBtn && isConfirm(getText(el));
+    });
+    if (shadowBtn) {
+      shadowBtn.click();
+      log(`✓ Diálogo DLP confirmado (shadow): "${shadowBtn.textContent.trim()}"`);
       return;
     }
   }
-  // Se não encontrou diálogo em 4s, continua normalmente (não havia diálogo)
+  // Sem diálogo em 10s — continua normalmente
+  log('Sem diálogo de confirmação detectado, seguindo...');
 }
 
 // ── Diagnóstico ───────────────────────────────────────────────────────────────
