@@ -379,6 +379,17 @@ async function downloadVideo(n, videoResult) {
   log('Elemento de download não encontrado.'); return false;
 }
 
+// Retorna todos os documentos acessíveis (main + iframes same-origin)
+function getAllDocs() {
+  const docs = [document];
+  try {
+    for (const frame of document.querySelectorAll('iframe')) {
+      try { if (frame.contentDocument) docs.push(frame.contentDocument); } catch(_) {}
+    }
+  } catch(_) {}
+  return docs;
+}
+
 // Auto-confirma o diálogo "Baixar o arquivo?" do Google Workspace DLP
 function autoConfirmDlpDialog() {
   return new Promise(resolve => {
@@ -394,67 +405,67 @@ function autoConfirmDlpDialog() {
       resolve();
     }
 
-    function clickBtn(btn, via) {
-      // Dois métodos de clique para garantir
+    function doClick(btn, via) {
+      const label = (btn.textContent || btn.getAttribute?.('aria-label') || '').trim().substring(0, 30);
+      // Para garantir: click nativo + MouseEvent + focus+click
+      try { btn.focus(); } catch(_) {}
       try { btn.click(); } catch(_) {}
       try { btn.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true, view: window })); } catch(_) {}
-      done(`✓ DLP confirmado (${via}): "${(btn.textContent || '').trim().substring(0, 30)}"`);
+      done(`✓ DLP confirmado (${via}): "${label}"`);
     }
 
     function tryConfirm() {
       if (resolved) return;
 
-      // Método 1: Encontra o CONTAINER do diálogo pelo texto DLP exclusivo
-      // ("exfiltração" ou "exfiltration" só aparece neste diálogo)
-      const dialogContainer = shadowFind(el => {
-        const text = (el.textContent || '').toLowerCase();
-        const len  = text.length;
-        return len > 30 && len < 800 &&
-               (text.includes('exfiltração') || text.includes('exfiltration') ||
-                text.includes('baixar o arquivo') || text.includes('download file'));
-      });
+      const isDlp  = t => t.includes('exfiltração') || t.includes('exfiltration') ||
+                          t.includes('baixar o arquivo') || t.includes('download file?');
+      const isSim  = t => t.includes('sim, baixar') || t.includes('yes, download');
 
-      if (dialogContainer) {
-        // Pega todos os botões dentro do container
-        const btns = [...dialogContainer.querySelectorAll('button, [role="button"]')];
-        // O botão de confirmar é o ÚLTIMO (Cancelar | Sim, baixar)
-        const confirmBtn = btns[btns.length - 1];
-        if (confirmBtn) { clickBtn(confirmBtn, 'container-last-btn'); return; }
+      // Busca em todos os documentos (main frame + iframes)
+      for (const doc of getAllDocs()) {
+        // Método A: encontra o container do diálogo pelo texto DLP exclusivo
+        //           depois clica no último botão (= confirmar)
+        const allEls = [...doc.querySelectorAll('*')];
+        for (const el of allEls) {
+          const text = (el.textContent || '').toLowerCase();
+          if (text.length > 20 && text.length < 600 && isDlp(text)) {
+            const btns = [...el.querySelectorAll('button, [role="button"]')];
+            if (btns.length >= 2) {
+              doClick(btns[btns.length - 1], 'container'); return;
+            }
+          }
+        }
+
+        // Método B: busca direta pelo texto "Sim, baixar"
+        for (const el of doc.querySelectorAll('button, [role="button"]')) {
+          const text = (el.textContent || '').replace(/\s+/g, ' ').trim().toLowerCase();
+          if (isSim(text)) { doClick(el, 'text-btn'); return; }
+        }
       }
 
-      // Método 2: Busca direta por texto "Sim, baixar" / "Yes, download" no DOM
-      const isConfirm = text =>
-        text.includes('sim, baixar') || text.includes('yes, download');
-
-      for (const el of document.querySelectorAll('button, [role="button"]')) {
-        const text = (el.textContent || '').replace(/\s+/g, ' ').trim().toLowerCase();
-        if (isConfirm(text)) { clickBtn(el, 'dom-text'); return; }
-      }
-
-      // Método 3: Mesma busca no shadow DOM
+      // Método C: shadow DOM completo (fallback)
       const shadowBtn = shadowFind(el => {
-        const tag  = el.tagName || '';
+        const tag = el.tagName || '';
         const role = el.getAttribute?.('role') || '';
         if (tag !== 'BUTTON' && role !== 'button') return false;
         const text = (el.textContent || '').replace(/\s+/g, ' ').trim().toLowerCase();
-        return isConfirm(text);
+        return isSim(text);
       });
-      if (shadowBtn) { clickBtn(shadowBtn, 'shadow-text'); }
+      if (shadowBtn) { doClick(shadowBtn, 'shadow'); }
     }
 
-    // MutationObserver: aguarda o diálogo ser inserido no DOM
-    // setTimeout(100ms) dá tempo para o botão terminar de renderizar
-    const obs = new MutationObserver(() => setTimeout(() => tryConfirm(), 100));
-    obs.observe(document.body, { childList: true, subtree: true });
+    // MutationObserver com delay de 300ms para garantir renderização completa
+    const obs = new MutationObserver(() => setTimeout(() => tryConfirm(), 300));
+    obs.observe(document.body, { childList: true, subtree: true, attributes: true });
 
-    // Polling a cada 300ms como segurança adicional
-    const poll = setInterval(() => tryConfirm(), 300);
+    // Polling a cada 500ms
+    const poll = setInterval(() => tryConfirm(), 500);
 
     // Verifica imediatamente (caso já esteja na tela)
-    tryConfirm();
+    setTimeout(() => tryConfirm(), 300);
 
-    // Timeout de 12s
-    const timeout = setTimeout(() => done('Sem diálogo DLP, seguindo...'), 12000);
+    // Timeout de 15s
+    const timeout = setTimeout(() => done('Sem diálogo DLP detectado, seguindo...'), 15000);
   });
 }
 
