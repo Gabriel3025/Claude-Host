@@ -7,29 +7,29 @@ const CREDENTIALS_PATH = 'C:/Users/Administrador.LAURAFERREIRA/Downloads/.gdrive
 const SHEET_ID = '1902H_f_1PpnA9M0E_MpHEYfavj4U-nwKGzurbvf8PYg';
 
 const results = [
-  { rowIdx: 42, colDia: 15, produto: '100 Cards Anti-Bullying', valor: 65 },
-  { rowIdx: 43, colDia: 15, produto: 'Planilha Capivarinha', valor: 20 },
-  { rowIdx: 44, colDia: 15, produto: 'JiuJistsu (LATAM)', valor: 12 },
-  { rowIdx: 45, colDia: 11, produto: 'Kit Casinhas de Boneca', valor: 19 },
-  { rowIdx: 46, colDia: 11, produto: 'Kit Figurinhas Educativas', valor: 99 },
-  { rowIdx: 47, colDia: 9,  produto: 'Fichas e Resumos de Letras', valor: 110 },
-  { rowIdx: 48, colDia: 7,  produto: 'Projeto Marcenaria', valor: 12 },
-  { rowIdx: 49, colDia: 7,  produto: 'Bijuteria', valor: 12 },
-  { rowIdx: 50, colDia: 7,  produto: 'Alfabetização', valor: 40 },
-  { rowIdx: 51, colDia: 7,  produto: 'Creme AntRugas (DROP)', valor: 46 },
-  { rowIdx: 52, colDia: 7,  produto: 'Atividades Copa do mundo', valor: 10 },
-  { rowIdx: 53, colDia: 7,  produto: 'Calistenia asiática', valor: 26 },
-  { rowIdx: 54, colDia: 7,  produto: 'Religião LATAM', valor: 15 },
-  { rowIdx: 55, colDia: 7,  produto: 'Dinamicas terapeuticas', valor: 9 },
+  { rowIdx: 45, colDia: 14, produto: 'Kit Casinhas de Boneca', value: 15 },
+  { rowIdx: 46, colDia: 14, produto: 'Kit Figurinhas Educativas', value: 100 },
+  { rowIdx: 47, colDia: 12, produto: 'Fichas e Resumos de Letras', value: 140 },
+  { rowIdx: 48, colDia: 10, produto: 'Projeto Marcenaria', value: 14 },
+  { rowIdx: 49, colDia: 10, produto: 'Bijuteria', value: 0 },
+  { rowIdx: 50, colDia: 10, produto: 'Alfabetização', value: 39 },
+  { rowIdx: 51, colDia: 10, produto: 'Creme AntRugas (DROP)', value: 140 },
+  { rowIdx: 52, colDia: 10, produto: 'Atividades Copa do mundo', value: 29 },
+  { rowIdx: 53, colDia: 10, produto: 'Calistenia asiática', value: 50 },
+  { rowIdx: 54, colDia: 10, produto: 'Religião LATAM', value: 19 },
+  { rowIdx: 55, colDia: 10, produto: 'Dinamicas terapeuticas', value: 8 },
+  { rowIdx: 56, colDia: 7,  produto: 'Hora da Leiturinha', value: 30 },
+  { rowIdx: 57, colDia: 7,  produto: 'EUAMOAnatomia', value: 29 },
+  { rowIdx: 58, colDia: 7,  produto: 'Cafajeste (Acompanhar OF)', value: 4 },
 ];
 
-function colToLetter(col) {
+function colIdxToLetter(idx) {
   let letter = '';
-  col = col + 1;
-  while (col > 0) {
-    const rem = (col - 1) % 26;
+  let n = idx + 1;
+  while (n > 0) {
+    const rem = (n - 1) % 26;
     letter = String.fromCharCode(65 + rem) + letter;
-    col = Math.floor((col - 1) / 26);
+    n = Math.floor((n - 1) / 26);
   }
   return letter;
 }
@@ -42,24 +42,25 @@ async function main() {
   const sheets = google.sheets({ version: 'v4', auth });
 
   const data = results.map(r => {
-    const col = colToLetter(r.colDia);
-    const range = `${col}${r.rowIdx}`;
-    return { range, values: [[r.valor]] };
+    const col = colIdxToLetter(r.colDia);
+    const row = r.rowIdx + 1;
+    const range = `${col}${row}`;
+    console.log(`  ${r.produto}: ${range} = ${r.value}`);
+    return {
+      range,
+      values: [[r.value]]
+    };
   });
 
   const res = await sheets.spreadsheets.values.batchUpdate({
     spreadsheetId: SHEET_ID,
     requestBody: {
-      valueInputOption: 'USER_ENTERED',
-      data,
-    },
+      valueInputOption: 'RAW',
+      data
+    }
   });
 
-  console.log(`✅ ${res.data.totalUpdatedCells} células atualizadas.`);
-  results.forEach(r => {
-    const col = colToLetter(r.colDia);
-    console.log(`  [linha ${r.rowIdx}] ${r.produto} → ${col}${r.rowIdx} = ${r.valor}`);
-  });
+  console.log(`\n✅ ${res.data.totalUpdatedCells} células atualizadas com sucesso!`);
 }
 
 main().catch(err => {
