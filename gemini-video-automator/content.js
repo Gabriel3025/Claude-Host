@@ -380,77 +380,81 @@ async function downloadVideo(n, videoResult) {
 }
 
 // Auto-confirma o diálogo "Baixar o arquivo?" do Google Workspace DLP
-// Usa MutationObserver para reagir imediatamente quando o diálogo aparecer
 function autoConfirmDlpDialog() {
   return new Promise(resolve => {
     let resolved = false;
 
-    function getText(el) {
-      return (el.textContent || '').replace(/\s+/g, ' ').trim().toLowerCase();
+    function done(msg) {
+      if (resolved) return;
+      resolved = true;
+      obs.disconnect();
+      clearInterval(poll);
+      clearTimeout(timeout);
+      if (msg) log(msg);
+      resolve();
     }
 
-    function isConfirmBtn(el) {
-      const text  = getText(el);
-      const label = (el.getAttribute?.('aria-label') || '').toLowerCase();
-      return text.includes('sim, baixar') || text.includes('yes, download') ||
-             label.includes('sim, baixar') || label.includes('yes, download');
+    function clickBtn(btn, via) {
+      // Dois métodos de clique para garantir
+      try { btn.click(); } catch(_) {}
+      try { btn.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true, view: window })); } catch(_) {}
+      done(`✓ DLP confirmado (${via}): "${(btn.textContent || '').trim().substring(0, 30)}"`);
     }
 
     function tryConfirm() {
       if (resolved) return;
 
-      // 1. Todos os botões no DOM principal (portal dialogs ficam no body)
-      const allBtns = [...document.querySelectorAll('button, [role="button"]')];
-      for (const btn of allBtns) {
-        if (isConfirmBtn(btn)) {
-          resolved = true;
-          obs.disconnect();
-          clearInterval(poll);
-          clearTimeout(timeout);
-          btn.click();
-          log(`✓ DLP confirmado: "${btn.textContent.trim()}"`);
-          resolve();
-          return;
-        }
+      // Método 1: Encontra o CONTAINER do diálogo pelo texto DLP exclusivo
+      // ("exfiltração" ou "exfiltration" só aparece neste diálogo)
+      const dialogContainer = shadowFind(el => {
+        const text = (el.textContent || '').toLowerCase();
+        const len  = text.length;
+        return len > 30 && len < 800 &&
+               (text.includes('exfiltração') || text.includes('exfiltration') ||
+                text.includes('baixar o arquivo') || text.includes('download file'));
+      });
+
+      if (dialogContainer) {
+        // Pega todos os botões dentro do container
+        const btns = [...dialogContainer.querySelectorAll('button, [role="button"]')];
+        // O botão de confirmar é o ÚLTIMO (Cancelar | Sim, baixar)
+        const confirmBtn = btns[btns.length - 1];
+        if (confirmBtn) { clickBtn(confirmBtn, 'container-last-btn'); return; }
       }
 
-      // 2. Shadow DOM (fallback)
+      // Método 2: Busca direta por texto "Sim, baixar" / "Yes, download" no DOM
+      const isConfirm = text =>
+        text.includes('sim, baixar') || text.includes('yes, download');
+
+      for (const el of document.querySelectorAll('button, [role="button"]')) {
+        const text = (el.textContent || '').replace(/\s+/g, ' ').trim().toLowerCase();
+        if (isConfirm(text)) { clickBtn(el, 'dom-text'); return; }
+      }
+
+      // Método 3: Mesma busca no shadow DOM
       const shadowBtn = shadowFind(el => {
         const tag  = el.tagName || '';
         const role = el.getAttribute?.('role') || '';
-        return (tag === 'BUTTON' || role === 'button') && isConfirmBtn(el);
+        if (tag !== 'BUTTON' && role !== 'button') return false;
+        const text = (el.textContent || '').replace(/\s+/g, ' ').trim().toLowerCase();
+        return isConfirm(text);
       });
-      if (shadowBtn) {
-        resolved = true;
-        obs.disconnect();
-        clearInterval(poll);
-        clearTimeout(timeout);
-        shadowBtn.click();
-        log(`✓ DLP confirmado (shadow): "${shadowBtn.textContent.trim()}"`);
-        resolve();
-      }
+      if (shadowBtn) { clickBtn(shadowBtn, 'shadow-text'); }
     }
 
-    // MutationObserver: reage imediatamente ao DOM mudar
-    const obs = new MutationObserver(() => tryConfirm());
+    // MutationObserver: aguarda o diálogo ser inserido no DOM
+    // setTimeout(100ms) dá tempo para o botão terminar de renderizar
+    const obs = new MutationObserver(() => setTimeout(() => tryConfirm(), 100));
     obs.observe(document.body, { childList: true, subtree: true });
 
-    // Polling a cada 200ms como segurança
-    const poll = setInterval(() => tryConfirm(), 200);
+    // Polling a cada 300ms como segurança adicional
+    const poll = setInterval(() => tryConfirm(), 300);
 
-    // Verifica imediatamente (caso o diálogo já esteja na tela)
+    // Verifica imediatamente (caso já esteja na tela)
     tryConfirm();
 
-    // Timeout de 12s — sem diálogo, segue normalmente
-    const timeout = setTimeout(() => {
-      if (!resolved) {
-        resolved = true;
-        obs.disconnect();
-        clearInterval(poll);
-        log('Sem diálogo DLP detectado, seguindo...');
-        resolve();
-      }
-    }, 12000);
+    // Timeout de 12s
+    const timeout = setTimeout(() => done('Sem diálogo DLP, seguindo...'), 12000);
   });
 }
 
