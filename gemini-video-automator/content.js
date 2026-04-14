@@ -57,7 +57,11 @@ async function processNext() {
     await sleep(1500);
 
     log(`[${n}] Baixando...`);
-    const dl = await downloadVideo(n);
+    const dl = await downloadVideo(n, prevDlBtn);
+
+    // Aguarda confirmação do diálogo de download do Chrome Enterprise (se aparecer)
+    log(`[${n}] Aguardando confirmação de download (10s)...`);
+    await sleep(10000);
 
     notifyPopup({ type: 'BLOCK_DONE', current: n, total: state.queue.length, downloaded: dl });
 
@@ -319,8 +323,8 @@ function waitForVideo(prevDlBtn, prevVideos) {
 
 // ── Download ──────────────────────────────────────────────────────────────────
 
-function findDlBtn() {
-  // Busca no DOM normal e no shadow DOM
+// Retorna TODOS os botões de download encontrados no shadow DOM
+function findAllDlBtns() {
   const selectors = [
     '[aria-label="Baixar arquivo de vídeo"]',
     '[aria-label="Download video file"]',
@@ -330,29 +334,39 @@ function findDlBtn() {
     '[aria-label*="Download" i]',
     'a[download]',
   ];
+  const seen = new Set();
+  const all  = [];
   for (const sel of selectors) {
-    const results = shadowQueryAll(sel);
-    if (results.length) return results[0];
+    for (const el of shadowQueryAll(sel)) {
+      if (!seen.has(el)) { seen.add(el); all.push(el); }
+    }
   }
-  return null;
+  return all;
 }
 
-async function downloadVideo(n) {
-  const btn = findDlBtn();
+// Retorna o botão de download mais recente (último na ordem do DOM)
+function findDlBtn(skipBtn) {
+  const all = findAllDlBtns().filter(el => el !== skipBtn);
+  return all[all.length - 1] || null; // último = mais recente
+}
+
+async function downloadVideo(n, prevDlBtn) {
+  // Busca o botão mais recente, ignorando o do bloco anterior
+  const btn = findDlBtn(prevDlBtn);
   if (btn) {
-    // Tenta clicar no inner button se for custom element
     const inner = btn.shadowRoot?.querySelector('button, a') || btn;
     inner.click();
-    log('Download via botão ✓');
+    log('Download via botão (mais recente) ✓');
     return true;
   }
 
+  // Fallback: pega o último elemento <video> da página
   const videos = shadowQueryAll('video');
-  const v = videos[videos.length - 1] || document.querySelector('video');
-  if (!v) { log('Sem vídeo.'); return false; }
+  const v = videos[videos.length - 1];
+  if (!v) { log('Sem vídeo e sem botão de download.'); return false; }
 
   const url = v.src || v.currentSrc;
-  if (!url) { log('Sem URL.'); return false; }
+  if (!url) { log('Vídeo sem URL.'); return false; }
 
   if (url.startsWith('blob:')) {
     const a = Object.assign(document.createElement('a'), { href: url, download: `video_${String(n).padStart(3,'0')}.mp4` });
