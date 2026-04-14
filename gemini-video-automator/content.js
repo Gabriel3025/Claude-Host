@@ -154,11 +154,12 @@ async function fillField(text) {
 // ── Clicar no botão de envio ──────────────────────────────────────────────────
 
 async function clickSend() {
-  // ── Seletores exatos obtidos do DevTools do Gemini ──
-  // Estrutura: <md-icon-button class="send-button" data-aria-label="Enviar">
-  //              #shadow-root > <button aria-label="Enviar">
+  // Estrutura confirmada via DevTools:
+  // <md-icon-button class="send-button submit" data-aria-label="Enviar">
+  //   #shadow-root (open)
+  //     <button id="button" aria-label="Enviar">
 
-  // 1. Tenta clicar diretamente no md-icon-button de envio (custom element)
+  // 1. Seletores exatos do md-icon-button
   const sendSelectors = [
     'md-icon-button.send-button',
     'md-icon-button[data-aria-label="Enviar"]',
@@ -170,11 +171,10 @@ async function clickSend() {
   for (const sel of sendSelectors) {
     const el = shadowQueryAll(sel)[0];
     if (el) {
-      // Tenta clicar no inner button do shadow root primeiro
       const innerBtn = el.shadowRoot?.querySelector('button');
       if (innerBtn) {
         innerBtn.click();
-        log(`✓ Enviado via inner button: "${innerBtn.getAttribute('aria-label')}"`);
+        log(`✓ Enviado via inner button (${sel}): "${innerBtn.getAttribute('aria-label')}"`);
         return;
       }
       el.click();
@@ -183,18 +183,18 @@ async function clickSend() {
     }
   }
 
-  // 2. Busca qualquer button[aria-label="Enviar"] ou "Send" no shadow DOM
+  // 2. Qualquer button[aria-label="Enviar|Send"] no shadow DOM
   const enviarBtn = shadowFind(el =>
     el.tagName === 'BUTTON' &&
     /enviar|send/i.test(el.getAttribute('aria-label') || '')
   );
   if (enviarBtn) {
     enviarBtn.click();
-    log(`✓ Enviado via button[aria-label="Enviar"]`);
+    log(`✓ Enviado via button[aria-label]: "${enviarBtn.getAttribute('aria-label')}"`);
     return;
   }
 
-  // 3. Busca por classe send-button no shadow DOM completo
+  // 3. Qualquer elemento com classe send-button
   const byClass = shadowFind(el =>
     (el.className || '').includes('send-button') ||
     (el.className || '').includes('send_button')
@@ -206,168 +206,19 @@ async function clickSend() {
     return;
   }
 
-  const W = window.innerWidth;
-  const H = window.innerHeight;
-
-  const seen = new Set();
-  const found = [];
-
-  // Varre os últimos 250px de altura da tela, coluna direita
-  for (let y = H - 20; y > H - 300; y -= 8) {
-    for (let x = W - 10; x > W * 0.3; x -= 8) {
-      const el = deepElementFromPoint(x, y);
-      if (!el || seen.has(el)) continue;
-      seen.add(el);
-      if (el.tagName === 'BODY' || el.tagName === 'HTML') continue;
-
-      const tag   = el.tagName.toLowerCase();
-      const label = (el.getAttribute?.('aria-label') || '').toLowerCase();
-      const rect  = el.getBoundingClientRect();
-
-      found.push({ el, x: Math.round(x), y: Math.round(y), tag, label, w: Math.round(rect.width), h: Math.round(rect.height) });
-    }
-  }
-
-  log(`deepElementFromPoint encontrou ${found.length} elementos no fundo da tela.`);
-  found.slice(0, 8).forEach(f =>
-    log(`  (${f.x},${f.y}) <${f.tag}> label="${f.label}" ${f.w}x${f.h}`)
-  );
-
-  // Tenta clicar num botão com label de envio
-  const sendWords = ['send','enviar','submit','gerar','generate','go'];
-  for (const f of found) {
-    if (sendWords.some(w => f.label.includes(w))) {
-      f.el.click();
-      log(`✓ Enviado via label: "${f.label}" em (${f.x},${f.y})`);
-      return;
-    }
-  }
-
-  // Tenta qualquer elemento pequeno e clicável (botões são geralmente pequenos: <60px)
-  const smallClickable = found.filter(f =>
-    f.w > 0 && f.w < 80 && f.h > 0 && f.h < 80 &&
-    f.tag !== 'textarea' && f.tag !== 'div' && f.tag !== 'span'
-  );
-  if (smallClickable.length > 0) {
-    const btn = smallClickable[0];
-    btn.el.click();
-    log(`✓ Clicou em elemento pequeno: <${btn.tag}> (${btn.x},${btn.y}) ${btn.w}x${btn.h}`);
+  // 4. Último recurso: Enter no campo
+  const field = findField();
+  if (field) {
+    log('Botão não encontrado. Tentando Enter no campo...');
+    field.focus();
+    await sleep(150);
+    field.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', keyCode: 13, bubbles: true, cancelable: true }));
+    await sleep(80);
+    field.dispatchEvent(new KeyboardEvent('keyup', { key: 'Enter', keyCode: 13, bubbles: true }));
     return;
   }
 
-  // Força clique nas coordenadas do canto inferior direito (onde o ➤ fica)
-  // Tenta múltiplas posições
-  for (const [px, py] of [
-    [W - 25, H - 120], [W - 40, H - 120], [W - 60, H - 120],
-    [W - 25, H - 140], [W - 25, H - 100], [W - 25, H - 160]
-  ]) {
-    const el = deepElementFromPoint(px, py);
-    if (el && el.tagName !== 'BODY') {
-      el.click();
-      log(`✓ Clicou por coordenada fixa (${px},${py}): <${el.tagName}>`);
-      return;
-    }
-  }
-
-  const rect = { right: 0, top: 0, height: 0 };
-  const centerY = H / 2;
-
-  // O layout do Gemini: textarea em cima, botões embaixo (mic + enviar)
-  // Varre: direita do campo + abaixo do campo + canto inferior direito da tela
-  const seen = new Set();
-  const candidates = [];
-
-  const scanPoints = [];
-
-  // Área à direita do textarea
-  for (let x = rect.right + 2; x < window.innerWidth - 1; x += 6) {
-    for (const y of [rect.top + 5, centerY, rect.bottom - 5]) {
-      scanPoints.push({ x, y });
-    }
-  }
-
-  // Área ABAIXO do textarea (onde ficam os chips e botões)
-  for (let y = rect.bottom + 2; y < rect.bottom + 80; y += 6) {
-    for (let x = window.innerWidth * 0.4; x < window.innerWidth - 1; x += 8) {
-      scanPoints.push({ x, y });
-    }
-  }
-
-  // Canto inferior direito da janela (botão de envio geralmente fica aqui)
-  for (let y = window.innerHeight - 120; y < window.innerHeight - 5; y += 6) {
-    for (let x = window.innerWidth - 150; x < window.innerWidth - 5; x += 6) {
-      scanPoints.push({ x, y });
-    }
-  }
-
-  for (const { x, y } of scanPoints) {
-    const el = document.elementFromPoint(x, y);
-    if (!el || seen.has(el)) continue;
-    seen.add(el);
-    if (el.tagName === 'BODY' || el.tagName === 'HTML' || el === field) continue;
-    candidates.push({ el, x: Math.round(x), y: Math.round(y) });
-  }
-
-  log(`${candidates.length} elementos encontrados ao redor do campo.`);
-  candidates.slice(0, 5).forEach(({ el, x, y }) =>
-    log(`  (${x},${y}) <${el.tagName}> aria="${el.getAttribute?.('aria-label')||''}" jsname="${el.getAttribute?.('jsname')||''}" cls="${(el.className?.substring?.(0,30))||''}"`)
-  );
-
-  // Clica no elemento mais à direita e abaixo (mais provável ser o botão de envio)
-  if (candidates.length > 0) {
-    // Ordena por x decrescente (mais à direita = botão de envio)
-    candidates.sort((a, b) => b.x - a.x);
-    const { el, x, y } = candidates[0];
-    el.click();
-    log(`Clicou: (${x},${y}) <${el.tagName}> "${el.getAttribute?.('aria-label') || (el.className?.substring?.(0,30)) || ''}"`);
-    return;
-  }
-
-  // Fallback: sobe no DOM e pega irmãos do campo
-  let parent = field.parentElement;
-  for (let i = 0; i < 12; i++) {
-    if (!parent || parent === document.body) break;
-    const siblings = [...parent.children].filter(c => c !== field && c.tagName !== 'TEXTAREA');
-    if (siblings.length) {
-      const last = siblings[siblings.length - 1];
-      last.click();
-      log(`Clicou irmão nível ${i}: <${last.tagName}> "${last.getAttribute('aria-label')||last.textContent?.trim().substring(0,20)}"`);
-      return;
-    }
-    parent = parent.parentElement;
-  }
-
-  // Último recurso: Enter
-  log('Sem elemento. Tentando Enter...');
-  field.focus();
-  await sleep(150);
-  field.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', keyCode: 13, bubbles: true, cancelable: true }));
-  await sleep(80);
-  field.dispatchEvent(new KeyboardEvent('keyup',   { key: 'Enter', keyCode: 13, bubbles: true }));
-}
-
-function getAllClickable() {
-  return [...document.querySelectorAll(
-    'button:not([disabled]), [role="button"], input[type="submit"], input[type="image"], [jsaction]'
-  )].filter(el => {
-    const r = el.getBoundingClientRect();
-    return r.width > 0 && r.height > 0; // visível
-  });
-}
-
-function findClickableParent(el) {
-  let node = el;
-  for (let i = 0; i < 5; i++) {
-    if (!node) return null;
-    const tag = node.tagName;
-    const role = node.getAttribute?.('role');
-    if (tag === 'BUTTON' || role === 'button' || tag === 'A' ||
-        node.getAttribute?.('jsaction') || node.onclick) {
-      return node;
-    }
-    node = node.parentElement;
-  }
-  return null;
+  throw new Error('Botão de envio não encontrado.');
 }
 
 // ── Aguardar vídeo ────────────────────────────────────────────────────────────
