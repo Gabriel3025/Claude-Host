@@ -45,11 +45,15 @@ async function processNext() {
     await fillField(block);
     await sleep(1000);
 
+    // Captura estado ANTES de enviar para detectar apenas elementos NOVOS
+    const prevDlBtn  = findDlBtn();
+    const prevVideos = new Set(shadowQueryAll('video').map(v => v.src || v.currentSrc || '').filter(Boolean));
+
     log(`[${n}] Enviando...`);
     await clickSend();
 
-    log(`[${n}] Aguardando vídeo...`);
-    await waitForVideo();
+    log(`[${n}] Aguardando vídeo... (pode levar 1-2 min)`);
+    await waitForVideo(prevDlBtn, prevVideos);
     await sleep(1500);
 
     log(`[${n}] Baixando...`);
@@ -223,22 +227,34 @@ async function clickSend() {
 
 // ── Aguardar vídeo ────────────────────────────────────────────────────────────
 
-function waitForVideo() {
+// prevDlBtn: botão de download que já existia ANTES de enviar (para ignorar)
+// prevVideos: Set de srcs de vídeos já existentes ANTES de enviar
+function waitForVideo(prevDlBtn, prevVideos) {
+  prevVideos = prevVideos || new Set();
+
   return new Promise((resolve, reject) => {
     let done = false;
 
     function check() {
-      if (findDlBtn()) return 'download-btn';
+      // Só aceita botão de download que seja NOVO (diferente do anterior)
+      const dlBtn = findDlBtn();
+      if (dlBtn && dlBtn !== prevDlBtn) return 'download-btn';
+
+      // Só aceita vídeo com src que não existia antes
       const videos = shadowQueryAll('video');
-      const v = videos.find(v => v.src || v.currentSrc || v.readyState >= 1);
-      if (v) return 'video-element';
+      const newVideo = videos.find(v => {
+        const src = v.src || v.currentSrc;
+        return src && !prevVideos.has(src) && v.readyState >= 1;
+      });
+      if (newVideo) return 'video-element';
+
       return null;
     }
 
     function finish(r) {
       if (done) return; done = true;
       clearTimeout(t); clearInterval(p); obs.disconnect();
-      log('Vídeo detectado: ' + r); resolve();
+      log('Novo vídeo detectado: ' + r); resolve();
     }
     function fail(m) {
       if (done) return; done = true;
@@ -254,8 +270,8 @@ function waitForVideo() {
     const p = setInterval(() => { const r = check(); if (r) finish(r); }, 2000);
     const t = setTimeout(() => fail('Timeout: vídeo não gerado em 3 min.'), 180_000);
 
-    // Verifica imediatamente (pode já ter vídeo da geração atual)
-    setTimeout(() => { const r = check(); if (r) finish(r); }, 3000);
+    // Primeira verificação só após 8s (aguarda Gemini começar a gerar)
+    setTimeout(() => { const r = check(); if (r) finish(r); }, 8000);
   });
 }
 
