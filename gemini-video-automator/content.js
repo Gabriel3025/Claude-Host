@@ -132,12 +132,25 @@ async function fillField(text) {
 
   field.click();
   field.focus();
-  await sleep(300);
+  await sleep(400);
 
-  // Limpa e insere via execCommand (mais compatível com frameworks)
+  // Limpa campo primeiro
   document.execCommand('selectAll', false, null);
   await sleep(100);
+  document.execCommand('delete', false, null);
+  await sleep(100);
+
+  // Insere texto via execCommand (mais compatível com React/Angular)
   document.execCommand('insertText', false, text);
+  await sleep(300);
+
+  // Dispara eventos adicionais para forçar React a atualizar o estado
+  // (necessário para o botão mic→enviar aparecer)
+  field.dispatchEvent(new Event('input',  { bubbles: true }));
+  field.dispatchEvent(new Event('change', { bubbles: true }));
+  field.dispatchEvent(new InputEvent('input', {
+    bubbles: true, inputType: 'insertText', data: text
+  }));
   await sleep(200);
 
   // Verifica se inseriu
@@ -146,83 +159,112 @@ async function fillField(text) {
     return;
   }
 
-  // Fallback: setter nativo
-  const s = Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, 'value').set;
-  s.call(field, text);
-  ['input','change'].forEach(e => field.dispatchEvent(new Event(e, { bubbles: true })));
+  // Fallback: setter nativo do React
+  const nativeSetter = Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, 'value').set;
+  nativeSetter.call(field, text);
+  field.dispatchEvent(new Event('focus',  { bubbles: true }));
   field.dispatchEvent(new InputEvent('input', { bubbles: true, inputType: 'insertText', data: text }));
-  await sleep(300);
+  field.dispatchEvent(new Event('change', { bubbles: true }));
+  await sleep(400);
   log(`Campo OK (fallback): ${field.value.length} chars`);
 }
 
 // ── Clicar no botão de envio ──────────────────────────────────────────────────
 
 async function clickSend() {
-  // Estrutura confirmada via DevTools:
-  // <md-icon-button class="send-button submit" data-aria-label="Enviar">
-  //   #shadow-root (open)
-  //     <button id="button" aria-label="Enviar">
+  // Aguarda a UI reagir ao texto inserido (mic → botão de envio)
+  await sleep(800);
 
-  // 1. Seletores exatos do md-icon-button
+  // Helper: tenta clicar num elemento (inner shadow button ou o elemento em si)
+  function tryClick(el, label) {
+    const inner = el.shadowRoot?.querySelector('button') || el;
+    inner.click();
+    log(`✓ Enviado via ${label}: <${el.tagName}> "${inner.getAttribute?.('aria-label') || ''}"`);
+    return true;
+  }
+
+  // 1. Seletores para o botão de envio (estrutura original + variações pós-update)
   const sendSelectors = [
     'md-icon-button.send-button',
     'md-icon-button[data-aria-label="Enviar"]',
     'md-icon-button[data-aria-label="Send"]',
+    'md-icon-button[aria-label="Enviar"]',
+    'md-icon-button[aria-label="Send"]',
     '[data-aria-label="Enviar"]',
     '[data-aria-label="Send"]',
+    'button[aria-label="Enviar"]',
+    'button[aria-label="Send"]',
   ];
-
   for (const sel of sendSelectors) {
     const el = shadowQueryAll(sel)[0];
-    if (el) {
-      const innerBtn = el.shadowRoot?.querySelector('button');
-      if (innerBtn) {
-        innerBtn.click();
-        log(`✓ Enviado via inner button (${sel}): "${innerBtn.getAttribute('aria-label')}"`);
-        return;
-      }
-      el.click();
-      log(`✓ Enviado via custom element: ${sel}`);
+    if (el) { tryClick(el, sel); return; }
+  }
+
+  // 2. Qualquer button com label de envio no shadow DOM inteiro
+  const enviarBtn = shadowFind(el =>
+    el.tagName === 'BUTTON' &&
+    /^(enviar|send|submit|gerar|generate)$/i.test((el.getAttribute('aria-label') || '').trim())
+  );
+  if (enviarBtn) { enviarBtn.click(); log(`✓ Enviado via button label: "${enviarBtn.getAttribute('aria-label')}"`); return; }
+
+  // 3. Elemento com classe send-button (pode ter mudado de aria-label mas manteve classe)
+  const byClass = shadowFind(el =>
+    typeof el.className === 'string' &&
+    (el.className.includes('send-button') || el.className.includes('send_button'))
+  );
+  if (byClass) { tryClick(byClass, '.send-button'); return; }
+
+  // 4. O botão de microfone pode ter virado o botão de envio no modo vídeo
+  //    Se o campo tem texto, o mic-button geralmente vira o send
+  const micSelectors = [
+    'md-icon-button[data-aria-label*="Gravar" i]',
+    'md-icon-button[data-aria-label*="Record" i]',
+    'md-icon-button[data-aria-label*="Microfone" i]',
+    'md-icon-button[data-aria-label*="Microphone" i]',
+    '[aria-label*="Gravar" i]',
+    '[aria-label*="Microfone" i]',
+  ];
+  for (const sel of micSelectors) {
+    const el = shadowQueryAll(sel)[0];
+    if (el) { tryClick(el, `mic/send (${sel})`); return; }
+  }
+
+  // 5. Último md-icon-button na área de input (mais à direita — posição do botão de envio)
+  const allIconBtns = shadowQueryAll('md-icon-button');
+  if (allIconBtns.length) {
+    // Pega o que está mais à direita e embaixo (posição típica do botão de envio)
+    const sorted = allIconBtns
+      .map(el => ({ el, r: el.getBoundingClientRect() }))
+      .filter(({ r }) => r.width > 0 && r.height > 0)
+      .sort((a, b) => (b.r.right + b.r.bottom) - (a.r.right + a.r.bottom));
+    if (sorted.length) {
+      const { el } = sorted[0];
+      tryClick(el, 'md-icon-button (rightmost)');
       return;
     }
   }
 
-  // 2. Qualquer button[aria-label="Enviar|Send"] no shadow DOM
-  const enviarBtn = shadowFind(el =>
-    el.tagName === 'BUTTON' &&
-    /enviar|send/i.test(el.getAttribute('aria-label') || '')
-  );
-  if (enviarBtn) {
-    enviarBtn.click();
-    log(`✓ Enviado via button[aria-label]: "${enviarBtn.getAttribute('aria-label')}"`);
-    return;
-  }
-
-  // 3. Qualquer elemento com classe send-button
-  const byClass = shadowFind(el =>
-    (el.className || '').includes('send-button') ||
-    (el.className || '').includes('send_button')
-  );
-  if (byClass) {
-    const inner = byClass.shadowRoot?.querySelector('button') || byClass;
-    inner.click();
-    log(`✓ Enviado via .send-button: <${byClass.tagName}>`);
-    return;
-  }
-
-  // 4. Último recurso: Enter no campo
+  // 6. Tenta submeter via form
   const field = findField();
   if (field) {
-    log('Botão não encontrado. Tentando Enter no campo...');
+    const form = field.closest('form');
+    if (form) {
+      form.dispatchEvent(new Event('submit', { bubbles: true, cancelable: true }));
+      log('✓ Enviado via form.submit event');
+      return;
+    }
+
+    // 7. Enter direto no campo (funciona em alguns modos do Gemini)
+    log('Botão não encontrado. Tentando Enter...');
     field.focus();
-    await sleep(150);
+    await sleep(100);
     field.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', keyCode: 13, bubbles: true, cancelable: true }));
     await sleep(80);
-    field.dispatchEvent(new KeyboardEvent('keyup', { key: 'Enter', keyCode: 13, bubbles: true }));
+    field.dispatchEvent(new KeyboardEvent('keyup',   { key: 'Enter', keyCode: 13, bubbles: true }));
     return;
   }
 
-  throw new Error('Botão de envio não encontrado.');
+  throw new Error('Botão de envio não encontrado. Use o Diagnóstico para inspecionar a página.');
 }
 
 // ── Aguardar vídeo ────────────────────────────────────────────────────────────
