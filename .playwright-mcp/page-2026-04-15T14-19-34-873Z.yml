@@ -1,0 +1,74 @@
+- generic [ref=e12]:
+  - generic [ref=e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=e27] [cursor=pointer]:
+      - generic [ref=e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=e33] [cursor=pointer]
+  - generic [ref=e40]:
+    - combobox "Tudo" [ref=e44] [cursor=pointer]:
+      - generic [ref=e51]: Tudo
+    - combobox "Todos os anúncios" [ref=e62] [cursor=pointer]:
+      - generic [ref=e72]: Todos os anúncios
+    - generic [ref=e82]:
+      - generic [ref=e88]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=e94]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=e100]: Profª Karina Tarefinhas
+        - button "Limpar" [ref=e102] [cursor=pointer]
+  - generic [ref=e105]:
+    - generic [ref=e107]:
+      - img "Foto do perfil da Página" [ref=e112]
+      - link "Profª Karina Tarefinhas" [ref=e115] [cursor=pointer]:
+        - /url: https://facebook.com/61571496473576
+        - heading "Profª Karina Tarefinhas" [level=1] [ref=e116]
+    - generic [ref=e117]:
+      - link "Anúncios" [ref=e118] [cursor=pointer]
+      - link "Sobre" [ref=e119] [cursor=pointer]
+  - dialog [ref=e120]:
+    - generic [ref=e121]:
+      - link [ref=e122] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=e123]: Entrar
+      - menuitem [ref=e124] [cursor=pointer]
+    - generic [ref=e126]:
+      - generic [ref=e127]:
+        - heading [level=4] [ref=e129]: Biblioteca de Anúncios
+        - menuitem [ref=e131] [cursor=pointer]:
+          - heading [level=4] [ref=e133]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=e135] [cursor=pointer]:
+          - heading [level=4] [ref=e137]: API da Biblioteca de Anúncios
+        - menuitem [ref=e139] [cursor=pointer]:
+          - heading [level=4] [ref=e141]: Conteúdo de marca
+      - separator [ref=e142]
+      - generic [ref=e143]:
+        - menuitem [ref=e145] [cursor=pointer]:
+          - heading [level=4] [ref=e147]: Status do sistema
+        - menuitem [ref=e149] [cursor=pointer]:
+          - heading [level=4] [ref=e151]: Assinar para receber atualizações por email
+        - menuitem [ref=e153] [cursor=pointer]:
+          - heading [level=4] [ref=e155]: Perguntas frequentes
+        - menuitem [ref=e157] [cursor=pointer]:
+          - heading [level=4] [ref=e159]: Sobre anúncios e uso de dados
+        - menuitem [ref=e161] [cursor=pointer]:
+          - heading [level=4] [ref=e163]: Privacidade
+        - menuitem [ref=e165] [cursor=pointer]:
+          - heading [level=4] [ref=e167]: Termos
+        - menuitem [ref=e169] [cursor=pointer]:
+          - heading [level=4] [ref=e171]: Cookies
+  - generic [ref=e175]:
+    - progressbar [ref=e176]
+    - progressbar [ref=e177]
+    - progressbar [ref=e178]
+    - progressbar [ref=e179]
+    - progressbar [ref=e180]
+    - progressbar [ref=e181]
+    - progressbar [ref=e182]
+    - progressbar [ref=e183]
+    - progressbar [ref=e184]
+    - progressbar [ref=e185]

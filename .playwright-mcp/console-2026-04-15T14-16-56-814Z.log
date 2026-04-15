@@ -1,0 +1,9 @@
+[     110ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&id=894236146555718&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=889932910880439:0
+[    3712ms] [LOG] 
+%cEspere! font-family:helvetica; font-size:20px; font-size:50px; font-weight:bold; color:red; -webkit-text-stroke:1px black; @ https://static.xx.fbcdn.net/rsrc.php/v4/yv/r/hqMvLvPUOL4.js:255
+[    3713ms] [LOG] 
+%cEste é um recurso de navegador voltado para desenvolvedores. Se alguém disse para você copiar e colar algo aqui para ativar um recurso do Facebook ou "invadir" a conta de outra pessoa, isso é uma fraude e você dará a ele acesso à sua conta. font-family:helvetica; font-size:20px;  @ https://static.xx.fbcdn.net/rsrc.php/v4/yv/r/hqMvLvPUOL4.js:255
+[    3713ms] [LOG] 
+%cConsulte https://www.facebook.com/selfxss para mais informações. font-family:helvetica; font-size:20px;  @ https://static.xx.fbcdn.net/rsrc.php/v4/yv/r/hqMvLvPUOL4.js:255
+[    3713ms] [LOG] 
+%c  @ https://static.xx.fbcdn.net/rsrc.php/v4/yv/r/hqMvLvPUOL4.js:255
