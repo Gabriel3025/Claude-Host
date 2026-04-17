@@ -1,0 +1,47 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - progressbar [ref=e6]
+      - main [ref=e84]:
+        - generic [ref=e85]:
+          - img [ref=e88]
+          - generic [ref=e93]:
+            - heading "Olá!" [level=1] [ref=e94]
+            - link "gabrielferreiradesouza1@gmail.com selecionado. Alternar entre contas" [ref=e96] [cursor=pointer]:
+              - img [ref=e99]
+              - generic [ref=e101]: gabrielferreiradesouza1@gmail.com
+              - img [ref=e103]
+        - generic [ref=e113]:
+          - generic [ref=e121]:
+            - textbox "Digite sua senha" [active] [ref=e122]
+            - generic: Digite sua senha
+          - generic [ref=e129]:
+            - generic [ref=e132] [cursor=pointer]:
+              - checkbox "Mostrar senha" [ref=e133]
+              - generic:
+                - img
+            - generic [ref=e136] [cursor=pointer]: Mostrar senha
+        - generic [ref=e138]:
+          - button "Avançar" [ref=e142]:
+            - generic [ref=e145]: Avançar
+          - button "Esqueceu a senha?" [ref=e149]:
+            - generic [ref=e152]: Esqueceu a senha?
+    - contentinfo [ref=e69]:
+      - combobox "Alterar idioma Português (Brasil)" [ref=e73] [cursor=pointer]:
+        - generic:
+          - generic: Português (Brasil)
+        - generic:
+          - img
+      - list [ref=e75]:
+        - listitem [ref=e76]:
+          - link "Ajuda" [ref=e77] [cursor=pointer]:
+            - /url: https://support.google.com/accounts?hl=pt-BR&p=account_iph
+        - listitem [ref=e78]:
+          - link "Privacidade" [ref=e79] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=BR&hl=pt-BR&privacy=true
+        - listitem [ref=e80]:
+          - link "Termos" [ref=e81] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=BR&hl=pt-BR
+  - iframe [ref=e82]:
+    
+  - generic [ref=e155]: Olá!

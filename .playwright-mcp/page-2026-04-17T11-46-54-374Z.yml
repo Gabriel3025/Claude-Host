@@ -1,0 +1,863 @@
+- generic [ref=e2]:
+  - generic:
+    - generic: expand_more expand_more expand_more expand_more expand_more expand_more expand_more expand_more expand_more expand_more expand_more expand_more
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - text: expand_more expand_more expand_more expand_more expand_more expand_more expand_more expand_more expand_more expand_more expand_more expand_more
+        - link "Abra a Google Workspace página" [ref=e6] [cursor=pointer]:
+          - /url: /intl/pt-BR/
+          - img [ref=e7]
+        - navigation [ref=e19]:
+          - link "Skip to main content" [ref=e20] [cursor=pointer]:
+            - /url: "#main"
+          - group [ref=e21]:
+            - generic "Soluções" [ref=e22] [cursor=pointer]
+          - group [ref=e23]:
+            - generic "Produtos" [ref=e24] [cursor=pointer]
+          - group [ref=e25]:
+            - generic "Setores" [ref=e26] [cursor=pointer]
+          - link "Abra a IA página" [ref=e28] [cursor=pointer]:
+            - /url: /intl/pt-BR/solutions/ai/
+            - text: IA
+          - link "Abra a Preços página" [ref=e30] [cursor=pointer]:
+            - /url: https://workspace.google.com/pricing?source=gafb-drive-globalnav-pt-BR&hl=pt-BR&ga_region=amer&ga_country=&ga_lang=pt
+            - text: Preços
+          - group [ref=e31]:
+            - generic "Recursos" [ref=e32] [cursor=pointer]
+        - generic [ref=e33]:
+          - link "Teste o Google Drive no trabalho" [ref=e35] [cursor=pointer]:
+            - /url: https://workspace.google.com/intl/pt-BR/products/drive/for-work/?from=gafb-drive-def-pt-BR
+            - generic [ref=e36]: Teste o Drive no trabalho
+          - link "Fazer login no Google Drive" [ref=e38] [cursor=pointer]:
+            - /url: https://drive.google.com/drive/?dmr=1&ec=wgc-drive-[module]-goto
+            - generic [ref=e39]: Fazer login
+  - main [ref=e40]:
+    - generic [ref=e47]:
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - img "Logotipo do produto Google Drive" [ref=e51]
+          - heading "Armazene e compartilhe arquivos on-line" [level=1] [ref=e53]
+          - generic [ref=e54]:
+            - paragraph [ref=e55]: Tenha acesso a um armazenamento em nuvem seguro e com tecnologia de IA que facilita o compartilhamento de arquivos e aprimora a colaboração.
+            - generic [ref=e56]:
+              - link "Fazer login no Google Drive" [ref=e58] [cursor=pointer]:
+                - /url: https://drive.google.com/drive/?dmr=1&ec=wgc-drive-[module]-goto
+                - generic [ref=e59]: Fazer login
+              - link "Teste o Google Drive no trabalho" [ref=e61] [cursor=pointer]:
+                - /url: https://workspace.google.com/intl/pt-BR/products/drive/for-work/?from=gafb-drive-def-pt-BR
+                - generic [ref=e62]: Teste o Drive no trabalho
+        - img "Arquivos de um projeto no Google Drive estão sendo compartilhados com o Gemini, que lista algumas ações possíveis" [ref=e65]
+      - generic [ref=e66]:
+        - generic: Conheça os recursos
+    - list [ref=e73]:
+      - listitem [ref=e74]:
+        - option "Navegar até a seção \"Gemini no Drive\" da página" [selected] [ref=e75] [cursor=pointer]:
+          - generic [ref=e76]: Gemini no Drive
+      - listitem [ref=e77]:
+        - option "Navegar até a seção \"Armazenamento\" da página" [ref=e78] [cursor=pointer]:
+          - generic [ref=e79]: Armazenamento
+      - listitem [ref=e80]:
+        - option "Navegar até a seção \"Gerenciamento\" da página" [ref=e81] [cursor=pointer]:
+          - generic [ref=e82]: Gerenciamento
+      - listitem [ref=e83]:
+        - option "Navegar até a seção \"Colaboração\" da página" [ref=e84] [cursor=pointer]:
+          - generic [ref=e85]: Colaboração
+      - listitem [ref=e86]:
+        - option "Navegar até a seção \"Segurança\" da página" [ref=e87] [cursor=pointer]:
+          - generic [ref=e88]: Segurança
+      - listitem [ref=e89]:
+        - option "Navegar até a seção \"Baixar\" desta página" [ref=e90] [cursor=pointer]:
+          - generic [ref=e91]: Baixar
+      - listitem [ref=e92]:
+        - option "Acesse a seção \"Clientes\" da página" [ref=e93] [cursor=pointer]:
+          - generic [ref=e94]: Clientes
+      - listitem [ref=e95]:
+        - option "Navegar até a seção \"Perguntas frequentes\" da página" [ref=e96] [cursor=pointer]:
+          - generic [ref=e97]: Perguntas frequentes
+    - generic [ref=e102]:
+      - generic [ref=e104]:
+        - heading "Diga adeus à desordem e centralize arquivos e conteúdo" [level=2] [ref=e106]
+        - generic [ref=e107]:
+          - paragraph [ref=e108]: Migre seus dados e armazene todos os seus arquivos em um só lugar com o Google Drive. Com o armazenamento em nuvem impulsionado por IA e a proteção de dados líder do setor do Google, fica fácil colaborar em tempo real e encontrar arquivos e informações mais rápido.
+          - 'link "Saiba mais e inicie um teste: migre para o Google Drive" [ref=e110] [cursor=pointer]':
+            - /url: "/intl/pt-BR/solutions/migration/drive-migration/ "
+            - generic [ref=e111]: Saiba mais
+      - img "Um usuário começa a digitar o nome de um arquivo na ferramenta de pesquisa do Google Drive, e uma lista de possíveis correspondências aparece." [ref=e114]
+    - generic [ref=e119]:
+      - generic "Um PDF é arrastado até o Gemini no Google Drive para saber mais sobre o conteúdo ou gerar um resumo do arquivo" [ref=e124]
+      - generic [ref=e126]:
+        - heading "Tome decisões ainda mais inteligentes usando o Gemini no Drive" [level=2] [ref=e128]
+        - paragraph [ref=e130]:
+          - text: Faça o resumo de documentos longos, sintetize informações e extraia dados sobre seu conteúdo sem ter que pesquisar em vários arquivos. Descubra o que mais a IA pode ajudar você a fazer e experimente o
+          - link "Abra a Google Workspace com o Gemini página" [ref=e132] [cursor=pointer]:
+            - /url: /intl/pt-BR/solutions/ai/
+            - text: Google Workspace com o Gemini
+          - text: .
+    - generic [ref=e138]:
+      - heading "Armazenamento em nuvem simplificado" [level=2] [ref=e139]
+      - paragraph [ref=e140]: Tenha um armazenamento em nuvem fácil de usar e escalonável para negócios e equipes de todos os tamanhos. Faça upload, abra, edite e compartilhe arquivos usando qualquer dispositivo.
+    - generic [ref=e146]:
+      - generic [ref=e149]:
+        - group [ref=e151]:
+          - generic "Adapte o armazenamento às suas demandas" [ref=e152] [cursor=pointer]:
+            - heading "Adapte o armazenamento às suas demandas" [level=3] [ref=e154]
+          - paragraph [ref=e159]: Aumente seu armazenamento de 15 GB para 5 TB por usuário ou peça ainda mais espaço.
+        - group [ref=e161]:
+          - generic "Salve anexos do Gmail direto no Drive" [ref=e162] [cursor=pointer]:
+            - heading "Salve anexos do Gmail direto no Drive" [level=3] [ref=e164]
+        - group [ref=e166]:
+          - generic "Digitalize documentos com o Drive" [ref=e167] [cursor=pointer]:
+            - heading "Digitalize documentos com o Drive" [level=3] [ref=e169]
+      - img "Indicação de que 30 gigabytes de armazenamento estão sendo usados no Google Workspace" [ref=e174]
+    - generic [ref=e180]:
+      - heading "Trabalhe com mais eficiência" [level=2] [ref=e181]
+      - paragraph [ref=e182]: Gerencie, acesse, edite e organize seus arquivos em uma única plataforma para simplificar seu fluxo de trabalho.
+    - generic [ref=e188]:
+      - generic [ref=e191]:
+        - generic:
+          - img "Uma nuvem de logotipos dos produtos mais conhecidos do Google Workspace"
+      - generic [ref=e194]:
+        - group [ref=e196]:
+          - generic "Encontre todos os arquivos em um só lugar" [ref=e197] [cursor=pointer]:
+            - heading "Encontre todos os arquivos em um só lugar" [level=3] [ref=e199]
+          - paragraph [ref=e204]:
+            - text: Edite e organize PDFs e arquivos do
+            - link "Abra a Google Docs página" [ref=e206] [cursor=pointer]:
+              - /url: https://workspace.google.com/intl/pt-BR/products/docs/?from=gafb-drive-def-pt-BR
+              - text: Google Docs
+            - text: ","
+            - link "Abra a Planilhas página" [ref=e208] [cursor=pointer]:
+              - /url: https://workspace.google.com/intl/pt-BR/products/sheets/?from=gafb-drive-def-pt-BR
+              - text: Planilhas
+            - text: ","
+            - link "Abra a Slides página" [ref=e210] [cursor=pointer]:
+              - /url: https://workspace.google.com/intl/pt-BR/products/slides/?from=gafb-drive-def-pt-BR
+              - text: Slides
+            - text: ou do Microsoft Office em tempo real. Além disso, tenha acesso a mais de 100 tipos de arquivos diferentes!
+        - group [ref=e212]:
+          - generic "Faça anotações em PDFs" [ref=e213] [cursor=pointer]:
+            - heading "Faça anotações em PDFs" [level=3] [ref=e215]
+        - group [ref=e217]:
+          - generic "Pesquise com a ajuda da IA" [ref=e218] [cursor=pointer]:
+            - heading "Pesquise com a ajuda da IA" [level=3] [ref=e220]
+        - group [ref=e222]:
+          - generic "Visualize atividades" [ref=e223] [cursor=pointer]:
+            - heading "Visualize atividades" [level=3] [ref=e225]
+    - generic [ref=e231]:
+      - heading "Otimize as colaborações em conteúdo e os fluxos de trabalho" [level=2] [ref=e232]
+      - paragraph [ref=e233]: Libere todo o potencial dos seus funcionários facilitando a colaboração e o trabalho em equipe.
+    - generic [ref=e239]:
+      - generic [ref=e242]:
+        - group [ref=e244]:
+          - generic "Gerencie os acessos" [ref=e245] [cursor=pointer]:
+            - heading "Gerencie os acessos" [level=3] [ref=e247]
+          - paragraph [ref=e252]:
+            - link "Abra a Compartilhe arquivos página" [ref=e254] [cursor=pointer]:
+              - /url: https://workspace.google.com/intl/pt-BR/resources/file-sharing/
+              - text: Compartilhe arquivos
+            - text: facilmente com permissões que podem ser personalizadas, seja para editar, comentar ou visualizar. Controle ainda mais o acesso, evitando ações indesejadas e definindo datas de validade.
+        - group [ref=e256]:
+          - generic "Aprimore a colaboração em equipe com drives compartilhados" [ref=e257] [cursor=pointer]:
+            - heading "Aprimore a colaboração em equipe com drives compartilhados" [level=3] [ref=e259]
+        - group [ref=e261]:
+          - generic "Assinaturas eletrônicas" [ref=e262] [cursor=pointer]:
+            - heading "Assinaturas eletrônicas" [level=3] [ref=e264]
+        - group [ref=e266]:
+          - generic "Faça integrações com outros apps" [ref=e267] [cursor=pointer]:
+            - heading "Faça integrações com outros apps" [level=3] [ref=e269]
+      - generic [ref=e272]:
+        - generic:
+          - img "Compartilhamento de um arquivo do Drive e mudança do acesso para Editor com data de validade"
+    - generic [ref=e278]:
+      - heading "Conte com um armazenamento em nuvem seguro" [level=2] [ref=e279]
+      - paragraph [ref=e280]: Mantenha seus dados em uma infraestrutura em nuvem confiável, em conformidade e segura, que tem integração total com os apps do Workspace.
+    - generic [ref=e284]:
+      - generic [ref=e285]:
+        - generic [ref=e286]:
+          - img "Um arquivo salvo no Google Drive" [ref=e288]
+          - generic [ref=e289]:
+            - heading "Nativo da nuvem e pronto para empresas" [level=3] [ref=e291]
+            - paragraph [ref=e293]:
+              - text: Uma infraestrutura em nuvem sempre atualizada ajuda a reduzir os
+              - link "Abra a riscos de segurança página" [ref=e295] [cursor=pointer]:
+                - /url: https://workspace.google.com/intl/pt-BR/security/threat-prevention/
+                - text: riscos de segurança
+              - text: e a atender aos
+              - link "Abra a requisitos de conformidade página" [ref=e297] [cursor=pointer]:
+                - /url: https://workspace.google.com/intl/pt-BR/security/digital-sovereignty/
+                - text: requisitos de conformidade
+              - text: .
+        - generic [ref=e298]:
+          - img "Criptografia extra é adicionada a um arquivo no Drive" [ref=e300]
+          - generic [ref=e301]:
+            - complementary [ref=e304]:
+              - 'button "Open Tooltip: Este recurso está disponível em alguns planos do Google Workspace Business e Enterprise." [ref=e305]':
+                - generic [ref=e308]: Recurso premium
+                - img [ref=e310]
+            - heading "Controles de zero trust" [level=3] [ref=e312]
+            - paragraph [ref=e314]:
+              - text: Recursos avançados de segurança, como a
+              - link "Abra a detecção de ransomware página" [ref=e316] [cursor=pointer]:
+                - /url: https://workspace.google.com/blog/product-announcements/ai-ransomware-detection-in-google-drive
+                - text: detecção de ransomware
+              - text: ", a"
+              - link "Abra a criptografia do lado do cliente página em uma nova guia" [ref=e318] [cursor=pointer]:
+                - /url: https://support.google.com/a/answer/10741897?hl=pt-BR
+                - text: criptografia do lado do cliente
+              - text: e o
+              - link "Abra a Vault página" [ref=e320] [cursor=pointer]:
+                - /url: https://workspace.google.com/intl/pt-BR/products/vault/?from=gafb-drive-def-pt-BR
+                - text: Vault
+              - text: ", protegem seus dados sensíveis."
+        - generic [ref=e321]:
+          - img "Um arquivo interno é marcado como confidencial no Drive" [ref=e323]
+          - generic [ref=e324]:
+            - complementary [ref=e327]:
+              - 'button "Open Tooltip: Este recurso está disponível em alguns planos do Google Workspace Business e Enterprise." [ref=e328]':
+                - generic [ref=e331]: Recurso premium
+                - img [ref=e333]
+            - heading "Segurança com tecnologia de IA" [level=3] [ref=e335]
+            - generic [ref=e336]:
+              - paragraph [ref=e337]: A
+              - paragraph [ref=e338]:
+                - link "Abra a classificação por IA página em uma nova guia" [ref=e340] [cursor=pointer]:
+                  - /url: https://support.google.com/a/answer/12676216?hl=pt-BR
+                  - text: classificação por IA
+                - text: marca o conteúdo sensível de forma inteligente, o identificando e protegendo automaticamente com
+                - link "Abra a políticas de prevenção contra perda de dados (DLP) página em uma nova guia" [ref=e342] [cursor=pointer]:
+                  - /url: https://support.google.com/a/topic/7556687?hl=pt-BR&ref_topic=7558840&sjid=6320533305057951267-NC
+                  - text: políticas de prevenção contra perda de dados (DLP)
+                - text: .
+      - text: arrow_forward arrow_forward
+    - generic [ref=e347]:
+      - generic [ref=e349]:
+        - heading "Sincronize seu computador com o Drive" [level=2] [ref=e351]
+        - generic [ref=e352]:
+          - paragraph [ref=e353]: Aproveite ao máximo o Drive no seu computador. Atualize e proteja automaticamente todos os arquivos armazenados. Disponível para Windows e MacOS.
+          - link "Abra a Baixar o Drive para computador página" [ref=e355] [cursor=pointer]:
+            - /url: https://support.google.com/drive/answer/10838124
+            - generic [ref=e356]: Baixar o Drive para computador
+      - img "O Drive para computador está sincronizando arquivos com a nuvem" [ref=e359]
+    - generic [ref=e365]:
+      - heading "Bloqueie a proliferação de ransomware com o Drive para computador" [level=2] [ref=e366]
+      - paragraph [ref=e367]: Com a detecção de vírus com tecnologia de IA integrada totalmente ao Drive para computador, os clientes contam com a detecção de ransomware em tempo real, recuperação instantânea de arquivos e segurança de dados aprimorada. Proteja sua empresa contra tempo de inatividade e perda de dados que custam caro.
+    - generic [ref=e374] [cursor=pointer]:
+      - generic:
+        - generic:
+          - generic:
+            - img "Este vídeo mostra o Google Drive para computador detectando um ataque de ransomware, interrompendo os uploads de arquivos para a nuvem e deixando um usuário restaurar vários arquivos com facilidade."
+      - button "O Drive para computador está sincronizando arquivos com a nuvem enquanto detecta ransomware" [ref=e375]
+    - generic [ref=e385]:
+      - heading "Teste o Drive nos seus dispositivos móveis" [level=2] [ref=e386]
+      - generic [ref=e387]:
+        - link "Baixar o Drive para iOS" [ref=e389] [cursor=pointer]:
+          - /url: https://apps.apple.com/app/google-drive/id507874739
+          - img [ref=e391]
+        - link "Baixar o Drive para Android" [ref=e401] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=com.google.android.apps.docs
+          - img [ref=e403]
+    - generic [ref=e419]:
+      - heading "Saiba por que as organizações usam o Drive" [level=2] [ref=e426]
+      - generic [ref=e432]:
+        - generic [ref=e433]:
+          - generic:
+            - generic [ref=e437]:
+              - img "Logotipo da Blue Ox Films" [ref=e441]
+              - figure "Taylor Kavanaugh, cofundador e produtor executivo da Blue Ox Films" [ref=e443]:
+                - blockquote [ref=e444]:
+                  - paragraph [ref=e445]: “Automatizamos nosso processo de início. Quando recebemos um novo projeto, em dois minutos, todos os modelos relevantes são duplicados em uma pasta do Google Drive.”
+                - generic [ref=e446]:
+                  - strong [ref=e447]: Taylor Kavanaugh
+                  - text: ", cofundador e produtor executivo da Blue Ox Films"
+                - link "Leia a história da Blue Ox Films" [ref=e449] [cursor=pointer]:
+                  - /url: "https://workspace.google.com/intl/pt-BR/customers/blueoxfilms/ "
+                  - generic [ref=e450]: Saiba mais
+            - generic [ref=e454]:
+              - img "Logotipo da Roche" [ref=e458]
+              - figure "Tim Ehrhart, CISO da Roche" [ref=e460]:
+                - blockquote [ref=e461]:
+                  - paragraph [ref=e462]: “Temos 100 mil usuários e bilhões de arquivos no Google Drive. Não seria possível conduzir o processo de rotulagem em grande escala sem a classificação por IA. Ela agrega valor imediatamente, desde a ativação.”
+                - generic [ref=e463]:
+                  - strong [ref=e464]: Tim Ehrhart
+                  - text: ", CISO da Roche"
+                - link "Leia a história da Roche" [ref=e466] [cursor=pointer]:
+                  - /url: https://workspace.google.com/blog/customer-stories/roche-protects-files-ai-classification-google-drive
+                  - generic [ref=e467]: Saiba mais
+            - generic [ref=e471]:
+              - img "Logotipo da MM Pakistan" [ref=e475]
+              - figure "Kamran Rafique, líder de contas técnicas, MMP Pakistan" [ref=e477]:
+                - blockquote [ref=e478]:
+                  - paragraph [ref=e479]: “O Drive serve como ponto de referência para soluções de todos os nossos projetos anteriores, para que nossas equipes não sintam que precisam reinventar a roda ao iniciar um novo projeto.”
+                - generic [ref=e480]:
+                  - strong [ref=e481]: Kamran Rafique
+                  - text: ", líder de contas técnicas, MMP Pakistan"
+                - link "Leia a história da MM Pakistan" [ref=e483] [cursor=pointer]:
+                  - /url: "https://workspace.google.com/intl/pt-BR/customers/mmp/ "
+                  - generic [ref=e484]: Saiba mais
+        - generic:
+          - generic:
+            - button "Previous slide" [disabled]: arrow_forward
+            - button "Next slide" [ref=e485] [cursor=pointer]: arrow_forward
+        - tablist [ref=e486]:
+          - tab [selected] [ref=e487]
+          - tab [ref=e488]
+          - tab [ref=e489]
+    - generic [ref=e497]:
+      - heading "Quer saber mais sobre o Google Drive?" [level=2] [ref=e498]
+      - paragraph [ref=e499]: Confira a seção de perguntas frequentes.
+    - generic [ref=e508]:
+      - button "Abrir tudo" [ref=e513] [cursor=pointer]:
+        - generic [ref=e514]: Abrir tudo unfold_more
+      - list [ref=e515]:
+        - generic:
+          - listitem [ref=e516]:
+            - group [ref=e518]:
+              - generic "Posso migrar arquivos da minha solução de armazenamento atual para o Drive?" [ref=e519] [cursor=pointer]:
+                - generic [ref=e520]: Posso migrar arquivos da minha solução de armazenamento atual para o Drive?
+                - img [ref=e521]
+          - listitem [ref=e523]:
+            - group [ref=e525]:
+              - generic "Quanto posso armazenar no Drive?" [ref=e526] [cursor=pointer]:
+                - generic [ref=e527]: Quanto posso armazenar no Drive?
+                - img [ref=e528]
+          - listitem [ref=e530]:
+            - group [ref=e532]:
+              - generic "Qual é o diferencial da versão do Drive para empresas?" [ref=e533] [cursor=pointer]:
+                - generic [ref=e534]: Qual é o diferencial da versão do Drive para empresas?
+                - img [ref=e535]
+    - generic [ref=e545]:
+      - img "Logotipo do produto Google Drive" [ref=e548]
+      - generic [ref=e550]:
+        - heading "Armazene, gerencie e colabore usando o Google Drive" [level=2] [ref=e551]
+        - generic [ref=e552]:
+          - link "Fazer login no Google Drive" [ref=e554] [cursor=pointer]:
+            - /url: https://drive.google.com/drive/?dmr=1&ec=wgc-drive-[module]-goto
+            - generic [ref=e555]: Fazer login
+          - link "Teste o Google Drive no trabalho" [ref=e557] [cursor=pointer]:
+            - /url: https://workspace.google.com/intl/pt-BR/products/drive/for-work/?from=gafb-drive-def-pt-BR
+            - generic [ref=e558]: Teste o Drive no trabalho
+  - generic [ref=e561]:
+    - generic:
+      - generic [ref=e564]:
+        - generic [ref=e565]:
+          - heading "Inscreva-se para receber atualizações sobre produtividade, colaboração e IA" [level=2] [ref=e567]
+          - generic [ref=e569]:
+            - button "1"
+            - button "2"
+        - generic [ref=e573]:
+          - generic [ref=e574]:
+            - generic [ref=e578]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Nome*
+              - generic [ref=e580]:
+                - generic:
+                  - generic: Nome*
+                - textbox "Nome" [ref=e583]
+            - generic [ref=e587]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Sobrenome*
+              - generic [ref=e589]:
+                - generic:
+                  - generic: Sobrenome*
+                - textbox "Sobrenome" [ref=e592]
+            - generic [ref=e596]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: E-mail comercial*
+              - generic [ref=e598]:
+                - generic:
+                  - generic: E-mail comercial*
+                - textbox "E-mail comercial" [ref=e601]
+            - generic [ref=e604]:
+              - combobox "Selected country" [ref=e606]:
+                - generic [ref=e609]: Brazil +55
+                - generic [ref=e611]: "+55"
+              - textbox "11 96123-4567" [ref=e612]
+          - button "Abra a Continuar página" [ref=e615] [cursor=pointer]:
+            - generic [ref=e616]: Continuar
+      - contentinfo [ref=e618]:
+        - generic [ref=e619]:
+          - generic [ref=e620]:
+            - generic [ref=e621]:
+              - generic [ref=e622]:
+                - paragraph [ref=e624]:
+                  - text: Follow our
+                  - link "Abra a Blog página" [ref=e626] [cursor=pointer]:
+                    - /url: https://workspace.google.com/blog/
+                    - text: Blog
+                - list [ref=e627]:
+                  - listitem [ref=e628]:
+                    - link "Abra a footer social links X página em uma nova guia" [ref=e629] [cursor=pointer]:
+                      - /url: https://x.com/googleworkspace
+                      - img "Siga nosso perfil no X" [ref=e631]
+                  - listitem [ref=e632]:
+                    - link "Abra a footer social links YouTube página em uma nova guia" [ref=e633] [cursor=pointer]:
+                      - /url: https://www.youtube.com/channel/UCBmwzQnSoj9b6HzNmFrg_yw/
+                      - img "YouTube" [ref=e635]
+                  - listitem [ref=e636]:
+                    - link "Abra a footer social links LinkedIn página em uma nova guia" [ref=e637] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/showcase/googleworkspace/
+                      - img "LinkedIn" [ref=e639]
+                  - listitem [ref=e640]:
+                    - link "Abra a footer social links Instagram página em uma nova guia" [ref=e641] [cursor=pointer]:
+                      - /url: https://www.instagram.com/googleworkspace/
+                      - img "Instagram" [ref=e643]
+                  - listitem [ref=e644]:
+                    - link "Abra a footer social links Facebook página em uma nova guia" [ref=e645] [cursor=pointer]:
+                      - /url: https://www.facebook.com/googleworkspace/
+                      - img "Facebook" [ref=e647]
+                  - listitem [ref=e648]:
+                    - link "Abra a footer social links TikTok página em uma nova guia" [ref=e649] [cursor=pointer]:
+                      - /url: https://goo.gle/3xj0b2F
+                      - img "TikTok" [ref=e651]
+              - textbox "Pesquisar neste site" [ref=e653]
+            - generic [ref=e654]:
+              - list [ref=e655]:
+                - list [ref=e656]:
+                  - listitem [ref=e657]:
+                    - link "Abra a Apps incluídos página" [ref=e658] [cursor=pointer]:
+                      - /url: /intl/pt-BR/features/
+                      - text: Apps incluídos
+                  - list [ref=e659]:
+                    - listitem [ref=e660]:
+                      - link "Abra a Gmail página" [ref=e661] [cursor=pointer]:
+                        - /url: https://workspace.google.com/intl/pt-BR/products/gmail/?from=gafb-drive-def-pt-BR
+                        - text: Gmail
+                    - listitem [ref=e662]:
+                      - link "Abra a Meet página" [ref=e663] [cursor=pointer]:
+                        - /url: https://workspace.google.com/intl/pt-BR/products/meet/?from=gafb-drive-def-pt-BR
+                        - text: Meet
+                    - listitem [ref=e664]:
+                      - link "Abra a Chat página" [ref=e665] [cursor=pointer]:
+                        - /url: https://workspace.google.com/intl/pt-BR/products/chat/?from=gafb-drive-def-pt-BR
+                        - text: Chat
+                    - listitem [ref=e666]:
+                      - link "Abra a Agenda página" [ref=e667] [cursor=pointer]:
+                        - /url: https://workspace.google.com/intl/pt-BR/products/calendar/?from=gafb-drive-def-pt-BR
+                        - text: Agenda
+                    - listitem [ref=e668]:
+                      - link "Abra a Drive página" [ref=e669] [cursor=pointer]:
+                        - /url: https://workspace.google.com/intl/pt-BR/products/drive/?from=gafb-drive-def-pt-BR
+                        - text: Drive
+                    - listitem [ref=e670]:
+                      - link "Abra a Docs página" [ref=e671] [cursor=pointer]:
+                        - /url: https://workspace.google.com/intl/pt-BR/products/docs/?from=gafb-drive-def-pt-BR
+                        - text: Docs
+                    - listitem [ref=e672]:
+                      - link "Abra a Planilhas página" [ref=e673] [cursor=pointer]:
+                        - /url: https://workspace.google.com/intl/pt-BR/products/sheets/?from=gafb-drive-def-pt-BR
+                        - text: Planilhas
+                    - listitem [ref=e674]:
+                      - link "Abra a Slides página" [ref=e675] [cursor=pointer]:
+                        - /url: https://workspace.google.com/intl/pt-BR/products/slides/?from=gafb-drive-def-pt-BR
+                        - text: Slides
+                    - listitem [ref=e676]:
+                      - link "Abra a Formulários página" [ref=e677] [cursor=pointer]:
+                        - /url: https://workspace.google.com/intl/pt-BR/products/forms/?from=gafb-drive-def-pt-BR
+                        - text: Formulários
+                    - listitem [ref=e678]:
+                      - link "Abra a Sites página" [ref=e679] [cursor=pointer]:
+                        - /url: https://workspace.google.com/intl/pt-BR/products/sites/?from=gafb-drive-def-pt-BR
+                        - text: Sites
+                    - listitem [ref=e680]:
+                      - link "Abra a Keep página" [ref=e681] [cursor=pointer]:
+                        - /url: https://workspace.google.com/intl/pt-BR/products/keep/?from=gafb-drive-def-pt-BR
+                        - text: Keep
+                    - listitem [ref=e682]:
+                      - link "Abra a Apps Script página" [ref=e683] [cursor=pointer]:
+                        - /url: https://workspace.google.com/intl/pt-BR/products/apps-script/?from=gafb-drive-def-pt-BR
+                        - text: Apps Script
+              - list [ref=e684]:
+                - list [ref=e685]:
+                  - listitem [ref=e686]:
+                    - link "Abra a Segurança e Gerenciamento página" [ref=e687] [cursor=pointer]:
+                      - /url: /intl/pt-BR/security/
+                      - text: Segurança e Gerenciamento
+                  - list [ref=e688]:
+                    - listitem [ref=e689]:
+                      - link "Abra a Admin Console página" [ref=e690] [cursor=pointer]:
+                        - /url: https://workspace.google.com/intl/pt-BR/products/admin/?from=gafb-drive-def-pt-BR
+                        - text: Admin Console
+                    - listitem [ref=e691]:
+                      - link "Abra a Endpoint página" [ref=e692] [cursor=pointer]:
+                        - /url: https://workspace.google.com/intl/pt-BR/products/admin/endpoint/?from=gafb-drive-def-pt-BR
+                        - text: Endpoint
+                    - listitem [ref=e693]:
+                      - link "Abra a Vault página" [ref=e694] [cursor=pointer]:
+                        - /url: https://workspace.google.com/intl/pt-BR/products/vault/?from=gafb-drive-def-pt-BR
+                        - text: Vault
+                    - listitem [ref=e695]:
+                      - link "Abra a Work Insights página" [ref=e696] [cursor=pointer]:
+                        - /url: https://workspace.google.com/intl/pt-BR/products/workinsights/?from=gafb-drive-def-pt-BR
+                        - text: Work Insights
+                - list [ref=e697]:
+                  - listitem [ref=e698]:
+                    - generic [ref=e699]: Soluções
+                  - list [ref=e700]:
+                    - listitem [ref=e701]:
+                      - link "Abra a Novas empresas página" [ref=e702] [cursor=pointer]:
+                        - /url: /intl/pt-BR/business/new-business/
+                        - text: Novas empresas
+                    - listitem [ref=e703]:
+                      - link "Abra a Pequenas empresas página" [ref=e704] [cursor=pointer]:
+                        - /url: /intl/pt-BR/business/small-business/
+                        - text: Pequenas empresas
+                    - listitem [ref=e705]:
+                      - link "Abra a Solução empresarial página" [ref=e706] [cursor=pointer]:
+                        - /url: /intl/pt-BR/enterprise/
+                        - text: Solução empresarial
+                    - listitem [ref=e707]:
+                      - link "Abra a Varejo página" [ref=e708] [cursor=pointer]:
+                        - /url: /intl/pt-BR/industries/retail/
+                        - text: Varejo
+                    - listitem [ref=e709]:
+                      - link "Abra a Manufatura página" [ref=e710] [cursor=pointer]:
+                        - /url: /intl/pt-BR/industries/manufacturing/
+                        - text: Manufatura
+                    - listitem [ref=e711]:
+                      - link "Abra a Serviços profissionais página" [ref=e712] [cursor=pointer]:
+                        - /url: /intl/pt-BR/industries/professional-services/
+                        - text: Serviços profissionais
+                    - listitem [ref=e713]:
+                      - link "Abra a Tecnologia página" [ref=e714] [cursor=pointer]:
+                        - /url: /intl/pt-BR/industries/technology/
+                        - text: Tecnologia
+                    - listitem [ref=e715]:
+                      - link "Abra a Saúde página" [ref=e716] [cursor=pointer]:
+                        - /url: /intl/pt-BR/industries/healthcare/
+                        - text: Saúde
+                    - listitem [ref=e717]:
+                      - link "Abra a Organizações governamentais página" [ref=e718] [cursor=pointer]:
+                        - /url: /intl/pt-BR/industries/government
+                        - text: Organizações governamentais
+                    - listitem [ref=e719]:
+                      - link "Abra a Educação página em uma nova guia" [ref=e720] [cursor=pointer]:
+                        - /url: https://edu.google.com/workspace-for-education/editions/education-fundamentals/?hl=pt-br
+                        - text: Educação
+                    - listitem [ref=e721]:
+                      - link "Abra a Organizações sem fins lucrativos página em uma nova guia" [ref=e722] [cursor=pointer]:
+                        - /url: https://www.google.com/intl/en/nonprofits
+                        - text: Organizações sem fins lucrativos
+                    - listitem [ref=e723]:
+                      - link "Abra a Inteligência artificial página" [ref=e724] [cursor=pointer]:
+                        - /url: /intl/pt-BR/solutions/ai/
+                        - text: Inteligência artificial
+              - list [ref=e725]:
+                - list [ref=e726]:
+                  - listitem [ref=e727]:
+                    - link "Abra a Preços página" [ref=e728] [cursor=pointer]:
+                      - /url: https://workspace.google.com/pricing/?hl=pt-BR&source=gafb-drive-footer-pt-BR&ga_region=amer&ga_country=&ga_lang=pt
+                      - text: Preços
+                  - list [ref=e729]:
+                    - listitem [ref=e730]:
+                      - link "Abra a Escolha uma edição página" [ref=e731] [cursor=pointer]:
+                        - /url: https://workspace.google.com/pricing?source=gafb-drive-footer-pt-BR&hl=pt-BR&ga_region=amer&ga_country=&ga_lang=pt
+                        - text: Escolha uma edição
+                - list [ref=e732]:
+                  - listitem [ref=e733]:
+                    - generic [ref=e734]: Add-ons
+                  - list [ref=e735]:
+                    - listitem [ref=e736]:
+                      - link "Abra a Hardware Meet página" [ref=e737] [cursor=pointer]:
+                        - /url: https://workspace.google.com/intl/pt-BR/products/meet-hardware/?from=gafb-drive-def-pt-BR
+                        - text: Hardware Meet
+                    - listitem [ref=e738]:
+                      - link "Abra a Google Voice página" [ref=e739] [cursor=pointer]:
+                        - /url: https://workspace.google.com/intl/pt-BR/products/voice/?from=gafb-drive-def-pt-BR
+                        - text: Google Voice
+                    - listitem [ref=e740]:
+                      - link "Abra a AppSheet página em uma nova guia" [ref=e741] [cursor=pointer]:
+                        - /url: https://about.appsheet.com/home/
+                        - text: AppSheet
+              - list [ref=e742]:
+                - list [ref=e743]:
+                  - listitem [ref=e744]:
+                    - generic [ref=e745]: Recursos
+                  - list [ref=e746]:
+                    - listitem [ref=e747]:
+                      - link "Abra a Trabalho remoto página" [ref=e748] [cursor=pointer]:
+                        - /url: /intl/pt-BR/resources/working-remotely/
+                        - text: Trabalho remoto
+                    - listitem [ref=e749]:
+                      - link "Abra a Segurança página" [ref=e750] [cursor=pointer]:
+                        - /url: /intl/pt-BR/security/
+                        - text: Segurança
+                    - listitem [ref=e751]:
+                      - link "Abra a Histórias de clientes página" [ref=e752] [cursor=pointer]:
+                        - /url: /intl/pt-BR/customers/
+                        - text: Histórias de clientes
+                    - listitem [ref=e753]:
+                      - link "Abra a Perguntas frequentes página" [ref=e754] [cursor=pointer]:
+                        - /url: /intl/pt-BR/faq/
+                        - text: Perguntas frequentes
+                    - listitem [ref=e755]:
+                      - link "Abra a Parceiros página em uma nova guia" [ref=e756] [cursor=pointer]:
+                        - /url: https://cloud.withgoogle.com/partners/?products=GOOGLE_WORKSPACE_PRODUCT
+                        - text: Parceiros
+                    - listitem [ref=e757]:
+                      - link "Abra a Marketplace página" [ref=e758] [cursor=pointer]:
+                        - /url: https://workspace.google.com/marketplace/
+                        - text: Marketplace
+                    - listitem [ref=e759]:
+                      - link "Abra a Integrações página" [ref=e760] [cursor=pointer]:
+                        - /url: https://workspace.google.com/intl/pt-BR/integrations/
+                        - text: Integrações
+                    - listitem [ref=e761]:
+                      - link "Abra a Training & Certification página" [ref=e762] [cursor=pointer]:
+                        - /url: /intl/pt-BR/training/
+                        - text: Training & Certification
+                    - listitem [ref=e763]:
+                      - link "Abra a Refer Google Workspace página" [ref=e764] [cursor=pointer]:
+                        - /url: https://workspace.google.com/intl/pt-BR/referral-program/
+                        - text: Refer Google Workspace
+              - list [ref=e765]:
+                - list [ref=e766]:
+                  - listitem [ref=e767]:
+                    - link "Abra a Aprendizagem e suporte página" [ref=e768] [cursor=pointer]:
+                      - /url: /intl/pt-BR/support/
+                      - text: Aprendizagem e suporte
+                  - list [ref=e769]:
+                    - listitem [ref=e770]:
+                      - link "Abra a Ajuda do administrador página em uma nova guia" [ref=e771] [cursor=pointer]:
+                        - /url: https://support.google.com/a/#topic=29157
+                        - text: Ajuda do administrador
+                    - listitem [ref=e772]:
+                      - link "Abra a Central de configuração e implantação página em uma nova guia" [ref=e773] [cursor=pointer]:
+                        - /url: https://support.google.com/a/answer/6365252
+                        - text: Central de configuração e implantação
+                    - listitem [ref=e774]:
+                      - link "Abra a Centro de aprendizagem para usuários página em uma nova guia" [ref=e775] [cursor=pointer]:
+                        - /url: https://support.google.com/a/users?hl=pt-BR#topic=11499463
+                        - text: Centro de aprendizagem para usuários
+                    - listitem [ref=e776]:
+                      - link "Abra a Fóruns para administradores página em uma nova guia" [ref=e777] [cursor=pointer]:
+                        - /url: https://productforums.google.com/forum/#!forum/apps
+                        - text: Fóruns para administradores
+                    - listitem [ref=e778]:
+                      - link "Abra a Painel do Google Workspace página em uma nova guia" [ref=e779] [cursor=pointer]:
+                        - /url: https://www.google.com/appsstatus?hl=pt_br
+                        - text: Painel do Google Workspace
+                    - listitem [ref=e780]:
+                      - link "Abra a O que há de novo no Google Workspace? página" [ref=e781] [cursor=pointer]:
+                        - /url: https://workspace.google.com/intl/pt-BR/whatsnew/
+                        - text: O que há de novo no Google Workspace?
+                    - listitem [ref=e782]:
+                      - link "Abra a Encontre um parceiro do Google Workspace página em uma nova guia" [ref=e783] [cursor=pointer]:
+                        - /url: https://www.google.com/a/partnersearch/?hl=pt_br
+                        - text: Encontre um parceiro do Google Workspace
+                    - listitem [ref=e784]:
+                      - link "Abra a Participe da comunidade de administradores de TI página em uma nova guia" [ref=e785] [cursor=pointer]:
+                        - /url: https://www.googlecloudcommunity.com/gc/Google-Workspace/ct-p/google-workspace
+                        - text: Participe da comunidade de administradores de TI
+                    - listitem [ref=e786]:
+                      - link "Abra a Imprensa página em uma nova guia" [ref=e787] [cursor=pointer]:
+                        - /url: https://cloud.google.com/press/
+                        - text: Imprensa
+                - list [ref=e788]:
+                  - listitem [ref=e789]:
+                    - generic [ref=e790]: Mais do Google
+                  - list [ref=e791]:
+                    - listitem [ref=e792]:
+                      - link "Abra a Google Cloud página em uma nova guia" [ref=e793] [cursor=pointer]:
+                        - /url: https://cloud.google.com/?hl=pt-BR
+                        - text: Google Cloud
+                    - listitem [ref=e794]:
+                      - link "Abra a Google Domains página em uma nova guia" [ref=e795] [cursor=pointer]:
+                        - /url: https://domains.google.com/about/
+                        - text: Google Domains
+                    - listitem [ref=e796]:
+                      - link "Abra a Chrome Enterprise página em uma nova guia" [ref=e797] [cursor=pointer]:
+                        - /url: https://chromeenterprise.google/
+                        - text: Chrome Enterprise
+                    - listitem [ref=e798]:
+                      - link "Abra a Soluções do Google para Empresas página em uma nova guia" [ref=e799] [cursor=pointer]:
+                        - /url: https://www.google.com/intl/pt_br/services
+                        - text: Soluções do Google para Empresas
+                    - listitem [ref=e800]:
+                      - link "Abra a Google Ads página em uma nova guia" [ref=e801] [cursor=pointer]:
+                        - /url: https://ads.google.com/home/?subid=BR-pt-xs-aw-z-a-dyn-accounts_wsft!o3
+                        - text: Google Ads
+                    - listitem [ref=e802]:
+                      - link "Abra a Business Messages página em uma nova guia" [ref=e803] [cursor=pointer]:
+                        - /url: https://businessmessages.google/
+                        - text: Business Messages
+          - generic [ref=e804]:
+            - generic [ref=e805]:
+              - img "Google" [ref=e808]
+              - list [ref=e809]:
+                - listitem [ref=e810]:
+                  - link "Abra a Privacidade página em uma nova guia" [ref=e811] [cursor=pointer]:
+                    - /url: https://policies.google.com/privacy?hl=pt_br
+                    - text: Privacidade
+                - listitem [ref=e812]:
+                  - link "Abra a Termos página em uma nova guia" [ref=e813] [cursor=pointer]:
+                    - /url: https://policies.google.com/terms?hl=pt_br
+                    - text: Termos
+                - listitem [ref=e814]:
+                  - link "Abra a Sobre o Google página em uma nova guia" [ref=e815] [cursor=pointer]:
+                    - /url: https://about.google/?hl=pt_br
+                    - text: Sobre o Google
+                - listitem [ref=e816]:
+                  - link "Abra a Produtos do Google página em uma nova guia" [ref=e817] [cursor=pointer]:
+                    - /url: https://www.google.com/intl/pt_br/about/products/?from=gafb-drive-def-pt-BR
+                    - text: Produtos do Google
+                - listitem [ref=e818]:
+                  - link "Abra a Ajuda página em uma nova guia" [ref=e819] [cursor=pointer]:
+                    - /url: https://support.google.com/workspace/?hl=pt_br
+                    - text: Ajuda
+              - generic [ref=e820]:
+                - link "Abra a Ajuda página em uma nova guia" [ref=e822] [cursor=pointer]:
+                  - /url: https://support.google.com/a
+                  - img [ref=e823]
+                  - generic [ref=e826]: Ajuda
+                - button "Change Language" [ref=e829] [cursor=pointer]:
+                  - img [ref=e830]
+                  - generic [ref=e833]:
+                    - generic [ref=e835]: Português (Brasil)
+                    - generic [ref=e836]: Change Language
+            - region "Language List":
+              - generic [ref=e837]:
+                - link "Abra a Bahasa Indonesia locale página" [ref=e838] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/id/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Bahasa Indonesia
+                - link "Abra a Čeština locale página" [ref=e839] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/cs/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Čeština
+                - link "Abra a Dansk locale página" [ref=e840] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/da/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Dansk
+                - link "Abra a Deutsch locale página" [ref=e841] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/de/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Deutsch
+                - link "Abra a Deutsch – Schweiz locale página" [ref=e842] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/de_ch/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Deutsch – Schweiz
+                - link "Abra a English locale página" [ref=e843] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/en/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: English
+                - link "Abra a English – Australia locale página" [ref=e844] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/en_au/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: English – Australia
+                - link "Abra a English – Canada locale página" [ref=e845] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/en_ca/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: English – Canada
+                - link "Abra a English – India locale página" [ref=e846] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/en_in/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: English – India
+                - link "Abra a English – Indonesia locale página" [ref=e847] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/en_id/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: English – Indonesia
+                - link "Abra a English – Ireland locale página" [ref=e848] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/en_ie/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: English – Ireland
+                - link "Abra a English – Malaysia locale página" [ref=e849] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/en_my/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: English – Malaysia
+                - link "Abra a English – New Zealand locale página" [ref=e850] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/en_nz/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: English – New Zealand
+                - link "Abra a English – Philippines locale página" [ref=e851] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/en_ph/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: English – Philippines
+                - link "Abra a English – Singapore locale página" [ref=e852] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/en_sg/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: English – Singapore
+                - link "Abra a English – South Africa locale página" [ref=e853] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/en_za/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: English – South Africa
+                - link "Abra a English – United Kingdom locale página" [ref=e854] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/en_uk/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: English – United Kingdom
+                - link "Abra a Español locale página" [ref=e855] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/es/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Español
+                - link "Abra a Español (Latinoamérica) locale página" [ref=e856] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/es-419/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Español (Latinoamérica)
+                - link "Abra a Español (Latinoamérica) – Argentina locale página" [ref=e857] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/es-419_ar/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Español (Latinoamérica) – Argentina
+                - link "Abra a Español (Latinoamérica) – Estados Unidos locale página" [ref=e858] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/es-419_us/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Español (Latinoamérica) – Estados Unidos
+                - link "Abra a Español (Latinoamérica) – México locale página" [ref=e859] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/es-419_mx/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Español (Latinoamérica) – México
+                - link "Abra a Français locale página" [ref=e860] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/fr/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Français
+                - link "Abra a Français – Canada locale página" [ref=e861] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/fr_ca/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Français – Canada
+                - link "Abra a Français – Suisse locale página" [ref=e862] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/fr_ch/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Français – Suisse
+                - link "Abra a Italiano locale página" [ref=e863] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/it/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Italiano
+                - link "Abra a Magyar locale página" [ref=e864] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/hu/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Magyar
+                - link "Abra a Nederlands locale página" [ref=e865] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/nl/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Nederlands
+                - link "Abra a Norsk locale página" [ref=e866] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/no/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Norsk
+                - link "Abra a Polski locale página" [ref=e867] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/pl/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Polski
+                - generic [ref=e868]: Português (Brasil)
+                - link "Abra a Português (Portugal) locale página" [ref=e869] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/pt-PT/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Português (Portugal)
+                - link "Abra a Suomi locale página" [ref=e870] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/fi/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Suomi
+                - link "Abra a Svenska locale página" [ref=e871] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/sv/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Svenska
+                - link "Abra a Tiếng Việt locale página" [ref=e872] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/vi/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Tiếng Việt
+                - link "Abra a Türkçe locale página" [ref=e873] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/tr/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Türkçe
+                - link "Abra a Русский locale página" [ref=e874] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/ru/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Русский
+                - link "Abra a Українська locale página" [ref=e875] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/uk/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: Українська
+                - link "Abra a עברית locale página" [ref=e876] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/iw/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: עברית
+                - link "Abra a العربية locale página" [ref=e877] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/ar/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: العربية
+                - link "Abra a العربية – مصر locale página" [ref=e878] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/ar_eg/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: العربية – مصر
+                - link "Abra a ไทย locale página" [ref=e879] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/th/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: ไทย
+                - link "Abra a 한국어 locale página" [ref=e880] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/ko/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: 한국어
+                - link "Abra a 中文 (香港) locale página" [ref=e881] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/zh-HK/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: 中文 (香港)
+                - link "Abra a 中文（简体中文） locale página" [ref=e882] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/zh-CN/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: 中文（简体中文）
+                - link "Abra a 中文（繁體中文） locale página" [ref=e883] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/zh-TW/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: 中文（繁體中文）
+                - link "Abra a 日本語 locale página" [ref=e884] [cursor=pointer]:
+                  - /url: https://workspace.google.com/intl/ja/products/drive/?from=gafb-drive-def-pt-BR
+                  - text: 日本語
