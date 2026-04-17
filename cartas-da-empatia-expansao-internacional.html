@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cartas da Empatia — Expansão Internacional</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --bg2: #1a1d27;
+      --bg3: #21263a;
+      --border: #2e3350;
+      --text: #e8eaf0;
+      --muted: #8891b0;
+      --orange: #f97316;
+      --orange-light: #fb923c;
+      --orange-dim: rgba(249,115,22,0.12);
+      --usa: #3b82f6;
+      --usa-dim: rgba(59,130,246,0.12);
+      --uk: #ef4444;
+      --uk-dim: rgba(239,68,68,0.12);
+      --au: #22c55e;
+      --au-dim: rgba(34,197,94,0.12);
+      --gold: #f59e0b;
+      --gold-dim: rgba(245,158,11,0.12);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    /* ── TOP BAR ── */
+    .topbar {
+      background: linear-gradient(135deg, #f97316 0%, #fb923c 100%);
+      padding: 10px 32px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .topbar .tag {
+      background: rgba(0,0,0,0.2);
+      border-radius: 99px;
+      padding: 3px 12px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    .topbar .title {
+      font-weight: 700;
+      color: #fff;
+      font-size: 14px;
+    }
+    .topbar .date {
+      margin-left: auto;
+      font-size: 12px;
+      color: rgba(255,255,255,0.75);
+    }
+
+    /* ── WRAPPER ── */
+    .wrapper {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      text-align: center;
+      padding: 48px 0 40px;
+    }
+    .hero h1 {
+      font-size: 42px;
+      font-weight: 800;
+      letter-spacing: -.02em;
+      background: linear-gradient(135deg, #f97316, #fb923c, #fbbf24);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 12px;
+    }
+    .hero p {
+      color: var(--muted);
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto 32px;
+    }
+
+    /* ── PRODUCT STRIP ── */
+    .product-strip {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px 32px;
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 48px;
+    }
+    .product-strip .label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+    .product-strip .value {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .product-strip .value.orange { color: var(--orange); }
+    .product-strip .value.green { color: #22c55e; }
+    .product-strip .divider {
+      width: 1px;
+      height: 40px;
+      background: var(--border);
+    }
+    .roas-badge {
+      background: rgba(34,197,94,0.15);
+      border: 1px solid rgba(34,197,94,0.3);
+      color: #22c55e;
+      border-radius: 99px;
+      padding: 4px 14px;
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    /* ── FX BAR ── */
+    .fx-bar {
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 24px;
+      display: flex;
+      gap: 28px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 48px;
+    }
+    .fx-bar .fx-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      color: var(--muted);
+      letter-spacing: .06em;
+      flex-shrink: 0;
+    }
+    .fx-pair {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .fx-flag { font-size: 20px; }
+    .fx-rate { font-size: 14px; font-weight: 600; }
+    .fx-rate span { color: var(--muted); font-weight: 400; }
+    .fx-divider { color: var(--border); }
+
+    /* ── SECTION TITLE ── */
+    .section-title {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      color: var(--orange);
+      font-weight: 700;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+    .section-heading {
+      font-size: 26px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      letter-spacing: -.01em;
+    }
+    .section-sub {
+      color: var(--muted);
+      margin-bottom: 32px;
+      font-size: 15px;
+    }
+
+    /* ── MARKET CARDS ── */
+    .markets-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 24px;
+      margin-bottom: 48px;
+    }
+
+    .market-card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .market-card.usa { border-top: 3px solid var(--usa); }
+    .market-card.uk  { border-top: 3px solid var(--uk); }
+    .market-card.au  { border-top: 3px solid var(--au); }
+
+    .market-header {
+      padding: 24px 24px 16px;
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+    }
+    .market-flag { font-size: 44px; line-height: 1; }
+    .market-info { flex: 1; }
+    .market-rank {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 13px;
+      flex-shrink: 0;
+    }
+    .usa .market-rank { background: var(--usa-dim); color: var(--usa); }
+    .uk .market-rank  { background: var(--uk-dim); color: var(--uk); }
+    .au .market-rank  { background: var(--au-dim); color: var(--au); }
+
+    .market-country {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: -.01em;
+    }
+    .market-subtitle {
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .market-body {
+      padding: 0 24px 24px;
+    }
+
+    /* stats row */
+    .stat-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .stat-box {
+      background: var(--bg3);
+      border-radius: 12px;
+      padding: 12px 14px;
+    }
+    .stat-box .s-label {
+      font-size: 11px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      margin-bottom: 4px;
+    }
+    .stat-box .s-val {
+      font-size: 18px;
+      font-weight: 800;
+    }
+    .stat-box .s-brl {
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .usa .stat-box .s-val { color: var(--usa); }
+    .uk .stat-box .s-val  { color: var(--uk); }
+    .au .stat-box .s-val  { color: var(--au); }
+
+    /* price table */
+    .price-section {
+      margin-bottom: 20px;
+    }
+    .price-section-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: .07em;
+      color: var(--muted);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .price-section-label::before {
+      content: '';
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+    .usa .price-section-label.price-l::before { background: var(--usa); }
+    .uk .price-section-label.price-l::before  { background: var(--uk); }
+    .au .price-section-label.price-l::before  { background: var(--au); }
+    .price-section-label.cpa-l::before  { background: var(--gold); }
+    .price-section-label.cpc-l::before  { background: var(--orange); }
+
+    .price-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .price-table th {
+      font-size: 11px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      font-weight: 600;
+      text-align: left;
+      padding: 6px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .price-table td {
+      padding: 8px 0;
+      font-size: 14px;
+      border-bottom: 1px solid rgba(46,51,80,0.5);
+    }
+    .price-table tr:last-child td { border-bottom: none; }
+    .price-table .moeda { font-weight: 700; }
+    .price-table .brl { color: var(--muted); font-size: 13px; }
+    .price-table .obs { font-size: 11px; color: var(--muted); }
+
+    .usa .price-table .moeda { color: var(--usa); }
+    .uk .price-table .moeda  { color: var(--uk); }
+    .au .price-table .moeda  { color: var(--au); }
+    .cpa-tbl .moeda { color: var(--gold) !important; }
+    .cpc-tbl .moeda { color: var(--orange) !important; }
+
+    /* seasonal badge */
+    .seasonal {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--bg3);
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin-top: 16px;
+    }
+    .seasonal .month {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      color: var(--muted);
+    }
+    .seasonal .event {
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .seasonal-icon { font-size: 22px; }
+
+    /* platform pills */
+    .platforms {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+    .pill {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 99px;
+      letter-spacing: .04em;
+    }
+    .usa .pill { background: var(--usa-dim); color: var(--usa); border: 1px solid rgba(59,130,246,0.2); }
+    .uk .pill  { background: var(--uk-dim);  color: var(--uk);  border: 1px solid rgba(239,68,68,0.2); }
+    .au .pill  { background: var(--au-dim);  color: var(--au);  border: 1px solid rgba(34,197,94,0.2); }
+
+    /* ── WHY REASONS ── */
+    .reasons {
+      margin: 16px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .reason {
+      display: flex;
+      gap: 10px;
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .reason .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      margin-top: 7px;
+      flex-shrink: 0;
+    }
+    .usa .reason .dot { background: var(--usa); }
+    .uk .reason .dot  { background: var(--uk); }
+    .au .reason .dot  { background: var(--au); }
+
+    /* ── COMPARISON TABLE ── */
+    .compare-wrap {
+      overflow-x: auto;
+      margin-bottom: 48px;
+    }
+    .compare-table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 700px;
+    }
+    .compare-table thead tr {
+      border-bottom: 1px solid var(--border);
+    }
+    .compare-table th {
+      padding: 14px 16px;
+      font-size: 12px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .07em;
+      font-weight: 600;
+      text-align: left;
+    }
+    .compare-table th.country-col { min-width: 160px; }
+    .compare-table td {
+      padding: 16px;
+      font-size: 14px;
+      border-bottom: 1px solid rgba(46,51,80,0.5);
+      vertical-align: top;
+    }
+    .compare-table tr:last-child td { border-bottom: none; }
+    .compare-table .country-cell {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+    }
+    .compare-table .flag { font-size: 22px; }
+    .compare-table .price-local { font-weight: 800; font-size: 16px; }
+    .compare-table .price-brl { font-size: 12px; color: var(--muted); }
+    .compare-table .usa-row td:first-child .price-local { color: var(--usa); }
+    .compare-table .uk-row td:first-child .price-local  { color: var(--uk); }
+    .compare-table .au-row td:first-child .price-local  { color: var(--au); }
+    .compare-table .cpa-cell .val { color: var(--gold); font-weight: 700; }
+    .compare-table .cpc-cell .val { color: var(--orange); font-weight: 700; }
+    .stars { color: var(--gold); }
+    .teachers-num { font-weight: 700; font-size: 15px; }
+
+    /* ── REVENUE PROJECTION ── */
+    .rev-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-bottom: 48px;
+    }
+    .rev-card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+    }
+    .rev-card .rev-flag { font-size: 30px; margin-bottom: 12px; }
+    .rev-card .rev-country { font-size: 13px; color: var(--muted); margin-bottom: 4px; }
+    .rev-card .rev-amount { font-size: 28px; font-weight: 800; }
+    .rev-card .rev-brl { font-size: 13px; color: var(--muted); margin-top: 4px; }
+    .rev-card .rev-note { font-size: 11px; color: var(--muted); margin-top: 12px; border-top: 1px solid var(--border); padding-top: 10px; }
+    .rev-card.usa { border-top: 2px solid var(--usa); }
+    .rev-card.uk  { border-top: 2px solid var(--uk); }
+    .rev-card.au  { border-top: 2px solid var(--au); }
+    .rev-card.total { border-top: 2px solid var(--gold); }
+    .rev-card.usa .rev-amount { color: var(--usa); }
+    .rev-card.uk .rev-amount  { color: var(--uk); }
+    .rev-card.au .rev-amount  { color: var(--au); }
+    .rev-card.total .rev-amount { color: var(--gold); }
+
+    /* ── STRATEGY TIMELINE ── */
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      margin-bottom: 48px;
+      position: relative;
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 20px;
+      top: 24px;
+      bottom: 24px;
+      width: 2px;
+      background: var(--border);
+    }
+    .tl-item {
+      display: flex;
+      gap: 20px;
+      padding: 16px 0;
+    }
+    .tl-dot {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 16px;
+      flex-shrink: 0;
+      z-index: 1;
+      position: relative;
+    }
+    .tl-dot.f1 { background: var(--usa-dim); color: var(--usa); border: 2px solid var(--usa); }
+    .tl-dot.f2 { background: var(--uk-dim);  color: var(--uk);  border: 2px solid var(--uk); }
+    .tl-dot.f3 { background: var(--au-dim);  color: var(--au);  border: 2px solid var(--au); }
+    .tl-content { flex: 1; }
+    .tl-tag {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: .07em;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+    .tl-title { font-size: 17px; font-weight: 700; margin-bottom: 8px; }
+    .tl-list { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+    .tl-list li {
+      display: flex;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .tl-list li::before { content: '→'; color: var(--orange); flex-shrink: 0; }
+
+    /* ── FOOTER NOTE ── */
+    .footer-note {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 24px;
+      font-size: 12px;
+      color: var(--muted);
+      text-align: center;
+    }
+    .footer-note strong { color: var(--text); }
+
+    /* ── SEPARATOR ── */
+    .sep { height: 1px; background: var(--border); margin: 40px 0; }
+
+    /* ── TOOLTIP CALLOUT ── */
+    .callout {
+      background: var(--orange-dim);
+      border: 1px solid rgba(249,115,22,0.3);
+      border-radius: 12px;
+      padding: 16px 20px;
+      font-size: 13px;
+      color: var(--text);
+      margin-bottom: 32px;
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+    .callout .icon { font-size: 20px; flex-shrink: 0; }
+    .callout strong { color: var(--orange); }
+
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 28px; }
+      .product-strip { flex-direction: column; gap: 16px; }
+      .product-strip .divider { display: none; }
+      .markets-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <span class="tag">Estratégia</span>
+  <span class="title">Cartas da Empatia — Expansão Internacional</span>
+  <span class="date">Abril / 2026</span>
+</div>
+
+<div class="wrapper">
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>Vender em Dólar &amp; Euro</h1>
+    <p>Análise completa dos 3 melhores mercados internacionais para escalar as Cartas da Empatia com preços sugeridos em moeda local e em real.</p>
+  </div>
+
+  <!-- PRODUTO BASE -->
+  <div class="product-strip">
+    <div>
+      <div class="label">Produto</div>
+      <div class="value">Cartas da Empatia</div>
+    </div>
+    <div class="divider"></div>
+    <div>
+      <div class="label">Formato</div>
+      <div class="value">PDF Digital Imprimível</div>
+    </div>
+    <div class="divider"></div>
+    <div>
+      <div class="label">Preço atual (BR)</div>
+      <div class="value orange">R$ 24,90</div>
+    </div>
+    <div class="divider"></div>
+    <div>
+      <div class="label">ROAS atual (3 dias)</div>
+      <div class="value"><span class="roas-badge">1,55x</span></div>
+    </div>
+    <div class="divider"></div>
+    <div>
+      <div class="label">CPA atual (BR)</div>
+      <div class="value orange">R$ 13,00</div>
+    </div>
+    <div class="divider"></div>
+    <div>
+      <div class="label">Plataforma</div>
+      <div class="value">Facebook Ads → Hotmart</div>
+    </div>
+  </div>
+
+  <!-- CÂMBIO -->
+  <div class="fx-bar">
+    <div class="fx-label">Cotações de referência — Abril 2026</div>
+    <div class="fx-pair">
+      <span class="fx-flag">🇺🇸</span>
+      <span class="fx-rate">1 USD <span>=</span> R$ 4,99</span>
+    </div>
+    <div class="fx-divider">|</div>
+    <div class="fx-pair">
+      <span class="fx-flag">🇬🇧</span>
+      <span class="fx-rate">1 GBP <span>=</span> R$ 6,76</span>
+    </div>
+    <div class="fx-divider">|</div>
+    <div class="fx-pair">
+      <span class="fx-flag">🇦🇺</span>
+      <span class="fx-rate">1 AUD <span>=</span> R$ 3,58</span>
+    </div>
+    <div class="fx-divider">|</div>
+    <div class="fx-pair">
+      <span class="fx-flag">🇪🇺</span>
+      <span class="fx-rate">1 EUR <span>=</span> R$ 5,88</span>
+    </div>
+  </div>
+
+  <!-- CALLOUT -->
+  <div class="callout">
+    <span class="icon">💡</span>
+    <div>
+      <strong>Por que vender muito mais caro no exterior?</strong> O produto custa R$ 24,90 no Brasil (~$5). Produtos equivalentes no Teachers Pay Teachers (EUA) são vendidos entre $8–$15. No mercado britânico TES, entre £6–£12. A diferença não é arbitrária — é o padrão de preço que professores nesses países <em>já estão dispostos a pagar</em>. Cobrar menos seria deixar dinheiro na mesa.
+    </div>
+  </div>
+
+  <!-- MERCADOS -->
+  <div class="section-title">Os 3 Melhores Mercados</div>
+  <div class="section-heading">Onde existe demanda real</div>
+  <div class="section-sub">Mercados ranqueados por potencial de receita, tamanho de audiência e facilidade de entrada.</div>
+
+  <div class="markets-grid">
+
+    <!-- ── USA ── -->
+    <div class="market-card usa">
+      <div class="market-header">
+        <div class="market-flag">🇺🇸</div>
+        <div class="market-info">
+          <div class="market-country">Estados Unidos</div>
+          <div class="market-subtitle">Maior mercado educacional digital do mundo</div>
+        </div>
+        <div class="market-rank">1</div>
+      </div>
+      <div class="market-body">
+
+        <div class="stat-row">
+          <div class="stat-box">
+            <div class="s-label">Professores K-12</div>
+            <div class="s-val">4,2 mi</div>
+            <div class="s-brl">público direto</div>
+          </div>
+          <div class="stat-box">
+            <div class="s-label">Mercado SEL</div>
+            <div class="s-val">$4,6 bi</div>
+            <div class="s-brl">crescendo 22%/ano</div>
+          </div>
+        </div>
+
+        <div class="reasons">
+          <div class="reason"><div class="dot"></div><span>Todos os 50 estados têm <strong>leis anti-bullying obrigatórias</strong> — o tema é parte do currículo legal, não opcional.</span></div>
+          <div class="reason"><div class="dot"></div><span>Teachers Pay Teachers: <strong>2 em cada 3 professores</strong> compram recursos digitais regularmente.</span></div>
+          <div class="reason"><div class="dot"></div><span><strong>53% dos professores americanos</strong> priorizam SEL (Social Emotional Learning).</span></div>
+          <div class="reason"><div class="dot"></div><span>Outubro = <strong>National Bullying Prevention Month</strong> — pico de demanda previsível todo ano.</span></div>
+        </div>
+
+        <div class="price-section">
+          <div class="price-section-label price-l">💲 Preço do Produto</div>
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th>Fase</th>
+                <th>Moeda local</th>
+                <th>Em Reais</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="obs">🚀 Lançamento</td>
+                <td class="moeda">$9,97 USD</td>
+                <td class="brl">≈ R$ 49,75</td>
+              </tr>
+              <tr>
+                <td class="obs">✅ Padrão</td>
+                <td class="moeda">$14,97 USD</td>
+                <td class="brl">≈ R$ 74,69</td>
+              </tr>
+              <tr>
+                <td class="obs">📦 Order Bump +1</td>
+                <td class="moeda">$4,97 USD</td>
+                <td class="brl">≈ R$ 24,80</td>
+              </tr>
+              <tr>
+                <td class="obs">📦 Order Bump +2</td>
+                <td class="moeda">$3,97 USD</td>
+                <td class="brl">≈ R$ 19,81</td>
+              </tr>
+              <tr>
+                <td class="obs">⬆️ Upsell Kit Pais</td>
+                <td class="moeda">$9,97 USD</td>
+                <td class="brl">≈ R$ 49,75</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="price-section">
+          <div class="price-section-label cpa-l">🎯 CPA Alvo (Meta Ads)</div>
+          <table class="price-table cpa-tbl">
+            <thead>
+              <tr><th>Nível</th><th>Moeda local</th><th>Em Reais</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="obs">🟡 Máximo tolerado</td>
+                <td class="moeda">$5,00 USD</td>
+                <td class="brl">≈ R$ 24,95</td>
+              </tr>
+              <tr>
+                <td class="obs">🟢 Alvo ideal</td>
+                <td class="moeda">$3,50 USD</td>
+                <td class="brl">≈ R$ 17,47</td>
+              </tr>
+              <tr>
+                <td class="obs">⭐ Com order bump (AOV ~$15)</td>
+                <td class="moeda">$6,00 USD</td>
+                <td class="brl">≈ R$ 29,94</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="price-section">
+          <div class="price-section-label cpc-l">🖱️ CPC Esperado (Facebook Ads)</div>
+          <table class="price-table cpc-tbl">
+            <thead>
+              <tr><th>Cenário</th><th>Moeda local</th><th>Em Reais</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="obs">📉 Mínimo esperado</td>
+                <td class="moeda">$0,80 USD</td>
+                <td class="brl">≈ R$ 3,99</td>
+              </tr>
+              <tr>
+                <td class="obs">📊 Média do nicho</td>
+                <td class="moeda">$1,20 USD</td>
+                <td class="brl">≈ R$ 5,99</td>
+              </tr>
+              <tr>
+                <td class="obs">📈 Máximo aceitável</td>
+                <td class="moeda">$1,80 USD</td>
+                <td class="brl">≈ R$ 8,98</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="seasonal">
+          <div class="seasonal-icon">📅</div>
+          <div>
+            <div class="month">Pico sazonal</div>
+            <div class="event">Outubro — National Bullying Prevention Month + Unity Day</div>
+          </div>
+        </div>
+
+        <div class="platforms">
+          <span class="pill">TPT (Teachers Pay Teachers)</span>
+          <span class="pill">Etsy</span>
+          <span class="pill">Meta Ads</span>
+          <span class="pill">TikTok Edu</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── UK ── -->
+    <div class="market-card uk">
+      <div class="market-header">
+        <div class="market-flag">🇬🇧</div>
+        <div class="market-info">
+          <div class="market-country">Reino Unido</div>
+          <div class="market-subtitle">Anti-Bullying Week nacional consolidada</div>
+        </div>
+        <div class="market-rank">2</div>
+      </div>
+      <div class="market-body">
+
+        <div class="stat-row">
+          <div class="stat-box">
+            <div class="s-label">Professores (UK)</div>
+            <div class="s-val">565 mil</div>
+            <div class="s-brl">público potencial</div>
+          </div>
+          <div class="stat-box">
+            <div class="s-label">Platform TES</div>
+            <div class="s-val">3 mi+</div>
+            <div class="s-brl">downloads de recursos</div>
+          </div>
+        </div>
+
+        <div class="reasons">
+          <div class="reason"><div class="dot"></div><span><strong>Anti-Bullying Week (novembro)</strong> coordenada pela Anti-Bullying Alliance — todas as escolas participam, professores buscam material ativamente.</span></div>
+          <div class="reason"><div class="dot"></div><span>NSPCC (maior org. de proteção infantil do UK) cria <strong>pressão institucional</strong> para trabalhar o tema em sala.</span></div>
+          <div class="reason"><div class="dot"></div><span>Bônus "Quebrando o Cyberbullying" é <strong>pauta de política pública ativa</strong> no UK em 2025–2026.</span></div>
+          <div class="reason"><div class="dot"></div><span>TES.com: marketplace de recursos educacionais com <strong>cultura de pagamento já estabelecida</strong>.</span></div>
+        </div>
+
+        <div class="price-section">
+          <div class="price-section-label price-l">£ Preço do Produto</div>
+          <table class="price-table">
+            <thead>
+              <tr><th>Fase</th><th>Moeda local</th><th>Em Reais</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="obs">🚀 Lançamento</td>
+                <td class="moeda">£7,97 GBP</td>
+                <td class="brl">≈ R$ 53,87</td>
+              </tr>
+              <tr>
+                <td class="obs">✅ Padrão</td>
+                <td class="moeda">£9,97 GBP</td>
+                <td class="brl">≈ R$ 67,40</td>
+              </tr>
+              <tr>
+                <td class="obs">📦 Order Bump +1</td>
+                <td class="moeda">£3,97 GBP</td>
+                <td class="brl">≈ R$ 26,84</td>
+              </tr>
+              <tr>
+                <td class="obs">⬆️ Upsell Kit Pais</td>
+                <td class="moeda">£7,97 GBP</td>
+                <td class="brl">≈ R$ 53,87</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="price-section">
+          <div class="price-section-label cpa-l">🎯 CPA Alvo (Meta Ads)</div>
+          <table class="price-table cpa-tbl">
+            <thead>
+              <tr><th>Nível</th><th>Moeda local</th><th>Em Reais</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="obs">🟡 Máximo tolerado</td>
+                <td class="moeda">£3,99 GBP</td>
+                <td class="brl">≈ R$ 26,97</td>
+              </tr>
+              <tr>
+                <td class="obs">🟢 Alvo ideal</td>
+                <td class="moeda">£2,99 GBP</td>
+                <td class="brl">≈ R$ 20,21</td>
+              </tr>
+              <tr>
+                <td class="obs">⭐ Com order bump (AOV ~£12)</td>
+                <td class="moeda">£4,99 GBP</td>
+                <td class="brl">≈ R$ 33,73</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="price-section">
+          <div class="price-section-label cpc-l">🖱️ CPC Esperado (Facebook Ads)</div>
+          <table class="price-table cpc-tbl">
+            <thead>
+              <tr><th>Cenário</th><th>Moeda local</th><th>Em Reais</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="obs">📉 Mínimo esperado</td>
+                <td class="moeda">£0,60 GBP</td>
+                <td class="brl">≈ R$ 4,06</td>
+              </tr>
+              <tr>
+                <td class="obs">📊 Média do nicho</td>
+                <td class="moeda">£0,90 GBP</td>
+                <td class="brl">≈ R$ 6,08</td>
+              </tr>
+              <tr>
+                <td class="obs">📈 Máximo aceitável</td>
+                <td class="moeda">£1,30 GBP</td>
+                <td class="brl">≈ R$ 8,79</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="seasonal">
+          <div class="seasonal-icon">📅</div>
+          <div>
+            <div class="month">Pico sazonal</div>
+            <div class="event">Novembro — Anti-Bullying Week (tema 2025: "Power for Good")</div>
+          </div>
+        </div>
+
+        <div class="platforms">
+          <span class="pill">TES (tes.com)</span>
+          <span class="pill">TPT</span>
+          <span class="pill">Etsy UK</span>
+          <span class="pill">Meta Ads</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── AU ── -->
+    <div class="market-card au">
+      <div class="market-header">
+        <div class="market-flag">🇦🇺</div>
+        <div class="market-info">
+          <div class="market-country">Austrália</div>
+          <div class="market-subtitle">Menor concorrência + programa federal de antibullying</div>
+        </div>
+        <div class="market-rank">3</div>
+      </div>
+      <div class="market-body">
+
+        <div class="stat-row">
+          <div class="stat-box">
+            <div class="s-label">Professores K-12</div>
+            <div class="s-val">325 mil</div>
+            <div class="s-brl">público potencial</div>
+          </div>
+          <div class="stat-box">
+            <div class="s-label">Concorrência local</div>
+            <div class="s-val">Baixa</div>
+            <div class="s-brl">vs. EUA e UK</div>
+          </div>
+        </div>
+
+        <div class="reasons">
+          <div class="reason"><div class="dot"></div><span><strong>"Bullying No Way" — programa federal</strong> com semana nacional de ação em agosto — mobilização escolar garantida.</span></div>
+          <div class="reason"><div class="dot"></div><span>Alto poder aquisitivo: professores australianos <strong>pagam por recursos digitais de qualidade</strong> sem resistência.</span></div>
+          <div class="reason"><div class="dot"></div><span>SEL é prioridade do <strong>currículo nacional australiano</strong> (AITSL) — produto perfeitamente alinhado.</span></div>
+          <div class="reason"><div class="dot"></div><span><strong>Menor concorrência</strong> que EUA/UK = mais fácil se destacar com produto bem posicionado.</span></div>
+        </div>
+
+        <div class="price-section">
+          <div class="price-section-label price-l">🦘 Preço do Produto</div>
+          <table class="price-table">
+            <thead>
+              <tr><th>Fase</th><th>Moeda local</th><th>Em Reais</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="obs">🚀 Lançamento</td>
+                <td class="moeda">AUD $12,97</td>
+                <td class="brl">≈ R$ 46,43</td>
+              </tr>
+              <tr>
+                <td class="obs">✅ Padrão</td>
+                <td class="moeda">AUD $14,97</td>
+                <td class="brl">≈ R$ 53,59</td>
+              </tr>
+              <tr>
+                <td class="obs">📦 Order Bump +1</td>
+                <td class="moeda">AUD $5,97</td>
+                <td class="brl">≈ R$ 21,37</td>
+              </tr>
+              <tr>
+                <td class="obs">⬆️ Upsell Kit Pais</td>
+                <td class="moeda">AUD $12,97</td>
+                <td class="brl">≈ R$ 46,43</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="price-section">
+          <div class="price-section-label cpa-l">🎯 CPA Alvo (Meta Ads)</div>
+          <table class="price-table cpa-tbl">
+            <thead>
+              <tr><th>Nível</th><th>Moeda local</th><th>Em Reais</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="obs">🟡 Máximo tolerado</td>
+                <td class="moeda">AUD $6,50</td>
+                <td class="brl">≈ R$ 23,27</td>
+              </tr>
+              <tr>
+                <td class="obs">🟢 Alvo ideal</td>
+                <td class="moeda">AUD $5,00</td>
+                <td class="brl">≈ R$ 17,90</td>
+              </tr>
+              <tr>
+                <td class="obs">⭐ Com order bump (AOV ~AUD $18)</td>
+                <td class="moeda">AUD $7,50</td>
+                <td class="brl">≈ R$ 26,85</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="price-section">
+          <div class="price-section-label cpc-l">🖱️ CPC Esperado (Facebook Ads)</div>
+          <table class="price-table cpc-tbl">
+            <thead>
+              <tr><th>Cenário</th><th>Moeda local</th><th>Em Reais</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="obs">📉 Mínimo esperado</td>
+                <td class="moeda">AUD $0,70</td>
+                <td class="brl">≈ R$ 2,51</td>
+              </tr>
+              <tr>
+                <td class="obs">📊 Média do nicho</td>
+                <td class="moeda">AUD $1,00</td>
+                <td class="brl">≈ R$ 3,58</td>
+              </tr>
+              <tr>
+                <td class="obs">📈 Máximo aceitável</td>
+                <td class="moeda">AUD $1,50</td>
+                <td class="brl">≈ R$ 5,37</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="seasonal">
+          <div class="seasonal-icon">📅</div>
+          <div>
+            <div class="month">Pico sazonal</div>
+            <div class="event">Agosto — Bullying No Way: National Week of Action</div>
+          </div>
+        </div>
+
+        <div class="platforms">
+          <span class="pill">TPT</span>
+          <span class="pill">Etsy AU</span>
+          <span class="pill">Meta Ads</span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- COMPARATIVO -->
+  <div class="section-title">Comparativo Final</div>
+  <div class="section-heading">Visão lado a lado</div>
+  <div class="section-sub">Todos os números num só lugar para tomada de decisão.</div>
+
+  <div class="compare-wrap">
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th class="country-col">Mercado</th>
+          <th>Professores</th>
+          <th>Preço (lançamento)</th>
+          <th>Preço (padrão)</th>
+          <th>CPA alvo</th>
+          <th>CPC médio</th>
+          <th>Pico sazonal</th>
+          <th>Potencial</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="usa-row">
+          <td>
+            <div class="country-cell">
+              <span class="flag">🇺🇸</span>
+              <div>
+                <div style="font-weight:700">EUA</div>
+                <div class="price-brl">dólar americano</div>
+              </div>
+            </div>
+          </td>
+          <td><span class="teachers-num" style="color:var(--usa)">4,2 mi</span></td>
+          <td>
+            <div class="price-local" style="color:var(--usa)">$9,97</div>
+            <div class="price-brl">≈ R$ 49,75</div>
+          </td>
+          <td>
+            <div class="price-local" style="color:var(--usa)">$14,97</div>
+            <div class="price-brl">≈ R$ 74,69</div>
+          </td>
+          <td class="cpa-cell">
+            <div class="val">$3,50</div>
+            <div class="price-brl">≈ R$ 17,47</div>
+          </td>
+          <td class="cpc-cell">
+            <div class="val">$1,20</div>
+            <div class="price-brl">≈ R$ 5,99</div>
+          </td>
+          <td>Outubro</td>
+          <td><span class="stars">★★★★★</span></td>
+        </tr>
+        <tr class="uk-row">
+          <td>
+            <div class="country-cell">
+              <span class="flag">🇬🇧</span>
+              <div>
+                <div style="font-weight:700">Reino Unido</div>
+                <div class="price-brl">libra esterlina</div>
+              </div>
+            </div>
+          </td>
+          <td><span class="teachers-num" style="color:var(--uk)">565 mil</span></td>
+          <td>
+            <div class="price-local" style="color:var(--uk)">£7,97</div>
+            <div class="price-brl">≈ R$ 53,87</div>
+          </td>
+          <td>
+            <div class="price-local" style="color:var(--uk)">£9,97</div>
+            <div class="price-brl">≈ R$ 67,40</div>
+          </td>
+          <td class="cpa-cell">
+            <div class="val">£2,99</div>
+            <div class="price-brl">≈ R$ 20,21</div>
+          </td>
+          <td class="cpc-cell">
+            <div class="val">£0,90</div>
+            <div class="price-brl">≈ R$ 6,08</div>
+          </td>
+          <td>Novembro</td>
+          <td><span class="stars">★★★★☆</span></td>
+        </tr>
+        <tr class="au-row">
+          <td>
+            <div class="country-cell">
+              <span class="flag">🇦🇺</span>
+              <div>
+                <div style="font-weight:700">Austrália</div>
+                <div class="price-brl">dólar australiano</div>
+              </div>
+            </div>
+          </td>
+          <td><span class="teachers-num" style="color:var(--au)">325 mil</span></td>
+          <td>
+            <div class="price-local" style="color:var(--au)">AUD $12,97</div>
+            <div class="price-brl">≈ R$ 46,43</div>
+          </td>
+          <td>
+            <div class="price-local" style="color:var(--au)">AUD $14,97</div>
+            <div class="price-brl">≈ R$ 53,59</div>
+          </td>
+          <td class="cpa-cell">
+            <div class="val">AUD $5,00</div>
+            <div class="price-brl">≈ R$ 17,90</div>
+          </td>
+          <td class="cpc-cell">
+            <div class="val">AUD $1,00</div>
+            <div class="price-brl">≈ R$ 3,58</div>
+          </td>
+          <td>Agosto</td>
+          <td><span class="stars">★★★☆☆</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- PROJEÇÃO DE RECEITA -->
+  <div class="section-title">Projeção de Receita</div>
+  <div class="section-heading">Conservadora (0,1% do público por ano)</div>
+  <div class="section-sub">Estimativa considerando apenas 1 em cada 1.000 professores comprando — sem considerar TPT orgânico, upsells ou order bumps.</div>
+
+  <div class="rev-grid">
+    <div class="rev-card usa">
+      <div class="rev-flag">🇺🇸</div>
+      <div class="rev-country">Estados Unidos</div>
+      <div class="rev-amount">$41.874</div>
+      <div class="rev-brl">≈ R$ 208.949/ano</div>
+      <div class="rev-note">4.200 vendas × $9,97 · Apenas produto principal, sem OBs ou upsell</div>
+    </div>
+    <div class="rev-card uk">
+      <div class="rev-flag">🇬🇧</div>
+      <div class="rev-country">Reino Unido</div>
+      <div class="rev-amount">£4.986</div>
+      <div class="rev-brl">≈ R$ 33.705/ano</div>
+      <div class="rev-note">626 vendas × £7,97 · Estimativa conservadora, sem eventos sazonais</div>
+    </div>
+    <div class="rev-card au">
+      <div class="rev-flag">🇦🇺</div>
+      <div class="rev-country">Austrália</div>
+      <div class="rev-amount">AUD $4.215</div>
+      <div class="rev-brl">≈ R$ 15.090/ano</div>
+      <div class="rev-note">325 vendas × AUD $12,97 · Mercado menor, mas menos competitivo</div>
+    </div>
+    <div class="rev-card total">
+      <div class="rev-flag">🌍</div>
+      <div class="rev-country">Total Internacional</div>
+      <div class="rev-amount">~$52.000</div>
+      <div class="rev-brl">≈ R$ 257.000/ano</div>
+      <div class="rev-note">Somente produto principal. Com funnel (OB + upsell), o valor pode 2–3× facilmente.</div>
+    </div>
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ESTRATÉGIA DE ENTRADA -->
+  <div class="section-title">Plano de Entrada</div>
+  <div class="section-heading">Como começar, passo a passo</div>
+  <div class="section-sub">Abordagem sequencial: validar nos EUA primeiro, depois escalar para UK e AU.</div>
+
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-dot f1">1</div>
+      <div class="tl-content">
+        <div class="tl-tag">Fase 1 — Mês 1 · EUA</div>
+        <div class="tl-title">🇺🇸 Validar nos Estados Unidos</div>
+        <ul class="tl-list">
+          <li>Traduzir o produto completo para inglês americano (cartas + bônus + copy da página)</li>
+          <li>Criar conta no Teachers Pay Teachers e publicar a $9,97</li>
+          <li>Rodar $50–$100/dia em Meta Ads para público de professores americanos (mesma estrutura do Brasil)</li>
+          <li>Testar order bump do Protocolo de 4 Semanas a $4,97</li>
+          <li>Meta: ROAS ≥ 1,5x nos primeiros 7 dias de ads</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot f2">2</div>
+      <div class="tl-content">
+        <div class="tl-tag">Fase 2 — Mês 2 · Reino Unido</div>
+        <div class="tl-title">🇬🇧 Expandir para o Reino Unido</div>
+        <ul class="tl-list">
+          <li>Com ROAS validado nos EUA, adaptar copy para inglês britânico (pequenos ajustes: "maths" vs "math", etc.)</li>
+          <li>Publicar no TES (tes.com) a £7,97</li>
+          <li>Configurar campanha Meta Ads com targeting UK</li>
+          <li>Escalar antes de novembro (Anti-Bullying Week) — janela de alta demanda</li>
+          <li>Testar bundle: produto + cyberbullying bônus a £11,97</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot f3">3</div>
+      <div class="tl-content">
+        <div class="tl-tag">Fase 3 — Mês 3–4 · Austrália</div>
+        <div class="tl-title">🇦🇺 Expandir para a Austrália</div>
+        <ul class="tl-list">
+          <li>Replicar estrutura dos EUA com targeting Austrália — mesmo inglês</li>
+          <li>Publicar no Etsy AU e TPT</li>
+          <li>Planejar campanha para agosto (Bullying No Way Week)</li>
+          <li>Testar preço AUD $12,97 com order bump a AUD $5,97</li>
+          <li>Explorar parcerias com educadores australianos no Instagram/TikTok</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- FOOTER NOTE -->
+  <div class="footer-note">
+    <strong>Nota sobre preços:</strong> Os valores em BRL são conversões aproximadas com base nas cotações de abril/2026 (USD R$4,99 · GBP R$6,76 · AUD R$3,58).
+    As projeções de CPA e CPC são baseadas em benchmarks do nicho de educação/SEL em Facebook Ads nesses mercados e devem ser validadas nos primeiros dias de campanha.
+    Os preços sugeridos refletem o padrão de mercado dos marketplaces Teachers Pay Teachers e TES — produtos similares são vendidos nessa faixa regularmente.
+    <br/><br/>
+    Elaborado com pesquisa em: PACER Center · Grand View Research · Anti-Bullying Alliance UK · Australian Bureau of Statistics · Teachers Pay Teachers · TES · Market.US
+  </div>
+
+</div>
+</body>
+</html>
