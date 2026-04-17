@@ -1,0 +1,235 @@
+- generic [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - region
+  - generic [ref=e4]:
+    - navigation [ref=e5]:
+      - button "Pular para o conteúdo principal" [ref=e7] [cursor=pointer]:
+        - generic [ref=e9]: Pular para o conteúdo principal
+      - button "Atalhos do teclado" [ref=e11] [cursor=pointer]:
+        - generic [ref=e13]: Atalhos do teclado
+      - button "Feedback sobre acessibilidade" [ref=e15] [cursor=pointer]:
+        - generic [ref=e17]: Feedback sobre acessibilidade
+    - banner [ref=e19]:
+      - generic [ref=e20]:
+        - link "Drive" [ref=e24] [cursor=pointer]:
+          - /url: https://drive.google.com/?tab=oo&authuser=0
+          - img [ref=e25]
+          - generic [ref=e26]: Drive
+        - generic [ref=e27]:
+          - search [ref=e29]:
+            - table [ref=e31]:
+              - rowgroup [ref=e32]:
+                - row [ref=e33]:
+                  - cell [ref=e34]:
+                    - textbox "Pesquise no Drive" [ref=e35]
+            - button "Pesquisa avançada" [ref=e36] [cursor=pointer]:
+              - img [ref=e37]
+            - button "Pesquisar no Google Drive" [ref=e39] [cursor=pointer]:
+              - img [ref=e40]
+          - generic [ref=e43]:
+            - button "Suporte" [ref=e46] [cursor=pointer]:
+              - img [ref=e47]
+            - button "Configurações" [ref=e51] [cursor=pointer]:
+              - img [ref=e53]
+            - generic [ref=e58]:
+              - generic:
+                - button "Pedir para Gemini" [ref=e61] [cursor=pointer]:
+                  - img [ref=e64]
+                - tooltip [ref=e67]: Pedir para Gemini
+        - generic [ref=e69]:
+          - button "Google Apps" [ref=e73] [cursor=pointer]:
+            - img [ref=e74]
+          - 'button "Conta do Google: Gabriel Ferreira (gabrielfsbm2@gmail.com)" [ref=e79] [cursor=pointer]':
+            - img [ref=e81]
+    - button "Novo" [ref=e84] [cursor=pointer]:
+      - img [ref=e87]
+      - generic [ref=e89]: Novo
+    - navigation [ref=e95]:
+      - heading "Pastas e visualizações" [level=2] [ref=e96]
+      - tree "Pastas e visualizações" [ref=e97]:
+        - treeitem "Pessoal" [ref=e98]:
+          - link "Pessoal" [ref=e99] [cursor=pointer]:
+            - generic "Pessoal" [ref=e102]:
+              - generic [ref=e104]:
+                - img [ref=e107]
+                - img [ref=e112]
+              - generic "Pessoal" [ref=e117]
+          - group
+        - treeitem "Meu Drive" [ref=e118]:
+          - link "Meu Drive" [ref=e119] [cursor=pointer]:
+            - img [ref=e122]
+            - generic "Meu Drive" [ref=e125]:
+              - generic [ref=e127]:
+                - img [ref=e130]
+                - img [ref=e135]
+              - generic "Meu Drive" [ref=e137]
+        - treeitem "Computadores" [ref=e138]:
+          - link "Computadores" [ref=e139] [cursor=pointer]:
+            - img [ref=e142]
+            - generic "Computadores" [ref=e145]:
+              - generic [ref=e147]:
+                - img [ref=e150]
+                - img [ref=e155]
+              - generic "Computadores" [ref=e158]
+        - treeitem "Compartilhados comigo" [ref=e159]:
+          - link "Compartilhados comigo" [ref=e160] [cursor=pointer]:
+            - generic "Compartilhados comigo" [ref=e163]:
+              - generic [ref=e165]:
+                - img [ref=e168]
+                - img [ref=e173]
+              - generic "Itens compartilhados comigo" [ref=e179]: Compartilhados comigo
+          - group
+        - treeitem "Recentes" [ref=e180]:
+          - link "Recentes" [ref=e181] [cursor=pointer]:
+            - generic "Recentes" [ref=e184]:
+              - generic [ref=e186]:
+                - img [ref=e189]
+                - img [ref=e195]
+              - generic "Itens recentes" [ref=e200]: Recentes
+          - group
+        - treeitem "Com estrela" [ref=e201]:
+          - link "Com estrela" [ref=e202] [cursor=pointer]:
+            - generic "Com estrela" [ref=e205]:
+              - generic [ref=e207]:
+                - img [ref=e209]
+                - img [ref=e212]
+              - generic "Itens com estrela" [ref=e216]: Com estrela
+          - group
+        - treeitem "Spam" [ref=e217]:
+          - link "Spam" [ref=e218] [cursor=pointer]:
+            - generic "Spam" [ref=e221]:
+              - generic [ref=e223]:
+                - img [ref=e226]
+                - img [ref=e230]
+              - generic "Spam" [ref=e235]
+          - group
+        - treeitem "Lixeira" [ref=e236]:
+          - link "Lixeira" [ref=e237] [cursor=pointer]:
+            - generic "Lixeira" [ref=e240]:
+              - generic [ref=e242]:
+                - img [ref=e245]
+                - img [ref=e250]
+              - generic "Itens na lixeira" [ref=e255]: Lixeira
+          - group
+        - treeitem "Armazenamento" [ref=e256]:
+          - link "Armazenamento" [ref=e257] [cursor=pointer]:
+            - generic "Armazenamento" [ref=e260]:
+              - generic [ref=e262]:
+                - img [ref=e800]
+                - img [ref=e803]
+              - generic "Armazenamento" [ref=e273]
+          - group
+      - generic [ref=e808]:
+        - 'generic "Resumo do armazenamento: 5,25 GB de 15 GB usados" [ref=e812] [cursor=pointer]': 5,25 GB de 15 GB usados
+        - generic [ref=e816] [cursor=pointer]:
+          - text: Comprar mais armazenamento
+          - link "Comprar mais armazenamento" [ref=e817]:
+            - /url: https://drive.google.com/settings/storage?authuser=0&i=m&utm_source=drive&utm_medium=web&utm_campaign=g1_widget_normal#upgrade
+    - generic [ref=e290]:
+      - generic [ref=e819]:
+        - generic [ref=e822]:
+          - generic [ref=e824]:
+            - navigation [ref=e826]:
+              - heading "Caminho da pasta" [ref=e827]
+              - list "Caminho da pasta" [ref=e828]:
+                - listitem [ref=e829]:
+                  - link "Meu Drive" [ref=e830] [cursor=pointer]
+                  - img [ref=e831]
+                - listitem [ref=e833]:
+                  - button "• Estrutura (Low Ticket) - Clonagem" [ref=e834] [cursor=pointer]:
+                    - generic [ref=e835]: • Estrutura (Low Ticket) - Clonagem
+                    - img [ref=e837]
+            - button "Compartilhado" [ref=e840] [cursor=pointer]:
+              - img [ref=e842]
+          - toolbar [ref=e844]:
+            - generic [ref=e845]:
+              - radiogroup "Layout de lista ou grade (Alt+V, depois L)" [ref=e849]:
+                - generic [ref=e850]:
+                  - radio "Lista" [ref=e851] [cursor=pointer]:
+                    - generic [ref=e852]:
+                      - img [ref=e853]
+                      - img [ref=e857]
+                  - radio "Grade" [checked] [ref=e860] [cursor=pointer]:
+                    - generic [ref=e861]:
+                      - img [ref=e862]
+                      - img [ref=e866]
+              - button "Mostrar detalhes (Alt+V, depois D)" [ref=e869] [cursor=pointer]:
+                - img [ref=e871]
+        - generic [ref=e875]:
+          - generic [ref=e880]:
+            - button "Explorar com o Gemini" [ref=e883]:
+              - img [ref=e884]
+              - text: Explorar com o Gemini
+            - generic [ref=e886]: Resuma, analise e se mantenha em dia com os arquivos desta pasta.
+          - generic [ref=e888]:
+            - generic [ref=e889]: Nenhum filtro aplicado
+            - toolbar "Filtros" [ref=e891]:
+              - generic [ref=e893]:
+                - button "Tipo" [ref=e894] [cursor=pointer]:
+                  - generic [ref=e895]:
+                    - generic [ref=e896]: Tipo
+                    - img [ref=e898]
+                - button "Pessoas" [ref=e900] [cursor=pointer]:
+                  - generic [ref=e901]:
+                    - generic [ref=e902]: Pessoas
+                    - img [ref=e904]
+                - button "Modificado" [ref=e906] [cursor=pointer]:
+                  - generic [ref=e907]:
+                    - generic [ref=e908]: Modificado
+                    - img [ref=e910]
+                - button "Fonte" [ref=e912] [cursor=pointer]:
+                  - generic [ref=e913]:
+                    - generic [ref=e914]: Fonte
+                    - img [ref=e916]
+      - main [ref=e918]:
+        - region [active] [ref=e924]:
+          - grid [ref=e927]:
+            - generic [ref=e933]:
+              - 'button "Ordenar por: A a Z" [ref=e935] [cursor=pointer]':
+                - generic [ref=e937]: Nome
+                - img [ref=e941]
+              - tooltip [ref=e943]: "Ordenar por: A a Z"
+            - row "• PASTA MODELO ✅ Pasta compartilhada Mais informações (Alt + →) Produtos Pasta compartilhada Mais informações (Alt + →) • Processo de estruturação Google Docs Mais informações (Alt + →)" [ref=e944]:
+              - gridcell "• PASTA MODELO ✅ Pasta compartilhada Mais informações (Alt + →)" [ref=e945]:
+                - generic [ref=e948]:
+                  - img [ref=e953]
+                  - generic [ref=e959]: • PASTA MODELO ✅
+                  - generic [ref=e962]:
+                    - button [ref=e963] [cursor=pointer]:
+                      - img [ref=e966]
+                    - tooltip [ref=e969]: Mais ações
+              - gridcell "Produtos Pasta compartilhada Mais informações (Alt + →)" [ref=e970]:
+                - generic [ref=e973]:
+                  - img [ref=e978]
+                  - generic [ref=e984]: Produtos
+                  - generic [ref=e987]:
+                    - button [ref=e988] [cursor=pointer]:
+                      - img [ref=e991]
+                    - tooltip [ref=e994]: Mais ações
+              - gridcell "• Processo de estruturação Google Docs Mais informações (Alt + →)" [ref=e995]:
+                - generic [ref=e996]:
+                  - generic [ref=e998]:
+                    - img [ref=e1003]
+                    - generic [ref=e1006]: • Processo de estruturação
+                    - generic [ref=e1009]:
+                      - button [ref=e1010] [cursor=pointer]:
+                        - img [ref=e1013]
+                      - tooltip [ref=e1016]: Mais ações
+                  - img [ref=e1020]
+      - generic:
+        - navigation
+    - generic [ref=e782]:
+      - complementary "Painel lateral" [ref=e783]:
+        - tablist [ref=e785]:
+          - tab "Agenda"
+          - tab "Keep"
+          - tab "Tarefas"
+          - tab "Contatos"
+          - separator [disabled] [ref=e790]
+          - tab "Instalar complementos"
+      - generic:
+        - button "Ocultar painel lateral":
+          - img [ref=e793] [cursor=pointer]
+  - region
+  - img [ref=e797]
