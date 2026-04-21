@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços - Clínica Médica</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 50px 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 60px 40px;
+        }
+
+        .section {
+            margin-bottom: 60px;
+        }
+
+        .section-title {
+            font-size: 2em;
+            color: #667eea;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .service-card {
+            background: #f8f9ff;
+            border-left: 5px solid #667eea;
+            padding: 25px;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.15);
+        }
+
+        .service-card h3 {
+            color: #667eea;
+            margin-bottom: 12px;
+            font-size: 1.3em;
+        }
+
+        .service-card p {
+            color: #666;
+            font-size: 0.95em;
+            line-height: 1.5;
+        }
+
+        .feature-list {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .feature-list li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            color: #555;
+            font-size: 0.9em;
+        }
+
+        .feature-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .pricing-section {
+            background: #f8f9ff;
+            padding: 40px;
+            border-radius: 15px;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .pricing-card {
+            background: white;
+            border-radius: 12px;
+            padding: 35px;
+            border: 2px solid #e0e0e0;
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .pricing-card:hover {
+            border-color: #667eea;
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.2);
+        }
+
+        .pricing-card.featured {
+            border-color: #667eea;
+            transform: scale(1.05);
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+        }
+
+        .pricing-card h3 {
+            font-size: 1.5em;
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .price {
+            font-size: 2.5em;
+            color: #667eea;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .price-description {
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 25px;
+        }
+
+        .features-included {
+            text-align: left;
+            margin: 25px 0;
+        }
+
+        .features-included ul {
+            list-style: none;
+        }
+
+        .features-included li {
+            padding: 10px 0;
+            padding-left: 25px;
+            position: relative;
+            color: #555;
+        }
+
+        .features-included li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .obs-section {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .obs-section h4 {
+            color: #856404;
+            margin-bottom: 10px;
+        }
+
+        .obs-section p {
+            color: #856404;
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+
+        .footer {
+            background: #f8f9ff;
+            padding: 30px 40px;
+            text-align: center;
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .content {
+                padding: 30px 20px;
+            }
+
+            .pricing-card.featured {
+                transform: scale(1);
+            }
+
+            .section-title {
+                font-size: 1.6em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER -->
+        <div class="header">
+            <h1>Serviços Completos para Clínicas</h1>
+            <p>Soluções integradas de atendimento, gestão e satisfação</p>
+        </div>
+
+        <!-- CONTEÚDO -->
+        <div class="content">
+            <!-- SERVIÇOS -->
+            <div class="section">
+                <h2 class="section-title">Nossos Serviços</h2>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Comercial 1</h3>
+                        <p><strong>Atendimento para Conversão</strong></p>
+                        <p>Conversas personalizadas para entender as nuances de cada consulta e levar essa inteligência para o atendimento comercial da sua clínica.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Confirmação de Agenda</h3>
+                        <p>Comunicação automática com a médica um dia antes da consulta, garantindo preparação otimizada e redução de cancelamentos.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Satisfação do Cliente</h3>
+                        <p>Captação de nível de satisfação após cada consulta, com integração direta ao Google para gestão de reputação online.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Follow-Up de Leads</h3>
+                        <p>Protocolo estruturado para leads que não marcaram consulta, aumentando taxa de conversão e recuperação de oportunidades.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Triagem de Qualificação</h3>
+                        <p>Entendimento rápido do lead com triagem simplificada, ou triagem completa personalizada com anexo no prontuário médico.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Relatórios Semanais</h3>
+                        <p>Atualizações semanais à equipe de marketing com erros, alterações e otimizações para aumentar número de consultas.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Emissão de Notas Fiscais</h3>
+                        <p>Geração automática de notas fiscais para consultas e procedimentos, garantindo conformidade fiscal.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Cobranças de Procedimentos</h3>
+                        <p>Gestão de cobranças de procedimentos para clientes, otimizando fluxo financeiro da clínica.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TABELA DE PREÇOS -->
+            <div class="section">
+                <h2 class="section-title">Tabela de Preços</h2>
+
+                <div class="pricing-section">
+                    <div class="pricing-grid">
+                        <div class="pricing-card featured">
+                            <h3>Pacote Completo</h3>
+                            <p style="color: #667eea; font-weight: bold; margin-bottom: 10px;">Solução Integrada</p>
+                            <div class="price">R$ 5.500,00</div>
+                            <div class="price-description">Mensalidade</div>
+
+                            <div class="features-included">
+                                <ul>
+                                    <li>Comercial com atendimento personalizado</li>
+                                    <li>Confirmação de agenda com médica</li>
+                                    <li>Captação de satisfação do cliente</li>
+                                    <li>Protocolo de follow-up completo</li>
+                                    <li>Triagem completa com prontuário</li>
+                                    <li>Relatórios semanais para marketing</li>
+                                    <li>Emissão de notas fiscais</li>
+                                    <li>Cobranças de procedimentos</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="pricing-card">
+                            <h3>Pacote Comercial</h3>
+                            <p style="color: #667eea; font-weight: bold; margin-bottom: 10px;">Comercial + Triagem</p>
+                            <div class="price">R$ 3.500,00</div>
+                            <div class="price-description">Mensalidade</div>
+
+                            <div class="features-included">
+                                <ul>
+                                    <li>Comercial com atendimento personalizado</li>
+                                    <li>Confirmação de agenda com médica</li>
+                                    <li>Captação de satisfação do cliente</li>
+                                    <li>Protocolo de follow-up completo</li>
+                                    <li>Triagem de qualificação simples</li>
+                                    <li>Relatórios semanais para marketing</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- OBSERVAÇÃO -->
+                <div class="obs-section">
+                    <h4>📌 Observação Importante</h4>
+                    <p><strong>Atualizações Semanais:</strong> Enviamos atualizações semanalmente à equipe de marketing com erros, alterações e recomendações para otimizar o número de consultas e a qualidade dos leads.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <p>Soluções profissionais para gestão de clínicas médicas | Aumento de conversão e satisfação do cliente</p>
+        </div>
+    </div>
+</body>
+</html>
