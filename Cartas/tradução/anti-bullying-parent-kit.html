@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anti-Bullying Parent Meeting Kit</title>
+    <meta name="description" content="Complete 60-minute parent meeting kit to prevent bullying in schools">
+
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1515495776919230');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1515495776919230&ev=PageView&noscript=1"
+    /></noscript>
+
+    <!-- UTMify Script -->
+    <script
+      src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+      data-utmify-prevent-subids
+      async
+      defer
+    ></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+            background: #f5f5f5;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .page {
+            background: white;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 60px 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        /* COVER PAGE */
+        .cover {
+            background: linear-gradient(135deg, #2d1b4e 0%, #4a2c6b 100%);
+            color: white;
+            text-align: center;
+            padding: 80px 40px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .badge {
+            background: #ffc107;
+            color: #2d1b4e;
+            padding: 12px 28px;
+            border-radius: 30px;
+            font-weight: 700;
+            font-size: 14px;
+            display: inline-block;
+            margin-bottom: 40px;
+            letter-spacing: 1px;
+        }
+
+        .emoji {
+            font-size: 60px;
+            margin: 20px 0;
+        }
+
+        .cover h1 {
+            font-size: 56px;
+            font-weight: 900;
+            margin-bottom: 12px;
+            letter-spacing: -1px;
+        }
+
+        .cover .subtitle {
+            font-size: 28px;
+            color: #ffc107;
+            font-weight: 700;
+            margin-bottom: 24px;
+        }
+
+        .cover .description {
+            font-size: 18px;
+            margin-bottom: 50px;
+            max-width: 700px;
+            line-height: 1.8;
+            opacity: 0.95;
+        }
+
+        .features {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            max-width: 600px;
+        }
+
+        .feature-item {
+            background: rgba(255,255,255,0.1);
+            padding: 16px 24px;
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.2);
+            backdrop-filter: blur(10px);
+            text-align: left;
+            font-size: 16px;
+        }
+
+        /* SECTION PAGES */
+        .section-header {
+            background: linear-gradient(135deg, #FF6B6B 0%, #FF8E8E 100%);
+            color: white;
+            padding: 20px;
+            border-left: 6px solid #FF3333;
+            margin: 40px 0 30px 0;
+            border-radius: 4px;
+        }
+
+        .section-header.info {
+            background: linear-gradient(135deg, #FF7043 0%, #FF8A65 100%);
+            border-left-color: #E64A19;
+        }
+
+        .section-header.reflection {
+            background: linear-gradient(135deg, #AB47BC 0%, #CE93D8 100%);
+            border-left-color: #7B1FA2;
+        }
+
+        .section-header.action {
+            background: linear-gradient(135deg, #66BB6A 0%, #81C784 100%);
+            border-left-color: #2E7D32;
+        }
+
+        .section-header.closing {
+            background: linear-gradient(135deg, #FFA726 0%, #FFB74D 100%);
+            border-left-color: #E65100;
+        }
+
+        .section-header h2 {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        .section-header .time {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .section-content {
+            background: #fafafa;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .section-content h3 {
+            font-size: 20px;
+            margin-bottom: 16px;
+            color: #2d1b4e;
+        }
+
+        .section-content p {
+            margin-bottom: 16px;
+            line-height: 1.8;
+        }
+
+        .bullet {
+            margin-left: 24px;
+            margin-bottom: 12px;
+            padding-left: 12px;
+            border-left: 3px solid #ffc107;
+        }
+
+        .warning-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 4px;
+        }
+
+        .warning-box h4 {
+            color: #856404;
+            margin-bottom: 12px;
+        }
+
+        /* ALERT GUIDE */
+        .alert-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .alert-card {
+            background: #fff5f5;
+            border: 1px solid #ffe0e0;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .alert-card.aggressor {
+            background: #fffbf0;
+            border-color: #ffe8cc;
+        }
+
+        .alert-card h4 {
+            margin-bottom: 12px;
+            font-size: 16px;
+        }
+
+        .alert-card p {
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        /* ACTIVITIES */
+        .activity {
+            background: #f0f7ff;
+            border-left: 4px solid #2196F3;
+            padding: 24px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .activity h4 {
+            color: #1565c0;
+            margin-bottom: 12px;
+            font-size: 16px;
+        }
+
+        .activity .time {
+            color: #1565c0;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .activity p {
+            margin-bottom: 12px;
+        }
+
+        .quote {
+            background: white;
+            border-left: 4px solid #FF6B6B;
+            padding: 12px 16px;
+            margin: 12px 0;
+            font-style: italic;
+            color: #666;
+        }
+
+        /* COMMITMENT FORM */
+        .form-section {
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .form-field {
+            margin-bottom: 20px;
+        }
+
+        .form-field label {
+            display: block;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #2d1b4e;
+            text-transform: uppercase;
+            font-size: 12px;
+            letter-spacing: 0.5px;
+        }
+
+        .form-field input {
+            width: 100%;
+            border: none;
+            border-bottom: 2px solid #ddd;
+            padding: 8px 0;
+            font-size: 16px;
+        }
+
+        .commitment-list {
+            list-style: none;
+            margin: 20px 0;
+        }
+
+        .commitment-item {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .commitment-number {
+            background: #FF6B6B;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+
+        .commitment-text {
+            flex-grow: 1;
+            padding-top: 2px;
+        }
+
+        .signature-line {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .signature-field {
+            text-align: center;
+        }
+
+        .signature-field input {
+            width: 100%;
+            border: none;
+            border-top: 2px solid #333;
+            padding-top: 8px;
+            margin-top: 8px;
+            font-size: 12px;
+        }
+
+        .highlight-box {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 16px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .highlight-box strong {
+            color: #2e7d32;
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+
+            .page, .cover {
+                box-shadow: none;
+                margin: 0;
+                padding: 40px;
+                page-break-after: always;
+            }
+
+            .alert-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .page {
+                padding: 20px;
+            }
+
+            .cover {
+                padding: 40px 20px;
+            }
+
+            .cover h1 {
+                font-size: 36px;
+            }
+
+            .cover .subtitle {
+                font-size: 24px;
+            }
+
+            .alert-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .signature-line {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- COVER PAGE -->
+    <div class="cover">
+        <div class="badge">EXCLUSIVE FOR TEACHERS</div>
+        <div class="emoji">👨‍👩‍👧‍👦</div>
+        <h1>Anti-Bullying<br>Parent Meeting Kit</h1>
+        <p class="subtitle">Everything you need</p>
+        <p class="description">Everything you need to conduct a powerful parent meeting about bullying — without improvisation and without leaving any family behind.</p>
+        <div class="features">
+            <div class="feature-item">📋 60-minute script with complete content</div>
+            <div class="feature-item">🚨 Warning signs guide for parents</div>
+            <div class="feature-item">🏠 At-home activities to do with children</div>
+            <div class="feature-item">✍️ Family commitment letter</div>
+        </div>
+    </div>
+
+    <!-- MEETING OUTLINE -->
+    <div class="page">
+        <h1>Parent Meeting Outline</h1>
+        <p style="color: #666; margin-bottom: 30px;">60 minutes • Complete script for teachers</p>
+
+        <div class="warning-box">
+            <h4>This outline was designed to be realistic.</h4>
+            <p>Parents arrive late, phones ring, someone will want to speak more than time allows. The secret is maintaining structure without losing humanity. Use the suggested lines as inspiration — not as a fixed script.</p>
+        </div>
+
+        <!-- OPENING -->
+        <div class="section-header">
+            <div class="time">0–10 MINUTES • OPENING</div>
+            <h2>Welcome and Icebreaker</h2>
+        </div>
+        <div class="section-content">
+            <p>Stand to greet parents, thank them for attending, and start with a simple question:</p>
+            <div class="bullet">→ "How was your child when they left for school today?"</div>
+            <div class="bullet">→ Let 2 or 3 parents respond. This warms up the room and creates connection.</div>
+            <p style="margin-top: 20px;">Present the agenda: "Today we're going to talk about bullying — not as someone else's problem, but as something we can all prevent together."</p>
+        </div>
+
+        <!-- INFORMATION -->
+        <div class="section-header info">
+            <div class="time">10–25 MINUTES • INFORMATION</div>
+            <h2>What is and isn't bullying</h2>
+        </div>
+        <div class="section-content">
+            <p>Present the difference between occasional fighting and bullying (repetition + power imbalance). Use concrete examples without judgment.</p>
+            <div class="bullet">→ Show the 3 profiles: victim, aggressor, and bystander — and explain that the bystander is the majority.</div>
+            <div class="bullet">→ "Your child might be seeing bullying happen and not know what to do."</div>
+            <div class="bullet">→ Distribute the Warning Signs Guide at this moment.</div>
+        </div>
+
+        <!-- REFLECTION -->
+        <div class="section-header reflection">
+            <div class="time">25–40 MINUTES • REFLECTION</div>
+            <h2>Dynamics with parents</h2>
+        </div>
+        <div class="section-content">
+            <p>Choose a card from the Empathy Cards and read it aloud to the parents. Ask them to answer from their child's point of view.</p>
+            <div class="bullet">→ Suggestion: "What would your child do if they saw a classmate being humiliated?"</div>
+            <div class="bullet">→ Discuss in small groups (3–4 parents) for 5 minutes, then open to the whole room.</div>
+            <div class="bullet">→ There is no right answer — the goal is to generate reflection, not judgment.</div>
+        </div>
+
+        <!-- ACTION -->
+        <div class="section-header action">
+            <div class="time">40–55 MINUTES • ACTION</div>
+            <h2>What parents can do at home</h2>
+        </div>
+        <div class="section-content">
+            <p>Present the 3 concrete actions (next section). Distribute the at-home activities sheet.</p>
+            <div class="bullet">→ "You don't need to become experts — you need to create space for the conversation to happen."</div>
+            <div class="bullet">→ Distribute the Family Commitment Letter.</div>
+            <div class="bullet">→ Explain: "I'll keep a copy. At the next meeting, we'll revisit what each family tried."</div>
+        </div>
+
+        <!-- CLOSING -->
+        <div class="section-header closing">
+            <div class="time">55–60 MINUTES • CLOSING</div>
+            <h2>Closing and Thank You</h2>
+        </div>
+        <div class="section-content">
+            <p>Close with a statement that motivates, doesn't frighten:</p>
+            <div class="bullet">→ "No school solves bullying alone. You are our most important partners."</div>
+            <div class="bullet">→ Inform your communication channel for confidential reports.</div>
+            <div class="bullet">→ Thank everyone for attending — especially parents attending for the first time.</div>
+        </div>
+    </div>
+
+    <!-- WARNING SIGNS GUIDE -->
+    <div class="page">
+        <h1>Warning Signs Guide</h1>
+        <p style="color: #666; margin-bottom: 30px;">To distribute to parents at the meeting — or send via school communication</p>
+
+        <div class="highlight-box">
+            <strong>For parents:</strong> Bullying is rarely reported directly by the child — they fear not being believed or the situation getting worse. Watch for these behavioral changes.
+        </div>
+
+        <h2 style="color: #d32f2f; margin-top: 40px; margin-bottom: 20px;">⚠️ Signs your child may be a victim</h2>
+
+        <div class="alert-grid">
+            <div class="alert-card">
+                <h4>😰 Doesn't want to go to school</h4>
+                <p>Makes vague excuses like stomach ache or headache — happens frequently</p>
+            </div>
+            <div class="alert-card">
+                <h4>📱 Gets tense receiving messages</h4>
+                <p>Suddenly looks away from phone or seems uncomfortable in your presence</p>
+            </div>
+            <div class="alert-card">
+                <h4>🍽 Returns from school with damaged items</h4>
+                <p>Comes home hungry or without money with no clear explanation</p>
+            </div>
+            <div class="alert-card">
+                <h4>😔 Became withdrawn</h4>
+                <p>Cries frequently, lost interest in activities they loved</p>
+            </div>
+            <div class="alert-card">
+                <h4>👥 Stopped mentioning friends</h4>
+                <p>Says no one to sit with at lunch or hasn't mentioned classmates</p>
+            </div>
+            <div class="alert-card">
+                <h4>😴 Sleep difficulties</h4>
+                <p>Frequent nightmares or wakes exhausted despite sleeping early</p>
+            </div>
+        </div>
+
+        <h2 style="color: #ff6f00; margin-top: 40px; margin-bottom: 20px;">⚠️ Signs your child may be an aggressor</h2>
+
+        <div class="alert-grid">
+            <div class="alert-card aggressor">
+                <h4>😤 Talks deprecatingly about classmates</h4>
+                <p>Laughs when telling how someone "got in trouble" or was humiliated</p>
+            </div>
+            <div class="alert-card aggressor">
+                <h4>💪 Needs to "win" in everything</h4>
+                <p>Gets extremely frustrated when losing — even in games at home</p>
+            </div>
+            <div class="alert-card aggressor">
+                <h4>💸 Appears with new money or objects</h4>
+                <p>Can't explain where they came from</p>
+            </div>
+            <div class="alert-card aggressor">
+                <h4>🙈 Can't put themselves in others' shoes</h4>
+                <p>Reacts with indifference to others' suffering</p>
+            </div>
+        </div>
+
+        <div class="highlight-box" style="background: #e3f2fd; border-left-color: #1976d2; margin-top: 30px;">
+            <strong style="color: #1565c0;">If you identified any signs:</strong> Don't confront your child with accusations. Create a calm moment and say: "I've noticed you haven't been doing well. You don't have to tell me everything now, but know that I'm here." Then contact the school.
+        </div>
+    </div>
+
+    <!-- AT-HOME ACTIVITIES -->
+    <div class="page">
+        <h1>3 At-Home Activities</h1>
+        <p style="color: #666; margin-bottom: 30px;">For parents to talk with their children after the meeting</p>
+
+        <div class="highlight-box">
+            <strong>Bullying stops at school when it starts at home</strong><br>
+            These activities take less than 20 minutes each and require no special materials.
+        </div>
+
+        <div class="activity">
+            <span class="time">ACTIVITY 1 • 15 MINUTES • ANY DAY</span>
+            <h4>The Best Part and Hardest Part Game</h4>
+            <p>At dinner, everyone at the table (including parents!) shares: 1 good thing that happened today and 1 difficult thing. Without judgment, without immediate advice — just listening.</p>
+            <p><strong>Why it works:</strong> Creates a habit of daily conversation, and when something serious happens, your child will already know they can tell you.</p>
+            <div class="quote">"I'll start: the best part of my day was... and the hardest part was..."</div>
+        </div>
+
+        <div class="activity">
+            <span class="time">ACTIVITY 2 • 10 MINUTES • WEEKEND</span>
+            <h4>The Forbidden Question</h4>
+            <p>Ask your child: "Is there anyone in your class that almost no one talks to?" and then: "Why do you think that happens?"</p>
+            <p>It's not to solve — it's for you to understand what's happening through their eyes.</p>
+            <div class="quote">"There's no right answer. I just want to understand what your class is like."</div>
+        </div>
+
+        <div class="activity">
+            <span class="time">ACTIVITY 3 • 20 MINUTES • ONCE A MONTH</span>
+            <h4>The Relationship Check-in</h4>
+            <p>Ask your child to draw or write the names of 3 people they feel good with at school. Talk about why those people are important to them.</p>
+            <p>If they can't name anyone, that's an important signal — talk to the school.</p>
+            <div class="quote">"Who are the people who make you smile at school?"</div>
+        </div>
+
+        <div class="highlight-box" style="margin-top: 40px; text-align: center;">
+            <strong>Phrase to print and put on the refrigerator:</strong><br><br>
+            "Children who feel heard at home are more likely to ask for help when they need it."
+        </div>
+    </div>
+
+    <!-- FAMILY COMMITMENT LETTER -->
+    <div class="page">
+        <div style="text-align: center; margin-bottom: 40px;">
+            <div class="badge" style="background: #ffc107; color: #2d1b4e;">✍️ TO SIGN AT THE MEETING</div>
+        </div>
+
+        <h1 style="text-align: center; color: #d32f2f; margin-bottom: 12px;">Family Commitment<br>Letter</h1>
+        <p style="text-align: center; color: #666; margin-bottom: 40px;">A small gesture that makes all the difference: when we put it on paper, we take it more seriously.</p>
+
+        <div class="form-section">
+            <div class="form-field">
+                <label>Child's Name / Student</label>
+                <input type="text">
+            </div>
+
+            <div class="form-field">
+                <label>Parent(s)/Guardian(s)</label>
+                <input type="text">
+            </div>
+
+            <p style="margin-top: 30px; font-size: 18px;">We, the family of <input type="text" style="width: 200px; border: none; border-bottom: 2px solid #333; display: inline-block; padding: 4px 0;"> commit to:</p>
+
+            <ul class="commitment-list">
+                <li class="commitment-item">
+                    <div class="commitment-number">1</div>
+                    <div class="commitment-text">Creating space at home to listen to our child without interrupting or minimizing what they feel.</div>
+                </li>
+                <li class="commitment-item">
+                    <div class="commitment-number">2</div>
+                    <div class="commitment-text">Doing at least one of the activities in this guide with our child in the next 30 days.</div>
+                </li>
+                <li class="commitment-item">
+                    <div class="commitment-number">3</div>
+                    <div class="commitment-text">Contacting the school immediately if we identify any warning signs.</div>
+                </li>
+                <li class="commitment-item">
+                    <div class="commitment-number">4</div>
+                    <div class="commitment-text">We also commit to: <input type="text" style="width: 100%; border: none; border-bottom: 2px solid #333; padding: 4px 0;"></div>
+                </li>
+            </ul>
+
+            <div class="signature-line">
+                <div class="signature-field">
+                    <label style="color: #333;">Parent/Guardian 1</label>
+                    <input type="text" placeholder="Signature">
+                </div>
+                <div class="signature-field">
+                    <label style="color: #333;">Parent/Guardian 2</label>
+                    <input type="text" placeholder="Signature">
+                </div>
+                <div class="signature-field">
+                    <label style="color: #333;">Date</label>
+                    <input type="text" placeholder="MM/DD/YYYY">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
