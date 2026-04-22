@@ -147,31 +147,65 @@
         @media print {
             body {
                 background: white;
-                padding: 10px;
+                padding: 5px;
+                margin: 0;
             }
 
             .page {
                 page-break-inside: avoid;
                 box-shadow: none;
                 border: none;
-                margin: 0 0 20px 0;
-                padding: 30px;
+                margin: 0;
+                padding: 15px;
             }
 
-            .divider {
-                page-break-before: always;
+            .instruction {
+                font-size: 10px;
+                margin-bottom: 8px;
+            }
+
+            .title small {
+                font-size: 12px;
+                margin-bottom: 1px;
+            }
+
+            .title h1 {
+                font-size: 24px;
+                margin-bottom: 10px;
             }
 
             .emotions-grid {
-                page-break-inside: avoid;
+                gap: 8px;
+                margin-bottom: 4px;
             }
 
             .emotion-card {
-                page-break-inside: avoid;
+                padding: 10px;
+                border-radius: 4px;
             }
 
-            .instruction, .title, .footer-instruction {
-                page-break-after: avoid;
+            .emotion-icon {
+                height: 70px;
+                margin-bottom: 4px;
+            }
+
+            .emotion-icon svg {
+                width: 50px;
+                height: 50px;
+            }
+
+            .emotion-name {
+                font-size: 10px;
+            }
+
+            .divider {
+                margin: 8px 0;
+                page-break-before: always;
+            }
+
+            .footer-instruction {
+                font-size: 10px;
+                margin-top: 4px;
             }
         }
 

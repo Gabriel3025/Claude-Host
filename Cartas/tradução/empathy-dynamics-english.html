@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empathy Dynamics - Complete Activities for Anti-Bullying</title>
+    <title>Empathy Dynamics - Complete Activities</title>
     <style>
+        @page {
+            size: A4;
+            margin: 0.5cm;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -12,80 +17,73 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            background-color: #f5f5f5;
-            padding: 20px;
-            line-height: 1.6;
+            font-family: Arial, sans-serif;
+            background-color: white;
+            line-height: 1.3;
         }
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .title-page {
-            text-align: center;
-            margin-bottom: 40px;
-            padding: 40px 0;
-        }
-
-        .title-page h1 {
-            font-size: 3em;
-            color: #FF6633;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-
-        .title-page p {
-            font-size: 1.2em;
-            color: #666;
-        }
-
-        .dynamics-grid {
+        .page {
+            width: 21cm;
+            height: 29.7cm;
+            margin: 0 auto 0;
+            padding: 15px;
+            background-color: white;
+            page-break-after: always;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-            gap: 30px;
-            margin-bottom: 40px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 15px;
+            align-content: start;
         }
 
         .dynamic-card {
             background: white;
             border: 3px solid #FF6633;
-            border-radius: 20px;
-            padding: 25px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-radius: 15px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            break-inside: avoid;
         }
 
         .dynamic-header {
             background-color: #FF6633;
             color: white;
-            padding: 20px;
-            margin: -25px -25px 20px -25px;
-            border-radius: 17px 17px 0 0;
+            padding: 12px;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
 
         .dynamic-header h2 {
-            font-size: 1.5em;
+            font-size: 14px;
             margin: 0;
+            font-weight: bold;
+            flex: 1;
         }
 
         .dynamic-number {
-            font-size: 1.3em;
+            font-size: 13px;
             font-weight: bold;
-            opacity: 0.9;
+            margin-left: 8px;
+        }
+
+        .card-content {
+            padding: 10px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            font-size: 9px;
         }
 
         .meta-info {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-            gap: 15px;
-            margin-bottom: 20px;
-            padding: 15px;
+            gap: 5px;
+            margin-bottom: 8px;
             background-color: #f9f9f9;
-            border-radius: 8px;
+            padding: 6px;
+            border-radius: 4px;
         }
 
         .meta-item {
@@ -93,1778 +91,1061 @@
         }
 
         .meta-label {
-            font-size: 0.75em;
+            font-size: 6px;
             color: #999;
             text-transform: uppercase;
             font-weight: bold;
-            letter-spacing: 1px;
-            margin-bottom: 5px;
+            letter-spacing: 0.3px;
         }
 
         .meta-value {
             font-weight: bold;
             color: #333;
-            font-size: 0.95em;
+            font-size: 8px;
         }
 
         .section {
-            margin-bottom: 20px;
+            margin-bottom: 7px;
         }
 
         .section-title {
             color: #FF6633;
             font-weight: bold;
-            font-size: 0.85em;
+            font-size: 7px;
             text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 10px;
-            padding-bottom: 8px;
+            letter-spacing: 0.3px;
+            margin-bottom: 3px;
+            padding-bottom: 2px;
             border-bottom: 2px solid #FF6633;
         }
 
         .objective {
             font-style: italic;
             color: #555;
-            line-height: 1.6;
-            padding: 10px 0;
+            line-height: 1.25;
+            font-size: 9px;
+            margin-bottom: 3px;
         }
 
         .steps {
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 4px;
         }
 
         .step {
             display: flex;
-            gap: 12px;
+            gap: 5px;
+            align-items: flex-start;
         }
 
         .step-number {
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 28px;
-            height: 28px;
+            width: 16px;
+            height: 16px;
             background-color: #FF6633;
             color: white;
             border-radius: 50%;
             font-weight: bold;
             flex-shrink: 0;
-            font-size: 0.9em;
+            font-size: 8px;
         }
 
         .step-text {
             flex: 1;
             color: #333;
-            padding-top: 2px;
+            font-size: 8px;
+            line-height: 1.25;
         }
 
         .reflection {
             background-color: #fff5f0;
-            border-left: 4px solid #FF6633;
-            padding: 15px;
-            margin-top: 15px;
-            border-radius: 4px;
+            border-left: 3px solid #FF6633;
+            padding: 6px;
+            margin-top: 6px;
+            border-radius: 2px;
         }
 
         .reflection-title {
             color: #FF6633;
             font-weight: bold;
-            font-size: 0.85em;
+            font-size: 7px;
             text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 8px;
+            letter-spacing: 0.3px;
+            margin-bottom: 2px;
         }
 
         .reflection-text {
             font-style: italic;
             color: #555;
-            line-height: 1.6;
+            line-height: 1.25;
+            font-size: 8px;
         }
 
-        @media (max-width: 600px) {
-            .dynamics-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .meta-info {
-                grid-template-columns: 1fr;
-            }
-
-            .title-page h1 {
-                font-size: 2em;
-            }
-        }
-
-        .page-break {
-            page-break-after: always;
-            margin: 60px 0;
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 30px;
+        @media print {
+            body { margin: 0; padding: 0; }
+            .page { margin: 0; padding: 15px; box-shadow: none; }
+            * { box-shadow: none !important; }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <!-- TITLE PAGE -->
-        <div class="title-page page-break">
-            <h1>EMPATHY DYNAMICS</h1>
-            <p>30 Complete Activities for Anti-Bullying and Emotional Development</p>
-            <p style="margin-top: 30px; font-size: 1em; color: #999;">Ages 4th-9th Grade | Complete Educational Program</p>
-        </div>
 
-        <div class="dynamics-grid">
-            <!-- DYNAMIC 01 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>The Other's Shoe</h2>
-                    <span class="dynamic-number">01</span>
-                </div>
-
+    <!-- PAGE 1: CARDS 01-04 -->
+    <div class="page">
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>In Another's Shoes</h2>
+                <span class="dynamic-number">01</span>
+            </div>
+            <div class="card-content">
                 <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">20 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">4th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Whole class</div>
-                    </div>
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">20 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">4th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Whole class</div></div>
                 </div>
-
                 <div class="section">
                     <div class="section-title">OBJECTIVE</div>
                     <div class="objective">Develop the ability to see situations from another person's perspective.</div>
                 </div>
-
                 <div class="section">
                     <div class="section-title">HOW TO DO IT</div>
                     <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Ask each student to remove one shoe and place it in the center of the circle.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Each student picks up another classmate's shoe and holds or tries it on.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Ask: "What would it be like to walk one day in this shoe? What kind of person wears it?"</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Each student briefly shares what they imagined.</div>
-                        </div>
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Ask each student to remove one shoe and place it in the center of the circle.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Each student picks up another classmate's shoe and holds or tries it on.</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Ask: "What would it be like to walk one day in this shoe?"</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Each student briefly shares what they imagined.</div></div>
                     </div>
                 </div>
-
                 <div class="reflection">
                     <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"What did this activity teach you about judging others before you know them?"</div>
+                    <div class="reflection-text">"What did this teach you about judging others before knowing them?"</div>
                 </div>
             </div>
+        </div>
 
-            <!-- DYNAMIC 02 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>Letter to Myself</h2>
-                    <span class="dynamic-number">02</span>
-                </div>
-
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Letter to Myself</h2>
+                <span class="dynamic-number">02</span>
+            </div>
+            <div class="card-content">
                 <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">25 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">5th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Individual</div>
-                    </div>
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">25 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">5th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Individual</div></div>
                 </div>
-
                 <div class="section">
                     <div class="section-title">OBJECTIVE</div>
                     <div class="objective">Strengthen self-esteem and self-compassion after difficult situations.</div>
                 </div>
-
                 <div class="section">
                     <div class="section-title">HOW TO DO IT</div>
                     <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Distribute paper and ask each student to write a letter to themselves.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Theme: "What would I say to myself on the day I felt worthless?"</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Those who wish to share can do so — it's never mandatory.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Keep the letters and deliver them at the end of the school year.</div>
-                        </div>
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Distribute paper and ask each student to write a letter to themselves.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Theme: "What would I say on the day I felt worthless?"</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Those who wish to share can do so — never mandatory.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Deliver at the end of the school year.</div></div>
                     </div>
                 </div>
-
                 <div class="reflection">
                     <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"What would you say to someone who is going through what you have already experienced?"</div>
+                    <div class="reflection-text">"What would you say to someone going through what you experienced?"</div>
                 </div>
             </div>
+        </div>
 
-            <!-- DYNAMIC 03 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>The Web of Empathy</h2>
-                    <span class="dynamic-number">03</span>
-                </div>
-
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>The Web of Empathy</h2>
+                <span class="dynamic-number">03</span>
+            </div>
+            <div class="card-content">
                 <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">15 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">4th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Whole class</div>
-                    </div>
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">15 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">4th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Whole class</div></div>
                 </div>
-
                 <div class="section">
                     <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Show how the actions of some affect everyone — and how empathy connects people.</div>
+                    <div class="objective">Show how actions affect everyone — and how empathy connects people.</div>
                 </div>
-
                 <div class="section">
                     <div class="section-title">HOW TO DO IT</div>
                     <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Seat the class in a circle. One student holds a ball of yarn.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">He says something positive about a classmate and tosses the yarn to them (holding the thread).</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Continue until everyone is connected by the web.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Ask one student to let go of the thread — show how the entire web is affected.</div>
-                        </div>
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Seat the class in a circle. One student holds a ball of yarn.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">They say something positive and toss the yarn, holding the thread.</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Continue until everyone is connected by the web.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Ask one to let go — show how the entire web is affected.</div></div>
                     </div>
                 </div>
-
                 <div class="reflection">
                     <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"What happens to the class when someone is excluded or treated badly?"</div>
+                    <div class="reflection-text">"What happens when someone is excluded or treated badly?"</div>
                 </div>
             </div>
+        </div>
 
-            <!-- DYNAMIC 04 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>Traffic Light of Emotions</h2>
-                    <span class="dynamic-number">04</span>
-                </div>
-
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Traffic Light of Emotions</h2>
+                <span class="dynamic-number">04</span>
+            </div>
+            <div class="card-content">
                 <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">20 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">4th–7th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Whole class</div>
-                    </div>
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">20 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">4th–7th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Whole class</div></div>
                 </div>
-
                 <div class="section">
                     <div class="section-title">OBJECTIVE</div>
                     <div class="objective">Teach emotional self-regulation using the traffic light symbol.</div>
                 </div>
-
                 <div class="section">
                     <div class="section-title">HOW TO DO IT</div>
                     <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Explain: Red = stop and breathe. Yellow = think before acting. Green = act calmly.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Read conflict situations and ask students to identify which "light" they're at.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">In pairs, practice what they would do at each light for the same situation.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Share the strategies with the class.</div>
-                        </div>
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Red = stop and breathe. Yellow = think. Green = act calmly.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Read conflict situations and ask which light they're at.</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">In pairs, practice what to do at each light.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Share strategies with the class.</div></div>
                     </div>
                 </div>
-
                 <div class="reflection">
                     <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"Which light do you spend the most time at when someone provokes you? What helps you move forward?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 05 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>The Balloon of Words</h2>
-                    <span class="dynamic-number">05</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">20 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">4th–8th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Whole class</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Demonstrate the weight of words — how they can build or destroy.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Inflate a balloon for each student. Each balloon represents a person.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Read offensive words (common insults). With each one, squeeze the balloon hard.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Inflate the balloon again — but the marks remain.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Show that kind words don't erase the damage from insults.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"What marks do you carry from words you've heard? And what words would you never want to hear again?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 06 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>The Positive Note</h2>
-                    <span class="dynamic-number">06</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">15 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">4th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Individual</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Cultivate the habit of recognizing and valuing classmates' qualities.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Each student writes their name on a piece of paper and folds it.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Papers are drawn — each student receives another classmate's name.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Write an anonymous note with something genuine you admire in that person.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Deliver the notes and observe the class's reactions.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"How did you feel being recognized by someone who maybe didn't realize they were watching you?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 07 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>The Role Play Game</h2>
-                    <span class="dynamic-number">07</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">30 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">6th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Groups of 3</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Understand the three roles in bullying: victim, aggressor, and witness.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Divide into groups of 3. Draw roles: victim, aggressor, witness.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Each group acts out a conflict situation for 3 minutes.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Repeat by swapping roles among members.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Discuss in full class: which role was hardest to play?</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"What does the witness role have to do with what actually happens in your classroom?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 08 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>The Qualities Clothesline</h2>
-                    <span class="dynamic-number">08</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">25 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">4th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Individual</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Promote mutual recognition and strengthen collective self-esteem.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Hang a clothesline with clothespins in the classroom. Each pin has a student's name.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Distribute colored paper strips. Each student writes a quality of each classmate.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Attach the strips to their respective classmates' clothespins.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Each student reads their qualities aloud — or silently, if they prefer.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"Was there a quality that surprised you? Did someone see you in a way you never noticed in yourself?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 09 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>The Class Agreement</h2>
-                    <span class="dynamic-number">09</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">30 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">4th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Whole class</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Collectively build rules of coexistence that make sense for students.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Ask: "What do you need to feel safe and respected in this classroom?"</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Each student writes 3 rules on post-its and sticks them on the board.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Group similar ideas and vote on the 5 most important.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Create a poster with the "Class Agreement" signed by all.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"Why is it different to follow a rule that you helped create?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 10 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>Map of Emotions</h2>
-                    <span class="dynamic-number">10</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">20 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">4th–7th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Individual</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Expand emotional vocabulary and awareness of your own feelings.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Distribute a human silhouette drawn on paper for each student.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Ask them to color the body regions where they "feel" each emotion (anger in chest, fear in belly...).</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Write the names of the corresponding emotions.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Compare the maps in groups and identify similarities.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"Where in your body do you feel it when someone hurts you? And when someone respects you?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 11 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>Kindness Mission</h2>
-                    <span class="dynamic-number">11</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">One week</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">4th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Individual</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Turn empathy into concrete action in daily school life.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Each student secretly draws a classmate — their "kindness target" for the week.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">For 5 days, practice at least one kind act per day with that classmate.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">On Friday, reveal who was your "angel" and share what you did.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Discuss: Was it difficult? What difference did it make to the class climate?</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"What happens to the class when kindness becomes a habit and not an exception?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 12 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>Theater of Everyday Life</h2>
-                    <span class="dynamic-number">12</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">35 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">5th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Groups of 4</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Practice assertive responses to real situations of bullying and exclusion.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Distribute cards with everyday situations (teasing, exclusion, nickname-calling).</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Each group acts out the situation the "wrong" way — as it usually happens.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">The class shouts "Cut!" and suggests a different ending.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">The group re-enacts with the suggested ending.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"Why is it easier to know what to do in a play than when it's real?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 13 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>The Human Knot</h2>
-                    <span class="dynamic-number">13</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">15 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">4th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Whole class</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Work cooperation, communication, and problem-solving in a group.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">The class stands in a circle with everyone extending their hands to the center.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Each hand holds a different classmate's hand — forming a "human knot".</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Without letting go of hands, the group must untangle until forming a circle.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Discuss the strategies used and moments of frustration.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"What does this activity have to do with resolving conflicts in the classroom?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 14 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>The Empty Chair</h2>
-                    <span class="dynamic-number">14</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">20 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">6th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Whole class</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Reflect on the impact of exclusion and silence in the face of others' suffering.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Place an empty chair in the center of the circle, saying it represents an excluded student.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Ask each student to speak to the chair: what they wished they had said or done for that person.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Reflect in silence for 1 minute.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Discuss who might be "in that chair" in your classroom today.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"Is there someone in our class who might be feeling like that right now? What can we do?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 15 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>Mural of Differences</h2>
-                    <span class="dynamic-number">15</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">30 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">4th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Individual</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Celebrate diversity as wealth and not as a reason for exclusion.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Each student draws or writes on a card: one unique thing that only they have.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">The cards form a collective mural on the classroom wall.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">The class takes a "guided tour" of the mural — each student presents theirs.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Highlight: if everyone were the same, would the mural be possible?</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"What did you learn about a classmate that surprised you in this activity?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 16 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>Fishing for Situations</h2>
-                    <span class="dynamic-number">16</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">25 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">4th–8th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Groups of 4</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Develop ethical reasoning in the face of moral dilemmas in school.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Write dilemma situations on cards and place them in a box (the "lake").</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Groups "fish" a situation and have 5 minutes to decide what they would do.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Present the decision and reasoning to the class.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">The class debates: do you agree? Would you do something different?</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"What's harder: knowing what's right or having the courage to do what's right?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 17 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>Classmate Mirror</h2>
-                    <span class="dynamic-number">17</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">15 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">4th–7th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Pairs</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Practice full attention to another person and strengthen empathetic observation.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">In pairs: one student makes slow movements — the other is the "mirror".</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Without speaking, the mirror reproduces each gesture with complete attention.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">After 3 minutes, swap roles.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Conversation: What was it like being completely focused on another person?</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"When was the last time you gave total attention to someone without thinking about anything else?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 18 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>Chain of Empathy</h2>
-                    <span class="dynamic-number">18</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">20 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">4th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Whole class</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Show how an act of empathy can spread and transform the environment.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">The first student makes a kind gesture to the classmate next to them (compliment, help, smile).</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">That classmate replicates it for the next person — and so on until the circle is complete.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Record on the board each gesture practiced.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Count: how many gestures did the whole class receive in just a few minutes?</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"If each of you did this with one person outside this room today, how many people would be affected?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 19 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>Emotional Life Line</h2>
-                    <span class="dynamic-number">19</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">30 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">6th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Individual</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Help students perceive their emotional trajectory and the moments that marked them most.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Distribute sheets with a horizontal line — this is the "life line".</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Each student marks moments of high and low emotional peaks over school time.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Identify the events that caused each peak — both positive and negative.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Those who wish to share voluntarily with the class can do so.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"What do the low points on your line have to do with the people around you?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 20 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>The Respect Thermometer</h2>
-                    <span class="dynamic-number">20</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">20 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">4th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Whole class</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Have the class collectively evaluate the level of respect in the school environment.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Draw a thermometer on the board with a scale from 0 to 10.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Each student anonymously evaluates (on paper) the class's respect level — 0 to 10.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Calculate the average and mark it on the collective thermometer.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">The class debates: what would raise or lower this number?</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"What can each of us do to raise this thermometer by at least 1 point?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 21 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>Message Box</h2>
-                    <span class="dynamic-number">21</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">Continuous</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">4th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Individual</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Create a safe and positive communication channel among classroom students.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Place a decorated box in the classroom — the "Message Box".</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Students can place anonymous notes with compliments, apologies, or words of support.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Once a week, the teacher reads the notes aloud (omitting senders).</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Reflect together on the message content.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"What would you like to say to someone in the class that you haven't had the courage to say?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 22 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>Who Am I?</h2>
-                    <span class="dynamic-number">22</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">25 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">5th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Individual</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Stimulate self-knowledge and help students identify their core values.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Distribute a sheet with concentric circles — like an onion.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Center: what no one can take from me. Outer circles: what I show to the world.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Each student fills the circles with words, drawings, or symbols.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">In pairs, share only what they feel comfortable revealing.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"Is what people usually see in you different from who you really are inside?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 23 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>Building Bridges</h2>
-                    <span class="dynamic-number">23</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">30 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">5th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Pairs</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Practice conflict resolution through structured dialogue.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Form pairs with students who had recent friction (or use fictional situations).</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Each one speaks for 2 minutes without interruption: "How I felt and what I needed."</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">The other repeats what they heard — without judgment — to confirm understanding.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Together, write an agreement for coexistence between the two.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"What was harder: saying what you felt or listening to the other side without defending yourself?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 24 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>Circle of Trust</h2>
-                    <span class="dynamic-number">24</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">25 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">6th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Whole class</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Build a safe space where students can be vulnerable without fear of judgment.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Establish the rule: what is said in the circle stays in the circle.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">The teacher starts by sharing something personal and genuine — setting the example.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Pass an object (stone, ball) — whoever holds it can speak. Those who don't want to, pass.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">No one comments or judges during the sharing.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"How does it feel knowing you can be yourself here without being judged?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 25 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>Daily Log</h2>
-                    <span class="dynamic-number">25</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">10 min/day</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">5th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Individual</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Develop continuous emotional reflection and self-awareness over time.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Distribute a simple notebook for each student — the "Daily Log".</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">At the start of class, each answers 1 question from the Empathy Cards.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">The log is personal — never read by the teacher without permission.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Each month, students re-read and notice their own evolution.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"What did you notice about yourself when you read what you wrote 30 days ago?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 26 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>Storm of Kindness</h2>
-                    <span class="dynamic-number">26</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">20 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">4th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Whole class</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Mobilize the class for collective action of kindness — inside and outside school.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">In 5 minutes, each student lists as many kind acts as they can imagine.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">The class shares and creates a collective list on the board.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Each student chooses 3 acts from the list to practice by the next class.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Next class, they report what worked and what was difficult.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"What stopped you from practicing the acts you chose? What would help make it a habit?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 27 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>Support Card</h2>
-                    <span class="dynamic-number">27</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">15 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">4th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Individual</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Create a concrete gesture of solidarity for someone going through a difficult time.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Distribute colored blank cards for each student.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Each creates a "support card" thinking of someone who might need encouragement.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Can be for a classmate, family member, or someone not doing well.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">The teacher collects and delivers — or the student can give it personally.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"Is there someone in your life right now who needs a card like this?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 28 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>Active Listening</h2>
-                    <span class="dynamic-number">28</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">20 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">5th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Pairs</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Practice genuine listening — without judgment, interruption, or immediate advice.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">In pairs: one speaks for 3 minutes about something that bothers them in school.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">The other listens in absolute silence — no speaking, no expressions.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Then the listener repeats in their own words what they understood.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">The speaker evaluates: "Did you truly understand me?"</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"What's the difference between listening to respond and listening to understand?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 29 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>The Climate Thermometer</h2>
-                    <span class="dynamic-number">29</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">10 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">4th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Whole class</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Check the classroom's emotional state in a simple and quick way at the start of class.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">At the start of class, ask: "What's your emotional climate today?"</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Use weather terms: sunny, cloudy, stormy, windy...</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">Each student raises a hand or writes the "climate" on a post-it.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">Create the "climate map" on the board and adjust the class if necessary.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"What would change your climate from stormy to sunny today?"</div>
-                </div>
-            </div>
-
-            <!-- DYNAMIC 30 -->
-            <div class="dynamic-card">
-                <div class="dynamic-header">
-                    <h2>The Phrase That Stuck</h2>
-                    <span class="dynamic-number">30</span>
-                </div>
-
-                <div class="meta-info">
-                    <div class="meta-item">
-                        <div class="meta-label">TIME</div>
-                        <div class="meta-value">25 min</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">AGE GROUP</div>
-                        <div class="meta-value">5th–9th grade</div>
-                    </div>
-                    <div class="meta-item">
-                        <div class="meta-label">GROUP</div>
-                        <div class="meta-value">Whole class</div>
-                    </div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">OBJECTIVE</div>
-                    <div class="objective">Reflect on the lasting impact of words — both those that build and those that destroy.</div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">HOW TO DO IT</div>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-text">Each student thinks of a phrase someone said to them that they never forgot.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-text">Write the phrase on a paper — without identifying who said it.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-text">The papers are shuffled and read aloud by the teacher.</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-text">The class identifies: did this phrase build or destroy? What does it say about the person who said it?</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="reflection">
-                    <div class="reflection-title">FINAL REFLECTION</div>
-                    <div class="reflection-text">"What phrase do you want your classmates to remember about you in 10 years?"</div>
+                    <div class="reflection-text">"Which light do you spend most time at? What helps you move forward?"</div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- PAGE 2: CARDS 05-08 -->
+    <div class="page">
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Mirror of Emotions</h2>
+                <span class="dynamic-number">05</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">15 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">4th–6th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Pairs</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Recognize emotional expressions and respond with empathy to feelings.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Divide students into pairs facing each other.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">One shows an emotion through facial expression and body language.</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">The other mirrors the expression and names the emotion.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Switch roles and repeat with different emotions.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"How did it feel to mirror someone's emotion? Did you understand them better?"</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Kindness Chain</h2>
+                <span class="dynamic-number">06</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">20 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">4th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Whole class</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Create a visual representation of how kindness spreads through actions.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Give each student a strip of paper and ask them to write a kind action.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Each person tapes their strip into a loop and links it to others' loops.</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Create a long chain that visually shows connection through kindness.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Display the chain in the classroom as a reminder.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"How can one act of kindness create a chain reaction?"</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>The Listening Circle</h2>
+                <span class="dynamic-number">07</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">25 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">5th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Whole class</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Develop active listening and respectful communication skills.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Sit in a circle. One student speaks about a personal experience for 2 minutes.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Others listen without interrupting or planning their response.</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">After, listeners repeat what they heard and ask clarifying questions.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Rotate until 3-4 students have shared.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"How did it feel to be truly heard? What made someone a good listener?"</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Compliment Rain</h2>
+                <span class="dynamic-number">08</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">15 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">4th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Whole class</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Build self-esteem and practice giving and receiving genuine compliments.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Choose a student to stand in the center of the circle.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Each classmate says one genuine compliment about them.</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">The person in the center listens and thanks each person.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Rotate so each student receives compliments.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"How did compliments make you feel? Why is it important to recognize others' qualities?"</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE 3: CARDS 09-12 -->
+    <div class="page">
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Emotion Cards Game</h2>
+                <span class="dynamic-number">09</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">20 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">4th–8th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Small groups</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Learn to identify emotions in different scenarios and respond with empathy.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Create cards with different emotion scenarios (lost game, new friend, family conflict, etc.).</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Groups draw a card and discuss what emotion the person might feel.</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">They roleplay the scenario and practice empathetic responses.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Share their responses with the whole class.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"How would different people feel differently about the same situation?"</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Good Friend Guide</h2>
+                <span class="dynamic-number">10</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">30 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">5th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Whole class</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Identify qualities of good friends and practice friendship skills.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Ask: "What makes a good friend?" Write responses on the board.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Categorize: loyalty, honesty, kindness, listening, support, fun, etc.</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Create a "Good Friend Guide" poster together with the class.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Discuss how to practice each quality daily.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"Which of these qualities do you already have? Which would you like to develop?"</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Story of Differences</h2>
+                <span class="dynamic-number">11</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">25 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">5th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Pairs</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Celebrate diversity and recognize that differences make people unique and valuable.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Pair students and have them interview each other about their differences.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Focus on culture, family, interests, abilities, ways of learning.</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Each pair presents one interesting difference they discovered.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Discuss how diversity enriches the classroom community.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"How can we value people whose differences are different from ours?"</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Conflict Resolution Theater</h2>
+                <span class="dynamic-number">12</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">30 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">5th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Small groups</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Practice conflict resolution through role-play and dialogue.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Present a common student conflict (friendship dispute, sport argument, sharing, etc.).</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Groups role-play the conflict, showing the problem from both perspectives.</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Then replay it with a peaceful, empathetic solution.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Class discusses what made the solution work.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"What skills helped solve the conflict? How do we use empathy to resolve problems?"</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE 4: CARDS 13-16 -->
+    <div class="page">
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Gratitude Circle</h2>
+                <span class="dynamic-number">13</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">15 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">4th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Whole class</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Practice gratitude and appreciation for the people in our lives.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Sit in a circle. One student shares something they're grateful for and why.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">The person mentioned can respond and share their gratitude in return.</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Continue around the circle or with volunteers.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">End with a moment of silence to reflect on connections.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"How does it feel to be appreciated? How does it feel to appreciate others?"</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Empathy Journal</h2>
+                <span class="dynamic-number">14</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">20 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">5th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Individual</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Develop self-reflection and empathy through personal journaling.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Give each student a journal or notebook for the year.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Weekly prompts: "Who did I help? How did I feel? What did I learn about someone else?"</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Students write private reflections (not shared unless they choose).</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Review periodically to see growth in empathy awareness.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"How has your empathy grown over time? What empathetic moments stand out?"</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Invisible Backpack</h2>
+                <span class="dynamic-number">15</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">25 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">6th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Whole class</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Understand privilege and different life experiences through metaphor.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Explain: Everyone carries an invisible backpack of experiences and privileges.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Students draw or write what's in their backpack (family support, culture, challenges, resources).</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Volunteers share what they're comfortable revealing.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Discuss how different backpacks affect how we move through the world.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"How can we support classmates with heavier or different backpacks?"</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Acts of Kindness Hunt</h2>
+                <span class="dynamic-number">16</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">Week-long</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">4th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Individual</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Practice intentional kindness and notice positive actions around you.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Challenge students to find or do 5 acts of kindness during the week.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">They record them: big acts, small gestures, witnessed kindness, acts they performed.</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Share discoveries in class — create a kindness wall or collage.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Discuss how kindness created positive change.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"How does noticing kindness change your perspective on your community?"</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE 5: CARDS 17-20 -->
+    <div class="page">
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Perspective Switch</h2>
+                <span class="dynamic-number">17</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">20 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">5th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Small groups</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Understand that situations can look very different depending on perspective.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Present a school incident: student excluded from group, homework conflict, etc.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Groups retell it from different perspectives: the excluded, the excluder, the teacher, a friend.</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Each group presents their version.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Discuss how understanding all views changes the situation.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"How does seeing multiple perspectives help us be more empathetic?"</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Emotions in Movement</h2>
+                <span class="dynamic-number">18</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">15 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">4th–7th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Whole class</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Express emotions physically and understand body language.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Give each student space to move freely (playground, gym, or wide classroom).</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Call out emotions: "Move like you're happy... sad... angry... proud... scared."</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Students express emotion through their entire body — posture, speed, gestures.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Pause and discuss how they embodied each emotion.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"How did moving help you understand emotions? Can you read others' emotions by watching them?"</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Bystander to Ally</h2>
+                <span class="dynamic-number">19</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">25 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">5th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Small groups</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Understand the difference between being a bystander and an ally in bullying situations.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Present a bullying scenario: name-calling, exclusion, spreading rumors, etc.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Groups brainstorm ways to be an ally instead of a silent bystander.</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Role-play both responses: bystander silence vs. ally intervention.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Discuss what courage and empathy look like in action.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"What prevents us from being allies? What would help us be braver?"</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Feelings Thermometer</h2>
+                <span class="dynamic-number">20</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">20 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">4th–8th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Whole class</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Learn to recognize intensity of emotions and develop coping strategies.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Draw a thermometer on the board: 1-10 for emotion intensity.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Discuss: What does anger/sadness/fear look like at 2? At 5? At 10?</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Brainstorm coping strategies for different intensities.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Practice identifying their own emotion levels.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"How can understanding emotion intensity help us handle tough feelings?"</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE 6: CARDS 21-24 -->
+    <div class="page">
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Community Care Map</h2>
+                <span class="dynamic-number">21</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">30 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">5th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Whole class</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Recognize the people and systems that care for our community.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Draw a large circle representing your school/community in the center.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Students add circles for: teachers, counselors, staff, families, neighbors, local workers.</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Draw lines showing how each person cares for or supports others.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Discuss your role in this care network.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"Who do you care for? Who cares for you? How can you strengthen these connections?"</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Letters of Impact</h2>
+                <span class="dynamic-number">22</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">25 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">5th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Individual</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Express gratitude and acknowledge how someone has positively impacted your life.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Students write a letter to someone who has helped or supported them.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Include: How did they help? What did you learn? How did it change you?</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">They may choose to deliver the letter or keep it private.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Volunteers can share (without naming if they prefer privacy).</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"How does recognizing someone's impact strengthen relationships?"</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Boundary Box</h2>
+                <span class="dynamic-number">23</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">20 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">5th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Whole class</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Understand healthy boundaries and practice saying no with respect and kindness.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Draw a box on the board representing personal space and comfort.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Discuss: What crosses your boundary? What makes you feel safe?</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Practice respectful responses: "That doesn't work for me," "I need space," "Let's talk about this."</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Roleplay setting boundaries with kindness.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"How can we respect boundaries while still being kind to others?"</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Resilience Quest</h2>
+                <span class="dynamic-number">24</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">30 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">5th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Whole class</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Build resilience and learn to recover from setbacks with support and self-compassion.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Share a story of someone who overcame challenges (student, historical figure, community hero).</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Identify: What was difficult? How did they recover? Who helped? What did they learn?</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Students discuss their own challenges and how they've recovered.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Create a resilience toolkit: strategies, people who help, things that comfort.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"What makes someone resilient? How can we support others through hard times?"</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE 7: CARDS 25-28 -->
+    <div class="page">
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Understanding Bullying</h2>
+                <span class="dynamic-number">25</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">25 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">5th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Whole class</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Define bullying, identify its forms, and understand its emotional impact.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Define bullying: repeated, intentional harm with power imbalance.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">List forms: physical, verbal, social, cyberbullying.</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Discuss emotions of targets: fear, shame, loneliness, anger.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Emphasize: "Bullying is never the target's fault."</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"What responsibility do we have to stop bullying? How can we support someone being bullied?"</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Repair Circle</h2>
+                <span class="dynamic-number">26</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">30 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">6th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Small groups</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Use restorative justice to repair harm and rebuild relationships after conflict.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">After a conflict, gather those involved in a circle.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Each person speaks: What happened? How were you affected? What do you need?</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Together decide: How can we repair this? What will we do differently?</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Create an action plan and follow up to check progress.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"How does repairing harm help us move forward together?"</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Role Model Stories</h2>
+                <span class="dynamic-number">27</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">25 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">4th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Whole class</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Find inspiration in people who demonstrate empathy, courage, and kindness.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Students choose a role model: family member, historical figure, community hero, or peer.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Research or interview: What did they do? Why does it matter? How did they show empathy?</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Create a poster, speech, or short presentation.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Share and discuss what we can learn from these role models.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"What qualities do empathetic role models share? How can you develop those qualities?"</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Belonging Promise</h2>
+                <span class="dynamic-number">28</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">20 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">4th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Whole class</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Create a class commitment to inclusion and belonging for everyone.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Discuss: What does it mean to belong? How should everyone feel in our class?</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Create a class promise together: "We promise to..." statements about inclusion.</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Each student signs the promise or adds their commitment.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Post it prominently and revisit regularly.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"What does belonging feel like? How will we help each other feel it?"</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE 8: CARDS 29-30 -->
+    <div class="page">
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Empathy in Action</h2>
+                <span class="dynamic-number">29</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">Ongoing</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">4th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Whole class</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Turn empathy into real-world action through community service and advocacy.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Identify a community need students care about: homeless people, hungry kids, lonely seniors, etc.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Plan a service project: donations, letters, visits, fundraiser, awareness campaign.</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Work together as a class to execute the project.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">Reflect on how your empathy made a real difference.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"How does acting on empathy change you? How does it change others?"</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dynamic-card">
+            <div class="dynamic-header">
+                <h2>Legacy of Empathy</h2>
+                <span class="dynamic-number">30</span>
+            </div>
+            <div class="card-content">
+                <div class="meta-info">
+                    <div class="meta-item"><div class="meta-label">TIME</div><div class="meta-value">30 min</div></div>
+                    <div class="meta-item"><div class="meta-label">AGE</div><div class="meta-value">6th–9th</div></div>
+                    <div class="meta-item"><div class="meta-label">GROUP</div><div class="meta-value">Individual/Class</div></div>
+                </div>
+                <div class="section">
+                    <div class="section-title">OBJECTIVE</div>
+                    <div class="objective">Reflect on personal growth in empathy and commit to carrying it forward.</div>
+                </div>
+                <div class="section">
+                    <div class="section-title">HOW TO DO IT</div>
+                    <div class="steps">
+                        <div class="step"><div class="step-number">1</div><div class="step-text">Students write a letter to their future selves about their empathy journey this year.</div></div>
+                        <div class="step"><div class="step-number">2</div><div class="step-text">Include: How have you changed? What empathetic moments stand out? What will you do next?</div></div>
+                        <div class="step"><div class="step-number">3</div><div class="step-text">Seal the letters — to be opened at the end of the year or next year.</div></div>
+                        <div class="step"><div class="step-number">4</div><div class="step-text">As a class, commit to continuing the empathy work together.</div></div>
+                    </div>
+                </div>
+                <div class="reflection">
+                    <div class="reflection-title">FINAL REFLECTION</div>
+                    <div class="reflection-text">"What does an empathetic world look like? What role will you play in creating it?"</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
