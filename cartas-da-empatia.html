@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartas da Empatia - 100 Flashcards Contra Bullying na Escola</title>
+    <meta name="description" content="100 cartas para combater o bullying nas escolas e promover empatia, respeito e convivência saudável entre alunos. Sem preparar atividades complexas.">
+    <meta property="og:title" content="Cartas da Empatia - Combata o Bullying">
+    <meta property="og:description" content="100 flashcards para desenvolver empatia e respeito entre alunos">
+    <meta property="og:image" content="https://solucoesonlines.com/wp-content/uploads/2026/04/mockup_principal-Dwz0zqgc-1.png">
+    <meta property="og:url" content="https://solucoesonlines.com/cartas-da-empatia/">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: #404040;
+        }
+
+        .container {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* ===== HEADER / HERO ===== */
+        .hero {
+            background: linear-gradient(135deg, #ffffff 0%, rgba(255,240,179,0.3) 50%, #ffffff 100%);
+            padding: 120px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .hero h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 56px;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 24px;
+            color: #404040;
+        }
+
+        .hero h1 span {
+            color: #f97415;
+        }
+
+        .hero p {
+            font-size: 20px;
+            line-height: 1.7;
+            color: #7e7367;
+            margin-bottom: 32px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 16px 48px;
+            background: #F97415;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 900;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background: #e65c0a;
+            transform: translateY(-2px);
+        }
+
+        .hero-image {
+            text-align: center;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* ===== PROBLEMAS ===== */
+        .problems {
+            background: #fcfbf7;
+            padding: 80px 0;
+        }
+
+        .section-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 44px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 48px;
+            color: #2a2622;
+            line-height: 1.1;
+        }
+
+        .section-title span {
+            color: #f97415;
+        }
+
+        .problems-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin-bottom: 32px;
+        }
+
+        .problem-card {
+            background: white;
+            border: 1px solid #eae3d7;
+            border-radius: 20px;
+            padding: 32px;
+        }
+
+        .problem-card-icon {
+            width: 56px;
+            height: 56px;
+            border-radius: 14px;
+            background: linear-gradient(135deg, rgba(249,116,21,0.1), rgba(255,204,51,0.1));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+        }
+
+        .problem-card h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: #2a2622;
+            margin-bottom: 8px;
+        }
+
+        .problem-card p {
+            font-size: 15px;
+            color: #7e7367;
+            line-height: 1.6;
+        }
+
+        /* ===== BENEFÍCIOS ===== */
+        .benefits {
+            background: #fffbea;
+            padding: 80px 0;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .benefit-card {
+            background: white;
+            border: 1px solid #eae3d7;
+            border-radius: 20px;
+            padding: 32px;
+        }
+
+        .benefit-card h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 17px;
+            font-weight: 700;
+            color: #2a2622;
+            margin-bottom: 10px;
+        }
+
+        .benefit-card p {
+            font-size: 14px;
+            color: #7e7367;
+            line-height: 1.6;
+        }
+
+        /* ===== O QUE VOCÊ RECEBE ===== */
+        .receive {
+            background: #fcfbf7;
+            padding: 80px 0;
+        }
+
+        .receive-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .receive-list {
+            background: white;
+            border: 1px solid #eae3d7;
+            border-radius: 20px;
+            padding: 40px;
+        }
+
+        .receive-list h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 22px;
+            font-weight: 700;
+            color: #2a2622;
+            margin-bottom: 24px;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 8px 18px;
+            border-radius: 999px;
+            background: #f5f0e8;
+            border: 1px solid #eae3d7;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            color: #2a2622;
+        }
+
+        /* ===== PARA QUEM ===== */
+        .audience {
+            background: white;
+            padding: 80px 0;
+        }
+
+        .audience-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            margin-top: 48px;
+        }
+
+        .audience-card {
+            background: #fcfbf7;
+            border: 1px solid #eae3d7;
+            border-radius: 20px;
+            padding: 32px;
+            text-align: center;
+        }
+
+        .audience-card-icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 16px;
+            background: linear-gradient(135deg, #f97415, #ffcc33);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 14px;
+        }
+
+        .audience-card p {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            color: #2a2622;
+            margin: 0;
+        }
+
+        /* ===== BÔNUS ===== */
+        .bonus {
+            background: #fffbea;
+            padding: 80px 0;
+        }
+
+        .bonus-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-top: 48px;
+        }
+
+        .bonus-card {
+            background: white;
+            border: 1px solid #eae3d7;
+            border-radius: 20px;
+            padding: 24px;
+            text-align: center;
+        }
+
+        .bonus-badge {
+            display: inline-block;
+            padding: 4px 14px;
+            border-radius: 999px;
+            background: linear-gradient(to right, #f97415, #ffcc33);
+            font-family: 'DM Sans', sans-serif;
+            font-size: 11px;
+            font-weight: 700;
+            color: white;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+
+        .bonus-card h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            color: #2a2622;
+            margin-bottom: 10px;
+        }
+
+        .bonus-card p {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 13px;
+            color: #7e7367;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .bonus-image {
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+            margin: 0 auto 16px;
+            display: block;
+        }
+
+        /* ===== PRICING ===== */
+        .pricing {
+            background: white;
+            padding: 80px 0;
+        }
+
+        .pricing-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            background: white;
+            border: 6px solid #FD8C17;
+            border-radius: 35px;
+            padding: 60px;
+            box-shadow: 0 0 24px 4px #ED7108;
+        }
+
+        .pricing-image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .pricing-details h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: #2a2622;
+            margin-bottom: 16px;
+        }
+
+        .price-amount {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 81px;
+            font-weight: 800;
+            color: #FE8C21;
+            margin: 20px 0;
+        }
+
+        .price-period {
+            font-size: 16px;
+            color: #3C3C3C;
+            margin-bottom: 24px;
+        }
+
+        .checklist {
+            list-style: none;
+            margin-bottom: 40px;
+        }
+
+        .checklist li {
+            padding: 12px 0;
+            padding-left: 40px;
+            position: relative;
+            color: #3C3C3C;
+            font-size: 15px;
+        }
+
+        .checklist li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #FE8C21;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        /* ===== GARANTIA ===== */
+        .guarantee {
+            background: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .guarantee-icon {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #f97415, #ffcc33);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+        }
+
+        .guarantee h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 30px;
+            font-weight: 700;
+            color: #2a2622;
+            margin-bottom: 16px;
+        }
+
+        .guarantee p {
+            font-size: 17px;
+            color: #7e7367;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+
+        /* ===== FAQ ===== */
+        .faq {
+            background: #E89200;
+            padding: 80px 0;
+            color: white;
+        }
+
+        .faq h2 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 44px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 48px;
+            color: white;
+        }
+
+        .accordion {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .accordion-item {
+            background: #ED6C0A;
+            margin-bottom: 16px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .accordion-title {
+            padding: 20px;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+        }
+
+        .accordion-title:hover {
+            background: #d85a08;
+        }
+
+        .accordion-content {
+            display: none;
+            padding: 20px;
+            background: #ED6C0A;
+            color: white;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .accordion-content.active {
+            display: block;
+        }
+
+        .accordion-icon {
+            font-size: 20px;
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background: #fcfbf7;
+            border-top: 1px solid #eae3d7;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .footer-links a {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 13px;
+            color: #7e7367;
+            text-decoration: none;
+        }
+
+        .footer-links a:hover {
+            color: #f97415;
+        }
+
+        .footer-copyright {
+            font-size: 12px;
+            color: #7e7367;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 768px) {
+            .hero-content,
+            .receive-content,
+            .pricing-content {
+                grid-template-columns: 1fr;
+            }
+
+            .hero h1 {
+                font-size: 35px;
+            }
+
+            .section-title {
+                font-size: 27px;
+                margin-bottom: 32px;
+            }
+
+            .problems-grid,
+            .benefits-grid,
+            .bonus-grid,
+            .audience-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero, .problems, .benefits, .receive, .audience, .bonus, .pricing, .guarantee, .faq {
+                padding: 40px 0;
+            }
+
+            .pricing-content {
+                padding: 40px 20px;
+            }
+
+            .price-amount {
+                font-size: 65px;
+            }
+
+            .btn {
+                display: block;
+                width: 100%;
+            }
+        }
+
+        /* ===== SCROLL ANCHOR ===== */
+        [id="dobra2"]::before {
+            content: "";
+            display: block;
+            height: 60px;
+            margin-top: -60px;
+        }
+    </style>
+</head>
+<body>
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div>
+                    <h1>Um episódio de bullying dura alguns segundos. A ferida emocional, <span>anos.</span></h1>
+                    <p>100 cartas para combater o bullying nas escolas e promover empatia, respeito e convivência saudável entre os alunos, sem precisar preparar atividades complexas ou expor ninguém diretamente.</p>
+                    <a href="#dobra2" class="btn">BAIXAR AGORA</a>
+                </div>
+                <div class="hero-image">
+                    <img src="https://solucoesonlines.com/wp-content/uploads/2026/04/mockup_principal-Dwz0zqgc-1.png" alt="Mockup Cartas da Empatia" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROBLEMAS SECTION -->
+    <section class="problems">
+        <div class="container">
+            <h2 class="section-title">O silêncio dentro de uma sala de aula <span>fala mais alto</span> do que você imagina.</h2>
+
+            <div class="problems-grid">
+                <div class="problem-card">
+                    <div class="problem-card-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#f97415" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                    </div>
+                    <h3>Casos crescentes de bullying</h3>
+                    <p>A violência escolar aumenta a cada ano e muitos educadores não sabem como intervir de forma eficaz.</p>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-card-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#f97415" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                    </div>
+                    <h3>Dificuldade em identificar sinais</h3>
+                    <p>Muitas vezes o bullying acontece de forma silenciosa e os profissionais não conseguem detectar a tempo.</p>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-card-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#f97415" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                    </div>
+                    <h3>Impacto na saúde mental</h3>
+                    <p>Alunos vítimas de bullying sofrem com ansiedade, depressão e queda no rendimento escolar.</p>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-card-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#f97415" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                    </div>
+                    <h3>Falta de material prático</h3>
+                    <p>Educadores buscam recursos prontos para usar em sala de aula, mas encontram pouco conteúdo aplicável.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFÍCIOS SECTION -->
+    <section class="benefits">
+        <div class="container">
+            <h2 class="section-title">Perguntas que <span>geram coragem</span> em quem sempre teve medo.</h2>
+
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="problem-card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f97415" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </div>
+                    <h3>Combata o bullying de forma prática</h3>
+                    <p>Utilize perguntas reflexivas que ajudam os alunos a pensar sobre atitudes, respeito e convivência de maneira natural.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="problem-card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f97415" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </div>
+                    <h3>Promova empatia entre os alunos</h3>
+                    <p>Os flashcards incentivam os estudantes a se colocarem no lugar do outro e refletirem sobre suas ações.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="problem-card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f97415" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </div>
+                    <h3>Tenha rodas de conversa prontas</h3>
+                    <p>Basta pegar um card e iniciar a discussão. Sem planejamento demorado ou atividades complicadas.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="problem-card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f97415" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </div>
+                    <h3>Trabalhe habilidades socioemocionais com facilidade</h3>
+                    <p>Desenvolva respeito, autocontrole, escuta e convivência saudável de forma leve e participativa.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="problem-card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f97415" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </div>
+                    <h3>Utilize em qualquer momento da aula</h3>
+                    <p>Ideal para mediação de conflitos, projetos socioemocionais, início das aulas ou atividades semanais.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="problem-card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f97415" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </div>
+                    <h3>Melhore o clima da sala de aula</h3>
+                    <p>As conversas guiadas ajudam a reduzir conflitos, provocações e desentendimentos entre os alunos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- O QUE VOCÊ RECEBE -->
+    <section class="receive">
+        <div class="container">
+            <div class="receive-content">
+                <h2 class="section-title">O que você vai <span>receber?</span></h2>
+                <div class="receive-list">
+                    <h3>100 cards organizados por temas</h3>
+                    <div class="tags">
+                        <span class="tag">Empatia</span>
+                        <span class="tag">Respeito</span>
+                        <span class="tag">Bullying</span>
+                        <span class="tag">Emoções</span>
+                        <span class="tag">Amizade</span>
+                        <span class="tag">Autoestima</span>
+                    </div>
+                    <p>E muito mais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PARA QUEM É -->
+    <section class="audience">
+        <div class="container">
+            <h2 class="section-title">Para quem é?</h2>
+            <div class="audience-grid">
+                <div class="audience-card">
+                    <div class="audience-card-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <p>Professores</p>
+                </div>
+                <div class="audience-card">
+                    <div class="audience-card-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <p>Psicólogos e Psicopedagogos</p>
+                </div>
+                <div class="audience-card">
+                    <div class="audience-card-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <p>Coordenadores e orientadores educacionais</p>
+                </div>
+                <div class="audience-card">
+                    <div class="audience-card-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <p>Pais e responsáveis</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BÔNUS SECTION -->
+    <section class="bonus">
+        <div class="container">
+            <h2 class="section-title">Você ainda leva 3<span> bônus exclusivos.</span></h2>
+            <div class="bonus-grid">
+                <div class="bonus-card">
+                    <img src="https://cartasdaempatia.lovable.app/assets/mockup_bonus_3-CdL4yL0e.png" alt="Dinâmicas para trabalhar respeito e empatia" class="bonus-image" loading="lazy">
+                    <span class="bonus-badge">BÔNUS 1</span>
+                    <h3>Dinâmicas para trabalhar respeito e empatia</h3>
+                    <p>Atividades rápidas e práticas para desenvolver valores e melhorar a convivência entre os alunos.</p>
+                </div>
+                <div class="bonus-card">
+                    <img src="https://cartasdaempatia.lovable.app/assets/mockup_bonus_1-BDY96mCi.png" alt="Jogo da Memória das Emoções" class="bonus-image" loading="lazy">
+                    <span class="bonus-badge">BÔNUS 2</span>
+                    <h3>Jogo da Memória das Emoções</h3>
+                    <p>Cartas com emoções para ajudar os alunos a identificar sentimentos e desenvolver inteligência emocional.</p>
+                </div>
+                <div class="bonus-card">
+                    <img src="https://cartasdaempatia.lovable.app/assets/mockup_bonus_2-DIrsI7xt.png" alt="Quebrando o Cyberbullying" class="bonus-image" loading="lazy">
+                    <span class="bonus-badge">BÔNUS 3</span>
+                    <h3>Quebrando o Cyberbullying</h3>
+                    <p>Cards com perguntas específicas para discutir respeito no ambiente digital e prevenir cyberbullying.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section class="pricing" id="dobra2">
+        <div class="container">
+            <h2 class="section-title" style="margin-bottom: 60px;">Tudo isso por um valor <span>surpreendente</span></h2>
+            <div class="pricing-content">
+                <div class="pricing-image">
+                    <img src="https://solucoesonlines.com/wp-content/uploads/2026/04/conjunto-mockups-cae-convertido-de-png.webp" alt="Mockup do Produto" loading="lazy">
+                </div>
+                <div class="pricing-details">
+                    <ul class="checklist">
+                        <li>Garantia de 7 dias</li>
+                        <li>Compra 100% segura</li>
+                        <li>Acesso vitalício e imediato</li>
+                        <li>Baralho Cartas da Empatia</li>
+                        <li>Bônus 1: Dinâmicas para trabalhar respeito e empatia</li>
+                        <li>Bônus 2: Jogo da Memória das Emoções</li>
+                        <li>Bônus 3: Quebrando o cyberbullying</li>
+                    </ul>
+                    <p class="price-period"><strong>Por apenas 5x de</strong></p>
+                    <div class="price-amount">R$ 6,04</div>
+                    <p class="price-period">ou R$ 24,90 à vista</p>
+                    <a href="https://go.frendz.com.br/wmc95a7d4y" class="btn" style="background: #FE8C21; display: block; text-align: center; margin-bottom: 30px;">ADQUIRIR AGORA</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GARANTIA SECTION -->
+    <section class="guarantee">
+        <div class="container">
+            <div class="guarantee-icon">
+                <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+            </div>
+            <h3>Garantia de 7 dias</h3>
+            <p>Se por qualquer motivo você não ficar satisfeito, devolvemos 100% do seu investimento. Sem perguntas, sem burocracia.</p>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq">
+        <div class="container">
+            <h2>Dúvidas frequentes</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(0)">
+                        Para qual faixa etária os flashcards são indicados?
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        Os flashcards foram desenvolvidos para alunos do Ensino Fundamental (6 a 14 anos), mas podem ser adaptados para o Ensino Médio.
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(1)">
+                        O pagamento é seguro?
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        Sim! O pagamento é processado pela Hotmart, uma das maiores plataformas de produtos digitais do Brasil, com criptografia de dados e total segurança. Você pode pagar com cartão de crédito ou PIX.
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(2)">
+                        Como recebo o material após a compra?
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        Imediatamente após a confirmação do pagamento, você receberá um e-mail com o link para download de todos os arquivos em PDF. O acesso é vitalício.
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(3)">
+                        Posso imprimir os flashcards?
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        Sim! O material está em formato PDF de alta resolução, otimizado para impressão colorida. Recomendamos papel cartão para maior durabilidade.
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" onclick="toggleAccordion(4)">
+                        Como funciona a garantia de 7 dias?
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        Se você não ficar satisfeito por qualquer motivo, basta enviar um e-mail dentro de 7 dias após a compra solicitando o reembolso. Devolvemos 100% do valor sem perguntas.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">Termos de Uso</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Contato</a>
+            </div>
+            <p class="footer-copyright">© 2026 Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- PIXEL DO FACEBOOK -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'SEU_PIXEL_ID_AQUI');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=SEU_PIXEL_ID_AQUI&ev=PageView&noscript=1" /></noscript>
+
+    <!-- ACCORDION SCRIPT -->
+    <script>
+        function toggleAccordion(index) {
+            const content = document.querySelectorAll('.accordion-content')[index];
+            const icon = document.querySelectorAll('.accordion-icon')[index];
+
+            content.classList.toggle('active');
+            icon.textContent = content.classList.contains('active') ? '−' : '+';
+        }
+    </script>
+</body>
+</html>
