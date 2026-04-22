@@ -6,166 +6,212 @@
     <title>Anti-Bullying Parent Meeting Kit</title>
     <script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init', '1515495776919230');fbq('track', 'PageView');</script>
     <script src="https://cdn.utmify.com.br/scripts/utms/latest.js" async defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: Arial, sans-serif; font-size: 10pt; line-height: 1.3; }
-        .page { page-break-after: always; padding: 10mm; min-height: 277mm; }
-        .cover { background: linear-gradient(135deg, #2d1b4e 0%, #4a2c6b 100%); color: white; text-align: center; padding: 20mm 10mm; min-height: 297mm; display: flex; flex-direction: column; justify-content: center; }
-        .cover h1 { font-size: 28pt; margin: 10mm 0; }
-        .cover p { margin: 3mm 0; font-size: 11pt; }
-        .badge { background: #ffc107; color: #2d1b4e; padding: 3mm 8mm; border-radius: 20px; display: inline-block; font-weight: bold; font-size: 9pt; margin-bottom: 5mm; }
-        h1 { font-size: 16pt; margin: 5mm 0 3mm 0; color: #2d1b4e; }
-        h2 { font-size: 12pt; margin: 3mm 0; color: white; }
-        h3 { font-size: 11pt; margin: 3mm 0 2mm 0; color: #2d1b4e; }
-        h4 { font-size: 10pt; margin: 2mm 0; }
-        p { margin: 2mm 0; }
-        .header { background: linear-gradient(135deg, #FF6B6B 0%, #FF8E8E 100%); color: white; padding: 4mm 5mm; border-left: 4px solid #FF3333; margin: 4mm 0; }
-        .header.info { background: linear-gradient(135deg, #FF7043 0%, #FF8A65 100%); border-left-color: #E64A19; }
-        .header.reflection { background: linear-gradient(135deg, #AB47BC 0%, #CE93D8 100%); border-left-color: #7B1FA2; }
-        .header.action { background: linear-gradient(135deg, #66BB6A 0%, #81C784 100%); border-left-color: #2E7D32; }
-        .header.closing { background: linear-gradient(135deg, #FFA726 0%, #FFB74D 100%); border-left-color: #E65100; page-break-before: always; }
-        .time { font-size: 8pt; opacity: 0.9; }
-        .content { background: #fafafa; padding: 4mm; margin: 3mm 0; border-radius: 4px; }
-        .bullet { margin: 1mm 0 1mm 5mm; padding-left: 3mm; border-left: 2px solid #ffc107; font-size: 9pt; }
-        .card { border: 1px solid #ddd; padding: 3mm; margin: 2mm 0; }
-        .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; }
-        .box { background: #e8f5e9; border-left: 3px solid #4caf50; padding: 3mm; margin: 2mm 0; font-size: 9pt; }
-        .form-field { margin: 2mm 0; }
-        .form-field label { font-weight: bold; font-size: 8pt; display: block; margin-bottom: 1mm; }
-        .form-field input { width: 100%; border: none; border-bottom: 1px solid #333; font-size: 9pt; }
-        .sigs { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4mm; margin-top: 5mm; text-align: center; }
-        .sig-field { font-size: 8pt; }
-        .sig-line { border-top: 1px solid #333; margin-top: 2mm; padding-top: 1mm; }
+        body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #f8f9fa; font-size: 11pt; line-height: 1.5; }
+        .page { background: white; page-break-after: always; padding: 15mm; min-height: 277mm; }
+        .cover { background: linear-gradient(135deg, #2d1b4e 0%, #4a2c6b 100%); color: white; padding: 25mm 15mm; min-height: 297mm; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+        .badge { background: #ffc107; color: #2d1b4e; padding: 5mm 12mm; border-radius: 20px; display: inline-block; font-weight: 700; font-size: 10pt; letter-spacing: 1px; margin-bottom: 10mm; }
+        .cover h1 { font-size: 36pt; font-weight: 800; margin: 10mm 0; letter-spacing: -1px; line-height: 1.1; }
+        .cover p { font-size: 14pt; margin: 4mm 0; opacity: 0.95; }
+        .cover .tagline { color: #ffc107; font-weight: 700; font-size: 18pt; margin: 8mm 0; }
+        .features { margin-top: 12mm; text-align: left; display: inline-block; }
+        .features p { margin: 3mm 0; font-size: 12pt; }
+        h1 { font-size: 24pt; font-weight: 800; color: #2d1b4e; margin-bottom: 8mm; letter-spacing: -0.5px; }
+        h2 { font-size: 16pt; font-weight: 700; color: white; margin-bottom: 6mm; }
+        h3 { font-size: 13pt; font-weight: 700; color: #2d1b4e; margin: 8mm 0 4mm 0; }
+        h4 { font-size: 11pt; font-weight: 700; color: #2d1b4e; margin-bottom: 3mm; }
+        p { margin-bottom: 4mm; }
+        .subtitle { font-size: 12pt; color: #666; margin-bottom: 6mm; }
+        .section-header { background: linear-gradient(135deg, #FF6B6B 0%, #FF8E8E 100%); color: white; padding: 6mm 8mm; border-radius: 6px; margin: 8mm 0 6mm 0; border-left: 5px solid #d63031; }
+        .section-header.info { background: linear-gradient(135deg, #FF7043 0%, #FF8A65 100%); border-left-color: #E64A19; }
+        .section-header.reflection { background: linear-gradient(135deg, #AB47BC 0%, #CE93D8 100%); border-left-color: #7B1FA2; }
+        .section-header.action { background: linear-gradient(135deg, #66BB6A 0%, #81C784 100%); border-left-color: #2E7D32; }
+        .section-header.closing { background: linear-gradient(135deg, #FFA726 0%, #FFB74D 100%); border-left-color: #E65100; page-break-before: always; }
+        .time { font-size: 9pt; opacity: 0.9; }
+        .section-header h2 { margin-bottom: 2mm; }
+        .content { background: #f8f9fa; padding: 6mm 8mm; border-radius: 6px; margin-bottom: 6mm; }
+        .bullet { margin-left: 6mm; padding-left: 3mm; border-left: 3px solid #0066cc; margin-bottom: 3mm; font-size: 10pt; }
+        .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; margin: 6mm 0; }
+        .alert-card { background: linear-gradient(135deg, #fff5f5 0%, #ffe0e0 100%); border: 1px solid #ffcccc; border-radius: 6px; padding: 5mm; }
+        .alert-card.aggressor { background: linear-gradient(135deg, #fffbf0 0%, #ffe8cc 100%); border-color: #ffd9a3; }
+        .alert-card h4 { margin-bottom: 2mm; font-size: 10pt; }
+        .alert-card p { font-size: 9pt; margin: 0; }
+        .box { background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%); border-left: 4px solid #4caf50; padding: 6mm 8mm; margin: 6mm 0; border-radius: 4px; font-size: 10pt; }
+        .activity { background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%); border-left: 4px solid #2196F3; padding: 6mm; margin: 6mm 0; border-radius: 4px; }
+        .activity h4 { color: #1565c0; margin-bottom: 2mm; }
+        .activity .time { color: #1565c0; font-weight: 600; font-size: 9pt; display: block; margin-bottom: 2mm; }
+        .activity p { font-size: 10pt; margin: 2mm 0; }
+        .form-field { margin-bottom: 6mm; }
+        .form-field label { display: block; font-weight: 700; font-size: 9pt; color: #2d1b4e; margin-bottom: 2mm; text-transform: uppercase; letter-spacing: 0.5px; }
+        .form-field input { width: 100%; border: none; border-bottom: 1.5px solid #ddd; padding: 2mm 0; font-size: 10pt; }
+        .commitment-item { display: flex; margin-bottom: 5mm; }
+        .commitment-num { background: #FF6B6B; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 10pt; margin-right: 6mm; flex-shrink: 0; margin-top: 1mm; }
+        .commitment-text { font-size: 10pt; flex-grow: 1; }
+        .sigs { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6mm; margin-top: 8mm; }
+        .sig-field { text-align: center; font-size: 9pt; }
+        .sig-line { border-top: 1.5px solid #333; padding-top: 1mm; margin-top: 3mm; }
     </style>
 </head>
 <body>
     <div class="cover">
         <div class="badge">EXCLUSIVE FOR TEACHERS</div>
         <h1>Anti-Bullying<br>Parent Meeting Kit</h1>
-        <p style="font-size: 16pt; color: #ffc107; margin: 5mm 0;">Everything you need</p>
-        <p>Complete 60-minute script to conduct powerful parent meetings about bullying prevention with no improvisation and engaging all families.</p>
-        <div style="margin-top: 10mm; text-align: left; max-width: 300px; margin-left: auto; margin-right: auto;">
-            <p>✓ 60-minute script with complete content</p>
-            <p>✓ Warning signs guide for parents</p>
-            <p>✓ At-home activities to do with children</p>
+        <p class="tagline">Everything you need</p>
+        <p>Transform your school's approach to bullying prevention through powerful parent engagement</p>
+        <div class="features">
+            <p>✓ Complete 60-minute script</p>
+            <p>✓ Warning signs guide</p>
+            <p>✓ At-home activities</p>
             <p>✓ Family commitment letter</p>
         </div>
     </div>
 
     <div class="page">
-        <h1>Parent Meeting Outline (60 minutes)</h1>
-        <div class="header"><div class="time">0–10 MINUTES • OPENING</div><h2>Welcome and Icebreaker</h2></div>
+        <h1>60-Minute Meeting Outline</h1>
+        <p class="subtitle">Structure, content, and suggested lines for facilitators</p>
+
+        <div class="section-header">
+            <div class="time">0–10 MIN • OPENING</div>
+            <h2>Welcome & Connection</h2>
+        </div>
         <div class="content">
-            <p><strong>Stand to greet parents and start with:</strong> "How was your child when they left for school today?"</p>
-            <div class="bullet">Let 2-3 parents respond to warm up the room</div>
-            <div class="bullet">Present agenda: "Today we discuss bullying prevention together"</div>
+            <p><strong>Greeting:</strong> "Stand to greet parents. Thank you for being here. Let's start with a simple question:"</p>
+            <div class="bullet">"How was your child when they left for school today?"</div>
+            <div class="bullet">Invite 2-3 parents to share briefly</div>
+            <p style="margin-top: 4mm;"><strong>Bridge:</strong> "Today we're discussing how ALL of us can prevent bullying—not as someone else's problem, but as something we address together."</p>
         </div>
 
-        <div class="header info"><div class="time">10–25 MINUTES • INFORMATION</div><h2>What is and isn't bullying</h2></div>
+        <div class="section-header info">
+            <div class="time">10–25 MIN • INFORMATION</div>
+            <h2>Understanding Bullying</h2>
+        </div>
         <div class="content">
-            <p><strong>Key point:</strong> Bullying = repetition + power imbalance</p>
-            <div class="bullet">Show 3 profiles: victim, aggressor, bystander</div>
-            <div class="bullet">"Your child might be witnessing bullying without knowing what to do"</div>
+            <p><strong>Key Definition:</strong> Bullying = Repetition + Power Imbalance</p>
+            <div class="bullet">One conflict or mean comment isn't bullying, but a pattern is</div>
+            <div class="bullet">The three roles: Victim, Aggressor, Bystander (the majority)</div>
+            <p style="margin-top: 4mm;"><strong>Critical insight:</strong> "Your child might be WITNESSING bullying without knowing what to do. That's the real gap we're addressing today."</p>
             <div class="bullet">Distribute Warning Signs Guide now</div>
         </div>
 
-        <div class="header reflection"><div class="time">25–40 MINUTES • REFLECTION</div><h2>Dynamics with parents</h2></div>
+        <div class="section-header reflection">
+            <div class="time">25–40 MIN • REFLECTION</div>
+            <h2>Dynamics with Parents</h2>
+        </div>
         <div class="content">
-            <p><strong>Activity:</strong> Choose a reflection card and ask: "What would your child do if they saw someone humiliated?"</p>
-            <div class="bullet">Small group discussion (3-4 parents, 5 minutes)</div>
-            <div class="bullet">Open to full group - no right answers, just reflection</div>
+            <p><strong>Activity:</strong> Choose one card from the Empathy Cards deck</p>
+            <div class="bullet">Read it aloud. Ask parents: "What would YOUR child do if they saw someone humiliated?"</div>
+            <div class="bullet">Small group discussion (3-4 people, 5 minutes) — NO right answers</div>
+            <div class="bullet">Open to whole group for 5 minutes. Listen for patterns.</div>
         </div>
 
-        <div class="header action"><div class="time">40–55 MINUTES • ACTION</div><h2>What parents can do at home</h2></div>
-        <div class="content">
-            <p><strong>Message:</strong> "You don't need to be experts - just create space for conversation"</p>
-            <div class="bullet">ACTIVITY 1: Best Part/Hardest Part game at dinner</div>
-            <div class="bullet">ACTIVITY 2: Ask about excluded classmates</div>
-            <div class="bullet">ACTIVITY 3: Monthly relationship check-in</div>
-            <div class="bullet">Distribute Family Commitment Letter for signatures</div>
+        <div class="section-header action">
+            <div class="time">40–55 MIN • ACTION</div>
+            <h2>What Parents Can Do</h2>
         </div>
-
-        <div class="header closing"><div class="time">55–60 MINUTES • CLOSING</div><h2>Thank You</h2></div>
         <div class="content">
-            <p><strong>"No school solves bullying alone. You are our most important partners."</strong></p>
-            <div class="bullet">Share your communication channel for confidential reports</div>
-            <div class="bullet">Thank all parents, especially first-time attendees</div>
+            <p><strong>Message:</strong> "You don't need to become an expert. You need to CREATE SPACE for conversation."</p>
+
+            <h4 style="margin-top: 5mm;">Three at-home activities parents can start THIS WEEK:</h4>
+
+            <div class="activity">
+                <span class="time">Activity 1 • 15 minutes • Any day</span>
+                <h4>The Best Part & Hardest Part Game</h4>
+                <p>At dinner: Everyone shares one good thing that happened today and one difficult thing. No judgment, no advice—just listening.</p>
+                <p><strong>Why it works:</strong> Creates a habit of daily conversation. Child learns they CAN tell you hard things.</p>
+            </div>
+
+            <div class="activity">
+                <span class="time">Activity 2 • 10 minutes • Weekend</span>
+                <h4>The Forbidden Question</h4>
+                <p>Ask: "Is there anyone in your class that almost NO ONE talks to? Why do you think that happens?"</p>
+                <p><strong>Why it works:</strong> Shows you their social landscape. Shows their level of empathy.</p>
+            </div>
+
+            <div class="activity">
+                <span class="time">Activity 3 • 20 minutes • Once monthly</span>
+                <h4>The Relationship Check-In</h4>
+                <p>Ask them to name 3 people who make them smile at school. Talk about why they matter.</p>
+                <p><strong>Why it works:</strong> If they CAN'T name anyone, that's an important signal to contact us immediately.</p>
+            </div>
+
+            <div class="bullet">Distribute the Family Commitment Letter—have parents sign it TODAY</div>
         </div>
     </div>
 
     <div class="page">
         <h1>⚠️ Warning Signs Guide</h1>
-        <p style="font-size: 9pt; margin-bottom: 3mm;"><strong>For parents:</strong> Bullying is rarely reported directly. Watch for behavioral changes.</p>
+        <p class="subtitle">Behavioral changes parents should watch for and address</p>
 
-        <h3>Signs your child may be a victim:</h3>
+        <h3>Signs your child may be a VICTIM</h3>
         <div class="grid2">
-            <div class="card"><h4>😰 Doesn't want to go to school</h4><p>Frequent stomach aches or headaches</p></div>
-            <div class="card"><h4>📱 Gets tense receiving messages</h4><p>Uncomfortable with phone around you</p></div>
-            <div class="card"><h4>🍽 Missing items or money</h4><p>Comes home hungry with no clear explanation</p></div>
-            <div class="card"><h4>😔 Became withdrawn</h4><p>Cries frequently, lost interest in activities</p></div>
-            <div class="card"><h4>👥 Stopped mentioning friends</h4><p>No one to sit with at lunch</p></div>
-            <div class="card"><h4>😴 Sleep difficulties</h4><p>Nightmares or wakes exhausted</p></div>
+            <div class="alert-card"><h4>😰 Avoids going to school</h4><p>Frequent stomach aches, headaches, or vague excuses</p></div>
+            <div class="alert-card"><h4>📱 Tensión with messages</h4><p>Gets uncomfortable when receiving texts, looks away from phone</p></div>
+            <div class="alert-card"><h4>🍽 Missing items or money</h4><p>Comes home hungry or without lunch money, no clear explanation</p></div>
+            <div class="alert-card"><h4>😔 Withdrawn behavior</h4><p>Cries easily, lost interest in activities they loved</p></div>
+            <div class="alert-card"><h4>👥 Stopped mentioning friends</h4><p>Says no one to sit with at lunch, hasn't mentioned classmates</p></div>
+            <div class="alert-card"><h4>😴 Sleep problems</h4><p>Nightmares, wakes exhausted despite sleeping many hours</p></div>
         </div>
 
-        <h3>Signs your child may be an aggressor:</h3>
+        <h3>Signs your child may be an AGGRESSOR</h3>
         <div class="grid2">
-            <div class="card"><h4>😤 Talks deprecatingly about classmates</h4><p>Laughs when someone gets in trouble</p></div>
-            <div class="card"><h4>💪 Needs to "win" in everything</h4><p>Extremely frustrated when losing</p></div>
-            <div class="card"><h4>💸 New money or objects</h4><p>Can't explain where they came from</p></div>
-            <div class="card"><h4>🙈 Can't put themselves in others' shoes</h4><p>Reacts with indifference to others' suffering</p></div>
+            <div class="alert-card aggressor"><h4>😤 Talks about classmates negatively</h4><p>Laughs about getting someone in trouble or humiliating them</p></div>
+            <div class="alert-card aggressor"><h4>💪 Must always "win"</h4><p>Gets extremely frustrated losing even at home games</p></div>
+            <div class="alert-card aggressor"><h4>💸 New money/objects</h4><p>Can't explain where they came from</p></div>
+            <div class="alert-card aggressor"><h4>🙈 Lacks empathy</h4><p>Shows indifference when others are hurt or upset</p></div>
         </div>
 
-        <div class="box"><strong>If you identify signs:</strong> Don't confront with accusations. Create a calm moment: "I've noticed you haven't been doing well. I'm here." Then contact the school.</div>
+        <div class="box">
+            <strong>If you see signs:</strong> DON'T accuse. Instead, create a calm moment: "I've noticed you haven't been doing well. You don't have to tell me everything now, but know I'm here." THEN contact the school.
+        </div>
     </div>
 
     <div class="page">
-        <h1>3 At-Home Activities</h1>
-        <h3>⏱️ ACTIVITY 1: Best Part & Hardest Part (15 min, any day)</h3>
-        <div class="content">
-            <p>At dinner: everyone shares one good thing and one difficult thing. No judgment, just listening.</p>
-            <p><strong>Why:</strong> Creates habit of daily conversation. Child learns they can tell you difficult things.</p>
-        </div>
-
-        <h3>⏱️ ACTIVITY 2: The Forbidden Question (10 min, weekend)</h3>
-        <div class="content">
-            <p>Ask: "Is there anyone in your class that almost no one talks to? Why do you think that happens?"</p>
-            <p><strong>Why:</strong> Helps you understand your child's social landscape and their empathy level.</p>
-        </div>
-
-        <h3>⏱️ ACTIVITY 3: Relationship Check-in (20 min, monthly)</h3>
-        <div class="content">
-            <p>Ask them to name 3 people they feel good with at school. Talk about why they're important.</p>
-            <p><strong>Why:</strong> If they can't name anyone, that's an important signal to contact the school.</p>
-        </div>
-
-        <div class="box" style="text-align: center; margin-top: 8mm;"><strong>Phrase to print for refrigerator:</strong><br>"Children who feel heard at home are more likely to ask for help when they need it."</div>
-    </div>
-
-    <div class="page">
-        <h1 style="text-align: center; color: #d32f2f;">Family Commitment Letter</h1>
-        <p style="text-align: center; font-size: 9pt; margin-bottom: 5mm;">Sign this at the meeting. When we put it on paper, we take it more seriously.</p>
+        <h1>Family Commitment Letter</h1>
+        <p class="subtitle">Sign this at the meeting. Written commitments have real power.</p>
 
         <div class="form-field">
-            <label>Child's Name / Student</label>
+            <label>Child's Name / Grade</label>
             <input type="text" style="width: 100%;">
         </div>
 
         <div class="form-field">
-            <label>Parent(s)/Guardian(s)</label>
+            <label>Parent(s) / Guardian(s)</label>
             <input type="text" style="width: 100%;">
         </div>
 
-        <p style="margin: 4mm 0;">We, the family of <input type="text" style="width: 150px; border: none; border-bottom: 1px solid #333; padding: 1mm;"> commit to:</p>
+        <p style="margin-top: 8mm; margin-bottom: 6mm; font-weight: 600;">We, the family of <input type="text" style="width: 140px; border: none; border-bottom: 1px solid #333; padding: 1mm; font-weight: normal;"> commit to the following actions:</p>
 
-        <p style="margin: 3mm 0;"><strong>1.</strong> Creating space at home to listen without interrupting or minimizing feelings</p>
-        <p style="margin: 3mm 0;"><strong>2.</strong> Doing at least one activity from this guide in the next 30 days</p>
-        <p style="margin: 3mm 0;"><strong>3.</strong> Contacting the school immediately if we identify warning signs</p>
-        <p style="margin: 3mm 0;"><strong>4.</strong> We also commit to: <input type="text" style="width: 100%; border: none; border-bottom: 1px solid #333; padding: 1mm;"></p>
+        <div class="commitment-item">
+            <div class="commitment-num">1</div>
+            <div class="commitment-text">Creating safe space at home where our child can talk about difficult emotions and experiences without judgment or immediate advice</div>
+        </div>
+
+        <div class="commitment-item">
+            <div class="commitment-num">2</div>
+            <div class="commitment-text">Doing at least ONE activity from this guide with our child within the next 30 days</div>
+        </div>
+
+        <div class="commitment-item">
+            <div class="commitment-num">3</div>
+            <div class="commitment-text">Contacting the school IMMEDIATELY if we notice any warning signs from this guide</div>
+        </div>
+
+        <div class="commitment-item">
+            <div class="commitment-num">4</div>
+            <div class="commitment-text">We also commit to: <input type="text" style="width: 100%; border: none; border-bottom: 1px solid #333; padding: 1mm;"></div>
+        </div>
 
         <div class="sigs">
             <div class="sig-field"><div class="sig-line">Parent/Guardian 1</div></div>
             <div class="sig-field"><div class="sig-line">Parent/Guardian 2</div></div>
             <div class="sig-field"><div class="sig-line">Date</div></div>
+        </div>
+
+        <div class="box" style="text-align: center; margin-top: 10mm;">
+            <strong>Print and post on your refrigerator:</strong><br>
+            "Children who feel HEARD at home are more likely to ask for HELP when they need it."
         </div>
     </div>
 </body>
