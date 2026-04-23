@@ -1,0 +1,118 @@
+- generic [ref=e12]:
+  - generic [ref=e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=e27] [cursor=pointer]:
+      - generic [ref=e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=e33] [cursor=pointer]
+  - generic [ref=e40]:
+    - combobox "Tudo" [ref=e44] [cursor=pointer]:
+      - generic [ref=e51]: Tudo
+    - combobox "Todos os anúncios" [ref=e62] [cursor=pointer]:
+      - generic [ref=e72]: Todos os anúncios
+    - generic [ref=e82]:
+      - generic [ref=e88]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=e94]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=e100]: Sueño del Bebé Zen
+        - button "Limpar" [ref=e102] [cursor=pointer]
+  - generic [ref=e105]:
+    - generic [ref=e107]:
+      - img "Foto do perfil da Página" [ref=e112]
+      - link "Sueño del Bebé Zen" [ref=e115] [cursor=pointer]:
+        - /url: https://facebook.com/61588552623994
+        - heading "Sueño del Bebé Zen" [level=1] [ref=e116]
+    - generic [ref=e117]:
+      - link "Anúncios" [ref=e118] [cursor=pointer]
+      - link "Sobre" [ref=e119] [cursor=pointer]
+  - dialog [ref=e120]:
+    - generic [ref=e121]:
+      - link [ref=e122] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=e123]: Entrar
+      - menuitem [ref=e124] [cursor=pointer]
+    - generic [ref=e126]:
+      - generic [ref=e127]:
+        - heading [level=4] [ref=e129]: Biblioteca de Anúncios
+        - menuitem [ref=e131] [cursor=pointer]:
+          - heading [level=4] [ref=e133]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=e135] [cursor=pointer]:
+          - heading [level=4] [ref=e137]: API da Biblioteca de Anúncios
+        - menuitem [ref=e139] [cursor=pointer]:
+          - heading [level=4] [ref=e141]: Conteúdo de marca
+      - separator [ref=e142]
+      - generic [ref=e143]:
+        - menuitem [ref=e145] [cursor=pointer]:
+          - heading [level=4] [ref=e147]: Status do sistema
+        - menuitem [ref=e149] [cursor=pointer]:
+          - heading [level=4] [ref=e151]: Assinar para receber atualizações por email
+        - menuitem [ref=e153] [cursor=pointer]:
+          - heading [level=4] [ref=e155]: Perguntas frequentes
+        - menuitem [ref=e157] [cursor=pointer]:
+          - heading [level=4] [ref=e159]: Sobre anúncios e uso de dados
+        - menuitem [ref=e161] [cursor=pointer]:
+          - heading [level=4] [ref=e163]: Privacidade
+        - menuitem [ref=e165] [cursor=pointer]:
+          - heading [level=4] [ref=e167]: Termos
+        - menuitem [ref=e169] [cursor=pointer]:
+          - heading [level=4] [ref=e171]: Cookies
+  - generic [ref=e172]:
+    - generic [ref=e177]:
+      - generic [ref=e185]:
+        - generic [ref=e186]:
+          - textbox "Palavra-chave" [ref=e188]
+          - button "Filtros" [ref=e192] [cursor=pointer]:
+            - generic [ref=e197]: Filtros
+          - generic [ref=e199]:
+            - generic [ref=e205]: Classificar
+            - combobox "Classificar" [ref=e210] [cursor=pointer]:
+              - generic [ref=e217]: Classificar por
+        - generic [ref=e222]:
+          - generic [ref=e223]:
+            - strong [ref=e224]: Status online
+            - text: ": Anúncios ativos"
+          - button "Remover" [ref=e225] [cursor=pointer]:
+            - generic [ref=e228]: Remover
+      - generic [ref=e233]:
+        - generic [ref=e234]:
+          - heading "Nenhum anúncio corresponde aos seus critérios de pesquisa" [level=2] [ref=e235]
+          - generic [ref=e236]: Remova ou ajuste os filtros que você aplicou para obter resultados diferentes.
+        - button "Limpar filtros" [ref=e238] [cursor=pointer]:
+          - generic [ref=e242]: Limpar filtros
+        - link "Veja dicas de pesquisa." [ref=e244] [cursor=pointer]:
+          - /url: "#"
+        - generic:
+          - list
+    - generic [ref=e246]:
+      - generic [ref=e254]: Status do sistema
+      - generic [ref=e258]:
+        - list [ref=e259]:
+          - listitem [ref=e260]:
+            - heading "API da Biblioteca de Anúncios" [level=3] [ref=e261]:
+              - link "API da Biblioteca de Anúncios" [ref=e262] [cursor=pointer]:
+                - /url: /ads/library/api/?source=archive-landing-page
+          - listitem [ref=e263]:
+            - heading "Sobre anúncios e uso de dados" [level=3] [ref=e264]:
+              - link "Sobre anúncios e uso de dados" [ref=e265] [cursor=pointer]:
+                - /url: /ads/about/?entry_product=ad_library
+          - listitem [ref=e266]:
+            - heading "Privacidade" [level=3] [ref=e267]:
+              - link "Privacidade" [ref=e268] [cursor=pointer]:
+                - /url: /privacy/center/?entry_point=privacy_basics_redirect
+          - listitem [ref=e269]:
+            - heading "Termos" [level=3] [ref=e270]:
+              - link "Termos" [ref=e271] [cursor=pointer]:
+                - /url: /policies/
+          - listitem [ref=e272]:
+            - heading "Cookies" [level=3] [ref=e273]:
+              - link "Cookies" [ref=e274] [cursor=pointer]:
+                - /url: /policies/cookies/
+        - heading "Meta © 2026 | Português (Brasil)" [level=3] [ref=e276]:
+          - text: Meta © 2026 |
+          - link "Português (Brasil)" [ref=e277] [cursor=pointer]:
+            - /url: /language/
