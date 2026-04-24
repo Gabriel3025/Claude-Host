@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Script Automático: Vídeo → Áudio → Transcrição
 Para Canal Dark - Análise de Narração
@@ -8,6 +9,10 @@ import os
 import sys
 import subprocess
 from pathlib import Path
+
+# Fix encoding no Windows
+import io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 def process_video(video_path):
     """Processa vídeo: extrai áudio e transcreve com Whisper"""
@@ -60,7 +65,7 @@ def process_video(video_path):
         cmd_whisper = [
             "whisper",
             str(audio_file),
-            "--output_format", "vtt,json",
+            "--output_format", "all",
             "--output_dir", str(output_dir),
             "--language", "pt",
             "--model", "base"
