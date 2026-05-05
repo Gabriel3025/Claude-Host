@@ -1,0 +1,174 @@
+═══════════════════════════════════════════════════════════════════════════════════════════════════════
+SCRIPT PARA GERAR LANDING PAGE — Dra. Renata Rossato
+═══════════════════════════════════════════════════════════════════════════════════════════════════════
+
+COPIE TODO O CONTEÚDO ABAIXO E COLE EM UMA IA (ChatGPT, Claude, etc.)
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════
+
+Preciso que você gere um esboço de landing page profissional e sofisticada para uma médica especialista em dor crônica. Abaixo estão TODOS os detalhes:
+
+---
+
+🎯 INFORMAÇÕES DO CLIENTE
+
+Nome: Dra. Renata Rossato
+Especialidade: Médica da Dor Crônica
+Lema: "Tratamento humanizado para controle da dor e mais qualidade de vida"
+Credenciais: CRM 4359 | RQE 2580
+Localização: Av. Joaquim Teotônio Segurado, 13 - 302, Plano Diretor Sul, Palmas - TO
+Atendimento: Presencial (Palmas) + Online (Brasil e exterior)
+WhatsApp: +55 63 99209-2431
+
+---
+
+🎯 FOCO PRINCIPAL: MÉTODO SOLIEVO
+
+O método SOLIEVO é o grande diferencial. É uma abordagem integrada para resolver dor crônica de forma PERMANENTE, não apenas alívio temporário.
+
+OS 5 PILARES INTEGRADOS DO SOLIEVO:
+1. Infiltrações — procedimentos diretos nos pontos de dor
+2. Tecnologia — equipamentos e procedimentos avançados
+3. Medicamentos — prescrição especializada e otimizada
+4. Reabilitação — fisioterapia especializada pós-tratamento
+5. Emagrecimento — acompanhamento médico quando necessário
+
+Princípio: Tratar as REAIS CAUSAS da dor, não apenas o local. Identifica compensações do corpo que viraram gatilhos.
+
+---
+
+🎯 O PRODUTO: DIAGNÓSTICO DE PRECISÃO
+
+Investimento: R$ 950,00
+Duração: ~2 horas
+Formato: 3 etapas estruturadas
+
+ETAPA 01 — TRIAGEM PERSONALIZADA
+- Realizada pela equipe de enfermagem 1 dia antes
+- Coleta detalhada do histórico e contexto
+- Prepara diagnóstico mais preciso
+
+ETAPA 02 — DIAGNÓSTICO CLÍNICO E FÍSICO DETALHADO
+- Exame físico profundo
+- Mapeamento dos "pilares da dor" (causas raízes)
+- Análise das compensações do corpo
+
+ETAPA 03 — PLANO SOLIEVO PERSONALIZADO
+- Criação de plano integrado (infiltrações + tecnologia + medicamentos + reabilitação)
+- 100% personalizado
+- Acompanhamento ~3 meses com equipe multidisciplinar
+
+Diferencial: "Cada dor é única. Por isso, cada tratamento também precisa ser."
+
+---
+
+🎯 PÚBLICO-ALVO
+
+- Pessoas com dor crônica (coluna, articulações, neuropática, etc.)
+- Já tentaram tratamentos convencionais SEM SUCESSO
+- Buscam SOLUÇÃO DEFINITIVA, não alívio temporário
+- Valorizam humanidade + competência técnica
+- Dispostos a investir em qualidade (R$ 950,00 = marca de premium)
+- Podem ser presenciais em Palmas ou online
+
+---
+
+🎯 TONE OF VOICE
+
+- Sofisticada + Funcional
+- Profissional mas humanizada
+- Direta no propósito
+- Acolhimento genuíno (não invasivo)
+- Posição de parceria na jornada do paciente
+
+---
+
+🎯 ESTRUTURA SOLICITADA DA LANDING PAGE
+
+Gere em HTML/CSS ou descreva em markdown. Inclua:
+
+1. HERO SECTION
+   - Headline principal: foco em "Dor Crônica | Solução Definitiva com Método SOLIEVO"
+   - Subheadline: "Diagnóstico de precisão + tratamento integrado"
+   - CTA principal: "Agendar Diagnóstico de Precisão" (R$ 950,00)
+   - Espaço para foto da Dra. Renata
+
+2. SEÇÃO PROBLEMA
+   - Contar a frustração: tentou tudo, remédios temporários, fisio que não funciona
+   - "Porque tratar apenas o sintoma não resolve a causa"
+
+3. SEÇÃO SOLIEVO — OS 5 PILARES
+   - Cards/ícones para cada pilar (Infiltrações, Tecnologia, Medicamentos, Reabilitação, Emagrecimento)
+   - Breve descrição de cada um
+   - Destaque: "Abordagem integrada, não isolada"
+
+4. SEÇÃO AS 3 ETAPAS
+   - Timeline visual (Triagem → Diagnóstico → Plano)
+   - Breve descrição de cada etapa
+
+5. SEÇÃO SOBRE DRA. RENATA
+   - Bio breve (expert em dor crônica, referência nacional)
+   - Credenciais (CRM, RQE, anos de experiência)
+   - Filosofia: "Tratamento humanizado para controle da dor e mais qualidade de vida"
+
+6. SEÇÃO MODALIDADES
+   - Presencial em Palmas / Online
+   - "Mesma qualidade em ambas modalidades"
+
+7. SEÇÃO INVESTIMENTO
+   - Valor: R$ 950,00
+   - 3 opções de pagamento:
+     * À vista: R$ 950,00 (PIX ou Dinheiro)
+     * Sinal+Restante: R$ 475,00 + R$ 475,00
+     * Parcelado: 2x R$ 475,00 (cartão)
+   - O que inclui: Triagem + diagnóstico + plano personalizado + ~3 meses acompanhamento
+
+8. CTA SECUNDÁRIO
+   - Botão WhatsApp: +55 63 99209-2431
+   - Form de contato (opcional)
+
+9. FOOTER
+   - Dados da clínica
+   - Endereço: Av. Joaquim Teotônio Segurado, 13 - 302, Palmas - TO
+   - Credenciais: CRM 4359 | RQE 2580
+
+---
+
+🎯 RECOMENDAÇÕES DE DESIGN
+
+Paleta de cores:
+- Primária: Azul escuro ou preto (confiabilidade, seriedade médica)
+- Secundária: Ouro/dourado suave (sofisticação, premium)
+- Branco/off-white (limpeza, saúde)
+- Acentos: Verde (recovery) ou azul claro (confiança)
+
+Tipografia:
+- Headlines: Serif elegante ou sans-serif moderno
+- Body: Sans-serif limpa (legibilidade)
+
+Layout:
+- Responsivo (mobile-first)
+- Scroll smooth
+- Seções bem definidas
+- Espaçamento generoso
+
+---
+
+🎯 IMPORTANTE
+
+- Foco TOTAL no método SOLIEVO como diferencial
+- Posicionar Dra. Renata como EXPERT (não apenas "uma médica")
+- Tom humanizado mas profissional (acolhimento, não invasão)
+- Deixar claro que é uma SOLUÇÃO, não um alívio temporário
+- Incluir CTA em múltiplos pontos da página
+
+---
+
+Pode gerar em:
+[ ] HTML + CSS (estilo profissional)
+[ ] Markdown estruturado
+[ ] Descrição de seções + conteúdo
+
+Obrigado!
+
+═══════════════════════════════════════════════════════════════════════════════════════════════════════
