@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Báu de Sala - Indicadores de Bullying</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Nunito+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Nunito Sans', sans-serif; background: #f5f5f0; padding: 20px; }
+
+    /* Color System */
+    :root {
+      --primary: #4A5FD5;
+      --primary-light: #7B8FE0;
+      --primary-dark: #2D3A8A;
+      --secondary-green: #2ECC71;
+      --secondary-purple: #9B59B6;
+      --accent-gold: #FFD700;
+      --light-bg: #F9F8F7;
+      --light-border: #E8E5E0;
+      --dark-bg: #1A1818;
+      --text-dark: #2A2825;
+      --text-light: rgba(255,255,255,0.85);
+    }
+
+    /* Typography */
+    .serif { font-family: 'Lora', serif; }
+    .sans { font-family: 'Nunito Sans', sans-serif; }
+
+    .ig-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .ig-frame {
+      width: 420px;
+      background: #000;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .ig-header {
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .ig-avatar {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      color: #fff;
+      font-size: 14px;
+    }
+
+    .ig-user-info h3 {
+      font-size: 12px;
+      color: #fff;
+      margin-bottom: 2px;
+      font-weight: 600;
+    }
+
+    .ig-user-info p {
+      font-size: 11px;
+      color: rgba(255,255,255,0.6);
+    }
+
+    .carousel-viewport {
+      width: 420px;
+      height: 525px;
+      aspect-ratio: 4/5;
+      overflow: hidden;
+      background: var(--light-bg);
+      position: relative;
+    }
+
+    .carousel-track {
+      display: flex;
+      transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      width: 100%;
+      height: 100%;
+    }
+
+    .slide {
+      flex: 0 0 100%;
+      width: 420px;
+      height: 525px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      padding: 0 36px 60px;
+      overflow: hidden;
+    }
+
+    /* Slide Backgrounds */
+    .slide.light { background: var(--light-bg); color: var(--text-dark); }
+    .slide.dark { background: var(--dark-bg); color: var(--text-light); }
+    .slide.gradient {
+      background: linear-gradient(165deg, var(--primary-dark) 0%, var(--primary) 50%, var(--primary-light) 100%);
+      color: #fff;
+    }
+
+    /* Content */
+    .slide-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      padding-top: 40px;
+      z-index: 2;
+    }
+
+    .slide-content.centered {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    /* Hero/Cover Slide */
+    .slide-hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px 36px 60px;
+      gap: 20px;
+    }
+
+    .hero-logo {
+      width: 80px;
+      height: 80px;
+      background: var(--primary);
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero-title {
+      font-family: 'Lora', serif;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--text-dark);
+      margin-bottom: 10px;
+    }
+
+    .hero-subtitle {
+      font-size: 14px;
+      color: var(--primary);
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .hero-highlight {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--primary-dark);
+      background: linear-gradient(120deg, rgba(74, 95, 213, 0.1), rgba(46, 204, 113, 0.1));
+      padding: 16px 20px;
+      border-radius: 12px;
+      border: 1px solid var(--light-border);
+    }
+
+    /* Indicator Slides */
+    .indicator-icon {
+      font-size: 42px;
+      margin-bottom: 16px;
+    }
+
+    .indicator-title {
+      font-family: 'Lora', serif;
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+
+    .slide.dark .indicator-title {
+      color: #fff;
+    }
+
+    .indicator-list {
+      font-size: 13px;
+      line-height: 1.6;
+      list-style: none;
+    }
+
+    .indicator-list li {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+    }
+
+    .indicator-list li:before {
+      content: "•";
+      color: var(--primary);
+      font-weight: bold;
+      margin-right: 4px;
+      flex-shrink: 0;
+    }
+
+    .slide.dark .indicator-list li:before {
+      color: var(--secondary-green);
+    }
+
+    /* CTA Slide */
+    .cta-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 20px;
+      padding: 20px 0;
+    }
+
+    .cta-title {
+      font-family: 'Lora', serif;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.2;
+      color: #fff;
+    }
+
+    .cta-description {
+      font-size: 13px;
+      color: rgba(255,255,255,0.8);
+      line-height: 1.5;
+    }
+
+    .cta-call {
+      font-size: 15px;
+      font-weight: 600;
+      color: rgba(255,255,255,0.9);
+      margin: 10px 0;
+      font-style: italic;
+    }
+
+    .cta-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 32px;
+      background: var(--light-bg);
+      color: var(--primary-dark);
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      border-radius: 28px;
+      margin-top: 12px;
+      cursor: pointer;
+      border: none;
+      transition: transform 0.2s;
+    }
+
+    .cta-button:hover {
+      transform: scale(1.05);
+    }
+
+    /* Progress Bar */
+    .progress-bar {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 16px 28px 20px;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .progress-track {
+      flex: 1;
+      height: 3px;
+      background: currentColor;
+      opacity: 0.1;
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: currentColor;
+      border-radius: 2px;
+      transition: width 0.4s ease;
+    }
+
+    .progress-text {
+      font-size: 11px;
+      font-weight: 500;
+      opacity: 0.3;
+    }
+
+    /* Swipe Arrow */
+    .swipe-arrow {
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 48px;
+      z-index: 9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(to right, transparent, currentColor);
+      opacity: 0.06;
+      pointer-events: none;
+    }
+
+    .swipe-arrow svg {
+      width: 24px;
+      height: 24px;
+      stroke: currentColor;
+      opacity: 0.3;
+    }
+
+    /* Controls */
+    .carousel-controls {
+      padding: 16px;
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+    }
+
+    .carousel-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.3);
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .carousel-dot.active {
+      background: #fff;
+    }
+
+    .ig-footer {
+      padding: 12px 16px;
+      font-size: 11px;
+      color: rgba(255,255,255,0.6);
+      border-top: 1px solid rgba(255,255,255,0.1);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="ig-container">
+    <div class="ig-frame">
+      <div class="ig-header">
+        <div class="ig-avatar">📚</div>
+        <div class="ig-user-info">
+          <h3>@baudeSala</h3>
+          <p>Dinâmicas & Gamificação</p>
+        </div>
+      </div>
+
+      <div class="carousel-viewport">
+        <div class="carousel-track" id="track">
+          <!-- Slide 1: Hero -->
+          <div class="slide light">
+            <div class="slide-hero">
+              <div class="hero-logo">🎓</div>
+              <div class="hero-subtitle">Educação & Proteção</div>
+              <div class="hero-title">Sinais que não podemos ignorar</div>
+              <p style="font-size: 14px; color: #666; margin-bottom: 10px;">Indicadores de bullying em sala de aula</p>
+              <div class="hero-highlight">💙 Proteja quem você ama</div>
+            </div>
+            <div class="progress-bar" style="color: #333;">
+              <div class="progress-track"><div class="progress-fill" style="width: 14.28%;"></div></div>
+              <span class="progress-text">1/7</span>
+            </div>
+            <div class="swipe-arrow" style="color: #333;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                <path d="M9 6l6 6-6 6"></path>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Slide 2: Isolamento Social -->
+          <div class="slide light">
+            <div class="slide-content">
+              <div class="indicator-icon">🚫</div>
+              <div class="indicator-title">Isolamento Social</div>
+              <ul class="indicator-list">
+                <li>Afasta-se de amigos sem motivo</li>
+                <li>Fica sozinho na hora do recreio</li>
+                <li>Recusa participar de atividades em grupo</li>
+                <li>Sem conexões na turma</li>
+              </ul>
+            </div>
+            <div class="progress-bar" style="color: #333;">
+              <div class="progress-track"><div class="progress-fill" style="width: 28.57%;"></div></div>
+              <span class="progress-text">2/7</span>
+            </div>
+            <div class="swipe-arrow" style="color: #333;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                <path d="M9 6l6 6-6 6"></path>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Slide 3: Mudanças no Comportamento -->
+          <div class="slide dark">
+            <div class="slide-content">
+              <div class="indicator-icon">⚡</div>
+              <div class="indicator-title">Mudanças no Comportamento</div>
+              <ul class="indicator-list">
+                <li>Agressividade ou passividade extrema</li>
+                <li>Ansiedade ao chegar na escola</li>
+                <li>Chora sem motivo aparente</li>
+                <li>Medo de encontrar colegas</li>
+              </ul>
+            </div>
+            <div class="progress-bar" style="color: #fff;">
+              <div class="progress-track"><div class="progress-fill" style="width: 42.86%;"></div></div>
+              <span class="progress-text">3/7</span>
+            </div>
+            <div class="swipe-arrow" style="color: #fff;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                <path d="M9 6l6 6-6 6"></path>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Slide 4: Sinais Físicos -->
+          <div class="slide light">
+            <div class="slide-content">
+              <div class="indicator-icon">🛡️</div>
+              <div class="indicator-title">Sinais Físicos</div>
+              <ul class="indicator-list">
+                <li>Roupas rasgadas ou manchadas</li>
+                <li>Machucados/hematomas frequentes</li>
+                <li>Recusa em fazer educação física</li>
+                <li>Cansaço excessivo e dores</li>
+              </ul>
+            </div>
+            <div class="progress-bar" style="color: #333;">
+              <div class="progress-track"><div class="progress-fill" style="width: 57.14%;"></div></div>
+              <span class="progress-text">4/7</span>
+            </div>
+            <div class="swipe-arrow" style="color: #333;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                <path d="M9 6l6 6-6 6"></path>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Slide 5: Desempenho Acadêmico -->
+          <div class="slide dark">
+            <div class="slide-content">
+              <div class="indicator-icon">📚</div>
+              <div class="indicator-title">Desempenho Acadêmico</div>
+              <ul class="indicator-list">
+                <li>Queda repentina nas notas</li>
+                <li>Dificuldade de concentração</li>
+                <li>Recusa em fazer lições de casa</li>
+                <li>Absenteeísmo frequente</li>
+              </ul>
+            </div>
+            <div class="progress-bar" style="color: #fff;">
+              <div class="progress-track"><div class="progress-fill" style="width: 71.43%;"></div></div>
+              <span class="progress-text">5/7</span>
+            </div>
+            <div class="swipe-arrow" style="color: #fff;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                <path d="M9 6l6 6-6 6"></path>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Slide 6: Sinais Emocionais -->
+          <div class="slide light">
+            <div class="slide-content">
+              <div class="indicator-icon">💔</div>
+              <div class="indicator-title">Sinais Emocionais</div>
+              <ul class="indicator-list">
+                <li>Fala negativa sobre si mesmo</li>
+                <li>Baixa autoestima</li>
+                <li>Expressões de culpa injustificada</li>
+                <li>Desejo de "sumir" ou não ir à escola</li>
+              </ul>
+            </div>
+            <div class="progress-bar" style="color: #333;">
+              <div class="progress-track"><div class="progress-fill" style="width: 85.71%;"></div></div>
+              <span class="progress-text">6/7</span>
+            </div>
+            <div class="swipe-arrow" style="color: #333;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                <path d="M9 6l6 6-6 6"></path>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Slide 7: CTA -->
+          <div class="slide gradient">
+            <div class="cta-content">
+              <div style="font-size: 56px;">💙</div>
+              <div class="cta-title">Se você identificou esses sinais</div>
+              <div class="cta-description">A empatia e a escuta são o primeiro passo para ajudar.</div>
+              <div class="cta-call">Conheça dinâmicas que promovem inclusão e segurança emocional</div>
+              <button class="cta-button">Abra o Baú</button>
+            </div>
+            <div class="progress-bar" style="color: #fff;">
+              <div class="progress-track"><div class="progress-fill" style="width: 100%;"></div></div>
+              <span class="progress-text">7/7</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-controls">
+        <div class="carousel-dot active" data-index="0"></div>
+        <div class="carousel-dot" data-index="1"></div>
+        <div class="carousel-dot" data-index="2"></div>
+        <div class="carousel-dot" data-index="3"></div>
+        <div class="carousel-dot" data-index="4"></div>
+        <div class="carousel-dot" data-index="5"></div>
+        <div class="carousel-dot" data-index="6"></div>
+      </div>
+
+      <div class="ig-footer">
+        Swipe para explorar • @baudeSala
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const track = document.getElementById('track');
+    const dots = document.querySelectorAll('.carousel-dot');
+    const viewport = document.querySelector('.carousel-viewport');
+    let currentIndex = 0;
+    let isDragging = false;
+    let startX = 0;
+    let currentX = 0;
+
+    function goToSlide(index) {
+      currentIndex = index;
+      track.style.transform = `translateX(${-index * 420}px)`;
+      dots.forEach((dot, i) => {
+        dot.classList.toggle('active', i === index);
+      });
+    }
+
+    viewport.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      startX = e.clientX;
+    });
+
+    viewport.addEventListener('mousemove', (e) => {
+      if (!isDragging) return;
+      currentX = e.clientX;
+    });
+
+    viewport.addEventListener('mouseup', () => {
+      isDragging = false;
+      const diff = startX - currentX;
+      if (Math.abs(diff) > 50) {
+        if (diff > 0 && currentIndex < 6) {
+          goToSlide(currentIndex + 1);
+        } else if (diff < 0 && currentIndex > 0) {
+          goToSlide(currentIndex - 1);
+        }
+      }
+    });
+
+    viewport.addEventListener('touchstart', (e) => {
+      startX = e.touches[0].clientX;
+    });
+
+    viewport.addEventListener('touchend', (e) => {
+      const endX = e.changedTouches[0].clientX;
+      const diff = startX - endX;
+      if (Math.abs(diff) > 50) {
+        if (diff > 0 && currentIndex < 6) {
+          goToSlide(currentIndex + 1);
+        } else if (diff < 0 && currentIndex > 0) {
+          goToSlide(currentIndex - 1);
+        }
+      }
+    });
+
+    dots.forEach((dot, index) => {
+      dot.addEventListener('click', () => goToSlide(index));
+    });
+  </script>
+</body>
+</html>
