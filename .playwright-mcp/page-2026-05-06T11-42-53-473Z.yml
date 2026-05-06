@@ -1,0 +1,86 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]: 📚
+    - generic [ref=e6]:
+      - heading "@baudeSala" [level=3] [ref=e7]
+      - paragraph [ref=e8]: Dinâmicas & Gamificação
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - generic [ref=e13]: 🎓
+        - generic [ref=e14]: Educação & Proteção
+        - generic [ref=e15]: Sinais que não podemos ignorar
+        - paragraph [ref=e16]: Indicadores de bullying em sala de aula
+        - generic [ref=e17]: 💙 Proteja quem você ama
+      - generic [ref=e21]: 1/7
+      - generic:
+        - img
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: 🚫
+        - generic [ref=e25]: Isolamento Social
+        - list [ref=e26]:
+          - listitem [ref=e27]: • Afasta-se de amigos sem motivo
+          - listitem [ref=e28]: • Fica sozinho na hora do recreio
+          - listitem [ref=e29]: • Recusa participar de atividades em grupo
+          - listitem [ref=e30]: • Sem conexões na turma
+      - generic [ref=e34]: 2/7
+      - generic:
+        - img
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]: ⚡
+        - generic [ref=e38]: Mudanças no Comportamento
+        - list [ref=e39]:
+          - listitem [ref=e40]: • Agressividade ou passividade extrema
+          - listitem [ref=e41]: • Ansiedade ao chegar na escola
+          - listitem [ref=e42]: • Chora sem motivo aparente
+          - listitem [ref=e43]: • Medo de encontrar colegas
+      - generic [ref=e47]: 3/7
+      - generic:
+        - img
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - generic [ref=e50]: 🛡️
+        - generic [ref=e51]: Sinais Físicos
+        - list [ref=e52]:
+          - listitem [ref=e53]: • Roupas rasgadas ou manchadas
+          - listitem [ref=e54]: • Machucados/hematomas frequentes
+          - listitem [ref=e55]: • Recusa em fazer educação física
+          - listitem [ref=e56]: • Cansaço excessivo e dores
+      - generic [ref=e60]: 4/7
+      - generic:
+        - img
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - generic [ref=e63]: 📚
+        - generic [ref=e64]: Desempenho Acadêmico
+        - list [ref=e65]:
+          - listitem [ref=e66]: • Queda repentina nas notas
+          - listitem [ref=e67]: • Dificuldade de concentração
+          - listitem [ref=e68]: • Recusa em fazer lições de casa
+          - listitem [ref=e69]: • Absenteeísmo frequente
+      - generic [ref=e73]: 5/7
+      - generic:
+        - img
+    - generic [ref=e74]:
+      - generic [ref=e75]:
+        - generic [ref=e76]: 💔
+        - generic [ref=e77]: Sinais Emocionais
+        - list [ref=e78]:
+          - listitem [ref=e79]: • Fala negativa sobre si mesmo
+          - listitem [ref=e80]: • Baixa autoestima
+          - listitem [ref=e81]: • Expressões de culpa injustificada
+          - listitem [ref=e82]: • Desejo de "sumir" ou não ir à escola
+      - generic [ref=e86]: 6/7
+      - generic:
+        - img
+    - generic [ref=e87]:
+      - generic [ref=e88]:
+        - generic [ref=e89]: 💙
+        - generic [ref=e90]: Se você identificou esses sinais
+        - generic [ref=e91]: A empatia e a escuta são o primeiro passo para ajudar.
+        - generic [ref=e92]: Conheça dinâmicas que promovem inclusão e segurança emocional
+        - button "Abra o Baú" [ref=e93] [cursor=pointer]
+      - generic [ref=e97]: 7/7
+  - generic [ref=e106]: Swipe para explorar • @baudeSala
