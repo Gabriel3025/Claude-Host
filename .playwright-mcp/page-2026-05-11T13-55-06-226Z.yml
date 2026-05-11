@@ -1,0 +1,68 @@
+- generic [ref=e2]:
+  - heading "Sign up" [level=1] [ref=e3]
+  - generic [ref=e6]:
+    - generic [ref=e10]:
+      - generic [ref=e12]:
+        - figure [ref=e14]:
+          - img "login panel carousel picture" [ref=e16]
+        - heading "Create stunning videos online with unlimited possibilities" [level=2] [ref=e17]:
+          - strong [ref=e18]: Create stunning videos online
+          - text: with unlimited possibilities
+        - paragraph [ref=e19]: Craft masterpieces with keyframes, speed curves, and more! From novices to experts, we empower your creativity.
+      - generic [ref=e21]:
+        - figure [ref=e23]:
+          - img [ref=e25]
+        - heading [level=2] [ref=e26]:
+          - strong [ref=e27]: Make high-quality images effortlessly
+        - paragraph [ref=e28]: Top features at your fingertips! Craft multi-page designs, enjoy smart color themes, and resize your pages smoothly.
+      - generic [ref=e30]:
+        - figure [ref=e32]:
+          - img [ref=e34]
+        - heading [level=2] [ref=e35]:
+          - strong [ref=e36]: Millions of video and image templates
+          - text: for all your design needs
+        - paragraph [ref=e37]: Find your perfect template from millions available - designed for social promotions, vlogs, lifestyle showcases, and more.
+      - generic [ref=e39]:
+        - figure [ref=e41]:
+          - img [ref=e43]
+        - heading [level=2] [ref=e44]:
+          - strong [ref=e45]: "Magic tools: smartly edit and process"
+          - text: your footage
+        - paragraph [ref=e46]: Discover the effortless route to polished content with our cutout, upscaler, and automatic image generation tools.
+      - generic [ref=e48]:
+        - figure [ref=e50]:
+          - img [ref=e52]
+        - heading [level=2] [ref=e53]:
+          - strong [ref=e54]: Share and review projects with your team
+          - text: in real time
+        - paragraph [ref=e55]: Cloud collaboration for efficient teamwork; share projects instantly for fast reviews and quick presentation.
+    - generic [ref=e74]:
+      - img "CapCut logo" [ref=e75]
+      - generic [ref=e76]:
+        - heading "Welcome to CapCut" [level=2] [ref=e77]
+        - generic [ref=e78]: Sign up to unlock all features
+        - generic [ref=e79]:
+          - generic [ref=e84]:
+            - button "Continue with Google" [active] [ref=e86] [cursor=pointer]:
+              - generic [ref=e88]:
+                - img [ref=e90]
+                - generic [ref=e97]: Continue with Google
+            - iframe [ref=e98]:
+              - button "Continue with Google. Opens in new tab" [ref=f1e3] [cursor=pointer]:
+                - generic [ref=f1e5]:
+                  - img [ref=f1e7]
+                  - generic [ref=f1e14]: Continue with Google
+          - generic [ref=e106] [cursor=pointer]: Continue with TikTok
+          - generic [ref=e112] [cursor=pointer]: Continue with Facebook
+        - generic [ref=e116] [cursor=pointer]: Continue with CapCut Mobile
+        - generic [ref=e118]: OR
+        - generic [ref=e120]:
+          - textbox "Enter email" [ref=e122]
+          - button "Continue" [ref=e123] [cursor=pointer]
+      - generic [ref=e124]:
+        - text: By clicking Continue, you accept our
+        - link "Terms of Service" [ref=e125] [cursor=pointer]:
+          - /url: /clause/terms-of-service?store_region=br&lang=en
+        - text: and
+        - link "Privacy Policy" [ref=e126] [cursor=pointer]:
+          - /url: /clause/privacy-policy?store_region=br&lang=en

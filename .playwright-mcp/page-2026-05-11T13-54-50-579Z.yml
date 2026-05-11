@@ -1,0 +1,835 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link:
+          - /url: /
+          - img [ref=e6] [cursor=pointer]
+      - navigation [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - generic [ref=e11]:
+              - text: Products
+              - img "dropdown-icon" [ref=e12]
+          - listitem [ref=e14]:
+            - generic [ref=e15]:
+              - text: AI tools
+              - generic [ref=e16]: Hot
+              - img "dropdown-icon" [ref=e17]
+          - listitem [ref=e19]:
+            - generic [ref=e20]:
+              - text: Solutions
+              - img "dropdown-icon" [ref=e21]
+          - listitem [ref=e23]:
+            - generic [ref=e24]:
+              - text: Resources
+              - img "dropdown-icon" [ref=e25]
+      - navigation [ref=e27]:
+        - list [ref=e28]:
+          - listitem [ref=e29]:
+            - button "Sign in" [ref=e30] [cursor=pointer]: Sign in
+  - main [ref=e31]:
+    - generic [ref=e32]:
+      - list [ref=e33]:
+        - listitem [ref=e34]:
+          - heading "Online creative suite for everyone to create stunning videos" [level=2] [ref=e35]:
+            - text: Online creative suite for everyone to
+            - strong [ref=e36]: create stunning videos
+          - generic:
+            - img "create stunning videos"
+        - listitem [ref=e37]:
+          - heading "Online creative suite for everyone to make high-quality images" [level=2] [ref=e38]:
+            - text: Online creative suite for everyone to
+            - strong [ref=e39]: make high-quality images
+          - generic:
+            - img "make high-quality images"
+        - listitem [ref=e40]:
+          - heading "Online creative suite for everyone to start with templates" [level=2] [ref=e41]:
+            - text: Online creative suite for everyone to
+            - strong [ref=e42]: start with templates
+          - generic:
+            - img "start with templates"
+        - listitem [ref=e43]:
+          - heading "Online creative suite for everyone to simplify workflow with AI" [level=2] [ref=e44]:
+            - text: Online creative suite for everyone to
+            - strong [ref=e45]: simplify workflow with AI
+          - generic:
+            - img "simplify workflow with AI"
+        - listitem [ref=e46]:
+          - heading "Online creative suite for everyone to collaborate with team" [level=2] [ref=e47]:
+            - text: Online creative suite for everyone to
+            - strong [ref=e48]: collaborate with team
+          - generic:
+            - img "collaborate with team"
+      - paragraph [ref=e49]:
+        - strong [ref=e50]: CapCut
+        - text: is more than your typical video editor. It’s a complete package that includes graphic design, team collaboration, and much more. With advanced
+        - strong [ref=e51]: AI
+        - text: technology infused at every turn, we’re ready to take your creative journey to the next level.
+      - button "Sign up for free" [ref=e52] [cursor=pointer]:
+        - generic [ref=e53]:
+          - img [ref=e54]
+          - generic [ref=e56]: Sign up for free
+      - generic [ref=e57]:
+        - text: "*No credit card required"
+        - list [ref=e58]:
+          - listitem [ref=e59] [cursor=pointer]
+          - listitem [ref=e60] [cursor=pointer]
+          - listitem [ref=e61] [cursor=pointer]
+          - listitem [ref=e62] [cursor=pointer]
+          - listitem [ref=e63] [cursor=pointer]
+    - generic [ref=e67]:
+      - list [ref=e68]:
+        - listitem [ref=e69] [cursor=pointer]:
+          - heading "Online video editor" [level=3] [ref=e71]
+        - listitem [ref=e72] [cursor=pointer]:
+          - heading "Online image editor" [level=3] [ref=e74]
+      - list [ref=e76]:
+        - listitem [ref=e77]:
+          - generic [ref=e78]:
+            - heading "Online video editor. Lightweight, yet powerful." [level=2] [ref=e79]:
+              - text: Online video editor.
+              - strong [ref=e80]: Lightweight, yet powerful.
+            - paragraph [ref=e81]: The best all-in-one online video editor that will take your content to the next level.
+          - generic [ref=e85]:
+            - generic [ref=e89] [cursor=pointer]:
+              - img [ref=e91]
+              - heading [level=3] [ref=e92]: Auto captions
+              - paragraph [ref=e93]: Instantly generate captions from videos for free.
+            - generic [ref=e97] [cursor=pointer]:
+              - img [ref=e99]
+              - heading [level=3] [ref=e100]: Music and sound effects
+            - generic [ref=e104] [cursor=pointer]:
+              - img [ref=e106]
+              - heading [level=3] [ref=e107]: Edit with multiple tracks
+            - generic [ref=e111] [cursor=pointer]:
+              - img [ref=e113]
+              - heading "Crop, trim, and resize" [level=3] [ref=e114]
+              - paragraph: Crop, trim, split, and resize videos without compromising on quality.
+            - generic [ref=e118] [cursor=pointer]:
+              - img [ref=e120]
+              - heading "Remove background" [level=3] [ref=e121]
+              - paragraph: Automatically remove background from videos and images without losing quality.
+            - generic [ref=e125] [cursor=pointer]:
+              - img [ref=e127]
+              - heading "Auto captions" [level=3] [ref=e128]
+              - paragraph [ref=e129]: Instantly generate captions from videos for free.
+            - generic [ref=e133] [cursor=pointer]:
+              - img [ref=e135]
+              - heading "Music and sound effects" [level=3] [ref=e136]
+              - paragraph: Give your videos an energy boost with our rich library of royalty-free music and sound effects.
+            - generic [ref=e140] [cursor=pointer]:
+              - img [ref=e142]
+              - heading "Edit with multiple tracks" [level=3] [ref=e143]
+              - paragraph: Edit with unlimited video, audio, image, and text tracks.
+            - generic [ref=e147] [cursor=pointer]:
+              - img [ref=e149]
+              - heading [level=3] [ref=e150]: Crop, trim, and resize
+            - generic [ref=e154] [cursor=pointer]:
+              - img [ref=e156]
+              - heading [level=3] [ref=e157]: Remove background
+            - generic [ref=e161] [cursor=pointer]:
+              - img [ref=e163]
+              - heading [level=3] [ref=e164]: Auto captions
+              - paragraph [ref=e165]: Instantly generate captions from videos for free.
+            - generic [ref=e169] [cursor=pointer]:
+              - img [ref=e171]
+              - heading [level=3] [ref=e172]: Music and sound effects
+            - generic [ref=e176] [cursor=pointer]:
+              - img [ref=e178]
+              - heading [level=3] [ref=e179]: Edit with multiple tracks
+            - generic [ref=e183] [cursor=pointer]:
+              - img [ref=e185]
+              - heading [level=3] [ref=e186]: Crop, trim, and resize
+            - generic [ref=e190] [cursor=pointer]:
+              - img [ref=e192]
+              - heading [level=3] [ref=e193]: Remove background
+          - list [ref=e194]:
+            - listitem [ref=e195]:
+              - generic:
+                - img "Auto captions"
+            - listitem [ref=e196]:
+              - generic:
+                - img "Music and sound effects"
+            - listitem [ref=e197]:
+              - generic:
+                - img "Edit with multiple tracks"
+            - listitem [ref=e198]:
+              - generic:
+                - img "Crop, trim, and resize"
+            - listitem [ref=e199]:
+              - generic:
+                - img "Remove background"
+          - button "Edit video online" [ref=e200] [cursor=pointer]: Edit video online
+        - listitem [ref=e201]:
+          - generic [ref=e202]:
+            - heading "Online graphic design. Intelligent and innovative." [level=2] [ref=e203]:
+              - text: Online graphic design.
+              - strong [ref=e204]: Intelligent and innovative.
+            - paragraph [ref=e205]: The best graphic design tools that take your content to the next level.
+          - generic [ref=e209]:
+            - generic [ref=e213] [cursor=pointer]:
+              - img [ref=e215]
+              - heading [level=3] [ref=e216]: Multi-sized canvas
+              - paragraph [ref=e217]: One single canvas tailored for all social media platforms.
+            - generic [ref=e221] [cursor=pointer]:
+              - img [ref=e223]
+              - heading [level=3] [ref=e224]: Text templates and stickers
+            - generic [ref=e228] [cursor=pointer]:
+              - img [ref=e230]
+              - heading [level=3] [ref=e231]: Remove background
+            - generic [ref=e235] [cursor=pointer]:
+              - img [ref=e237]
+              - heading "Color theme" [level=3] [ref=e238]
+              - paragraph: Use consistent and matching colors across your entire design for a harmonious aesthetic through AI.
+            - generic [ref=e242] [cursor=pointer]:
+              - img [ref=e244]
+              - heading "Resize image" [level=3] [ref=e245]
+              - paragraph: Experience effortless designing with auto layout and image resizing tailored to your needs.
+            - generic [ref=e249] [cursor=pointer]:
+              - img [ref=e251]
+              - heading "Multi-sized canvas" [level=3] [ref=e252]
+              - paragraph [ref=e253]: One single canvas tailored for all social media platforms.
+            - generic [ref=e257] [cursor=pointer]:
+              - img [ref=e259]
+              - heading "Text templates and stickers" [level=3] [ref=e260]
+              - paragraph: Use text templates and stickers that stand out.
+            - generic [ref=e264] [cursor=pointer]:
+              - img [ref=e266]
+              - heading "Remove background" [level=3] [ref=e267]
+              - paragraph: AI removes backgrounds easily, so you can swap in literally any background you want!
+            - generic [ref=e271] [cursor=pointer]:
+              - img [ref=e273]
+              - heading [level=3] [ref=e274]: Color theme
+            - generic [ref=e278] [cursor=pointer]:
+              - img [ref=e280]
+              - heading [level=3] [ref=e281]: Resize image
+            - generic [ref=e285] [cursor=pointer]:
+              - img [ref=e287]
+              - heading [level=3] [ref=e288]: Multi-sized canvas
+              - paragraph [ref=e289]: One single canvas tailored for all social media platforms.
+            - generic [ref=e293] [cursor=pointer]:
+              - img [ref=e295]
+              - heading [level=3] [ref=e296]: Text templates and stickers
+            - generic [ref=e300] [cursor=pointer]:
+              - img [ref=e302]
+              - heading [level=3] [ref=e303]: Remove background
+            - generic [ref=e307] [cursor=pointer]:
+              - img [ref=e309]
+              - heading [level=3] [ref=e310]: Color theme
+            - generic [ref=e314] [cursor=pointer]:
+              - img [ref=e316]
+              - heading [level=3] [ref=e317]: Resize image
+          - list [ref=e318]:
+            - listitem [ref=e319]:
+              - generic:
+                - img "Multi-sized canvas"
+            - listitem [ref=e320]:
+              - generic:
+                - img "Text templates and stickers"
+            - listitem [ref=e321]:
+              - generic:
+                - img "Remove background"
+            - listitem [ref=e322]:
+              - generic:
+                - img "Color theme"
+            - listitem [ref=e323]:
+              - generic:
+                - img "Resize image"
+          - button "Create images online" [ref=e324] [cursor=pointer]: Create images online
+    - generic [ref=e325]:
+      - heading "Smart tools, work magic" [level=2] [ref=e326]:
+        - text: Smart tools,
+        - strong [ref=e327]: work magic
+      - paragraph [ref=e328]: Spark your creativity with next-generation AI technology.
+      - generic [ref=e330]:
+        - generic [ref=e332]:
+          - generic [ref=e336]:
+            - generic [ref=e337]:
+              - generic:
+                - img
+              - generic:
+                - img
+            - button [ref=e338] [cursor=pointer]: Try for free
+          - generic [ref=e342]:
+            - generic [ref=e343]:
+              - generic:
+                - img
+              - generic:
+                - img
+            - button [ref=e344] [cursor=pointer]: Try for free
+          - generic [ref=e348]:
+            - generic [ref=e349]:
+              - generic:
+                - img
+              - generic:
+                - img
+            - button [ref=e350] [cursor=pointer]: Try for free
+          - generic [ref=e354]:
+            - generic [ref=e355]:
+              - generic:
+                - img
+              - generic:
+                - img
+            - button [ref=e356] [cursor=pointer]: Try for free
+          - generic [ref=e360]:
+            - generic [ref=e361]:
+              - generic:
+                - img
+              - generic:
+                - img
+            - button [ref=e362] [cursor=pointer]: Try for free
+          - generic [ref=e366]:
+            - generic [ref=e367]:
+              - generic:
+                - img
+              - generic:
+                - img
+            - button [ref=e368] [cursor=pointer]: Try for free
+          - generic [ref=e372]:
+            - generic [ref=e373]:
+              - generic:
+                - img
+              - generic:
+                - img
+            - button [ref=e374] [cursor=pointer]: Try for free
+          - generic [ref=e378]:
+            - generic [ref=e379]:
+              - generic:
+                - img
+              - generic:
+                - img
+            - button "Try for free" [ref=e380] [cursor=pointer]: Try for free
+          - generic [ref=e384]:
+            - generic [ref=e385]:
+              - generic:
+                - img
+              - generic:
+                - img
+            - button [ref=e386] [cursor=pointer]: Try for free
+          - generic [ref=e390]:
+            - generic [ref=e391]:
+              - generic:
+                - img
+              - generic:
+                - img
+            - button [ref=e392] [cursor=pointer]: Try for free
+          - generic [ref=e396]:
+            - generic [ref=e397]:
+              - generic:
+                - img
+              - generic:
+                - img
+            - button [ref=e398] [cursor=pointer]: Try for free
+          - generic [ref=e402]:
+            - generic [ref=e403]:
+              - generic:
+                - img
+              - generic:
+                - img
+            - button [ref=e404] [cursor=pointer]: Try for free
+          - generic [ref=e408]:
+            - generic [ref=e409]:
+              - generic:
+                - img
+              - generic:
+                - img
+            - button [ref=e410] [cursor=pointer]: Try for free
+          - generic [ref=e414]:
+            - generic [ref=e415]:
+              - generic:
+                - img
+              - generic:
+                - img
+            - button [ref=e416] [cursor=pointer]: Try for free
+          - generic [ref=e420]:
+            - generic [ref=e421]:
+              - generic:
+                - img
+              - generic:
+                - img
+            - button [ref=e422] [cursor=pointer]: Try for free
+          - generic [ref=e426]:
+            - generic [ref=e427]:
+              - generic:
+                - img
+              - generic:
+                - img
+            - button [ref=e428] [cursor=pointer]: Try for free
+          - generic [ref=e432]:
+            - generic [ref=e433]:
+              - generic:
+                - img
+              - generic:
+                - img
+            - button [ref=e434] [cursor=pointer]: Try for free
+          - generic [ref=e438]:
+            - generic [ref=e439]:
+              - generic:
+                - img
+              - generic:
+                - img
+            - button [ref=e440] [cursor=pointer]: Try for free
+          - generic [ref=e444]:
+            - generic [ref=e445]:
+              - generic:
+                - img
+              - generic:
+                - img
+            - button [ref=e446] [cursor=pointer]: Try for free
+          - generic [ref=e450]:
+            - generic [ref=e451]:
+              - generic:
+                - img
+              - generic:
+                - img
+            - button [ref=e452] [cursor=pointer]: Try for free
+          - generic [ref=e456]:
+            - generic [ref=e457]:
+              - generic:
+                - img
+              - generic:
+                - img
+            - button [ref=e458] [cursor=pointer]: Try for free
+        - list [ref=e459]:
+          - listitem [ref=e460]:
+            - generic [ref=e461]:
+              - img [ref=e463]
+              - generic [ref=e464]:
+                - img [ref=e466]
+                - heading "Image upscaler" [level=3] [ref=e467]
+          - listitem [ref=e468] [cursor=pointer]:
+            - generic [ref=e469]:
+              - img [ref=e471]
+              - generic [ref=e472]:
+                - img [ref=e474]
+                - heading "Color correction" [level=3] [ref=e475]
+          - listitem [ref=e476] [cursor=pointer]:
+            - generic [ref=e477]:
+              - img [ref=e479]
+              - generic [ref=e480]:
+                - img [ref=e482]
+                - heading "Old photo restoration" [level=3] [ref=e483]
+          - listitem [ref=e484] [cursor=pointer]:
+            - generic [ref=e485]:
+              - img [ref=e487]
+              - generic [ref=e488]:
+                - img [ref=e490]
+                - heading "AI portrait generator" [level=3] [ref=e491]
+          - listitem [ref=e492] [cursor=pointer]:
+            - generic [ref=e493]:
+              - img [ref=e495]
+              - generic [ref=e496]:
+                - img [ref=e498]
+                - heading "Photo colorizer" [level=3] [ref=e499]
+          - listitem [ref=e500] [cursor=pointer]:
+            - generic [ref=e501]:
+              - img [ref=e503]
+              - generic [ref=e504]:
+                - img [ref=e506]
+                - heading "Image style transfer" [level=3] [ref=e507]
+          - listitem [ref=e508] [cursor=pointer]:
+            - generic [ref=e509]:
+              - img [ref=e511]
+              - generic [ref=e512]:
+                - img [ref=e514]
+                - heading "Low-light image enhancer" [level=3] [ref=e515]
+    - generic [ref=e516]:
+      - heading "Creative cloud and team collaboration" [level=2] [ref=e517]:
+        - text: Creative cloud and
+        - strong [ref=e518]: team collaboration
+      - paragraph [ref=e519]: Collaborate like a team. Create everything in one place.
+      - generic [ref=e520]:
+        - list:
+          - listitem:
+            - generic:
+              - img "Team management"
+          - listitem:
+            - generic:
+              - img "Cloud backup"
+          - listitem:
+            - generic:
+              - img "Manage files"
+          - listitem:
+            - generic:
+              - img "Share videos as presentation"
+          - listitem:
+            - generic:
+              - img "Share videos for review"
+        - list [ref=e521]:
+          - listitem [ref=e522]:
+            - heading "-Team management" [level=3] [ref=e523]
+            - paragraph [ref=e524]: Invite people to spaces and give them different roles and access to work together.
+          - listitem [ref=e525]:
+            - heading "+Cloud backup" [level=3] [ref=e526]
+            - paragraph: Store your materials, projects, and finished work in the spaces and share them with team members.
+          - listitem [ref=e527]:
+            - heading "+Manage files" [level=3] [ref=e528]
+            - paragraph: Manage your files in spaces easily and efficiently. Your files can be synced across your devices.
+          - listitem [ref=e529]:
+            - heading "+Share videos as presentation" [level=3] [ref=e530]
+            - paragraph: Share the link to your work to multiple platforms and present it to the world
+          - listitem [ref=e531]:
+            - heading "+Share videos for review" [level=3] [ref=e532]
+            - paragraph: Share the link to your work for review. Comment or use annotation tools to convey opinions.
+      - button "Work together" [ref=e533] [cursor=pointer]: Work together
+    - generic [ref=e534]:
+      - heading "Trusted by" [level=2] [ref=e535]
+      - list [ref=e536]:
+        - listitem:
+          - generic:
+            - img
+        - listitem:
+          - generic:
+            - img
+        - listitem:
+          - generic:
+            - img
+    - generic [ref=e537]:
+      - heading "Loved by millions of users worldwide" [level=2] [ref=e538]:
+        - text: Loved by millions of
+        - strong [ref=e539]: users worldwide
+      - list [ref=e541]:
+        - listitem [ref=e542]:
+          - generic [ref=e543]:
+            - generic [ref=e544]:
+              - generic:
+                - img
+              - generic [ref=e545]:
+                - generic [ref=e546]: Alexandra Johnson
+                - generic [ref=e547]: Content Creator
+            - paragraph [ref=e549]: I think it's very easy to use. As emm, it's very straightforward. CapCut has been a game-changer for me. Its intuitive interface and powerful features make video editing a breeze. It has saved me so much time and improved the quality of my videos.
+        - listitem [ref=e550]:
+          - generic [ref=e551]:
+            - generic [ref=e552]:
+              - generic:
+                - img
+              - generic [ref=e553]:
+                - generic [ref=e554]: Mark Garcia
+                - generic [ref=e555]: Student and Vlogger
+            - paragraph [ref=e557]: Its simplicity combined with advanced features like text animations and color grading give my vlogs a professional touch. Highly recommended!
+        - listitem [ref=e558]:
+          - generic [ref=e559]:
+            - generic [ref=e560]:
+              - generic:
+                - img
+              - generic [ref=e561]:
+                - generic [ref=e562]: Emily Williams
+                - generic [ref=e563]: Social Media Manager
+            - paragraph [ref=e565]: Easy to use. Yeah, like incredibly easy. CapCut Online has become my go-to tool for creating engaging social media content. Its wide range of templates let me experiment and create unique videos that resonate with our audience. It has truly elevated our brand's online presence.
+        - listitem [ref=e566]:
+          - generic [ref=e567]:
+            - generic [ref=e568]:
+              - generic:
+                - img
+              - generic [ref=e569]:
+                - generic [ref=e570]: Chris Thompson
+                - generic [ref=e571]: Fitness Trainer
+            - paragraph [ref=e573]: This tool has transformed the way I share workout routines with my clients. I can now add text overlays to explain exercises, and the slow-motion feature is fantastic for emphasizing form. It's great!
+        - listitem [ref=e574]:
+          - generic [ref=e575]:
+            - generic [ref=e576]:
+              - generic:
+                - img
+              - generic [ref=e577]:
+                - generic [ref=e578]: David Lee
+                - generic [ref=e579]: Small Business Owner
+            - paragraph [ref=e581]: This, I mean CapCut, has helped me create eye-catching promotional videos without the need for hiring expensive editors. The drag-and-drop interface is intuitive, and I can easily add music and captions to make my products shine.
+        - listitem [ref=e582]:
+          - generic [ref=e583]:
+            - generic [ref=e584]:
+              - generic:
+                - img
+              - generic [ref=e585]:
+                - generic [ref=e586]: Evan Smith
+                - generic [ref=e587]: DIY Enthusiast
+            - paragraph [ref=e589]: It's really good that you guys are trying to get customer feedback and taking the time to actually see the entire process of what they're doing. Its trimming and splitting tools help me showcase each step precisely.
+        - listitem [ref=e590]:
+          - generic [ref=e591]:
+            - generic [ref=e592]:
+              - generic:
+                - img
+              - generic [ref=e593]:
+                - generic [ref=e594]: Sarah Miller
+                - generic [ref=e595]: Travel Enthusiast
+            - paragraph [ref=e597]: Travel memories are precious to me! It helps me relive them through beautifully edited videos. I love it！
+        - listitem [ref=e598]:
+          - generic [ref=e599]:
+            - generic [ref=e600]:
+              - generic:
+                - img
+              - generic [ref=e601]:
+                - generic [ref=e602]: Nancy Hernandez
+                - generic [ref=e603]: Event Organizer
+            - paragraph [ref=e605]: CapCut Online's quick editing tools and built-in templates have made the process seamless. It's great for compiling event footage and adding that extra flair.
+        - listitem [ref=e606]:
+          - generic [ref=e607]:
+            - generic [ref=e608]:
+              - generic:
+                - img
+              - generic [ref=e609]:
+                - generic [ref=e610]: Gabriel Carter
+                - generic [ref=e611]: Startup Founder
+            - paragraph [ref=e613]: The business-oriented templates allow me to overlay key statistics, showcase product demos, and present our vision in a visually captivating way.
+        - listitem [ref=e614]:
+          - generic [ref=e615]:
+            - generic [ref=e616]:
+              - generic:
+                - img
+              - generic [ref=e617]:
+                - generic [ref=e618]: Sara Patel
+                - generic [ref=e619]: Cooking Enthusiast
+            - paragraph [ref=e621]: Cooking tutorial templates on CapCut Online have upped my recipe video game. emm..yeah I can overlay cooking times and ingredient lists seamlessly, making my tutorials more engaging.
+        - listitem [ref=e622]:
+          - generic [ref=e623]:
+            - generic [ref=e624]:
+              - generic:
+                - img
+              - generic [ref=e625]:
+                - generic [ref=e626]: Alexandra Johnson
+                - generic [ref=e627]: Content Creator
+            - paragraph [ref=e629]: I think it's very easy to use. As emm, it's very straightforward. CapCut has been a game-changer for me. Its intuitive interface and powerful features make video editing a breeze. It has saved me so much time and improved the quality of my videos.
+        - listitem [ref=e630]:
+          - generic [ref=e631]:
+            - generic [ref=e632]:
+              - generic:
+                - img
+              - generic [ref=e633]:
+                - generic [ref=e634]: Mark Garcia
+                - generic [ref=e635]: Student and Vlogger
+            - paragraph [ref=e637]: Its simplicity combined with advanced features like text animations and color grading give my vlogs a professional touch. Highly recommended!
+        - listitem [ref=e638]:
+          - generic [ref=e639]:
+            - generic [ref=e640]:
+              - generic:
+                - img
+              - generic [ref=e641]:
+                - generic [ref=e642]: Emily Williams
+                - generic [ref=e643]: Social Media Manager
+            - paragraph [ref=e645]: Easy to use. Yeah, like incredibly easy. CapCut Online has become my go-to tool for creating engaging social media content. Its wide range of templates let me experiment and create unique videos that resonate with our audience. It has truly elevated our brand's online presence.
+        - listitem [ref=e646]:
+          - generic [ref=e647]:
+            - generic [ref=e648]:
+              - generic:
+                - img
+              - generic [ref=e649]:
+                - generic [ref=e650]: Chris Thompson
+                - generic [ref=e651]: Fitness Trainer
+            - paragraph [ref=e653]: This tool has transformed the way I share workout routines with my clients. I can now add text overlays to explain exercises, and the slow-motion feature is fantastic for emphasizing form. It's great!
+        - listitem [ref=e654]:
+          - generic [ref=e655]:
+            - generic [ref=e656]:
+              - generic:
+                - img
+              - generic [ref=e657]:
+                - generic [ref=e658]: David Lee
+                - generic [ref=e659]: Small Business Owner
+            - paragraph [ref=e661]: This, I mean CapCut, has helped me create eye-catching promotional videos without the need for hiring expensive editors. The drag-and-drop interface is intuitive, and I can easily add music and captions to make my products shine.
+        - listitem [ref=e662]:
+          - generic [ref=e663]:
+            - generic [ref=e664]:
+              - generic:
+                - img
+              - generic [ref=e665]:
+                - generic [ref=e666]: Evan Smith
+                - generic [ref=e667]: DIY Enthusiast
+            - paragraph [ref=e669]: It's really good that you guys are trying to get customer feedback and taking the time to actually see the entire process of what they're doing. Its trimming and splitting tools help me showcase each step precisely.
+        - listitem [ref=e670]:
+          - generic [ref=e671]:
+            - generic [ref=e672]:
+              - generic:
+                - img
+              - generic [ref=e673]:
+                - generic [ref=e674]: Sarah Miller
+                - generic [ref=e675]: Travel Enthusiast
+            - paragraph [ref=e677]: Travel memories are precious to me! It helps me relive them through beautifully edited videos. I love it！
+        - listitem [ref=e678]:
+          - generic [ref=e679]:
+            - generic [ref=e680]:
+              - generic:
+                - img
+              - generic [ref=e681]:
+                - generic [ref=e682]: Nancy Hernandez
+                - generic [ref=e683]: Event Organizer
+            - paragraph [ref=e685]: CapCut Online's quick editing tools and built-in templates have made the process seamless. It's great for compiling event footage and adding that extra flair.
+        - listitem [ref=e686]:
+          - generic [ref=e687]:
+            - generic [ref=e688]:
+              - generic:
+                - img
+              - generic [ref=e689]:
+                - generic [ref=e690]: Gabriel Carter
+                - generic [ref=e691]: Startup Founder
+            - paragraph [ref=e693]: The business-oriented templates allow me to overlay key statistics, showcase product demos, and present our vision in a visually captivating way.
+        - listitem [ref=e694]:
+          - generic [ref=e695]:
+            - generic [ref=e696]:
+              - generic:
+                - img
+              - generic [ref=e697]:
+                - generic [ref=e698]: Sara Patel
+                - generic [ref=e699]: Cooking Enthusiast
+            - paragraph [ref=e701]: Cooking tutorial templates on CapCut Online have upped my recipe video game. emm..yeah I can overlay cooking times and ingredient lists seamlessly, making my tutorials more engaging.
+    - generic [ref=e702]:
+      - heading "Start your next viral video today" [level=2] [ref=e704]
+      - button "Sign up for free" [ref=e705] [cursor=pointer]: Sign up for free
+  - contentinfo [ref=e706]:
+    - generic [ref=e707]:
+      - generic [ref=e708]:
+        - heading "Your ideas deserve smarter tools" [level=2] [ref=e709]
+        - generic [ref=e711] [cursor=pointer]: English
+        - list [ref=e712]:
+          - listitem [ref=e713] [cursor=pointer]:
+            - link "TikTok" [ref=e714]:
+              - /url: https://www.tiktok.com/@capcut/
+              - img "TikTok" [ref=e715]
+          - listitem [ref=e716] [cursor=pointer]:
+            - link "YouTube" [ref=e717]:
+              - /url: https://www.youtube.com/c/CapCutofficial
+              - img "YouTube" [ref=e718]
+          - listitem [ref=e719] [cursor=pointer]:
+            - link "Instagram" [ref=e720]:
+              - /url: https://www.instagram.com/capcutapp/
+              - img "Instagram" [ref=e721]
+          - listitem [ref=e722] [cursor=pointer]:
+            - link "Facebook" [ref=e723]:
+              - /url: https://www.facebook.com/capcutapp/
+              - img "Facebook" [ref=e724]
+      - navigation "Footer Navigation Links" [ref=e725]:
+        - list [ref=e726]:
+          - listitem [ref=e727]:
+            - strong [ref=e728]: Tools
+            - list [ref=e729]:
+              - listitem [ref=e730]:
+                - link "Video translator" [ref=e731] [cursor=pointer]:
+                  - /url: /tools/video-translator
+              - listitem [ref=e732]:
+                - link "Video resizer" [ref=e733] [cursor=pointer]:
+                  - /url: /tools/video-resizer
+              - listitem [ref=e734]:
+                - link "Video cropper" [ref=e735] [cursor=pointer]:
+                  - /url: /tools/video-cropper
+              - listitem [ref=e736]:
+                - link "Keyframe animation" [ref=e737] [cursor=pointer]:
+                  - /url: /tools/keyframe-animation
+              - listitem [ref=e738]:
+                - link "Motion tracking" [ref=e739] [cursor=pointer]:
+                  - /url: /tools/motion-tracking
+              - listitem [ref=e740]:
+                - link "Green screen editor" [ref=e741] [cursor=pointer]:
+                  - /url: /tools/green-screen-editor
+              - listitem [ref=e742]:
+                - link "Vocal remover" [ref=e743] [cursor=pointer]:
+                  - /url: /tools/vocal-remover
+              - listitem [ref=e744]:
+                - link "Voice enhancer" [ref=e745] [cursor=pointer]:
+                  - /url: /tools/voice-enhancer
+              - listitem [ref=e746]:
+                - link "Voice recorder" [ref=e747] [cursor=pointer]:
+                  - /url: /tools/voice-recorder
+              - listitem [ref=e748]:
+                - link "Background noise remover" [ref=e749] [cursor=pointer]:
+                  - /url: /tools/remove-background-noise-from-audio
+          - listitem [ref=e750]:
+            - strong [ref=e751]: Create
+            - list [ref=e752]:
+              - listitem [ref=e753]:
+                - link "Animation maker" [ref=e754] [cursor=pointer]:
+                  - /url: /create/animation-maker
+              - listitem [ref=e755]:
+                - link "Video montage maker" [ref=e756] [cursor=pointer]:
+                  - /url: /create/video-montage
+              - listitem [ref=e757]:
+                - link "Credits maker" [ref=e758] [cursor=pointer]:
+                  - /url: /create/credits-maker
+              - listitem [ref=e759]:
+                - link "Stop motion video maker" [ref=e760] [cursor=pointer]:
+                  - /url: /create/stop-motion-video
+              - listitem [ref=e761]:
+                - link "Time lapse video editor" [ref=e762] [cursor=pointer]:
+                  - /url: /create/time-lapse-video-maker
+              - listitem [ref=e763]:
+                - link "Boomerang video maker" [ref=e764] [cursor=pointer]:
+                  - /url: /create/boomerang-video
+              - listitem [ref=e765]:
+                - link "Reddit video maker" [ref=e766] [cursor=pointer]:
+                  - /url: /create/reddit-video-maker
+              - listitem [ref=e767]:
+                - link "TikTok video editor" [ref=e768] [cursor=pointer]:
+                  - /url: /create/tiktok-video-editor
+              - listitem [ref=e769]:
+                - link "Make educational video" [ref=e770] [cursor=pointer]:
+                  - /url: /create/educational-video
+          - listitem [ref=e771]:
+            - strong [ref=e772]: Resource
+            - list [ref=e773]:
+              - listitem [ref=e774]:
+                - link "CapCut 3D zoom" [ref=e775] [cursor=pointer]:
+                  - /url: /resource/capcut-3d-zoom
+              - listitem [ref=e776]:
+                - link "Change background color" [ref=e777] [cursor=pointer]:
+                  - /url: /resource/how-to-change-background-color
+              - listitem [ref=e778]:
+                - link "Edit MP4 videos" [ref=e779] [cursor=pointer]:
+                  - /url: /resource/how-to-edit-mp4-videos
+              - listitem [ref=e780]:
+                - link "Edit gaming video" [ref=e781] [cursor=pointer]:
+                  - /url: /resource/how-to-edite-gaming-videos
+              - listitem [ref=e782]:
+                - link "Create makeup tutorial video" [ref=e783] [cursor=pointer]:
+                  - /url: /resource/makeup-tutorial-youtube
+              - listitem [ref=e784]:
+                - link "Make TikTok videos" [ref=e785] [cursor=pointer]:
+                  - /url: /resource/how-to-make-funny-tiktok-videos
+              - listitem [ref=e786]:
+                - link "TikTok LIVE studio" [ref=e787] [cursor=pointer]:
+                  - /url: /resource/tiktok-live-studio-download
+              - listitem [ref=e788]:
+                - link "YouTube to MP3 converter" [ref=e789] [cursor=pointer]:
+                  - /url: /resource/youtube-to-mp3-converter
+              - listitem [ref=e790]:
+                - link "YouTube video to MP4" [ref=e791] [cursor=pointer]:
+                  - /url: /resource/convert-youtube-video-to-mp4
+              - listitem [ref=e792]:
+                - link "Remove subtitles from video" [ref=e793] [cursor=pointer]:
+                  - /url: /resource/remove-subtitles-from-video
+          - listitem [ref=e794]:
+            - strong [ref=e795]: About
+            - list [ref=e796]:
+              - listitem [ref=e797]:
+                - link "Trust Center" [ref=e798] [cursor=pointer]:
+                  - /url: /trust
+              - listitem [ref=e799]:
+                - link "Terms of Service" [ref=e800] [cursor=pointer]:
+                  - /url: /clause/terms-of-service
+              - listitem [ref=e801]:
+                - link "Privacy Policy" [ref=e802] [cursor=pointer]:
+                  - /url: /clause/privacy-policy?lang=%7B%7Blocale-code%7D%7D&store_region=%7B%7Bregion-code%7D%7D
+              - listitem [ref=e803]:
+                - link "Cookies Policy" [ref=e804] [cursor=pointer]:
+                  - /url: /clause/cookies-policy
+              - listitem [ref=e805]:
+                - link "License Agreement" [ref=e806] [cursor=pointer]:
+                  - /url: /clause/material-license-agreement
+              - listitem [ref=e807]:
+                - link "Creator Terms of Service" [ref=e808] [cursor=pointer]:
+                  - /url: /clause/creator-agreement
+              - listitem [ref=e809]:
+                - link "Community Guidelines" [ref=e810] [cursor=pointer]:
+                  - /url: /clause/community-guideline
+              - listitem [ref=e811]:
+                - link "Your Privacy Choices" [ref=e812] [cursor=pointer]:
+                  - /url: /clause/privacy-policy?lang=%7B%7Blocale-code%7D%7D&store_region=%7B%7Bregion-code%7D%7D
+    - img [ref=e813]
+    - generic [ref=e815]:
+      - list
+      - list [ref=e816]:
+        - listitem [ref=e817]:
+          - link "Pippit AI" [ref=e818] [cursor=pointer]:
+            - /url: https://www.pippit.ai/?utm_medium=ccweb&utm_source=ccwebsite&utm_campaign=footer
+        - listitem [ref=e819]:
+          - link "SoundOn" [ref=e820] [cursor=pointer]:
+            - /url: https://www.soundon.global/?ad_platform_id=seo_external_link&channel=cc
+        - listitem [ref=e821]:
+          - link "TikTok Shop" [ref=e822] [cursor=pointer]:
+            - /url: https://shop.tiktok.com/
