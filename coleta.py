@@ -83,10 +83,10 @@ async def coletar():
                     valor = 0
 
                 resultados.append({"rowIdx": prod['rowIdx'], "colDia": 6, "valor": valor})
-                print(f"✓ {valor}")
+                print(f"OK {valor}")
 
             except Exception as e:
-                print(f"✗ ERRO")
+                print(f"ERRO")
                 resultados.append({"rowIdx": prod['rowIdx'], "colDia": 6, "valor": None})
 
             if i % 10 == 0:
@@ -97,7 +97,7 @@ async def coletar():
         with open('coleta_python.json', 'w', encoding='utf-8') as f:
             json.dump(resultados, f, indent=2, ensure_ascii=False)
 
-        print(f"\n✅ Coleta finalizada: {len(resultados)} produtos")
-        print(f"📊 Arquivo: coleta_python.json\n")
+        print(f"\n[OK] Coleta finalizada: {len(resultados)} produtos")
+        print(f"[DADOS] Arquivo: coleta_python.json\n")
 
 asyncio.run(coletar())
