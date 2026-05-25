@@ -1,22 +1,23 @@
 const fs = require('fs');
 const { google } = require('googleapis');
-const { authenticate } = require('@google-cloud/local-auth');
-const path = require('path');
 
-const SCOPES = ['https://www.googleapis.com/auth/spreadsheets'];
-const TOKEN_PATH = path.join(__dirname, 'token.json');
-const SPREADSHEET_ID = '1fxWE-WrYC8GVKvYWIq8FiNGG5jOW7K8fYfvP6YyYfow';
+const OAUTH_KEYS_PATH = 'C:/Users/Administrador.LAURAFERREIRA/Downloads/gcp-oauth.keys.json';
+const CREDENTIALS_PATH = 'C:/Users/Administrador.LAURAFERREIRA/Downloads/.gdrive-server-credentials.json';
+const SPREADSHEET_ID = '1902H_f_1PpnA9M0E_MpHEYfavj4U-nwKGzurbvf8PYg';
 
-async function authorize() {
-  let client;
-  if (fs.existsSync(TOKEN_PATH)) {
-    client = new google.auth.OAuth2Client();
-    client.setCredentials(JSON.parse(fs.readFileSync(TOKEN_PATH)));
-  } else {
-    client = await authenticate({ scopes: SCOPES, keyfilePath: path.join(__dirname, 'credentials.json') });
-    fs.writeFileSync(TOKEN_PATH, JSON.stringify(client.credentials));
-  }
-  return client;
+function authorize() {
+  const oauthKeys = JSON.parse(fs.readFileSync(OAUTH_KEYS_PATH, 'utf8'));
+  const savedCredentials = JSON.parse(fs.readFileSync(CREDENTIALS_PATH, 'utf8'));
+  const clientKeys = oauthKeys.installed || oauthKeys.web;
+
+  const auth = new google.auth.OAuth2(
+    clientKeys.client_id,
+    clientKeys.client_secret,
+    clientKeys.redirect_uris[0]
+  );
+
+  auth.setCredentials(savedCredentials);
+  return auth;
 }
 
 async function limparDados(auth) {
