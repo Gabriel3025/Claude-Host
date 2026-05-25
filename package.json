@@ -3,6 +3,8 @@
     "playwright": "^1.58.2"
   },
   "dependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
+    "googleapis": "^172.0.0",
     "puppeteer": "^24.43.0"
   }
 }
