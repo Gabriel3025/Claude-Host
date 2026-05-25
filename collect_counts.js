@@ -1,78 +1,32 @@
-const { chromium } = require('C:/Users/Administrador.LAURAFERREIRA/AppData/Local/npm-cache/_npx/9833c18b2d85bc59/node_modules/playwright');
+const { chromium } = require('playwright');
 
-const links = [
-  // === ACOMPANHAMENTO OFERTAS ===
-  { id: 1,  label: 'Airfryer',                url: 'https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=568879309640604' },
-  { id: 2,  label: 'Saude (Euro)',             url: 'https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=985969307931107' },
-  { id: 3,  label: '100 Cards Anti-Bullying',  url: 'https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&id=1566627487729300&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=620103851191814' },
-  { id: 4,  label: 'Planilha Capivarinha',     url: 'https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=103914724705901' },
-  { id: 5,  label: 'JiuJistsu (LATAM)',        url: 'https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=1014540858412585' },
+const dados = [
+  { rowIdx: 1, produto: "Atividade cursiva", link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&id=1259020229407188&view_all_page_id=100560129589941&search_type=page&media_type=all" },
+  { rowIdx: 8, produto: "Jiujistu", link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=dinamicasjiujitsu.netlify.app&search_type=keyword_unordered&sort_data[mode]=total_impressions&sort_data[direction]=desc" },
+  { rowIdx: 12, produto: "Alfabetização", link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=v0-pacotedeatividades2.vercel.app&search_type=keyword_unordered&sort_data[mode]=total_impressions&sort_data[direction]=desc" },
+  { rowIdx: 20, produto: "Pacotes de músicas", link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=840327012401314&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=471645392708038" },
+  { rowIdx: 21, produto: "200 dinamicas cristã", link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=1278286264147697&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=243655375492027" }
 ];
 
-function parseCount(text) {
-  if (!text) return 0;
-  const match = text.match(/~?([\d,\.]+)\s*result/i) || text.match(/~?([\d,\.]+)\s*resultado/i) || text.match(/([\d,\.]+)/);
-  if (!match) return 0;
-  return parseInt(match[1].replace(/[,\.]/g, ''), 10) || 0;
-}
+(async () => {
+  const browser = await chromium.launch();
+  const page = await browser.newPage();
 
-async function getCount(page, url) {
-  try {
-    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
-    await page.waitForTimeout(3000);
-
+  for (let i = 0; i < dados.length; i++) {
+    const item = dados[i];
+    console.log(`[${i + 1}/${dados.length}] ${item.produto}...`);
     try {
+      await page.goto(item.link, { waitUntil: 'networkidle', timeout: 30000 });
       await page.keyboard.press('Escape');
       await page.waitForTimeout(1000);
-    } catch (_) {}
-
-    const selectors = [
-      '[data-testid="ad_library_main_content"] span',
-      'div[role="main"] h3',
-      'h3',
-      '[class*="result"] span',
-    ];
-
-    let countText = null;
-    for (const sel of selectors) {
-      const elements = await page.$$(sel);
-      for (const el of elements) {
-        const txt = await el.innerText().catch(() => '');
-        if (/result|resultado/i.test(txt) || /~?\d[\d,\.]*/.test(txt)) {
-          countText = txt;
-          break;
-        }
-      }
-      if (countText) break;
+      const texto = await page.evaluate(() => document.body.innerText);
+      const match = texto.match(/~?(\d+)\s+resultados?/i);
+      const valor = match ? parseInt(match[1]) : 0;
+      console.log(`  ✓ ${valor}`);
+    } catch (err) {
+      console.log(`  ⚠ ${err.message}`);
     }
-
-    if (!countText) {
-      const bodyText = await page.evaluate(() => document.body.innerText);
-      const match = bodyText.match(/~?([\d,\.]+)\s*(results?|resultados?)/i);
-      if (match) countText = match[0];
-    }
-
-    const count = parseCount(countText);
-    return count;
-  } catch (e) {
-    return -1;
-  }
-}
-
-(async () => {
-  const browser = await chromium.launch({ headless: true, executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe' });
-  const context = await browser.newContext({ locale: 'pt-BR' });
-  const page = await context.newPage();
-
-  const results = [];
-
-  for (const item of links) {
-    process.stderr.write(`[${item.id}/${links.length}] ${item.label}...\n`);
-    const count = await getCount(page, item.url);
-    results.push({ id: item.id, label: item.label, count });
-    process.stderr.write(`  → ${count}\n`);
   }
 
   await browser.close();
-  console.log(JSON.stringify(results, null, 2));
 })();
