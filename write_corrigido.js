@@ -28,7 +28,7 @@ async function limparDados(auth) {
   // Limpar G2:G67 (48 linhas de produtos, começando da linha 2)
   const clearRequest = {
     spreadsheetId: SPREADSHEET_ID,
-    range: 'Acompanhamento Ofertas!G2:G67',
+    range: "'Acompanhamento Ofertas'!G2:G67",
   };
 
   await sheets.spreadsheets.values.clear(clearRequest);
@@ -67,7 +67,7 @@ async function escreverDados(auth) {
   for (let i = 1; i <= 67; i++) {
     if (coletaMap[i] !== undefined) {
       updateData.push({
-        range: `Acompanhamento Ofertas!G${i + 1}`,
+        range: `'Acompanhamento Ofertas'!G${i + 1}`,
         majorDimension: 'ROWS',
         values: [[coletaMap[i]]]
       });
@@ -91,7 +91,7 @@ async function escreverDados(auth) {
 
 async function main() {
   try {
-    const auth = await authorize();
+    const auth = authorize();
     await limparDados(auth);
     await escreverDados(auth);
     console.log('[OK] Conferência de Ofertas corrigida!');
