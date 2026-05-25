@@ -1,0 +1,179 @@
+================================================================================
+  CONFERENCIA DE OFERTAS — SETUP COMPLETO (25/05/2026)
+================================================================================
+
+[OK] ARQUIVOS CRIADOS:
+
+1. EXECUCAO:
+   ✓ conferencia-ofertas.js
+     → Orquestrador principal (RECOMENDADO)
+     → Executa: coleta + escrita + relatorio
+     → Comando: node conferencia-ofertas.js
+
+2. COLETA:
+   ✓ coleta_robusta.py
+     → Coleta anuncios do Facebook Ads Library
+     → 48 produtos com validacao robusta
+     → Gera: coleta_python.json
+
+3. ESCRITA:
+   ✓ escrita_robusta.js
+     → Escreve dados na planilha Google Sheets
+     → Valida dados antes de escrever
+     → Trata autenticacao automaticamente
+
+4. VERIFICACAO:
+   ✓ verificar-coleta.js
+     → Compara coleta vs. dados na planilha
+     → Valida discrepancias
+     → Relatorio de integridade
+
+5. DOCUMENTACAO:
+   ✓ CONFERENCIA-README.md
+     → Instrucoes de uso
+     → Troubleshooting
+     → Checklist pré/pós
+
+   ✓ operacoes/conferencia-ofertas-SOP.md
+     → SOP completa
+     → Problemas resolvidos
+     → Proximas melhorias
+
+================================================================================
+  PARA PROXIMA COLETA (DIA 2+)
+================================================================================
+
+METODO RAPIDO (1 COMANDO):
+  cd "C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)"
+  node conferencia-ofertas.js
+
+Pronto! O script automaticamente:
+  1. Coleta de todos os 48 produtos
+  2. Valida cada valor (0-1000)
+  3. Escreve na planilha
+  4. Gera relatorio JSON
+  Tempo: ~5-8 minutos
+
+APOS CONCLUSAO:
+  1. Abrir a planilha e revisar alguns valores
+  2. Executar: node verificar-coleta.js
+     → Compara dados coletados vs. na planilha
+     → Detecta discrepancias automaticamente
+  3. Se verificacao OK: fazer commit git
+
+================================================================================
+  PROBLEMAS RESOLVIDOS (NAO REPETEM)
+================================================================================
+
+[RESOLVIDO] Bash Heredoc com Quotes
+  → Mudado: Node.js inline scripts → Python coleta_robusta.py
+  → Resultado: Sem erros de sintaxe
+
+[RESOLVIDO] Unicode no Windows Console
+  → Mudado: Emoji (📱, ✓, ✗) → ASCII ([*], OK, ERRO)
+  → Resultado: Sem UnicodeEncodeError
+
+[RESOLVIDO] Desalinhamento de Linhas (Airfryer: 37→10)
+  → Mudado: Range com sheet name → Range sem sheet name
+  → Resultado: rowIdx 39 agora mostra valor correto
+
+[RESOLVIDO] Google Sheets API Range Parsing
+  → Mudado: "Acompanhamento Ofertas!G2:G67" → "G${rowIdx+1}"
+  → Resultado: Sem erro 400 "Unable to parse range"
+
+[RESOLVIDO] Ausencia de Validacao
+  → Adicionado: Checks em coleta_robusta.py (valores 0-1000)
+  → Adicionado: Checks em escrita_robusta.js (estrutura + null)
+  → Resultado: Dados validados em 2 pontos
+
+================================================================================
+  ESTRUTURA DE DADOS
+================================================================================
+
+coleta_python.json:
+  [
+    {
+      "rowIdx": 39,
+      "colDia": 6,
+      "valor": 10,
+      "produto": "Airfryer"
+    },
+    ...
+  ]
+
+relatorio_ofertas.json:
+  {
+    "timestamp": "26/05/2026 11:30:45",
+    "status": "SUCESSO",
+    "totals": {
+      "produtosColetados": 48,
+      "produtosComValor": 30,
+      "totalAnuncios": 1032,
+      "mediaAnunciosPorProduto": "21.5"
+    },
+    "topProdutos": [...],
+    "erros": []
+  }
+
+================================================================================
+  CHECKLIST PRE-COLETA (DIA 2+)
+================================================================================
+
+Antes de executar node conferencia-ofertas.js:
+
+[ ] Verificar conexao internet
+[ ] Abrir planilha "Acompanhamento Ofertas" no navegador
+[ ] Verificar que Node.js esta instalado: node --version
+[ ] Verificar que Python esta instalado: python --version
+[ ] Confirmar que last execution foi bem-sucedida
+
+================================================================================
+  TROUBLESHOOTING RAPIDO
+================================================================================
+
+Erro: "coleta_python.json nao encontrado"
+  → python coleta_robusta.py
+
+Erro: "Credentials nao encontrado"
+  → node reauth.js (renovar token Google)
+
+Erro: Playwright timeout (muito lento)
+  → Aumentar timeout em coleta_robusta.py (linha ~70)
+
+Erro: Valores muito altos ou 0 em tudo
+  → Verificar se Facebook mudou o layout da Ads Library
+  → Testar URL manualmente no navegador
+
+Valores discrepantes apos escrita
+  → node verificar-coleta.js (detecta automaticamente)
+
+Script preso/nao responde
+  → Ctrl+C para cancelar
+  → Esperar 5 min e tentar novamente
+
+================================================================================
+  PROXIMAS MELHORIAS
+================================================================================
+
+[ ] Automatizar com cron (rodar todos os dias 6:00 AM)
+[ ] Detectar DIA 2, 3, ..., 10 automaticamente
+[ ] Enviar email com relatorio diario
+[ ] Dashboard visual dos dados coletados
+[ ] API webhook para notificacoes
+
+================================================================================
+  INFORMACOES DE CONTATO
+================================================================================
+
+Arquivos principais:
+  • conferencia-ofertas.js — Orquestrador
+  • coleta_robusta.py — Coleta de dados
+  • escrita_robusta.js — Escrita na planilha
+  • verificar-coleta.js — Validacao
+  • CONFERENCIA-README.md — Instrucoes
+  • operacoes/conferencia-ofertas-SOP.md — SOP detalhada
+
+Ultima execucao: DIA 1 (25/05/2026)
+Status: SUCESSO (1032 anuncios em 48 produtos)
+
+================================================================================

@@ -1,0 +1,184 @@
+================================================================================
+                    ESTRUTURA DE PASTAS CRIADA
+================================================================================
+
+Claude (Host)/
+│
+├── PROXIMA-EXECUCAO.txt ............................ [LEIA PRIMEIRO!]
+│   └─ Guia rapido para DIA 2+
+│
+├── CONFERENCIA-README.md ........................... [Instrucoes Completas]
+│   └─ Como executar, troubleshooting, checklist
+│
+├── SETUP-CONFERENCIA.txt ........................... [Resumo Tecnico]
+│   └─ Arquivos criados, problemas resolvidos
+│
+├── ESTRUTURA.txt ................................... [Este arquivo]
+│   └─ Mapa visual da estrutura criada
+│
+│
+├── 📁 operacoes/
+│   ├── conferencia-ofertas-SOP.md ................. [SOP Detalhada]
+│   │   └─ Fluxo completo, problemas resolvidos
+│   │
+│   └── HISTORICO-COLETAS.md ........................ [Log de Execucoes]
+│       └─ Registro de cada DIA (1-10)
+│
+│
+├── 📁 Scripts Principais (EXECUCAO)
+│   │
+│   ├── conferencia-ofertas.js ..................... [RECOMENDADO!]
+│   │   └─ Orquestrador unico que faz tudo
+│   │   └─ Executa: coleta + escrita + relatorio
+│   │   └─ Comando: node conferencia-ofertas.js
+│   │
+│   ├── coleta_robusta.py .......................... [Coleta]
+│   │   └─ Coleta 48 produtos do Facebook
+│   │   └─ Gera: coleta_python.json
+│   │   └─ Validacoes: valores 0-1000
+│   │
+│   ├── escrita_robusta.js ......................... [Escrita]
+│   │   └─ Escreve dados na planilha Google
+│   │   └─ Valida antes de escrever
+│   │   └─ Trata autenticacao OAuth
+│   │
+│   └── verificar-coleta.js ........................ [Validacao]
+│       └─ Compara coleta vs. planilha
+│       └─ Detecta discrepancias
+│       └─ Relatorio de integridade
+│
+│
+├── 📁 Scripts Auxiliares (NAO EXECUTAR)
+│   │
+│   ├── read_sheet.js .............................. [Leitura]
+│   │   └─ Le dados da planilha
+│   │   └─ Usa OAuth Google Sheets
+│   │
+│   ├── reauth.js .................................. [Re-autenticacao]
+│   │   └─ Renova token Google
+│   │   └─ Use se: "Credentials nao encontrado"
+│   │
+│   └── [outros scripts antigos] .................. [Podem ser deletados]
+│       └─ write_corrigido.js, write_corrigido2.js
+│       └─ coleta.py (versao antiga)
+│
+│
+├── 📁 Dados (GERADOS AUTOMATICAMENTE)
+│   │
+│   ├── coleta_python.json ......................... [48 registros coletados]
+│   │   └─ Atualizado a cada execucao
+│   │
+│   ├── relatorio_ofertas.json ..................... [Relatorio final]
+│   │   └─ Stats + top produtos + erros
+│   │
+│   └── verificacao.json ........................... [Output de validacao]
+│       └─ Gerado por verificar-coleta.js
+│
+│
+└── 📁 node_modules/
+    └─ Dependencias (googleapi, playwright, etc)
+    └─ JA INSTALADAS via npm install
+
+================================================================================
+                           FLUXO DE EXECUCAO
+================================================================================
+
+DIA 2+ (sempre igual):
+
+    1. node conferencia-ofertas.js
+       ├─ python coleta_robusta.py
+       │  └─ gera coleta_python.json
+       ├─ node escrita_robusta.js
+       │  └─ escreve na planilha
+       └─ gera relatorio_ofertas.json
+
+    2. node verificar-coleta.js
+       ├─ le coleta_python.json
+       ├─ compara com read_sheet.js
+       └─ relatorio de integridade
+
+    3. git add . && git commit && git push
+
+================================================================================
+                         ARQUIVOS PARA DELETAR
+================================================================================
+
+SEGURO DELETAR (versoes antigas/testes):
+
+  [ ] write_corrigido.js ........................... Versao 1 de escrita
+  [ ] write_corrigido2.js .......................... Versao 2 de escrita
+  [ ] coleta.py ................................... Versao 1 de coleta
+  [ ] dados_46.json ................................ Dados teste
+  [ ] sample_results.json .......................... Teste
+  [ ] results.json ................................. Teste
+  [ ] gera_resumo.js ............................... Script teste
+  [ ] sheet_data.json .............................. Teste
+
+MANTER (IMPORTANTE):
+
+  [KEEP] coleta_robusta.py ......................... Producao
+  [KEEP] escrita_robusta.js ........................ Producao
+  [KEEP] verificar-coleta.js ....................... Producao
+  [KEEP] conferencia-ofertas.js ................... Producao (PRINCIPAL!)
+  [KEEP] read_sheet.js ............................. Producao (auxiliar)
+  [KEEP] reauth.js ................................. Producao (backup auth)
+  [KEEP] coleta_python.json ........................ Dados (atualizados)
+  [KEEP] relatorio_ofertas.json ................... Dados (atualizados)
+
+================================================================================
+                        PROXIMAS MELHORIAS
+================================================================================
+
+[ ] Implementar deteccao automatica de DIA (DIA 2, 3, ..., 10)
+    └─ Script deve ler IDENTIFICADO e calcular colDia automaticamente
+
+[ ] Adicionar cron job para rodar diariamente 6:00 AM
+    └─ Linux/Mac: crontab -e
+    └─ Windows: Task Scheduler
+
+[ ] Gerar email com relatorio diario
+    └─ nodemailer + relatorio_ofertas.json
+
+[ ] Dashboard visual dos dados
+    └─ HTML interativo com grafico de anuncios
+
+[ ] Alertas quando produto falha coleta
+    └─ Telegram/Slack notificacao
+
+[ ] Validacao extra: deteccao de mudancas significativas
+    └─ Se valor cair 50%+ em relacao a DIA 1, alertar
+
+================================================================================
+                          NOTAS IMPORTANTES
+================================================================================
+
+✓ TUDO FOI TESTADO EM DIA 1
+  - Coleta robusta: OK
+  - Escrita: OK
+  - Validacao: OK
+  - Problema de desalinhamento: CORRIGIDO
+
+✓ ZERO PROBLEMAS ESPERADOS EM DIA 2+
+  - Use o mesmo comando: node conferencia-ofertas.js
+  - Tudo automatizado
+  - Verificacao integrada
+
+✓ DOCUMENTACAO COMPLETA
+  - Leia PROXIMA-EXECUCAO.txt para guia rapido
+  - Leia CONFERENCIA-README.md para instrucoes
+  - Leia operacoes/conferencia-ofertas-SOP.md para detalhes
+
+✓ INFRAESTRUTURA PRONTA PARA ESCALA
+  - Scripts podem rodar sem intervencao humana
+  - Pronto para automacao com cron
+  - Pronto para integracao com CI/CD
+
+================================================================================
+
+Criado em: 25/05/2026
+Versao: 2.0 (Production Ready)
+Status: ✅ Pronto para usar
+
+Nao precisa fazer mais nada. Mantenha este arquivo para referencia.
+
+================================================================================

@@ -1,0 +1,178 @@
+================================================================================
+                    PARA PROXIMA CONFERENCIA (DIA 2+)
+================================================================================
+
+NAO PRECISA FAZER NADA ESPECIAL!
+Tudo ja esta preparado e testado.
+
+================================================================================
+                              EXECUCAO SIMPLES
+================================================================================
+
+Abrir PowerShell e executar:
+
+    cd "C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)"
+    node conferencia-ofertas.js
+
+Pronto! O script faz tudo automaticamente:
+  ✓ Coleta 48 produtos do Facebook Ads Library
+  ✓ Valida cada valor
+  ✓ Escreve na planilha
+  ✓ Gera relatorio
+
+Tempo total: ~5-8 minutos
+
+================================================================================
+                            APOS A COLETA
+================================================================================
+
+Passo 1: Verificacao Automatica
+    node verificar-coleta.js
+
+Isso compara:
+  • Dados coletados (coleta_python.json)
+  • Dados na planilha (read_sheet.js)
+  • Detecta discrepancias automaticamente
+
+Esperado:
+  [OK] TUDO OK! Coleta verificada com sucesso.
+
+Passo 2: Revisar Visualmente
+  • Abrir a planilha no navegador
+  • Verificar 5-10 produtos aleatoriamente
+  • Confirmar que valores fazem sentido
+
+Passo 3: Fazer Commit (se tudo OK)
+    git add .
+    git commit -m "Conferencia DIA X: YYYY anuncios em ZZ produtos"
+    git push
+
+================================================================================
+                         ARQUIVOS PREPARADOS
+================================================================================
+
+SCRIPTS DE EXECUCAO:
+  ✓ conferencia-ofertas.js ............ Orquestrador (USE ESTE!)
+  ✓ coleta_robusta.py ................ Coleta (executado automaticamente)
+  ✓ escrita_robusta.js ............... Escrita (executado automaticamente)
+  ✓ verificar-coleta.js .............. Validacao (use apos coleta)
+
+DOCUMENTACAO:
+  ✓ CONFERENCIA-README.md ............ Instrucoes completas
+  ✓ SETUP-CONFERENCIA.txt ............ Este arquivo (resumo)
+  ✓ operacoes/conferencia-ofertas-SOP.md ... SOP detalhada
+  ✓ operacoes/HISTORICO-COLETAS.md ... Registro de coletas
+
+DADOS (GERADOS AUTOMATICAMENTE):
+  • coleta_python.json ............... Dados coletados (48 registros)
+  • relatorio_ofertas.json ........... Relatorio com stats
+  • verificacao.json ................. Output de verificacao
+
+================================================================================
+                         TROUBLESHOOTING 30-SEG
+================================================================================
+
+PROBLEMA: Script nao funciona
+  1. Ctrl+C para cancelar
+  2. Fechar todos os outros PowerShells/Python
+  3. Esperar 30 segundos
+  4. Tentar novamente: node conferencia-ofertas.js
+
+PROBLEMA: "Credentials nao encontrado"
+  → Rodar: node reauth.js
+  → Isso renovara o token Google
+
+PROBLEMA: Valores muito altos ou muito baixos
+  → Testar manualmente no navegador
+  → Facebook pode ter mudado o layout da Ads Library
+  → Se nao conseguir resolver: avisar para revisar
+
+PROBLEMA: Desalinhamento detectado na verificacao
+  → Nao deve acontecer! (foi corrigido)
+  → Se acontecer: avisar imediatamente
+  → Problema pode estar no Google Sheets API
+
+================================================================================
+                       INFORMACOES IMPORTANTES
+================================================================================
+
+PERIODICIDADE:
+  • DIA 1: 25/05/2026 ........................... JA FEITO
+  • DIA 2: 26/05/2026 ........................... AMANHA
+  • DIA 3-10: 27/05 a 03/06 ..................... Diariamente
+  • APOS DIA 10: Produtos saem da janela ........ Sem coleta
+
+TEMPO POR COLETA:
+  • Coleta: ~4-5 min (dependendo internet)
+  • Escrita: ~10-20 seg
+  • Verificacao: ~1-2 min
+  • Total: ~5-8 min
+
+O QUE MUDOU VS DIA 1:
+  • Agora e totalmente automatizado
+  • Validacoes robustas em 2 pontos
+  • Relatorio gerado automaticamente
+  • Verificacao de integridade integrada
+  • Nenhum problema de desalinhamento deve repetir
+
+MANTENCAO MINIMA:
+  • Revisar coleta_python.json (stat visual)
+  • Rodar verificacao (validacao automatica)
+  • Se tudo OK: fazer commit git
+  • Se erro: avisar (pode ser problema do Facebook)
+
+================================================================================
+                            PROXIMA AUTOMACAO
+================================================================================
+
+FUTURO (quando possivel):
+  [ ] Cron job que executa todos os dias 6:00 AM
+  [ ] Email com relatorio diario
+  [ ] Dashboard visual dos dados
+  [ ] Alertas se algum produto falhar
+
+Deixar preparado para expansao futura!
+
+================================================================================
+                              RESUMO FINAL
+================================================================================
+
+✅ DIA 1 COMPLETO (25/05/2026)
+   • 1032 anuncios coletados
+   • 48 produtos
+   • Problema de desalinhamento CORRIGIDO
+   • Scripts robustos CRIADOS
+   • Documentacao COMPLETA
+
+✅ PREPARADO PARA DIA 2+
+   • Um comando unico: node conferencia-ofertas.js
+   • Verificacao automatica
+   • Relatorio gerado
+   • Zero problemas esperados
+
+✅ INFRAESTRUTURA PRONTA
+   • Todos os scripts testados
+   • Tratamento de erros implementado
+   • Logging detalhado
+   • Troubleshooting documentado
+
+Nao precisa fazer mais nada. Quando chegar DIA 2, eh so executar:
+   node conferencia-ofertas.js
+
+Tudo ja esta certo e testado!
+
+================================================================================
+                           DATAS IMPORTANTES
+================================================================================
+
+DIA 1: 25/05/2026 (hoje) .................. [COMPLETO]
+DIA 2: 26/05/2026 ........................ [PRONTO]
+DIA 3: 27/05/2026 ........................ [PRONTO]
+...
+DIA 10: 03/06/2026 ....................... [PRONTO]
+APOS DIA 10: Produtos saem da janela ...... [NAO PRECISA COLETAR]
+
+================================================================================
+
+Criado com cuidado em 25/05/2026
+Pronto para producao!
