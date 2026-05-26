@@ -1,0 +1,323 @@
+- generic [ref=e2]:
+  - main [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]: METODOLOGIA SOLLIEVO®
+        - heading "Sua dor não precisa ser permanente." [level=1] [ref=e8]:
+          - text: Sua dor
+          - generic [ref=e9]: não precisa
+          - emphasis [ref=e10]: ser permanente.
+      - generic [ref=e11]:
+        - paragraph [ref=e12]:
+          - text: E você não precisa de cirurgia para se livrar dela. Entenda como resolver seu problema de uma vez por todas. Já são
+          - strong [ref=e13]: +400 pacientes
+          - text: livres da dor, sem uma única incisão.
+        - generic [ref=e14]:
+          - link "Agendar consulta" [ref=e15] [cursor=pointer]:
+            - /url: https://api.whatsapp.com/send?phone=5563992092431&text=Ol%C3%A1%2C%20venho%20da%20p%C3%A1gina.%0AQuero%20entender%20melhor%20sobre%20o%20tratamento
+            - img [ref=e18]
+            - generic: Agendar consulta
+          - link "Como funciona o método →" [ref=e20] [cursor=pointer]:
+            - /url: "#metodo"
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - img [ref=e23]
+            - text: Atendimento em Palmas — TO
+          - generic [ref=e25]:
+            - img [ref=e26]
+            - text: Plano em 120 minutos
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - text: Sem espera de meses
+          - generic [ref=e31]:
+            - img [ref=e32]
+            - text: Resolução definitiva do problema
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic:
+            - button "Replace"
+            - button "Remove"
+        - generic [ref=e37]: Especialista em Dor
+        - generic [ref=e39]:
+          - generic [ref=e40]: 87%
+          - generic [ref=e41]:
+            - text: de resolução em 60dias
+            - text: tratamento 100% individual
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - emphasis [ref=e47]: "+400"
+        - generic [ref=e48]: Pacientes tratados
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - emphasis [ref=e51]: "87"
+          - superscript [ref=e52]: "%"
+        - generic [ref=e53]: Resolução em 60 dias
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - emphasis [ref=e56]: "92"
+          - superscript [ref=e57]: "%"
+        - generic [ref=e58]: De eficácia (SOLIEVO®)
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - emphasis [ref=e61]: "10"
+          - superscript [ref=e62]: + anos
+        - generic [ref=e63]: Prática clínica em Palmas
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - emphasis [ref=e66]: "100"
+          - superscript [ref=e67]: "%"
+        - generic [ref=e68]: Atendimento individual
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - emphasis [ref=e71]: "120"
+          - superscript [ref=e72]: min
+        - generic [ref=e73]: Plano em mãos
+      - generic [ref=e74]:
+        - emphasis [ref=e76]: "+400"
+        - generic [ref=e77]: Pacientes tratados
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - emphasis [ref=e80]: "87"
+          - superscript [ref=e81]: "%"
+        - generic [ref=e82]: Resolução em 60 dias
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - emphasis [ref=e85]: "92"
+          - superscript [ref=e86]: "%"
+        - generic [ref=e87]: De eficácia (SOLIEVO®)
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - emphasis [ref=e90]: "10"
+          - superscript [ref=e91]: + anos
+        - generic [ref=e92]: Prática clínica em Palmas
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - emphasis [ref=e95]: "100"
+          - superscript [ref=e96]: "%"
+        - generic [ref=e97]: Atendimento individual
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - emphasis [ref=e100]: "120"
+          - superscript [ref=e101]: min
+        - generic [ref=e102]: Plano em mãos
+      - generic [ref=e103]:
+        - emphasis [ref=e105]: "+400"
+        - generic [ref=e106]: Pacientes tratados
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - emphasis [ref=e109]: "87"
+          - superscript [ref=e110]: "%"
+        - generic [ref=e111]: Resolução em 60 dias
+      - generic [ref=e112]:
+        - generic [ref=e113]:
+          - emphasis [ref=e114]: "92"
+          - superscript [ref=e115]: "%"
+        - generic [ref=e116]: De eficácia (SOLIEVO®)
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - emphasis [ref=e119]: "10"
+          - superscript [ref=e120]: + anos
+        - generic [ref=e121]: Prática clínica em Palmas
+      - generic [ref=e122]:
+        - generic [ref=e123]:
+          - emphasis [ref=e124]: "100"
+          - superscript [ref=e125]: "%"
+        - generic [ref=e126]: Atendimento individual
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - emphasis [ref=e129]: "120"
+          - superscript [ref=e130]: min
+        - generic [ref=e131]: Plano em mãos
+    - generic [ref=e133]:
+      - generic [ref=e134]:
+        - generic [ref=e135]: O Plano
+        - heading "Enquanto você trata um pilar, os outros três desabam." [level=2] [ref=e136]:
+          - text: Enquanto você trata
+          - text: um pilar, os outros
+          - text: três
+          - emphasis [ref=e137]: desabam.
+      - generic [ref=e138]:
+        - paragraph [ref=e139]: "A razão pela qual a maioria não melhora é simples: cada profissional cuida de apenas uma parte da dor e ninguém olha para o sistema inteiro. O resultado?"
+        - generic [ref=e140]:
+          - generic [ref=e141]:
+            - generic [ref=e142]: "01"
+            - generic [ref=e143]:
+              - strong [ref=e144]: Fisioterapia
+              - text: sem infiltração
+            - generic [ref=e145]: dor bloqueia movimento
+          - generic [ref=e146]:
+            - generic [ref=e147]: "02"
+            - generic [ref=e148]:
+              - strong [ref=e149]: Medicamento
+              - text: sem fisioterapia
+            - generic [ref=e150]: fraqueza aumenta
+          - generic [ref=e151]:
+            - generic [ref=e152]: "03"
+            - generic [ref=e153]:
+              - strong [ref=e154]: Infiltração
+              - text: sem tecnologia
+            - generic [ref=e155]: você anda no escuro
+          - generic [ref=e156]:
+            - generic [ref=e157]: "04"
+            - generic [ref=e158]:
+              - strong [ref=e159]: Tudo isolado,
+              - text: repetido por anos
+            - generic [ref=e160]: a dor sempre volta
+    - generic [ref=e162]:
+      - generic [ref=e163]:
+        - generic [ref=e164]:
+          - generic [ref=e165]: Os 4 Pilares
+          - heading "O método SOLLIEVO® funciona porque trata o sistema inteiro." [level=2] [ref=e166]:
+            - text: O método SOLLIEVO®
+            - emphasis [ref=e167]: funciona
+            - text: porque trata o sistema inteiro.
+          - paragraph [ref=e168]: A magia não está em um pilar. Está em como os quatro conversam entre si, simultaneamente, desde o primeiro dia.
+        - generic [ref=e169]:
+          - text: — 4 PILARES,
+          - text: UM SISTEMA SÓ
+      - generic [ref=e170]:
+        - article [ref=e171]:
+          - generic [ref=e172]:
+            - generic [ref=e173]: "01"
+            - img [ref=e175]
+          - heading "Infiltração" [level=3] [ref=e179]
+          - generic [ref=e180]: Anti-inflamatório local
+          - paragraph [ref=e181]: Aplicações precisas, guiadas por imagem, que desinflamam o foco da dor e devolvem amplitude de movimento já nas primeiras semanas.
+        - article [ref=e182]:
+          - generic [ref=e183]:
+            - generic [ref=e184]: "02"
+            - img [ref=e186]
+          - heading "Fisioterapia" [level=3] [ref=e188]
+          - generic [ref=e189]: Mobilidade & força
+          - paragraph [ref=e190]: Plano funcional desenhado com a equipe da Dra. Renata para reconstruir mobilidade, força e padrões de movimento que sustentam o resultado.
+        - article [ref=e191]:
+          - generic [ref=e192]:
+            - generic [ref=e193]: "03"
+            - img [ref=e195]
+          - heading "Tecnologia" [level=3] [ref=e198]
+          - generic [ref=e199]: Monitoramento em tempo real
+          - paragraph [ref=e200]: "Avaliação objetiva da sua evolução a cada etapa: marcadores de dor, mobilidade e função são medidos e não estimados."
+        - article [ref=e201]:
+          - generic [ref=e202]:
+            - generic [ref=e203]: "04"
+            - img [ref=e205]
+          - heading "Medicamentos" [level=3] [ref=e207]
+          - generic [ref=e208]: Suporte estratégico
+          - paragraph [ref=e209]: Prescrição cirúrgica, com tempo definido. O remédio apoia a cura, não substitui ela. Sai do protocolo no dia em que você se cura.
+      - generic [ref=e210]:
+        - generic [ref=e211]:
+          - paragraph [ref=e212]: "Quando os 4 pilares conversam, algo acontece que ninguém prevê:"
+          - paragraph [ref=e213]:
+            - text: seu corpo finalmente consegue
+            - emphasis [ref=e214]: curar.
+          - paragraph [ref=e215]: Ele aprende a não "gerenciar a dor", ou a não "aprender a viver com isso" e sim Curar o real problema.
+        - generic [ref=e216]:
+          - generic [ref=e217]:
+            - img [ref=e218]
+            - generic [ref=e220]:
+              - generic [ref=e221]: 30 a 90 dias, em média
+              - generic [ref=e222]: é o tempo do protocolo SOLLIEVO®
+          - generic [ref=e223]:
+            - img [ref=e224]
+            - generic [ref=e226]:
+              - generic [ref=e227]: Sem cirurgia
+              - generic [ref=e228]: sem necessidade de cirurgia após o protocolo
+          - generic [ref=e229]:
+            - img [ref=e230]
+            - generic [ref=e232]:
+              - generic [ref=e233]: Sem dependência de remédio
+              - generic [ref=e234]: prescrição com data para terminar
+          - generic [ref=e235]:
+            - img [ref=e236]
+            - generic [ref=e238]:
+              - generic [ref=e239]: Sua vida de volta
+              - generic [ref=e240]: movimento, sono e autonomia
+    - generic [ref=e242]:
+      - generic [ref=e243]:
+        - generic [ref=e245]:
+          - generic:
+            - button "Replace"
+            - button "Remove"
+        - generic [ref=e247]:
+          - paragraph [ref=e248]: "\"Dor crônica é uma conversa entre múltiplos sistemas. Se você escuta apenas um, nunca entende a história inteira.\""
+          - generic [ref=e249]: — Dra. Renata Rossato
+      - generic [ref=e250]:
+        - generic [ref=e251]: QUEM CUIDA DE VOCÊ DRA. RENANTA ROSSATO
+        - heading "10 anos curando dor crônica. Zero cirurgias desnecessárias." [level=2] [ref=e252]:
+          - text: 10 anos curando dor crônica.
+          - emphasis [ref=e253]: Zero cirurgias
+          - text: desnecessárias.
+        - paragraph [ref=e254]:
+          - text: "O que diferencia a Dra Renata Rossato é sua abordagem: Ela não apenas trata a dor."
+          - strong [ref=e255]: Ela a elimina.
+        - paragraph [ref=e256]: "Depois de uma década em Palmas, tratando dor lombar, enxaqueca e centenas de casos que outros médicos recomendavam operar, Dra. Renata percebeu algo que poucos admitem em voz alta:"
+        - paragraph [ref=e257]:
+          - strong [ref=e258]: A maioria das pessoas com dor crônica não precisa de cirurgia. Precisa de clareza.
+        - generic [ref=e259]: "\"Meu trabalho não é ganhar dinheiro com cirurgia. É eliminar a necessidade dela.\""
+        - paragraph [ref=e260]:
+          - text: "Então ela fez o que ninguém esperaria: estudou além do que a faculdade ensinou. Como a dor se propaga, como a infiltração desinflama, como a fisioterapia reconstrói, como a tecnologia monitora. E descobriu que, quando a dor crônica é tratada como"
+          - strong [ref=e261]: sistema
+          - text: — não fragmentos isolados — a taxa de cura sobe para 87%.
+    - generic [ref=e263]:
+      - generic [ref=e264]: Próximo passo
+      - heading "Sua dor tem um fim. E começa agora." [level=2] [ref=e265]:
+        - text: Sua dor tem um
+        - emphasis [ref=e266]: fim.
+        - text: E começa
+        - emphasis [ref=e267]: agora.
+      - paragraph [ref=e268]: Na consulta estratégica, a Dra. Renata identifica a fonte real da sua dor, o motivo de tratamentos anteriores terem falhado, e desenha o seu plano para a resolução.
+      - link "Agendar minha consulta" [ref=e270] [cursor=pointer]:
+        - /url: https://api.whatsapp.com/send?phone=5563992092431&text=Ol%C3%A1%2C%20venho%20da%20p%C3%A1gina.%0AQuero%20entender%20melhor%20sobre%20o%20tratamento
+        - text: Agendar minha consulta
+        - img [ref=e271]
+      - generic [ref=e273]:
+        - generic [ref=e274]:
+          - img [ref=e275]
+          - text: Plano personalizado em mãos
+        - generic [ref=e277]:
+          - img [ref=e278]
+          - text: Atendimento humano por WhatsApp
+        - generic [ref=e280]:
+          - img [ref=e281]
+          - text: Sem espera de meses
+  - contentinfo [ref=e283]:
+    - generic [ref=e286]:
+      - generic [ref=e287]:
+        - generic [ref=e288]:
+          - img "Dra. Renata Rossato" [ref=e290]
+          - generic [ref=e291]:
+            - generic [ref=e292]: Dra. Renata Rossato
+            - generic [ref=e293]: CRM 4359 · RQE 2580
+        - paragraph [ref=e294]:
+          - text: © 2026 Dra. Renata Rossato.
+          - text: Todos os direitos reservados.
+      - generic [ref=e295]:
+        - heading "Atendimento" [level=3] [ref=e296]
+        - list [ref=e297]:
+          - listitem [ref=e298]: Palmas — Tocantins
+          - listitem [ref=e299]: Consulta com agendamento
+          - listitem [ref=e300]: SOLLIEVO® é marca registrada
+      - generic [ref=e301]:
+        - heading "Acompanhe" [level=3] [ref=e302]
+        - list [ref=e303]:
+          - listitem [ref=e304]:
+            - link "Instagram" [ref=e305] [cursor=pointer]:
+              - /url: https://www.instagram.com/drarenatarossato/
+              - img [ref=e306]
+              - text: Instagram
+          - listitem [ref=e310]:
+            - link "WhatsApp" [ref=e311] [cursor=pointer]:
+              - /url: https://api.whatsapp.com/send?phone=5563992092431&text=Ol%C3%A1%2C%20venho%20da%20p%C3%A1gina.%0AQuero%20entender%20melhor%20sobre%20o%20tratamento
+              - img [ref=e312]
+              - text: WhatsApp
+      - generic [ref=e314]:
+        - heading "Localização" [level=3] [ref=e315]
+        - button "Live Palmas — TO Clique para expandir" [ref=e316] [cursor=pointer]:
+          - generic [ref=e317]:
+            - img [ref=e320]
+            - generic [ref=e322]:
+              - generic [ref=e323]:
+                - img [ref=e325]
+                - generic [ref=e329]: Live
+              - heading "Palmas — TO" [level=4] [ref=e331]
+          - generic: Clique para expandir
