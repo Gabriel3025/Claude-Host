@@ -1,0 +1,92 @@
+[
+  {
+    "rowIdx": 2,
+    "produto": "Atividade cursiva",
+    "col_C": "BIBLIOTECA",
+    "col_D": "SITE",
+    "col_E": "R$ 15,00",
+    "col_F": "VALIDADO",
+    "col_G": "18"
+  },
+  {
+    "rowIdx": 3,
+    "produto": "Receitas airfrayer",
+    "col_C": "BIBLIOTECA",
+    "col_D": "WPP",
+    "col_E": "",
+    "col_F": "NÃO VALIDADO",
+    "col_G": "36"
+  },
+  {
+    "rowIdx": 4,
+    "produto": "DoramaFlix",
+    "col_C": "BIBLIOTECA",
+    "col_D": "SITE",
+    "col_E": "R$ 14,90",
+    "col_F": "NÃO VALIDADO",
+    "col_G": "45"
+  },
+  {
+    "rowIdx": 5,
+    "produto": "Receitas rápidas",
+    "col_C": "BIBLIOTECA",
+    "col_D": "SITE",
+    "col_E": "R$ 16,00",
+    "col_F": "NÃO VALIDADO",
+    "col_G": "4"
+  },
+  {
+    "rowIdx": 6,
+    "produto": "Cristão",
+    "col_C": "BIBLIOTECA",
+    "col_D": "SITE",
+    "col_E": "4,99 (Dollar)",
+    "col_F": "NÃO VALIDADO",
+    "col_G": "10"
+  },
+  {
+    "rowIdx": 7,
+    "produto": "Aprender Kids",
+    "col_C": "BIBLIOTECA",
+    "col_D": "SITE",
+    "col_E": "R$ 10,00",
+    "col_F": "NÃO VALIDADO",
+    "col_G": "9"
+  },
+  {
+    "rowIdx": 8,
+    "produto": "Treino Futsal",
+    "col_C": "BIBLIOTECA",
+    "col_D": "SITE",
+    "col_E": "R$ 12,90",
+    "col_F": "NÃO VALIDADO",
+    "col_G": "7"
+  },
+  {
+    "rowIdx": 9,
+    "produto": "Jiujistu",
+    "col_C": "BIBLIOTECA",
+    "col_D": "SITE",
+    "col_E": "R$ 10,00",
+    "col_F": "VALIDADO",
+    "col_G": "7"
+  },
+  {
+    "rowIdx": 10,
+    "produto": "Cristão",
+    "col_C": "BIBLIOTECA",
+    "col_D": "SITE",
+    "col_E": "5,90 (Dollar)",
+    "col_F": "NÃO VALIDADO",
+    "col_G": "18"
+  },
+  {
+    "rowIdx": 11,
+    "produto": "Protocolo gelatina",
+    "col_C": "BIBLIOTECA",
+    "col_D": "SITE",
+    "col_E": "R$ 27,00",
+    "col_F": "NÃO VALIDADO",
+    "col_G": "55"
+  }
+]
