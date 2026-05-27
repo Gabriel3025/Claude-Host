@@ -1,0 +1,34 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e99] [cursor=pointer]:
+    - img [ref=e100]
+  - alert [ref=e103]
+  - navigation [ref=e104]:
+    - generic [ref=e106]:
+      - link "⚽ Minha Figurinha" [ref=e107] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e108]:
+        - link "Início" [ref=e109] [cursor=pointer]:
+          - /url: /
+        - link "Criar" [ref=e110] [cursor=pointer]:
+          - /url: /criar
+  - main [ref=e111]:
+    - generic [ref=e113]:
+      - paragraph [ref=e117]: Etapa 6 de 6
+      - generic [ref=e118]:
+        - generic [ref=e156]:
+          - heading "Agora envie a foto do craque!" [level=2] [ref=e157]
+          - paragraph [ref=e158]: ✅ Use uma foto de rosto com boa iluminação, fundo limpo e sem óculos escuros
+          - generic [ref=e160] [cursor=pointer]:
+            - img "Preview" [ref=e165]
+            - paragraph [ref=e162]: Clique para trocar a foto
+        - generic [ref=e128]:
+          - button "← Voltar" [ref=e129]
+          - button "🎴 Gerar minha figurinha!" [ref=e164]
+  - contentinfo [ref=e131]:
+    - generic [ref=e133]:
+      - paragraph [ref=e134]: © 2026 Minha Figurinha. Todos os direitos reservados.
+      - generic [ref=e135]:
+        - link "Termos de Uso" [ref=e136] [cursor=pointer]:
+          - /url: "#"
+        - link "Política de Privacidade" [ref=e137] [cursor=pointer]:
+          - /url: "#"

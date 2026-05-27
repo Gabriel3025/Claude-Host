@@ -1,0 +1,136 @@
+- generic [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e99] [cursor=pointer]:
+    - img [ref=e100]
+  - alert [ref=e103]
+  - navigation [ref=e104]:
+    - generic [ref=e106]:
+      - link "⚽ Minha Figurinha" [ref=e107] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e108]:
+        - link "Início" [ref=e109] [cursor=pointer]:
+          - /url: /
+        - link "Criar" [ref=e110] [cursor=pointer]:
+          - /url: /criar
+  - main [ref=e111]:
+    - generic [ref=e113]:
+      - paragraph [ref=e117]: Etapa 3 de 6
+      - generic [ref=e118]:
+        - generic [ref=e144]:
+          - heading "Quando nasceu o craque?" [level=2] [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]:
+              - generic [ref=e148]: Dia
+              - combobox [ref=e149]:
+                - option "Dia" [selected]
+                - option "1"
+                - option "2"
+                - option "3"
+                - option "4"
+                - option "5"
+                - option "6"
+                - option "7"
+                - option "8"
+                - option "9"
+                - option "10"
+                - option "11"
+                - option "12"
+                - option "13"
+                - option "14"
+                - option "15"
+                - option "16"
+                - option "17"
+                - option "18"
+                - option "19"
+                - option "20"
+                - option "21"
+                - option "22"
+                - option "23"
+                - option "24"
+                - option "25"
+                - option "26"
+                - option "27"
+                - option "28"
+                - option "29"
+                - option "30"
+                - option "31"
+            - generic [ref=e150]:
+              - generic [ref=e151]: Mês
+              - combobox [ref=e152]:
+                - option "Mês" [selected]
+                - option "Janeiro"
+                - option "Fevereiro"
+                - option "Março"
+                - option "Abril"
+                - option "Maio"
+                - option "Junho"
+                - option "Julho"
+                - option "Agosto"
+                - option "Setembro"
+                - option "Outubro"
+                - option "Novembro"
+                - option "Dezembro"
+            - generic [ref=e153]:
+              - generic [ref=e154]: Ano
+              - combobox [ref=e155]:
+                - option "Ano" [selected]
+                - option "2026"
+                - option "2025"
+                - option "2024"
+                - option "2023"
+                - option "2022"
+                - option "2021"
+                - option "2020"
+                - option "2019"
+                - option "2018"
+                - option "2017"
+                - option "2016"
+                - option "2015"
+                - option "2014"
+                - option "2013"
+                - option "2012"
+                - option "2011"
+                - option "2010"
+                - option "2009"
+                - option "2008"
+                - option "2007"
+                - option "2006"
+                - option "2005"
+                - option "2004"
+                - option "2003"
+                - option "2002"
+                - option "2001"
+                - option "2000"
+                - option "1999"
+                - option "1998"
+                - option "1997"
+                - option "1996"
+                - option "1995"
+                - option "1994"
+                - option "1993"
+                - option "1992"
+                - option "1991"
+                - option "1990"
+                - option "1989"
+                - option "1988"
+                - option "1987"
+                - option "1986"
+                - option "1985"
+                - option "1984"
+                - option "1983"
+                - option "1982"
+                - option "1981"
+                - option "1980"
+                - option "1979"
+                - option "1978"
+                - option "1977"
+        - generic [ref=e128]:
+          - button "← Voltar" [ref=e129]
+          - button "Continuar →" [active] [ref=e130]
+  - contentinfo [ref=e131]:
+    - generic [ref=e133]:
+      - paragraph [ref=e134]: © 2026 Minha Figurinha. Todos os direitos reservados.
+      - generic [ref=e135]:
+        - link "Termos de Uso" [ref=e136] [cursor=pointer]:
+          - /url: "#"
+        - link "Política de Privacidade" [ref=e137] [cursor=pointer]:
+          - /url: "#"

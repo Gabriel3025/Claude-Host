@@ -1,0 +1,37 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e99] [cursor=pointer]:
+    - img [ref=e100]
+  - alert [ref=e103]
+  - navigation [ref=e104]:
+    - generic [ref=e106]:
+      - link "⚽ Minha Figurinha" [ref=e107] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e108]:
+        - link "Início" [ref=e109] [cursor=pointer]:
+          - /url: /
+        - link "Criar" [ref=e110] [cursor=pointer]:
+          - /url: /criar
+  - main [ref=e111]:
+    - generic [ref=e113]:
+      - paragraph [ref=e117]: Etapa 1 de 6
+      - generic [ref=e118]:
+        - generic [ref=e119]:
+          - heading "Qual é o nome do craque?" [level=2] [ref=e120]
+          - generic [ref=e121]:
+            - generic [ref=e122]:
+              - generic [ref=e123]: Nome
+              - 'textbox "Ex: Gabriel" [ref=e124]'
+            - generic [ref=e125]:
+              - generic [ref=e126]: Sobrenome
+              - 'textbox "Ex: Silva" [ref=e127]'
+        - generic [ref=e128]:
+          - button "← Voltar" [disabled] [ref=e129]
+          - button "Continuar →" [ref=e130]
+  - contentinfo [ref=e131]:
+    - generic [ref=e133]:
+      - paragraph [ref=e134]: © 2026 Minha Figurinha. Todos os direitos reservados.
+      - generic [ref=e135]:
+        - link "Termos de Uso" [ref=e136] [cursor=pointer]:
+          - /url: "#"
+        - link "Política de Privacidade" [ref=e137] [cursor=pointer]:
+          - /url: "#"
