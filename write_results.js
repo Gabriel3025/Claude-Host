@@ -1,48 +1,63 @@
-const { google } = require('googleapis');
+﻿const { google } = require('C:/Users/Administrador.LAURAFERREIRA/AppData/Roaming/npm/node_modules/@modelcontextprotocol/server-gdrive/node_modules/googleapis/build/src/index.js');
 const fs = require('fs');
 
-const credentialsPath = '../.gdrive-server-credentials.json';
-const credentials = JSON.parse(fs.readFileSync(credentialsPath, 'utf-8'));
+const KEYS_PATH = 'C:/Users/Administrador.LAURAFERREIRA/Downloads/gcp-oauth.keys.json';
+const CREDENTIALS_PATH = 'C:/Users/Administrador.LAURAFERREIRA/Downloads/.gdrive-server-credentials.json';
+const SHEET_ACOMP = '1902H_f_1PpnA9M0E_MpHEYfavj4U-nwKGzurbvf8PYg';
+const SHEET_RADAR = '1ZBQ3uukBeIIzSDaD1H1H-1xCkyNcB_dHHSck76m9G_8';
 
-const sheets = google.sheets('v4');
+function colLetter(idx) { return String.fromCharCode(65 + idx); }
+function cellAddr(c, r) { return colLetter(c) + (r + 1); }
 
-const acompanhamentoData = [
-  [1, 0], [8, 0], [12, 0], [20, 0], [21, 0], [24, 0], [26, 0], [27, 23],
-  [28, 0], [29, 0], [30, 18], [31, 11], [32, 130], [33, 0], [34, 34],
-  [35, 4], [36, 92], [37, 0], [38, 0], [39, 10], [40, 81], [41, 82],
-  [42, 20], [43, 24], [44, 10], [45, 0], [46, 0], [47, 0], [48, 0],
-  [49, 0], [50, 1], [51, 19], [52, 29], [53, 99], [54, 14], [55, 0],
-  [56, 12], [57, 0], [58, 3], [59, 0], [60, 9], [61, 7], [62, 9],
-  [63, 9], [64, 99], [65, 180], [66, 22], [67, 32], [68, 14], [69, 10], [70, 13]
-];
+async function writeResults() {
+  const resultados = JSON.parse(fs.readFileSync('resultados_hoje.json'));
 
-(async () => {
-  const auth = new google.auth.OAuth2();
-  auth.setCredentials(credentials);
+  const keys = JSON.parse(fs.readFileSync(KEYS_PATH));
+  const oauthKeys = keys.installed || keys.web;
+  const creds = JSON.parse(fs.readFileSync(CREDENTIALS_PATH));
+  const auth = new google.auth.OAuth2(oauthKeys.client_id, oauthKeys.client_secret);
+  auth.setCredentials({ access_token: creds.access_token, refresh_token: creds.refresh_token });
+  const sheets = google.sheets({ version: 'v4', auth });
 
-  try {
-    console.log('Gravando em Acompanhamento Ofertas (DIA 2)...');
-    let count = 0;
-    for (const [rowIdx, val] of acompanhamentoData) {
-      const range = `G${rowIdx + 1}`;
-      try {
-        await sheets.spreadsheets.values.update({
-          auth,
-          spreadsheetId: '1902H_f_1PpnA9M0E_MpHEYfavj4U-nwKGzurbvf8PYg',
-          range,
-          valueInputOption: 'USER_ENTERED',
-          requestBody: {
-            values: [[val]]
-          }
-        });
-        process.stdout.write('.');
-        count++;
-      } catch (e) {
-        console.error(`\nErro na linha ${rowIdx}: ${e.message}`);
-      }
+  const bySheet = {};
+
+  for (const r of resultados) {
+    const sheetId = r.sheet;
+    const cellAddress = cellAddr(r.colDia, r.rowIdx);
+
+    if (!bySheet[sheetId]) {
+      bySheet[sheetId] = [];
     }
-    console.log(`\n✅ ${count} células gravadas!`);
-  } catch (err) {
-    console.error('❌ Erro:', err.message);
+
+    bySheet[sheetId].push({
+      range: cellAddress,
+      values: [[r.valor !== null ? r.valor : 0]]
+    });
   }
-})();
+
+  console.log('\n💾 Gravando nas planilhas...\n');
+
+  for (const [sheetId, data] of Object.entries(bySheet)) {
+    const label = sheetId === SHEET_ACOMP ? 'Acompanhamento Ofertas' : 'Radar de Ofertas';
+
+    try {
+      await sheets.spreadsheets.values.batchUpdate({
+        spreadsheetId: sheetId,
+        requestBody: {
+          valueInputOption: 'RAW',
+          data: data
+        }
+      });
+      console.log(`✅ ${label}: ${data.length} células gravadas`);
+    } catch (err) {
+      console.error(`❌ Erro ao gravar ${label}:`, err.message);
+    }
+  }
+
+  console.log('\n✅ CONFERÊNCIA CONCLUÍDA!\n');
+}
+
+writeResults().catch(err => {
+  console.error('Erro fatal:', err);
+  process.exit(1);
+});
