@@ -53,7 +53,18 @@ export default function Home() {
     );
   }
 
-  const currentDay = Math.max(1, Math.min(21, completedDays.size + 1));
+  // Find the first incomplete day (current day should be the next day to start)
+  let currentDay = 1;
+  for (let i = 1; i <= 21; i++) {
+    if (!completedDays.has(i)) {
+      currentDay = i;
+      break;
+    }
+  }
+  // If all 21 days are completed, currentDay should be 21
+  if (completedDays.size === 21) {
+    currentDay = 21;
+  }
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: "var(--bg-base)" }}>
