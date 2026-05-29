@@ -39,43 +39,16 @@ export function useAuth() {
 
   const loginWithEmail = async (email: string) => {
     try {
-      // Generate random password
-      const randomPassword = Math.random().toString(36).slice(2) + Math.random().toString(36).slice(2);
-
-      // Try to sign up the user
-      const { error: signUpError } = await supabase.auth.signUp({
+      // Use OTP (One Time Password) for authentication
+      // This works for both new and existing users
+      const { error } = await supabase.auth.signInWithOtp({
         email,
-        password: randomPassword,
+        options: {
+          shouldCreateUser: true, // Auto-create user if doesn't exist
+          emailRedirectTo: `${window.location.origin}/auth/callback`,
+        },
       });
-
-      // If user already exists, try to sign in
-      if (signUpError?.message?.includes("already registered")) {
-        const { error: signInError } = await supabase.auth.signInWithPassword({
-          email,
-          password: randomPassword,
-        });
-
-        // If sign in fails with wrong password, create new session with OTP
-        if (signInError) {
-          // User exists but password is different, use OTP
-          const { error: otpError } = await supabase.auth.signInWithOtp({
-            email,
-            options: { emailRedirectTo: `${window.location.origin}/auth/callback` },
-          });
-          if (otpError) throw otpError;
-        }
-        return { success: true };
-      }
-
-      if (signUpError) throw signUpError;
-
-      // Sign in immediately after signup
-      const { error: signInError } = await supabase.auth.signInWithPassword({
-        email,
-        password: randomPassword,
-      });
-      if (signInError) throw signInError;
-
+      if (error) throw error;
       return { success: true };
     } catch (error: any) {
       return { success: false, error: error.message };
