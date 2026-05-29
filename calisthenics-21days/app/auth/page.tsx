@@ -22,19 +22,38 @@ export default function AuthPage() {
     const result = await loginWithEmail(email);
 
     if (result.success) {
-      const { data: session } = await supabase.auth.getSession();
-      if (session?.user) {
+      // Wait for session to be saved
+      await new Promise(resolve => setTimeout(resolve, 1500));
+
+      // Force refresh session
+      const { data } = await supabase.auth.refreshSession();
+
+      console.log("📋 Session after refresh:", data?.session?.user?.email);
+
+      if (data?.session?.user) {
+        console.log("✅ Usuário autenticado, verificando perfil...");
+
+        // Small delay to ensure database is ready
+        await new Promise(resolve => setTimeout(resolve, 500));
+
         const { data: profile } = await supabase
           .from("profiles")
           .select("id")
-          .eq("id", session.user.id)
+          .eq("id", data.session.user.id)
           .single();
 
+        console.log("📝 Perfil encontrado:", profile ? "sim" : "não");
+
         if (profile) {
+          console.log("➡️ Redirecionando para dashboard...");
           router.push("/");
         } else {
+          console.log("➡️ Redirecionando para preencher dados...");
           router.push("/auth/profile");
         }
+      } else {
+        console.log("⚠️ Sem sessão após login");
+        setError("Sessão não foi criada");
       }
     } else {
       setError(result.error || "Erro ao criar conta");

@@ -1,0 +1,9 @@
+[    1333ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[    1368ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[    8716ms] [LOG] 🔐 Tentando login para: gabriel.service@hotmail.com @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[    8720ms] [LOG] 🔑 Tentando signin... @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   10133ms] [LOG] ✅ Login bem-sucedido! @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   51405ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   51692ms] [LOG] [Fast Refresh] done in 379ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   51817ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   51836ms] [LOG] [Fast Refresh] done in 130ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
