@@ -40,40 +40,46 @@ export function ExerciseCard({ exercise, isActive, onComplete }: ExerciseCardPro
         isActive ? "border-orange-500 bg-orange-50" : "border-gray-200 bg-white"
       }`}
     >
-      {/* GIF */}
-      <div className="relative w-full h-48 bg-gray-100 overflow-hidden">
-        <img
-          src={exercise.gif}
-          alt={exercise.name}
-          className="w-full h-full object-cover"
-        />
+      {/* Header with GIF and Info */}
+      <div className="flex gap-4 p-4 items-start">
+        {/* GIF - Smaller */}
+        <div className="relative w-24 h-24 bg-gray-100 rounded-lg overflow-hidden flex-shrink-0">
+          <img
+            src={exercise.gif}
+            alt={exercise.name}
+            className="w-full h-full object-cover"
+          />
+        </div>
+
+        {/* Exercise Info */}
+        <div className="flex-1">
+          <h3 className="text-base font-bold text-gray-800">{exercise.name}</h3>
+          <p className="text-xs text-gray-600 mt-1 line-clamp-2">{exercise.description}</p>
+        </div>
       </div>
 
-      {/* Content */}
-      <div className="p-4">
-        <h3 className="text-lg font-bold text-gray-800 mb-2">{exercise.name}</h3>
-        <p className="text-sm text-gray-600 mb-4">{exercise.description}</p>
-
+      {/* Timer and Controls */}
+      <div className="px-4 pb-4">
         {/* Timer */}
-        <div className="bg-gray-100 rounded-lg p-4 mb-4 text-center">
-          <div className="text-3xl font-bold text-orange-600">
+        <div className="bg-gradient-to-r from-orange-100 to-red-100 rounded-lg p-3 mb-3 text-center border border-orange-200">
+          <div className="text-2xl font-bold text-orange-600">
             {minutes.toString().padStart(2, "0")}:{seconds.toString().padStart(2, "0")}
           </div>
-          <p className="text-xs text-gray-600 mt-1">Tempo restante</p>
+          <p className="text-xs text-gray-600 mt-0.5">Tempo restante</p>
         </div>
 
         {/* Controls */}
         <div className="flex gap-2">
           <button
             onClick={() => setIsRunning(!isRunning)}
-            className="flex-1 bg-orange-600 hover:bg-orange-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors"
+            className="flex-1 bg-orange-600 hover:bg-orange-700 text-white font-semibold py-2 px-3 rounded-lg transition-colors text-sm"
           >
             {isRunning ? "⏸ Pausar" : "▶ Iniciar"}
           </button>
           {timeLeft === 0 && (
             <button
               onClick={onComplete}
-              className="flex-1 bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors"
+              className="flex-1 bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-3 rounded-lg transition-colors text-sm"
             >
               ✓ Próximo
             </button>
