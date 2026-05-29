@@ -6,3 +6,16 @@
 [   22567ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
 [   22584ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
 [   22961ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/image?url=%2Flogo.png&w=96&q=75:0
+[  112488ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  112490ms] [LOG] [Fast Refresh] done in 111ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  112580ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  112618ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  113692ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/image?url=%2Flogo.png&w=96&q=75:0
+[  117064ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  117101ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  117711ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/image?url=%2Flogo.png&w=96&q=75:0
+[  177843ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=ZUmF_ryjdzC7AMlYdbbh_' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/07qn_next_dist_client_12sjgbl._.js:13322
+[  181201ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=ZUmF_ryjdzC7AMlYdbbh_' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/07qn_next_dist_client_12sjgbl._.js:13322
+[  184567ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=ZUmF_ryjdzC7AMlYdbbh_' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/07qn_next_dist_client_12sjgbl._.js:13322
+[  187922ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=ZUmF_ryjdzC7AMlYdbbh_' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/07qn_next_dist_client_12sjgbl._.js:13322
+[  191278ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=ZUmF_ryjdzC7AMlYdbbh_' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/07qn_next_dist_client_12sjgbl._.js:13322
