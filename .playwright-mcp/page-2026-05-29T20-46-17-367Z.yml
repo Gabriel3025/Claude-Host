@@ -1,0 +1,184 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - heading "🥋 Desafio 21 Dias" [level=1] [ref=e18]
+        - paragraph [ref=e19]: Calistenia Asiática - Sua Jornada Começou!
+        - paragraph [ref=e20]: Bem-vindo, Gabriel!
+      - generic [ref=e21]:
+        - button "Toggle theme" [active] [ref=e22]: ☀️
+        - button "Sair" [ref=e23]
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: "Progresso: 2/21 dias"
+          - generic [ref=e29]: 10%
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: "2"
+            - paragraph [ref=e35]: Dias Completos
+          - generic [ref=e36]:
+            - generic [ref=e37]: "3"
+            - paragraph [ref=e38]: Dia Atual
+          - generic [ref=e39]:
+            - generic [ref=e40]: "18"
+            - paragraph [ref=e41]: Faltam
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - link "Dia 1 ~15 minutos ✅" [ref=e44] [cursor=pointer]:
+            - /url: /day/1
+            - generic [ref=e46]:
+              - generic [ref=e47]:
+                - heading "Dia 1" [level=3] [ref=e48]
+                - paragraph [ref=e49]: ~15 minutos
+              - generic [ref=e50]: ✅
+          - button "↶" [ref=e51]
+        - generic [ref=e52]:
+          - link "Dia 2 ~15 minutos ✅" [ref=e53] [cursor=pointer]:
+            - /url: /day/2
+            - generic [ref=e55]:
+              - generic [ref=e56]:
+                - heading "Dia 2" [level=3] [ref=e57]
+                - paragraph [ref=e58]: ~15 minutos
+              - generic [ref=e59]: ✅
+          - button "↶" [ref=e60]
+        - link "Dia 3 ~15 minutos 🎯 Começar agora" [ref=e62] [cursor=pointer]:
+          - /url: /day/3
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - generic [ref=e65]:
+                - heading "Dia 3" [level=3] [ref=e66]
+                - paragraph [ref=e67]: ~15 minutos
+              - generic [ref=e68]: 🎯
+            - generic [ref=e69]: Começar agora
+        - link "Dia 4 ~15 minutos 🔒" [ref=e71] [cursor=pointer]:
+          - /url: /day/4
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - heading "Dia 4" [level=3] [ref=e75]
+              - paragraph [ref=e76]: ~15 minutos
+            - generic [ref=e77]: 🔒
+        - link "Dia 5 ~15 minutos 🔒" [ref=e79] [cursor=pointer]:
+          - /url: /day/5
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - heading "Dia 5" [level=3] [ref=e83]
+              - paragraph [ref=e84]: ~15 minutos
+            - generic [ref=e85]: 🔒
+        - link "Dia 6 ~15 minutos 🔒" [ref=e87] [cursor=pointer]:
+          - /url: /day/6
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - heading "Dia 6" [level=3] [ref=e91]
+              - paragraph [ref=e92]: ~15 minutos
+            - generic [ref=e93]: 🔒
+        - link "Dia 7 ~15 minutos 🔒" [ref=e95] [cursor=pointer]:
+          - /url: /day/7
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - heading "Dia 7" [level=3] [ref=e99]
+              - paragraph [ref=e100]: ~15 minutos
+            - generic [ref=e101]: 🔒
+        - link "Dia 8 ~15 minutos 🔒" [ref=e103] [cursor=pointer]:
+          - /url: /day/8
+          - generic [ref=e105]:
+            - generic [ref=e106]:
+              - heading "Dia 8" [level=3] [ref=e107]
+              - paragraph [ref=e108]: ~15 minutos
+            - generic [ref=e109]: 🔒
+        - link "Dia 9 ~15 minutos 🔒" [ref=e111] [cursor=pointer]:
+          - /url: /day/9
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - heading "Dia 9" [level=3] [ref=e115]
+              - paragraph [ref=e116]: ~15 minutos
+            - generic [ref=e117]: 🔒
+        - link "Dia 10 ~15 minutos 🔒" [ref=e119] [cursor=pointer]:
+          - /url: /day/10
+          - generic [ref=e121]:
+            - generic [ref=e122]:
+              - heading "Dia 10" [level=3] [ref=e123]
+              - paragraph [ref=e124]: ~15 minutos
+            - generic [ref=e125]: 🔒
+        - link "Dia 11 ~15 minutos 🔒" [ref=e127] [cursor=pointer]:
+          - /url: /day/11
+          - generic [ref=e129]:
+            - generic [ref=e130]:
+              - heading "Dia 11" [level=3] [ref=e131]
+              - paragraph [ref=e132]: ~15 minutos
+            - generic [ref=e133]: 🔒
+        - link "Dia 12 ~15 minutos 🔒" [ref=e135] [cursor=pointer]:
+          - /url: /day/12
+          - generic [ref=e137]:
+            - generic [ref=e138]:
+              - heading "Dia 12" [level=3] [ref=e139]
+              - paragraph [ref=e140]: ~15 minutos
+            - generic [ref=e141]: 🔒
+        - link "Dia 13 ~15 minutos 🔒" [ref=e143] [cursor=pointer]:
+          - /url: /day/13
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - heading "Dia 13" [level=3] [ref=e147]
+              - paragraph [ref=e148]: ~15 minutos
+            - generic [ref=e149]: 🔒
+        - link "Dia 14 Descanso relativo 🔒" [ref=e151] [cursor=pointer]:
+          - /url: /day/14
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - heading "Dia 14" [level=3] [ref=e155]
+              - paragraph [ref=e156]: Descanso relativo
+            - generic [ref=e157]: 🔒
+        - link "Dia 15 ~15 minutos 🔒" [ref=e159] [cursor=pointer]:
+          - /url: /day/15
+          - generic [ref=e161]:
+            - generic [ref=e162]:
+              - heading "Dia 15" [level=3] [ref=e163]
+              - paragraph [ref=e164]: ~15 minutos
+            - generic [ref=e165]: 🔒
+        - link "Dia 16 ~15 minutos 🔒" [ref=e167] [cursor=pointer]:
+          - /url: /day/16
+          - generic [ref=e169]:
+            - generic [ref=e170]:
+              - heading "Dia 16" [level=3] [ref=e171]
+              - paragraph [ref=e172]: ~15 minutos
+            - generic [ref=e173]: 🔒
+        - link "Dia 17 ~15 minutos 🔒" [ref=e175] [cursor=pointer]:
+          - /url: /day/17
+          - generic [ref=e177]:
+            - generic [ref=e178]:
+              - heading "Dia 17" [level=3] [ref=e179]
+              - paragraph [ref=e180]: ~15 minutos
+            - generic [ref=e181]: 🔒
+        - link "Dia 18 ~15 minutos 🔒" [ref=e183] [cursor=pointer]:
+          - /url: /day/18
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - heading "Dia 18" [level=3] [ref=e187]
+              - paragraph [ref=e188]: ~15 minutos
+            - generic [ref=e189]: 🔒
+        - link "Dia 19 ~15 minutos 🔒" [ref=e191] [cursor=pointer]:
+          - /url: /day/19
+          - generic [ref=e193]:
+            - generic [ref=e194]:
+              - heading "Dia 19" [level=3] [ref=e195]
+              - paragraph [ref=e196]: ~15 minutos
+            - generic [ref=e197]: 🔒
+        - link "Dia 20 ~15 minutos 🔒" [ref=e199] [cursor=pointer]:
+          - /url: /day/20
+          - generic [ref=e201]:
+            - generic [ref=e202]:
+              - heading "Dia 20" [level=3] [ref=e203]
+              - paragraph [ref=e204]: ~15 minutos
+            - generic [ref=e205]: 🔒
+        - link "Dia 21 ~15 minutos 🔒" [ref=e207] [cursor=pointer]:
+          - /url: /day/21
+          - generic [ref=e209]:
+            - generic [ref=e210]:
+              - heading "Dia 21" [level=3] [ref=e211]
+              - paragraph [ref=e212]: ~15 minutos
+            - generic [ref=e213]: 🔒
+      - button "🔄 Reiniciar Desafio" [ref=e215]
+    - paragraph [ref=e217]: 💪 Força, Determinação e Consistência
+  - button "Open Next.js Dev Tools" [ref=e11] [cursor=pointer]:
+    - img [ref=e12]
+  - alert [ref=e15]

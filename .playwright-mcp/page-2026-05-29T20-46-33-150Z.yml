@@ -1,0 +1,57 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e11] [cursor=pointer]:
+    - img [ref=e12]
+  - alert [ref=e15]
+  - generic [ref=e218]:
+    - generic [ref=e220]:
+      - button "← Voltar" [ref=e221]
+      - generic [ref=e222]:
+        - heading "Dia 1" [level=1] [ref=e223]
+        - paragraph [ref=e224]: ~15 minutos de treino
+      - generic [ref=e225]:
+        - button "Toggle theme" [ref=e226]: ☀️
+        - generic [ref=e227]: ✅
+    - generic [ref=e228]:
+      - generic [ref=e230]:
+        - generic [ref=e231]: Exercício 1 de 3
+        - generic [ref=e232]: 33%
+      - generic [ref=e235]:
+        - generic [ref=e236]:
+          - img "Aquecimento - Círculos com Braços" [ref=e238]
+          - generic [ref=e239]:
+            - heading "Aquecimento - Círculos com Braços" [level=3] [ref=e240]
+            - paragraph [ref=e241]: 2x30
+            - paragraph [ref=e242]: 2x30 segundos. Movimentos circulares com os braços para aquecer.
+        - generic [ref=e243]:
+          - paragraph [ref=e245]: 0/2 séries concluídas
+          - generic [ref=e246]:
+            - button "1" [ref=e247]
+            - button "2" [ref=e248]
+          - paragraph [ref=e250]: 30 repetições • 30s descanso
+          - button "⊘ Pular Exercício" [ref=e252]
+      - generic [ref=e253]:
+        - heading "Exercícios do Dia" [level=3] [ref=e254]
+        - generic [ref=e255]:
+          - button "▶ Aquecimento - Círculos com Braços 2x30 • 30s descanso" [ref=e256]:
+            - generic [ref=e257]:
+              - generic [ref=e258]: ▶
+              - generic [ref=e259]:
+                - paragraph [ref=e260]: Aquecimento - Círculos com Braços
+                - paragraph [ref=e261]: 2x30 • 30s descanso
+          - button "○ Flexões 3x10 • 60s descanso" [ref=e262]:
+            - generic [ref=e263]:
+              - generic [ref=e264]: ○
+              - generic [ref=e265]:
+                - paragraph [ref=e266]: Flexões
+                - paragraph [ref=e267]: 3x10 • 60s descanso
+          - button "○ Agachamentos 3x15 • 60s descanso" [ref=e268]:
+            - generic [ref=e269]:
+              - generic [ref=e270]: ○
+              - generic [ref=e271]:
+                - paragraph [ref=e272]: Agachamentos
+                - paragraph [ref=e273]: 3x15 • 60s descanso
+      - generic [ref=e274]:
+        - generic [ref=e275]: ✅
+        - heading "Dia 1 Completo!" [level=2] [ref=e276]
+        - paragraph [ref=e277]: Você é incrível! Continue assim!
+        - button "→ Ir para Dia 2" [ref=e278]
