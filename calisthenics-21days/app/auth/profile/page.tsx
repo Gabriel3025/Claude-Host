@@ -59,7 +59,7 @@ export default function ProfilePage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 to-red-50 dark:from-[var(--bg-base)] dark:to-[var(--bg-base)] flex items-center justify-center px-4">
+    <div className="min-h-screen bg-gradient-to-br from-[#0F0F0F] to-[#0F0F0F] flex items-center justify-center px-4">
       <div className="w-full max-w-md">
         {/* Card */}
         <div className="bg-[var(--bg-card)] rounded-lg shadow-xl p-8">

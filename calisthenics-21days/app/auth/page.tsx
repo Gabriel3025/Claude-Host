@@ -63,18 +63,18 @@ export default function AuthPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 to-red-50 dark:from-[var(--bg-base)] dark:to-[var(--bg-base)] flex items-center justify-center px-4">
+    <div className="min-h-screen bg-gradient-to-br from-[#0F0F0F] to-[#0F0F0F] flex items-center justify-center px-4">
       <div className="w-full max-w-md">
         {/* Card */}
         <div className="bg-[var(--bg-card)] rounded-lg shadow-xl p-8">
           {/* Header */}
           <div className="text-center mb-8">
-            <div className="mb-4 flex justify-center">
+            <div className="mb-6 flex justify-center">
               <img
                 src="/logo.png"
                 alt="Calistenia Asiática Logo"
-                width={120}
-                height={120}
+                width={160}
+                height={160}
                 className="drop-shadow-lg"
               />
             </div>
