@@ -52,9 +52,6 @@ export function useAuth() {
       const { error: signupError, data: signupData } = await supabase.auth.signUp({
         email,
         password,
-        options: {
-          emailRedirectTo: undefined,
-        },
       });
 
       if (signupError && signupError.message !== "User already registered") {
