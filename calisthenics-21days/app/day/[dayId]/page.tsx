@@ -3,14 +3,14 @@
 import { useParams, useRouter } from "next/navigation";
 import { ExerciseCard } from "@/components/ExerciseCard";
 import { EXERCISES_DATA } from "@/lib/exercises";
-import { useProgress } from "@/lib/useProgress";
+import { useProgressSync } from "@/lib/useProgressSync";
 import { useState } from "react";
 
 export default function DayPage() {
   const params = useParams();
   const router = useRouter();
   const dayId = parseInt(params.dayId as string);
-  const { completeDay, completedDays } = useProgress();
+  const { completeDay, completedDays } = useProgressSync();
   const [currentExerciseIndex, setCurrentExerciseIndex] = useState(0);
 
   const day = EXERCISES_DATA.find((d) => d.dayNumber === dayId);

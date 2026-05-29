@@ -1,12 +1,37 @@
 "use client";
 
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import { supabase } from "@/lib/supabase";
 import { ProgressBar } from "@/components/ProgressBar";
 import { DayCard } from "@/components/DayCard";
 import { EXERCISES_DATA } from "@/lib/exercises";
-import { useProgress } from "@/lib/useProgress";
+import { useProgressSync } from "@/lib/useProgressSync";
 
 export default function Home() {
-  const { completedDays, resetProgress, isLoaded } = useProgress();
+  const { completedDays, resetProgress, isLoaded } = useProgressSync();
+  const [user, setUser] = useState<any>(null);
+  const router = useRouter();
+
+  useEffect(() => {
+    const getUser = async () => {
+      const { data } = await supabase.auth.getSession();
+      if (data?.session?.user) {
+        const { data: profile } = await supabase
+          .from("users")
+          .select("*")
+          .eq("id", data.session.user.id)
+          .single();
+        setUser(profile);
+      }
+    };
+    getUser();
+  }, []);
+
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
+    router.push("/auth");
+  };
 
   if (!isLoaded) {
     return (
@@ -26,8 +51,19 @@ export default function Home() {
       {/* Header */}
       <div className="bg-gradient-to-r from-orange-600 to-red-600 text-white py-12 px-4 shadow-lg">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold mb-2">🥋 Desafio 21 Dias</h1>
-          <p className="text-orange-100">Calistenia Asiática - Sua Jornada Começou!</p>
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <h1 className="text-4xl font-bold mb-2">🥋 Desafio 21 Dias</h1>
+              <p className="text-orange-100">Calistenia Asiática - Sua Jornada Começou!</p>
+              {user && <p className="text-orange-200 text-sm mt-2">Bem-vindo, {user.name}!</p>}
+            </div>
+            <button
+              onClick={handleLogout}
+              className="bg-white text-orange-600 hover:bg-orange-50 font-semibold py-2 px-4 rounded-lg transition-colors text-sm"
+            >
+              Sair
+            </button>
+          </div>
         </div>
       </div>
 
