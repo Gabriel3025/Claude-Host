@@ -1,0 +1,47 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e56] [cursor=pointer]:
+    - img [ref=e57]
+  - alert [ref=e60]
+  - generic [ref=e287]:
+    - generic [ref=e289]:
+      - button "← Voltar" [ref=e290]
+      - generic [ref=e291]:
+        - heading "Dia 1" [level=1] [ref=e292]
+        - paragraph [ref=e293]: 10 minutos de treino
+      - generic [ref=e294]: 🔄
+    - generic [ref=e295]:
+      - generic [ref=e297]:
+        - generic [ref=e298]: Exercício 1 de 3
+        - generic [ref=e299]: 33%
+      - generic [ref=e302]:
+        - generic [ref=e303]:
+          - img "Aquecimento - Círculos com Braços" [ref=e305]
+          - generic [ref=e306]:
+            - heading "Aquecimento - Círculos com Braços" [level=3] [ref=e307]
+            - paragraph [ref=e308]: Faça movimentos circulares com os braços para aquecer a articulação.
+        - generic [ref=e309]:
+          - generic [ref=e310]:
+            - generic [ref=e311]: 02:00
+            - paragraph [ref=e312]: Tempo restante
+          - button "▶ Iniciar" [ref=e314]
+      - generic [ref=e315]:
+        - heading "Exercícios do Dia" [level=3] [ref=e316]
+        - generic [ref=e317]:
+          - button "▶ Aquecimento - Círculos com Braços 2 minutos" [ref=e318]:
+            - generic [ref=e319]:
+              - generic [ref=e320]: ▶
+              - generic [ref=e321]:
+                - paragraph [ref=e322]: Aquecimento - Círculos com Braços
+                - paragraph [ref=e323]: 2 minutos
+          - button "○ Flexões - 10 repetições 4 minutos" [ref=e324]:
+            - generic [ref=e325]:
+              - generic [ref=e326]: ○
+              - generic [ref=e327]:
+                - paragraph [ref=e328]: Flexões - 10 repetições
+                - paragraph [ref=e329]: 4 minutos
+          - button "○ Agachamentos - 15 repetições 4 minutos" [ref=e330]:
+            - generic [ref=e331]:
+              - generic [ref=e332]: ○
+              - generic [ref=e333]:
+                - paragraph [ref=e334]: Agachamentos - 15 repetições
+                - paragraph [ref=e335]: 4 minutos
