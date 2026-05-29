@@ -82,12 +82,12 @@ export default function AuthPage() {
         <div className="bg-[var(--bg-card)] rounded-lg shadow-xl p-8">
           {/* Header */}
           <div className="text-center mb-8">
-            <div className="mb-8 flex justify-center">
+            <div className="mb-6 flex justify-center">
               <img
                 src="/logo.png"
                 alt="Calistenia Asiática Logo"
-                width={220}
-                height={220}
+                width={160}
+                height={160}
                 className="drop-shadow-lg"
               />
             </div>
