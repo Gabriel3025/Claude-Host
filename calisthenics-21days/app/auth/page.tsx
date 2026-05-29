@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import Image from "next/image";
 import { useAuth } from "@/lib/useAuth";
 import { supabase } from "@/lib/supabase";
 
@@ -71,12 +70,11 @@ export default function AuthPage() {
           {/* Header */}
           <div className="text-center mb-8">
             <div className="mb-4 flex justify-center">
-              <Image
+              <img
                 src="/logo.png"
                 alt="Calistenia Asiática Logo"
                 width={120}
                 height={120}
-                priority
                 className="drop-shadow-lg"
               />
             </div>

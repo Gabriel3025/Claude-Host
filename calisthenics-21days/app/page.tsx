@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import Image from "next/image";
 import { supabase } from "@/lib/supabase";
 import { ProgressBar } from "@/components/ProgressBar";
 import { DayCard } from "@/components/DayCard";
@@ -62,12 +61,11 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-4">
-              <Image
+              <img
                 src="/logo.png"
                 alt="Calistenia Asiática Logo"
                 width={80}
                 height={80}
-                priority
                 className="drop-shadow-lg"
               />
               <div>
