@@ -1,0 +1,48 @@
+[     561ms] [LOG] %c
+▲
+
+    ________   _ __ _          ____           __
+   /  _/ __/  (_) /( )_____   / __/___ ______/ /_
+   / // /_   / / __/// ___/  / /_/ __ `/ ___/ __/
+ _/ // __/  / / /_  (__  )  / __/ /_/ (__  ) /_
+/___/_/    /_/\__/ /____/  /_/  \__,_/____/\__/
+    _ __ _                         _    __                    __
+   (_) /( )_____   ____  ____     | |  / /__  _____________  / /
+  / / __/// ___/  / __ \/ __ \    | | / / _ \/ ___/ ___/ _ \/ /
+ / / /_  (__  )  / /_/ / / / /    | |/ /  __/ /  / /__/  __/ /
+/_/\__/ /____/   \____/_/ /_/     |___/\___/_/   \___/\___/_/
+  
+
+Hello!
+
+- Open Source https://vercel.com/oss
+- Careers https://vercel.com/careers
+- Status https://vercel-status.com
+
+ font-family: "Geist Mono", monospace; white-space: pre; line-height: 1; @ https://vercel.com/_next/static/immutable/chunks/1kb_g4grefj65.js:78
+[    6196ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/389fqnv9daql5.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabriel3025s-projects/claude-host/3Bu68kgUFm9o1epUv8yMrKn12MCp:0
+[    6248ms] [WARNING] Deprecated API for given entry type. @ https://vercel.com/_next/static/immutable/chunks/3nvaismgwj9pr.js:18
+[    6816ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://vercel.com/api/chat/9DxVXNHq1YMRvUUz/stream:0
+[    6991ms] [WARNING] [omniagent] chat stream failed Error: {"error":{"code":"not_found","message":"The requested API endpoint was not found."}}
+    at oS.reconnectToStream (https://vercel.com/_next/static/immutable/chunks/2axfz07t26y9p.js:38:48063)
+    at async ae.makeRequest (https://vercel.com/_next/static/immutable/chunks/2axfz07t26y9p.js:23:47520)
+    at async ae.resumeStream (https://vercel.com/_next/static/immutable/chunks/2axfz07t26y9p.js:23:44598) @ https://vercel.com/_next/static/immutable/chunks/3nvaismgwj9pr.js:16
+[    7137ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://vercel.com/api/v6/deployments/dpl_AvqsmdDk3rBaHwq4tFfRsCqESSYQ/files/turborepo-summary?teamId=gabriel3025s-projects:0
+[    7156ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://vercel.com/api/v6/deployments/dpl_3Bu68kgUFm9o1epUv8yMrKn12MCp/files/turborepo-summary?teamId=gabriel3025s-projects:0
+[    9356ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3464kdrwahiyx.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabriel3025s-projects/claude-host/3Bu68kgUFm9o1epUv8yMrKn12MCp:0
+[    9357ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/25e4i5hi31rfk.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabriel3025s-projects/claude-host/3Bu68kgUFm9o1epUv8yMrKn12MCp:0
+[    9357ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/caa3a2e1cccd8315.p.0wgildi0cnwt9.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabriel3025s-projects/claude-host/3Bu68kgUFm9o1epUv8yMrKn12MCp:0
+[    9357ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3_ievhbgysuv-.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabriel3025s-projects/claude-host/3Bu68kgUFm9o1epUv8yMrKn12MCp:0
+[    9357ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/13t1j7hlxsp-_.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabriel3025s-projects/claude-host/3Bu68kgUFm9o1epUv8yMrKn12MCp:0
+[    9357ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/GeistMono_Variable.p.1bcgm0qa26ixg.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabriel3025s-projects/claude-host/3Bu68kgUFm9o1epUv8yMrKn12MCp:0
+[    9357ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/08cd0i4vtwexf.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabriel3025s-projects/claude-host/3Bu68kgUFm9o1epUv8yMrKn12MCp:0
+[    9357ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/1go2vinjiwjy8.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabriel3025s-projects/claude-host/3Bu68kgUFm9o1epUv8yMrKn12MCp:0
+[    9357ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3d792zqltro0t.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabriel3025s-projects/claude-host/3Bu68kgUFm9o1epUv8yMrKn12MCp:0
+[    9357ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/1uby4cofyqi9z.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabriel3025s-projects/claude-host/3Bu68kgUFm9o1epUv8yMrKn12MCp:0
+[    9357ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/0v7tccxaltztg.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabriel3025s-projects/claude-host/3Bu68kgUFm9o1epUv8yMrKn12MCp:0
+[    9357ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/2jc3bokroaj5m.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabriel3025s-projects/claude-host/3Bu68kgUFm9o1epUv8yMrKn12MCp:0
+[    9357ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/37gxv99vf68l-.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabriel3025s-projects/claude-host/3Bu68kgUFm9o1epUv8yMrKn12MCp:0
+[    9357ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3j7d6ld0gjv-a.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabriel3025s-projects/claude-host/3Bu68kgUFm9o1epUv8yMrKn12MCp:0
+[    9357ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/0ld0e81xyg1qc.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabriel3025s-projects/claude-host/3Bu68kgUFm9o1epUv8yMrKn12MCp:0
+[    9357ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/389fqnv9daql5.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabriel3025s-projects/claude-host/3Bu68kgUFm9o1epUv8yMrKn12MCp:0
+[    9357ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3fd49nnoyujvi.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabriel3025s-projects/claude-host/3Bu68kgUFm9o1epUv8yMrKn12MCp:0
