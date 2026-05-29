@@ -20,3 +20,7 @@
 [  142432ms] [LOG] [Fast Refresh] done in 108ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
 [  152792ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/user_progress?select=completed_days&user_id=eq.ddfb17e3-6c2e-4ff9-b354-1e8f81efe475:0
 [  152966ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/user_progress?select=completed_days&user_id=eq.ddfb17e3-6c2e-4ff9-b354-1e8f81efe475:0
+[  204209ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  204228ms] [LOG] [Fast Refresh] done in 118ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  204347ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  204360ms] [LOG] [Fast Refresh] done in 117ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
