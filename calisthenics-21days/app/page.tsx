@@ -38,6 +38,38 @@ export default function Home() {
   }, []);
 
   const handleLogout = async () => {
+    // Force sync all progress to Supabase before logout
+    try {
+      const { data } = await supabase.auth.getSession();
+      const userId = data?.session?.user?.id;
+
+      if (userId && completedDays.size > 0) {
+        // Delete all existing progress records
+        await supabase
+          .from("progress")
+          .delete()
+          .eq("user_id", userId);
+
+        // Insert current state
+        const daysArray = Array.from(completedDays);
+        if (daysArray.length > 0) {
+          await supabase
+            .from("progress")
+            .insert(
+              daysArray.map((day) => ({
+                user_id: userId,
+                day: day,
+              }))
+            );
+        }
+
+        console.log("✅ Progress synced before logout");
+      }
+    } catch (error) {
+      console.error("Error syncing progress before logout:", error);
+    }
+
+    // Proceed with logout
     await supabase.auth.signOut();
     router.push("/auth");
   };
