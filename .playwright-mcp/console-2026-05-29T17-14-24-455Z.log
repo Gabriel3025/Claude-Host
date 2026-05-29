@@ -19,3 +19,15 @@
 [   42115ms] [LOG] 🔐 Tentando login para: gabriel.desouza9@hotmail.com @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
 [   42117ms] [LOG] 🔑 Tentando signin... @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
 [   42382ms] [LOG] ✅ Login bem-sucedido! @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   44080ms] [LOG] 📋 Session after refresh: gabriel.desouza9@hotmail.com @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   44081ms] [LOG] ✅ Usuário autenticado, verificando perfil... @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   44804ms] [ERROR] Failed to load resource: the server responded with a status of 406 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/profiles?select=id&id=eq.6dd27dd0-3b19-4231-a6fd-6b5a66c9354c:0
+[   44805ms] [LOG] 📝 Perfil encontrado: não @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   44805ms] [LOG] ➡️ Redirecionando para preencher dados... @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   72113ms] [LOG] 🔐 Tentando login para: gabriel.desouza9@hotmail.com @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   72115ms] [LOG] 🔑 Tentando signin... @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   72380ms] [LOG] ✅ Login bem-sucedido! @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   74083ms] [LOG] 📋 Session after refresh: gabriel.desouza9@hotmail.com @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   74084ms] [LOG] ✅ Usuário autenticado, verificando perfil... @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   74776ms] [LOG] 📝 Perfil encontrado: sim @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   74776ms] [LOG] ➡️ Redirecionando para dashboard... @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
