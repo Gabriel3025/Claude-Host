@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 import { supabase } from "@/lib/supabase";
 import { ProgressBar } from "@/components/ProgressBar";
 import { DayCard } from "@/components/DayCard";
@@ -60,10 +61,20 @@ export default function Home() {
       <div className="bg-gradient-to-r from-orange-600 to-red-600 dark:from-[#1A1A1A] dark:to-[#0F0F0F] text-white py-12 px-4 shadow-lg dark:shadow-xl">
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center justify-between mb-4">
-            <div>
-              <h1 className="text-4xl font-bold mb-2">🥋 Desafio 21 Dias</h1>
-              <p className="text-orange-100 dark:text-[var(--text-secondary)]">Calistenia Asiática - Sua Jornada Começou!</p>
-              {user && <p className="text-orange-200 dark:text-[var(--text-secondary)] text-sm mt-2">Bem-vindo, {user.name}!</p>}
+            <div className="flex items-center gap-4">
+              <Image
+                src="/logo.png"
+                alt="Calistenia Asiática Logo"
+                width={80}
+                height={80}
+                priority
+                className="drop-shadow-lg"
+              />
+              <div>
+                <h1 className="text-4xl font-bold mb-2">Desafio 21 Dias</h1>
+                <p className="text-orange-100 dark:text-[var(--text-secondary)]">Calistenia Asiática - Sua Jornada Começou!</p>
+                {user && <p className="text-orange-200 dark:text-[var(--text-secondary)] text-sm mt-2">Bem-vindo, {user.name}!</p>}
+              </div>
             </div>
             <div className="flex items-center gap-3">
               <ThemeToggle />

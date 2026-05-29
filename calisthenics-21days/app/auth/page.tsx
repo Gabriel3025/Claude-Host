@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 import { useAuth } from "@/lib/useAuth";
 import { supabase } from "@/lib/supabase";
 
@@ -69,7 +70,16 @@ export default function AuthPage() {
         <div className="bg-[var(--bg-card)] rounded-lg shadow-xl p-8">
           {/* Header */}
           <div className="text-center mb-8">
-            <div className="text-5xl mb-4">🥋</div>
+            <div className="mb-4 flex justify-center">
+              <Image
+                src="/logo.png"
+                alt="Calistenia Asiática Logo"
+                width={120}
+                height={120}
+                priority
+                className="drop-shadow-lg"
+              />
+            </div>
             <h1 className="text-3xl font-bold text-[var(--text-primary)]">Desafio 21 Dias</h1>
             <p className="text-[var(--text-secondary)] mt-2">Calistenia Asiática</p>
           </div>
