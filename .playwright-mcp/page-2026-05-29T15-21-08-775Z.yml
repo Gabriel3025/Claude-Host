@@ -1,0 +1,48 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e11] [cursor=pointer]:
+    - img [ref=e12]
+  - alert [ref=e185]
+  - generic [ref=e414]:
+    - generic [ref=e416]:
+      - button "← Voltar" [ref=e417]
+      - generic [ref=e418]:
+        - heading "Dia 1" [level=1] [ref=e419]
+        - paragraph [ref=e420]: ~15 minutos de treino
+      - generic [ref=e421]: 🔄
+    - generic [ref=e422]:
+      - generic [ref=e424]:
+        - generic [ref=e425]: Exercício 1 de 3
+        - generic [ref=e426]: 33%
+      - generic [ref=e429]:
+        - generic [ref=e430]:
+          - img "Aquecimento - Círculos com Braços" [ref=e432]
+          - generic [ref=e433]:
+            - heading "Aquecimento - Círculos com Braços" [level=3] [ref=e434]
+            - paragraph [ref=e435]: 2x30
+            - paragraph [ref=e436]: 2x30 segundos. Movimentos circulares com os braços para aquecer.
+        - generic [ref=e437]:
+          - generic [ref=e438]:
+            - generic [ref=e439]: Série 1/2
+            - paragraph [ref=e440]: "30 repetições • Descanso: 30s"
+          - button "✓ Série 1 Completa" [ref=e442]
+      - generic [ref=e443]:
+        - heading "Exercícios do Dia" [level=3] [ref=e444]
+        - generic [ref=e445]:
+          - button "▶ Aquecimento - Círculos com Braços 2x30 • 30s descanso" [ref=e446]:
+            - generic [ref=e447]:
+              - generic [ref=e448]: ▶
+              - generic [ref=e449]:
+                - paragraph [ref=e450]: Aquecimento - Círculos com Braços
+                - paragraph [ref=e451]: 2x30 • 30s descanso
+          - button "○ Flexões 3x10 • 60s descanso" [ref=e452]:
+            - generic [ref=e453]:
+              - generic [ref=e454]: ○
+              - generic [ref=e455]:
+                - paragraph [ref=e456]: Flexões
+                - paragraph [ref=e457]: 3x10 • 60s descanso
+          - button "○ Agachamentos 3x15 • 60s descanso" [ref=e458]:
+            - generic [ref=e459]:
+              - generic [ref=e460]: ○
+              - generic [ref=e461]:
+                - paragraph [ref=e462]: Agachamentos
+                - paragraph [ref=e463]: 3x15 • 60s descanso
