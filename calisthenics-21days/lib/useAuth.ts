@@ -39,27 +39,17 @@ export function useAuth() {
 
   const loginWithEmail = async (email: string) => {
     try {
-      // Generate a fixed password based on email for simplicity
-      const password = "Desafio21Dias" + email.split("@")[0];
-
-      // Try to sign up first
-      const { error: signUpError, data: signUpData } = await supabase.auth.signUp({
+      // Use magic link authentication (OTP)
+      // This works for both new and existing users
+      const { error } = await supabase.auth.signInWithOtp({
         email,
-        password,
+        options: {
+          shouldCreateUser: true,
+          emailRedirectTo: `${window.location.origin}/auth/callback`,
+        },
       });
 
-      // If signup succeeded or user already exists, try to sign in
-      if (signUpError && !signUpError.message?.includes("already registered")) {
-        throw signUpError;
-      }
-
-      // Now try to sign in
-      const { error: signInError, data: signInData } = await supabase.auth.signInWithPassword({
-        email,
-        password,
-      });
-
-      if (signInError) throw signInError;
+      if (error) throw error;
       return { success: true };
     } catch (error: any) {
       return { success: false, error: error.message };
