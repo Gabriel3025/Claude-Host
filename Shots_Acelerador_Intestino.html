@@ -11,273 +11,519 @@
             box-sizing: border-box;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: #f5f5f5;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            line-height: 1.8;
+            color: #2c2410;
+            background: linear-gradient(135deg, #f5ebe0 0%, #faf6f1 100%);
+            min-height: 100vh;
         }
 
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
-            background: white;
-            padding: 40px;
-            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            background: linear-gradient(to bottom, #ffffff 0%, #fffcf8 100%);
+            padding: 50px 30px;
+            box-shadow: 0 10px 40px rgba(139, 69, 19, 0.08),
+                        0 0 1px rgba(139, 69, 19, 0.1);
+            border-radius: 12px;
+            margin: 20px auto;
         }
 
+        /* HEADER */
         .header {
             text-align: center;
-            margin-bottom: 40px;
-            border-bottom: 3px solid #d4a574;
-            padding-bottom: 20px;
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #D4AF37 0%, #C9A227 100%);
+            border-radius: 50%;
+            opacity: 0.15;
+            z-index: 0;
         }
 
         .header h1 {
-            font-size: 2.5em;
-            color: #8b6f47;
-            margin-bottom: 10px;
+            font-size: 2.8em;
+            background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 12px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            position: relative;
+            z-index: 1;
         }
 
         .header p {
-            font-size: 1.1em;
-            color: #666;
-            font-style: italic;
+            font-size: 1.15em;
+            color: #555;
+            font-weight: 500;
+            margin-bottom: 20px;
+            letter-spacing: 0.3px;
         }
 
+        .divider-premium {
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, transparent, #D4AF37, transparent);
+            margin: 0 auto;
+            border-radius: 2px;
+        }
+
+        /* INTRO */
         .intro {
-            background: #fef9f3;
-            padding: 20px;
-            border-left: 4px solid #d4a574;
-            margin-bottom: 40px;
-            border-radius: 4px;
+            background: linear-gradient(135deg, #fff8f0 0%, #fef5ed 100%);
+            padding: 35px;
+            border-left: 5px solid #D4AF37;
+            margin-bottom: 50px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.08);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .intro::before {
+            content: '';
+            position: absolute;
+            top: -50px;
+            right: -50px;
+            width: 150px;
+            height: 150px;
+            background: radial-gradient(circle, #D4AF37 0%, transparent 70%);
+            opacity: 0.05;
+            border-radius: 50%;
         }
 
         .intro h2 {
-            color: #8b6f47;
-            margin-bottom: 15px;
-            font-size: 1.3em;
+            color: #8B4513;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            font-weight: 700;
+            letter-spacing: -0.3px;
+            position: relative;
+            z-index: 1;
         }
 
         .intro p {
-            color: #555;
-            margin-bottom: 10px;
+            color: #3d3422;
+            margin-bottom: 15px;
+            font-weight: 500;
+            position: relative;
+            z-index: 1;
+        }
+
+        .intro p strong {
+            color: #8B4513;
+            font-weight: 700;
+        }
+
+        /* SHOTS SECTION */
+        .shots-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 35px;
+            margin-bottom: 50px;
         }
 
         .shot {
-            background: #fff;
+            background: linear-gradient(135deg, #ffffff 0%, #fffbf7 100%);
             border: 2px solid #e8dcc8;
-            border-radius: 8px;
-            padding: 30px;
-            margin-bottom: 30px;
+            border-radius: 12px;
+            padding: 40px;
             page-break-inside: avoid;
+            position: relative;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 20px rgba(139, 69, 19, 0.06);
+            overflow: hidden;
         }
 
-        .shot h3 {
-            color: #8b6f47;
-            font-size: 1.4em;
-            margin-bottom: 15px;
+        .shot::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle, #D4AF37 0%, transparent 70%);
+            opacity: 0.04;
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .shot:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 30px rgba(139, 69, 19, 0.12);
+        }
+
+        .shot-header {
             display: flex;
             align-items: center;
+            gap: 20px;
+            margin-bottom: 30px;
+            position: relative;
+            z-index: 1;
         }
 
         .shot-number {
-            display: inline-block;
-            background: #d4a574;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
             color: white;
-            width: 40px;
-            height: 40px;
+            width: 55px;
+            height: 55px;
             border-radius: 50%;
-            text-align: center;
-            line-height: 40px;
-            margin-right: 15px;
-            font-weight: bold;
+            font-weight: 800;
+            font-size: 1.8em;
+            flex-shrink: 0;
+            box-shadow: 0 4px 15px rgba(139, 69, 19, 0.3);
+        }
+
+        .shot h3 {
+            color: #8B4513;
+            font-size: 1.55em;
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: -0.3px;
+        }
+
+        .shot-glass {
+            width: 50px;
+            height: 50px;
+            flex-shrink: 0;
+            margin-left: auto;
         }
 
         .shot-content {
-            margin-top: 15px;
-        }
-
-        .section-title {
-            font-weight: 600;
-            color: #8b6f47;
-            margin-top: 15px;
-            margin-bottom: 8px;
-            font-size: 0.95em;
+            margin-top: 0;
+            position: relative;
+            z-index: 1;
         }
 
         .ingredients {
-            background: #f9f7f4;
-            padding: 15px;
-            border-radius: 4px;
+            background: linear-gradient(135deg, #f9f7f4 0%, #f5f2ed 100%);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            border-left: 4px solid #D4AF37;
+        }
+
+        .section-title {
+            font-weight: 700;
+            color: #8B4513;
             margin-bottom: 15px;
+            font-size: 1.05em;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            font-size: 0.9em;
         }
 
         .ingredients ul {
             list-style: none;
-            padding-left: 0;
+            padding: 0;
         }
 
         .ingredients li {
-            padding: 5px 0;
-            padding-left: 25px;
+            padding: 8px 0 8px 30px;
             position: relative;
+            color: #444;
+            font-weight: 500;
         }
 
-        .ingredients li:before {
+        .ingredients li::before {
             content: "✓";
             position: absolute;
             left: 0;
-            color: #d4a574;
-            font-weight: bold;
+            color: #D4AF37;
+            font-weight: 900;
+            font-size: 1.2em;
+        }
+
+        .ingredients + .section-title {
+            margin-top: 25px;
+        }
+
+        .shot-content > p {
+            color: #3d3422;
+            margin-bottom: 25px;
+            line-height: 1.8;
+            font-weight: 500;
         }
 
         .info-box {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 15px;
-            margin-top: 15px;
+            margin: 25px 0;
         }
 
         .info-item {
-            background: #fef9f3;
-            padding: 12px;
-            border-radius: 4px;
+            background: linear-gradient(135deg, #fef9f3 0%, #fffaf6 100%);
+            padding: 18px;
+            border-radius: 8px;
+            border: 1px solid #e8dcc8;
             text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
         }
 
         .info-item strong {
             display: block;
-            color: #8b6f47;
-            margin-bottom: 5px;
-            font-size: 0.9em;
+            color: #8B4513;
+            margin-bottom: 8px;
+            font-size: 0.95em;
+            font-weight: 700;
+            letter-spacing: 0.3px;
         }
 
         .info-item span {
             color: #555;
-            font-size: 1.1em;
+            font-size: 1em;
+            font-weight: 600;
+        }
+
+        .badges {
+            display: flex;
+            gap: 12px;
+            margin: 25px 0;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #2D5016 0%, #3a6b1f 100%);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            box-shadow: 0 3px 10px rgba(45, 80, 22, 0.2);
         }
 
         .benefit {
-            background: #e8f5e9;
-            border-left: 4px solid #4caf50;
-            padding: 12px;
-            margin-top: 15px;
-            border-radius: 4px;
-            color: #2e7d32;
+            background: linear-gradient(135deg, #e8f5e9 0%, #f1f8f1 100%);
+            border-left: 5px solid #2D5016;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 8px;
+            color: #1b5e20;
             font-size: 0.95em;
+            font-weight: 500;
+            box-shadow: 0 3px 10px rgba(45, 80, 22, 0.08);
         }
 
+        .benefit strong {
+            color: #2D5016;
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        /* PROTOCOLO */
         .protocol {
-            background: #fef9f3;
-            padding: 30px;
-            border-radius: 8px;
-            margin: 40px 0;
+            background: linear-gradient(135deg, #fff8f0 0%, #fef5ed 100%);
+            padding: 45px;
+            border-radius: 12px;
+            margin: 50px 0;
             page-break-inside: avoid;
+            box-shadow: 0 6px 20px rgba(139, 69, 19, 0.06);
+            position: relative;
+            border: 2px solid #e8dcc8;
+        }
+
+        .protocol::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 250px;
+            height: 250px;
+            background: radial-gradient(circle, #D4AF37 0%, transparent 70%);
+            opacity: 0.03;
+            border-radius: 50%;
+            pointer-events: none;
         }
 
         .protocol h2 {
-            color: #8b6f47;
-            font-size: 1.5em;
-            margin-bottom: 20px;
+            color: #8B4513;
+            font-size: 1.7em;
+            margin-bottom: 35px;
             text-align: center;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            position: relative;
+            z-index: 1;
         }
 
         .protocol-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 20px;
-            margin-top: 20px;
+            margin-bottom: 30px;
+            position: relative;
+            z-index: 1;
         }
 
         .protocol-item {
-            background: white;
-            padding: 15px;
-            border-left: 4px solid #d4a574;
-            border-radius: 4px;
+            background: linear-gradient(135deg, #ffffff 0%, #fffbf7 100%);
+            padding: 25px;
+            border-left: 5px solid #D4AF37;
+            border-radius: 8px;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.04);
         }
 
         .protocol-item h4 {
-            color: #8b6f47;
-            margin-bottom: 10px;
-            font-size: 0.95em;
+            color: #8B4513;
+            margin-bottom: 12px;
+            font-size: 1.1em;
+            font-weight: 700;
+            letter-spacing: -0.2px;
         }
 
         .protocol-item p {
+            color: #3d3422;
+            font-size: 0.95em;
+            font-weight: 500;
+            line-height: 1.7;
+        }
+
+        .important {
+            background: linear-gradient(135deg, #fff3cd 0%, #fffae6 100%);
+            border-left: 5px solid #ffc107;
+            padding: 22px;
+            margin: 25px 0;
+            border-radius: 8px;
+            color: #5a4a00;
+            font-weight: 500;
+            box-shadow: 0 3px 10px rgba(255, 193, 7, 0.15);
+            position: relative;
+            z-index: 1;
+        }
+
+        .important strong {
+            color: #8B4513;
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        /* FOOTER */
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 3px solid #e8dcc8;
             color: #555;
             font-size: 0.95em;
         }
 
-        .checklist {
-            background: white;
-            padding: 30px;
-            border: 2px solid #e8dcc8;
-            border-radius: 8px;
-            margin: 40px 0;
-            page-break-inside: avoid;
+        .footer p {
+            margin-bottom: 12px;
+            font-weight: 500;
         }
 
-        .checklist h2 {
-            color: #8b6f47;
-            font-size: 1.5em;
-            margin-bottom: 20px;
-            text-align: center;
+        .footer p:first-child {
+            font-size: 1.1em;
+            color: #8B4513;
+            font-weight: 700;
         }
 
-        .checklist-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 15px;
+        .footer p:nth-child(2) {
+            color: #D4AF37;
+            font-weight: 700;
+            font-size: 1em;
         }
 
-        .checklist-table th {
-            background: #d4a574;
-            color: white;
-            padding: 12px;
-            text-align: left;
-            font-weight: 600;
+        .footer p:last-child {
+            font-size: 0.85em;
+            color: #888;
+            margin-top: 20px;
+            font-weight: 500;
         }
 
-        .checklist-table td {
-            padding: 12px;
-            border-bottom: 1px solid #e8dcc8;
-        }
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+                margin: 10px auto;
+            }
 
-        .checklist-table tr:nth-child(even) {
-            background: #fef9f3;
-        }
+            .header h1 {
+                font-size: 2em;
+            }
 
-        .checklist-table input[type="checkbox"] {
-            width: 20px;
-            height: 20px;
-            cursor: pointer;
-        }
+            .header p {
+                font-size: 1em;
+            }
 
-        .footer {
-            text-align: center;
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 2px solid #d4a574;
-            color: #666;
-            font-size: 0.9em;
-        }
+            .intro,
+            .shot,
+            .protocol {
+                padding: 25px;
+            }
 
-        .important {
-            background: #fff3cd;
-            border-left: 4px solid #ffc107;
-            padding: 15px;
-            margin: 20px 0;
-            border-radius: 4px;
-            color: #856404;
+            .shot-header {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+
+            .shot h3 {
+                font-size: 1.3em;
+            }
+
+            .shot-glass {
+                margin-left: 0;
+            }
+
+            .info-box {
+                grid-template-columns: 1fr;
+            }
+
+            .protocol-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .badges {
+                justify-content: center;
+            }
         }
 
         @media print {
             body {
                 background: white;
             }
+
             .container {
                 box-shadow: none;
                 max-width: 100%;
+                margin: 0;
+                padding: 40px;
+            }
+
+            .shot,
+            .protocol,
+            .intro {
+                box-shadow: none;
+                page-break-inside: avoid;
+            }
+
+            .shot:hover {
+                transform: none;
             }
         }
     </style>
@@ -286,114 +532,181 @@
     <div class="container">
         <!-- HEADER -->
         <div class="header">
-            <h1>🎯 Shots Acelerador de Intestino</h1>
+            <h1>Shots Acelerador de Intestino</h1>
             <p>Elimine mais de 1kg de gordura em 14 dias ativando seu intestino</p>
+            <div class="divider-premium"></div>
         </div>
 
         <!-- INTRODUÇÃO -->
         <div class="intro">
             <h2>Por que isso funciona?</h2>
-            <p>Um intestino lento = gordura acumulada. Quando o sistema digestivo não funciona adequadamente, as toxinas e gorduras se acumulam no corpo.</p>
-            <p>Estes 3 shots estratégicos ativam seu intestino, aceleram o metabolismo e aumentam a queima de gordura corporal, especialmente na região abdominal.</p>
-            <p><strong>O resultado?</strong> Mais disposição, menos inchaço e peles mais firme em apenas 2 semanas.</p>
+            <p>Um intestino lento significa gordura acumulada. Quando o sistema digestivo não funciona adequadamente, as toxinas e gorduras se acumulam no corpo, causando inchaço, lentidão e ganho de peso.</p>
+            <p>Estes 3 shots estratégicos ativam seu intestino de forma potente, <strong>aceleram o metabolismo</strong> e aumentam a queima de gordura corporal, especialmente na região abdominal.</p>
+            <p><strong>O resultado?</strong> Mais disposição, menos inchaço, pele mais firme e digestão acelerada em apenas 2 semanas. Tudo isso com ingredientes naturais e de acesso fácil.</p>
         </div>
 
-        <!-- SHOT 1 -->
-        <div class="shot">
-            <h3><span class="shot-number">1</span>Limão + Gengibre + Cúrcuma</h3>
-            <div class="shot-content">
-                <div class="ingredients">
-                    <div class="section-title">Ingredientes:</div>
-                    <ul>
-                        <li>1 limão espremido</li>
-                        <li>1 colher de chá de gengibre ralado fresco (ou em pó)</li>
-                        <li>½ colher de chá de cúrcuma em pó</li>
-                        <li>150ml de água morna</li>
-                    </ul>
+        <!-- SHOTS -->
+        <div class="shots-container">
+            <!-- SHOT 1 -->
+            <div class="shot">
+                <div class="shot-header">
+                    <span class="shot-number">1</span>
+                    <h3>Limão + Gengibre + Cúrcuma</h3>
+                    <svg class="shot-glass" viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="glass1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#FFE5B4;stop-opacity:0.8" />
+                                <stop offset="100%" style="stop-color:#D4AF37;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <path d="M 30 10 L 25 90 Q 25 110 35 110 L 65 110 Q 75 110 75 90 L 70 10 Z" fill="url(#glass1)" stroke="#8B4513" stroke-width="2"/>
+                        <path d="M 30 10 L 70 10" stroke="#8B4513" stroke-width="2" fill="none"/>
+                    </svg>
                 </div>
 
-                <div class="section-title">Modo de Preparo:</div>
-                <p>Aquece a água até ficar morna. Esprema o limão em um copo. Adicione o gengibre ralado e a cúrcuma. Misture bem e beba em um único gole.</p>
-
-                <div class="info-box">
-                    <div class="info-item">
-                        <strong>⏰ Quando tomar</strong>
-                        <span>10-15 min antes do almoço</span>
+                <div class="shot-content">
+                    <div class="ingredients">
+                        <div class="section-title">Ingredientes</div>
+                        <ul>
+                            <li>1 limão espremido</li>
+                            <li>1 colher de chá de gengibre ralado fresco (ou em pó)</li>
+                            <li>½ colher de chá de cúrcuma em pó</li>
+                            <li>150ml de água morna</li>
+                        </ul>
                     </div>
-                    <div class="info-item">
-                        <strong>📅 Frequência</strong>
-                        <span>1 vez ao dia</span>
-                    </div>
-                </div>
 
-                <div class="benefit">
-                    <strong>✨ O que esperar:</strong> Termogênico potente + melhora na digestão + redução de inflamação. Acelera o metabolismo e aumenta a queima de calorias.
+                    <div class="section-title">Modo de Preparo</div>
+                    <p>Aqueça a água até ficar morna. Esprema o limão em um copo. Adicione o gengibre ralado e a cúrcuma. Misture bem com uma colher e beba em um único gole para máxima potência.</p>
+
+                    <div class="info-box">
+                        <div class="info-item">
+                            <strong>⏰ Quando tomar</strong>
+                            <span>10-15 min antes do almoço</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>📅 Frequência</strong>
+                            <span>1 vez ao dia</span>
+                        </div>
+                    </div>
+
+                    <div class="badges">
+                        <span class="badge">Termogênico</span>
+                        <span class="badge">Anti-inflamação</span>
+                        <span class="badge">Acelera metabolismo</span>
+                    </div>
+
+                    <div class="benefit">
+                        <strong>✨ O que esperar:</strong>
+                        Termogênico potente que gera calor no corpo aumentando o gasto calórico. Melhora significativa na digestão, redução de inflamação abdominal e aceleração do metabolismo. Você pode sentir um leve aquecimento 15 minutos após ingerir.
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- SHOT 2 -->
-        <div class="shot">
-            <h3><span class="shot-number">2</span>Aloe Vera + Limão</h3>
-            <div class="shot-content">
-                <div class="ingredients">
-                    <div class="section-title">Ingredientes:</div>
-                    <ul>
-                        <li>30ml de suco de aloe vera puro</li>
-                        <li>1 limão espremido</li>
-                        <li>120ml de água filtrada</li>
-                    </ul>
+            <!-- SHOT 2 -->
+            <div class="shot">
+                <div class="shot-header">
+                    <span class="shot-number">2</span>
+                    <h3>Aloe Vera + Limão</h3>
+                    <svg class="shot-glass" viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="glass2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#E8F5E9;stop-opacity:0.8" />
+                                <stop offset="100%" style="stop-color:#2D5016;stop-opacity:0.6" />
+                            </linearGradient>
+                        </defs>
+                        <path d="M 30 10 L 25 90 Q 25 110 35 110 L 65 110 Q 75 110 75 90 L 70 10 Z" fill="url(#glass2)" stroke="#2D5016" stroke-width="2"/>
+                        <path d="M 30 10 L 70 10" stroke="#2D5016" stroke-width="2" fill="none"/>
+                    </svg>
                 </div>
 
-                <div class="section-title">Modo de Preparo:</div>
-                <p>Extraia o gel de aloe vera fresco ou use o suco pronto. Esprema o limão. Misture tudo na água e beba imediatamente. Não deixe em repouso.</p>
-
-                <div class="info-box">
-                    <div class="info-item">
-                        <strong>⏰ Quando tomar</strong>
-                        <span>10-15 min antes do almoço</span>
+                <div class="shot-content">
+                    <div class="ingredients">
+                        <div class="section-title">Ingredientes</div>
+                        <ul>
+                            <li>30ml de suco de aloe vera puro (ou gel fresco)</li>
+                            <li>1 limão espremido</li>
+                            <li>120ml de água filtrada em temperatura ambiente</li>
+                        </ul>
                     </div>
-                    <div class="info-item">
-                        <strong>📅 Frequência</strong>
-                        <span>1 vez ao dia</span>
-                    </div>
-                </div>
 
-                <div class="benefit">
-                    <strong>✨ O que esperar:</strong> Limpeza intestinal profunda + regulação da flora. O aloe vera é um desintoxicante natural que remove resíduos acumulados no intestino.
+                    <div class="section-title">Modo de Preparo</div>
+                    <p>Extraia o gel de aloe vera fresco da folha ou use o suco pronto. Esprema o limão. Misture tudo na água filtrada e beba imediatamente. Não deixe em repouso pois perde potência.</p>
+
+                    <div class="info-box">
+                        <div class="info-item">
+                            <strong>⏰ Quando tomar</strong>
+                            <span>10-15 min antes do almoço</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>📅 Frequência</strong>
+                            <span>1 vez ao dia</span>
+                        </div>
+                    </div>
+
+                    <div class="badges">
+                        <span class="badge">Limpeza Intestinal</span>
+                        <span class="badge">Regeneração Flora</span>
+                        <span class="badge">Detox Profundo</span>
+                    </div>
+
+                    <div class="benefit">
+                        <strong>✨ O que esperar:</strong>
+                        Limpeza intestinal profunda que remove resíduos acumulados. Aloe vera é um desintoxicante natural potentíssimo. Você pode notar aumento de movimentação intestinal dentro de 2-4 horas. Regulação completa da flora bacteriana com impacto imediato no inchaço.
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- SHOT 3 -->
-        <div class="shot">
-            <h3><span class="shot-number">3</span>Vinagre de Maçã + Mel</h3>
-            <div class="shot-content">
-                <div class="ingredients">
-                    <div class="section-title">Ingredientes:</div>
-                    <ul>
-                        <li>1 colher de sopa de vinagre de maçã orgânico</li>
-                        <li>1 colher de chá de mel puro (raw se possível)</li>
-                        <li>200ml de água morna</li>
-                    </ul>
+            <!-- SHOT 3 -->
+            <div class="shot">
+                <div class="shot-header">
+                    <span class="shot-number">3</span>
+                    <h3>Vinagre de Maçã + Mel</h3>
+                    <svg class="shot-glass" viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="glass3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#FFF3CD;stop-opacity:0.8" />
+                                <stop offset="100%" style="stop-color:#8B6F47;stop-opacity:0.6" />
+                            </linearGradient>
+                        </defs>
+                        <path d="M 30 10 L 25 90 Q 25 110 35 110 L 65 110 Q 75 110 75 90 L 70 10 Z" fill="url(#glass3)" stroke="#8B6F47" stroke-width="2"/>
+                        <path d="M 30 10 L 70 10" stroke="#8B6F47" stroke-width="2" fill="none"/>
+                    </svg>
                 </div>
 
-                <div class="section-title">Modo de Preparo:</div>
-                <p>Aqueça a água até ficar morna. Adicione o vinagre de maçã. Mexa bem e dissolva o mel. Beba lentamente para absorver melhor os nutrientes.</p>
-
-                <div class="info-box">
-                    <div class="info-item">
-                        <strong>⏰ Quando tomar</strong>
-                        <span>10-15 min antes do almoço</span>
+                <div class="shot-content">
+                    <div class="ingredients">
+                        <div class="section-title">Ingredientes</div>
+                        <ul>
+                            <li>1 colher de sopa de vinagre de maçã orgânico (com mãe)</li>
+                            <li>1 colher de chá de mel puro (raw/não pasteurizado se possível)</li>
+                            <li>200ml de água morna</li>
+                        </ul>
                     </div>
-                    <div class="info-item">
-                        <strong>📅 Frequência</strong>
-                        <span>1 vez ao dia</span>
-                    </div>
-                </div>
 
-                <div class="benefit">
-                    <strong>✨ O que esperar:</strong> Melhora na digestão + aumento de saciedade. O vinagre equilibra a microbiota intestinal e o mel fornece energia natural sem picos de açúcar.
+                    <div class="section-title">Modo de Preparo</div>
+                    <p>Aqueça a água até ficar morna (não quente). Adicione o vinagre de maçã. Mexa bem e dissolva o mel completamente. Beba lentamente em pequenos goles para absorver melhor os nutrientes pré-digestão.</p>
+
+                    <div class="info-box">
+                        <div class="info-item">
+                            <strong>⏰ Quando tomar</strong>
+                            <span>10-15 min antes do almoço</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>📅 Frequência</strong>
+                            <span>1 vez ao dia</span>
+                        </div>
+                    </div>
+
+                    <div class="badges">
+                        <span class="badge">Equilibra Microbiota</span>
+                        <span class="badge">Aumenta Saciedade</span>
+                        <span class="badge">Estabiliza Glicemia</span>
+                    </div>
+
+                    <div class="benefit">
+                        <strong>✨ O que esperar:</strong>
+                        Melhora significativa na digestão com reequilíbrio completo da microbiota intestinal. Aumento de saciedade ajudando no controle de fome. Mel fornece energia limpa sem picos de açúcar. Você sentir-se-á mais leve e com digestão mais suave após 1 semana.
+                    </div>
                 </div>
             </div>
         </div>
@@ -401,138 +714,39 @@
         <!-- PROTOCOLO -->
         <div class="protocol">
             <h2>📋 Seu Protocolo de 14 Dias</h2>
+
             <div class="protocol-grid">
                 <div class="protocol-item">
                     <h4>Semana 1 (Dias 1-7)</h4>
-                    <p>Alterne entre os 3 shots. Segunda: Shot 1, Terça: Shot 2, Quarta: Shot 3, e repita a sequência.</p>
+                    <p>Inicie alternando entre os 3 shots. Segunda: Shot 1, Terça: Shot 2, Quarta: Shot 3, quinta Shot 1 novamente, e repita a sequência.</p>
                 </div>
+
                 <div class="protocol-item">
                     <h4>Semana 2 (Dias 8-14)</h4>
-                    <p>Repita a mesma sequência de alternância. Seu corpo estará ainda mais responsivo aos efeitos dos shots.</p>
+                    <p>Repita a mesma sequência de alternância. Seu corpo estará ainda mais responsivo aos efeitos dos shots. Máxima potência da transformação acontece nesta semana.</p>
                 </div>
+
                 <div class="protocol-item">
                     <h4>Horário Ideal</h4>
-                    <p>10-15 minutos ANTES do almoço. Nunca em jejum absoluto. O almoço ajuda a fixar os nutrientes.</p>
+                    <p>10-15 minutos ANTES do almoço. Nunca em jejum absoluto. O almoço ajuda a fixar os nutrientes e potencializa a absorção dos ingredientes ativos.</p>
                 </div>
+
                 <div class="protocol-item">
-                    <h4>Hidratação</h4>
-                    <p>Beba ao menos 2-3 litros de água ao longo do dia. A água potencializa o efeito detox dos shots.</p>
+                    <h4>Hidratação Estratégica</h4>
+                    <p>Beba ao menos 2-3 litros de água ao longo do dia. A água potencializa o efeito detox dos shots e acelera a eliminação de toxinas.</p>
                 </div>
             </div>
 
             <div class="important">
-                <strong>⚠️ Importante:</strong> Siga a sequência exatamente como descrito. Isso potencializa os efeitos de cada ingrediente e evita adaptação do corpo.
+                <strong>⚠️ Importante para máximos resultados:</strong> Siga a sequência exatamente como descrito. Essa alternância estratégica potencializa os efeitos de cada ingrediente e evita que o corpo se acostume, mantendo a eficácia máxima durante todos os 14 dias.
             </div>
-        </div>
-
-        <!-- CHECKLIST -->
-        <div class="checklist">
-            <h2>✅ Checklist de Acompanhamento</h2>
-            <p style="text-align: center; color: #666; margin-bottom: 20px;">Marque os dias que você tomou seu shot. Consistência = resultados.</p>
-
-            <table class="checklist-table">
-                <thead>
-                    <tr>
-                        <th>Dia</th>
-                        <th>Qual Shot</th>
-                        <th>✓ Tomou</th>
-                        <th>Como Se Sentiu</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Dia 1</td>
-                        <td>Shot 1</td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
-                    </tr>
-                    <tr>
-                        <td>Dia 2</td>
-                        <td>Shot 2</td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
-                    </tr>
-                    <tr>
-                        <td>Dia 3</td>
-                        <td>Shot 3</td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
-                    </tr>
-                    <tr>
-                        <td>Dia 4</td>
-                        <td>Shot 1</td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
-                    </tr>
-                    <tr>
-                        <td>Dia 5</td>
-                        <td>Shot 2</td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
-                    </tr>
-                    <tr>
-                        <td>Dia 6</td>
-                        <td>Shot 3</td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
-                    </tr>
-                    <tr>
-                        <td>Dia 7</td>
-                        <td>Shot 1</td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
-                    </tr>
-                    <tr>
-                        <td>Dia 8</td>
-                        <td>Shot 2</td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
-                    </tr>
-                    <tr>
-                        <td>Dia 9</td>
-                        <td>Shot 3</td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
-                    </tr>
-                    <tr>
-                        <td>Dia 10</td>
-                        <td>Shot 1</td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
-                    </tr>
-                    <tr>
-                        <td>Dia 11</td>
-                        <td>Shot 2</td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
-                    </tr>
-                    <tr>
-                        <td>Dia 12</td>
-                        <td>Shot 3</td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
-                    </tr>
-                    <tr>
-                        <td>Dia 13</td>
-                        <td>Shot 1</td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
-                    </tr>
-                    <tr>
-                        <td>Dia 14</td>
-                        <td>Shot 2</td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
-                    </tr>
-                </tbody>
-            </table>
         </div>
 
         <!-- FOOTER -->
         <div class="footer">
             <p>💪 Parabéns por dar esse passo em direção a uma vida mais saudável!</p>
-            <p>Resultados visíveis em 7 dias. Transformação completa em 14 dias.</p>
-            <p style="margin-top: 20px; font-size: 0.85em;">Este guia é um complemento educacional. Consulte um profissional de saúde antes de iniciar qualquer novo protocolo.</p>
+            <p>Resultados visíveis em 7 dias | Transformação completa em 14 dias</p>
+            <p>Este guia é um complemento educacional. Consulte um profissional de saúde antes de iniciar qualquer novo protocolo, especialmente se você toma medicamentos ou tem condições pré-existentes.</p>
         </div>
     </div>
 </body>
