@@ -38,8 +38,18 @@ export default function ProfilePage() {
     try {
       if (!user) throw new Error("User not found");
 
-      // TODO: Save user profile to database
-      // For now, just proceed to the challenge
+      const { error } = await supabase
+        .from("profiles")
+        .upsert({
+          id: user.id,
+          name,
+          weight: parseFloat(weight),
+          height: parseFloat(height),
+          updated_at: new Date().toISOString(),
+        });
+
+      if (error) throw error;
+
       router.push("/");
     } catch (err: any) {
       setError(err.message || "Erro ao salvar dados");

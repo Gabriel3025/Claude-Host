@@ -13,24 +13,21 @@ export function useProgressSync() {
   useEffect(() => {
     const initProgress = async () => {
       try {
-        // Get current user
         const { data } = await supabase.auth.getSession();
         const currentUserId = data?.session?.user?.id;
 
         if (currentUserId) {
           setUserId(currentUserId);
 
-          // Try to load from Supabase first
-          const { data: progressData, error } = await supabase
-            .from("user_progress")
-            .select("completed_days")
-            .eq("user_id", currentUserId)
-            .single();
+          const { data: progressData } = await supabase
+            .from("progress")
+            .select("day")
+            .eq("user_id", currentUserId);
 
-          if (progressData && !error) {
-            setCompletedDays(new Set(progressData.completed_days || []));
+          if (progressData) {
+            const days = progressData.map((p) => p.day);
+            setCompletedDays(new Set(days));
           } else {
-            // Fallback to localStorage
             const stored = localStorage.getItem(PROGRESS_KEY);
             if (stored) {
               try {
@@ -42,7 +39,6 @@ export function useProgressSync() {
             }
           }
         } else {
-          // No user, just use localStorage
           const stored = localStorage.getItem(PROGRESS_KEY);
           if (stored) {
             try {
@@ -55,7 +51,6 @@ export function useProgressSync() {
         }
       } catch (error) {
         console.error("Error loading progress:", error);
-        // Fallback to localStorage
         const stored = localStorage.getItem(PROGRESS_KEY);
         if (stored) {
           try {
@@ -78,22 +73,14 @@ export function useProgressSync() {
     updated.add(dayNumber);
     setCompletedDays(updated);
 
-    // Save to localStorage
     localStorage.setItem(PROGRESS_KEY, JSON.stringify(Array.from(updated)));
 
-    // Save to Supabase if user is logged in
     if (userId) {
       try {
-        await supabase
-          .from("user_progress")
-          .upsert(
-            {
-              user_id: userId,
-              completed_days: Array.from(updated),
-              updated_at: new Date().toISOString(),
-            },
-            { onConflict: "user_id" }
-          );
+        await supabase.from("progress").insert({
+          user_id: userId,
+          day: dayNumber,
+        });
       } catch (error) {
         console.error("Error saving progress to Supabase:", error);
       }
@@ -106,13 +93,7 @@ export function useProgressSync() {
 
     if (userId) {
       try {
-        await supabase
-          .from("user_progress")
-          .update({
-            completed_days: [],
-            updated_at: new Date().toISOString(),
-          })
-          .eq("user_id", userId);
+        await supabase.from("progress").delete().eq("user_id", userId);
       } catch (error) {
         console.error("Error resetting progress in Supabase:", error);
       }

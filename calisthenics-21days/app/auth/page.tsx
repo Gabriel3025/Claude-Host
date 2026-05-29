@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@/lib/useAuth";
+import { supabase } from "@/lib/supabase";
 
 export default function AuthPage() {
   const [email, setEmail] = useState("");
@@ -21,7 +22,20 @@ export default function AuthPage() {
     const result = await loginWithEmail(email);
 
     if (result.success) {
-      router.push("/auth/profile");
+      const { data: session } = await supabase.auth.getSession();
+      if (session?.user) {
+        const { data: profile } = await supabase
+          .from("profiles")
+          .select("id")
+          .eq("id", session.user.id)
+          .single();
+
+        if (profile) {
+          router.push("/");
+        } else {
+          router.push("/auth/profile");
+        }
+      }
     } else {
       setError(result.error || "Erro ao criar conta");
     }

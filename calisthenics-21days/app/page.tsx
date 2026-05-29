@@ -17,9 +17,19 @@ export default function Home() {
     const getUser = async () => {
       const { data } = await supabase.auth.getSession();
       if (data?.session?.user) {
-        // TODO: Fix users table access
-        // For now, just show the email as the user name
-        setUser({ email: data.session.user.email, id: data.session.user.id });
+        const { data: profile } = await supabase
+          .from("profiles")
+          .select("name, weight, height")
+          .eq("id", data.session.user.id)
+          .single();
+
+        setUser({
+          email: data.session.user.email,
+          id: data.session.user.id,
+          name: profile?.name || data.session.user.email,
+          weight: profile?.weight,
+          height: profile?.height,
+        });
       }
     };
     getUser();
