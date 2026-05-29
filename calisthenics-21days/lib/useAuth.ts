@@ -42,11 +42,31 @@ export function useAuth() {
       // Generate random password
       const randomPassword = Math.random().toString(36).slice(2) + Math.random().toString(36).slice(2);
 
-      // Sign up the user
+      // Try to sign up the user
       const { error: signUpError } = await supabase.auth.signUp({
         email,
         password: randomPassword,
       });
+
+      // If user already exists, try to sign in
+      if (signUpError?.message?.includes("already registered")) {
+        const { error: signInError } = await supabase.auth.signInWithPassword({
+          email,
+          password: randomPassword,
+        });
+
+        // If sign in fails with wrong password, create new session with OTP
+        if (signInError) {
+          // User exists but password is different, use OTP
+          const { error: otpError } = await supabase.auth.signInWithOtp({
+            email,
+            options: { emailRedirectTo: `${window.location.origin}/auth/callback` },
+          });
+          if (otpError) throw otpError;
+        }
+        return { success: true };
+      }
+
       if (signUpError) throw signUpError;
 
       // Sign in immediately after signup
