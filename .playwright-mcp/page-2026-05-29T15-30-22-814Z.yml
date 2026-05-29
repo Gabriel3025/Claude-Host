@@ -1,0 +1,90 @@
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e3] [cursor=pointer]:
+    - /url: "#start-of-content"
+  - main [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e11]:
+          - img [ref=e14]
+          - img [ref=e17]
+        - heading "Authorize Supabase" [level=1] [ref=e19]
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - generic [ref=e23]:
+              - img "@Gabriel3025" [ref=e24]
+              - strong [ref=e25]: Supabase
+              - text: by
+              - strong [ref=e26]:
+                - link "Supabase" [ref=e27] [cursor=pointer]:
+                  - /url: /supabase
+              - generic [ref=e28]:
+                - text: wants to access your
+                - strong [ref=e29]: Gabriel3025
+                - text: account
+            - generic [ref=e31]:
+              - button "More information about this request" [ref=e32] [cursor=pointer]:
+                - img [ref=e33]
+              - img [ref=e35]
+              - generic [ref=e37]:
+                - strong [ref=e38]: Personal user data
+                - generic [ref=e39]: Email addresses (read-only)
+          - generic [ref=e40]:
+            - generic [ref=e43]:
+              - button "Cancel" [ref=e44] [cursor=pointer]
+              - button "Authorize supabase" [disabled] [ref=e45]
+            - paragraph [ref=e47]:
+              - text: Authorizing will redirect to
+              - strong [ref=e48]: https://alt.supabase.io
+        - generic [ref=e49]:
+          - generic:
+            - generic [ref=e51]:
+              - img [ref=e52]
+              - strong [ref=e54]: Not
+              - text: owned or operated by GitHub
+            - generic [ref=e56]:
+              - img [ref=e57]
+              - text: Created
+              - strong [ref=e59]: 5 years ago
+            - generic [ref=e61]:
+              - img [ref=e62]
+              - strong [ref=e64]: More than 1K
+              - generic [ref=e65]: GitHub users
+        - link "Learn more about OAuth" [ref=e67] [cursor=pointer]:
+          - /url: https://docs.github.com/articles/authorizing-oauth-apps
+  - contentinfo [ref=e68]:
+    - heading "Footer" [level=2] [ref=e69]
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - link "GitHub Homepage" [ref=e72] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e73]
+        - generic [ref=e75]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e76]:
+        - heading "Footer navigation" [level=3] [ref=e77]
+        - list "Footer navigation" [ref=e78]:
+          - listitem [ref=e79]:
+            - link "Terms" [ref=e80] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e81]:
+            - link "Privacy" [ref=e82] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e83]:
+            - link "Security" [ref=e84] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e85]:
+            - link "Status" [ref=e86] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e87]:
+            - link "Community" [ref=e88] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e89]:
+            - link "Docs" [ref=e90] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e91]:
+            - link "Contact" [ref=e92] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e93]:
+            - button "Manage cookies" [ref=e95] [cursor=pointer]
+          - listitem [ref=e96]:
+            - button "Do not share my personal information" [ref=e98] [cursor=pointer]
