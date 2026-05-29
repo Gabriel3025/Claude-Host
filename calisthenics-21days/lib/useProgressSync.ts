@@ -69,6 +69,23 @@ export function useProgressSync() {
   }, []);
 
   const completeDay = async (dayNumber: number) => {
+    // Calculate what the current day should be
+    let expectedCurrentDay = 1;
+    for (let i = 1; i <= 21; i++) {
+      if (completedDays.has(i)) {
+        expectedCurrentDay = i + 1;
+      } else {
+        break;
+      }
+    }
+    if (expectedCurrentDay > 21) expectedCurrentDay = 21;
+
+    // Only allow completing the next day in sequence
+    if (dayNumber !== expectedCurrentDay) {
+      console.warn(`Cannot complete day ${dayNumber}. Next day to complete is ${expectedCurrentDay}`);
+      return;
+    }
+
     const updated = new Set(completedDays);
     updated.add(dayNumber);
     setCompletedDays(updated);

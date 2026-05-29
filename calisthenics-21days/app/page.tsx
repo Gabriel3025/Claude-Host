@@ -53,16 +53,17 @@ export default function Home() {
     );
   }
 
-  // Find the first incomplete day (current day should be the next day to start)
+  // Find the next day after the contiguous sequence of completed days
   let currentDay = 1;
   for (let i = 1; i <= 21; i++) {
-    if (!completedDays.has(i)) {
-      currentDay = i;
-      break;
+    if (completedDays.has(i)) {
+      currentDay = i + 1;
+    } else {
+      break; // Stop at the first incomplete day in sequence
     }
   }
-  // If all 21 days are completed, currentDay should be 21
-  if (completedDays.size === 21) {
+  // Ensure currentDay doesn't exceed 21
+  if (currentDay > 21) {
     currentDay = 21;
   }
 
