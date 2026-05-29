@@ -43,32 +43,41 @@ export function useAuth() {
       const hashArray = Array.from(new Uint8Array(hashBuffer));
       const hashHex = hashArray.map(b => b.toString(16).padStart(2, "0")).join("");
 
-      // Create strong password: Uppercase + Lowercase + Number + 20 hex chars
       const password = "Calisthenics1" + hashHex.substring(0, 19);
-
-      console.log("Attempting signup...");
-
-      // Step 1: Try signup (fails silently if user exists)
-      const { error: signupError, data: signupData } = await supabase.auth.signUp({
-        email,
-        password,
-      });
-
-      if (signupError && signupError.message !== "User already registered") {
-        console.log("Signup error:", signupError.message);
-      }
 
       console.log("Attempting signin...");
 
-      // Step 2: Try signin
-      const { error: signinError, data: signinData } = await supabase.auth.signInWithPassword({
+      // Try signin first
+      let { error: signinError, data: signinData } = await supabase.auth.signInWithPassword({
         email,
         password,
       });
 
+      // If signin fails, try signup
       if (signinError) {
-        console.error("Signin failed:", signinError.message);
-        throw signinError;
+        console.log("Signin failed, attempting signup...");
+
+        const { error: signupError } = await supabase.auth.signUp({
+          email,
+          password,
+          options: { autoConfirmUser: true },
+        });
+
+        if (signupError) {
+          console.error("Signup error:", signupError.message);
+          throw signupError;
+        }
+
+        // Try signin again after signup
+        const result = await supabase.auth.signInWithPassword({
+          email,
+          password,
+        });
+
+        if (result.error) {
+          throw result.error;
+        }
+        signinData = result.data;
       }
 
       if (signinData?.session) {
@@ -76,18 +85,6 @@ export function useAuth() {
         return { success: true };
       }
 
-      // If signup created user but needs email verification,
-      // we simulate verification by refreshing the session
-      console.log("Waiting for session confirmation...");
-      await new Promise(resolve => setTimeout(resolve, 1000));
-
-      const { data: sessionCheck } = await supabase.auth.getSession();
-      if (sessionCheck?.session?.user) {
-        console.log("✓ Session confirmed!");
-        return { success: true };
-      }
-
-      // As último recurso, return success (user will be directed anyway)
       return { success: true };
 
     } catch (error: any) {
