@@ -506,20 +506,221 @@
         @media print {
             body {
                 background: white;
+                margin: 0;
+                padding: 0;
             }
 
             .container {
                 box-shadow: none;
                 max-width: 100%;
                 margin: 0;
-                padding: 40px;
+                padding: 35px 30px;
+                background: white;
             }
 
-            .shot,
-            .protocol,
+            .header {
+                margin-bottom: 30px;
+                page-break-after: avoid;
+            }
+
+            .header h1 {
+                font-size: 2.2em;
+                margin-bottom: 8px;
+            }
+
+            .header p {
+                font-size: 1em;
+                margin-bottom: 12px;
+            }
+
+            .divider-premium {
+                width: 80px;
+            }
+
             .intro {
                 box-shadow: none;
+                padding: 25px;
+                margin-bottom: 25px;
+                page-break-after: avoid;
                 page-break-inside: avoid;
+            }
+
+            .intro h2 {
+                font-size: 1.3em;
+                margin-bottom: 12px;
+            }
+
+            .intro p {
+                margin-bottom: 10px;
+                font-size: 0.95em;
+            }
+
+            .shots-container {
+                gap: 0;
+                margin-bottom: 0;
+            }
+
+            .shot {
+                box-shadow: none;
+                page-break-inside: avoid;
+                page-break-before: always;
+                padding: 30px;
+                margin: 0;
+                border: 1px solid #e8dcc8;
+            }
+
+            .shot:first-child {
+                page-break-before: avoid;
+            }
+
+            .shot-header {
+                margin-bottom: 20px;
+                gap: 15px;
+            }
+
+            .shot-number {
+                width: 45px;
+                height: 45px;
+                font-size: 1.4em;
+            }
+
+            .shot h3 {
+                font-size: 1.3em;
+            }
+
+            .shot-glass {
+                width: 40px;
+                height: 40px;
+            }
+
+            .shot-content {
+                margin-top: 0;
+            }
+
+            .ingredients {
+                padding: 15px;
+                margin-bottom: 15px;
+            }
+
+            .section-title {
+                margin-bottom: 10px;
+                font-size: 0.85em;
+            }
+
+            .ingredients li {
+                padding: 6px 0 6px 25px;
+                font-size: 0.9em;
+            }
+
+            .shot-content > p {
+                margin-bottom: 15px;
+                font-size: 0.9em;
+                line-height: 1.6;
+            }
+
+            .info-box {
+                gap: 12px;
+                margin: 15px 0;
+            }
+
+            .info-item {
+                padding: 12px;
+                font-size: 0.85em;
+            }
+
+            .info-item strong {
+                font-size: 0.8em;
+                margin-bottom: 4px;
+            }
+
+            .info-item span {
+                font-size: 0.85em;
+            }
+
+            .badges {
+                gap: 8px;
+                margin: 15px 0;
+            }
+
+            .badge {
+                padding: 6px 12px;
+                font-size: 0.75em;
+            }
+
+            .benefit {
+                padding: 15px;
+                margin: 15px 0 0 0;
+                font-size: 0.9em;
+            }
+
+            .benefit strong {
+                margin-bottom: 6px;
+                font-size: 0.9em;
+            }
+
+            .protocol {
+                box-shadow: none;
+                page-break-inside: avoid;
+                page-break-before: always;
+                padding: 30px;
+                margin: 0;
+                border: 1px solid #e8dcc8;
+            }
+
+            .protocol h2 {
+                font-size: 1.4em;
+                margin-bottom: 20px;
+            }
+
+            .protocol-grid {
+                gap: 15px;
+                margin-bottom: 20px;
+            }
+
+            .protocol-item {
+                padding: 15px;
+            }
+
+            .protocol-item h4 {
+                font-size: 1em;
+                margin-bottom: 8px;
+            }
+
+            .protocol-item p {
+                font-size: 0.9em;
+                line-height: 1.6;
+            }
+
+            .important {
+                padding: 15px;
+                margin: 15px 0 0 0;
+                font-size: 0.9em;
+            }
+
+            .important strong {
+                margin-bottom: 6px;
+                font-size: 0.9em;
+            }
+
+            .footer {
+                page-break-before: avoid;
+                margin-top: 20px;
+                padding-top: 15px;
+                border-top: 2px solid #e8dcc8;
+            }
+
+            .footer p {
+                margin-bottom: 8px;
+                font-size: 0.85em;
+            }
+
+            .footer p:first-child {
+                font-size: 0.95em;
+            }
+
+            .footer p:last-child {
+                margin-top: 10px;
+                font-size: 0.8em;
             }
 
             .shot:hover {
