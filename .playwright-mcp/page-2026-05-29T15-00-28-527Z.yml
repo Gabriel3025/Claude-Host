@@ -1,0 +1,45 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - button "← Voltar" [ref=e5]
+      - generic [ref=e6]:
+        - heading "Dia 1" [level=1] [ref=e7]
+        - paragraph [ref=e8]: 10 minutos de treino
+      - generic [ref=e9]: 🔄
+    - generic [ref=e10]:
+      - generic [ref=e12]:
+        - generic [ref=e13]: Exercício 2 de 3
+        - generic [ref=e14]: 67%
+      - generic [ref=e17]:
+        - img "Flexões - 10 repetições" [ref=e59]
+        - generic [ref=e20]:
+          - heading "Flexões - 10 repetições" [level=3] [ref=e60]
+          - paragraph [ref=e22]: Flexões clássicas. Mantenha o corpo reto da cabeça até os pés.
+          - generic [ref=e23]:
+            - generic [ref=e24]: 02:00
+            - paragraph [ref=e25]: Tempo restante
+          - button "▶ Iniciar" [ref=e27]
+      - generic [ref=e28]:
+        - heading "Exercícios do Dia" [level=3] [ref=e29]
+        - generic [ref=e30]:
+          - button "✅ Aquecimento - Círculos com Braços 2 minutos" [ref=e61]:
+            - generic [ref=e32]:
+              - generic [ref=e33]: ✅
+              - generic [ref=e34]:
+                - paragraph [ref=e35]: Aquecimento - Círculos com Braços
+                - paragraph [ref=e36]: 2 minutos
+          - button "▶ Flexões - 10 repetições 4 minutos" [active] [ref=e62]:
+            - generic [ref=e38]:
+              - generic [ref=e39]: ▶
+              - generic [ref=e40]:
+                - paragraph [ref=e41]: Flexões - 10 repetições
+                - paragraph [ref=e42]: 4 minutos
+          - button "○ Agachamentos - 15 repetições 4 minutos" [ref=e43]:
+            - generic [ref=e44]:
+              - generic [ref=e45]: ○
+              - generic [ref=e46]:
+                - paragraph [ref=e47]: Agachamentos - 15 repetições
+                - paragraph [ref=e48]: 4 minutos
+  - button "Open Next.js Dev Tools" [ref=e54] [cursor=pointer]:
+    - img [ref=e55]
+  - alert [ref=e58]
