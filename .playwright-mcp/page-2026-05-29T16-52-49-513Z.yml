@@ -1,0 +1,715 @@
+- generic:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - banner:
+            - generic:
+              - generic:
+                - link:
+                  - /url: /dashboard/org/dreelmauwsthnbpazhwy
+                  - img
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - link:
+                      - /url: /dashboard/org/dreelmauwsthnbpazhwy
+                      - img
+                      - generic: Gabriel3025's Org
+                      - generic: Free
+                    - button:
+                      - generic:
+                        - img
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - link:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                        - img
+                        - generic: Gabriel3025's Project
+                      - button:
+                        - generic:
+                          - img
+                    - generic:
+                      - img
+                    - generic:
+                      - link:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                        - generic: main
+                        - generic: Production
+                      - button:
+                        - generic:
+                          - img
+                - generic:
+                  - button:
+                    - generic:
+                      - img
+                    - generic: Connect
+              - generic:
+                - generic:
+                  - generic: Feedback
+                - generic:
+                  - button:
+                    - generic:
+                      - img
+                      - paragraph: Search...
+                    - generic:
+                      - generic: Ctrl K
+                  - button [ref=e941] [cursor=pointer]:
+                    - generic [ref=e50]:
+                      - img [ref=e51]
+                      - generic [ref=e54]: Help
+                  - button [ref=e942] [cursor=pointer]:
+                    - generic [ref=e57]:
+                      - img [ref=e58]
+                      - generic [ref=e60]: Advisor Center
+                  - button [ref=e943] [cursor=pointer]:
+                    - generic [ref=e62]:
+                      - img [ref=e63]
+                      - generic [ref=e65]: SQL Editor
+                  - button [ref=e944] [cursor=pointer]:
+                    - generic [ref=e67]:
+                      - img [ref=e70]
+                      - generic [ref=e73]: AI Assistant
+                - button [ref=e945] [cursor=pointer]:
+                  - img [ref=e946]
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - list:
+                      - generic:
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/editor
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/sql
+                            - img
+                      - generic:
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/database/schemas
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/users
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/storage/files
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/functions
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/realtime/inspector
+                            - img
+                      - generic:
+                        - generic:
+                          - listitem:
+                            - link:
+                              - /url: /dashboard/project/zgetngxwievfhcgtfnhx/advisors/security
+                              - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/observability
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/logs/explorer
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/integrations
+                            - img
+                      - generic:
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/general
+                            - img
+                - generic:
+                  - generic:
+                    - button:
+                      - generic:
+                        - img
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - heading [level=4]: Authentication
+                              - generic:
+                                - generic:
+                                  - menu [disabled]:
+                                    - list:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic:
+                                                  - generic: Manage
+                                            - generic:
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/users
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Users
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/oauth-apps
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: OAuth Apps
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic:
+                                                  - generic: Notifications
+                                            - generic:
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/templates
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Emails
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic:
+                                                  - generic: Configuration
+                                            - generic:
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/policies
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Policies
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/providers
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Sign In / Providers
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/passkeys
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Passkeys
+                                                        - generic: Beta
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/oauth-server
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: OAuth Server
+                                                        - generic: Beta
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/sessions
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Sessions
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/rate-limits
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Rate Limits
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/mfa
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Multi-Factor
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/url-configuration
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: URL Configuration
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/protection
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Attack Protection
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/hooks
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Auth Hooks
+                                                        - generic: Beta
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/audit-logs
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Audit Logs
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/performance
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Performance
+                      - separator [disabled]:
+                        - generic:
+                          - img
+                      - generic:
+                        - generic:
+                          - main:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - heading [level=3]: Users
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                                    - combobox:
+                                      - generic: Email address
+                                      - img
+                                    - group:
+                                      - textbox:
+                                        - /placeholder: Search by email
+                                  - generic:
+                                    - generic: All columns
+                                    - generic:
+                                      - img
+                                  - button [disabled] [ref=e947]:
+                                    - img [ref=e324]
+                                    - generic [ref=e326]: Sorted by user ID
+                                - generic:
+                                  - button [ref=e948] [cursor=pointer]:
+                                    - img [ref=e330]
+                                  - button:
+                                    - generic: Add user
+                                    - generic:
+                                      - img
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - grid:
+                                        - row:
+                                          - columnheader
+                                          - columnheader:
+                                            - generic:
+                                              - generic:
+                                                - paragraph: UID
+                                          - columnheader:
+                                            - generic:
+                                              - generic:
+                                                - paragraph: Display name
+                                          - columnheader:
+                                            - generic:
+                                              - generic:
+                                                - paragraph: Email
+                                          - columnheader:
+                                            - generic:
+                                              - generic:
+                                                - paragraph: Phone
+                                        - row:
+                                          - gridcell:
+                                            - generic:
+                                              - checkbox
+                                              - generic:
+                                                - img
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: 5ab74cd2-9580-41e9-8742-ec0d422d96ba
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: desafio@21dias.com
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                        - row:
+                                          - gridcell:
+                                            - generic:
+                                              - checkbox
+                                              - generic:
+                                                - img
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: 1e62dffe-022e-4bb2-a52b-4630ad106fa4
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                          - gridcell [selected]:
+                                            - generic:
+                                              - paragraph: gabriel.desouza9@hotmail.com
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                        - row:
+                                          - gridcell:
+                                            - generic:
+                                              - checkbox
+                                              - generic:
+                                                - img
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: ddfb17e3-6c2e-4ff9-b354-1e8f81efe475
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: gabriel.desouza9+calisthenics@hotmail.com
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                        - row:
+                                          - gridcell:
+                                            - generic:
+                                              - checkbox
+                                              - generic:
+                                                - img
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: 142b03d2-fe23-490d-8fe7-cfdef07043a3
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: gabriel.desouza9+final@hotmail.com
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                        - row:
+                                          - gridcell:
+                                            - generic:
+                                              - checkbox
+                                              - generic:
+                                                - img
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: b35e6b27-b8f9-415f-83c0-1c550016bc53
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: gabriel.desouza9+magic@hotmail.com
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                        - row:
+                                          - gridcell:
+                                            - generic:
+                                              - checkbox
+                                              - generic:
+                                                - img
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: 638a3264-c599-4a4f-b800-3ef997f08fd3
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: gabriel.service@hotmail.com
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                        - row:
+                                          - gridcell:
+                                            - generic:
+                                              - checkbox
+                                              - generic:
+                                                - img
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: 585f7954-7a1c-431a-8639-33fe8b8726b7
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: gabriel@teste.br
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                        - row:
+                                          - gridcell:
+                                            - generic:
+                                              - checkbox
+                                              - generic:
+                                                - img
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: f328fecd-71df-4478-82c8-695d0256f416
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: laura@example.com
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                        - row:
+                                          - gridcell:
+                                            - generic:
+                                              - checkbox
+                                              - generic:
+                                                - img
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: 19c1b140-fb7e-4d66-a540-62eed95f809f
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: novo@teste.com
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                        - row:
+                                          - gridcell:
+                                            - generic:
+                                              - checkbox
+                                              - generic:
+                                                - img
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: cdb9d199-b3a4-432d-a465-d26fc42e1f14
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: test@example.com
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                        - row:
+                                          - gridcell:
+                                            - generic:
+                                              - checkbox
+                                              - generic:
+                                                - img
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: faa0a1b7-b110-4201-a7d4-7d6095dd0e53
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: teste.completo@desafio.com
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                        - row:
+                                          - gridcell:
+                                            - generic:
+                                              - checkbox
+                                              - generic:
+                                                - img
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: 0b1b5fcf-502b-458f-8c58-5af148316c81
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: teste@example.com
+                                          - gridcell:
+                                            - generic:
+                                              - paragraph: "-"
+                                - separator:
+                                  - generic:
+                                    - img
+                                - generic:
+                                  - generic:
+                                    - button:
+                                      - generic:
+                                        - img
+                                    - generic:
+                                      - tablist:
+                                        - tab [selected]: Overview
+                                        - tab: Logs
+                                        - tab: Raw JSON
+                                      - tabpanel:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - paragraph: gabriel.desouza9@hotmail.com
+                                              - button:
+                                                - generic:
+                                                  - img
+                                          - generic:
+                                            - generic:
+                                              - paragraph: User UID
+                                              - generic:
+                                                - paragraph: 1e62dffe-022e-4bb2-a52b-4630ad106fa4
+                                                - button:
+                                                  - generic:
+                                                    - img
+                                            - generic:
+                                              - paragraph: Created at
+                                              - generic:
+                                                - paragraph: 29 May, 2026 12:58
+                                                - button:
+                                                  - generic:
+                                                    - img
+                                            - generic:
+                                              - paragraph: Updated at
+                                              - generic:
+                                                - paragraph: 29 May, 2026 13:39
+                                                - button:
+                                                  - generic:
+                                                    - img
+                                            - generic:
+                                              - paragraph: Invited at
+                                              - generic:
+                                                - paragraph: "-"
+                                            - generic:
+                                              - paragraph: Confirmation sent at
+                                              - generic:
+                                                - paragraph: "-"
+                                            - generic:
+                                              - paragraph: Confirmed at
+                                              - generic:
+                                                - paragraph: 29 May, 2026 12:58
+                                                - button:
+                                                  - generic:
+                                                    - img
+                                            - generic:
+                                              - paragraph: Last signed in
+                                              - generic:
+                                                - paragraph: 29 May, 2026 12:58
+                                                - button:
+                                                  - generic:
+                                                    - img
+                                            - generic:
+                                              - paragraph: SSO
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                          - generic:
+                                            - paragraph: Provider Information
+                                            - paragraph: The user has the following providers
+                                          - generic:
+                                            - generic:
+                                              - img
+                                              - generic:
+                                                - paragraph: email
+                                                - paragraph: Signed in with a email account via OAuth
+                                                - link:
+                                                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/providers?provider=email
+                                                  - generic: Configure email provider
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                                - generic: Enabled
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - paragraph: Reset password
+                                                - paragraph: Send a password recovery email to the user
+                                              - button [ref=e949] [cursor=pointer]:
+                                                - img [ref=e892]
+                                                - generic [ref=e895]: Send password recovery
+                                            - generic:
+                                              - generic:
+                                                - paragraph: Send magic link
+                                                - paragraph: Send a passwordless magic link to the user
+                                              - button [ref=e950] [cursor=pointer]:
+                                                - img [ref=e902]
+                                                - generic [ref=e905]: Send magic link
+                                          - generic:
+                                            - paragraph: Danger zone
+                                            - paragraph: Be wary of the following features as they cannot be undone.
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - paragraph: Remove MFA factors
+                                                - paragraph: Removes all MFA factors associated with the user
+                                              - button [ref=e951] [cursor=pointer]:
+                                                - img [ref=e916]
+                                                - generic [ref=e920]: Remove MFA factors
+                                            - generic:
+                                              - generic:
+                                                - paragraph: Ban user
+                                                - paragraph: Revoke access to the project for a set duration
+                                              - button [ref=e952] [cursor=pointer]:
+                                                - img [ref=e927]
+                                                - generic [ref=e930]: Ban user
+                                            - generic:
+                                              - generic:
+                                                - paragraph: Delete user
+                                                - paragraph: User will no longer have access to the project
+                                              - button [ref=e953] [cursor=pointer]:
+                                                - img [ref=e937]
+                                                - generic [ref=e940]: Delete user
+                              - generic:
+                                - generic:
+                                  - generic: "Total: 14 users"
+  - generic:
+    - alert: Users | Authentication | Gabriel3025's Project | Gabriel3025's Org | Supabase
+  - dialog "Confirm to delete user" [ref=e955]:
+    - heading "Confirm to delete user" [level=2] [ref=e957]
+    - alert [ref=e958]:
+      - img [ref=e959]
+      - generic [ref=e962]:
+        - heading "Deleting a user is irreversible" [level=5] [ref=e963]
+        - paragraph [ref=e965]: This will remove the selected the user from the project and all associated data.
+    - paragraph [ref=e967]: This is permanent! Are you sure you want to delete the user gabriel.desouza9@hotmail.com?
+    - generic [ref=e969]:
+      - button "Cancel" [active] [ref=e970] [cursor=pointer]:
+        - generic [ref=e971]: Cancel
+      - button "Delete" [ref=e972] [cursor=pointer]:
+        - generic [ref=e973]: Delete
+    - button "Close" [ref=e974]:
+      - img [ref=e975]
+      - generic [ref=e978]: Close

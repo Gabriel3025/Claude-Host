@@ -1,0 +1,522 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - link "Supabase" [ref=e9] [cursor=pointer]:
+            - /url: /dashboard/org/dreelmauwsthnbpazhwy
+            - img "Supabase" [ref=e10]
+          - generic [ref=e11]:
+            - img [ref=e391]
+            - generic [ref=e393]:
+              - link "Gabriel3025's Org Free" [ref=e394] [cursor=pointer]:
+                - /url: /dashboard/org/dreelmauwsthnbpazhwy
+                - img [ref=e395]
+                - generic [ref=e405]: Gabriel3025's Org
+                - generic [ref=e406]: Free
+              - button [ref=e407] [cursor=pointer]:
+                - img [ref=e409]
+            - generic [ref=e12]:
+              - img [ref=e14]
+              - generic [ref=e16]:
+                - link "Gabriel3025's Project" [ref=e17] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                  - img [ref=e18]
+                  - generic "Gabriel3025's Project" [ref=e21]
+                - button [ref=e22] [cursor=pointer]:
+                  - img [ref=e24]
+              - img [ref=e28]
+              - generic [ref=e412]:
+                - link "main Production" [ref=e413] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                  - generic "main" [ref=e414]
+                  - generic [ref=e415]: Production
+                - button [ref=e416] [cursor=pointer]:
+                  - img [ref=e418]
+          - button "Connect" [ref=e32] [cursor=pointer]:
+            - img [ref=e34]
+            - generic [ref=e36]: Connect
+        - generic [ref=e37]:
+          - generic [ref=e39] [cursor=pointer]: Feedback
+          - generic [ref=e40]:
+            - button "Search..." [ref=e41]:
+              - generic [ref=e42]:
+                - img [ref=e43]
+                - paragraph [ref=e46]: Search...
+              - generic [ref=e48]: Ctrl K
+            - button "Help" [ref=e49] [cursor=pointer]:
+              - generic [ref=e50]:
+                - img [ref=e51]
+                - generic [ref=e54]: Help
+            - button "Advisor Center" [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]:
+                - img [ref=e58]
+                - generic [ref=e60]: Advisor Center
+            - button "SQL Editor" [ref=e61] [cursor=pointer]:
+              - generic [ref=e62]:
+                - img [ref=e63]
+                - generic [ref=e65]: SQL Editor
+            - button "AI Assistant" [ref=e66] [cursor=pointer]:
+              - generic [ref=e67]:
+                - img [ref=e70]
+                - generic [ref=e73]: AI Assistant
+          - button "Gabriel3025" [ref=e74] [cursor=pointer]:
+            - img "Gabriel3025" [ref=e76]
+    - generic [ref=e77]:
+      - generic [ref=e81]:
+        - list [ref=e84]:
+          - generic [ref=e85]:
+            - listitem [ref=e86]:
+              - link "Project Overview" [ref=e87] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                - img [ref=e88]
+                - generic: Project Overview
+            - listitem [ref=e90]:
+              - link "Table Editor" [ref=e91] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/editor
+                - img [ref=e92]
+                - generic: Table Editor
+            - listitem [ref=e94]:
+              - link "SQL Editor" [ref=e95] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/sql
+                - img [ref=e96]
+                - generic: SQL Editor
+          - generic [ref=e98]:
+            - listitem [ref=e99]:
+              - link "Database" [ref=e100] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/database/schemas
+                - img [ref=e101]
+                - generic: Database
+            - listitem [ref=e105]:
+              - link "Authentication" [ref=e106] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/users
+                - img [ref=e107]
+                - generic: Authentication
+            - listitem [ref=e109]:
+              - link "Storage" [ref=e110] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/storage/files
+                - img [ref=e111]
+                - generic: Storage
+            - listitem [ref=e113]:
+              - link "Edge Functions" [ref=e114] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/functions
+                - img [ref=e115]
+                - generic: Edge Functions
+            - listitem [ref=e120]:
+              - link "Realtime" [ref=e121] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/realtime/inspector
+                - img [ref=e122]
+                - generic: Realtime
+          - generic [ref=e124]:
+            - listitem [ref=e126]:
+              - link "Advisors" [ref=e127] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/advisors/security
+                - img [ref=e128]
+                - generic: Advisors
+            - listitem [ref=e130]:
+              - link "Observability" [ref=e131] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/observability
+                - img [ref=e132]
+                - generic: Observability
+            - listitem [ref=e140]:
+              - link "Logs" [ref=e141] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/logs/explorer
+                - img [ref=e142]
+                - generic: Logs
+            - listitem [ref=e143]:
+              - link "Integrations" [ref=e144] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/integrations
+                - img [ref=e145]
+                - generic: Integrations
+          - listitem [ref=e149]:
+            - link "Project Settings" [ref=e150] [cursor=pointer]:
+              - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/general
+              - img [ref=e151]
+              - generic: Project Settings
+        - button "Sidebar control" [ref=e156] [cursor=pointer]:
+          - img [ref=e158]
+      - generic [ref=e165]:
+        - generic [ref=e169]:
+          - heading "Authentication" [level=4] [ref=e171]
+          - menu "Sidebar" [disabled] [ref=e174]:
+            - list [ref=e175]:
+              - generic [ref=e178]:
+                - generic [ref=e182]: Manage
+                - generic [ref=e183]:
+                  - link "Users" [disabled] [ref=e184] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/users
+                    - menuitem "Users" [disabled] [ref=e185]:
+                      - generic [ref=e189]: Users
+                  - link "OAuth Apps" [disabled] [ref=e190] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/oauth-apps
+                    - menuitem "OAuth Apps" [disabled] [ref=e191]:
+                      - generic [ref=e195]: OAuth Apps
+              - generic [ref=e199]:
+                - generic [ref=e203]: Notifications
+                - link "Emails" [disabled] [ref=e205] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/templates
+                  - menuitem "Emails" [disabled] [ref=e206]:
+                    - generic [ref=e210]: Emails
+              - generic [ref=e214]:
+                - generic [ref=e218]: Configuration
+                - generic [ref=e219]:
+                  - link "Policies" [disabled] [ref=e220] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/policies
+                    - menuitem "Policies" [disabled] [ref=e221]:
+                      - generic [ref=e225]: Policies
+                  - link "Sign In / Providers" [disabled] [ref=e226] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/providers
+                    - menuitem "Sign In / Providers" [disabled] [ref=e227]:
+                      - generic [ref=e231]: Sign In / Providers
+                  - link "Passkeys Beta" [disabled] [ref=e421] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/passkeys
+                    - menuitem "Passkeys Beta" [disabled] [ref=e422]:
+                      - generic [ref=e425]:
+                        - generic [ref=e426]: Passkeys
+                        - generic [ref=e427]: Beta
+                  - link "OAuth Server Beta" [disabled] [ref=e232] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/oauth-server
+                    - menuitem "OAuth Server Beta" [disabled] [ref=e233]:
+                      - generic [ref=e236]:
+                        - generic [ref=e237]: OAuth Server
+                        - generic [ref=e238]: Beta
+                  - link "Sessions" [disabled] [ref=e239] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/sessions
+                    - menuitem "Sessions" [disabled] [ref=e240]:
+                      - generic [ref=e244]: Sessions
+                  - link "Rate Limits" [disabled] [ref=e245] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/rate-limits
+                    - menuitem "Rate Limits" [disabled] [ref=e246]:
+                      - generic [ref=e250]: Rate Limits
+                  - link "Multi-Factor" [disabled] [ref=e251] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/mfa
+                    - menuitem "Multi-Factor" [disabled] [ref=e252]:
+                      - generic [ref=e256]: Multi-Factor
+                  - link "URL Configuration" [disabled] [ref=e257] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/url-configuration
+                    - menuitem "URL Configuration" [disabled] [ref=e258]:
+                      - generic [ref=e262]: URL Configuration
+                  - link "Attack Protection" [disabled] [ref=e263] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/protection
+                    - menuitem "Attack Protection" [disabled] [ref=e264]:
+                      - generic [ref=e268]: Attack Protection
+                  - link "Auth Hooks Beta" [disabled] [ref=e269] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/hooks
+                    - menuitem "Auth Hooks Beta" [disabled] [ref=e270]:
+                      - generic [ref=e273]:
+                        - generic [ref=e274]: Auth Hooks
+                        - generic [ref=e275]: Beta
+                  - link "Audit Logs" [disabled] [ref=e276] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/audit-logs
+                    - menuitem "Audit Logs" [disabled] [ref=e277]:
+                      - generic [ref=e281]: Audit Logs
+                  - link "Performance" [disabled] [ref=e282] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/performance
+                    - menuitem "Performance" [disabled] [ref=e283]:
+                      - generic [ref=e287]: Performance
+        - separator [disabled] [ref=e288]:
+          - img [ref=e290]
+        - main [ref=e299]:
+          - generic [ref=e300]:
+            - heading "Users" [level=3] [ref=e303]
+            - generic [ref=e304]:
+              - generic [ref=e305]:
+                - generic [ref=e306]:
+                  - img [ref=e308]
+                  - combobox [ref=e311]:
+                    - generic: Email address
+                    - img [ref=e312]
+                  - group [ref=e314]:
+                    - textbox "Search by email" [ref=e315]
+                - generic [ref=e317] [cursor=pointer]:
+                  - generic [ref=e318]: All columns
+                  - img [ref=e320]
+                - button "Sorted by user ID" [disabled] [ref=e322]:
+                  - img [ref=e324]
+                  - generic [ref=e326]: Sorted by user ID
+              - generic [ref=e327]:
+                - button "Refresh" [ref=e328] [cursor=pointer]:
+                  - img [ref=e330]
+                - button "Add user" [ref=e335] [cursor=pointer]:
+                  - generic [ref=e336]: Add user
+                  - img [ref=e338]
+            - generic [ref=e342]:
+              - grid [ref=e346]:
+                - row "UID Display name Email Phone" [ref=e764]:
+                  - columnheader [ref=e348]
+                  - columnheader "UID" [ref=e349]:
+                    - paragraph [ref=e352]: UID
+                  - columnheader "Display name" [ref=e354]:
+                    - paragraph [ref=e357]: Display name
+                  - columnheader "Email" [ref=e359]:
+                    - paragraph [ref=e362]: Email
+                  - columnheader "Phone" [ref=e364]:
+                    - paragraph [ref=e367]: Phone
+                - row "5ab74cd2-9580-41e9-8742-ec0d422d96ba - desafio@21dias.com -" [ref=e765] [cursor=pointer]:
+                  - gridcell [ref=e429]:
+                    - generic [ref=e430]:
+                      - checkbox [ref=e431]
+                      - img [ref=e433]
+                  - gridcell "5ab74cd2-9580-41e9-8742-ec0d422d96ba" [ref=e436]:
+                    - paragraph [ref=e438]: 5ab74cd2-9580-41e9-8742-ec0d422d96ba
+                  - gridcell "-" [ref=e439]:
+                    - paragraph [ref=e441]: "-"
+                  - gridcell "desafio@21dias.com" [ref=e442]:
+                    - paragraph [ref=e444]: desafio@21dias.com
+                  - gridcell "-" [ref=e445]:
+                    - paragraph [ref=e447]: "-"
+                - row "1e62dffe-022e-4bb2-a52b-4630ad106fa4 - gabriel.desouza9@hotmail.com -" [ref=e766] [cursor=pointer]:
+                  - gridcell [ref=e457]:
+                    - generic [ref=e458]:
+                      - checkbox [ref=e459]
+                      - img [ref=e461]
+                  - gridcell "1e62dffe-022e-4bb2-a52b-4630ad106fa4" [ref=e464]:
+                    - paragraph [ref=e466]: 1e62dffe-022e-4bb2-a52b-4630ad106fa4
+                  - gridcell "-" [ref=e467]:
+                    - paragraph [ref=e469]: "-"
+                  - gridcell "gabriel.desouza9@hotmail.com" [active] [selected] [ref=e470]:
+                    - paragraph [ref=e472]: gabriel.desouza9@hotmail.com
+                  - gridcell "-" [ref=e473]:
+                    - paragraph [ref=e475]: "-"
+                - row "ddfb17e3-6c2e-4ff9-b354-1e8f81efe475 - gabriel.desouza9+calisthenics@hotmail.com -" [ref=e767] [cursor=pointer]:
+                  - gridcell [ref=e485]:
+                    - generic [ref=e486]:
+                      - checkbox [ref=e487]
+                      - img [ref=e489]
+                  - gridcell "ddfb17e3-6c2e-4ff9-b354-1e8f81efe475" [ref=e492]:
+                    - paragraph [ref=e494]: ddfb17e3-6c2e-4ff9-b354-1e8f81efe475
+                  - gridcell "-" [ref=e495]:
+                    - paragraph [ref=e497]: "-"
+                  - gridcell "gabriel.desouza9+calisthenics@hotmail.com" [ref=e498]:
+                    - paragraph [ref=e500]: gabriel.desouza9+calisthenics@hotmail.com
+                  - gridcell "-" [ref=e501]:
+                    - paragraph [ref=e503]: "-"
+                - row "142b03d2-fe23-490d-8fe7-cfdef07043a3 - gabriel.desouza9+final@hotmail.com -" [ref=e768] [cursor=pointer]:
+                  - gridcell [ref=e513]:
+                    - generic [ref=e514]:
+                      - checkbox [ref=e515]
+                      - img [ref=e517]
+                  - gridcell "142b03d2-fe23-490d-8fe7-cfdef07043a3" [ref=e520]:
+                    - paragraph [ref=e522]: 142b03d2-fe23-490d-8fe7-cfdef07043a3
+                  - gridcell "-" [ref=e523]:
+                    - paragraph [ref=e525]: "-"
+                  - gridcell "gabriel.desouza9+final@hotmail.com" [ref=e526]:
+                    - paragraph [ref=e528]: gabriel.desouza9+final@hotmail.com
+                  - gridcell "-" [ref=e529]:
+                    - paragraph [ref=e531]: "-"
+                - row "b35e6b27-b8f9-415f-83c0-1c550016bc53 - gabriel.desouza9+magic@hotmail.com -" [ref=e769] [cursor=pointer]:
+                  - gridcell [ref=e541]:
+                    - generic [ref=e542]:
+                      - checkbox [ref=e543]
+                      - img [ref=e545]
+                  - gridcell "b35e6b27-b8f9-415f-83c0-1c550016bc53" [ref=e548]:
+                    - paragraph [ref=e550]: b35e6b27-b8f9-415f-83c0-1c550016bc53
+                  - gridcell "-" [ref=e551]:
+                    - paragraph [ref=e553]: "-"
+                  - gridcell "gabriel.desouza9+magic@hotmail.com" [ref=e554]:
+                    - paragraph [ref=e556]: gabriel.desouza9+magic@hotmail.com
+                  - gridcell "-" [ref=e557]:
+                    - paragraph [ref=e559]: "-"
+                - row "638a3264-c599-4a4f-b800-3ef997f08fd3 - gabriel.service@hotmail.com -" [ref=e770] [cursor=pointer]:
+                  - gridcell [ref=e569]:
+                    - generic [ref=e570]:
+                      - checkbox [ref=e571]
+                      - img [ref=e573]
+                  - gridcell "638a3264-c599-4a4f-b800-3ef997f08fd3" [ref=e576]:
+                    - paragraph [ref=e578]: 638a3264-c599-4a4f-b800-3ef997f08fd3
+                  - gridcell "-" [ref=e579]:
+                    - paragraph [ref=e581]: "-"
+                  - gridcell "gabriel.service@hotmail.com" [ref=e582]:
+                    - paragraph [ref=e584]: gabriel.service@hotmail.com
+                  - gridcell "-" [ref=e585]:
+                    - paragraph [ref=e587]: "-"
+                - row "585f7954-7a1c-431a-8639-33fe8b8726b7 - gabriel@teste.br -" [ref=e771] [cursor=pointer]:
+                  - gridcell [ref=e597]:
+                    - generic [ref=e598]:
+                      - checkbox [ref=e599]
+                      - img [ref=e601]
+                  - gridcell "585f7954-7a1c-431a-8639-33fe8b8726b7" [ref=e604]:
+                    - paragraph [ref=e606]: 585f7954-7a1c-431a-8639-33fe8b8726b7
+                  - gridcell "-" [ref=e607]:
+                    - paragraph [ref=e609]: "-"
+                  - gridcell "gabriel@teste.br" [ref=e610]:
+                    - paragraph [ref=e612]: gabriel@teste.br
+                  - gridcell "-" [ref=e613]:
+                    - paragraph [ref=e615]: "-"
+                - row "f328fecd-71df-4478-82c8-695d0256f416 - laura@example.com -" [ref=e772] [cursor=pointer]:
+                  - gridcell [ref=e625]:
+                    - generic [ref=e626]:
+                      - checkbox [ref=e627]
+                      - img [ref=e629]
+                  - gridcell "f328fecd-71df-4478-82c8-695d0256f416" [ref=e632]:
+                    - paragraph [ref=e634]: f328fecd-71df-4478-82c8-695d0256f416
+                  - gridcell "-" [ref=e635]:
+                    - paragraph [ref=e637]: "-"
+                  - gridcell "laura@example.com" [ref=e638]:
+                    - paragraph [ref=e640]: laura@example.com
+                  - gridcell "-" [ref=e641]:
+                    - paragraph [ref=e643]: "-"
+                - row "19c1b140-fb7e-4d66-a540-62eed95f809f - novo@teste.com -" [ref=e773] [cursor=pointer]:
+                  - gridcell [ref=e653]:
+                    - generic [ref=e654]:
+                      - checkbox [ref=e655]
+                      - img [ref=e657]
+                  - gridcell "19c1b140-fb7e-4d66-a540-62eed95f809f" [ref=e660]:
+                    - paragraph [ref=e662]: 19c1b140-fb7e-4d66-a540-62eed95f809f
+                  - gridcell "-" [ref=e663]:
+                    - paragraph [ref=e665]: "-"
+                  - gridcell "novo@teste.com" [ref=e666]:
+                    - paragraph [ref=e668]: novo@teste.com
+                  - gridcell "-" [ref=e669]:
+                    - paragraph [ref=e671]: "-"
+                - row "cdb9d199-b3a4-432d-a465-d26fc42e1f14 - test@example.com -" [ref=e774] [cursor=pointer]:
+                  - gridcell [ref=e681]:
+                    - generic [ref=e682]:
+                      - checkbox [ref=e683]
+                      - img [ref=e685]
+                  - gridcell "cdb9d199-b3a4-432d-a465-d26fc42e1f14" [ref=e688]:
+                    - paragraph [ref=e690]: cdb9d199-b3a4-432d-a465-d26fc42e1f14
+                  - gridcell "-" [ref=e691]:
+                    - paragraph [ref=e693]: "-"
+                  - gridcell "test@example.com" [ref=e694]:
+                    - paragraph [ref=e696]: test@example.com
+                  - gridcell "-" [ref=e697]:
+                    - paragraph [ref=e699]: "-"
+                - row "faa0a1b7-b110-4201-a7d4-7d6095dd0e53 - teste.completo@desafio.com -" [ref=e775] [cursor=pointer]:
+                  - gridcell [ref=e709]:
+                    - generic [ref=e710]:
+                      - checkbox [ref=e711]
+                      - img [ref=e713]
+                  - gridcell "faa0a1b7-b110-4201-a7d4-7d6095dd0e53" [ref=e716]:
+                    - paragraph [ref=e718]: faa0a1b7-b110-4201-a7d4-7d6095dd0e53
+                  - gridcell "-" [ref=e719]:
+                    - paragraph [ref=e721]: "-"
+                  - gridcell "teste.completo@desafio.com" [ref=e722]:
+                    - paragraph [ref=e724]: teste.completo@desafio.com
+                  - gridcell "-" [ref=e725]:
+                    - paragraph [ref=e727]: "-"
+                - row "0b1b5fcf-502b-458f-8c58-5af148316c81 - teste@example.com -" [ref=e776] [cursor=pointer]:
+                  - gridcell [ref=e737]:
+                    - generic [ref=e738]:
+                      - checkbox [ref=e739]
+                      - img [ref=e741]
+                  - gridcell "0b1b5fcf-502b-458f-8c58-5af148316c81" [ref=e744]:
+                    - paragraph [ref=e746]: 0b1b5fcf-502b-458f-8c58-5af148316c81
+                  - gridcell "-" [ref=e747]:
+                    - paragraph [ref=e749]: "-"
+                  - gridcell "teste@example.com" [ref=e750]:
+                    - paragraph [ref=e752]: teste@example.com
+                  - gridcell "-" [ref=e753]:
+                    - paragraph [ref=e755]: "-"
+              - separator [ref=e777]:
+                - img [ref=e779]
+              - generic [ref=e787]:
+                - button [ref=e788] [cursor=pointer]:
+                  - img [ref=e790]
+                - generic [ref=e793]:
+                  - tablist [ref=e794]:
+                    - tab "Overview" [selected] [ref=e795]
+                    - tab "Logs" [ref=e796]
+                    - tab "Raw JSON" [ref=e797]
+                  - tabpanel "Overview" [ref=e798]:
+                    - generic [ref=e799]:
+                      - generic [ref=e801]:
+                        - paragraph [ref=e802]: gabriel.desouza9@hotmail.com
+                        - button [ref=e803] [cursor=pointer]:
+                          - img [ref=e805]
+                      - generic [ref=e808]:
+                        - generic [ref=e809]:
+                          - paragraph [ref=e810]: User UID
+                          - generic [ref=e811]:
+                            - paragraph [ref=e812]: 1e62dffe-022e-4bb2-a52b-4630ad106fa4
+                            - button [ref=e813] [cursor=pointer]:
+                              - img [ref=e815]
+                        - generic [ref=e818]:
+                          - paragraph [ref=e819]: Created at
+                          - generic [ref=e820]:
+                            - paragraph [ref=e821]: 29 May, 2026 12:58
+                            - button [ref=e822] [cursor=pointer]:
+                              - img [ref=e824]
+                        - generic [ref=e827]:
+                          - paragraph [ref=e828]: Updated at
+                          - generic [ref=e829]:
+                            - paragraph [ref=e830]: 29 May, 2026 13:39
+                            - button [ref=e831] [cursor=pointer]:
+                              - img [ref=e833]
+                        - generic [ref=e836]:
+                          - paragraph [ref=e837]: Invited at
+                          - paragraph [ref=e839]: "-"
+                        - generic [ref=e840]:
+                          - paragraph [ref=e841]: Confirmation sent at
+                          - paragraph [ref=e843]: "-"
+                        - generic [ref=e844]:
+                          - paragraph [ref=e845]: Confirmed at
+                          - generic [ref=e846]:
+                            - paragraph [ref=e847]: 29 May, 2026 12:58
+                            - button [ref=e848] [cursor=pointer]:
+                              - img [ref=e850]
+                        - generic [ref=e853]:
+                          - paragraph [ref=e854]: Last signed in
+                          - generic [ref=e855]:
+                            - paragraph [ref=e856]: 29 May, 2026 12:58
+                            - button [ref=e857] [cursor=pointer]:
+                              - img [ref=e859]
+                        - generic [ref=e862]:
+                          - paragraph [ref=e863]: SSO
+                          - img [ref=e866]
+                      - generic [ref=e869]:
+                        - paragraph [ref=e870]: Provider Information
+                        - paragraph [ref=e871]: The user has the following providers
+                      - generic [ref=e873]:
+                        - img "email auth icon" [ref=e874]
+                        - generic [ref=e875]:
+                          - paragraph [ref=e876]: email
+                          - paragraph [ref=e877]: Signed in with a email account via OAuth
+                          - link "Configure email provider" [ref=e878] [cursor=pointer]:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/providers?provider=email
+                            - generic [ref=e879]: Configure email provider
+                        - generic [ref=e880]:
+                          - img [ref=e882]
+                          - generic [ref=e884]: Enabled
+                      - generic [ref=e885]:
+                        - generic [ref=e886]:
+                          - generic [ref=e887]:
+                            - paragraph [ref=e888]: Reset password
+                            - paragraph [ref=e889]: Send a password recovery email to the user
+                          - button "Send password recovery" [ref=e890] [cursor=pointer]:
+                            - img [ref=e892]
+                            - generic [ref=e895]: Send password recovery
+                        - generic [ref=e896]:
+                          - generic [ref=e897]:
+                            - paragraph [ref=e898]: Send magic link
+                            - paragraph [ref=e899]: Send a passwordless magic link to the user
+                          - button "Send magic link" [ref=e900] [cursor=pointer]:
+                            - img [ref=e902]
+                            - generic [ref=e905]: Send magic link
+                      - generic [ref=e906]:
+                        - paragraph [ref=e907]: Danger zone
+                        - paragraph [ref=e908]: Be wary of the following features as they cannot be undone.
+                      - generic [ref=e909]:
+                        - generic [ref=e910]:
+                          - generic [ref=e911]:
+                            - paragraph [ref=e912]: Remove MFA factors
+                            - paragraph [ref=e913]: Removes all MFA factors associated with the user
+                          - button "Remove MFA factors" [ref=e914] [cursor=pointer]:
+                            - img [ref=e916]
+                            - generic [ref=e920]: Remove MFA factors
+                        - generic [ref=e921]:
+                          - generic [ref=e922]:
+                            - paragraph [ref=e923]: Ban user
+                            - paragraph [ref=e924]: Revoke access to the project for a set duration
+                          - button "Ban user" [ref=e925] [cursor=pointer]:
+                            - img [ref=e927]
+                            - generic [ref=e930]: Ban user
+                        - generic [ref=e931]:
+                          - generic [ref=e932]:
+                            - paragraph [ref=e933]: Delete user
+                            - paragraph [ref=e934]: User will no longer have access to the project
+                          - button "Delete user" [ref=e935] [cursor=pointer]:
+                            - img [ref=e937]
+                            - generic [ref=e940]: Delete user
+            - generic [ref=e386]: "Total: 14 users"
+  - alert [ref=e389]: Users | Authentication | Gabriel3025's Project | Gabriel3025's Org | Supabase

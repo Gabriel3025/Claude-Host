@@ -1,0 +1,109 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - link "Supabase" [ref=e9] [cursor=pointer]:
+            - /url: /dashboard/org/dreelmauwsthnbpazhwy
+            - img "Supabase" [ref=e10]
+          - generic [ref=e11]:
+            - img [ref=e13]
+            - generic [ref=e15]:
+              - link "Gabriel3025's Org Free" [ref=e16] [cursor=pointer]:
+                - /url: /dashboard/org/dreelmauwsthnbpazhwy
+                - img [ref=e17]
+                - generic [ref=e27]: Gabriel3025's Org
+                - generic [ref=e28]: Free
+              - button [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+        - generic [ref=e34]:
+          - generic [ref=e36] [cursor=pointer]: Feedback
+          - generic [ref=e37]:
+            - button "Search..." [ref=e38]:
+              - generic [ref=e39]:
+                - img [ref=e40]
+                - paragraph [ref=e43]: Search...
+              - generic [ref=e45]: Ctrl K
+            - button "Help" [ref=e46] [cursor=pointer]:
+              - generic [ref=e47]:
+                - img [ref=e48]
+                - generic [ref=e51]: Help
+            - button "Advisor Center" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54]:
+                - img [ref=e55]
+                - generic [ref=e57]: Advisor Center
+          - button "Gabriel3025" [ref=e58] [cursor=pointer]:
+            - img "Gabriel3025" [ref=e60]
+    - generic [ref=e61]:
+      - generic [ref=e65]:
+        - list [ref=e68]:
+          - generic [ref=e69]:
+            - listitem [ref=e70]:
+              - link "Projects" [ref=e71] [cursor=pointer]:
+                - /url: /dashboard/org/dreelmauwsthnbpazhwy
+                - img [ref=e72]
+                - generic: Projects
+            - listitem [ref=e82]:
+              - link "Team" [ref=e83] [cursor=pointer]:
+                - /url: /dashboard/org/dreelmauwsthnbpazhwy/team
+                - img [ref=e84]
+                - generic: Team
+            - listitem [ref=e89]:
+              - link "Integrations" [ref=e90] [cursor=pointer]:
+                - /url: /dashboard/org/dreelmauwsthnbpazhwy/integrations
+                - img [ref=e91]
+                - generic: Integrations
+            - listitem [ref=e94]:
+              - link "Usage" [ref=e95] [cursor=pointer]:
+                - /url: /dashboard/org/dreelmauwsthnbpazhwy/usage
+                - img [ref=e96]
+                - generic: Usage
+            - listitem [ref=e99]:
+              - link "Billing" [ref=e100] [cursor=pointer]:
+                - /url: /dashboard/org/dreelmauwsthnbpazhwy/billing
+                - img [ref=e101]
+                - generic: Billing
+            - listitem [ref=e104]:
+              - link "Organization Settings" [ref=e105] [cursor=pointer]:
+                - /url: /dashboard/org/dreelmauwsthnbpazhwy/general
+                - img [ref=e106]
+                - generic: Organization Settings
+        - button "Sidebar control" [ref=e111] [cursor=pointer]:
+          - img [ref=e113]
+      - main [ref=e120]:
+        - generic [ref=e121]:
+          - heading "Projects" [level=1] [ref=e128]
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - generic [ref=e133]:
+                - group [ref=e134]:
+                  - textbox "Search for a project" [ref=e135]
+                  - group [ref=e136]:
+                    - img [ref=e137]
+                  - group
+                - generic [ref=e140]:
+                  - generic [ref=e141] [cursor=pointer]:
+                    - generic [ref=e142]: Status
+                    - img [ref=e144]
+                  - button "Sorted by name" [ref=e146] [cursor=pointer]:
+                    - img [ref=e148]
+                    - generic [ref=e150]: Sorted by name
+                  - img [ref=e151]
+              - generic [ref=e153]:
+                - group [ref=e154]:
+                  - radio [checked] [ref=e155]:
+                    - img [ref=e156]
+                  - radio [ref=e158]:
+                    - img [ref=e159]
+                - link "New project" [ref=e160] [cursor=pointer]:
+                  - /url: /dashboard/new/dreelmauwsthnbpazhwy
+                  - img [ref=e162]
+                  - generic [ref=e163]: New project
+            - list [ref=e164]:
+              - generic [ref=e167]:
+                - paragraph [ref=e168]
+                - paragraph [ref=e169]
+              - generic [ref=e172]:
+                - paragraph [ref=e173]
+                - paragraph [ref=e174]
+  - alert [ref=e175]: Projects | Supabase
