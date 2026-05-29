@@ -1,0 +1,389 @@
+- generic:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - banner:
+            - generic:
+              - generic:
+                - link:
+                  - /url: /dashboard/org/dreelmauwsthnbpazhwy
+                  - img
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - link:
+                      - /url: /dashboard/org/dreelmauwsthnbpazhwy
+                      - img
+                      - generic: Gabriel3025's Org
+                      - generic: Free
+                    - button:
+                      - generic:
+                        - img
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - link:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                        - img
+                        - generic: Gabriel3025's Project
+                      - button:
+                        - generic:
+                          - img
+                    - generic:
+                      - img
+                    - generic:
+                      - link:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                        - generic: main
+                        - generic: Production
+                      - button:
+                        - generic:
+                          - img
+                - generic:
+                  - button:
+                    - generic:
+                      - img
+                    - generic: Connect
+              - generic:
+                - generic:
+                  - generic: Feedback
+                - generic:
+                  - button:
+                    - generic:
+                      - img
+                      - paragraph: Search...
+                    - generic:
+                      - generic: Ctrl K
+                  - button [ref=e626] [cursor=pointer]:
+                    - generic [ref=e300]:
+                      - img [ref=e301]
+                      - generic [ref=e304]: Help
+                  - button [ref=e627] [cursor=pointer]:
+                    - generic [ref=e307]:
+                      - img [ref=e308]
+                      - generic [ref=e310]: Advisor Center
+                  - button [ref=e628] [cursor=pointer]:
+                    - generic [ref=e312]:
+                      - img [ref=e313]
+                      - generic [ref=e315]: SQL Editor
+                  - button [ref=e629] [cursor=pointer]:
+                    - generic [ref=e317]:
+                      - img [ref=e320]
+                      - generic [ref=e323]: AI Assistant
+                - button [ref=e630] [cursor=pointer]:
+                  - img [ref=e631]
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - list:
+                      - generic:
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/editor
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/sql
+                            - img
+                      - generic:
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/database/schemas
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/users
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/storage/files
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/functions
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/realtime/inspector
+                            - img
+                      - generic:
+                        - generic:
+                          - listitem:
+                            - link:
+                              - /url: /dashboard/project/zgetngxwievfhcgtfnhx/advisors/security
+                              - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/observability
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/logs/explorer
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/integrations
+                            - img
+                      - generic:
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/general
+                            - img
+                - generic:
+                  - generic:
+                    - button:
+                      - generic:
+                        - img
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - heading [level=4]: Authentication
+                              - generic:
+                                - generic:
+                                  - menu [disabled]:
+                                    - list:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic:
+                                                  - generic: Manage
+                                            - generic:
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/users
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Users
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/oauth-apps
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: OAuth Apps
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic:
+                                                  - generic: Notifications
+                                            - generic:
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/templates
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Emails
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic:
+                                                  - generic: Configuration
+                                            - generic:
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/policies
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Policies
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/providers
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Sign In / Providers
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/passkeys
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Passkeys
+                                                        - generic: Beta
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/oauth-server
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: OAuth Server
+                                                        - generic: Beta
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/sessions
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Sessions
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/rate-limits
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Rate Limits
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/mfa
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Multi-Factor
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/url-configuration
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: URL Configuration
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/protection
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Attack Protection
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/hooks
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Auth Hooks
+                                                        - generic: Beta
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/audit-logs
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Audit Logs
+                                              - link [disabled]:
+                                                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/performance
+                                                - menuitem [disabled]:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Performance
+                      - separator [disabled]:
+                        - generic:
+                          - img
+                      - generic:
+                        - generic:
+                          - main:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - heading [level=1]: URL Configuration
+                                    - generic: Configure site URL and redirect URLs for authentication
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - heading [level=2]: Site URL
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - textbox: http://localhost:3000
+                                            - generic:
+                                              - generic:
+                                                - generic: Site URL
+                                              - generic: Configure the default redirect URL used when a redirect URL is not specified or doesn't match one from the allow list. This value is also exposed as a template variable in the email templates section. Wildcards cannot be used here.
+                                      - generic:
+                                        - button [disabled]:
+                                          - generic: Save changes
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - heading [level=2]: Redirect URLs
+                                      - generic: URLs that auth providers are permitted to redirect to post authentication. Wildcards are allowed, for example, https://*.domain.com
+                                    - generic:
+                                      - link:
+                                        - /url: https://supabase.com/docs/guides/auth/concepts/redirect-urls
+                                        - generic:
+                                          - img
+                                        - generic: Docs
+                                - generic:
+                                  - generic:
+                                    - button [ref=e632] [cursor=pointer]:
+                                      - generic [ref=e599]: Add URL
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - heading [level=3]: No Redirect URLs
+                                          - paragraph: Auth providers may need a URL to redirect back to
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - button:
+                    - generic:
+                      - img
+                - generic:
+                  - generic: Notice
+                  - generic:
+                    - paragraph: We've updated our Terms of Service
+                    - paragraph: Updates define the responsibilities of both you and Supabase in the use of AI.
+                  - button:
+                    - generic: Learn more
+  - generic:
+    - alert: URL Configuration | Authentication | Supabase
+  - dialog "Add new redirect URLs" [ref=e634]:
+    - generic [ref=e635]:
+      - heading "Add new redirect URLs" [level=2] [ref=e636]
+      - paragraph [ref=e637]: This will add a URL to a list of allowed URLs that can interact with your Authentication services for this project.
+    - generic [ref=e639]:
+      - generic [ref=e640]:
+        - generic [ref=e641]: URL
+        - generic [ref=e650]:
+          - generic [ref=e652]:
+            - textbox "https://mydomain.com" [active] [ref=e654]
+            - button "Remove URL" [disabled]:
+              - generic:
+                - img
+          - button "Add URL" [ref=e656] [cursor=pointer]:
+            - img [ref=e658]
+            - generic [ref=e659]: Add URL
+      - button "Save URLs" [ref=e661] [cursor=pointer]:
+        - generic [ref=e662]: Save URLs
+    - button "Close" [ref=e663]:
+      - img [ref=e664]
+      - generic [ref=e667]: Close

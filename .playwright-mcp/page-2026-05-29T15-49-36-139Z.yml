@@ -1,0 +1,274 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e224]:
+        - banner [ref=e226]:
+          - generic [ref=e227]:
+            - generic [ref=e228]:
+              - link "Supabase" [ref=e229] [cursor=pointer]:
+                - /url: /dashboard/org/dreelmauwsthnbpazhwy
+                - img "Supabase" [ref=e230]
+              - generic [ref=e231]:
+                - img [ref=e233]
+                - generic [ref=e235]:
+                  - link "Gabriel3025's Org Free" [ref=e236] [cursor=pointer]:
+                    - /url: /dashboard/org/dreelmauwsthnbpazhwy
+                    - img [ref=e237]
+                    - generic [ref=e247]: Gabriel3025's Org
+                    - generic [ref=e248]: Free
+                  - button [ref=e249] [cursor=pointer]:
+                    - img [ref=e251]
+                - generic [ref=e254]:
+                  - img [ref=e256]
+                  - generic [ref=e258]:
+                    - link "Gabriel3025's Project" [ref=e259] [cursor=pointer]:
+                      - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                      - img [ref=e260]
+                      - generic "Gabriel3025's Project" [ref=e263]
+                    - button [ref=e264] [cursor=pointer]:
+                      - img [ref=e266]
+                  - img [ref=e270]
+                  - generic [ref=e272]:
+                    - link "main Production" [ref=e273] [cursor=pointer]:
+                      - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                      - generic "main" [ref=e274]
+                      - generic [ref=e275]: Production
+                    - button [ref=e276] [cursor=pointer]:
+                      - img [ref=e278]
+              - button "Connect" [ref=e282] [cursor=pointer]:
+                - img [ref=e284]
+                - generic [ref=e286]: Connect
+            - generic [ref=e287]:
+              - generic [ref=e289] [cursor=pointer]: Feedback
+              - generic [ref=e290]:
+                - button "Search..." [ref=e291]:
+                  - generic [ref=e292]:
+                    - img [ref=e293]
+                    - paragraph [ref=e296]: Search...
+                  - generic [ref=e298]: Ctrl K
+                - button "Help" [ref=e668] [cursor=pointer]:
+                  - generic [ref=e300]:
+                    - img [ref=e301]
+                    - generic [ref=e304]: Help
+                - button "Advisor Center" [ref=e669] [cursor=pointer]:
+                  - generic [ref=e307]:
+                    - img [ref=e308]
+                    - generic [ref=e310]: Advisor Center
+                - button "SQL Editor" [ref=e670] [cursor=pointer]:
+                  - generic [ref=e312]:
+                    - img [ref=e313]
+                    - generic [ref=e315]: SQL Editor
+                - button "AI Assistant" [ref=e671] [cursor=pointer]:
+                  - generic [ref=e317]:
+                    - img [ref=e320]
+                    - generic [ref=e323]: AI Assistant
+              - button "Gabriel3025" [ref=e672] [cursor=pointer]:
+                - img "Gabriel3025" [ref=e673]
+        - generic [ref=e327]:
+          - generic [ref=e331]:
+            - list [ref=e334]:
+              - generic [ref=e335]:
+                - listitem [ref=e336]:
+                  - link "Project Overview" [ref=e337] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                    - img [ref=e338]
+                    - generic: Project Overview
+                - listitem [ref=e340]:
+                  - link "Table Editor" [ref=e341] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/editor
+                    - img [ref=e342]
+                    - generic: Table Editor
+                - listitem [ref=e344]:
+                  - link "SQL Editor" [ref=e345] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/sql
+                    - img [ref=e346]
+                    - generic: SQL Editor
+              - generic [ref=e348]:
+                - listitem [ref=e349]:
+                  - link "Database" [ref=e350] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/database/schemas
+                    - img [ref=e351]
+                    - generic: Database
+                - listitem [ref=e355]:
+                  - link "Authentication" [ref=e356] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/users
+                    - img [ref=e357]
+                    - generic: Authentication
+                - listitem [ref=e359]:
+                  - link "Storage" [ref=e360] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/storage/files
+                    - img [ref=e361]
+                    - generic: Storage
+                - listitem [ref=e363]:
+                  - link "Edge Functions" [ref=e364] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/functions
+                    - img [ref=e365]
+                    - generic: Edge Functions
+                - listitem [ref=e370]:
+                  - link "Realtime" [ref=e371] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/realtime/inspector
+                    - img [ref=e372]
+                    - generic: Realtime
+              - generic [ref=e374]:
+                - listitem [ref=e376]:
+                  - link "Advisors" [ref=e377] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/advisors/security
+                    - img [ref=e378]
+                    - generic: Advisors
+                - listitem [ref=e380]:
+                  - link "Observability" [ref=e381] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/observability
+                    - img [ref=e382]
+                    - generic: Observability
+                - listitem [ref=e390]:
+                  - link "Logs" [ref=e391] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/logs/explorer
+                    - img [ref=e392]
+                    - generic: Logs
+                - listitem [ref=e393]:
+                  - link "Integrations" [ref=e394] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/integrations
+                    - img [ref=e395]
+                    - generic: Integrations
+              - listitem [ref=e399]:
+                - link "Project Settings" [ref=e400] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/general
+                  - img [ref=e401]
+                  - generic: Project Settings
+            - button "Sidebar control" [ref=e406] [cursor=pointer]:
+              - img [ref=e408]
+          - generic [ref=e415]:
+            - generic [ref=e419]:
+              - heading "Authentication" [level=4] [ref=e421]
+              - menu "Sidebar" [disabled] [ref=e424]:
+                - list [ref=e425]:
+                  - generic [ref=e428]:
+                    - generic [ref=e432]: Manage
+                    - generic [ref=e433]:
+                      - link "Users" [disabled] [ref=e434] [cursor=pointer]:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/users
+                        - menuitem "Users" [disabled] [ref=e435]:
+                          - generic [ref=e439]: Users
+                      - link "OAuth Apps" [disabled] [ref=e440] [cursor=pointer]:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/oauth-apps
+                        - menuitem "OAuth Apps" [disabled] [ref=e441]:
+                          - generic [ref=e445]: OAuth Apps
+                  - generic [ref=e449]:
+                    - generic [ref=e453]: Notifications
+                    - link "Emails" [disabled] [ref=e455] [cursor=pointer]:
+                      - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/templates
+                      - menuitem "Emails" [disabled] [ref=e456]:
+                        - generic [ref=e460]: Emails
+                  - generic [ref=e464]:
+                    - generic [ref=e468]: Configuration
+                    - generic [ref=e469]:
+                      - link "Policies" [disabled] [ref=e470] [cursor=pointer]:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/policies
+                        - menuitem "Policies" [disabled] [ref=e471]:
+                          - generic [ref=e475]: Policies
+                      - link "Sign In / Providers" [disabled] [ref=e476] [cursor=pointer]:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/providers
+                        - menuitem "Sign In / Providers" [disabled] [ref=e477]:
+                          - generic [ref=e481]: Sign In / Providers
+                      - link "Passkeys Beta" [disabled] [ref=e482] [cursor=pointer]:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/passkeys
+                        - menuitem "Passkeys Beta" [disabled] [ref=e483]:
+                          - generic [ref=e486]:
+                            - generic [ref=e487]: Passkeys
+                            - generic [ref=e488]: Beta
+                      - link "OAuth Server Beta" [disabled] [ref=e489] [cursor=pointer]:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/oauth-server
+                        - menuitem "OAuth Server Beta" [disabled] [ref=e490]:
+                          - generic [ref=e493]:
+                            - generic [ref=e494]: OAuth Server
+                            - generic [ref=e495]: Beta
+                      - link "Sessions" [disabled] [ref=e496] [cursor=pointer]:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/sessions
+                        - menuitem "Sessions" [disabled] [ref=e497]:
+                          - generic [ref=e501]: Sessions
+                      - link "Rate Limits" [disabled] [ref=e502] [cursor=pointer]:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/rate-limits
+                        - menuitem "Rate Limits" [disabled] [ref=e503]:
+                          - generic [ref=e507]: Rate Limits
+                      - link "Multi-Factor" [disabled] [ref=e508] [cursor=pointer]:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/mfa
+                        - menuitem "Multi-Factor" [disabled] [ref=e509]:
+                          - generic [ref=e513]: Multi-Factor
+                      - link "URL Configuration" [disabled] [ref=e514] [cursor=pointer]:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/url-configuration
+                        - menuitem "URL Configuration" [disabled] [ref=e515]:
+                          - generic [ref=e519]: URL Configuration
+                      - link "Attack Protection" [disabled] [ref=e520] [cursor=pointer]:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/protection
+                        - menuitem "Attack Protection" [disabled] [ref=e521]:
+                          - generic [ref=e525]: Attack Protection
+                      - link "Auth Hooks Beta" [disabled] [ref=e526] [cursor=pointer]:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/hooks
+                        - menuitem "Auth Hooks Beta" [disabled] [ref=e527]:
+                          - generic [ref=e530]:
+                            - generic [ref=e531]: Auth Hooks
+                            - generic [ref=e532]: Beta
+                      - link "Audit Logs" [disabled] [ref=e533] [cursor=pointer]:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/audit-logs
+                        - menuitem "Audit Logs" [disabled] [ref=e534]:
+                          - generic [ref=e538]: Audit Logs
+                      - link "Performance" [disabled] [ref=e539] [cursor=pointer]:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/performance
+                        - menuitem "Performance" [disabled] [ref=e540]:
+                          - generic [ref=e544]: Performance
+            - separator [disabled] [ref=e545]:
+              - img [ref=e547]
+            - main [ref=e556]:
+              - generic [ref=e560]:
+                - heading "URL Configuration" [level=1] [ref=e561]
+                - generic [ref=e562]: Configure site URL and redirect URLs for authentication
+              - generic [ref=e563]:
+                - generic [ref=e564]:
+                  - heading "Site URL" [level=2] [ref=e568]
+                  - generic [ref=e571]:
+                    - generic [ref=e574]:
+                      - textbox [ref=e576]: http://localhost:3000
+                      - generic [ref=e577]:
+                        - generic [ref=e674]: Site URL
+                        - generic [ref=e580]: Configure the default redirect URL used when a redirect URL is not specified or doesn't match one from the allow list. This value is also exposed as a template variable in the email templates section. Wildcards cannot be used here.
+                    - generic [ref=e581]:
+                      - button "Save changes" [disabled]:
+                        - generic: Save changes
+                - generic [ref=e582]:
+                  - generic [ref=e584]:
+                    - generic [ref=e585]:
+                      - heading "Redirect URLs" [level=2] [ref=e586]
+                      - generic [ref=e587]: URLs that auth providers are permitted to redirect to post authentication. Wildcards are allowed, for example, https://*.domain.com
+                    - link "Docs" [ref=e589] [cursor=pointer]:
+                      - /url: https://supabase.com/docs/guides/auth/concepts/redirect-urls
+                      - img [ref=e591]
+                      - generic [ref=e594]: Docs
+                  - generic [ref=e596]:
+                    - button "Add URL" [ref=e675] [cursor=pointer]:
+                      - generic [ref=e599]: Add URL
+                    - generic [ref=e677] [cursor=pointer]:
+                      - checkbox [ref=e679]
+                      - img [ref=e680]
+                      - generic [ref=e683]: http://localhost:3000/auth/callback
+                    - paragraph [ref=e685]: "Total URLs: 1"
+      - generic [ref=e611]:
+        - generic:
+          - img "Background pattern"
+        - generic [ref=e612]:
+          - button "Close banner" [ref=e614] [cursor=pointer]:
+            - img [ref=e616]
+          - generic [ref=e619]:
+            - generic [ref=e620]: Notice
+            - generic [ref=e621]:
+              - paragraph [ref=e622]: We've updated our Terms of Service
+              - paragraph [ref=e623]: Updates define the responsibilities of both you and Supabase in the use of AI.
+            - button "Learn more" [ref=e624] [cursor=pointer]:
+              - generic [ref=e625]: Learn more
+    - region "Notifications alt+T":
+      - list:
+        - status [ref=e686]:
+          - button "Close toast" [ref=e687] [cursor=pointer]:
+            - img [ref=e688]
+          - img [ref=e692]
+          - generic [ref=e695]: Successfully added 1 URL
+  - alert [ref=e223]: URL Configuration | Authentication | Supabase
