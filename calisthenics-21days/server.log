@@ -48,3 +48,8 @@
  GET / 200 in 178ms (next.js: 8ms, proxy.ts: 9ms, application-code: 161ms)
  GET /auth 200 in 329ms (next.js: 115ms, proxy.ts: 10ms, application-code: 204ms)
  GET /auth/profile 200 in 121ms (next.js: 62ms, proxy.ts: 3ms, application-code: 55ms)
+ GET / 200 in 80ms (next.js: 8ms, proxy.ts: 6ms, application-code: 66ms)
+✓ Compiled in 165ms
+ GET / 200 in 269ms (next.js: 92ms, proxy.ts: 50ms, application-code: 127ms)
+ GET / 200 in 66ms (next.js: 8ms, proxy.ts: 25ms, application-code: 33ms)
+ GET / 200 in 142ms (next.js: 4ms, proxy.ts: 4ms, application-code: 134ms)
