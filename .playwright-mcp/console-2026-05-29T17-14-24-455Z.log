@@ -31,3 +31,10 @@
 [   74084ms] [LOG] ✅ Usuário autenticado, verificando perfil... @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
 [   74776ms] [LOG] 📝 Perfil encontrado: sim @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
 [   74776ms] [LOG] ➡️ Redirecionando para dashboard... @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  334300ms] [LOG] 🔐 Tentando login para: gabriel.desouza9@hotmail.com @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  334302ms] [LOG] 🔑 Tentando signin... @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  334583ms] [LOG] ✅ Login bem-sucedido! @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  336276ms] [LOG] 📋 Session after refresh: gabriel.desouza9@hotmail.com @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  336276ms] [LOG] ✅ Usuário autenticado, verificando perfil... @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  337736ms] [LOG] 📝 Perfil encontrado: sim @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  337736ms] [LOG] ➡️ Redirecionando para dashboard... @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
