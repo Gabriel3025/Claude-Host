@@ -87,6 +87,26 @@ export function useProgressSync() {
     }
   };
 
+  const undoDay = async (dayNumber: number) => {
+    const updated = new Set(completedDays);
+    updated.delete(dayNumber);
+    setCompletedDays(updated);
+
+    localStorage.setItem(PROGRESS_KEY, JSON.stringify(Array.from(updated)));
+
+    if (userId) {
+      try {
+        await supabase
+          .from("progress")
+          .delete()
+          .eq("user_id", userId)
+          .eq("day", dayNumber);
+      } catch (error) {
+        console.error("Error undoing day:", error);
+      }
+    }
+  };
+
   const resetProgress = async () => {
     setCompletedDays(new Set());
     localStorage.removeItem(PROGRESS_KEY);
@@ -103,6 +123,7 @@ export function useProgressSync() {
   return {
     completedDays,
     completeDay,
+    undoDay,
     resetProgress,
     isLoaded,
   };

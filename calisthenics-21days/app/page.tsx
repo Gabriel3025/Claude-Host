@@ -9,7 +9,7 @@ import { EXERCISES_DATA } from "@/lib/exercises";
 import { useProgressSync } from "@/lib/useProgressSync";
 
 export default function Home() {
-  const { completedDays, resetProgress, isLoaded } = useProgressSync();
+  const { completedDays, undoDay, resetProgress, isLoaded } = useProgressSync();
   const [user, setUser] = useState<any>(null);
   const router = useRouter();
 
@@ -103,6 +103,7 @@ export default function Home() {
               dayNumber={day.dayNumber}
               isCompleted={completedDays.has(day.dayNumber)}
               isCurrent={currentDay === day.dayNumber}
+              onUndo={undoDay}
             />
           ))}
         </div>
