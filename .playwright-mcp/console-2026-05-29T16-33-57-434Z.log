@@ -1,0 +1,22 @@
+[     145ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[     325ms] [LOG] [Fast Refresh] done in 285ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[     432ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[     487ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   15181ms] [LOG] Auth attempt: {email: gabriel.desouza9@hotmail.com, password: Aa12ae0f...} @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   15827ms] [ERROR] Failed to load resource: the server responded with a status of 422 () @ https://zgetngxwievfhcgtfnhx.supabase.co/auth/v1/signup:0
+[   16090ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://zgetngxwievfhcgtfnhx.supabase.co/auth/v1/token?grant_type=password:0
+[   16091ms] [ERROR] Signin failed: Invalid login credentials @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:3318
+[   16092ms] [ERROR] Auth error: Invalid login credentials @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:3318
+[   16211ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   16211ms] [LOG] [Fast Refresh] done in 104ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   75512ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/chunks/supabase.js:0
+[  108913ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  108989ms] [LOG] [Fast Refresh] done in 163ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  109099ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  109154ms] [LOG] [Fast Refresh] done in 160ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  141173ms] [LOG] Login attempt for: gabriel.desouza9+calisthenics@hotmail.com @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  142296ms] [LOG] Login successful @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  142423ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  142432ms] [LOG] [Fast Refresh] done in 108ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  152792ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/user_progress?select=completed_days&user_id=eq.ddfb17e3-6c2e-4ff9-b354-1e8f81efe475:0
+[  152966ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/user_progress?select=completed_days&user_id=eq.ddfb17e3-6c2e-4ff9-b354-1e8f81efe475:0

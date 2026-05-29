@@ -1,0 +1,26 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 🥋
+      - heading "Desafio 21 Dias" [level=1] [ref=e7]
+      - paragraph [ref=e8]: Calistenia Asiática
+    - paragraph [ref=e9]: Insira seu email para começar o desafio
+    - generic [ref=e10]:
+      - textbox "seu@email.com" [ref=e12]: gabriel.desouza9@hotmail.com
+      - paragraph [ref=e27]: Invalid login credentials
+      - button "Continuar com Email" [ref=e13]
+    - paragraph [ref=e15]: 💪 Força, Determinação e Consistência
+  - generic [ref=e20] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e21]:
+      - img [ref=e22]
+    - generic [ref=e28]:
+      - button "Open issues overlay" [ref=e29]:
+        - generic [ref=e30]:
+          - generic [ref=e31]: "1"
+          - generic [ref=e32]: "2"
+        - generic [ref=e33]:
+          - text: Issue
+          - generic [ref=e34]: s
+      - button "Collapse issues badge" [ref=e35]:
+        - img [ref=e36]
+  - alert [ref=e25]

@@ -39,46 +39,49 @@ export function useAuth() {
 
   const loginWithEmail = async (email: string) => {
     try {
-      // Create deterministic password from email
+      // Create deterministic password using a fixed salt
+      // This ensures the same password is generated every time for the same email
       const encoder = new TextEncoder();
-      const data = encoder.encode(email + "calisthenics21");
+
+      // Use email + a fixed salt to ensure deterministic results
+      const saltedEmail = email + "|calisthenics-21days-fixed-salt";
+      const data = encoder.encode(saltedEmail);
       const hashBuffer = await crypto.subtle.digest("SHA-256", data);
       const hashArray = Array.from(new Uint8Array(hashBuffer));
       const hashHex = hashArray.map(b => b.toString(16).padStart(2, "0")).join("");
 
-      // Create strong password: Uppercase + Lowercase + Numbers + Special chars
-      const password = "Cal" + hashHex.substring(0, 25) + "!#$";
+      // Create password: uppercase + lowercase + numbers + first 20 hex chars
+      // Pattern: Cap + lowercase + number + 20 hex = Aa1 + 20 chars = 23 chars total
+      const password = "Pass1" + hashHex.substring(0, 18);
 
-      console.log("Attempting signup with:", { email, password: password.substring(0, 10) + "..." });
+      console.log("Login attempt for:", email);
 
       // Try signup first
       const { error: signupError } = await supabase.auth.signUp({
         email,
         password,
-        options: {
-          emailRedirectTo: undefined,
-        },
+        options: { emailRedirectTo: undefined },
       });
 
-      if (signupError && signupError.message !== "User already registered") {
-        console.error("Signup error:", signupError);
+      if (signupError) {
+        console.log("Signup result:", signupError.message);
       }
 
-      // Now try signin (works for both new and existing users)
+      // Always try signin
       const { error: signinError, data: signinData } = await supabase.auth.signInWithPassword({
         email,
         password,
       });
 
-      console.log("Signin result:", { signinError, hasSession: !!signinData?.session });
-
       if (signinError) {
+        console.error("Signin error:", signinError);
         throw signinError;
       }
 
+      console.log("Login successful");
       return { success: true };
     } catch (error: any) {
-      console.error("Login error details:", error);
+      console.error("Auth error:", error);
       return { success: false, error: error.message || "Erro ao fazer login" };
     }
   };
