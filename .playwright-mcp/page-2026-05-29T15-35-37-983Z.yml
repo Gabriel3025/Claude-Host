@@ -1,0 +1,263 @@
+- generic [ref=e1]:
+  - generic [ref=e148]:
+    - generic [ref=e367]:
+      - banner [ref=e369]:
+        - generic [ref=e370]:
+          - generic [ref=e371]:
+            - link "Supabase" [ref=e372] [cursor=pointer]:
+              - /url: /dashboard/org/dreelmauwsthnbpazhwy
+              - img "Supabase" [ref=e373]
+            - generic [ref=e374]:
+              - img [ref=e376]
+              - generic [ref=e378]:
+                - link "Gabriel3025's Org Free" [ref=e379] [cursor=pointer]:
+                  - /url: /dashboard/org/dreelmauwsthnbpazhwy
+                  - img [ref=e380]
+                  - generic [ref=e390]: Gabriel3025's Org
+                  - generic [ref=e391]: Free
+                - button [ref=e392] [cursor=pointer]:
+                  - img [ref=e394]
+              - generic [ref=e397]:
+                - img [ref=e399]
+                - generic [ref=e401]:
+                  - link "Gabriel3025's Project" [ref=e402] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                    - img [ref=e403]
+                    - generic "Gabriel3025's Project" [ref=e406]
+                  - button [ref=e407] [cursor=pointer]:
+                    - img [ref=e409]
+                - img [ref=e413]
+                - generic [ref=e415]:
+                  - link "main Production" [ref=e416] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                    - generic "main" [ref=e417]
+                    - generic [ref=e418]: Production
+                  - button [ref=e419] [cursor=pointer]:
+                    - img [ref=e421]
+            - button "Connect" [ref=e425] [cursor=pointer]:
+              - img [ref=e427]
+              - generic [ref=e429]: Connect
+          - generic [ref=e430]:
+            - generic [ref=e432] [cursor=pointer]: Feedback
+            - generic [ref=e433]:
+              - button "Search..." [ref=e434]:
+                - generic [ref=e435]:
+                  - img [ref=e436]
+                  - paragraph [ref=e439]: Search...
+                - generic [ref=e441]: Ctrl K
+              - button "Help" [ref=e1728] [cursor=pointer]:
+                - generic [ref=e443]:
+                  - img [ref=e444]
+                  - generic [ref=e447]: Help
+              - button "Advisor Center" [ref=e1729] [cursor=pointer]:
+                - generic [ref=e450]:
+                  - img [ref=e451]
+                  - generic [ref=e453]: Advisor Center
+              - button "SQL Editor" [ref=e1730] [cursor=pointer]:
+                - generic [ref=e455]:
+                  - img [ref=e456]
+                  - generic [ref=e458]: SQL Editor
+              - button "AI Assistant" [ref=e1731] [cursor=pointer]:
+                - generic [ref=e460]:
+                  - img [ref=e463]
+                  - generic [ref=e466]: AI Assistant
+            - button "Gabriel3025" [ref=e1732] [cursor=pointer]:
+              - img "Gabriel3025" [ref=e1733]
+      - generic [ref=e470]:
+        - generic [ref=e474]:
+          - list [ref=e477]:
+            - generic [ref=e478]:
+              - listitem [ref=e479]:
+                - link "Project Overview" [ref=e480] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                  - img [ref=e481]
+                  - generic: Project Overview
+              - listitem [ref=e483]:
+                - link "Table Editor" [ref=e484] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/editor
+                  - img [ref=e485]
+                  - generic: Table Editor
+              - listitem [ref=e487]:
+                - link "SQL Editor" [ref=e488] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/sql
+                  - img [ref=e489]
+                  - generic: SQL Editor
+            - generic [ref=e491]:
+              - listitem [ref=e492]:
+                - link "Database" [ref=e493] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/database/schemas
+                  - img [ref=e494]
+                  - generic: Database
+              - listitem [ref=e498]:
+                - link "Authentication" [ref=e499] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/users
+                  - img [ref=e500]
+                  - generic: Authentication
+              - listitem [ref=e502]:
+                - link "Storage" [ref=e503] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/storage/files
+                  - img [ref=e504]
+                  - generic: Storage
+              - listitem [ref=e506]:
+                - link "Edge Functions" [ref=e507] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/functions
+                  - img [ref=e508]
+                  - generic: Edge Functions
+              - listitem [ref=e513]:
+                - link "Realtime" [ref=e514] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/realtime/inspector
+                  - img [ref=e515]
+                  - generic: Realtime
+            - generic [ref=e517]:
+              - listitem [ref=e519]:
+                - link "Advisors" [ref=e520] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/advisors/security
+                  - img [ref=e521]
+                  - generic: Advisors
+              - listitem [ref=e523]:
+                - link "Observability" [ref=e524] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/observability
+                  - img [ref=e525]
+                  - generic: Observability
+              - listitem [ref=e533]:
+                - link "Logs" [ref=e534] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/logs/explorer
+                  - img [ref=e535]
+                  - generic: Logs
+              - listitem [ref=e536]:
+                - link "Integrations" [ref=e537] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/integrations
+                  - img [ref=e538]
+                  - generic: Integrations
+            - listitem [ref=e542]:
+              - link "Project Settings" [ref=e543] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/general
+                - img [ref=e544]
+                - generic: Project Settings
+          - button "Sidebar control" [ref=e549] [cursor=pointer]:
+            - img [ref=e551]
+        - generic [ref=e1364]:
+          - generic [ref=e1368]:
+            - heading "Table Editor" [level=4] [ref=e1370]
+            - generic [ref=e1372]:
+              - generic [ref=e1373]:
+                - button "schema public" [ref=e1375] [cursor=pointer]:
+                  - generic [ref=e1377]:
+                    - paragraph [ref=e1378]: schema
+                    - paragraph [ref=e1379]: public
+                  - img [ref=e1381]
+                - button "New table" [ref=e1734] [cursor=pointer]:
+                  - img [ref=e1387]
+                  - generic [ref=e1388]: New table
+              - generic [ref=e1389]:
+                - generic [ref=e1390]:
+                  - generic [ref=e1391]:
+                    - generic [ref=e1392]: Search tables
+                    - textbox "Search tables..." [ref=e1393]
+                    - button [ref=e1394]:
+                      - img [ref=e1395]
+                    - img [ref=e1398]
+                  - button [ref=e1401] [cursor=pointer]:
+                    - img [ref=e1403]
+                - button "View users" [ref=e1738] [cursor=pointer]:
+                  - button [ref=e1740]:
+                    - img [ref=e1741]
+                  - generic [ref=e1743]:
+                    - generic [ref=e1744]: users
+                    - button "Table exposed via Data API" [ref=e1745]:
+                      - img [ref=e1746]
+                  - button [ref=e1749]:
+                    - img [ref=e1751]
+          - separator [ref=e1409]:
+            - img [ref=e1411]
+          - main [ref=e1420]:
+            - generic [ref=e1421]:
+              - generic [ref=e1422]:
+                - generic [ref=e1755]:
+                  - button "Collapse sidebar" [ref=e1756]:
+                    - img [ref=e1757]
+                    - generic [ref=e1760]: Collapse sidebar
+                  - tablist [ref=e1761]:
+                    - button "users" [ref=e1763]:
+                      - tab "users" [selected] [ref=e1764]:
+                        - img [ref=e1765]
+                        - generic [ref=e1768]: users
+                        - button [ref=e1769] [cursor=pointer]:
+                          - img [ref=e1770]
+                      - separator [ref=e1774]
+                    - button [ref=e1775]:
+                      - img [ref=e1776]
+                - status [ref=e1778]
+              - generic [ref=e1780]:
+                - generic [ref=e1910]:
+                  - paragraph [ref=e1911]:
+                    - text: SQL Definition of
+                    - code [ref=e1912]: users
+                  - paragraph [ref=e1913]: (Read only)
+                - generic [ref=e1914]:
+                  - link "Open in SQL Editor" [ref=e1915] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/sql/new?content=create%20table%20public.users%20(%0A%20%20id%20bigint%20generated%20by%20default%20as%20identity%20not%20null%2C%0A%20%20created_at%20timestamp%20with%20time%20zone%20not%20null%20default%20now()%2C%0A%20%20constraint%20users_pkey%20primary%20key%20(id)%0A)%20TABLESPACE%20pg_default%3B
+                    - generic [ref=e1916]: Open in SQL Editor
+                  - code [ref=e1919]:
+                    - generic [ref=e1920]:
+                      - generic [ref=e1922]:
+                        - generic [ref=e1923]:
+                          - generic [ref=e1925] [cursor=pointer]: 
+                          - generic [ref=e1926]: "1"
+                        - generic [ref=e1928]: "2"
+                        - generic [ref=e1930]: "3"
+                        - generic [ref=e1932]: "4"
+                        - generic [ref=e1934]: "5"
+                      - generic [ref=e1947]:
+                        - generic [ref=e1949]: create table public.users (
+                        - generic [ref=e1951]: id bigint generated by default as identity not null,
+                        - generic [ref=e1953]: created_at timestamp with time zone not null default now(),
+                        - generic [ref=e1955]: constraint users_pkey primary key (id)
+                        - generic [ref=e1957]: ) TABLESPACE pg_default;
+                      - textbox "Editor content" [active] [ref=e1960]: create table public.users ( id bigint generated by default as identity not null, created_at timestamp with time zone not null default now(), constraint users_pkey primary key (id) ) TABLESPACE pg_default;
+                - generic "Table grid footer" [ref=e1961]:
+                  - generic [ref=e1963]:
+                    - generic [ref=e1966] [cursor=pointer]: definition
+                    - generic [ref=e1968] [cursor=pointer]: data
+    - generic [ref=e895]:
+      - generic [ref=e897]:
+        - generic:
+          - img "Background pattern"
+        - generic [ref=e898]:
+          - button "Close banner" [ref=e900] [cursor=pointer]:
+            - img [ref=e902]
+          - generic [ref=e905]:
+            - generic [ref=e906]: Notice
+            - generic [ref=e907]:
+              - paragraph [ref=e908]: We've updated our Terms of Service
+              - paragraph [ref=e909]: Updates define the responsibilities of both you and Supabase in the use of AI.
+            - button "Learn more" [ref=e910] [cursor=pointer]:
+              - generic [ref=e911]: Learn more
+      - generic [ref=e1450]:
+        - generic:
+          - img "Background pattern"
+        - generic [ref=e1451]:
+          - button "Close banner" [ref=e1453] [cursor=pointer]:
+            - img [ref=e1455]
+          - generic [ref=e1458]:
+            - generic [ref=e1459]:
+              - generic [ref=e1460]: New
+              - generic [ref=e1461]:
+                - generic [ref=e1464]: name·where id = 10
+                - generic [ref=e1465]:
+                  - generic [ref=e1466]:
+                    - generic [ref=e1467]: "-"
+                    - generic [ref=e1468]: Red
+                  - generic [ref=e1469]:
+                    - generic [ref=e1470]: +
+                    - generic [ref=e1471]: Blue
+            - generic [ref=e1472]:
+              - paragraph [ref=e1473]: Queue row edits in Table Editor
+              - paragraph [ref=e1474]: Batch multiple row edits and review them before saving to your database
+            - link "Enable in preferences" [ref=e1475] [cursor=pointer]:
+              - /url: /dashboard/account/me#dashboard
+              - generic [ref=e1476]: Enable in preferences
+  - alert [ref=e83]: users | Table Editor | Gabriel3025's Project | Gabriel3025's Org | Supabase
+  - generic [ref=e1969]:
+    - alert
+    - alert

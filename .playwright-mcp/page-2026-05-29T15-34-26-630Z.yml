@@ -1,0 +1,417 @@
+- generic:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - banner:
+            - generic:
+              - generic:
+                - link:
+                  - /url: /dashboard/org/dreelmauwsthnbpazhwy
+                  - img
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - link:
+                      - /url: /dashboard/org/dreelmauwsthnbpazhwy
+                      - img
+                      - generic: Gabriel3025's Org
+                      - generic: Free
+                    - button:
+                      - generic:
+                        - img
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - link:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                        - img
+                        - generic: Gabriel3025's Project
+                      - button:
+                        - generic:
+                          - img
+                    - generic:
+                      - img
+                    - generic:
+                      - link:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                        - generic: main
+                        - generic: Production
+                      - button:
+                        - generic:
+                          - img
+                - generic:
+                  - button:
+                    - generic:
+                      - img
+                    - generic: Connect
+              - generic:
+                - generic:
+                  - generic: Feedback
+                - generic:
+                  - button:
+                    - generic:
+                      - img
+                      - paragraph: Search...
+                    - generic:
+                      - generic: Ctrl K
+                  - button [ref=e1477] [cursor=pointer]:
+                    - generic [ref=e443]:
+                      - img [ref=e444]
+                      - generic [ref=e447]: Help
+                  - button [ref=e1478] [cursor=pointer]:
+                    - generic [ref=e450]:
+                      - img [ref=e451]
+                      - generic [ref=e453]: Advisor Center
+                  - button [ref=e1479] [cursor=pointer]:
+                    - generic [ref=e455]:
+                      - img [ref=e456]
+                      - generic [ref=e458]: SQL Editor
+                  - button [ref=e1480] [cursor=pointer]:
+                    - generic [ref=e460]:
+                      - img [ref=e463]
+                      - generic [ref=e466]: AI Assistant
+                - button [ref=e1481] [cursor=pointer]:
+                  - img [ref=e1482]
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - list:
+                      - generic:
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/editor
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/sql
+                            - img
+                      - generic:
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/database/schemas
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/users
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/storage/files
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/functions
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/realtime/inspector
+                            - img
+                      - generic:
+                        - generic:
+                          - listitem:
+                            - link:
+                              - /url: /dashboard/project/zgetngxwievfhcgtfnhx/advisors/security
+                              - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/observability
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/logs/explorer
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/integrations
+                            - img
+                      - generic:
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/general
+                            - img
+                - generic:
+                  - generic:
+                    - button:
+                      - generic:
+                        - img
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - heading [level=4]: Table Editor
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - button:
+                                        - generic:
+                                          - generic:
+                                            - paragraph: schema
+                                            - paragraph: public
+                                        - generic:
+                                          - img
+                                    - button [ref=e1483] [cursor=pointer]:
+                                      - img [ref=e1387]
+                                      - generic [ref=e1388]: New table
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: Search tables
+                                        - textbox:
+                                          - /placeholder: Search tables...
+                                        - button:
+                                          - img
+                                        - img
+                                      - button:
+                                        - generic:
+                                          - img
+                                    - generic:
+                                      - generic:
+                                        - paragraph: No tables or views
+                                        - paragraph: Any tables or views you create will be listed here.
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - img
+                                            - generic:
+                                              - generic:
+                                                - img
+                                                - text: postgres_table_0
+                                            - generic:
+                                              - generic:
+                                                - img
+                                                - text: postgres_table_1
+                                            - generic:
+                                              - generic:
+                                                - img
+                                                - text: postgres_table_2
+                                            - generic:
+                                              - generic:
+                                                - img
+                                                - text: postgres_table_3
+                      - separator:
+                        - generic:
+                          - img
+                      - generic:
+                        - generic:
+                          - main:
+                            - generic:
+                              - generic:
+                                - button:
+                                  - img
+                                  - generic: Collapse sidebar
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - img
+                                          - generic:
+                                            - heading [level=3]: Create a table
+                                            - paragraph: Design and create a new database table
+                                    - generic:
+                                      - heading [level=2]: Recent items
+                                      - generic:
+                                        - generic:
+                                          - img
+                                          - generic:
+                                            - paragraph: No recent items yet
+                                            - paragraph: Items will appear here as you browse through your project
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - button:
+                    - generic:
+                      - img
+                - generic:
+                  - generic: Notice
+                  - generic:
+                    - paragraph: We've updated our Terms of Service
+                    - paragraph: Updates define the responsibilities of both you and Supabase in the use of AI.
+                  - button:
+                    - generic: Learn more
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic:
+                  - button:
+                    - generic:
+                      - img
+                - generic:
+                  - generic:
+                    - generic: New
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: name·where id = 10
+                      - generic:
+                        - generic:
+                          - generic: "-"
+                          - generic: Red
+                        - generic:
+                          - generic: +
+                          - generic: Blue
+                  - generic:
+                    - paragraph: Queue row edits in Table Editor
+                    - paragraph: Batch multiple row edits and review them before saving to your database
+                  - link:
+                    - /url: /dashboard/account/me#dashboard
+                    - generic: Enable in preferences
+  - generic:
+    - alert: Table Editor | Gabriel3025's Project | Gabriel3025's Org | Supabase
+  - dialog [ref=e1485]:
+    - banner [ref=e1486]:
+      - generic [ref=e1487]:
+        - text: Create a new table under
+        - code [ref=e1488]: public
+    - generic [ref=e1489]:
+      - generic [ref=e1490]:
+        - generic [ref=e1492]:
+          - generic [ref=e1495]: Name
+          - textbox "Name" [active] [ref=e1498]
+        - generic [ref=e1500]:
+          - generic [ref=e1503]: Description
+          - textbox "Description" [ref=e1506]:
+            - /placeholder: Optional
+      - generic [ref=e1508]:
+        - generic [ref=e1509]:
+          - checkbox "Enable Row Level Security (RLS) Recommended" [checked] [ref=e1510]:
+            - generic:
+              - img
+          - generic [ref=e1511]:
+            - generic [ref=e1512]:
+              - generic [ref=e1513]: Enable Row Level Security (RLS)
+              - generic [ref=e1514]: Recommended
+            - paragraph [ref=e1515]: Restrict access to your table by enabling RLS and writing Postgres policies.
+        - alert [ref=e1516]:
+          - img [ref=e1517]
+          - generic [ref=e1520]:
+            - heading "Policies are required to query data" [level=5] [ref=e1521]
+            - generic [ref=e1522]: You need to create an access policy before you can query data from this table. Without a policy, querying this table will return an empty array of results. You can create policies after saving this table.
+            - link "Documentation" [ref=e1524] [cursor=pointer]:
+              - /url: https://supabase.com/docs/guides/auth/row-level-security
+              - img [ref=e1526]
+              - generic [ref=e1529]: Documentation
+        - generic [ref=e1530]:
+          - checkbox "Enable Realtime" [ref=e1531]
+          - generic [ref=e1532]:
+            - generic [ref=e1533]: Enable Realtime
+            - paragraph [ref=e1534]: Broadcast changes on this table to authorized subscribers.
+      - generic [ref=e1537]:
+        - generic [ref=e1538]:
+          - heading "Columns" [level=5] [ref=e1539]
+          - generic [ref=e1540]:
+            - link "About data types" [ref=e1541] [cursor=pointer]:
+              - /url: https://supabase.com/docs/guides/database/tables#data-types
+              - img [ref=e1543]
+              - generic [ref=e1547]: About data types
+            - button "Import data from CSV" [ref=e1549] [cursor=pointer]:
+              - generic [ref=e1550]: Import data from CSV
+        - generic [ref=e1551]:
+          - generic [ref=e1552]:
+            - generic [ref=e1554]:
+              - heading "Name" [level=5] [ref=e1555]
+              - button [ref=e1556]:
+                - img [ref=e1557]
+            - heading "Type" [level=5] [ref=e1561]
+            - generic [ref=e1562]:
+              - heading "Default Value" [level=5] [ref=e1563]
+              - button [ref=e1564]:
+                - img [ref=e1565]
+            - heading "Primary" [level=5] [ref=e1569]
+          - generic [ref=e1573]:
+            - button [ref=e1575]:
+              - img [ref=e1576]
+            - generic [ref=e1584]:
+              - textbox "Column name" [ref=e1585]:
+                - /placeholder: column_name
+                - text: id
+              - button [ref=e1586] [cursor=pointer]:
+                - img [ref=e1588]
+            - combobox "int8" [ref=e1594] [cursor=pointer]:
+              - generic [ref=e1596]:
+                - img [ref=e1598]
+                - generic [ref=e1601]: int8
+              - img [ref=e1603]
+            - group [ref=e1613]:
+              - textbox "Column default value" [disabled] [ref=e1614]:
+                - /placeholder: "NULL"
+            - checkbox "Check to make this column a primary key" [checked] [ref=e1616]:
+              - generic:
+                - img
+            - button "1" [ref=e1618]:
+              - generic [ref=e1619]: "1"
+              - img [ref=e1621]
+            - button [ref=e1625] [cursor=pointer]:
+              - img [ref=e1626]
+          - status [ref=e1629]
+          - generic [ref=e1631]:
+            - button [ref=e1633]:
+              - img [ref=e1634]
+            - generic [ref=e1642]:
+              - textbox "Column name" [ref=e1643]:
+                - /placeholder: column_name
+                - text: created_at
+              - button [ref=e1644] [cursor=pointer]:
+                - img [ref=e1646]
+            - combobox "timestamptz" [ref=e1652] [cursor=pointer]:
+              - generic [ref=e1654]:
+                - img [ref=e1656]
+                - generic [ref=e1658]: timestamptz
+              - img [ref=e1660]
+            - group [ref=e1670]:
+              - textbox "Column default value" [ref=e1671]:
+                - /placeholder: "NULL"
+                - text: now()
+              - group [ref=e1672]:
+                - button [ref=e1673] [cursor=pointer]:
+                  - img [ref=e1675]
+            - checkbox "Check to make this column a primary key" [ref=e1677]
+            - button [ref=e1679]:
+              - img [ref=e1681]
+            - button [ref=e1685] [cursor=pointer]:
+              - img [ref=e1686]
+          - status [ref=e1689]
+        - button "Add column" [ref=e1691] [cursor=pointer]:
+          - generic [ref=e1692]: Add column
+      - generic [ref=e1695]:
+        - heading "Foreign keys" [level=5] [ref=e1696]
+        - button "Add foreign key relation" [ref=e1698] [cursor=pointer]:
+          - generic [ref=e1699]: Add foreign key relation
+      - generic [ref=e1704]:
+        - generic [ref=e1705]:
+          - heading "Data API Access" [level=5] [ref=e1706]
+          - paragraph [ref=e1707]: Allow this table to be queried via Supabase client libraries or the API directly
+        - switch [checked] [ref=e1708] [cursor=pointer]
+    - generic [ref=e1710]:
+      - button "Cancel" [ref=e1711] [cursor=pointer]:
+        - generic [ref=e1712]: Cancel
+      - button "Save Ctrl ↵" [ref=e1713] [cursor=pointer]:
+        - generic [ref=e1714]: Save
+        - generic [ref=e1716]: Ctrl ↵
