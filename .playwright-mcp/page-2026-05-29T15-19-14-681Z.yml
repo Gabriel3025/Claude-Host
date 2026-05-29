@@ -1,0 +1,48 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e11] [cursor=pointer]:
+    - img [ref=e12]
+  - alert [ref=e185]
+  - generic [ref=e186]:
+    - generic [ref=e188]:
+      - button "← Voltar" [ref=e189]
+      - generic [ref=e190]:
+        - heading "Dia 1" [level=1] [ref=e191]
+        - paragraph [ref=e192]: ~15 minutos de treino
+      - generic [ref=e193]: 🔄
+    - generic [ref=e194]:
+      - generic [ref=e196]:
+        - generic [ref=e197]: Exercício 2 de 3
+        - generic [ref=e198]: 67%
+      - generic [ref=e201]:
+        - generic [ref=e202]:
+          - img "Flexões" [ref=e238]
+          - generic [ref=e205]:
+            - heading "Flexões" [level=3] [ref=e239]
+            - paragraph [ref=e207]: 3x10
+            - paragraph [ref=e208]: 3x10 repetições. Mantenha o corpo reto da cabeça até os pés.
+        - generic [ref=e209]:
+          - generic [ref=e210]:
+            - generic [ref=e211]: Série 1/3
+            - paragraph [ref=e212]: "10 repetições • Descanso: 60s"
+          - button "✓ Série 1 Completa" [ref=e240]
+      - generic [ref=e215]:
+        - heading "Exercícios do Dia" [level=3] [ref=e216]
+        - generic [ref=e217]:
+          - button "✅ Aquecimento - Círculos com Braços 2x30 • 30s descanso" [ref=e241]:
+            - generic [ref=e219]:
+              - generic [ref=e220]: ✅
+              - generic [ref=e221]:
+                - paragraph [ref=e222]: Aquecimento - Círculos com Braços
+                - paragraph [ref=e223]: 2x30 • 30s descanso
+          - button "▶ Flexões 3x10 • 60s descanso" [ref=e242]:
+            - generic [ref=e225]:
+              - generic [ref=e226]: ▶
+              - generic [ref=e227]:
+                - paragraph [ref=e228]: Flexões
+                - paragraph [ref=e229]: 3x10 • 60s descanso
+          - button "○ Agachamentos 3x15 • 60s descanso" [ref=e230]:
+            - generic [ref=e231]:
+              - generic [ref=e232]: ○
+              - generic [ref=e233]:
+                - paragraph [ref=e234]: Agachamentos
+                - paragraph [ref=e235]: 3x15 • 60s descanso
