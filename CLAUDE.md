@@ -231,6 +231,18 @@ Ative pelo atalho do squad ou diretamente pelo nome do agente especialista.
 
 Para sair de qualquer persona: `*exit`
 
+## Conferência de Ofertas — Automação Obrigatória
+
+**IMPORTANTE:** Sempre que o usuário solicitar "conferência de ofertas" (ou variações como "confira ofertas", "fazer a conferência", "rotina de ofertas"), você DEVE:
+
+1. **Ler automaticamente:** `C:\Users\Administrador.LAURAFERREIRA\.claude\projects\c--Users-Administrador-LAURAFERREIRA-Downloads-Claude--Host-\memory\conferencia_ofertas_sop.md`
+2. **Aplicar:** O SOP completo com os 4 passos + checklist anti-erro PRÉ-GRAVAÇÃO
+3. **Verificar:** Antes de gravar qualquer dado, sempre validar que `sheetRow = rowIdx + 1` (não +2)
+
+**Erro crítico (29/05/2026):** rowIdx é 0-based. Isso foi corrigido, mas SEMPRE validar antes de escrever.
+
+---
+
 ## Notas
 
 Não há código-fonte, scripts de build, testes automatizados ou dependências neste diretório. Atualmente contém:
