@@ -78,8 +78,9 @@ function getColunaDIA(dia, sheetType) {
 }
 
 // Preparar dados para gravação
+// rowIdx é 0-based (rowIdx 1 = linha 2 do Google Sheets)
 const acompanhamentoData = resultados.map(r => {
-  const sheetRow = r.rowIdx + 2;
+  const sheetRow = r.rowIdx + 1;
   const coluna = getColunaDIA(r.dia, 'acompanhamento');
   return {
     range: `${coluna}${sheetRow}`,
@@ -89,7 +90,7 @@ const acompanhamentoData = resultados.map(r => {
 });
 
 const radarData = resultados.map(r => {
-  const sheetRow = r.rowIdx + 2;
+  const sheetRow = r.rowIdx + 1;
   const coluna = getColunaDIA(r.dia, 'radar');
   return {
     range: `${coluna}${sheetRow}`,

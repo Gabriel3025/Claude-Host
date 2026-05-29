@@ -1,7 +1,7 @@
 "use client";
 
 import { Exercise } from "@/lib/exercises";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 interface ExerciseCardProps {
   exercise: Exercise;
@@ -10,29 +10,23 @@ interface ExerciseCardProps {
 }
 
 export function ExerciseCard({ exercise, isActive, onComplete }: ExerciseCardProps) {
-  const [timeLeft, setTimeLeft] = useState(exercise.duration * 60);
-  const [isRunning, setIsRunning] = useState(false);
+  const [completedSets, setCompletedSets] = useState(0);
 
-  useEffect(() => {
-    let interval: NodeJS.Timeout;
+  const allSetsCompleted = completedSets >= exercise.sets;
 
-    if (isRunning && timeLeft > 0) {
-      interval = setInterval(() => {
-        setTimeLeft((prev) => {
-          if (prev <= 1) {
-            setIsRunning(false);
-            return 0;
-          }
-          return prev - 1;
-        });
-      }, 1000);
+  const handleCompleteSet = () => {
+    const newCompleted = completedSets + 1;
+    if (newCompleted < exercise.sets) {
+      setCompletedSets(newCompleted);
+    } else {
+      setCompletedSets(newCompleted);
     }
+  };
 
-    return () => clearInterval(interval);
-  }, [isRunning, timeLeft]);
-
-  const minutes = Math.floor(timeLeft / 60);
-  const seconds = timeLeft % 60;
+  const handleNext = () => {
+    setCompletedSets(0);
+    onComplete();
+  };
 
   return (
     <div
@@ -54,34 +48,52 @@ export function ExerciseCard({ exercise, isActive, onComplete }: ExerciseCardPro
         {/* Exercise Info */}
         <div className="flex-1">
           <h3 className="text-base font-bold text-gray-800">{exercise.name}</h3>
+          <p className="text-sm font-semibold text-orange-600 mt-1">
+            {exercise.sets}x{exercise.reps}
+          </p>
           <p className="text-xs text-gray-600 mt-1 line-clamp-2">{exercise.description}</p>
         </div>
       </div>
 
-      {/* Timer and Controls */}
+      {/* Progress and Controls */}
       <div className="px-4 pb-4">
-        {/* Timer */}
+        {/* Series Progress */}
         <div className="bg-gradient-to-r from-orange-100 to-red-100 rounded-lg p-3 mb-3 text-center border border-orange-200">
-          <div className="text-2xl font-bold text-orange-600">
-            {minutes.toString().padStart(2, "0")}:{seconds.toString().padStart(2, "0")}
-          </div>
-          <p className="text-xs text-gray-600 mt-0.5">Tempo restante</p>
+          {!allSetsCompleted ? (
+            <>
+              <div className="text-2xl font-bold text-orange-600">
+                Série {completedSets + 1}/{exercise.sets}
+              </div>
+              <p className="text-xs text-gray-600 mt-0.5">
+                {exercise.reps} repetições • Descanso: {exercise.restTime}s
+              </p>
+            </>
+          ) : (
+            <>
+              <div className="text-2xl font-bold text-green-600">✓ Completo!</div>
+              <p className="text-xs text-gray-600 mt-0.5">
+                Todas as {exercise.sets} séries realizadas
+              </p>
+            </>
+          )}
         </div>
 
         {/* Controls */}
         <div className="flex gap-2">
-          <button
-            onClick={() => setIsRunning(!isRunning)}
-            className="flex-1 bg-orange-600 hover:bg-orange-700 text-white font-semibold py-2 px-3 rounded-lg transition-colors text-sm"
-          >
-            {isRunning ? "⏸ Pausar" : "▶ Iniciar"}
-          </button>
-          {timeLeft === 0 && (
+          {!allSetsCompleted && (
             <button
-              onClick={onComplete}
+              onClick={handleCompleteSet}
+              className="flex-1 bg-orange-600 hover:bg-orange-700 text-white font-semibold py-2 px-3 rounded-lg transition-colors text-sm"
+            >
+              ✓ Série {completedSets + 1} Completa
+            </button>
+          )}
+          {allSetsCompleted && (
+            <button
+              onClick={handleNext}
               className="flex-1 bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-3 rounded-lg transition-colors text-sm"
             >
-              ✓ Próximo
+              ▶ Próximo Exercício
             </button>
           )}
         </div>

@@ -4,12 +4,11 @@ import Link from "next/link";
 
 interface DayCardProps {
   dayNumber: number;
-  totalDuration: number;
   isCompleted: boolean;
   isCurrent: boolean;
 }
 
-export function DayCard({ dayNumber, totalDuration, isCompleted, isCurrent }: DayCardProps) {
+export function DayCard({ dayNumber, isCompleted, isCurrent }: DayCardProps) {
   return (
     <Link href={`/day/${dayNumber}`}>
       <div
@@ -24,7 +23,9 @@ export function DayCard({ dayNumber, totalDuration, isCompleted, isCurrent }: Da
         <div className="flex items-center justify-between">
           <div>
             <h3 className="text-lg font-bold text-gray-800">Dia {dayNumber}</h3>
-            <p className="text-sm text-gray-600">{totalDuration} minutos</p>
+            <p className="text-sm text-gray-600">
+              {dayNumber === 14 ? "Descanso relativo" : "~15 minutos"}
+            </p>
           </div>
           <div className="text-3xl">
             {isCompleted ? "✅" : isCurrent ? "🎯" : "🔒"}

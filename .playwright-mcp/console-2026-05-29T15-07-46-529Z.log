@@ -12,3 +12,272 @@
 [  263170ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
 [  287028ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
 [  287139ms] [LOG] [Fast Refresh] done in 217ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  377110ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  377127ms] [LOG] [Fast Refresh] done in 118ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  395568ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  396237ms] [ERROR] ./Claude (Host)/calisthenics-21days/lib/exercises.ts:678:16
+Expected ',', got '<eof>'
+  676 |         id: "16-3",
+  677 |         name: "Agachamentos",
+> 678 |         sets: 5
+      |                ^
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:3318
+[  396360ms] [ERROR] ./Claude (Host)/calisthenics-21days/lib/exercises.ts:678:16
+Expected ',', got '<eof>'
+  676 |         id: "16-3",
+  677 |         name: "Agachamentos",
+> 678 |         sets: 5
+      |                ^
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:3318
+[  396462ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  399140ms] [ERROR] ./Claude (Host)/calisthenics-21days/lib/exercises.ts:678:16
+Expected ',', got '<eof>'
+  676 |         id: "16-3",
+  677 |         name: "Agachamentos",
+> 678 |         sets: 5
+      |                ^
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:3318
+[  399247ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  399650ms] [ERROR] ./Claude (Host)/calisthenics-21days/lib/exercises.ts:678:16
+Expected ',', got '<eof>'
+  676 |         id: "16-3",
+  677 |         name: "Agachamentos",
+> 678 |         sets: 5
+      |                ^
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:3318
+[  399774ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  403460ms] [ERROR] ./Claude (Host)/calisthenics-21days/lib/exercises.ts:678:16
+Expected ',', got '<eof>'
+  676 |         id: "16-3",
+  677 |         name: "Agachamentos",
+> 678 |         sets: 5
+      |                ^
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:3318
+[  403462ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=q3mOO9BClNZHexY7:0
+[  403523ms] [ERROR] ./Claude (Host)/calisthenics-21days/lib/exercises.ts:678:16
+Expected ',', got '<eof>'
+  676 |         id: "16-3",
+  677 |         name: "Agachamentos",
+> 678 |         sets: 5
+      |                ^
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:3318
+[  403534ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=q3mOO9BClNZHexY7:0
+[  403566ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  403768ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/07qn_react-dom_0hm4u6q._.js:15305
+[  403998ms] Error: ./Claude (Host)/calisthenics-21days/lib/exercises.ts:678:16
+Expected ',', got '<eof>'
+  676 |         id: "16-3",
+  677 |         name: "Agachamentos",
+> 678 |         sets: 5
+      |                ^
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./Claude (Host)/calisthenics-21days/lib/exercises.ts:678:16)
+    at Object.getCompilationErrors (file://C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file://C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\node_modules\next\dist\server\lib\dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file://C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\node_modules\next\dist\server\dev\next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file://C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\node_modules\next\dist\server\dev\next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\node_modules\next\dist\server\base-server.js:1753:26)
+[  403931ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1226
+[  403948ms] [ERROR] ./Claude (Host)/calisthenics-21days/lib/exercises.ts:678:16
+Expected ',', got '<eof>'
+  676 |         id: "16-3",
+  677 |         name: "Agachamentos",
+> 678 |         sets: 5
+      |                ^
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1945
+[  403949ms] [ERROR] ./Claude (Host)/calisthenics-21days/lib/exercises.ts:678:16
+Expected ',', got '<eof>'
+  676 |         id: "16-3",
+  677 |         name: "Agachamentos",
+> 678 |         sets: 5
+      |                ^
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/day/[dayId]/page.tsx [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/day/[dayId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/day/[dayId]/page.tsx [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/day/[dayId]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1945
+[  403999ms] [ERROR] ./Claude (Host)/calisthenics-21days/lib/exercises.ts:678:16
+Expected ',', got '<eof>'
+  676 |         id: "16-3",
+  677 |         name: "Agachamentos",
+> 678 |         sets: 5
+      |                ^
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1945
+[  404079ms] [ERROR] ./Claude (Host)/calisthenics-21days/lib/exercises.ts:678:16
+Expected ',', got '<eof>'
+  676 |         id: "16-3",
+  677 |         name: "Agachamentos",
+> 678 |         sets: 5
+      |                ^
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1945
+[  404108ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1226
+[  404629ms] [ERROR] ./Claude (Host)/calisthenics-21days/lib/exercises.ts:678:16
+Expected ',', got '<eof>'
+  676 |         id: "16-3",
+  677 |         name: "Agachamentos",
+> 678 |         sets: 5
+      |                ^
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Claude (Host)/calisthenics-21days/lib/exercises.ts [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1945
+[  404650ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1226
+[  464507ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1226
+[  464525ms] [LOG] [Fast Refresh] done in 100ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1226
+[  464684ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1226
+[  464781ms] [LOG] [Fast Refresh] done in 205ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1226
+[  465049ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  465254ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  479741ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  479981ms] [LOG] [Fast Refresh] done in 339ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  480096ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  480268ms] [LOG] [Fast Refresh] done in 282ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  487900ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  488058ms] [LOG] [Fast Refresh] done in 263ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  489060ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  489085ms] [LOG] [Fast Refresh] done in 82ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  489204ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  489333ms] [LOG] [Fast Refresh] done in 237ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  497096ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  497138ms] [LOG] [Fast Refresh] done in 137ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  497253ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  497375ms] [LOG] [Fast Refresh] done in 236ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477

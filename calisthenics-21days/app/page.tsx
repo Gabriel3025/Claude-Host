@@ -58,7 +58,6 @@ export default function Home() {
             <DayCard
               key={day.dayNumber}
               dayNumber={day.dayNumber}
-              totalDuration={day.totalDuration}
               isCompleted={completedDays.has(day.dayNumber)}
               isCurrent={currentDay === day.dayNumber}
             />
