@@ -5,6 +5,22 @@ import { supabase } from "./supabase";
 
 const PROGRESS_KEY = "calisthenics-21days-progress";
 
+// Sanitize progress: only keep contiguous sequence from day 1
+function sanitizeProgress(days: number[]): number[] {
+  const sorted = [...days].sort((a, b) => a - b);
+  const contiguous: number[] = [];
+
+  for (let i = 1; i <= 21; i++) {
+    if (sorted.includes(i)) {
+      contiguous.push(i);
+    } else {
+      break; // Stop at first gap
+    }
+  }
+
+  return contiguous;
+}
+
 export function useProgressSync() {
   const [completedDays, setCompletedDays] = useState<Set<number>>(new Set());
   const [isLoaded, setIsLoaded] = useState(false);
@@ -26,13 +42,15 @@ export function useProgressSync() {
 
           if (progressData) {
             const days = progressData.map((p) => p.day);
-            setCompletedDays(new Set(days));
+            const sanitized = sanitizeProgress(days);
+            setCompletedDays(new Set(sanitized));
           } else {
             const stored = localStorage.getItem(PROGRESS_KEY);
             if (stored) {
               try {
                 const days = JSON.parse(stored);
-                setCompletedDays(new Set(days));
+                const sanitized = sanitizeProgress(days);
+                setCompletedDays(new Set(sanitized));
               } catch {
                 setCompletedDays(new Set());
               }
@@ -43,7 +61,8 @@ export function useProgressSync() {
           if (stored) {
             try {
               const days = JSON.parse(stored);
-              setCompletedDays(new Set(days));
+              const sanitized = sanitizeProgress(days);
+              setCompletedDays(new Set(sanitized));
             } catch {
               setCompletedDays(new Set());
             }
@@ -55,7 +74,8 @@ export function useProgressSync() {
         if (stored) {
           try {
             const days = JSON.parse(stored);
-            setCompletedDays(new Set(days));
+            const sanitized = sanitizeProgress(days);
+            setCompletedDays(new Set(sanitized));
           } catch {
             setCompletedDays(new Set());
           }
