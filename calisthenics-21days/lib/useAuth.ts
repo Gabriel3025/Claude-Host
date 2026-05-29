@@ -39,16 +39,27 @@ export function useAuth() {
 
   const loginWithEmail = async (email: string) => {
     try {
-      // Use OTP (One Time Password) for authentication
-      // This works for both new and existing users
-      const { error } = await supabase.auth.signInWithOtp({
+      // Generate a fixed password based on email for simplicity
+      const password = "Desafio21Dias" + email.split("@")[0];
+
+      // Try to sign up first
+      const { error: signUpError, data: signUpData } = await supabase.auth.signUp({
         email,
-        options: {
-          shouldCreateUser: true, // Auto-create user if doesn't exist
-          emailRedirectTo: `${window.location.origin}/auth/callback`,
-        },
+        password,
       });
-      if (error) throw error;
+
+      // If signup succeeded or user already exists, try to sign in
+      if (signUpError && !signUpError.message?.includes("already registered")) {
+        throw signUpError;
+      }
+
+      // Now try to sign in
+      const { error: signInError, data: signInData } = await supabase.auth.signInWithPassword({
+        email,
+        password,
+      });
+
+      if (signInError) throw signInError;
       return { success: true };
     } catch (error: any) {
       return { success: false, error: error.message };
