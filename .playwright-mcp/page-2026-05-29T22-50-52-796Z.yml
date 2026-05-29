@@ -1,0 +1,219 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e9]:
+            - link "gabrielferreiradesouza1-gmailcom" [ref=e10] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1-gmailcom
+              - generic [ref=e13]: gabrielferreiradesouza1-gmailcom
+            - button [ref=e15] [cursor=pointer]:
+              - img [ref=e17]
+          - button "Find… F" [ref=e20]:
+            - generic [ref=e22]:
+              - img [ref=e24]
+              - generic [ref=e26]: Find…
+              - generic [ref=e28]: F
+        - navigation [ref=e30]:
+          - generic [ref=e33]:
+            - link "Overview" [ref=e34] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1-gmailcom/claude-host
+              - generic [ref=e37]: Overview
+            - link "Deployments" [ref=e38] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1-gmailcom/claude-host/deployments
+              - img [ref=e40]
+              - generic [ref=e43]: Deployments
+            - link "Logs" [ref=e44] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1-gmailcom/claude-host/logs
+              - img [ref=e46]
+              - generic [ref=e49]: Logs
+            - link "Analytics" [ref=e50] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1-gmailcom/claude-host/analytics
+              - img [ref=e52]
+              - generic [ref=e55]: Analytics
+            - link "Speed Insights" [ref=e56] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1-gmailcom/claude-host/speed-insights
+              - img [ref=e58]
+              - generic [ref=e61]: Speed Insights
+            - link "Observability" [ref=e62] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1-gmailcom/claude-host/observability
+              - img [ref=e64]
+              - generic [ref=e67]: Observability
+              - img [ref=e69]
+            - link "Firewall" [ref=e71] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1-gmailcom/claude-host/firewall
+              - img [ref=e73]
+              - generic [ref=e77]: Firewall
+              - img [ref=e79]
+            - link "CDN" [ref=e81] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1-gmailcom/claude-host/cdn
+              - img [ref=e83]
+              - generic [ref=e86]: CDN
+              - img [ref=e88]
+            - separator [ref=e90]
+            - link "Environment Variables" [ref=e91] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1-gmailcom/claude-host/settings/environment-variables
+              - img [ref=e93]
+              - generic [ref=e96]: Environment Variables
+            - link "Domains" [ref=e97] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1-gmailcom/claude-host/settings/domains
+              - img [ref=e99]
+              - generic [ref=e102]: Domains
+            - link "Integrations" [ref=e103] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1-gmailcom/claude-host/settings/integrations
+              - img [ref=e105]
+              - generic [ref=e108]: Integrations
+            - link "Storage" [ref=e109] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1-gmailcom/claude-host/stores
+              - img [ref=e111]
+              - generic [ref=e114]: Storage
+            - link "Flags" [ref=e115] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1-gmailcom/claude-host/flags
+              - img [ref=e117]
+              - generic [ref=e120]: Flags
+              - img [ref=e122]
+            - link "Agent" [ref=e124] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1-gmailcom/claude-host/agent
+              - img [ref=e126]
+              - generic [ref=e129]: Agent
+              - img [ref=e131]
+            - link "AI Gateway" [ref=e133] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1-gmailcom/claude-host/ai-gateway
+              - img [ref=e135]
+              - generic [ref=e138]: AI Gateway
+              - img [ref=e140]
+            - link "Sandboxes" [ref=e142] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1-gmailcom/claude-host/sandboxes
+              - img [ref=e144]
+              - generic [ref=e147]: Sandboxes
+            - link "Workflows" [ref=e148] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1-gmailcom/claude-host/workflows
+              - img [ref=e150]
+              - generic [ref=e153]: Workflows
+            - separator [ref=e154]
+            - link "Usage" [ref=e155] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1-gmailcom/claude-host/usage
+              - img [ref=e157]
+              - generic [ref=e160]: Usage
+            - link "Support" [ref=e161] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1-gmailcom/claude-host/support
+              - img [ref=e163]
+              - generic [ref=e166]: Support
+            - link "Settings" [ref=e167] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1-gmailcom/claude-host/settings
+              - img [ref=e169]
+              - generic [ref=e172]: Settings
+              - img [ref=e174]
+        - generic [ref=e178]:
+          - button "Avatar for gabriel3025 gabriel3025" [disabled]:
+            - img "Avatar for gabriel3025":
+              - img "Avatar for gabriel3025"
+            - generic:
+              - generic: gabriel3025
+            - generic:
+              - img
+          - img [ref=e181]
+      - button [ref=e184] [cursor=pointer]:
+        - img [ref=e185]
+    - generic [ref=e188]:
+      - generic [ref=e189]:
+        - generic [ref=e192]:
+          - link "claude-host" [ref=e193] [cursor=pointer]:
+            - /url: /gabrielferreiradesouza1-gmailcom/claude-host
+            - generic [ref=e196]: claude-host
+          - button [ref=e197] [cursor=pointer]:
+            - img [ref=e199]
+          - link "Back to team view" [ref=e203] [cursor=pointer]:
+            - /url: /gabrielferreiradesouza1-gmailcom
+            - img [ref=e205]
+        - generic [ref=e209]: Overview
+        - button "Open page actions menu" [ref=e211] [cursor=pointer]:
+          - img [ref=e213]
+      - generic [ref=e217]:
+        - generic [ref=e222]:
+          - heading "Production Deployment" [level=3] [ref=e224]
+          - generic [ref=e239]:
+            - generic [ref=e242]:
+              - term [ref=e243]: Deployment
+              - definition [ref=e244]
+            - generic [ref=e249]:
+              - term [ref=e250]:
+                - generic [ref=e252]:
+                  - text: Domains
+                  - link [ref=e253] [cursor=pointer]:
+                    - /url: /gabrielferreiradesouza1-gmailcom/claude-host/settings/domains
+                    - img [ref=e254]
+              - definition [ref=e256]
+            - generic [ref=e258]:
+              - generic [ref=e259]:
+                - term [ref=e260]: Status
+                - definition [ref=e261]
+              - generic [ref=e264]:
+                - term [ref=e265]: Created
+                - definition [ref=e266]
+            - generic [ref=e269]:
+              - term [ref=e270]: Source
+              - definition [ref=e271]
+          - button "Deployment Settings" [disabled] [ref=e277]:
+            - generic [ref=e278]:
+              - img [ref=e279]
+              - generic [ref=e282]: Deployment Settings
+        - generic [ref=e291]:
+          - generic [ref=e292]:
+            - generic [ref=e293]:
+              - generic [ref=e294]:
+                - paragraph [ref=e295]:
+                  - strong [ref=e296]: Production Checklist
+                - generic [ref=e298]: 0/5
+              - button "Go to page" [ref=e299] [cursor=pointer]:
+                - img [ref=e301]
+              - button [ref=e303] [cursor=pointer]
+            - generic [ref=e307]:
+              - button "Connect Git Repository" [ref=e308] [cursor=pointer]:
+                - img [ref=e309]
+                - generic [ref=e311]: Connect Git Repository
+              - button "Add Custom Domain" [ref=e312] [cursor=pointer]:
+                - img [ref=e313]
+                - generic [ref=e315]: Add Custom Domain
+              - button "Preview Deployment" [ref=e316] [cursor=pointer]:
+                - img [ref=e317]
+                - generic [ref=e319]: Preview Deployment
+              - button "Enable Web Analytics" [ref=e320] [cursor=pointer]:
+                - img [ref=e321]
+                - generic [ref=e323]: Enable Web Analytics
+              - button "Enable Speed Insights" [ref=e324] [cursor=pointer]:
+                - img [ref=e325]
+                - generic [ref=e327]: Enable Speed Insights
+          - generic [ref=e328]:
+            - generic [ref=e329]:
+              - generic [ref=e330]:
+                - paragraph [ref=e331]:
+                  - strong [ref=e332]: Observability
+                - time [ref=e333]: 6h
+              - link "Go to page" [ref=e334] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e336]
+              - link [ref=e338] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e340]:
+              - generic [ref=e342]: Edge Requests
+              - generic [ref=e347]: Function Invocations
+              - generic [ref=e352]: Error Rate
+          - generic [ref=e358]:
+            - paragraph [ref=e359]:
+              - strong [ref=e360]: Analytics
+            - time [ref=e361]: 1w
+        - generic [ref=e375]:
+          - img [ref=e378]
+          - img [ref=e389]
+          - img [ref=e400]
+          - img [ref=e411]
+          - generic [ref=e420]:
+            - img [ref=e423]
+            - img [ref=e434]
+            - img [ref=e445]
+            - img [ref=e456]
+            - img [ref=e467]
+            - img [ref=e478]

@@ -1,0 +1,73 @@
+[     275ms] [LOG] %c
+▲
+
+__  __                                     _            __
+\ \/ /___  __  __   _________ _____       (_)_  _______/ /_
+ \  / __ \/ / / /  / ___/ __ `/ __ \     / / / / / ___/ __/
+ / / /_/ / /_/ /  / /__/ /_/ / / / /    / / /_/ (__  ) /_
+/_/\____/\__,_/   \___/\__,_/_/ /_/  __/ /\__,_/____/\__/
+         __    _          __  __    /___/
+   _____/ /_  (_)___     / /_/ /_  (_)___  ____ ______
+  / ___/ __ \/ / __ \   / __/ __ \/ / __ \/ __ `/ ___/
+ (__  ) / / / / /_/ /  / /_/ / / / / / / / /_/ (__  )
+/____/_/ /_/_/ .___/   \__/_/ /_/_/_/ /_/\__, /____/
+            /_/                         /____/
+  
+
+Hello!
+
+- Open Source https://vercel.com/oss
+- Careers https://vercel.com/careers
+- Status https://vercel-status.com
+
+ font-family: "Geist Mono", monospace; white-space: pre; line-height: 1; @ https://vercel.com/_next/static/immutable/chunks/1kb_g4grefj65.js:78
+[     544ms] [WARNING] iso_swr: SSR fetch failed for "/v1/dashboard/projects/claude-host?teamId=gabrielferreiradesouza1%2540gmail.com" {error: iso_swr_fetch_error, message: Not authorized} @ https://vercel.com/gabrielferreiradesouza1@gmail.com/claude-host:472
+[     544ms] [WARNING] iso_swr: SSR fetch failed for "/api/v9/projects/claude-host?latestDeployments=0&rollbackInfo=true&teamId=gabrielferreiradesouza1%2540gmail.com" {error: iso_swr_fetch_error, message: Not authorized} @ https://vercel.com/gabrielferreiradesouza1@gmail.com/claude-host:472
+[     653ms] [WARNING] iso_swr: SSR fetch failed for "/api/v2/teams/gabrielferreiradesouza1%40gmail.com" {error: iso_swr_fetch_error, message: Not authorized} @ https://vercel.com/gabrielferreiradesouza1@gmail.com/claude-host:559
+[     802ms] [WARNING] iso_swr: SSR fetch failed for "/api/v7/deployments?limit=10&projectId=claude-host&rollbackCandidate=true&teamId=gabrielferreiradesouza1%2540gmail.com" {error: iso_swr_fetch_error, message: Not authorized} @ https://vercel.com/gabrielferreiradesouza1@gmail.com/claude-host:651
+[     805ms] [WARNING] iso_swr: SSR fetch failed for "/dashboard/projects/claude-host/production-checklist?teamId=gabrielferreiradesouza1%40gmail.com" {error: iso_swr_fetch_error, message: Not authorized} @ https://vercel.com/gabrielferreiradesouza1@gmail.com/claude-host:738
+[     812ms] [WARNING] iso_swr: SSR fetch failed for "/api/v7/deployments?limit=10&projectId=claude-host&state=INITIALIZING%2CREADY%2CERROR%2CBUILDING%2CQUEUED%2CBLOCKED&target=preview&teamId=gabrielferreiradesouza1%2540gmail.com" {error: iso_swr_fetch_error, message: Not authorized} @ https://vercel.com/gabrielferreiradesouza1@gmail.com/claude-host:820
+[    2330ms] [WARNING] iso_swr[warn] [client] fallback error for key: "/api/v2/teams/gabrielferreiradesouza1%40gmail.com" {error: iso_swr_fetch_error, message: Not authorized} @ https://vercel.com/_next/static/immutable/chunks/2l_sd2llvjnkw.js:11
+[    2387ms] [WARNING] iso_swr[warn] [client] fallback error for key: "/v1/dashboard/projects/claude-host?teamId=gabrielferreiradesouza1%2540gmail.com" {error: iso_swr_fetch_error, message: Not authorized} @ https://vercel.com/_next/static/immutable/chunks/2l_sd2llvjnkw.js:11
+[    2481ms] [WARNING] iso_swr[warn] [client] fallback error for key: "/api/v9/projects/claude-host?latestDeployments=0&rollbackInfo=true&teamId=gabrielferreiradesouza1%2540gmail.com" {error: iso_swr_fetch_error, message: Not authorized} @ https://vercel.com/_next/static/immutable/chunks/2l_sd2llvjnkw.js:11
+[    3982ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/v1/dashboard/projects/claude-host?teamId=gabrielferreiradesouza1%2540gmail.com:0
+[    4000ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/v2/teams/gabrielferreiradesouza1%40gmail.com:0
+[    4002ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/v9/projects/claude-host?latestDeployments=0&rollbackInfo=true&teamId=gabrielferreiradesouza1%2540gmail.com:0
+[    4046ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/user/permissions?projectIdOrName=claude-host&slug=gabrielferreiradesouza1%2540gmail.com:0
+[    4057ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/dash-tips?teamId=gabrielferreiradesouza1%40gmail.com:0
+[    4117ms] [LOG] Ignored request error CustomFetchError: Not authorized
+    at g (https://vercel.com/_next/static/immutable/chunks/0ou4mifz6nw60.js:2:37338)
+    at async https://vercel.com/_next/static/immutable/chunks/0q2n-_a1u5boo.js:2:12185 @ https://vercel.com/_next/static/immutable/chunks/41qs7_4z_ovpu.js:11
+[    4118ms] [LOG] Ignored request error CustomFetchError: Not authorized
+    at g (https://vercel.com/_next/static/immutable/chunks/0ou4mifz6nw60.js:2:37338)
+    at async https://vercel.com/_next/static/immutable/chunks/0q2n-_a1u5boo.js:2:12185 @ https://vercel.com/_next/static/immutable/chunks/41qs7_4z_ovpu.js:11
+[    4120ms] [LOG] Ignored request error CustomFetchError: Not authorized
+    at g (https://vercel.com/_next/static/immutable/chunks/0ou4mifz6nw60.js:2:37338)
+    at async https://vercel.com/_next/static/immutable/chunks/0q2n-_a1u5boo.js:2:12185 @ https://vercel.com/_next/static/immutable/chunks/41qs7_4z_ovpu.js:11
+[    4134ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/v2/dashboard/projects?favorites=1&limit=25&teamId=gabrielferreiradesouza1%2540gmail.com:0
+[    4136ms] [LOG] Ignored request error CustomFetchError: You don't have permission to access this resource.
+    at g (https://vercel.com/_next/static/immutable/chunks/0ou4mifz6nw60.js:2:37338)
+    at async revalidateOnFocus (https://vercel.com/_next/static/immutable/chunks/41qs7_4z_ovpu.js:12:3175)
+    at async https://vercel.com/_next/static/immutable/chunks/0q2n-_a1u5boo.js:2:12185 @ https://vercel.com/_next/static/immutable/chunks/41qs7_4z_ovpu.js:11
+[    4190ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/recents?hydrateLimit=30&limit=7&teamId=gabrielferreiradesouza1%2540gmail.com&type=preview:0
+[    4192ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://vercel.com/api/chat/ZwFYWkwU6GTEik3N/stream:0
+[    4198ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/nav/sidebar/badges?scope=team&teamId=gabrielferreiradesouza1%2540gmail.com&projectId=claude-host:0
+[    4202ms] [WARNING] [omniagent] chat stream failed Error: {"error":{"code":"not_found","message":"The requested API endpoint was not found."}}
+    at oS.reconnectToStream (https://vercel.com/_next/static/immutable/chunks/2axfz07t26y9p.js:38:48063)
+    at async ae.makeRequest (https://vercel.com/_next/static/immutable/chunks/2axfz07t26y9p.js:23:47520)
+    at async ae.resumeStream (https://vercel.com/_next/static/immutable/chunks/2axfz07t26y9p.js:23:44598) @ https://vercel.com/_next/static/immutable/chunks/2q-6fmcn5v-eg.js:1
+[    4261ms] [WARNING] Deprecated API for given entry type. @ https://vercel.com/_next/static/immutable/chunks/3nvaismgwj9pr.js:18
+[    6653ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://o205439.ingest.sentry.io/api/1323670/envelope/?sentry_key=d00780d432ac4ccf882f60dd02062e14&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.111.0:0
+[    9363ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/user/permissions?projectIdOrName=claude-host&slug=gabrielferreiradesouza1%2540gmail.com:0
+[    9365ms] [LOG] Ignored request error CustomFetchError: Not authorized
+    at g (https://vercel.com/_next/static/immutable/chunks/0ou4mifz6nw60.js:2:37338)
+    at async https://vercel.com/_next/static/immutable/chunks/0q2n-_a1u5boo.js:2:12185 @ https://vercel.com/_next/static/immutable/chunks/3nvaismgwj9pr.js:16
+[   12377ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/GeistMono_Variable.p.1bcgm0qa26ixg.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabrielferreiradesouza1@gmail.com/claude-host:0
+[   12377ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/caa3a2e1cccd8315.p.0wgildi0cnwt9.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabrielferreiradesouza1@gmail.com/claude-host:0
+[   12377ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/389fqnv9daql5.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabrielferreiradesouza1@gmail.com/claude-host:0
+[   12377ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3d792zqltro0t.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabrielferreiradesouza1@gmail.com/claude-host:0
+[   14430ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/dash-tips?teamId=gabrielferreiradesouza1%40gmail.com:0
+[   14434ms] [LOG] Ignored request error CustomFetchError: You don't have permission to access this resource.
+    at g (https://vercel.com/_next/static/immutable/chunks/0ou4mifz6nw60.js:2:37338)
+    at async revalidateOnFocus (https://vercel.com/_next/static/immutable/chunks/41qs7_4z_ovpu.js:12:3175)
+    at async https://vercel.com/_next/static/immutable/chunks/0q2n-_a1u5boo.js:2:12185 @ https://vercel.com/_next/static/immutable/chunks/3nvaismgwj9pr.js:16

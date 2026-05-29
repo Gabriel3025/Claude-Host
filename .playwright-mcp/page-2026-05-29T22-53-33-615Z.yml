@@ -1,0 +1,387 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e642]:
+    - log [ref=e643]:
+      - generic [ref=e644]: "Selected Date: sexta-feira, 29 de maio de 2026"
+    - log
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e9]:
+            - link "gabriel3025's projects Hobby" [ref=e10] [cursor=pointer]:
+              - /url: /gabriel3025s-projects
+              - img [ref=e11]
+              - generic [ref=e12]:
+                - generic [ref=e13]: gabriel3025's projects
+                - generic [ref=e15]: Hobby
+            - button [ref=e16] [cursor=pointer]:
+              - img [ref=e18]
+          - button "Find… F" [ref=e21]:
+            - generic [ref=e23]:
+              - img [ref=e25]
+              - generic [ref=e27]: Find…
+              - generic [ref=e29]: F
+        - navigation [ref=e31]:
+          - generic [ref=e335]:
+            - generic:
+              - generic:
+                - link "Other Overview":
+                  - /url: /gabriel3025s-projects/claude-host
+                  - generic:
+                    - img "Other":
+                      - img "Other"
+                  - generic:
+                    - generic: Overview
+                - link "Deployments":
+                  - /url: /gabriel3025s-projects/claude-host/deployments
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Deployments
+                  - generic:
+                    - img
+                - link "Logs":
+                  - /url: /gabriel3025s-projects/claude-host/logs
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Logs
+                - link "Analytics":
+                  - /url: /gabriel3025s-projects/claude-host/analytics
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Analytics
+                - link "Speed Insights":
+                  - /url: /gabriel3025s-projects/claude-host/speed-insights
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Speed Insights
+                - link "Observability":
+                  - /url: /gabriel3025s-projects/claude-host/observability
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Observability
+                  - generic:
+                    - img
+                - link "Firewall":
+                  - /url: /gabriel3025s-projects/claude-host/firewall
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Firewall
+                  - generic:
+                    - img
+                - link "CDN":
+                  - /url: /gabriel3025s-projects/claude-host/cdn
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: CDN
+                  - generic:
+                    - img
+                - separator
+                - link "Environment Variables":
+                  - /url: /gabriel3025s-projects/claude-host/settings/environment-variables
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Environment Variables
+                - link "Domains":
+                  - /url: /gabriel3025s-projects/claude-host/settings/domains
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Domains
+                - link "Integrations":
+                  - /url: /gabriel3025s-projects/claude-host/settings/integrations
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Integrations
+                - link "Storage":
+                  - /url: /gabriel3025s-projects/claude-host/stores
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Storage
+                - link "Flags":
+                  - /url: /gabriel3025s-projects/claude-host/flags
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Flags
+                  - generic:
+                    - img
+                - link "Agent":
+                  - /url: /gabriel3025s-projects/claude-host/agent
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Agent
+                  - generic:
+                    - img
+                - link "AI Gateway":
+                  - /url: /gabriel3025s-projects/claude-host/ai-gateway
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: AI Gateway
+                  - generic:
+                    - img
+                - link "Sandboxes":
+                  - /url: /gabriel3025s-projects/claude-host/sandboxes
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Sandboxes
+                - link "Workflows":
+                  - /url: /gabriel3025s-projects/claude-host/workflows
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Workflows
+                - separator
+                - link "Usage":
+                  - /url: /gabriel3025s-projects/claude-host/usage
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Usage
+                - link "Support":
+                  - /url: /gabriel3025s-projects/claude-host/support
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Support
+                - link "Settings":
+                  - /url: /gabriel3025s-projects/claude-host/settings
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Settings
+                  - generic:
+                    - img
+            - generic [ref=e645]:
+              - button "Deployments" [ref=e647] [cursor=pointer]:
+                - img [ref=e649]
+                - generic [ref=e651]: Deployments
+              - generic [ref=e653]:
+                - generic [ref=e654]:
+                  - generic [ref=e656]: Filters
+                  - button "Reset" [disabled] [ref=e658]:
+                    - generic [ref=e659]: Reset
+                - generic [ref=e660]:
+                  - paragraph [ref=e661]:
+                    - button "Timeline" [disabled] [expanded] [ref=e662] [cursor=pointer]:
+                      - generic [ref=e664]:
+                        - img [ref=e667]
+                        - generic [ref=e669]: Timeline
+                  - region "Timeline" [ref=e670]:
+                    - generic [ref=e672]:
+                      - button "19:23 - 19:53" [ref=e674] [cursor=pointer]:
+                        - img [ref=e676]
+                      - generic [ref=e678]:
+                        - generic [ref=e679]: Combobox Menu
+                        - generic [ref=e680]:
+                          - combobox "Combobox Menu" [expanded] [ref=e681]: Last 30 minutes
+                          - img
+                - generic [ref=e682]:
+                  - paragraph [ref=e683]:
+                    - button "Contains Console Level" [disabled] [expanded] [ref=e684] [cursor=pointer]:
+                      - generic [ref=e686]:
+                        - img [ref=e689]
+                        - generic [ref=e691]: Contains Console Level
+                  - region "Contains Console Level" [ref=e692]:
+                    - generic [ref=e695]:
+                      - generic [ref=e699] [cursor=pointer]:
+                        - generic [ref=e700]:
+                          - checkbox "Warning 0" [ref=e701]
+                          - img [ref=e703]
+                        - generic [ref=e705]:
+                          - generic [ref=e706]: Warning
+                          - paragraph [ref=e708]: "0"
+                      - generic [ref=e712] [cursor=pointer]:
+                        - generic [ref=e713]:
+                          - checkbox "Error 0" [ref=e714]
+                          - img [ref=e716]
+                        - generic [ref=e718]:
+                          - generic [ref=e719]: Error
+                          - paragraph [ref=e721]: "0"
+                      - generic [ref=e725] [cursor=pointer]:
+                        - generic [ref=e726]:
+                          - checkbox "Fatal 0" [ref=e727]
+                          - img [ref=e729]
+                        - generic [ref=e731]:
+                          - generic [ref=e732]: Fatal
+                          - paragraph [ref=e734]: "0"
+                - paragraph [ref=e736]:
+                  - button "Resource" [ref=e737] [cursor=pointer]:
+                    - generic [ref=e739]:
+                      - img [ref=e742]
+                      - generic [ref=e744]: Resource
+                - paragraph [ref=e749]:
+                  - button "Environment" [ref=e750] [cursor=pointer]:
+                    - generic [ref=e752]:
+                      - img [ref=e755]
+                      - generic [ref=e757]: Environment
+                - generic [ref=e758]:
+                  - paragraph [ref=e759]:
+                    - button "Route" [disabled] [expanded] [ref=e760] [cursor=pointer]:
+                      - generic [ref=e762]:
+                        - img [ref=e765]
+                        - generic [ref=e767]: Route
+                  - region "Route" [ref=e768]:
+                    - paragraph [ref=e771]: No options.
+                - paragraph [ref=e773]:
+                  - button "Request Path" [ref=e774] [cursor=pointer]:
+                    - generic [ref=e776]:
+                      - img [ref=e779]
+                      - generic [ref=e781]: Request Path
+                - paragraph [ref=e783]:
+                  - button "Status Code" [ref=e784] [cursor=pointer]:
+                    - generic [ref=e786]:
+                      - img [ref=e789]
+                      - generic [ref=e791]: Status Code
+                - paragraph [ref=e793]:
+                  - button "Request Type" [ref=e794] [cursor=pointer]:
+                    - generic [ref=e796]:
+                      - img [ref=e799]
+                      - generic [ref=e801]: Request Type
+                - paragraph [ref=e803]:
+                  - button "Host" [ref=e804] [cursor=pointer]:
+                    - generic [ref=e806]:
+                      - img [ref=e809]
+                      - generic [ref=e811]: Host
+                - paragraph [ref=e813]:
+                  - button "Request Method" [ref=e814] [cursor=pointer]:
+                    - generic [ref=e816]:
+                      - img [ref=e819]
+                      - generic [ref=e821]: Request Method
+                - paragraph [ref=e823]:
+                  - button "Cache" [ref=e824] [cursor=pointer]:
+                    - generic [ref=e826]:
+                      - img [ref=e829]
+                      - generic [ref=e831]: Cache
+                - paragraph [ref=e833]:
+                  - button "Branch" [ref=e834] [cursor=pointer]:
+                    - generic [ref=e836]:
+                      - img [ref=e839]
+                      - generic [ref=e841]: Branch
+                - paragraph [ref=e843]:
+                  - button "Workflow Run" [ref=e844] [cursor=pointer]:
+                    - generic [ref=e846]:
+                      - img [ref=e849]
+                      - generic [ref=e851]: Workflow Run
+                      - img [ref=e854]
+                - paragraph [ref=e858]:
+                  - button "Workflow Step" [ref=e859] [cursor=pointer]:
+                    - generic [ref=e861]:
+                      - img [ref=e864]
+                      - generic [ref=e866]: Workflow Step
+                      - img [ref=e869]
+        - generic [ref=e172]:
+          - button "Avatar for gabriel3025 gabriel3025" [ref=e484] [cursor=pointer]:
+            - img "Avatar for gabriel3025" [ref=e485]:
+              - img "Avatar for gabriel3025" [ref=e486]
+            - generic [ref=e488]: gabriel3025
+            - img [ref=e490]
+          - button "13 unseen notifications" [ref=e493] [cursor=pointer]:
+            - generic [ref=e494]:
+              - generic [ref=e495]:
+                - img
+              - img [ref=e872]
+      - button [ref=e178] [cursor=pointer]:
+        - img [ref=e179]
+    - generic [ref=e182]:
+      - generic [ref=e183]:
+        - generic [ref=e874]:
+          - link "Other claude-host" [ref=e875] [cursor=pointer]:
+            - /url: /gabriel3025s-projects/claude-host
+            - img "Other" [ref=e876]:
+              - img "Other" [ref=e877]
+            - generic [ref=e879]: claude-host
+          - button [ref=e880] [cursor=pointer]:
+            - img [ref=e882]
+          - link "Back to team view" [ref=e886] [cursor=pointer]:
+            - /url: /gabriel3025s-projects/~/deployments
+            - img [ref=e888]
+        - generic [ref=e201]:
+          - generic [ref=e202]:
+            - link "Deployments" [ref=e203] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/deployments
+            - img [ref=e204]
+          - generic [ref=e890]:
+            - link "H8Cnogoen" [ref=e891] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/H8Cnogoenm2R4KVEMBZP7WYM616R
+            - img [ref=e892]
+          - generic [ref=e207]: Logs
+        - button "Open page actions menu" [ref=e220] [cursor=pointer]:
+          - img [ref=e222]
+      - generic [ref=e225]:
+        - generic [ref=e227]:
+          - link "Deployment" [ref=e497] [cursor=pointer]:
+            - /url: /gabriel3025s-projects/claude-host/H8Cnogoenm2R4KVEMBZP7WYM616R
+          - link "Logs" [ref=e498] [cursor=pointer]:
+            - /url: /gabriel3025s-projects/claude-host/H8Cnogoenm2R4KVEMBZP7WYM616R/logs
+          - link "Resources" [ref=e499] [cursor=pointer]:
+            - /url: /gabriel3025s-projects/claude-host/H8Cnogoenm2R4KVEMBZP7WYM616R/resources
+          - link "Source" [ref=e500] [cursor=pointer]:
+            - /url: /gabriel3025s-projects/claude-host/H8Cnogoenm2R4KVEMBZP7WYM616R/source
+          - link "Open Graph" [ref=e501] [cursor=pointer]:
+            - /url: /gabriel3025s-projects/claude-host/H8Cnogoenm2R4KVEMBZP7WYM616R/og
+        - generic [ref=e897]:
+          - generic [ref=e899]:
+            - generic [ref=e900]:
+              - generic [ref=e901]:
+                - button "Enable My Logs" [ref=e903] [cursor=pointer]:
+                  - img [ref=e905]
+                - button "Enable Has Traces" [ref=e910] [cursor=pointer]:
+                  - img [ref=e912]
+                - generic [ref=e919]:
+                  - textbox [ref=e920]:
+                    - paragraph [ref=e921]
+                  - generic: Search logs...
+                  - generic:
+                    - img
+              - generic [ref=e922]:
+                - generic [ref=e923]:
+                  - button "Live" [ref=e924] [cursor=pointer]:
+                    - img [ref=e926]
+                    - generic [ref=e928]: Live
+                  - button "Refresh Logs" [ref=e929] [cursor=pointer]:
+                    - img [ref=e931]
+                - button "Query Actions" [ref=e933] [cursor=pointer]:
+                  - img [ref=e935]
+            - img [ref=e939]:
+              - generic [ref=e941]:
+                - generic [ref=e943]: 19:24:00
+                - generic [ref=e945]: 19:34:10
+                - generic [ref=e947]: 19:43:50
+                - generic [ref=e949]: 19:54:00
+            - generic [ref=e951]:
+              - generic [ref=e952]: Time
+              - generic [ref=e953]: Status
+              - generic [ref=e954]: Host
+              - generic [ref=e955]: Request
+              - generic [ref=e956]: Messages
+          - generic [ref=e958]:
+            - img [ref=e960]
+            - paragraph [ref=e962]: There are no runtime logs in this time range
+            - generic [ref=e963]:
+              - button "Refresh Query" [ref=e964] [cursor=pointer]:
+                - generic [ref=e965]: Refresh Query
+              - link "Learn More" [ref=e966] [cursor=pointer]:
+                - /url: /docs/runtime-logs
+                - generic [ref=e967]: Learn More
+  - alert [ref=e641]: claude-host – Deployment Overview
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - img
+  - generic [ref=e969]: 19:43:50

@@ -1,0 +1,129 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e9]:
+            - link "gabrielferreiradesouza1%40gmail.com" [ref=e10] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1%40gmail.com
+              - generic [ref=e13]: gabrielferreiradesouza1%40gmail.com
+            - button [ref=e15] [cursor=pointer]:
+              - img [ref=e17]
+          - button "Find… F" [ref=e20]:
+            - generic [ref=e22]:
+              - img [ref=e24]
+              - generic [ref=e26]: Find…
+              - generic [ref=e28]: F
+        - navigation [ref=e30]:
+          - generic [ref=e33]:
+            - link "Projects" [ref=e34] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1%40gmail.com
+              - img [ref=e36]
+              - generic [ref=e39]: Projects
+            - link "Deployments" [ref=e40] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1%40gmail.com/~/deployments
+              - img [ref=e42]
+              - generic [ref=e45]: Deployments
+            - link "Logs" [ref=e46] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1%40gmail.com/~/logs
+              - img [ref=e48]
+              - generic [ref=e51]: Logs
+            - link "Analytics" [ref=e52] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1%40gmail.com/~/analytics
+              - img [ref=e54]
+              - generic [ref=e57]: Analytics
+            - link "Speed Insights" [ref=e58] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1%40gmail.com/~/speed-insights
+              - img [ref=e60]
+              - generic [ref=e63]: Speed Insights
+            - link "Observability" [ref=e64] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1%40gmail.com/~/observability
+              - img [ref=e66]
+              - generic [ref=e69]: Observability
+              - img [ref=e71]
+            - link "Firewall" [ref=e73] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1%40gmail.com/~/firewall
+              - img [ref=e75]
+              - generic [ref=e79]: Firewall
+            - link "CDN" [ref=e80] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1%40gmail.com/~/cdn
+              - img [ref=e82]
+              - generic [ref=e85]: CDN
+            - separator [ref=e86]
+            - link "Environment Variables" [ref=e87] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1%40gmail.com/~/settings/environment-variables
+              - img [ref=e89]
+              - generic [ref=e92]: Environment Variables
+            - link "Domains" [ref=e93] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1%40gmail.com/~/domains
+              - img [ref=e95]
+              - generic [ref=e98]: Domains
+            - link "Integrations" [ref=e99] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1%40gmail.com/~/integrations
+              - img [ref=e101]
+              - generic [ref=e104]: Integrations
+            - link "Storage" [ref=e105] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1%40gmail.com/~/stores
+              - img [ref=e107]
+              - generic [ref=e110]: Storage
+            - link "Flags" [ref=e111] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1%40gmail.com/~/experimentation/collections
+              - img [ref=e113]
+              - generic [ref=e116]: Flags
+            - link "Agent" [ref=e117] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1%40gmail.com/~/agent
+              - img [ref=e119]
+              - generic [ref=e122]: Agent
+              - img [ref=e124]
+            - link "AI Gateway" [ref=e126] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1%40gmail.com/~/ai-gateway
+              - img [ref=e128]
+              - generic [ref=e131]: AI Gateway
+              - img [ref=e133]
+            - link "Sandboxes" [ref=e135] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1%40gmail.com/~/sandboxes
+              - img [ref=e137]
+              - generic [ref=e140]: Sandboxes
+            - link "Workflows" [ref=e141] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1%40gmail.com/~/workflows
+              - img [ref=e143]
+              - generic [ref=e146]: Workflows
+            - separator [ref=e147]
+            - link "Usage" [ref=e148] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1%40gmail.com/~/usage
+              - img [ref=e150]
+              - generic [ref=e153]: Usage
+            - link "Support" [ref=e154] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1%40gmail.com/~/support
+              - img [ref=e156]
+              - generic [ref=e159]: Support
+            - link "Settings" [ref=e160] [cursor=pointer]:
+              - /url: /gabrielferreiradesouza1%40gmail.com/~/settings
+              - img [ref=e162]
+              - generic [ref=e165]: Settings
+              - img [ref=e167]
+        - generic [ref=e171]:
+          - button "Avatar for gabriel3025 gabriel3025" [disabled]:
+            - img "Avatar for gabriel3025":
+              - img "Avatar for gabriel3025"
+            - generic:
+              - generic: gabriel3025
+            - generic:
+              - img
+          - img [ref=e174]
+      - button [ref=e177] [cursor=pointer]:
+        - img [ref=e178]
+    - generic [ref=e182]:
+      - generic [ref=e185]:
+        - link "claude-host" [ref=e186] [cursor=pointer]:
+          - /url: /gabrielferreiradesouza1%40gmail.com/claude-host
+          - generic [ref=e189]: claude-host
+        - button [ref=e190] [cursor=pointer]:
+          - img [ref=e192]
+        - link "Back to team view" [ref=e196] [cursor=pointer]:
+          - /url: /gabrielferreiradesouza1%40gmail.com
+          - img [ref=e198]
+      - button "Open page actions menu" [ref=e201] [cursor=pointer]:
+        - img [ref=e203]

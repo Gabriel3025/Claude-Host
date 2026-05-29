@@ -1,0 +1,545 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e194]:
+            - link "gabriel3025's projects Hobby" [ref=e195] [cursor=pointer]:
+              - /url: /gabriel3025s-projects
+              - img [ref=e196]
+              - generic [ref=e197]:
+                - generic [ref=e198]: gabriel3025's projects
+                - generic [ref=e200]: Hobby
+            - button [ref=e201] [cursor=pointer]:
+              - img [ref=e203]
+          - button "Find… F" [ref=e205]:
+            - generic [ref=e207]:
+              - img [ref=e209]
+              - generic [ref=e211]: Find…
+              - generic [ref=e213]: F
+        - navigation [ref=e28]:
+          - generic [ref=e214]:
+            - generic:
+              - generic:
+                - link "Other Overview":
+                  - /url: /gabriel3025s-projects/claude-host
+                  - generic:
+                    - img "Other":
+                      - img "Other"
+                  - generic:
+                    - generic: Overview
+                - link "Deployments":
+                  - /url: /gabriel3025s-projects/claude-host/deployments
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Deployments
+                - link "Logs":
+                  - /url: /gabriel3025s-projects/claude-host/logs
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Logs
+                - link "Analytics":
+                  - /url: /gabriel3025s-projects/claude-host/analytics
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Analytics
+                - link "Speed Insights":
+                  - /url: /gabriel3025s-projects/claude-host/speed-insights
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Speed Insights
+                - link "Observability":
+                  - /url: /gabriel3025s-projects/claude-host/observability
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Observability
+                  - generic:
+                    - img
+                - link "Firewall":
+                  - /url: /gabriel3025s-projects/claude-host/firewall
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Firewall
+                  - generic:
+                    - img
+                - link "CDN":
+                  - /url: /gabriel3025s-projects/claude-host/cdn
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: CDN
+                  - generic:
+                    - img
+                - separator
+                - link "Environment Variables":
+                  - /url: /gabriel3025s-projects/claude-host/settings/environment-variables
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Environment Variables
+                - link "Domains":
+                  - /url: /gabriel3025s-projects/claude-host/settings/domains
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Domains
+                - link "Integrations":
+                  - /url: /gabriel3025s-projects/claude-host/settings/integrations
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Integrations
+                - link "Storage":
+                  - /url: /gabriel3025s-projects/claude-host/stores
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Storage
+                - link "Flags":
+                  - /url: /gabriel3025s-projects/claude-host/flags
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Flags
+                  - generic:
+                    - img
+                - link "Agent":
+                  - /url: /gabriel3025s-projects/claude-host/agent
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Agent
+                  - generic:
+                    - img
+                - link "AI Gateway":
+                  - /url: /gabriel3025s-projects/claude-host/ai-gateway
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: AI Gateway
+                  - generic:
+                    - img
+                - link "Sandboxes":
+                  - /url: /gabriel3025s-projects/claude-host/sandboxes
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Sandboxes
+                - link "Workflows":
+                  - /url: /gabriel3025s-projects/claude-host/workflows
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Workflows
+                - separator
+                - link "Usage":
+                  - /url: /gabriel3025s-projects/claude-host/usage
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Usage
+                - link "Support":
+                  - /url: /gabriel3025s-projects/claude-host/support
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Support
+                - link "Settings":
+                  - /url: /gabriel3025s-projects/claude-host/settings
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Settings
+                  - generic:
+                    - img
+            - generic [ref=e215]:
+              - button "Settings" [ref=e217] [cursor=pointer]:
+                - img [ref=e219]
+                - generic [ref=e221]: Settings
+              - generic [ref=e223]:
+                - link "General" [ref=e224] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/claude-host/settings/general
+                  - generic [ref=e226]: General
+                - link "Build and Deployment" [ref=e227] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/claude-host/settings/build-and-deployment
+                  - generic [ref=e229]: Build and Deployment
+                - link "Environments" [ref=e230] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/claude-host/settings/environments
+                  - generic [ref=e232]: Environments
+                - link "Git" [ref=e233] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/claude-host/settings/git
+                  - generic [ref=e235]: Git
+                - link "Deployment Protection" [ref=e236] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/claude-host/settings/deployment-protection
+                  - generic [ref=e238]: Deployment Protection
+                - link "Functions" [ref=e239] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/claude-host/settings/functions
+                  - generic [ref=e241]: Functions
+                - link "Cron Jobs" [ref=e242] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/claude-host/settings/cron-jobs
+                  - generic [ref=e244]: Cron Jobs
+                - link "Microfrontends" [ref=e245] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/claude-host/settings/microfrontends
+                  - generic [ref=e247]: Microfrontends
+                - link "Project Members" [ref=e248] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/claude-host/settings/project-members
+                  - generic [ref=e250]: Project Members
+                - link "Drains" [ref=e251] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/claude-host/settings/drains
+                  - generic [ref=e253]: Drains
+                - link "Security" [ref=e254] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/claude-host/settings/security
+                  - generic [ref=e256]: Security
+                - link "Networking" [ref=e257] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/claude-host/settings/networking
+                  - generic [ref=e259]: Networking
+                - link "Advanced" [ref=e260] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/claude-host/settings/advanced
+                  - generic [ref=e262]: Advanced
+        - generic [ref=e265]:
+          - button "Avatar for gabriel3025 gabriel3025" [ref=e266] [cursor=pointer]:
+            - img "Avatar for gabriel3025" [ref=e267]:
+              - img "Avatar for gabriel3025" [ref=e268]
+            - generic [ref=e270]: gabriel3025
+            - img [ref=e272]
+          - button "13 unseen notifications" [ref=e276] [cursor=pointer]:
+            - generic [ref=e277]:
+              - generic [ref=e278]:
+                - img
+              - img [ref=e512]
+      - button [ref=e177] [cursor=pointer]:
+        - img [ref=e178]
+    - generic [ref=e181]:
+      - generic [ref=e279]:
+        - generic [ref=e282]:
+          - link "Other claude-host" [ref=e283] [cursor=pointer]:
+            - /url: /gabriel3025s-projects/claude-host
+            - img "Other" [ref=e284]:
+              - img "Other" [ref=e285]
+            - generic [ref=e287]: claude-host
+          - button [ref=e288] [cursor=pointer]:
+            - img [ref=e290]
+          - link "Back to team view" [ref=e294] [cursor=pointer]:
+            - /url: /gabriel3025s-projects/~/settings/build-and-deployment
+            - img [ref=e296]
+        - generic [ref=e298]:
+          - generic [ref=e514]:
+            - link "Project Settings" [ref=e515] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/settings
+            - img [ref=e516]
+          - generic [ref=e300]: Build and Deployment
+        - button "Open page actions menu" [ref=e302] [cursor=pointer]:
+          - img [ref=e304]
+      - generic [ref=e518]:
+        - generic [ref=e520]:
+          - generic [ref=e521]:
+            - heading "Framework Settings" [level=4] [ref=e522]:
+              - generic [ref=e523]:
+                - link "Framework Settings" [ref=e524] [cursor=pointer]:
+                  - /url: "#framework-settings"
+                  - generic [ref=e525]: Framework Settings
+                - img [ref=e526]
+            - paragraph [ref=e528]: When using a framework for a new project, it will be automatically detected. As a result, several project settings are automatically configured to achieve the best result. You can override them below.
+            - generic [ref=e530]:
+              - generic [ref=e533]:
+                - generic [ref=e535]: Framework Preset
+                - combobox [ref=e536]:
+                  - generic [ref=e537]:
+                    - generic:
+                      - img
+                    - searchbox "Framework Preset" [ref=e538]: Other
+                    - button "Open menu" [ref=e539] [cursor=pointer]:
+                      - img [ref=e540]
+              - generic [ref=e542]:
+                - generic [ref=e543]:
+                  - generic [ref=e544]:
+                    - heading "Build Command" [level=5] [ref=e545]
+                    - img [ref=e548]
+                  - generic "Build Command" [ref=e553]:
+                    - 'textbox "`npm run vercel-build` or `npm run build`" [disabled] [ref=e555]'
+                - generic [ref=e556]:
+                  - heading "Override" [level=5] [ref=e558]
+                  - generic "Override Build Command" [ref=e561]:
+                    - checkbox "Override Build Command" [ref=e562]
+              - generic [ref=e565]:
+                - generic [ref=e566]:
+                  - generic [ref=e567]:
+                    - heading "Output Directory" [level=5] [ref=e568]
+                    - img [ref=e571]
+                  - generic "Output Directory" [ref=e576]:
+                    - 'textbox "`public` if it exists, or `.`" [disabled] [ref=e578]'
+                - generic [ref=e579]:
+                  - heading "Override" [level=5] [ref=e581]
+                  - generic "Override Output Directory" [ref=e584]:
+                    - checkbox "Override Output Directory" [ref=e585]
+              - generic [ref=e588]:
+                - generic [ref=e589]:
+                  - generic [ref=e590]:
+                    - heading "Install Command" [level=5] [ref=e591]
+                    - img [ref=e594]
+                  - generic "Install Command" [ref=e599]:
+                    - 'textbox "`yarn install`, `pnpm install`, `npm install`, or `bun install`" [disabled] [ref=e601]'
+                - generic [ref=e602]:
+                  - heading "Override" [level=5] [ref=e604]
+                  - generic "Override Install Command" [ref=e607]:
+                    - checkbox "Override Install Command" [ref=e608]
+              - generic [ref=e611]:
+                - generic [ref=e612]:
+                  - generic [ref=e613]:
+                    - heading "Development Command" [level=5] [ref=e614]
+                    - img [ref=e617]
+                  - generic "Development Command" [ref=e622]:
+                    - textbox "None" [disabled] [ref=e624]
+                - generic [ref=e625]:
+                  - heading "Override" [level=5] [ref=e627]
+                  - generic "Override Development Command" [ref=e630]:
+                    - checkbox "Override Development Command" [ref=e631]
+          - generic [ref=e634]:
+            - generic [ref=e636]:
+              - text: Learn more about
+              - link "Build and Development Settings" [ref=e637] [cursor=pointer]:
+                - /url: /docs/deployments/configure-a-build#build-and-development-settings
+                - text: Build and Development Settings
+                - img [ref=e638]
+            - button "Save" [disabled] [ref=e643]:
+              - generic [ref=e644]: Save
+        - generic [ref=e646]:
+          - generic [ref=e647]:
+            - heading "Root Directory" [level=4] [ref=e648]:
+              - generic [ref=e649]:
+                - link "Root Directory" [ref=e650] [cursor=pointer]:
+                  - /url: "#root-directory"
+                  - generic [ref=e651]: Root Directory
+                - img [ref=e652]
+            - paragraph [ref=e654]: The directory within your project, where your code is located. Leave this field empty if your code is not located in a subdirectory.
+            - generic [ref=e655]:
+              - textbox "./" [ref=e658]: calisthenics-21days
+              - generic [ref=e659]:
+                - paragraph [ref=e660]:
+                  - text: Include files outside the root directory in the
+                  - link "Build Step" [ref=e661] [cursor=pointer]:
+                    - /url: /docs/deployments/build-step
+                    - text: Build Step
+                    - img [ref=e662]
+                  - text: .
+                - generic "Enabled" [ref=e664]:
+                  - paragraph [ref=e666]: Enabled
+                  - checkbox "Include files outside the root directory in the Build Step . Enabled" [checked] [ref=e667]
+              - separator [ref=e670]
+              - generic [ref=e671]:
+                - paragraph [ref=e672]:
+                  - link "Skip deployments" [ref=e673] [cursor=pointer]:
+                    - /url: /docs/monorepos#skipping-unaffected-projects
+                    - text: Skip deployments
+                    - img [ref=e674]
+                  - text: when there are no changes to the root directory or its dependencies.
+                - generic "Disabled" [ref=e676]:
+                  - paragraph [ref=e678]: Disabled
+                  - checkbox "Skip deployments when there are no changes to the root directory or its dependencies. Disabled" [ref=e679]
+          - generic [ref=e682]:
+            - paragraph [ref=e684]:
+              - text: Learn more about
+              - link "Root Directory" [ref=e685] [cursor=pointer]:
+                - /url: /docs/deployments/configure-a-build#root-directory
+                - text: Root Directory
+                - img [ref=e686]
+            - button "Save" [disabled] [ref=e691]:
+              - generic [ref=e692]: Save
+        - generic [ref=e694]:
+          - generic [ref=e695]:
+            - heading "Ignored Build Step" [level=4] [ref=e696]:
+              - generic [ref=e697]:
+                - link "Ignored Build Step" [ref=e698] [cursor=pointer]:
+                  - /url: "#ignored-build-step"
+                  - generic [ref=e699]: Ignored Build Step
+                - img [ref=e700]
+            - paragraph [ref=e702]: Vercel skips builds for commits with a previously deployed SHA. Override with a shell command that exits 1 (build) or 0 (skip).
+            - generic [ref=e705]:
+              - generic [ref=e706]: Behavior
+              - generic [ref=e707]:
+                - combobox "Behavior" [ref=e708] [cursor=pointer]:
+                  - option "Automatic" [selected]
+                  - option "Only build production"
+                  - option "Only build pre-production"
+                  - option "Only build if there are changes"
+                  - option "Only build if there are changes in a folder"
+                  - option "Don’t build anything"
+                  - option "Run my Bash script"
+                  - option "Run my Node script"
+                  - option "Custom"
+                - generic:
+                  - img
+          - generic [ref=e709]:
+            - paragraph [ref=e711]:
+              - text: Learn more about
+              - link "Ignored Build Step" [ref=e712] [cursor=pointer]:
+                - /url: /docs/project-configuration/git-settings#ignored-build-step
+                - text: Ignored Build Step
+                - img [ref=e713]
+            - button "Save" [disabled] [ref=e718]:
+              - generic [ref=e719]: Save
+        - generic [ref=e721]:
+          - generic [ref=e722]:
+            - heading "Node.js Version" [level=4] [ref=e723]:
+              - generic [ref=e724]:
+                - link "Node.js Version" [ref=e725] [cursor=pointer]:
+                  - /url: "#node.js-version"
+                  - generic [ref=e726]: Node.js Version
+                - img [ref=e727]
+            - paragraph [ref=e729]: The Node.js version used during builds and for Serverless Functions. Redeploy to apply changes.
+            - generic [ref=e734]:
+              - combobox [ref=e735] [cursor=pointer]:
+                - option "24.x" [selected]
+                - option "22.x"
+                - option "20.x"
+              - generic:
+                - img
+          - generic [ref=e736]:
+            - paragraph [ref=e738]:
+              - text: Learn more about
+              - link "Node.js Version" [ref=e739] [cursor=pointer]:
+                - /url: /docs/functions/serverless-functions/runtimes/node-js#node.js-version
+                - text: Node.js Version
+                - img [ref=e740]
+            - button "Save" [disabled] [ref=e745]:
+              - generic [ref=e746]: Save
+        - generic [ref=e748]:
+          - generic [ref=e749]:
+            - heading "On-Demand Concurrent Builds" [level=4] [ref=e750]:
+              - generic [ref=e751]:
+                - link "On-Demand Concurrent Builds" [ref=e752] [cursor=pointer]:
+                  - /url: "#on-demand-concurrent-builds"
+                  - generic [ref=e753]: On-Demand Concurrent Builds
+                - img [ref=e754]
+            - paragraph [ref=e756]: Skip the build queue and build deployments immediately. Usage costs apply per build minute.
+            - radiogroup "On-Demand Concurrent Builds" [ref=e757]:
+              - list [ref=e758]:
+                - generic [ref=e760] [cursor=pointer]:
+                  - radio "Run all builds immediately Skip the queue for all builds" [ref=e762]
+                  - generic [ref=e764]:
+                    - generic [ref=e765]: Run all builds immediately
+                    - generic [ref=e766]: Skip the queue for all builds
+                - generic [ref=e768] [cursor=pointer]:
+                  - radio "Run up to one build per branch New deployments within a branch are queued" [ref=e770]
+                  - generic [ref=e772]:
+                    - generic [ref=e773]: Run up to one build per branch
+                    - generic [ref=e774]: New deployments within a branch are queued
+                - generic [ref=e776] [cursor=pointer]:
+                  - radio "Disable on-demand concurrent builds Builds are queued, maximum of one at a time" [checked] [ref=e778]
+                  - generic [ref=e780]:
+                    - generic [ref=e781]: Disable on-demand concurrent builds
+                    - generic [ref=e782]: Builds are queued, maximum of one at a time
+          - paragraph [ref=e785]:
+            - text: This feature is available on the
+            - link "Pro plan" [ref=e786] [cursor=pointer]:
+              - /url: /pricing
+              - text: Pro plan
+              - img [ref=e787]
+        - generic [ref=e791]:
+          - generic [ref=e792]:
+            - heading "Build Machine" [level=4] [ref=e793]:
+              - generic [ref=e794]:
+                - link "Build Machine" [ref=e795] [cursor=pointer]:
+                  - /url: "#build-machine"
+                  - generic [ref=e796]: Build Machine
+                - img [ref=e797]
+            - paragraph [ref=e799]:
+              - text: The next deployment of this project will fallback to
+              - strong [ref=e800]: Standard
+              - text: build machines, because your team has not selected a default build machine.
+            - generic [ref=e802]:
+              - combobox [ref=e803]:
+                - generic [ref=e804]:
+                  - searchbox "Build machine source" [ref=e805]: Inherited from Team
+                  - button "Open menu" [ref=e806] [cursor=pointer]:
+                    - img [ref=e807]
+              - link "Set Team Default" [ref=e809] [cursor=pointer]:
+                - /url: /gabriel3025s-projects/~/settings/build-and-deployment
+                - generic [ref=e810]: Set Team Default
+          - generic [ref=e813]:
+            - text: Learn more about
+            - link "build machine types" [ref=e814] [cursor=pointer]:
+              - /url: /docs/builds/managing-builds#build-machine-types
+              - text: build machine types
+              - img [ref=e815]
+            - text: and
+            - link "pricing" [ref=e817] [cursor=pointer]:
+              - /url: /docs/builds/managing-builds#on-demand-concurrent-builds-pricing
+              - text: pricing
+              - img [ref=e818]
+        - generic [ref=e822]:
+          - generic [ref=e823]:
+            - heading "Deployment Checks" [level=4] [ref=e824]:
+              - generic [ref=e825]:
+                - link "Deployment Checks" [ref=e826] [cursor=pointer]:
+                  - /url: "#deployment-checks"
+                  - generic [ref=e827]: Deployment Checks
+                - img [ref=e828]
+            - generic [ref=e830]:
+              - paragraph [ref=e831]: No checks configured
+              - generic [ref=e833]:
+                - paragraph [ref=e834]: Use events or statuses from your checks provider to determine when a deployment is promoted to Production.
+                - button "Add Checks" [ref=e836] [cursor=pointer]:
+                  - img [ref=e838]
+                  - generic [ref=e840]: Add Checks
+          - paragraph [ref=e843]:
+            - text: Learn more about
+            - link "Deployment Checks" [ref=e844] [cursor=pointer]:
+              - /url: /docs/deployment-checks
+              - text: Deployment Checks
+              - img [ref=e845]
+        - generic [ref=e849]:
+          - generic [ref=e850]:
+            - heading "Rolling Releases" [level=4] [ref=e852]:
+              - link "Rolling Releases" [ref=e853] [cursor=pointer]:
+                - /url: "#rolling-releases"
+                - generic [ref=e854]: Rolling Releases
+                - img [ref=e855]
+            - paragraph [ref=e857]: Roll out changes gradually by defining a traffic percentage for each stage.
+            - generic [ref=e859] [cursor=pointer]:
+              - generic [ref=e860]: Disabled
+              - checkbox "Disabled" [ref=e861]
+          - generic [ref=e865]:
+            - paragraph [ref=e866]:
+              - text: This feature is available on the
+              - link "Pro plan" [ref=e867] [cursor=pointer]:
+                - /url: /pricing
+                - text: Pro plan
+                - img [ref=e868]
+            - button "Save" [disabled] [ref=e870]:
+              - generic [ref=e871]: Save
+        - generic [ref=e873]:
+          - generic [ref=e874]:
+            - heading "Prioritize Production Builds" [level=4] [ref=e875]:
+              - generic [ref=e876]:
+                - link "Prioritize Production Builds" [ref=e877] [cursor=pointer]:
+                  - /url: "#prioritize-production-builds"
+                  - generic [ref=e878]: Prioritize Production Builds
+                - img [ref=e879]
+            - paragraph [ref=e881]: Run Production builds before Pre-Production builds.
+            - generic [ref=e882] [cursor=pointer]:
+              - checkbox "Enabled" [checked] [ref=e884]
+              - text: Enabled
+          - generic [ref=e887]:
+            - paragraph [ref=e889]:
+              - text: Learn more about
+              - link "Prioritize Production Builds" [ref=e890] [cursor=pointer]:
+                - /url: /docs/deployments/concurrent-builds#prioritize-production-builds
+                - text: Prioritize Production Builds
+                - img [ref=e891]
+            - button "Save" [disabled] [ref=e896]:
+              - generic [ref=e897]: Save
+  - alert [ref=e511]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - img

@@ -1,0 +1,48 @@
+[     597ms] [LOG] %c
+▲
+
+    ________   _ __ _          ____           __
+   /  _/ __/  (_) /( )_____   / __/___ ______/ /_
+   / // /_   / / __/// ___/  / /_/ __ `/ ___/ __/
+ _/ // __/  / / /_  (__  )  / __/ /_/ (__  ) /_
+/___/_/    /_/\__/ /____/  /_/  \__,_/____/\__/
+    _ __ _                         _    __                    __
+   (_) /( )_____   ____  ____     | |  / /__  _____________  / /
+  / / __/// ___/  / __ \/ __ \    | | / / _ \/ ___/ ___/ _ \/ /
+ / / /_  (__  )  / /_/ / / / /    | |/ /  __/ /  / /__/  __/ /
+/_/\__/ /____/   \____/_/ /_/     |___/\___/_/   \___/\___/_/
+  
+
+Hello!
+
+- Open Source https://vercel.com/oss
+- Careers https://vercel.com/careers
+- Status https://vercel-status.com
+
+ font-family: "Geist Mono", monospace; white-space: pre; line-height: 1; @ https://vercel.com/_next/static/immutable/chunks/1kb_g4grefj65.js:78
+[    1209ms] [WARNING] iso_swr: SSR fetch failed for "/api/v2/teams/projects" {error: iso_swr_fetch_error, message: Not authorized} @ https://vercel.com/projects:717
+[    2773ms] [WARNING] iso_swr[warn] [client] fallback error for key: "/api/v2/teams/projects" {error: iso_swr_fetch_error, message: Not authorized} @ https://vercel.com/_next/static/immutable/chunks/2l_sd2llvjnkw.js:11
+[    6200ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/v2/teams/projects:0
+[    6363ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/389fqnv9daql5.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/projects:0
+[    6371ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/dash-tips?teamId=projects:0
+[    6401ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/recents?hydrateLimit=30&limit=7&teamId=projects&type=preview:0
+[    6403ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/v2/dashboard/projects?favorites=1&limit=25&teamId=projects:0
+[    6404ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/nav/sidebar/badges?scope=team&teamId=projects:0
+[    6404ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://vercel.com/api/chat/fZeIzKVu2tpNGOtX/stream:0
+[    6504ms] [LOG] Ignored request error CustomFetchError: Not authorized
+    at g (https://vercel.com/_next/static/immutable/chunks/0ou4mifz6nw60.js:2:37338)
+    at async https://vercel.com/_next/static/immutable/chunks/0q2n-_a1u5boo.js:2:12185 @ https://vercel.com/_next/static/immutable/chunks/41qs7_4z_ovpu.js:11
+[    6513ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/vulnerable-projects-severity?teamId=projects:0
+[    6515ms] [LOG] Ignored request error CustomFetchError: You don't have permission to access this resource.
+    at g (https://vercel.com/_next/static/immutable/chunks/0ou4mifz6nw60.js:2:37338)
+    at async revalidateOnFocus (https://vercel.com/_next/static/immutable/chunks/41qs7_4z_ovpu.js:12:3175)
+    at async https://vercel.com/_next/static/immutable/chunks/0q2n-_a1u5boo.js:2:12185 @ https://vercel.com/_next/static/immutable/chunks/41qs7_4z_ovpu.js:11
+[    6529ms] [WARNING] [omniagent] chat stream failed Error: {"error":{"code":"not_found","message":"The requested API endpoint was not found."}}
+    at oS.reconnectToStream (https://vercel.com/_next/static/immutable/chunks/2axfz07t26y9p.js:38:48063)
+    at async ae.makeRequest (https://vercel.com/_next/static/immutable/chunks/2axfz07t26y9p.js:23:47520)
+    at async ae.resumeStream (https://vercel.com/_next/static/immutable/chunks/2axfz07t26y9p.js:23:44598) @ https://vercel.com/_next/static/immutable/chunks/2q-6fmcn5v-eg.js:1
+[    6538ms] [WARNING] Error checking for vulnerabilities CustomFetchError: You don't have permission to access this resource.
+    at y (https://vercel.com/_next/static/immutable/chunks/3gzu7p35iu-r6.js:21:5465)
+    at async https://vercel.com/_next/static/immutable/chunks/3qthi7qyd8b3m.js:2:43843
+    at async https://vercel.com/_next/static/immutable/chunks/0q2n-_a1u5boo.js:2:12185 @ https://vercel.com/_next/static/immutable/chunks/3qthi7qyd8b3m.js:1
+[    6614ms] [WARNING] Deprecated API for given entry type. @ https://vercel.com/_next/static/immutable/chunks/3nvaismgwj9pr.js:18
