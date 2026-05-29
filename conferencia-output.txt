@@ -1,0 +1,347 @@
+[1/49] Atividade cursiva: 5
+[2/49] Jiujistu: 7
+[3/49] Alfabetização: 0
+[4/49] Pacotes de músicas: 0
+[5/49] 200 dinamicas cristã: 0
+[6/49] Croche: 12
+[7/49] Ebook bibílico (Infant): 0
+[8/49] Ficha de Treino: 23
+[9/49] 1.200 Moldes de Papel: 0
+[10/49] Exerc. Anatomia: 0
+[11/49] 100 Brincadeiras Bebês: 15
+[12/49] Moldes em FOAM (Dol): 11
+[13/49] Organização do Lar: 130
+[14/49] DryWall: 0
+[15/49] Tarot: 54
+[16/49] Como plantar: 4
+[17/49] Neuropro: 89
+[18/49] 120 dinamicas infan: 0
+[19/49] Moldes EVA: 0
+[20/49] Airfryer: 10
+[21/49] Saude (Euro): 83
+[22/49] Emagrecimento: 84
+[23/49] 100 Cards Anti-Bullying: 0
+[24/49] Planilha Capivarinha: 24
+[25/49] JiuJistsu (LATAM): 16
+[26/49] Kit Casinhas de Boneca: 0
+[27/49] Kit Figurinhas Educativas: 0
+[28/49] Fichas e Resumos de Letras: 0
+[29/49] Projeto Marcenaria: 3
+[30/49] Bijuteria: 0
+[31/49] Alfabetização: 1
+[32/49] Creme AntRugas (DROP): 19
+[33/49] Atividades Copa do mundo: 15
+[34/49] Calistenia asiática: 100
+[35/49] Religião LATAM: 15
+[36/49] Dinamicas terapeuticas: 0
+[37/49] Hora da Leiturinha: 12
+[38/49] EUAMOAnatomia: 0
+[39/49] Cafajeste (Acompanhar OF): 3
+[40/49] Sono bebe: 0
+[41/49] Painel Campeões: 11
+[42/49] Dinamicas aulas de PTBR: 4
+[43/49] Planilha financeira: 0
+[44/49] Atividades da Pro: 11
+[45/49] Calistenia asiática 2 : 100
+[46/49] Atividades de português: 0
+[47/49] Atividades em segundos: 11
+[48/49] Figurinhaa do filho: 60
+[49/49] Potinho da fé: 21
+
+=== RESUMO ===
+[
+  {
+    "idx": 1,
+    "rowIdx": 1,
+    "produto": "Atividade cursiva",
+    "count": 5
+  },
+  {
+    "idx": 2,
+    "rowIdx": 8,
+    "produto": "Jiujistu",
+    "count": 7
+  },
+  {
+    "idx": 3,
+    "rowIdx": 12,
+    "produto": "Alfabetização",
+    "count": 0
+  },
+  {
+    "idx": 4,
+    "rowIdx": 20,
+    "produto": "Pacotes de músicas",
+    "count": 0
+  },
+  {
+    "idx": 5,
+    "rowIdx": 21,
+    "produto": "200 dinamicas cristã",
+    "count": 0
+  },
+  {
+    "idx": 6,
+    "rowIdx": 24,
+    "produto": "Croche",
+    "count": 12
+  },
+  {
+    "idx": 7,
+    "rowIdx": 26,
+    "produto": "Ebook bibílico (Infant)",
+    "count": 0
+  },
+  {
+    "idx": 8,
+    "rowIdx": 27,
+    "produto": "Ficha de Treino",
+    "count": 23
+  },
+  {
+    "idx": 9,
+    "rowIdx": 28,
+    "produto": "1.200 Moldes de Papel",
+    "count": 0
+  },
+  {
+    "idx": 10,
+    "rowIdx": 29,
+    "produto": "Exerc. Anatomia",
+    "count": 0
+  },
+  {
+    "idx": 11,
+    "rowIdx": 30,
+    "produto": "100 Brincadeiras Bebês",
+    "count": 15
+  },
+  {
+    "idx": 12,
+    "rowIdx": 31,
+    "produto": "Moldes em FOAM (Dol)",
+    "count": 11
+  },
+  {
+    "idx": 13,
+    "rowIdx": 32,
+    "produto": "Organização do Lar",
+    "count": 130
+  },
+  {
+    "idx": 14,
+    "rowIdx": 33,
+    "produto": "DryWall",
+    "count": 0
+  },
+  {
+    "idx": 15,
+    "rowIdx": 34,
+    "produto": "Tarot",
+    "count": 54
+  },
+  {
+    "idx": 16,
+    "rowIdx": 35,
+    "produto": "Como plantar",
+    "count": 4
+  },
+  {
+    "idx": 17,
+    "rowIdx": 36,
+    "produto": "Neuropro",
+    "count": 89
+  },
+  {
+    "idx": 18,
+    "rowIdx": 37,
+    "produto": "120 dinamicas infan",
+    "count": 0
+  },
+  {
+    "idx": 19,
+    "rowIdx": 38,
+    "produto": "Moldes EVA",
+    "count": 0
+  },
+  {
+    "idx": 20,
+    "rowIdx": 39,
+    "produto": "Airfryer",
+    "count": 10
+  },
+  {
+    "idx": 21,
+    "rowIdx": 40,
+    "produto": "Saude (Euro)",
+    "count": 83
+  },
+  {
+    "idx": 22,
+    "rowIdx": 41,
+    "produto": "Emagrecimento",
+    "count": 84
+  },
+  {
+    "idx": 23,
+    "rowIdx": 42,
+    "produto": "100 Cards Anti-Bullying",
+    "count": 0
+  },
+  {
+    "idx": 24,
+    "rowIdx": 43,
+    "produto": "Planilha Capivarinha",
+    "count": 24
+  },
+  {
+    "idx": 25,
+    "rowIdx": 44,
+    "produto": "JiuJistsu (LATAM)",
+    "count": 16
+  },
+  {
+    "idx": 26,
+    "rowIdx": 45,
+    "produto": "Kit Casinhas de Boneca",
+    "count": 0
+  },
+  {
+    "idx": 27,
+    "rowIdx": 46,
+    "produto": "Kit Figurinhas Educativas",
+    "count": 0
+  },
+  {
+    "idx": 28,
+    "rowIdx": 47,
+    "produto": "Fichas e Resumos de Letras",
+    "count": 0
+  },
+  {
+    "idx": 29,
+    "rowIdx": 48,
+    "produto": "Projeto Marcenaria",
+    "count": 3
+  },
+  {
+    "idx": 30,
+    "rowIdx": 49,
+    "produto": "Bijuteria",
+    "count": 0
+  },
+  {
+    "idx": 31,
+    "rowIdx": 50,
+    "produto": "Alfabetização",
+    "count": 1
+  },
+  {
+    "idx": 32,
+    "rowIdx": 51,
+    "produto": "Creme AntRugas (DROP)",
+    "count": 19
+  },
+  {
+    "idx": 33,
+    "rowIdx": 52,
+    "produto": "Atividades Copa do mundo",
+    "count": 15
+  },
+  {
+    "idx": 34,
+    "rowIdx": 53,
+    "produto": "Calistenia asiática",
+    "count": 100
+  },
+  {
+    "idx": 35,
+    "rowIdx": 54,
+    "produto": "Religião LATAM",
+    "count": 15
+  },
+  {
+    "idx": 36,
+    "rowIdx": 55,
+    "produto": "Dinamicas terapeuticas",
+    "count": 0
+  },
+  {
+    "idx": 37,
+    "rowIdx": 56,
+    "produto": "Hora da Leiturinha",
+    "count": 12
+  },
+  {
+    "idx": 38,
+    "rowIdx": 57,
+    "produto": "EUAMOAnatomia",
+    "count": 0
+  },
+  {
+    "idx": 39,
+    "rowIdx": 58,
+    "produto": "Cafajeste (Acompanhar OF)",
+    "count": 3
+  },
+  {
+    "idx": 40,
+    "rowIdx": 59,
+    "produto": "Sono bebe",
+    "count": 0
+  },
+  {
+    "idx": 41,
+    "rowIdx": 60,
+    "produto": "Painel Campeões",
+    "count": 11
+  },
+  {
+    "idx": 42,
+    "rowIdx": 61,
+    "produto": "Dinamicas aulas de PTBR",
+    "count": 4
+  },
+  {
+    "idx": 43,
+    "rowIdx": 62,
+    "produto": "Planilha financeira",
+    "count": 0
+  },
+  {
+    "idx": 44,
+    "rowIdx": 63,
+    "produto": "Atividades da Pro",
+    "count": 11
+  },
+  {
+    "idx": 45,
+    "rowIdx": 64,
+    "produto": "Calistenia asiática 2 ",
+    "count": 100
+  },
+  {
+    "idx": 46,
+    "rowIdx": 65,
+    "produto": "Atividades de português",
+    "count": 0
+  },
+  {
+    "idx": 47,
+    "rowIdx": 66,
+    "produto": "Atividades em segundos",
+    "count": 11
+  },
+  {
+    "idx": 48,
+    "rowIdx": 67,
+    "produto": "Figurinhaa do filho",
+    "count": 60
+  },
+  {
+    "idx": 49,
+    "rowIdx": 68,
+    "produto": "Potinho da fé",
+    "count": 21
+  }
+]
