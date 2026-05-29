@@ -1,3 +1,25 @@
 [    1885ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
 [    2000ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
 [    3697ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/user_progress?select=completed_days&user_id=eq.ddfb17e3-6c2e-4ff9-b354-1e8f81efe475:0
+[   27563ms] [LOG] Login attempt for: gabriel.desouza9@hotmail.com @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   28022ms] [LOG] OTP sent to: gabriel.desouza9@hotmail.com @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   29171ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   29205ms] [LOG] [Fast Refresh] done in 137ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   75197ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   75825ms] [LOG] [Fast Refresh] done in 722ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   75957ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   75966ms] [LOG] [Fast Refresh] done in 120ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   86493ms] [LOG] Login attempt for: gabriel.desouza9@hotmail.com @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   86496ms] [LOG] Attempting auth with: {email: gabriel.desouza9@hotmail.com, password: Aa12ae0f39...} @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   86737ms] [ERROR] Failed to load resource: the server responded with a status of 422 () @ https://zgetngxwievfhcgtfnhx.supabase.co/auth/v1/signup:0
+[   86740ms] [LOG] Signup result: {error: User already registered, user: undefined} @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   87022ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://zgetngxwievfhcgtfnhx.supabase.co/auth/v1/token?grant_type=password:0
+[   87023ms] [LOG] Signin result: {error: Invalid login credentials, session: false} @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   87026ms] [ERROR] Auth error: Invalid login credentials @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:3318
+[  109433ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  109453ms] [LOG] [Fast Refresh] done in 108ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  109572ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  109586ms] [LOG] [Fast Refresh] done in 117ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  139230ms] [LOG] Attempting magic link signin for: gabriel.desouza9+magic@hotmail.com @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  140148ms] [LOG] Magic link sent to: gabriel.desouza9+magic@hotmail.com @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  140662ms] [LOG] Magic link sent - proceeding in dev mode @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477

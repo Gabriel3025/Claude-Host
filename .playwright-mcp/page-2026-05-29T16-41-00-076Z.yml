@@ -1,0 +1,24 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e187] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e188]:
+      - img [ref=e189]
+    - generic [ref=e207]:
+      - button "Open issues overlay" [ref=e208]:
+        - generic [ref=e209]:
+          - generic [ref=e210]: "0"
+          - generic [ref=e211]: "1"
+        - generic [ref=e212]: Issue
+      - button "Collapse issues badge" [ref=e213]:
+        - img [ref=e214]
+  - alert [ref=e192]
+  - generic [ref=e195]:
+    - generic [ref=e196]:
+      - generic [ref=e197]: 🥋
+      - heading "Desafio 21 Dias" [level=1] [ref=e198]
+      - paragraph [ref=e199]: Calistenia Asiática
+    - paragraph [ref=e200]: Insira seu email para começar o desafio
+    - generic [ref=e201]:
+      - textbox "seu@email.com" [ref=e203]: gabriel.desouza9@hotmail.com
+      - paragraph [ref=e217]: Invalid login credentials
+      - button "Continuar com Email" [ref=e204]
+    - paragraph [ref=e206]: 💪 Força, Determinação e Consistência
