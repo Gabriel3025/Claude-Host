@@ -13,6 +13,7 @@ export default function DayPage() {
   const dayId = parseInt(params.dayId as string);
   const { completeDay, completedDays } = useProgressSync();
   const [currentExerciseIndex, setCurrentExerciseIndex] = useState(0);
+  const [sessionCompleted, setSessionCompleted] = useState(false);
 
   const day = EXERCISES_DATA.find((d) => d.dayNumber === dayId);
 
@@ -40,11 +41,15 @@ export default function DayPage() {
       setCurrentExerciseIndex(currentExerciseIndex + 1);
     } else {
       completeDay(dayId);
-      if (dayId < 21) {
-        router.push(`/day/${dayId + 1}`);
-      } else {
-        router.push("/");
-      }
+      setSessionCompleted(true);
+    }
+  };
+
+  const handleContinueToNextDay = () => {
+    if (dayId < 21) {
+      router.push(`/day/${dayId + 1}`);
+    } else {
+      router.push("/");
     }
   };
 
@@ -128,7 +133,7 @@ export default function DayPage() {
         </div>
 
         {/* Day Completion */}
-        {isCompleted && (
+        {sessionCompleted && (
           <div className="mt-8 bg-gradient-to-r from-green-400 to-emerald-500 dark:from-green-600 dark:to-green-700 text-white rounded-lg p-6 text-center shadow-lg dark:shadow-xl">
             <div className="text-4xl mb-3">✅</div>
             <h2 className="text-2xl font-bold mb-2">Dia {dayId} Completo!</h2>
@@ -144,13 +149,7 @@ export default function DayPage() {
             <p className="text-sm font-semibold mb-4">100% dos exercícios completos</p>
 
             <button
-              onClick={() => {
-                if (dayId < 21) {
-                  router.push(`/day/${dayId + 1}`);
-                } else {
-                  router.push("/");
-                }
-              }}
+              onClick={handleContinueToNextDay}
               className="bg-white dark:bg-[var(--bg-card)] text-emerald-600 dark:text-emerald-500 font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 dark:hover:bg-[var(--bg-elevated)] transition-colors"
             >
               {dayId < 21 ? "→ Ir para Dia " + (dayId + 1) : "← Voltar ao Início"}
