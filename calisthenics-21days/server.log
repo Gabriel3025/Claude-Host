@@ -21,3 +21,13 @@
  GET / 200 in 62ms (next.js: 7ms, proxy.ts: 10ms, application-code: 45ms)
  GET /auth 200 in 165ms (next.js: 71ms, proxy.ts: 10ms, application-code: 83ms)
  GET / 200 in 152ms (next.js: 21ms, proxy.ts: 9ms, application-code: 121ms)
+✓ Compiled in 1152ms
+ GET / 200 in 522ms (next.js: 306ms, proxy.ts: 64ms, application-code: 151ms)
+✓ Compiled in 609ms
+ GET / 200 in 349ms (next.js: 186ms, proxy.ts: 41ms, application-code: 122ms)
+ GET / 200 in 292ms (next.js: 85ms, proxy.ts: 29ms, application-code: 178ms)
+ GET /auth 200 in 669ms (next.js: 148ms, proxy.ts: 9ms, application-code: 512ms)
+✓ Compiled in 204ms
+ GET /auth 200 in 353ms (next.js: 94ms, proxy.ts: 56ms, application-code: 203ms)
+ GET /auth 200 in 119ms (next.js: 48ms, proxy.ts: 26ms, application-code: 45ms)
+ GET / 200 in 244ms (next.js: 25ms, proxy.ts: 9ms, application-code: 211ms)
