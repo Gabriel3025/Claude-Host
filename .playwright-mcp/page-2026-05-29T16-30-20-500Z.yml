@@ -1,0 +1,54 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e21] [cursor=pointer]:
+    - img [ref=e22]
+  - alert [ref=e25]
+  - generic [ref=e227]:
+    - generic [ref=e229]:
+      - button "← Voltar" [ref=e230]
+      - generic [ref=e231]:
+        - heading "Dia 2" [level=1] [ref=e232]
+        - paragraph [ref=e233]: ~15 minutos de treino
+      - generic [ref=e234]: 🔄
+    - generic [ref=e235]:
+      - generic [ref=e237]:
+        - generic [ref=e238]: Exercício 1 de 4
+        - generic [ref=e239]: 25%
+      - generic [ref=e242]:
+        - generic [ref=e243]:
+          - img "Pular Corda" [ref=e245]
+          - generic [ref=e246]:
+            - heading "Pular Corda" [level=3] [ref=e247]
+            - paragraph [ref=e248]: 2x30
+            - paragraph [ref=e249]: 2x30 segundos. Ritmo cardíaco elevado.
+        - generic [ref=e250]:
+          - generic [ref=e251]:
+            - generic [ref=e252]: ✓ Completo!
+            - paragraph [ref=e253]: Todas as 2 séries realizadas
+          - button "▶ Próximo Exercício" [ref=e284]
+      - generic [ref=e256]:
+        - heading "Exercícios do Dia" [level=3] [ref=e257]
+        - generic [ref=e258]:
+          - button "▶ Pular Corda 2x30 • 30s descanso" [ref=e259]:
+            - generic [ref=e260]:
+              - generic [ref=e261]: ▶
+              - generic [ref=e262]:
+                - paragraph [ref=e263]: Pular Corda
+                - paragraph [ref=e264]: 2x30 • 30s descanso
+          - button "○ Flexões 3x15 • 60s descanso" [ref=e265]:
+            - generic [ref=e266]:
+              - generic [ref=e267]: ○
+              - generic [ref=e268]:
+                - paragraph [ref=e269]: Flexões
+                - paragraph [ref=e270]: 3x15 • 60s descanso
+          - button "○ Agachamentos 3x20 • 60s descanso" [ref=e271]:
+            - generic [ref=e272]:
+              - generic [ref=e273]: ○
+              - generic [ref=e274]:
+                - paragraph [ref=e275]: Agachamentos
+                - paragraph [ref=e276]: 3x20 • 60s descanso
+          - button "○ Prancha 2x30 • 45s descanso" [ref=e277]:
+            - generic [ref=e278]:
+              - generic [ref=e279]: ○
+              - generic [ref=e280]:
+                - paragraph [ref=e281]: Prancha
+                - paragraph [ref=e282]: 2x30 • 45s descanso

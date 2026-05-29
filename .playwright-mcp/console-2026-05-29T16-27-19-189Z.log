@@ -3,3 +3,219 @@
 [     434ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/user_progress?select=completed_days&user_id=eq.faa0a1b7-b110-4201-a7d4-7d6095dd0e53:0
 [    6376ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
 [    6399ms] [LOG] [Fast Refresh] done in 126ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   23508ms] [ERROR] Failed to load resource: the server responded with a status of 422 () @ https://zgetngxwievfhcgtfnhx.supabase.co/auth/v1/signup:0
+[   23787ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://zgetngxwievfhcgtfnhx.supabase.co/auth/v1/token?grant_type=password:0
+[   49582ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   50377ms] [LOG] [Fast Refresh] done in 897ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   50525ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   50730ms] [LOG] [Fast Refresh] done in 308ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   65764ms] [ERROR] Failed to load resource: the server responded with a status of 422 () @ https://zgetngxwievfhcgtfnhx.supabase.co/auth/v1/signup:0
+[   66296ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://zgetngxwievfhcgtfnhx.supabase.co/auth/v1/token?grant_type=password:0
+[   66300ms] [ERROR] Sign in error: AuthApiError: Invalid login credentials
+    at handleError (http://localhost:3000/_next/static/chunks/07qn_03_0ljq._.js:16539:11)
+    at async _handleRequest (http://localhost:3000/_next/static/chunks/07qn_03_0ljq._.js:16589:9)
+    at async _request (http://localhost:3000/_next/static/chunks/07qn_03_0ljq._.js:16569:18)
+    at async SupabaseAuthClient.signInWithPassword (http://localhost:3000/_next/static/chunks/07qn_03_0ljq._.js:20041:23)
+    at async loginWithEmail (http://localhost:3000/_next/static/chunks/Claude%20(Host)_calisthenics-21days_0epg.a5._.js?id=%255Bproject%255D%252FClaude+%2528Host%2529%252Fcalisthenics-21days%252Flib%252FuseAuth.ts+%255Bapp-client%255D+%2528ecmascript%2529:60:44)
+    at async handleSubmit (http://localhost:3000/_next/static/chunks/Claude%20(Host)_calisthenics-21days_0epg.a5._.js:139:24) @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:3318
+[   66303ms] [ERROR] Login error: AuthApiError: Invalid login credentials
+    at handleError (http://localhost:3000/_next/static/chunks/07qn_03_0ljq._.js:16539:11)
+    at async _handleRequest (http://localhost:3000/_next/static/chunks/07qn_03_0ljq._.js:16589:9)
+    at async _request (http://localhost:3000/_next/static/chunks/07qn_03_0ljq._.js:16569:18)
+    at async SupabaseAuthClient.signInWithPassword (http://localhost:3000/_next/static/chunks/07qn_03_0ljq._.js:20041:23)
+    at async loginWithEmail (http://localhost:3000/_next/static/chunks/Claude%20(Host)_calisthenics-21days_0epg.a5._.js?id=%255Bproject%255D%252FClaude+%2528Host%2529%252Fcalisthenics-21days%252Flib%252FuseAuth.ts+%255Bapp-client%255D+%2528ecmascript%2529:60:44)
+    at async handleSubmit (http://localhost:3000/_next/static/chunks/Claude%20(Host)_calisthenics-21days_0epg.a5._.js:139:24) @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:3318
+[   66424ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   66454ms] [LOG] [Fast Refresh] done in 129ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   83493ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   83524ms] [LOG] [Fast Refresh] done in 124ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   83655ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   83757ms] [LOG] [Fast Refresh] done in 208ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   93053ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   93089ms] [ERROR] ./Claude (Host)/calisthenics-21days/lib/useAuth.ts:68:35
+the name `data` is defined multiple times
+  66 |
+  67 |       // Now try signin (works for both new and existing users)
+> 68 |       const { error: signinError, data } = await supabase.auth.signInWithPassword({
+     |                                   ^^^^
+  69 |         email,
+  70 |         password,
+  71 |       });
+
+Ecmascript file had an error
+
+Import traces:
+  Client Component Browser:
+    ./Claude (Host)/calisthenics-21days/lib/useAuth.ts [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Claude (Host)/calisthenics-21days/lib/useAuth.ts [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:3318
+[   93270ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   93490ms] [ERROR] ./Claude (Host)/calisthenics-21days/lib/useAuth.ts:68:35
+the name `data` is defined multiple times
+  66 |
+  67 |       // Now try signin (works for both new and existing users)
+> 68 |       const { error: signinError, data } = await supabase.auth.signInWithPassword({
+     |                                   ^^^^
+  69 |         email,
+  70 |         password,
+  71 |       });
+
+Ecmascript file had an error
+
+Import traces:
+  Client Component Browser:
+    ./Claude (Host)/calisthenics-21days/lib/useAuth.ts [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Claude (Host)/calisthenics-21days/lib/useAuth.ts [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:3318
+[   93490ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/auth?_rsc=RH9NXjHk3icPl7Qw:0
+[   93566ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/auth:0
+[   93672ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/07qn_react-dom_0hm4u6q._.js:15305
+[   93816ms] Error: ./Claude (Host)/calisthenics-21days/lib/useAuth.ts:68:35
+the name `data` is defined multiple times
+  66 |
+  67 |       // Now try signin (works for both new and existing users)
+> 68 |       const { error: signinError, data } = await supabase.auth.signInWithPassword({
+     |                                   ^^^^
+  69 |         email,
+  70 |         password,
+  71 |       });
+
+Ecmascript file had an error
+
+Import traces:
+  Client Component Browser:
+    ./Claude (Host)/calisthenics-21days/lib/useAuth.ts [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Claude (Host)/calisthenics-21days/lib/useAuth.ts [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./Claude (Host)/calisthenics-21days/lib/useAuth.ts:68:35)
+    at Object.getCompilationErrors (file://C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file://C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\node_modules\next\dist\server\lib\dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file://C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\node_modules\next\dist\server\dev\next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file://C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\node_modules\next\dist\server\dev\next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\node_modules\next\dist\server\base-server.js:1753:26)
+[   93818ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1226
+[   93838ms] [ERROR] ./Claude (Host)/calisthenics-21days/lib/useAuth.ts:68:35
+the name `data` is defined multiple times
+  66 |
+  67 |       // Now try signin (works for both new and existing users)
+> 68 |       const { error: signinError, data } = await supabase.auth.signInWithPassword({
+     |                                   ^^^^
+  69 |         email,
+  70 |         password,
+  71 |       });
+
+Ecmascript file had an error
+
+Import traces:
+  Client Component Browser:
+    ./Claude (Host)/calisthenics-21days/lib/useAuth.ts [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Claude (Host)/calisthenics-21days/lib/useAuth.ts [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1945
+[   93900ms] [ERROR] ./Claude (Host)/calisthenics-21days/lib/useAuth.ts:68:35
+the name `data` is defined multiple times
+  66 |
+  67 |       // Now try signin (works for both new and existing users)
+> 68 |       const { error: signinError, data } = await supabase.auth.signInWithPassword({
+     |                                   ^^^^
+  69 |         email,
+  70 |         password,
+  71 |       });
+
+Ecmascript file had an error
+
+Import traces:
+  Client Component Browser:
+    ./Claude (Host)/calisthenics-21days/lib/useAuth.ts [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Claude (Host)/calisthenics-21days/lib/useAuth.ts [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1945
+[   94043ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1226
+[   94044ms] [ERROR] ./Claude (Host)/calisthenics-21days/lib/useAuth.ts:68:35
+the name `data` is defined multiple times
+  66 |
+  67 |       // Now try signin (works for both new and existing users)
+> 68 |       const { error: signinError, data } = await supabase.auth.signInWithPassword({
+     |                                   ^^^^
+  69 |         email,
+  70 |         password,
+  71 |       });
+
+Ecmascript file had an error
+
+Import traces:
+  Client Component Browser:
+    ./Claude (Host)/calisthenics-21days/lib/useAuth.ts [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Claude (Host)/calisthenics-21days/lib/useAuth.ts [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1945
+[  100863ms] [ERROR] ./Claude (Host)/calisthenics-21days/lib/useAuth.ts:68:35
+the name `data` is defined multiple times
+  66 |
+  67 |       // Now try signin (works for both new and existing users)
+> 68 |       const { error: signinError, data } = await supabase.auth.signInWithPassword({
+     |                                   ^^^^
+  69 |         email,
+  70 |         password,
+  71 |       });
+
+Ecmascript file had an error
+
+Import traces:
+  Client Component Browser:
+    ./Claude (Host)/calisthenics-21days/lib/useAuth.ts [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Client Component Browser]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Claude (Host)/calisthenics-21days/lib/useAuth.ts [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Client Component SSR]
+    ./Claude (Host)/calisthenics-21days/app/auth/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1945
+[  100919ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1226
+[  105806ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1226
+[  105833ms] [LOG] [Fast Refresh] done in 81ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1226
+[  105977ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1226
+[  106164ms] [LOG] [Fast Refresh] done in 292ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1226
+[  106269ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  106311ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  119472ms] [LOG] Attempting signup with: {email: teste@novo.com, password: Calfd5c7af...} @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  120903ms] [LOG] Signin result: {signinError: null, hasSession: true} @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  121038ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  121057ms] [LOG] [Fast Refresh] done in 128ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  134277ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  134302ms] [LOG] [Fast Refresh] done in 130ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  134777ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/user_progress?select=completed_days&user_id=eq.91f013a9-a09f-4fc4-866a-35ead7bc3079:0
+[  134952ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/user_progress?select=completed_days&user_id=eq.91f013a9-a09f-4fc4-866a-35ead7bc3079:0
+[  149970ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/user_progress?select=completed_days&user_id=eq.91f013a9-a09f-4fc4-866a-35ead7bc3079:0
+[  150142ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/user_progress?select=completed_days&user_id=eq.91f013a9-a09f-4fc4-866a-35ead7bc3079:0
+[  208173ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/user_progress?select=completed_days&user_id=eq.91f013a9-a09f-4fc4-866a-35ead7bc3079:0
+[  208630ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/user_progress?select=completed_days&user_id=eq.91f013a9-a09f-4fc4-866a-35ead7bc3079:0

@@ -39,32 +39,47 @@ export function useAuth() {
 
   const loginWithEmail = async (email: string) => {
     try {
-      // Create a deterministic password from email
-      // This ensures the same password is used if user exists
-      const hash = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(email));
-      const hashArray = Array.from(new Uint8Array(hash));
+      // Create deterministic password from email
+      const encoder = new TextEncoder();
+      const data = encoder.encode(email + "calisthenics21");
+      const hashBuffer = await crypto.subtle.digest("SHA-256", data);
+      const hashArray = Array.from(new Uint8Array(hashBuffer));
       const hashHex = hashArray.map(b => b.toString(16).padStart(2, "0")).join("");
-      const password = hashHex.substring(0, 32);
 
-      // Try to sign up
-      await supabase.auth.signUp({
+      // Create strong password: Uppercase + Lowercase + Numbers + Special chars
+      const password = "Cal" + hashHex.substring(0, 25) + "!#$";
+
+      console.log("Attempting signup with:", { email, password: password.substring(0, 10) + "..." });
+
+      // Try signup first
+      const { error: signupError } = await supabase.auth.signUp({
         email,
         password,
         options: {
-          emailRedirectTo: undefined, // No email confirmation
+          emailRedirectTo: undefined,
         },
       });
 
-      // Try to sign in (works whether user was just created or already existed)
-      const { error: signInError } = await supabase.auth.signInWithPassword({
+      if (signupError && signupError.message !== "User already registered") {
+        console.error("Signup error:", signupError);
+      }
+
+      // Now try signin (works for both new and existing users)
+      const { error: signinError, data: signinData } = await supabase.auth.signInWithPassword({
         email,
         password,
       });
 
-      if (signInError) throw signInError;
+      console.log("Signin result:", { signinError, hasSession: !!signinData?.session });
+
+      if (signinError) {
+        throw signinError;
+      }
+
       return { success: true };
     } catch (error: any) {
-      return { success: false, error: error.message };
+      console.error("Login error details:", error);
+      return { success: false, error: error.message || "Erro ao fazer login" };
     }
   };
 
