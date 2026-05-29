@@ -17,3 +17,7 @@
 
 ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
 
+ GET / 200 in 700ms (next.js: 247ms, proxy.ts: 105ms, application-code: 348ms)
+ GET / 200 in 62ms (next.js: 7ms, proxy.ts: 10ms, application-code: 45ms)
+ GET /auth 200 in 165ms (next.js: 71ms, proxy.ts: 10ms, application-code: 83ms)
+ GET / 200 in 152ms (next.js: 21ms, proxy.ts: 9ms, application-code: 121ms)
