@@ -1,0 +1,55 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - button "← Voltar" [ref=e5]
+      - generic [ref=e6]:
+        - heading "Dia 3" [level=1] [ref=e7]
+        - paragraph [ref=e8]: ~15 minutos de treino
+      - generic [ref=e11]: 🔄
+    - generic [ref=e12]:
+      - generic [ref=e14]:
+        - generic [ref=e15]: Exercício 1 de 4
+        - generic [ref=e16]: 25%
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - img "Escaladores" [ref=e22]
+          - generic [ref=e23]:
+            - heading "Escaladores" [level=3] [ref=e24]
+            - paragraph [ref=e25]: 2x30
+            - paragraph [ref=e26]: 2x30 segundos. Aqueça o corpo rapidamente.
+        - generic [ref=e27]:
+          - paragraph [ref=e29]: 0/2 séries concluídas
+          - generic [ref=e30]:
+            - button "1" [ref=e31]
+            - button "2" [ref=e32]
+          - paragraph [ref=e34]: 30 repetições • 30s descanso
+          - button "⊘ Pular Exercício" [ref=e36]
+      - generic [ref=e37]:
+        - heading "Exercícios do Dia" [level=3] [ref=e38]
+        - generic [ref=e39]:
+          - button "▶ Escaladores 2x30 • 30s descanso" [ref=e40]:
+            - generic [ref=e41]:
+              - generic [ref=e42]: ▶
+              - generic [ref=e43]:
+                - paragraph [ref=e44]: Escaladores
+                - paragraph [ref=e45]: 2x30 • 30s descanso
+          - button "○ Flexões 3x20 • 60s descanso" [ref=e46]:
+            - generic [ref=e47]:
+              - generic [ref=e48]: ○
+              - generic [ref=e49]:
+                - paragraph [ref=e50]: Flexões
+                - paragraph [ref=e51]: 3x20 • 60s descanso
+          - button "○ Agachamentos 3x25 • 60s descanso" [ref=e52]:
+            - generic [ref=e53]:
+              - generic [ref=e54]: ○
+              - generic [ref=e55]:
+                - paragraph [ref=e56]: Agachamentos
+                - paragraph [ref=e57]: 3x25 • 60s descanso
+          - button "○ Prancha 3x45 • 45s descanso" [ref=e58]:
+            - generic [ref=e59]:
+              - generic [ref=e60]: ○
+              - generic [ref=e61]:
+                - paragraph [ref=e62]: Prancha
+                - paragraph [ref=e63]: 3x45 • 45s descanso
+  - button "Open Next.js Dev Tools" [ref=e69] [cursor=pointer]:
+    - img [ref=e70]
