@@ -30,16 +30,16 @@ export function DayCard({ dayNumber, isCompleted, isCurrent, onUndo }: DayCardPr
         <div
           className={`rounded-lg border-2 p-4 cursor-pointer transition-all transform hover:scale-105 ${
             isCompleted
-              ? "border-green-500 bg-green-50"
+              ? "border-green-500 bg-green-50 dark:bg-green-900/20 dark:border-green-700"
               : isCurrent
-                ? "border-orange-500 bg-orange-50 shadow-lg"
-                : "border-gray-200 bg-white hover:border-orange-300"
+                ? "border-orange-500 bg-orange-50 shadow-lg dark:bg-[var(--bg-elevated)] dark:border-[var(--accent)] dark:shadow-lg"
+                : "border-[var(--border)] bg-[var(--bg-card)] hover:border-orange-300 dark:hover:border-[var(--accent)]"
           }`}
         >
           <div className="flex items-center justify-between">
             <div>
-              <h3 className="text-lg font-bold text-gray-800">Dia {dayNumber}</h3>
-              <p className="text-sm text-gray-600">
+              <h3 className="text-lg font-bold text-[var(--text-primary)]">Dia {dayNumber}</h3>
+              <p className="text-sm text-[var(--text-secondary)]">
                 {dayNumber === 14 ? "Descanso relativo" : "~15 minutos"}
               </p>
             </div>
@@ -49,7 +49,7 @@ export function DayCard({ dayNumber, isCompleted, isCurrent, onUndo }: DayCardPr
           </div>
 
           {isCurrent && (
-            <div className="mt-3 bg-orange-200 text-orange-800 text-xs font-semibold px-2 py-1 rounded-full inline-block">
+            <div className="mt-3 bg-orange-200 text-orange-800 dark:bg-[var(--accent)] dark:text-black text-xs font-semibold px-2 py-1 rounded-full inline-block">
               Começar agora
             </div>
           )}
