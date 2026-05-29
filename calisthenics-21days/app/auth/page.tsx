@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@/lib/useAuth";
 import { supabase } from "@/lib/supabase";
@@ -12,6 +12,19 @@ export default function AuthPage() {
   const [error, setError] = useState("");
   const router = useRouter();
   const { loginWithEmail } = useAuth();
+
+  // Force dark mode on auth pages
+  useEffect(() => {
+    const html = document.documentElement;
+    const wasDark = html.classList.contains("dark");
+    html.classList.add("dark");
+
+    return () => {
+      if (!wasDark) {
+        html.classList.remove("dark");
+      }
+    };
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -69,12 +82,12 @@ export default function AuthPage() {
         <div className="bg-[var(--bg-card)] rounded-lg shadow-xl p-8">
           {/* Header */}
           <div className="text-center mb-8">
-            <div className="mb-6 flex justify-center">
+            <div className="mb-8 flex justify-center">
               <img
                 src="/logo.png"
                 alt="Calistenia Asiática Logo"
-                width={160}
-                height={160}
+                width={220}
+                height={220}
                 className="drop-shadow-lg"
               />
             </div>

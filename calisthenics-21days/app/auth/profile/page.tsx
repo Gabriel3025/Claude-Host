@@ -30,6 +30,19 @@ export default function ProfilePage() {
     getUser();
   }, [router]);
 
+  // Force dark mode on auth pages
+  useEffect(() => {
+    const html = document.documentElement;
+    const wasDark = html.classList.contains("dark");
+    html.classList.add("dark");
+
+    return () => {
+      if (!wasDark) {
+        html.classList.remove("dark");
+      }
+    };
+  }, []);
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
