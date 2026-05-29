@@ -1,0 +1,332 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e197]:
+      - banner [ref=e199]:
+        - generic [ref=e200]:
+          - generic [ref=e201]:
+            - link "Supabase" [ref=e202] [cursor=pointer]:
+              - /url: /dashboard/org/dreelmauwsthnbpazhwy
+              - img "Supabase" [ref=e203]
+            - generic [ref=e204]:
+              - img [ref=e206]
+              - generic [ref=e208]:
+                - link "Gabriel3025's Org Free" [ref=e209] [cursor=pointer]:
+                  - /url: /dashboard/org/dreelmauwsthnbpazhwy
+                  - img [ref=e210]
+                  - generic [ref=e220]: Gabriel3025's Org
+                  - generic [ref=e221]: Free
+                - button [ref=e222] [cursor=pointer]:
+                  - img [ref=e224]
+              - generic [ref=e227]:
+                - img [ref=e229]
+                - generic [ref=e231]:
+                  - link "Gabriel3025's Project" [ref=e232] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                    - img [ref=e233]
+                    - generic "Gabriel3025's Project" [ref=e236]
+                  - button [ref=e237] [cursor=pointer]:
+                    - img [ref=e239]
+                - img [ref=e243]
+                - generic [ref=e245]:
+                  - link "main Production" [ref=e246] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                    - generic "main" [ref=e247]
+                    - generic [ref=e248]: Production
+                  - button [ref=e249] [cursor=pointer]:
+                    - img [ref=e251]
+            - button "Connect" [ref=e255] [cursor=pointer]:
+              - img [ref=e257]
+              - generic [ref=e259]: Connect
+          - generic [ref=e260]:
+            - generic [ref=e262] [cursor=pointer]: Feedback
+            - generic [ref=e263]:
+              - button "Search..." [ref=e264]:
+                - generic [ref=e265]:
+                  - img [ref=e266]
+                  - paragraph [ref=e269]: Search...
+                - generic [ref=e271]: Ctrl K
+              - button "Help" [ref=e272] [cursor=pointer]:
+                - generic [ref=e273]:
+                  - img [ref=e274]
+                  - generic [ref=e277]: Help
+              - button "Advisor Center" [ref=e279] [cursor=pointer]:
+                - generic [ref=e280]:
+                  - img [ref=e281]
+                  - generic [ref=e283]: Advisor Center
+              - button "SQL Editor" [ref=e284] [cursor=pointer]:
+                - generic [ref=e285]:
+                  - img [ref=e286]
+                  - generic [ref=e288]: SQL Editor
+              - button "AI Assistant" [ref=e289] [cursor=pointer]:
+                - generic [ref=e290]:
+                  - img [ref=e293]
+                  - generic [ref=e296]: AI Assistant
+            - button "Gabriel3025" [ref=e297] [cursor=pointer]:
+              - img "Gabriel3025" [ref=e299]
+      - generic [ref=e300]:
+        - generic [ref=e304]:
+          - list [ref=e307]:
+            - generic [ref=e308]:
+              - listitem [ref=e309]:
+                - link "Project Overview" [ref=e310] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                  - img [ref=e311]
+                  - generic: Project Overview
+              - listitem [ref=e313]:
+                - link "Table Editor" [ref=e314] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/editor
+                  - img [ref=e315]
+                  - generic: Table Editor
+              - listitem [ref=e317]:
+                - link "SQL Editor" [ref=e318] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/sql
+                  - img [ref=e319]
+                  - generic: SQL Editor
+            - generic [ref=e321]:
+              - listitem [ref=e322]:
+                - link "Database" [ref=e323] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/database/schemas
+                  - img [ref=e324]
+                  - generic: Database
+              - listitem [ref=e328]:
+                - link "Authentication" [ref=e329] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/users
+                  - img [ref=e330]
+                  - generic: Authentication
+              - listitem [ref=e332]:
+                - link "Storage" [ref=e333] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/storage/files
+                  - img [ref=e334]
+                  - generic: Storage
+              - listitem [ref=e336]:
+                - link "Edge Functions" [ref=e337] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/functions
+                  - img [ref=e338]
+                  - generic: Edge Functions
+              - listitem [ref=e343]:
+                - link "Realtime" [ref=e344] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/realtime/inspector
+                  - img [ref=e345]
+                  - generic: Realtime
+            - generic [ref=e347]:
+              - listitem [ref=e349]:
+                - link "Advisors" [ref=e350] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/advisors/security
+                  - img [ref=e351]
+                  - generic: Advisors
+              - listitem [ref=e353]:
+                - link "Observability" [ref=e354] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/observability
+                  - img [ref=e355]
+                  - generic: Observability
+              - listitem [ref=e363]:
+                - link "Logs" [ref=e364] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/logs/explorer
+                  - img [ref=e365]
+                  - generic: Logs
+              - listitem [ref=e366]:
+                - link "Integrations" [ref=e367] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/integrations
+                  - img [ref=e368]
+                  - generic: Integrations
+            - listitem [ref=e372]:
+              - link "Project Settings" [ref=e373] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/general
+                - img [ref=e374]
+                - generic: Project Settings
+          - button "Sidebar control" [ref=e379] [cursor=pointer]:
+            - img [ref=e381]
+        - generic [ref=e807]:
+          - generic [ref=e811]:
+            - heading "Settings" [level=4] [ref=e813]
+            - menu "Sidebar" [disabled] [ref=e816]:
+              - list [ref=e817]:
+                - generic [ref=e820]:
+                  - generic [ref=e824]: Configuration
+                  - generic [ref=e825]:
+                    - link "General" [disabled] [ref=e826] [cursor=pointer]:
+                      - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/general
+                      - menuitem "General" [disabled] [ref=e827]:
+                        - generic [ref=e831]: General
+                    - link "Compute and Disk" [disabled] [ref=e832] [cursor=pointer]:
+                      - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/compute-and-disk
+                      - menuitem "Compute and Disk" [disabled] [ref=e833]:
+                        - generic [ref=e837]: Compute and Disk
+                    - link "Infrastructure" [disabled] [ref=e838] [cursor=pointer]:
+                      - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/infrastructure
+                      - menuitem "Infrastructure" [disabled] [ref=e839]:
+                        - generic [ref=e843]: Infrastructure
+                    - link "Integrations" [disabled] [ref=e844] [cursor=pointer]:
+                      - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/integrations
+                      - menuitem "Integrations" [disabled] [ref=e845]:
+                        - generic [ref=e849]: Integrations
+                    - link "API Keys" [disabled] [ref=e850] [cursor=pointer]:
+                      - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/api-keys
+                      - menuitem "API Keys" [disabled] [ref=e851]:
+                        - generic [ref=e855]: API Keys
+                    - link "JWT Keys" [disabled] [ref=e856] [cursor=pointer]:
+                      - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/jwt
+                      - menuitem "JWT Keys" [disabled] [ref=e857]:
+                        - generic [ref=e861]: JWT Keys
+                    - link "Log Drains" [disabled] [ref=e862] [cursor=pointer]:
+                      - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/log-drains
+                      - menuitem "Log Drains" [disabled] [ref=e863]:
+                        - generic [ref=e867]: Log Drains
+                    - link "Add-ons" [disabled] [ref=e868] [cursor=pointer]:
+                      - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/addons
+                      - menuitem "Add-ons" [disabled] [ref=e869]:
+                        - generic [ref=e873]: Add-ons
+                - generic [ref=e877]:
+                  - generic [ref=e881]: Integrations
+                  - generic [ref=e882]:
+                    - link "Data API" [disabled] [ref=e883] [cursor=pointer]:
+                      - /url: /dashboard/project/zgetngxwievfhcgtfnhx/integrations/data_api/overview
+                      - menuitem "Data API" [disabled] [ref=e884]:
+                        - generic [ref=e886]:
+                          - generic "Data API" [ref=e887]:
+                            - generic [ref=e888]: Data API
+                          - img [ref=e890]
+                    - link "Vault Beta" [disabled] [ref=e893] [cursor=pointer]:
+                      - /url: /dashboard/project/zgetngxwievfhcgtfnhx/integrations/vault/overview
+                      - menuitem "Vault Beta" [disabled] [ref=e894]:
+                        - generic [ref=e896]:
+                          - generic "Vault" [ref=e897]:
+                            - generic [ref=e898]: Vault
+                            - generic [ref=e899]: Beta
+                          - img [ref=e901]
+                - generic [ref=e907]:
+                  - generic [ref=e911]: Billing
+                  - generic [ref=e912]:
+                    - link "Subscription" [disabled] [ref=e913] [cursor=pointer]:
+                      - /url: /dashboard/org/dreelmauwsthnbpazhwy/billing
+                      - menuitem "Subscription" [disabled] [ref=e914]:
+                        - generic [ref=e916]:
+                          - generic "Subscription" [ref=e917]:
+                            - generic [ref=e918]: Subscription
+                          - img [ref=e920]
+                    - link "Usage" [disabled] [ref=e923] [cursor=pointer]:
+                      - /url: /dashboard/org/dreelmauwsthnbpazhwy/usage?projectRef=zgetngxwievfhcgtfnhx
+                      - menuitem "Usage" [disabled] [ref=e924]:
+                        - generic [ref=e926]:
+                          - generic "Usage" [ref=e927]:
+                            - generic [ref=e928]: Usage
+                          - img [ref=e930]
+          - separator [disabled] [ref=e933]:
+            - img [ref=e935]
+          - main [ref=e944]:
+            - generic [ref=e945]:
+              - generic [ref=e946]:
+                - generic [ref=e948]:
+                  - generic [ref=e951]:
+                    - heading "API Keys" [level=1] [ref=e952]
+                    - paragraph [ref=e953]: Configure API keys to securely control access to your project
+                  - link "Docs" [ref=e956] [cursor=pointer]:
+                    - /url: https://supabase.com/docs/guides/api/api-keys
+                    - img [ref=e958]
+                    - generic [ref=e961]: Docs
+                - navigation [ref=e962]:
+                  - menu [ref=e963]:
+                    - listitem [ref=e964]:
+                      - link "Publishable and secret API keys" [ref=e965] [cursor=pointer]:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/api-keys
+                    - listitem [ref=e966]:
+                      - link "Legacy anon, service_role API keys" [ref=e967] [cursor=pointer]:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/api-keys/legacy
+              - generic [ref=e968]:
+                - generic [ref=e969]:
+                  - generic [ref=e970]:
+                    - paragraph [ref=e971]: Your new API keys are here
+                    - paragraph [ref=e972]:
+                      - text: We've updated our API keys to better support your application needs.
+                      - link "Join the discussion on GitHub" [ref=e973] [cursor=pointer]:
+                        - /url: https://github.com/orgs/supabase/discussions/29260
+                        - text: Join the discussion on GitHub
+                        - img [ref=e974]
+                  - paragraph [ref=e979]:
+                    - text: Having trouble with the new API keys?
+                    - link "Contact support" [ref=e980] [cursor=pointer]:
+                      - /url: /dashboard/support/new?category=Problem&subject=Help+with+API+keys
+                  - button "Dismiss notification" [ref=e982] [cursor=pointer]:
+                    - img [ref=e984]
+                - generic [ref=e987]:
+                  - generic [ref=e988]:
+                    - generic [ref=e989]:
+                      - generic [ref=e990]:
+                        - heading "Publishable key" [level=3] [ref=e991]
+                        - paragraph [ref=e992]: This key is safe to use in a browser if you have enabled Row Level Security (RLS) for your tables and configured policies.
+                      - button "New publishable key" [ref=e994] [cursor=pointer]:
+                        - img [ref=e996]
+                        - generic [ref=e997]: New publishable key
+                    - table [ref=e1001]:
+                      - rowgroup [ref=e1002]:
+                        - row "Name API Key" [ref=e1003]:
+                          - columnheader "Name" [ref=e1004]
+                          - columnheader "API Key" [ref=e1005]
+                          - columnheader [ref=e1006]
+                      - rowgroup [ref=e1007]:
+                        - row "default No description sb_publishable_cQ2_Fv8cJej62FOk6p5ICQ_YeNPyOlO" [ref=e1008]:
+                          - cell "default No description" [ref=e1009]:
+                            - generic [ref=e1010]:
+                              - generic [ref=e1011]: default
+                              - generic [ref=e1012]: No description
+                          - cell "sb_publishable_cQ2_Fv8cJej62FOk6p5ICQ_YeNPyOlO" [ref=e1013]:
+                            - generic [ref=e1014]:
+                              - generic "sb_publishable_cQ2_Fv8cJej62FOk6p5ICQ_YeNPyOlO" [ref=e1016]
+                              - button [ref=e1017] [cursor=pointer]:
+                                - img [ref=e1019]
+                          - cell [ref=e1022]:
+                            - button [ref=e1024] [cursor=pointer]:
+                              - img [ref=e1026]
+                      - rowgroup [ref=e1030]:
+                        - row "Publishable keys can be safely shared publicly" [ref=e1031]:
+                          - cell "Publishable keys can be safely shared publicly" [ref=e1032]:
+                            - paragraph [ref=e1033]: Publishable keys can be safely shared publicly
+                  - generic [ref=e1034]:
+                    - generic [ref=e1035]:
+                      - generic [ref=e1036]:
+                        - heading "Secret keys" [level=3] [ref=e1037]
+                        - paragraph [ref=e1038]: These API keys allow privileged access to your project's APIs. Use in servers, functions, workers or other backend components of your application.
+                      - button "New secret key" [ref=e1040] [cursor=pointer]:
+                        - img [ref=e1042]
+                        - generic [ref=e1043]: New secret key
+                    - table [ref=e1047]:
+                      - rowgroup [ref=e1048]:
+                        - row "Name API Key" [ref=e1049]:
+                          - columnheader "Name" [ref=e1050]
+                          - columnheader "API Key" [ref=e1051]
+                          - columnheader [ref=e1052]
+                      - rowgroup [ref=e1053]:
+                        - row "default No description sb_secret_Fn3u6 ••••••••••••••••" [ref=e1054]:
+                          - cell "default No description" [ref=e1055]:
+                            - generic [ref=e1056]:
+                              - generic [ref=e1057]: default
+                              - generic [ref=e1058]: No description
+                          - cell "sb_secret_Fn3u6 ••••••••••••••••" [ref=e1059]:
+                            - generic [ref=e1060]:
+                              - generic [ref=e1061]:
+                                - generic [ref=e1062]: sb_secret_Fn3u6
+                                - generic [ref=e1063]: ••••••••••••••••
+                              - button [ref=e1064] [cursor=pointer]:
+                                - img [ref=e1066]
+                              - button [ref=e1069] [cursor=pointer]:
+                                - img [ref=e1071]
+                          - cell [ref=e1074]:
+                            - button [ref=e1076] [cursor=pointer]:
+                              - img [ref=e1078]
+    - generic [ref=e789]:
+      - generic:
+        - img "Background pattern"
+      - generic [ref=e790]:
+        - button "Close banner" [ref=e792] [cursor=pointer]:
+          - img [ref=e794]
+        - generic [ref=e797]:
+          - generic [ref=e798]: Notice
+          - generic [ref=e799]:
+            - paragraph [ref=e800]: We've updated our Terms of Service
+            - paragraph [ref=e801]: Updates define the responsibilities of both you and Supabase in the use of AI.
+          - button "Learn more" [ref=e802] [cursor=pointer]:
+            - generic [ref=e803]: Learn more
+  - alert [ref=e175]: API Keys | Settings | Gabriel3025's Project | Gabriel3025's Org | Supabase
+  - generic [ref=e804]:
+    - alert
+    - alert

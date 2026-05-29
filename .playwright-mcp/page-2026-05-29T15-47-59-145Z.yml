@@ -1,0 +1,15 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 🥋
+      - heading "Desafio 21 Dias" [level=1] [ref=e7]
+      - paragraph [ref=e8]: Calistenia Asiática
+    - paragraph [ref=e9]: Insira seu email para começar o desafio
+    - generic [ref=e10]:
+      - textbox "seu@email.com" [ref=e12]: gabriel@example.com
+      - paragraph [ref=e29]: Email address "gabriel@example.com" is invalid
+      - button "Continuar com Email" [ref=e13]
+    - paragraph [ref=e15]: 💪 Força, Determinação e Consistência
+  - button "Open Next.js Dev Tools" [ref=e21] [cursor=pointer]:
+    - img [ref=e22]
+  - alert [ref=e25]

@@ -1,0 +1,373 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e197]:
+      - banner [ref=e199]:
+        - generic [ref=e200]:
+          - generic [ref=e201]:
+            - link "Supabase" [ref=e202] [cursor=pointer]:
+              - /url: /dashboard/org/dreelmauwsthnbpazhwy
+              - img "Supabase" [ref=e203]
+            - generic [ref=e204]:
+              - img [ref=e206]
+              - generic [ref=e208]:
+                - link "Gabriel3025's Org Free" [ref=e209] [cursor=pointer]:
+                  - /url: /dashboard/org/dreelmauwsthnbpazhwy
+                  - img [ref=e210]
+                  - generic [ref=e220]: Gabriel3025's Org
+                  - generic [ref=e221]: Free
+                - button [ref=e222] [cursor=pointer]:
+                  - img [ref=e224]
+              - generic [ref=e227]:
+                - img [ref=e229]
+                - generic [ref=e231]:
+                  - link "Gabriel3025's Project" [ref=e232] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                    - img [ref=e233]
+                    - generic "Gabriel3025's Project" [ref=e236]
+                  - button [ref=e237] [cursor=pointer]:
+                    - img [ref=e239]
+                - img [ref=e243]
+                - generic [ref=e245]:
+                  - link "main Production" [ref=e246] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                    - generic "main" [ref=e247]
+                    - generic [ref=e248]: Production
+                  - button [ref=e249] [cursor=pointer]:
+                    - img [ref=e251]
+            - button "Connect" [ref=e255] [cursor=pointer]:
+              - img [ref=e257]
+              - generic [ref=e259]: Connect
+          - generic [ref=e260]:
+            - generic [ref=e262] [cursor=pointer]: Feedback
+            - generic [ref=e263]:
+              - button "Search..." [ref=e264]:
+                - generic [ref=e265]:
+                  - img [ref=e266]
+                  - paragraph [ref=e269]: Search...
+                - generic [ref=e271]: Ctrl K
+              - button "Help" [ref=e272] [cursor=pointer]:
+                - generic [ref=e273]:
+                  - img [ref=e274]
+                  - generic [ref=e277]: Help
+              - button "Advisor Center" [ref=e279] [cursor=pointer]:
+                - generic [ref=e280]:
+                  - img [ref=e281]
+                  - generic [ref=e283]: Advisor Center
+              - button "SQL Editor" [ref=e284] [cursor=pointer]:
+                - generic [ref=e285]:
+                  - img [ref=e286]
+                  - generic [ref=e288]: SQL Editor
+              - button "AI Assistant" [ref=e289] [cursor=pointer]:
+                - generic [ref=e290]:
+                  - img [ref=e293]
+                  - generic [ref=e296]: AI Assistant
+            - button "Gabriel3025" [ref=e297] [cursor=pointer]:
+              - img "Gabriel3025" [ref=e299]
+      - generic [ref=e300]:
+        - generic [ref=e304]:
+          - list [ref=e307]:
+            - generic [ref=e308]:
+              - listitem [ref=e309]:
+                - link "Project Overview" [ref=e310] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                  - img [ref=e311]
+                  - generic: Project Overview
+              - listitem [ref=e313]:
+                - link "Table Editor" [ref=e314] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/editor
+                  - img [ref=e315]
+                  - generic: Table Editor
+              - listitem [ref=e317]:
+                - link "SQL Editor" [ref=e318] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/sql
+                  - img [ref=e319]
+                  - generic: SQL Editor
+            - generic [ref=e321]:
+              - listitem [ref=e322]:
+                - link "Database" [ref=e323] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/database/schemas
+                  - img [ref=e324]
+                  - generic: Database
+              - listitem [ref=e328]:
+                - link "Authentication" [ref=e329] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/users
+                  - img [ref=e330]
+                  - generic: Authentication
+              - listitem [ref=e332]:
+                - link "Storage" [ref=e333] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/storage/files
+                  - img [ref=e334]
+                  - generic: Storage
+              - listitem [ref=e336]:
+                - link "Edge Functions" [ref=e337] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/functions
+                  - img [ref=e338]
+                  - generic: Edge Functions
+              - listitem [ref=e343]:
+                - link "Realtime" [ref=e344] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/realtime/inspector
+                  - img [ref=e345]
+                  - generic: Realtime
+            - generic [ref=e347]:
+              - listitem [ref=e349]:
+                - link "Advisors" [ref=e350] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/advisors/security
+                  - img [ref=e351]
+                  - generic: Advisors
+              - listitem [ref=e353]:
+                - link "Observability" [ref=e354] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/observability
+                  - img [ref=e355]
+                  - generic: Observability
+              - listitem [ref=e363]:
+                - link "Logs" [ref=e364] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/logs/explorer
+                  - img [ref=e365]
+                  - generic: Logs
+              - listitem [ref=e366]:
+                - link "Integrations" [ref=e367] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/integrations
+                  - img [ref=e368]
+                  - generic: Integrations
+            - listitem [ref=e372]:
+              - link "Project Settings" [ref=e373] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/general
+                - img [ref=e374]
+                - generic: Project Settings
+          - button "Sidebar control" [ref=e379] [cursor=pointer]:
+            - img [ref=e381]
+        - generic [ref=e383]:
+          - main [ref=e391]:
+            - generic [ref=e392]:
+              - generic [ref=e396]:
+                - generic [ref=e397]:
+                  - generic [ref=e399]:
+                    - heading "Gabriel3025's Project" [level=1] [ref=e401]
+                    - generic [ref=e402]:
+                      - generic [ref=e403]: https://zgetngxwievfhcgtfnhx.supabase.co
+                      - button "Copy" [ref=e404] [cursor=pointer]:
+                        - generic [ref=e405]: Copy
+                        - img [ref=e407]
+                  - generic [ref=e411]:
+                    - generic [ref=e422]:
+                      - generic [ref=e423]: Status
+                      - generic [ref=e425]: Healthy
+                    - generic [ref=e426]:
+                      - img [ref=e428]
+                      - generic [ref=e431]:
+                        - generic [ref=e432]: Compute
+                        - generic [ref=e437]: nano
+                    - link "GitHub No repository connected" [ref=e438] [cursor=pointer]:
+                      - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/integrations
+                      - generic [ref=e439]:
+                        - img [ref=e441]
+                        - generic [ref=e444]:
+                          - generic [ref=e445]: GitHub
+                          - paragraph [ref=e447]: No repository connected
+                    - link "Recent branch No branches" [ref=e448] [cursor=pointer]:
+                      - /url: /dashboard/project/zgetngxwievfhcgtfnhx/branches
+                      - generic [ref=e449]:
+                        - img [ref=e451]
+                        - generic [ref=e455]:
+                          - generic [ref=e456]: Recent branch
+                          - paragraph [ref=e458]: No branches
+                    - link "Last migration No migrations" [ref=e459] [cursor=pointer]:
+                      - /url: /dashboard/project/zgetngxwievfhcgtfnhx/database/migrations
+                      - generic [ref=e460]:
+                        - img [ref=e462]
+                        - generic [ref=e466]:
+                          - generic [ref=e467]: Last migration
+                          - paragraph [ref=e469]: No migrations
+                    - link "Last backup No backups" [ref=e470] [cursor=pointer]:
+                      - /url: /dashboard/project/zgetngxwievfhcgtfnhx/database/backups/scheduled
+                      - generic [ref=e471]:
+                        - img [ref=e473]
+                        - generic [ref=e476]:
+                          - generic [ref=e477]: Last backup
+                          - paragraph [ref=e479]: No backups
+                - application [ref=e484]:
+                  - group [ref=e487] [cursor=pointer]:
+                    - generic [ref=e489]:
+                      - generic [ref=e490]:
+                        - generic [ref=e491]:
+                          - img [ref=e493]
+                          - generic [ref=e497]:
+                            - paragraph [ref=e498]: Primary Database
+                            - paragraph [ref=e499]:
+                              - generic [ref=e500]: East US (Ohio)
+                            - paragraph [ref=e501]:
+                              - generic [ref=e502]: us-east-2
+                              - generic [ref=e503]: ·
+                              - generic [ref=e504]: t4g.nano
+                        - img "region icon" [ref=e505]
+                      - link "CPU 0% · Disk 13% · RAM 59% · 5/60 conns" [ref=e506]:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx/observability/database
+                        - generic [ref=e507]:
+                          - text: CPU
+                          - generic [ref=e508]: 0%
+                        - generic [ref=e509]: ·
+                        - generic [ref=e510]:
+                          - text: Disk
+                          - generic [ref=e511]: 13%
+                        - generic [ref=e512]: ·
+                        - generic [ref=e513]:
+                          - text: RAM
+                          - generic [ref=e514]: 59%
+                        - generic [ref=e515]: ·
+                        - generic [ref=e516]: 5/60 conns
+                  - img
+              - generic [ref=e520]:
+                - generic [ref=e521]:
+                  - button "Drag to reorder section" [ref=e522]:
+                    - img [ref=e523]
+                  - generic [ref=e531]:
+                    - heading "Get connected" [level=3] [ref=e533]
+                    - generic [ref=e538]:
+                      - button "Framework Use a client library" [ref=e539]:
+                        - img [ref=e541]
+                        - generic [ref=e544]:
+                          - paragraph [ref=e545]: Framework
+                          - paragraph [ref=e546]: Use a client library
+                      - button "Direct Connection string" [ref=e547]:
+                        - img [ref=e549]
+                        - generic [ref=e553]:
+                          - paragraph [ref=e554]: Direct
+                          - paragraph [ref=e555]: Connection string
+                      - button "ORM Third-party library" [ref=e556]:
+                        - img [ref=e558]
+                        - generic [ref=e564]:
+                          - paragraph [ref=e565]: ORM
+                          - paragraph [ref=e566]: Third-party library
+                      - button "MCP Connect your agent" [ref=e567]:
+                        - img [ref=e569]
+                        - generic [ref=e571]:
+                          - paragraph [ref=e572]: MCP
+                          - paragraph [ref=e573]: Connect your agent
+                      - button "API Keys Manage project keys" [ref=e574]:
+                        - img [ref=e576]
+                        - generic [ref=e579]:
+                          - paragraph [ref=e580]: API Keys
+                          - paragraph [ref=e581]: Manage project keys
+                - generic [ref=e583]:
+                  - button "Drag to reorder section" [ref=e584]:
+                    - img [ref=e585]
+                  - generic [ref=e593]:
+                    - generic [ref=e594]:
+                      - generic [ref=e595]:
+                        - generic [ref=e596]: "0"
+                        - generic [ref=e597]: Total Requests
+                      - button "Last 60 minutes" [ref=e598] [cursor=pointer]:
+                        - generic [ref=e599]: Last 60 minutes
+                        - img [ref=e601]
+                    - generic [ref=e603]:
+                      - button "Scroll right" [ref=e604] [cursor=pointer]:
+                        - img [ref=e606]
+                      - region "Horizontally scrollable content" [ref=e608]:
+                        - generic [ref=e609]:
+                          - generic [ref=e611]:
+                            - generic [ref=e614]:
+                              - heading "Database requests" [level=3] [ref=e615]:
+                                - link "Database requests" [ref=e616] [cursor=pointer]:
+                                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/editor
+                              - generic [ref=e617]: "0"
+                            - generic [ref=e622]:
+                              - img [ref=e623]
+                              - paragraph [ref=e625]: No data for selected period
+                          - generic [ref=e627]:
+                            - generic [ref=e630]:
+                              - heading "Auth requests" [level=3] [ref=e631]:
+                                - link "Auth requests" [ref=e632] [cursor=pointer]:
+                                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/users
+                              - generic [ref=e633]: "0"
+                            - generic [ref=e638]:
+                              - img [ref=e639]
+                              - paragraph [ref=e641]: No data for selected period
+                          - generic [ref=e643]:
+                            - generic [ref=e646]:
+                              - heading "Storage requests" [level=3] [ref=e647]:
+                                - link "Storage requests" [ref=e648] [cursor=pointer]:
+                                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/storage/buckets
+                              - generic [ref=e649]: "0"
+                            - generic [ref=e654]:
+                              - img [ref=e655]
+                              - paragraph [ref=e657]: No data for selected period
+                          - generic [ref=e659]:
+                            - generic [ref=e662]:
+                              - heading "Realtime requests" [level=3] [ref=e663]
+                              - generic [ref=e664]: "0"
+                            - generic [ref=e669]:
+                              - img [ref=e670]
+                              - paragraph [ref=e672]: No data for selected period
+                - generic [ref=e674]:
+                  - button "Drag to reorder section" [ref=e675]:
+                    - img [ref=e676]
+                  - generic [ref=e684]:
+                    - generic [ref=e685]:
+                      - heading "Advisor found no issues" [level=2] [ref=e686]
+                      - button "Ask Assistant" [ref=e687] [cursor=pointer]:
+                        - img [ref=e691]
+                        - generic [ref=e694]: Ask Assistant
+                    - generic [ref=e696]:
+                      - img [ref=e697]
+                      - paragraph [ref=e699]: No security or performance issues found
+                - generic [ref=e701]:
+                  - button "Drag to reorder section" [ref=e702]:
+                    - img [ref=e703]
+                  - generic [ref=e711]:
+                    - generic [ref=e712]:
+                      - heading "Reports" [level=3] [ref=e713]
+                      - button "Add block" [ref=e715] [cursor=pointer]:
+                        - img [ref=e717]
+                        - generic [ref=e718]: Add block
+                    - generic [ref=e720]:
+                      - heading "Build a custom report" [level=4] [ref=e721]
+                      - paragraph [ref=e722]: Keep track of your most important metrics
+                      - button "Add your first block" [ref=e723] [cursor=pointer]:
+                        - generic [ref=e724]: Add your first block
+                        - img [ref=e726]
+                - status [ref=e727]
+          - separator [ref=e728]:
+            - img [ref=e730]
+          - generic [ref=e739]:
+            - generic [ref=e740]:
+              - generic [ref=e741]: SQL Editor
+              - generic [ref=e742]:
+                - combobox [ref=e743] [cursor=pointer]:
+                  - img [ref=e745]
+                - button [ref=e747] [cursor=pointer]:
+                  - img [ref=e749]
+                - button [ref=e754] [cursor=pointer]:
+                  - img [ref=e756]
+            - generic [ref=e759]:
+              - generic [ref=e762]:
+                - code [ref=e765]:
+                  - generic [ref=e766]:
+                    - generic [ref=e771]: "1"
+                    - textbox "Editor content" [active] [ref=e778]
+                - paragraph [ref=e779]:
+                  - text: Hit
+                  - generic [ref=e780]: Ctrl ⇧ K
+                  - text: to edit with the Assistant
+              - generic [ref=e781]:
+                - button "Save as snippet" [disabled]:
+                  - generic: Save as snippet
+                - button "Run Ctrl ↵" [ref=e782] [cursor=pointer]:
+                  - generic [ref=e783]: Run
+                  - generic [ref=e785]: Ctrl ↵
+    - generic [ref=e789]:
+      - generic:
+        - img "Background pattern"
+      - generic [ref=e790]:
+        - button "Close banner" [ref=e792] [cursor=pointer]:
+          - img [ref=e794]
+        - generic [ref=e797]:
+          - generic [ref=e798]: Notice
+          - generic [ref=e799]:
+            - paragraph [ref=e800]: We've updated our Terms of Service
+            - paragraph [ref=e801]: Updates define the responsibilities of both you and Supabase in the use of AI.
+          - button "Learn more" [ref=e802] [cursor=pointer]:
+            - generic [ref=e803]: Learn more
+  - alert [ref=e175]: Supabase
+  - generic [ref=e804]:
+    - alert
+    - alert
