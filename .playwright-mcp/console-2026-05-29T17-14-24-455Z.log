@@ -38,3 +38,9 @@
 [  336276ms] [LOG] ✅ Usuário autenticado, verificando perfil... @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
 [  337736ms] [LOG] 📝 Perfil encontrado: sim @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
 [  337736ms] [LOG] ➡️ Redirecionando para dashboard... @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  543037ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  543052ms] [LOG] [Fast Refresh] done in 118ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[ 2972931ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[ 2975101ms] [LOG] [Fast Refresh] done in 2285ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[ 3128062ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[ 3128091ms] [LOG] [Fast Refresh] done in 136ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
