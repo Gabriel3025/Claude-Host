@@ -1,0 +1,33 @@
+[    1224ms] [LOG] %c
+▲
+
+ _____ _              _                    _   _             __
+|_   _| |__   ___    / \   __ _  ___ _ __ | |_(_) ___       / /
+  | | | '_ \ / _ \  / _ \ / _` |/ _ \ '_ \| __| |/ __|     / /
+  | | | | | |  __/ / ___ \ (_| |  __/ | | | |_| | (__     /_/
+  |_| |_| |_|\___|/_/   \_\__, |\___|_| |_|\__|_|\___|    (_)
+                           |___/
+ ___        __               _                   _                 _
+|_ _|_ __  / _|_ __ __ _ ___| |_ _ __ _   _  ___| |_ _   _ _ __ ___
+ | || '_ \| |_| '__/ _` / __| __| '__| | | |/ __| __| | | | '__/ _ \
+ | || | | |  _| | | (_| \__ \ |_| |  | |_| | (__| |_| |_| | | |  __/
+|___|_| |_|_| |_|  \__,_|___/\__|_|   \__,_|\___|\__|\__,_|_|  \___|
+  
+
+Hello!
+
+- Open Source https://vercel.com/oss
+- Careers https://vercel.com/careers
+- Status https://vercel-status.com
+
+ font-family: "Geist Mono", monospace; white-space: pre; line-height: 1; @ https://vercel.com/_next/static/immutable/chunks/1kb_g4grefj65.js:78
+[    2569ms] [WARNING] Deprecated API for given entry type. @ https://vercel.com/_next/static/immutable/chunks/3nvaismgwj9pr.js:18
+[    2674ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/jwt:0
+[    2926ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://vercel.com/_next/static/immutable/chunks/3nvaismgwj9pr.js:16
+[    6648ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/adobe-dark.1yc1msmmj95aw.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdashboard:0
+[    6648ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/ebay-dark.34mho2a18qqlt.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdashboard:0
+[    6648ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/stripe-light.2l_1jctpe6k_4.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdashboard:0
+[    6648ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/389fqnv9daql5.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdashboard:0
+[    6648ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/stripe-dark.16ozjth2vgb_3.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdashboard:0
+[    6648ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/adobe-light.406_7oryl71va.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdashboard:0
+[    6648ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/ebay-light.3ft_ki8203ov0.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdashboard:0
