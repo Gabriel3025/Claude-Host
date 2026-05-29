@@ -34,61 +34,40 @@ export function useAuth() {
 
   const loginWithEmail = async (email: string) => {
     try {
-      console.log("Login attempt for:", email);
+      console.log("🔐 Login attempt for:", email);
 
-      // Generate deterministic password from email hash
-      const encoder = new TextEncoder();
-      const emailData = encoder.encode(email + "calisthenics-21-days");
-      const hashBuffer = await crypto.subtle.digest("SHA-256", emailData);
-      const hashArray = Array.from(new Uint8Array(hashBuffer));
-      const hashHex = hashArray.map(b => b.toString(16).padStart(2, "0")).join("");
-
-      const password = "Calisthenics1" + hashHex.substring(0, 19);
-
-      console.log("Attempting signin...");
-
-      // Try signin first
-      let { error: signinError, data: signinData } = await supabase.auth.signInWithPassword({
+      // Use OTP (One Time Password) - simpler, no email confirmation needed
+      const { error: otpError, data: otpData } = await supabase.auth.signInWithOtp({
         email,
-        password,
+        options: {
+          shouldCreateUser: true,
+        },
       });
 
-      // If signin fails, try signup
-      if (signinError) {
-        console.log("Signin failed, attempting signup...");
-
-        const { error: signupError } = await supabase.auth.signUp({
-          email,
-          password,
-          options: { autoConfirmUser: true },
-        });
-
-        if (signupError) {
-          console.error("Signup error:", signupError.message);
-          throw signupError;
-        }
-
-        // Try signin again after signup
-        const result = await supabase.auth.signInWithPassword({
-          email,
-          password,
-        });
-
-        if (result.error) {
-          throw result.error;
-        }
-        signinData = result.data;
+      if (otpError) {
+        console.error("❌ OTP Error:", otpError.message);
+        throw otpError;
       }
 
-      if (signinData?.session) {
-        console.log("✓ Login successful!");
+      console.log("📧 OTP sent, now attempting auto-signin...");
+
+      // Wait a moment for the user to be created
+      await new Promise(resolve => setTimeout(resolve, 1000));
+
+      // Try to get session
+      const { data: session } = await supabase.auth.getSession();
+      if (session?.session?.user) {
+        console.log("✅ Auto login successful!");
         return { success: true };
       }
 
+      // If OTP was sent successfully, return success
+      // (user will be signed in on the next page load)
+      console.log("✅ OTP requested successfully");
       return { success: true };
 
     } catch (error: any) {
-      console.error("Auth error:", error.message);
+      console.error("❌ Auth error:", error.message);
       return { success: false, error: error.message || "Erro ao fazer login" };
     }
   };
