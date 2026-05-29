@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shots Acelerador de Intestino</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 3px solid #d4a574;
+            padding-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            color: #8b6f47;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            color: #666;
+            font-style: italic;
+        }
+
+        .intro {
+            background: #fef9f3;
+            padding: 20px;
+            border-left: 4px solid #d4a574;
+            margin-bottom: 40px;
+            border-radius: 4px;
+        }
+
+        .intro h2 {
+            color: #8b6f47;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .intro p {
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .shot {
+            background: #fff;
+            border: 2px solid #e8dcc8;
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 30px;
+            page-break-inside: avoid;
+        }
+
+        .shot h3 {
+            color: #8b6f47;
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .shot-number {
+            display: inline-block;
+            background: #d4a574;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+
+        .shot-content {
+            margin-top: 15px;
+        }
+
+        .section-title {
+            font-weight: 600;
+            color: #8b6f47;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            font-size: 0.95em;
+        }
+
+        .ingredients {
+            background: #f9f7f4;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+
+        .ingredients ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .ingredients li {
+            padding: 5px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .ingredients li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #d4a574;
+            font-weight: bold;
+        }
+
+        .info-box {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .info-item {
+            background: #fef9f3;
+            padding: 12px;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .info-item strong {
+            display: block;
+            color: #8b6f47;
+            margin-bottom: 5px;
+            font-size: 0.9em;
+        }
+
+        .info-item span {
+            color: #555;
+            font-size: 1.1em;
+        }
+
+        .benefit {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 12px;
+            margin-top: 15px;
+            border-radius: 4px;
+            color: #2e7d32;
+            font-size: 0.95em;
+        }
+
+        .protocol {
+            background: #fef9f3;
+            padding: 30px;
+            border-radius: 8px;
+            margin: 40px 0;
+            page-break-inside: avoid;
+        }
+
+        .protocol h2 {
+            color: #8b6f47;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .protocol-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .protocol-item {
+            background: white;
+            padding: 15px;
+            border-left: 4px solid #d4a574;
+            border-radius: 4px;
+        }
+
+        .protocol-item h4 {
+            color: #8b6f47;
+            margin-bottom: 10px;
+            font-size: 0.95em;
+        }
+
+        .protocol-item p {
+            color: #555;
+            font-size: 0.95em;
+        }
+
+        .checklist {
+            background: white;
+            padding: 30px;
+            border: 2px solid #e8dcc8;
+            border-radius: 8px;
+            margin: 40px 0;
+            page-break-inside: avoid;
+        }
+
+        .checklist h2 {
+            color: #8b6f47;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .checklist-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        .checklist-table th {
+            background: #d4a574;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .checklist-table td {
+            padding: 12px;
+            border-bottom: 1px solid #e8dcc8;
+        }
+
+        .checklist-table tr:nth-child(even) {
+            background: #fef9f3;
+        }
+
+        .checklist-table input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #d4a574;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .important {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+            color: #856404;
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+            .container {
+                box-shadow: none;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER -->
+        <div class="header">
+            <h1>🎯 Shots Acelerador de Intestino</h1>
+            <p>Elimine mais de 1kg de gordura em 14 dias ativando seu intestino</p>
+        </div>
+
+        <!-- INTRODUÇÃO -->
+        <div class="intro">
+            <h2>Por que isso funciona?</h2>
+            <p>Um intestino lento = gordura acumulada. Quando o sistema digestivo não funciona adequadamente, as toxinas e gorduras se acumulam no corpo.</p>
+            <p>Estes 3 shots estratégicos ativam seu intestino, aceleram o metabolismo e aumentam a queima de gordura corporal, especialmente na região abdominal.</p>
+            <p><strong>O resultado?</strong> Mais disposição, menos inchaço e peles mais firme em apenas 2 semanas.</p>
+        </div>
+
+        <!-- SHOT 1 -->
+        <div class="shot">
+            <h3><span class="shot-number">1</span>Limão + Gengibre + Cúrcuma</h3>
+            <div class="shot-content">
+                <div class="ingredients">
+                    <div class="section-title">Ingredientes:</div>
+                    <ul>
+                        <li>1 limão espremido</li>
+                        <li>1 colher de chá de gengibre ralado fresco (ou em pó)</li>
+                        <li>½ colher de chá de cúrcuma em pó</li>
+                        <li>150ml de água morna</li>
+                    </ul>
+                </div>
+
+                <div class="section-title">Modo de Preparo:</div>
+                <p>Aquece a água até ficar morna. Esprema o limão em um copo. Adicione o gengibre ralado e a cúrcuma. Misture bem e beba em um único gole.</p>
+
+                <div class="info-box">
+                    <div class="info-item">
+                        <strong>⏰ Quando tomar</strong>
+                        <span>10-15 min antes do almoço</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>📅 Frequência</strong>
+                        <span>1 vez ao dia</span>
+                    </div>
+                </div>
+
+                <div class="benefit">
+                    <strong>✨ O que esperar:</strong> Termogênico potente + melhora na digestão + redução de inflamação. Acelera o metabolismo e aumenta a queima de calorias.
+                </div>
+            </div>
+        </div>
+
+        <!-- SHOT 2 -->
+        <div class="shot">
+            <h3><span class="shot-number">2</span>Aloe Vera + Limão</h3>
+            <div class="shot-content">
+                <div class="ingredients">
+                    <div class="section-title">Ingredientes:</div>
+                    <ul>
+                        <li>30ml de suco de aloe vera puro</li>
+                        <li>1 limão espremido</li>
+                        <li>120ml de água filtrada</li>
+                    </ul>
+                </div>
+
+                <div class="section-title">Modo de Preparo:</div>
+                <p>Extraia o gel de aloe vera fresco ou use o suco pronto. Esprema o limão. Misture tudo na água e beba imediatamente. Não deixe em repouso.</p>
+
+                <div class="info-box">
+                    <div class="info-item">
+                        <strong>⏰ Quando tomar</strong>
+                        <span>10-15 min antes do almoço</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>📅 Frequência</strong>
+                        <span>1 vez ao dia</span>
+                    </div>
+                </div>
+
+                <div class="benefit">
+                    <strong>✨ O que esperar:</strong> Limpeza intestinal profunda + regulação da flora. O aloe vera é um desintoxicante natural que remove resíduos acumulados no intestino.
+                </div>
+            </div>
+        </div>
+
+        <!-- SHOT 3 -->
+        <div class="shot">
+            <h3><span class="shot-number">3</span>Vinagre de Maçã + Mel</h3>
+            <div class="shot-content">
+                <div class="ingredients">
+                    <div class="section-title">Ingredientes:</div>
+                    <ul>
+                        <li>1 colher de sopa de vinagre de maçã orgânico</li>
+                        <li>1 colher de chá de mel puro (raw se possível)</li>
+                        <li>200ml de água morna</li>
+                    </ul>
+                </div>
+
+                <div class="section-title">Modo de Preparo:</div>
+                <p>Aqueça a água até ficar morna. Adicione o vinagre de maçã. Mexa bem e dissolva o mel. Beba lentamente para absorver melhor os nutrientes.</p>
+
+                <div class="info-box">
+                    <div class="info-item">
+                        <strong>⏰ Quando tomar</strong>
+                        <span>10-15 min antes do almoço</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>📅 Frequência</strong>
+                        <span>1 vez ao dia</span>
+                    </div>
+                </div>
+
+                <div class="benefit">
+                    <strong>✨ O que esperar:</strong> Melhora na digestão + aumento de saciedade. O vinagre equilibra a microbiota intestinal e o mel fornece energia natural sem picos de açúcar.
+                </div>
+            </div>
+        </div>
+
+        <!-- PROTOCOLO -->
+        <div class="protocol">
+            <h2>📋 Seu Protocolo de 14 Dias</h2>
+            <div class="protocol-grid">
+                <div class="protocol-item">
+                    <h4>Semana 1 (Dias 1-7)</h4>
+                    <p>Alterne entre os 3 shots. Segunda: Shot 1, Terça: Shot 2, Quarta: Shot 3, e repita a sequência.</p>
+                </div>
+                <div class="protocol-item">
+                    <h4>Semana 2 (Dias 8-14)</h4>
+                    <p>Repita a mesma sequência de alternância. Seu corpo estará ainda mais responsivo aos efeitos dos shots.</p>
+                </div>
+                <div class="protocol-item">
+                    <h4>Horário Ideal</h4>
+                    <p>10-15 minutos ANTES do almoço. Nunca em jejum absoluto. O almoço ajuda a fixar os nutrientes.</p>
+                </div>
+                <div class="protocol-item">
+                    <h4>Hidratação</h4>
+                    <p>Beba ao menos 2-3 litros de água ao longo do dia. A água potencializa o efeito detox dos shots.</p>
+                </div>
+            </div>
+
+            <div class="important">
+                <strong>⚠️ Importante:</strong> Siga a sequência exatamente como descrito. Isso potencializa os efeitos de cada ingrediente e evita adaptação do corpo.
+            </div>
+        </div>
+
+        <!-- CHECKLIST -->
+        <div class="checklist">
+            <h2>✅ Checklist de Acompanhamento</h2>
+            <p style="text-align: center; color: #666; margin-bottom: 20px;">Marque os dias que você tomou seu shot. Consistência = resultados.</p>
+
+            <table class="checklist-table">
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Qual Shot</th>
+                        <th>✓ Tomou</th>
+                        <th>Como Se Sentiu</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dia 1</td>
+                        <td>Shot 1</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
+                    </tr>
+                    <tr>
+                        <td>Dia 2</td>
+                        <td>Shot 2</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
+                    </tr>
+                    <tr>
+                        <td>Dia 3</td>
+                        <td>Shot 3</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
+                    </tr>
+                    <tr>
+                        <td>Dia 4</td>
+                        <td>Shot 1</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
+                    </tr>
+                    <tr>
+                        <td>Dia 5</td>
+                        <td>Shot 2</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
+                    </tr>
+                    <tr>
+                        <td>Dia 6</td>
+                        <td>Shot 3</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
+                    </tr>
+                    <tr>
+                        <td>Dia 7</td>
+                        <td>Shot 1</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
+                    </tr>
+                    <tr>
+                        <td>Dia 8</td>
+                        <td>Shot 2</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
+                    </tr>
+                    <tr>
+                        <td>Dia 9</td>
+                        <td>Shot 3</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
+                    </tr>
+                    <tr>
+                        <td>Dia 10</td>
+                        <td>Shot 1</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
+                    </tr>
+                    <tr>
+                        <td>Dia 11</td>
+                        <td>Shot 2</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
+                    </tr>
+                    <tr>
+                        <td>Dia 12</td>
+                        <td>Shot 3</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
+                    </tr>
+                    <tr>
+                        <td>Dia 13</td>
+                        <td>Shot 1</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
+                    </tr>
+                    <tr>
+                        <td>Dia 14</td>
+                        <td>Shot 2</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="text" style="width: 100%; border: none; background: transparent;"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <p>💪 Parabéns por dar esse passo em direção a uma vida mais saudável!</p>
+            <p>Resultados visíveis em 7 dias. Transformação completa em 14 dias.</p>
+            <p style="margin-top: 20px; font-size: 0.85em;">Este guia é um complemento educacional. Consulte um profissional de saúde antes de iniciar qualquer novo protocolo.</p>
+        </div>
+    </div>
+</body>
+</html>
