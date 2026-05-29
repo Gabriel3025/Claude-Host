@@ -10,14 +10,7 @@ export async function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
-  // Verificar se há um cookie de sessão
-  const session = request.cookies.get("sb-session");
-
-  // Se não há sessão e tenta acessar rota privada, redireciona para /auth
-  if (!session && !path.startsWith("/auth")) {
-    return NextResponse.redirect(new URL("/auth", request.url));
-  }
-
+  // Allow all requests for now - client-side auth check will handle redirects
   return NextResponse.next();
 }
 

@@ -1,0 +1,14 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e21] [cursor=pointer]:
+    - img [ref=e22]
+  - alert [ref=e25]
+  - generic [ref=e49]:
+    - generic [ref=e50]:
+      - generic [ref=e51]: 🥋
+      - heading "Desafio 21 Dias" [level=1] [ref=e52]
+      - paragraph [ref=e53]: Calistenia Asiática
+    - paragraph [ref=e54]: Insira seu email para começar o desafio
+    - generic [ref=e55]:
+      - textbox "seu@email.com" [ref=e57]
+      - button "Continuar com Email" [disabled] [ref=e58]
+    - paragraph [ref=e60]: 💪 Força, Determinação e Consistência

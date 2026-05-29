@@ -1,0 +1,33 @@
+[     129ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[     262ms] [LOG] [Fast Refresh] done in 237ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[     383ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[     437ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[     792ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/users?select=*&id=eq.585f7954-7a1c-431a-8639-33fe8b8726b7:0
+[   11057ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   11077ms] [LOG] [Fast Refresh] done in 130ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   24270ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   24876ms] [LOG] [Fast Refresh] done in 715ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   24975ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=jbCx2866IAJzCy8z:0
+[   25092ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   25100ms] [LOG] [Fast Refresh] done in 123ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   25175ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   25390ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/07qn_react-dom_0hm4u6q._.js:15305
+[   25544ms] TypeError: request.cookies.getSetCookie is not a function
+    at middleware (file://C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\server\edge\chunks\[root-of-the-server]__0c5itoj._.js:37:37)
+    at <unknown> (file://C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\server\edge\chunks\07qn_next_dist_0~6pnqy._.js:19062:26)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at <unknown> (file://C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\server\edge\chunks\07qn_next_dist_0~6pnqy._.js:7808:751)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at <unknown> (file://C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\server\edge\chunks\07qn_next_dist_0~6pnqy._.js:7808:373)
+    at async adapter (file://C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\server\edge\chunks\07qn_next_dist_0~6pnqy._.js:7762:16)
+    at async (file://C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\node_modules\next\dist\server\web\sandbox\sandbox.js:115:26)
+    at async runWithTaggedErrors (file://C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\node_modules\next\dist\server\web\sandbox\sandbox.js:112:9)
+    at async DevServer.runMiddleware (file://C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\node_modules\next\dist\server\next-server.js:1207:22)
+[   25544ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1226
+[   36489ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1226
+[   36772ms] [LOG] [Fast Refresh] done in 371ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1226
+[   36967ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1226
+[   37403ms] [LOG] [Fast Refresh] done in 547ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_0q-lopf._.js:1226
+[   37521ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   37562ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   38982ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/users?select=*&id=eq.5ab74cd2-9580-41e9-8742-ec0d422d96ba:0

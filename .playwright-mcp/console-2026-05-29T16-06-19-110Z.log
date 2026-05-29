@@ -1,0 +1,13 @@
+[     138ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[     337ms] [LOG] [Fast Refresh] done in 308ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[     470ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[     514ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[     802ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/users?select=*&id=eq.79b881a9-121e-444c-a29f-be1497efb690:0
+[   11318ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   11533ms] [LOG] [Fast Refresh] done in 317ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   24014ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/users?select=*&id=eq.585f7954-7a1c-431a-8639-33fe8b8726b7:0
+[   24184ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/users?select=*&id=eq.585f7954-7a1c-431a-8639-33fe8b8726b7:0
+[   37894ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   38497ms] [LOG] [Fast Refresh] done in 690ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   38654ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[   38985ms] [LOG] [Fast Refresh] done in 436ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477

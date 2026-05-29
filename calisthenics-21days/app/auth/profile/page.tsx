@@ -15,11 +15,16 @@ export default function ProfilePage() {
 
   useEffect(() => {
     const getUser = async () => {
-      const { data } = await supabase.auth.getSession();
-      if (!data?.session?.user) {
+      try {
+        const { data } = await supabase.auth.getSession();
+        if (!data?.session?.user) {
+          router.push("/auth");
+        } else {
+          setUser(data.session.user);
+        }
+      } catch (err) {
+        console.error("Error getting user:", err);
         router.push("/auth");
-      } else {
-        setUser(data.session.user);
       }
     };
     getUser();
