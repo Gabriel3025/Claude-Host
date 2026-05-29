@@ -39,17 +39,29 @@ export function useAuth() {
 
   const loginWithEmail = async (email: string) => {
     try {
-      // Use magic link authentication (OTP)
-      // This works for both new and existing users
-      const { error } = await supabase.auth.signInWithOtp({
+      // Create a deterministic password from email
+      // This ensures the same password is used if user exists
+      const hash = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(email));
+      const hashArray = Array.from(new Uint8Array(hash));
+      const hashHex = hashArray.map(b => b.toString(16).padStart(2, "0")).join("");
+      const password = hashHex.substring(0, 32);
+
+      // Try to sign up
+      await supabase.auth.signUp({
         email,
+        password,
         options: {
-          shouldCreateUser: true,
-          emailRedirectTo: `${window.location.origin}/auth/callback`,
+          emailRedirectTo: undefined, // No email confirmation
         },
       });
 
-      if (error) throw error;
+      // Try to sign in (works whether user was just created or already existed)
+      const { error: signInError } = await supabase.auth.signInWithPassword({
+        email,
+        password,
+      });
+
+      if (signInError) throw signInError;
       return { success: true };
     } catch (error: any) {
       return { success: false, error: error.message };
