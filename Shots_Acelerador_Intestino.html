@@ -519,40 +519,51 @@
             }
 
             .header {
-                margin-bottom: 30px;
+                margin-bottom: 20px;
                 page-break-after: avoid;
             }
 
             .header h1 {
-                font-size: 2.2em;
-                margin-bottom: 8px;
+                font-size: 2.1em;
+                margin-bottom: 6px;
+                font-weight: 800;
             }
 
             .header p {
-                font-size: 1em;
-                margin-bottom: 12px;
+                font-size: 0.95em;
+                margin-bottom: 10px;
+                font-weight: 500;
             }
 
             .divider-premium {
-                width: 80px;
+                width: 70px;
+                height: 3px;
             }
 
             .intro {
                 box-shadow: none;
-                padding: 25px;
-                margin-bottom: 25px;
+                padding: 20px;
+                margin-bottom: 15px;
                 page-break-after: avoid;
                 page-break-inside: avoid;
+                border-radius: 6px;
             }
 
             .intro h2 {
-                font-size: 1.3em;
-                margin-bottom: 12px;
+                font-size: 1.2em;
+                margin-bottom: 8px;
+                font-weight: 700;
             }
 
             .intro p {
-                margin-bottom: 10px;
-                font-size: 0.95em;
+                margin-bottom: 8px;
+                font-size: 0.9em;
+                line-height: 1.6;
+                font-weight: 400;
+            }
+
+            .intro p strong {
+                font-weight: 700;
             }
 
             .shots-container {
@@ -564,9 +575,10 @@
                 box-shadow: none;
                 page-break-inside: avoid;
                 page-break-before: always;
-                padding: 30px;
+                padding: 25px;
                 margin: 0;
                 border: 1px solid #e8dcc8;
+                background: white;
             }
 
             .shot:first-child {
@@ -574,23 +586,28 @@
             }
 
             .shot-header {
-                margin-bottom: 20px;
-                gap: 15px;
+                margin-bottom: 15px;
+                gap: 12px;
             }
 
             .shot-number {
-                width: 45px;
-                height: 45px;
-                font-size: 1.4em;
+                width: 42px;
+                height: 42px;
+                font-size: 1.3em;
+                font-weight: 800;
+                flex-shrink: 0;
             }
 
             .shot h3 {
-                font-size: 1.3em;
+                font-size: 1.2em;
+                font-weight: 700;
+                line-height: 1.4;
             }
 
             .shot-glass {
-                width: 40px;
-                height: 40px;
+                width: 38px;
+                height: 38px;
+                flex-shrink: 0;
             }
 
             .shot-content {
@@ -598,129 +615,204 @@
             }
 
             .ingredients {
-                padding: 15px;
-                margin-bottom: 15px;
+                padding: 12px;
+                margin-bottom: 12px;
+                border-radius: 6px;
+                border-left: 3px solid #D4AF37;
             }
 
             .section-title {
-                margin-bottom: 10px;
-                font-size: 0.85em;
+                margin-bottom: 8px;
+                font-size: 0.82em;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.3px;
+                color: #8B4513;
             }
 
             .ingredients li {
-                padding: 6px 0 6px 25px;
-                font-size: 0.9em;
+                padding: 5px 0 5px 22px;
+                font-size: 0.87em;
+                color: #444;
+                font-weight: 500;
+                line-height: 1.4;
+            }
+
+            .ingredients li::before {
+                left: 0;
+                font-size: 1em;
             }
 
             .shot-content > p {
-                margin-bottom: 15px;
-                font-size: 0.9em;
-                line-height: 1.6;
+                margin-bottom: 12px;
+                font-size: 0.88em;
+                line-height: 1.5;
+                font-weight: 500;
+                color: #3d3422;
             }
 
             .info-box {
-                gap: 12px;
-                margin: 15px 0;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+                margin: 12px 0;
             }
 
             .info-item {
-                padding: 12px;
-                font-size: 0.85em;
+                padding: 10px;
+                border-radius: 6px;
+                border: 1px solid #e8dcc8;
+                text-align: center;
+                font-size: 0.82em;
             }
 
             .info-item strong {
-                font-size: 0.8em;
-                margin-bottom: 4px;
+                font-size: 0.78em;
+                margin-bottom: 3px;
+                display: block;
+                color: #8B4513;
+                font-weight: 700;
             }
 
             .info-item span {
-                font-size: 0.85em;
+                font-size: 0.82em;
+                color: #555;
+                font-weight: 600;
             }
 
             .badges {
-                gap: 8px;
-                margin: 15px 0;
+                display: flex;
+                gap: 7px;
+                margin: 12px 0;
+                flex-wrap: wrap;
             }
 
             .badge {
-                padding: 6px 12px;
-                font-size: 0.75em;
+                display: inline-block;
+                padding: 5px 10px;
+                font-size: 0.72em;
+                font-weight: 700;
+                letter-spacing: 0.2px;
+                border-radius: 12px;
+                line-height: 1.2;
             }
 
             .benefit {
-                padding: 15px;
-                margin: 15px 0 0 0;
-                font-size: 0.9em;
+                padding: 12px;
+                margin: 12px 0 0 0;
+                font-size: 0.87em;
+                border-left: 4px solid #2D5016;
+                border-radius: 6px;
+                line-height: 1.5;
+                color: #1b5e20;
             }
 
             .benefit strong {
-                margin-bottom: 6px;
-                font-size: 0.9em;
+                margin-bottom: 4px;
+                font-size: 0.87em;
+                display: block;
+                font-weight: 700;
+                color: #2D5016;
             }
 
             .protocol {
                 box-shadow: none;
                 page-break-inside: avoid;
                 page-break-before: always;
-                padding: 30px;
+                padding: 25px;
                 margin: 0;
                 border: 1px solid #e8dcc8;
+                background: white;
             }
 
             .protocol h2 {
-                font-size: 1.4em;
-                margin-bottom: 20px;
+                font-size: 1.3em;
+                margin-bottom: 18px;
+                text-align: center;
+                font-weight: 800;
+                color: #8B4513;
             }
 
             .protocol-grid {
-                gap: 15px;
-                margin-bottom: 20px;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 12px;
+                margin-bottom: 15px;
             }
 
             .protocol-item {
-                padding: 15px;
+                padding: 12px;
+                border-left: 4px solid #D4AF37;
+                border-radius: 6px;
+                background: white;
             }
 
             .protocol-item h4 {
-                font-size: 1em;
-                margin-bottom: 8px;
+                font-size: 0.95em;
+                margin-bottom: 6px;
+                color: #8B4513;
+                font-weight: 700;
             }
 
             .protocol-item p {
-                font-size: 0.9em;
-                line-height: 1.6;
+                font-size: 0.87em;
+                line-height: 1.5;
+                color: #3d3422;
+                font-weight: 500;
             }
 
             .important {
-                padding: 15px;
-                margin: 15px 0 0 0;
-                font-size: 0.9em;
+                padding: 12px;
+                margin: 12px 0 0 0;
+                font-size: 0.87em;
+                border-left: 4px solid #ffc107;
+                border-radius: 6px;
+                color: #5a4a00;
+                line-height: 1.5;
+                font-weight: 500;
             }
 
             .important strong {
-                margin-bottom: 6px;
-                font-size: 0.9em;
+                margin-bottom: 4px;
+                font-size: 0.87em;
+                display: block;
+                font-weight: 700;
+                color: #8B4513;
             }
 
             .footer {
                 page-break-before: avoid;
-                margin-top: 20px;
-                padding-top: 15px;
+                margin-top: 15px;
+                padding-top: 12px;
                 border-top: 2px solid #e8dcc8;
+                text-align: center;
             }
 
             .footer p {
-                margin-bottom: 8px;
-                font-size: 0.85em;
+                margin-bottom: 6px;
+                font-size: 0.82em;
+                color: #555;
+                font-weight: 500;
+                line-height: 1.5;
             }
 
             .footer p:first-child {
-                font-size: 0.95em;
+                font-size: 0.9em;
+                color: #8B4513;
+                font-weight: 700;
+            }
+
+            .footer p:nth-child(2) {
+                color: #D4AF37;
+                font-weight: 700;
+                font-size: 0.87em;
             }
 
             .footer p:last-child {
-                margin-top: 10px;
-                font-size: 0.8em;
+                margin-top: 8px;
+                font-size: 0.78em;
+                color: #888;
+                font-weight: 400;
             }
 
             .shot:hover {
