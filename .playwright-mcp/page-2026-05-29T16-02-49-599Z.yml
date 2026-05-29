@@ -1,0 +1,397 @@
+- generic:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - banner:
+            - generic:
+              - generic:
+                - link:
+                  - /url: /dashboard/org/dreelmauwsthnbpazhwy
+                  - img
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - link:
+                      - /url: /dashboard/org/dreelmauwsthnbpazhwy
+                      - img
+                      - generic: Gabriel3025's Org
+                      - generic: Free
+                    - button:
+                      - generic:
+                        - img
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - link:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                        - img
+                        - generic: Gabriel3025's Project
+                      - button:
+                        - generic:
+                          - img
+                    - generic:
+                      - img
+                    - generic:
+                      - link:
+                        - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                        - generic: main
+                        - generic: Production
+                      - button:
+                        - generic:
+                          - img
+                - generic:
+                  - button:
+                    - generic:
+                      - img
+                    - generic: Connect
+              - generic:
+                - generic:
+                  - generic: Feedback
+                - generic:
+                  - button:
+                    - generic:
+                      - img
+                      - paragraph: Search...
+                    - generic:
+                      - generic: Ctrl K
+                  - button [ref=e800] [cursor=pointer]:
+                    - generic [ref=e154]:
+                      - img [ref=e155]
+                      - generic [ref=e158]: Help
+                  - button [ref=e801] [cursor=pointer]:
+                    - generic [ref=e161]:
+                      - img [ref=e162]
+                      - generic [ref=e164]: Advisor Center
+                  - button [ref=e802] [cursor=pointer]:
+                    - generic [ref=e166]:
+                      - img [ref=e167]
+                      - generic [ref=e169]: SQL Editor
+                  - button [ref=e803] [cursor=pointer]:
+                    - generic [ref=e171]:
+                      - img [ref=e174]
+                      - generic [ref=e177]: AI Assistant
+                - button [ref=e804] [cursor=pointer]:
+                  - img [ref=e805]
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - list:
+                      - generic:
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/editor
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/sql
+                            - img
+                      - generic:
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/database/schemas
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/users
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/storage/files
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/functions
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/realtime/inspector
+                            - img
+                      - generic:
+                        - generic:
+                          - listitem:
+                            - link:
+                              - /url: /dashboard/project/zgetngxwievfhcgtfnhx/advisors/security
+                              - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/observability
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/logs/explorer
+                            - img
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/integrations
+                            - img
+                      - generic:
+                        - listitem:
+                          - link:
+                            - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/general
+                            - img
+                - generic:
+                  - generic:
+                    - button:
+                      - generic:
+                        - img
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - heading [level=4]: SQL Editor
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic: Search queries
+                                          - textbox:
+                                            - /placeholder: Search queries...
+                                          - button:
+                                            - img
+                                          - img
+                                      - button:
+                                        - generic:
+                                          - img
+                                    - generic:
+                                      - button:
+                                        - img
+                                        - generic: Shared
+                                    - generic:
+                                      - button:
+                                        - img
+                                        - generic: Favorites
+                                    - generic:
+                                      - button [expanded]:
+                                        - img
+                                        - generic: PRIVATE (1)
+                                      - generic:
+                                        - tree:
+                                          - generic:
+                                            - generic:
+                                              - img
+                                              - generic: Add Profile Fields to Users
+                                    - generic:
+                                      - button [expanded]:
+                                        - img
+                                        - generic: Reference
+                                      - generic:
+                                        - link:
+                                          - /url: /dashboard/project/zgetngxwievfhcgtfnhx/sql/templates
+                                          - img
+                                          - text: templates
+                                        - link:
+                                          - /url: /dashboard/project/zgetngxwievfhcgtfnhx/sql/examples
+                                          - img
+                                          - text: examples
+                                  - generic:
+                                    - button:
+                                      - generic: View running queries
+                      - separator:
+                        - generic:
+                          - img
+                      - generic:
+                        - generic:
+                          - main:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - generic: Collapse sidebar
+                                  - tablist:
+                                    - generic:
+                                      - button:
+                                        - tab [selected]:
+                                          - img
+                                          - generic:
+                                            - generic: Add Profile Fields to Users
+                                          - button:
+                                            - img
+                                        - separator
+                                    - button:
+                                      - img
+                                - status
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - code:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic:
+                                                          - generic: 
+                                                          - generic: "14"
+                                                        - generic:
+                                                          - generic: 
+                                                          - generic: "15"
+                                                        - generic:
+                                                          - generic: 
+                                                          - generic: "16"
+                                                        - generic:
+                                                          - generic: 
+                                                          - generic: "17"
+                                                        - generic:
+                                                          - generic: 
+                                                          - generic: "18"
+                                                        - generic:
+                                                          - generic: 
+                                                          - generic: "19"
+                                                        - generic:
+                                                          - generic: "20"
+                                                        - generic:
+                                                          - generic: "21"
+                                                    - generic:
+                                                      - generic:
+                                                        - generic:
+                                                          - generic: id UUID PRIMARY KEY REFERENCES auth.users (id) ON DELETE CASCADE,
+                                                        - generic:
+                                                          - generic: email TEXT NOT NULL UNIQUE,
+                                                        - generic:
+                                                          - generic: name TEXT,
+                                                        - generic:
+                                                          - generic: weight NUMERIC,
+                                                        - generic:
+                                                          - generic: height NUMERIC,
+                                                        - generic:
+                                                          - generic: created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+                                                        - generic:
+                                                          - generic: updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+                                                        - generic:
+                                                          - generic: );E users ADD COLUMN email text, ADD COLUMN name text, ADD COLUMN weight numeric, ADD COLUMN height numeric, ADD COLUMN
+                                                        - generic:
+                                                          - generic: updated_at timestamp with time zone DEFAULT now();
+                                                    - textbox: );E users ADD COLUMN email text, ADD COLUMN name text, ADD COLUMN weight numeric, ADD COLUMN height numeric, ADD COLUMN updated_at timestamp with time zone DEFAULT now();
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: "13"
+                                                        - generic: 
+                                                      - generic:
+                                                        - generic: "14"
+                                                        - generic: 
+                                                      - generic:
+                                                        - generic: "15"
+                                                        - generic: 
+                                                      - generic:
+                                                        - listitem:
+                                                          - generic: CREATE TABLE users (
+                                                        - listitem:
+                                                          - generic: id UUID PRIMARY KEY REFERENCES auth.users (id) ON DELETE CASCADE,
+                                                        - listitem:
+                                                          - generic: email TEXT NOT NULL UNIQUE,
+                                    - separator:
+                                      - generic:
+                                        - img
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - tablist:
+                                            - generic:
+                                              - tab [selected]:
+                                                - generic: Results
+                                              - tab:
+                                                - generic: Explain
+                                              - tab:
+                                                - generic: Chart
+                                              - button [disabled]:
+                                                - generic: Export
+                                                - generic:
+                                                  - img
+                                            - generic:
+                                              - generic:
+                                                - button:
+                                                  - img
+                                              - button:
+                                                - generic:
+                                                  - img
+                                              - generic:
+                                                - generic:
+                                                  - generic:
+                                                    - generic: Source
+                                                    - button:
+                                                      - generic: Primary database
+                                                      - generic:
+                                                        - img
+                                                  - button:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: Role
+                                                        - generic: postgres
+                                                        - img
+                                                  - button:
+                                                    - generic: Run
+                                                    - generic:
+                                                      - generic: Ctrl ↵
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic: "Failed to run sql query: ERROR: 42601: syntax error at or near \"E\""
+                                                - generic: "LINE 11: );E users ADD COLUMN email text, ADD COLUMN name text, ADD COLUMN weight numeric, ADD COLUMN height numeric, ADD COLUMN updated_at timestamp with time zone DEFAULT now();"
+                                                - generic: ^
+                                              - generic:
+                                                - button:
+                                                  - button:
+                                                    - generic:
+                                                      - img
+                                                - generic:
+                                                  - button:
+                                                    - generic:
+                                                      - generic:
+                                                        - img
+                                                    - generic: Debug with Assistant
+                                                  - button:
+                                                    - generic:
+                                                      - img
+                                    - generic:
+                                      - generic:
+                                        - button:
+                                          - paragraph:
+                                            - generic: 0 row
+  - generic:
+    - alert: Add Profile Fields to Users | SQL Editor | Gabriel3025's Project | Supabase
+  - alertdialog "Potential issues detected" [ref=e807]:
+    - generic [ref=e808]:
+      - heading "Potential issues detected" [level=2] [ref=e809]
+      - generic [ref=e810]:
+        - paragraph [ref=e811]: "This query has multiple potential issues:"
+        - list [ref=e812]:
+          - listitem [ref=e813]:
+            - generic [ref=e814]: This query includes destructive operations.
+            - text: It may permanently change or remove data, tables, schemas, or other objects.
+          - listitem [ref=e815]:
+            - generic [ref=e816]: This query creates a table without enabling Row Level Security.
+            - generic [ref=e817]:
+              - text: Clients using anon or authenticated keys may be able to access
+              - code [ref=e818]: users
+              - text: .
+        - paragraph [ref=e819]: Review each issue, then choose whether to enable Row Level Security before running this query.
+    - generic [ref=e820]:
+      - button "Cancel" [active] [ref=e821] [cursor=pointer]
+      - button "Run without RLS" [ref=e822] [cursor=pointer]:
+        - generic [ref=e823]: Run without RLS
+      - button "Run and enable RLS" [ref=e824] [cursor=pointer]:
+        - generic [ref=e825]: Run and enable RLS

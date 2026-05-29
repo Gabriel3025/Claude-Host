@@ -1,0 +1,23 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e21] [cursor=pointer]:
+    - img [ref=e22]
+  - alert [ref=e25]
+  - generic [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e30]: 📊
+      - heading "Seus Dados" [level=1] [ref=e31]
+      - paragraph [ref=e32]: Próximo passo do desafio
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]: Nome
+        - textbox "Seu nome" [ref=e36]: Gabriel
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]: Peso (kg)
+          - spinbutton [ref=e40]: "75"
+        - generic [ref=e41]:
+          - generic [ref=e42]: Altura (cm)
+          - spinbutton [ref=e43]: "178"
+      - paragraph [ref=e48]: Could not find the 'email' column of 'users' in the schema cache
+      - button "Começar o Desafio" [ref=e44]
+    - paragraph [ref=e46]: 💪 Força, Determinação e Consistência

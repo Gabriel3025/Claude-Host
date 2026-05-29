@@ -21,9 +21,9 @@ export default function AuthPage() {
     const result = await loginWithEmail(email);
 
     if (result.success) {
-      setMessage("Verifique seu email para fazer login!");
+      router.push("/auth/profile");
     } else {
-      setError(result.error || "Erro ao enviar email");
+      setError(result.error || "Erro ao criar conta");
     }
 
     setLoading(false);

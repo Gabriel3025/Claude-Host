@@ -39,11 +39,23 @@ export function useAuth() {
 
   const loginWithEmail = async (email: string) => {
     try {
-      const { error } = await supabase.auth.signInWithOtp({
+      // Generate random password
+      const randomPassword = Math.random().toString(36).slice(2) + Math.random().toString(36).slice(2);
+
+      // Sign up the user
+      const { error: signUpError } = await supabase.auth.signUp({
         email,
-        options: { emailRedirectTo: `${window.location.origin}/auth/callback` },
+        password: randomPassword,
       });
-      if (error) throw error;
+      if (signUpError) throw signUpError;
+
+      // Sign in immediately after signup
+      const { error: signInError } = await supabase.auth.signInWithPassword({
+        email,
+        password: randomPassword,
+      });
+      if (signInError) throw signInError;
+
       return { success: true };
     } catch (error: any) {
       return { success: false, error: error.message };

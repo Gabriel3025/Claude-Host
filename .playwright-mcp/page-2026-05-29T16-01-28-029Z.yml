@@ -1,0 +1,23 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 📊
+      - heading "Seus Dados" [level=1] [ref=e7]
+      - paragraph [ref=e8]: Próximo passo do desafio
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]: Nome
+        - textbox "Seu nome" [ref=e12]: Gabriel Silva
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e15]: Peso (kg)
+          - spinbutton [ref=e16]: "82"
+        - generic [ref=e17]:
+          - generic [ref=e18]: Altura (cm)
+          - spinbutton [ref=e19]: "180"
+      - paragraph [ref=e34]: "invalid input syntax for type bigint: \"cdb9d199-b3a4-432d-a465-d26fc42e1f14\""
+      - button "Começar o Desafio" [ref=e20]
+    - paragraph [ref=e22]: 💪 Força, Determinação e Consistência
+  - button "Open Next.js Dev Tools" [ref=e28] [cursor=pointer]:
+    - img [ref=e29]
+  - alert [ref=e32]

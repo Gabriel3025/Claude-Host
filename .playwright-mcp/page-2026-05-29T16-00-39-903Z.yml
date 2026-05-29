@@ -1,0 +1,262 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - link "Supabase" [ref=e9] [cursor=pointer]:
+            - /url: /dashboard/org/dreelmauwsthnbpazhwy
+            - img "Supabase" [ref=e10]
+          - generic [ref=e11]:
+            - img [ref=e13]
+            - generic [ref=e15]:
+              - link "Gabriel3025's Org Free" [ref=e16] [cursor=pointer]:
+                - /url: /dashboard/org/dreelmauwsthnbpazhwy
+                - img [ref=e17]
+                - generic [ref=e27]: Gabriel3025's Org
+                - generic [ref=e28]: Free
+              - button [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+            - generic [ref=e34]:
+              - img [ref=e36]
+              - generic [ref=e38]:
+                - link "Gabriel3025's Project" [ref=e39] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                  - img [ref=e40]
+                  - generic "Gabriel3025's Project" [ref=e43]
+                - button [ref=e44] [cursor=pointer]:
+                  - img [ref=e46]
+              - img [ref=e50]
+              - generic [ref=e52]:
+                - link "main Production" [ref=e53] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                  - generic "main" [ref=e54]
+                  - generic [ref=e55]: Production
+                - button [ref=e56] [cursor=pointer]:
+                  - img [ref=e58]
+          - button "Connect" [ref=e62] [cursor=pointer]:
+            - img [ref=e64]
+            - generic [ref=e66]: Connect
+        - generic [ref=e67]:
+          - generic [ref=e69] [cursor=pointer]: Feedback
+          - generic [ref=e70]:
+            - button "Search..." [ref=e71]:
+              - generic [ref=e72]:
+                - img [ref=e73]
+                - paragraph [ref=e76]: Search...
+              - generic [ref=e78]: Ctrl K
+            - button "Help" [ref=e79] [cursor=pointer]:
+              - generic [ref=e80]:
+                - img [ref=e81]
+                - generic [ref=e84]: Help
+            - button "Advisor Center" [ref=e86] [cursor=pointer]:
+              - generic [ref=e87]:
+                - img [ref=e88]
+                - generic [ref=e90]: Advisor Center
+            - button "SQL Editor" [ref=e91] [cursor=pointer]:
+              - generic [ref=e92]:
+                - img [ref=e93]
+                - generic [ref=e95]: SQL Editor
+            - button "AI Assistant" [ref=e96] [cursor=pointer]:
+              - generic [ref=e97]:
+                - img [ref=e100]
+                - generic [ref=e103]: AI Assistant
+          - button "Gabriel3025" [ref=e104] [cursor=pointer]:
+            - img "Gabriel3025" [ref=e106]
+    - generic [ref=e107]:
+      - generic [ref=e111]:
+        - list [ref=e114]:
+          - generic [ref=e115]:
+            - listitem [ref=e116]:
+              - link "Project Overview" [ref=e117] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                - img [ref=e118]
+                - generic: Project Overview
+            - listitem [ref=e120]:
+              - link "Table Editor" [ref=e121] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/editor
+                - img [ref=e122]
+                - generic: Table Editor
+            - listitem [ref=e124]:
+              - link "SQL Editor" [ref=e125] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/sql
+                - img [ref=e126]
+                - generic: SQL Editor
+          - generic [ref=e128]:
+            - listitem [ref=e129]:
+              - link "Database" [ref=e130] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/database/schemas
+                - img [ref=e131]
+                - generic: Database
+            - listitem [ref=e135]:
+              - link "Authentication" [ref=e136] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/users
+                - img [ref=e137]
+                - generic: Authentication
+            - listitem [ref=e139]:
+              - link "Storage" [ref=e140] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/storage/files
+                - img [ref=e141]
+                - generic: Storage
+            - listitem [ref=e143]:
+              - link "Edge Functions" [ref=e144] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/functions
+                - img [ref=e145]
+                - generic: Edge Functions
+            - listitem [ref=e150]:
+              - link "Realtime" [ref=e151] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/realtime/inspector
+                - img [ref=e152]
+                - generic: Realtime
+          - generic [ref=e154]:
+            - listitem [ref=e156]:
+              - link "Advisors" [ref=e157] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/advisors/security
+                - img [ref=e158]
+                - generic: Advisors
+            - listitem [ref=e160]:
+              - link "Observability" [ref=e161] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/observability
+                - img [ref=e162]
+                - generic: Observability
+            - listitem [ref=e170]:
+              - link "Logs" [ref=e171] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/logs/explorer
+                - img [ref=e172]
+                - generic: Logs
+            - listitem [ref=e173]:
+              - link "Integrations" [ref=e174] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/integrations
+                - img [ref=e175]
+                - generic: Integrations
+          - listitem [ref=e179]:
+            - link "Project Settings" [ref=e180] [cursor=pointer]:
+              - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/general
+              - img [ref=e181]
+              - generic: Project Settings
+        - button "Sidebar control" [ref=e186] [cursor=pointer]:
+          - img [ref=e188]
+      - generic [ref=e195]:
+        - generic [ref=e199]:
+          - heading "SQL Editor" [level=4] [ref=e201]
+          - generic [ref=e203]:
+            - generic [ref=e204]:
+              - generic [ref=e205]:
+                - generic [ref=e207]:
+                  - generic [ref=e208]: Search queries
+                  - textbox "Search queries..." [ref=e209]
+                  - button [ref=e210]:
+                    - img [ref=e211]
+                  - img [ref=e214]
+                - button [ref=e217] [cursor=pointer]:
+                  - img [ref=e219]
+              - button "Shared" [ref=e222]:
+                - img [ref=e223]
+                - generic [ref=e225]: Shared
+              - button "Favorites" [ref=e228]:
+                - img [ref=e229]
+                - generic [ref=e231]: Favorites
+              - generic [ref=e233]:
+                - button "PRIVATE" [expanded] [ref=e234]:
+                  - img [ref=e235]
+                  - generic [ref=e237]: PRIVATE
+                - generic [ref=e240]:
+                  - paragraph [ref=e241]: No private queries created yet
+                  - paragraph [ref=e242]: Queries will be automatically saved once you start writing in the editor
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+                      - generic:
+                        - generic "dummy_query_1":
+                          - generic:
+                            - img
+                            - generic: dummy_query_1
+                      - generic:
+                        - generic "dummy_query_2":
+                          - generic:
+                            - img
+                            - generic: dummy_query_2
+                      - generic:
+                        - generic "dummy_query_3":
+                          - generic:
+                            - img
+                            - generic: dummy_query_3
+                      - generic:
+                        - generic "dummy_query_4":
+                          - generic:
+                            - img
+                            - generic: dummy_query_4
+              - generic [ref=e244]:
+                - button "Reference" [expanded] [ref=e245]:
+                  - img [ref=e246]
+                  - generic [ref=e248]: Reference
+                - generic [ref=e249]:
+                  - link "templates" [ref=e250] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/sql/templates
+                    - img [ref=e251]
+                    - text: templates
+                  - link "examples" [ref=e253] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/sql/examples
+                    - img [ref=e254]
+                    - text: examples
+            - button "View running queries" [ref=e258] [cursor=pointer]:
+              - generic [ref=e259]: View running queries
+        - separator [ref=e260]:
+          - img [ref=e262]
+        - main [ref=e271]:
+          - generic [ref=e272]:
+            - generic [ref=e273]:
+              - generic [ref=e274]:
+                - button "Collapse sidebar" [ref=e275]:
+                  - img [ref=e276]
+                  - generic [ref=e279]: Collapse sidebar
+                - tablist [ref=e280]:
+                  - tab "New" [selected] [ref=e281]:
+                    - img [ref=e282]
+                    - generic [ref=e284]: New
+                    - button [ref=e285] [cursor=pointer]:
+                      - img [ref=e286]
+              - status [ref=e291]
+            - generic [ref=e294]:
+              - code [ref=e301]:
+                - generic [ref=e302]:
+                  - generic [ref=e307]: "1"
+                  - textbox "Editor content" [active] [ref=e317]
+                  - generic:
+                    - generic: Hit CTRL+SHIFT+K to generate query or just start typing
+              - separator [ref=e319]:
+                - img [ref=e321]
+              - generic [ref=e330]:
+                - tablist [ref=e331]:
+                  - generic [ref=e332]:
+                    - tab "Results" [selected] [ref=e333]:
+                      - generic [ref=e334]: Results
+                    - tab "Explain" [ref=e335]:
+                      - generic [ref=e336]: Explain
+                    - tab "Chart" [ref=e337]:
+                      - generic [ref=e338]: Chart
+                  - generic [ref=e339]:
+                    - button [ref=e340] [cursor=pointer]:
+                      - img [ref=e342]
+                    - generic [ref=e347]:
+                      - generic [ref=e348] [cursor=pointer]:
+                        - generic [ref=e349]: Source
+                        - button "Primary database" [ref=e350]:
+                          - generic [ref=e351]: Primary database
+                          - img [ref=e353]
+                      - button "Role postgres" [ref=e355] [cursor=pointer]:
+                        - generic [ref=e357]:
+                          - generic [ref=e358]: Role
+                          - generic [ref=e359]: postgres
+                          - img [ref=e360]
+                      - button "Run Ctrl ↵" [ref=e362] [cursor=pointer]:
+                        - generic [ref=e363]: Run
+                        - generic [ref=e365]: Ctrl ↵
+                - paragraph [ref=e367]:
+                  - text: Click
+                  - code [ref=e368]: Run
+                  - text: to execute your query
+  - alert [ref=e370]: SQL Editor | Gabriel3025's Project | Gabriel3025's Org | Supabase
+  - generic [ref=e371]:
+    - alert
+    - alert

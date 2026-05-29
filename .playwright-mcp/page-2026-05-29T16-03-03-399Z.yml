@@ -1,0 +1,309 @@
+- generic [ref=e1]:
+  - generic [ref=e78]:
+    - banner [ref=e80]:
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - link "Supabase" [ref=e83] [cursor=pointer]:
+            - /url: /dashboard/org/dreelmauwsthnbpazhwy
+            - img "Supabase" [ref=e84]
+          - generic [ref=e85]:
+            - img [ref=e87]
+            - generic [ref=e89]:
+              - link "Gabriel3025's Org Free" [ref=e90] [cursor=pointer]:
+                - /url: /dashboard/org/dreelmauwsthnbpazhwy
+                - img [ref=e91]
+                - generic [ref=e101]: Gabriel3025's Org
+                - generic [ref=e102]: Free
+              - button [ref=e103] [cursor=pointer]:
+                - img [ref=e105]
+            - generic [ref=e108]:
+              - img [ref=e110]
+              - generic [ref=e112]:
+                - link "Gabriel3025's Project" [ref=e113] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                  - img [ref=e114]
+                  - generic "Gabriel3025's Project" [ref=e117]
+                - button [ref=e118] [cursor=pointer]:
+                  - img [ref=e120]
+              - img [ref=e124]
+              - generic [ref=e126]:
+                - link "main Production" [ref=e127] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                  - generic "main" [ref=e128]
+                  - generic [ref=e129]: Production
+                - button [ref=e130] [cursor=pointer]:
+                  - img [ref=e132]
+          - button "Connect" [ref=e136] [cursor=pointer]:
+            - img [ref=e138]
+            - generic [ref=e140]: Connect
+        - generic [ref=e141]:
+          - generic [ref=e143] [cursor=pointer]: Feedback
+          - generic [ref=e144]:
+            - button "Search..." [ref=e145]:
+              - generic [ref=e146]:
+                - img [ref=e147]
+                - paragraph [ref=e150]: Search...
+              - generic [ref=e152]: Ctrl K
+            - button "Help" [ref=e826] [cursor=pointer]:
+              - generic [ref=e154]:
+                - img [ref=e155]
+                - generic [ref=e158]: Help
+            - button "Advisor Center" [ref=e827] [cursor=pointer]:
+              - generic [ref=e161]:
+                - img [ref=e162]
+                - generic [ref=e164]: Advisor Center
+            - button "SQL Editor" [ref=e828] [cursor=pointer]:
+              - generic [ref=e166]:
+                - img [ref=e167]
+                - generic [ref=e169]: SQL Editor
+            - button "AI Assistant" [ref=e829] [cursor=pointer]:
+              - generic [ref=e171]:
+                - img [ref=e174]
+                - generic [ref=e177]: AI Assistant
+          - button "Gabriel3025" [ref=e830] [cursor=pointer]:
+            - img "Gabriel3025" [ref=e831]
+    - generic [ref=e181]:
+      - generic [ref=e185]:
+        - list [ref=e188]:
+          - generic [ref=e189]:
+            - listitem [ref=e190]:
+              - link "Project Overview" [ref=e191] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                - img [ref=e192]
+                - generic: Project Overview
+            - listitem [ref=e194]:
+              - link "Table Editor" [ref=e195] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/editor
+                - img [ref=e196]
+                - generic: Table Editor
+            - listitem [ref=e198]:
+              - link "SQL Editor" [ref=e199] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/sql
+                - img [ref=e200]
+                - generic: SQL Editor
+          - generic [ref=e202]:
+            - listitem [ref=e203]:
+              - link "Database" [ref=e204] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/database/schemas
+                - img [ref=e205]
+                - generic: Database
+            - listitem [ref=e209]:
+              - link "Authentication" [ref=e210] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/auth/users
+                - img [ref=e211]
+                - generic: Authentication
+            - listitem [ref=e213]:
+              - link "Storage" [ref=e214] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/storage/files
+                - img [ref=e215]
+                - generic: Storage
+            - listitem [ref=e217]:
+              - link "Edge Functions" [ref=e218] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/functions
+                - img [ref=e219]
+                - generic: Edge Functions
+            - listitem [ref=e224]:
+              - link "Realtime" [ref=e225] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/realtime/inspector
+                - img [ref=e226]
+                - generic: Realtime
+          - generic [ref=e228]:
+            - listitem [ref=e230]:
+              - link "Advisors" [ref=e231] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/advisors/security
+                - img [ref=e232]
+                - generic: Advisors
+            - listitem [ref=e234]:
+              - link "Observability" [ref=e235] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/observability
+                - img [ref=e236]
+                - generic: Observability
+            - listitem [ref=e244]:
+              - link "Logs" [ref=e245] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/logs/explorer
+                - img [ref=e246]
+                - generic: Logs
+            - listitem [ref=e247]:
+              - link "Integrations" [ref=e248] [cursor=pointer]:
+                - /url: /dashboard/project/zgetngxwievfhcgtfnhx/integrations
+                - img [ref=e249]
+                - generic: Integrations
+          - listitem [ref=e253]:
+            - link "Project Settings" [ref=e254] [cursor=pointer]:
+              - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/general
+              - img [ref=e255]
+              - generic: Project Settings
+        - button "Sidebar control" [ref=e260] [cursor=pointer]:
+          - img [ref=e262]
+      - generic [ref=e269]:
+        - generic [ref=e273]:
+          - heading "SQL Editor" [level=4] [ref=e275]
+          - generic [ref=e277]:
+            - generic [ref=e278]:
+              - generic [ref=e279]:
+                - generic [ref=e281]:
+                  - generic [ref=e282]: Search queries
+                  - textbox "Search queries..." [ref=e283]
+                  - button [ref=e284]:
+                    - img [ref=e285]
+                  - img [ref=e288]
+                - button [ref=e291] [cursor=pointer]:
+                  - img [ref=e293]
+              - button "Shared" [ref=e296]:
+                - img [ref=e297]
+                - generic [ref=e299]: Shared
+              - button "Favorites" [ref=e302]:
+                - img [ref=e303]
+                - generic [ref=e305]: Favorites
+              - generic [ref=e307]:
+                - button "PRIVATE (1)" [expanded] [ref=e308]:
+                  - img [ref=e309]
+                  - generic [ref=e311]: PRIVATE (1)
+                - tree "private-snippets" [ref=e313]:
+                  - generic "Add Profile Fields to Users" [ref=e314] [cursor=pointer]:
+                    - generic [ref=e315]:
+                      - img [ref=e316]
+                      - generic [ref=e322]: Add Profile Fields to Users
+              - generic [ref=e324]:
+                - button "Reference" [expanded] [ref=e325]:
+                  - img [ref=e326]
+                  - generic [ref=e328]: Reference
+                - generic [ref=e329]:
+                  - link "templates" [ref=e330] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/sql/templates
+                    - img [ref=e331]
+                    - text: templates
+                  - link "examples" [ref=e333] [cursor=pointer]:
+                    - /url: /dashboard/project/zgetngxwievfhcgtfnhx/sql/examples
+                    - img [ref=e334]
+                    - text: examples
+            - button "View running queries" [ref=e338] [cursor=pointer]:
+              - generic [ref=e339]: View running queries
+        - separator [ref=e340]:
+          - img [ref=e342]
+        - main [ref=e351]:
+          - generic [ref=e352]:
+            - generic [ref=e353]:
+              - generic [ref=e354]:
+                - button "Collapse sidebar" [ref=e355]:
+                  - img [ref=e356]
+                  - generic [ref=e359]: Collapse sidebar
+                - tablist [ref=e360]:
+                  - button "Add Profile Fields to Users" [ref=e362]:
+                    - tab "Add Profile Fields to Users" [selected] [ref=e363]:
+                      - img [ref=e364]
+                      - generic [ref=e371]: Add Profile Fields to Users
+                      - button [ref=e372] [cursor=pointer]:
+                        - img [ref=e373]
+                    - separator [ref=e377]
+                  - button [ref=e378]:
+                    - img [ref=e379]
+              - status [ref=e381]
+            - generic [ref=e384]:
+              - code [ref=e391]:
+                - generic [ref=e392]:
+                  - generic [ref=e394]:
+                    - generic [ref=e832]:
+                      - generic [ref=e833] [cursor=pointer]: 
+                      - generic [ref=e834]: "14"
+                    - generic [ref=e835]:
+                      - generic [ref=e836] [cursor=pointer]: 
+                      - generic [ref=e837]: "15"
+                    - generic [ref=e838]:
+                      - generic [ref=e839] [cursor=pointer]: 
+                      - generic [ref=e840]: "16"
+                    - generic [ref=e841]:
+                      - generic [ref=e842] [cursor=pointer]: 
+                      - generic [ref=e843]: "17"
+                    - generic [ref=e844]:
+                      - generic [ref=e845] [cursor=pointer]: 
+                      - generic [ref=e846]: "18"
+                    - generic [ref=e847]:
+                      - generic [ref=e848] [cursor=pointer]: 
+                      - generic [ref=e849]: "19"
+                    - generic [ref=e719]: "20"
+                    - generic [ref=e722]: "21"
+                  - generic [ref=e406]:
+                    - generic [ref=e851]: id UUID PRIMARY KEY REFERENCES auth.users (id) ON DELETE CASCADE,
+                    - generic [ref=e853]: email TEXT NOT NULL UNIQUE,
+                    - generic [ref=e855]: name TEXT,
+                    - generic [ref=e857]: weight NUMERIC,
+                    - generic [ref=e859]: height NUMERIC,
+                    - generic [ref=e861]: created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+                    - generic [ref=e863]: updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+                    - generic [ref=e865]: );E users ADD COLUMN email text, ADD COLUMN name text, ADD COLUMN weight numeric, ADD COLUMN height numeric, ADD COLUMN
+                    - generic [ref=e867]: updated_at timestamp with time zone DEFAULT now();
+                  - textbox "Editor content" [active] [ref=e412]: );E users ADD COLUMN email text, ADD COLUMN name text, ADD COLUMN weight numeric, ADD COLUMN height numeric, ADD COLUMN updated_at timestamp with time zone DEFAULT now();
+                  - generic [ref=e628]:
+                    - generic [ref=e868]:
+                      - generic [ref=e869]: "13"
+                      - generic [ref=e870]: 
+                    - generic [ref=e871]:
+                      - generic [ref=e872]: "14"
+                      - generic [ref=e873]: 
+                    - generic [ref=e874]:
+                      - generic [ref=e875]: "15"
+                      - generic [ref=e876]: 
+                    - generic [ref=e638]:
+                      - list:
+                        - listitem [ref=e877]:
+                          - generic [ref=e878]: CREATE TABLE users (
+                        - listitem [ref=e879]:
+                          - generic [ref=e880]: id UUID PRIMARY KEY REFERENCES auth.users (id) ON DELETE CASCADE,
+                        - listitem [ref=e881]:
+                          - generic [ref=e882]: email TEXT NOT NULL UNIQUE,
+              - separator [ref=e413]:
+                - img [ref=e415]
+              - generic [ref=e424]:
+                - tablist [ref=e425]:
+                  - generic [ref=e426]:
+                    - tab "Results" [selected] [ref=e427]:
+                      - generic [ref=e428]: Results
+                    - tab "Explain" [ref=e429]:
+                      - generic [ref=e430]: Explain
+                    - tab "Chart" [ref=e431]:
+                      - generic [ref=e432]: Chart
+                    - button "Export" [disabled]:
+                      - generic: Export
+                      - generic:
+                        - img
+                  - generic [ref=e433]:
+                    - button [ref=e434] [cursor=pointer]:
+                      - img [ref=e436]
+                    - generic [ref=e441]:
+                      - generic [ref=e442] [cursor=pointer]:
+                        - generic [ref=e443]: Source
+                        - button "Primary database" [ref=e444]:
+                          - generic [ref=e445]: Primary database
+                          - img [ref=e447]
+                      - button "Role postgres" [ref=e449] [cursor=pointer]:
+                        - generic [ref=e451]:
+                          - generic [ref=e452]: Role
+                          - generic [ref=e453]: postgres
+                          - img [ref=e454]
+                      - button "Run Ctrl ↵" [ref=e456] [cursor=pointer]:
+                        - generic [ref=e457]: Run
+                        - generic [ref=e883]: Ctrl ↵
+                - generic [ref=e884]:
+                  - generic [ref=e885]:
+                    - generic [ref=e886]: "Failed to run sql query: ERROR: 42601: syntax error at or near \"DROP\""
+                    - generic [ref=e887]: "LINE 11: DROP TABLE IF EXISTS users CASCADE;"
+                    - generic [ref=e888]: ^
+                  - generic [ref=e889]:
+                    - button [ref=e890]:
+                      - button [ref=e891] [cursor=pointer]:
+                        - img [ref=e893]
+                    - generic [ref=e896]:
+                      - button "Debug with Assistant" [ref=e897] [cursor=pointer]:
+                        - img [ref=e901]
+                        - generic [ref=e904]: Debug with Assistant
+                      - button [ref=e905] [cursor=pointer]:
+                        - img [ref=e907]
+              - generic "Table grid footer" [ref=e909]:
+                - button "0 row" [ref=e910]:
+                  - paragraph [ref=e911]:
+                    - generic [ref=e912]: 0 row
+  - alert [ref=e77]: Add Profile Fields to Users | SQL Editor | Gabriel3025's Project | Supabase
+  - generic [ref=e464]:
+    - alert
+    - alert
