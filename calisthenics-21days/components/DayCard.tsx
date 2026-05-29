@@ -25,7 +25,7 @@ export function DayCard({ dayNumber, isCompleted, isCurrent, onUndo }: DayCardPr
   };
 
   return (
-    <>
+    <div className="relative">
       <Link href={`/day/${dayNumber}`}>
         <div
           className={`rounded-lg border-2 p-4 cursor-pointer transition-all transform hover:scale-105 ${
@@ -60,11 +60,12 @@ export function DayCard({ dayNumber, isCompleted, isCurrent, onUndo }: DayCardPr
         <button
           onClick={handleUndo}
           disabled={isUndoing}
-          className="w-full mt-2 bg-gray-400 hover:bg-gray-500 disabled:opacity-50 disabled:cursor-not-allowed text-white text-xs font-semibold py-2 px-3 rounded-lg transition-colors"
+          className="absolute -top-2 -right-2 bg-gray-400 hover:bg-gray-500 disabled:opacity-50 disabled:cursor-not-allowed text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center transition-all transform hover:scale-110 shadow-md"
+          title="Desfazer este dia"
         >
-          {isUndoing ? "⟳ Desfazendo..." : "🔙 Desfazer"}
+          {isUndoing ? "⟳" : "↶"}
         </button>
       )}
-    </>
+    </div>
   );
 }

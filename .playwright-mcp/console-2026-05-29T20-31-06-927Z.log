@@ -6,3 +6,11 @@
 [    3255ms] [LOG] [Fast Refresh] done in 358ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
 [    7411ms] [LOG] Series buttons found: 0 @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
 [   23942ms] [LOG] Found Desfazer buttons: 2 @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  101712ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  101897ms] [LOG] [Fast Refresh] done in 286ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  102204ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  102312ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  178865ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  179647ms] [LOG] [Fast Refresh] done in 693ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  179784ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  180512ms] [LOG] [Fast Refresh] done in 836ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
