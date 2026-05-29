@@ -131,16 +131,36 @@ export function useProgressSync() {
 
     localStorage.setItem(PROGRESS_KEY, JSON.stringify(Array.from(updated)));
 
-    if (userId) {
+    // Get current user session to ensure userId is available
+    const { data } = await supabase.auth.getSession();
+    const currentUserId = data?.session?.user?.id;
+
+    if (currentUserId) {
       try {
-        await supabase
+        const { error } = await supabase
           .from("progress")
           .delete()
-          .eq("user_id", userId)
+          .eq("user_id", currentUserId)
           .eq("day", dayNumber);
+
+        if (error) {
+          console.error("Error undoing day:", error);
+          // Revert local state if delete failed
+          const reverted = new Set(completedDays);
+          reverted.add(dayNumber);
+          setCompletedDays(reverted);
+        } else {
+          console.log(`Successfully undid day ${dayNumber}`);
+        }
       } catch (error) {
         console.error("Error undoing day:", error);
+        // Revert local state if delete failed
+        const reverted = new Set(completedDays);
+        reverted.add(dayNumber);
+        setCompletedDays(reverted);
       }
+    } else {
+      console.warn("No user session found for undo operation");
     }
   };
 
