@@ -23,3 +23,6 @@
 [  139230ms] [LOG] Attempting magic link signin for: gabriel.desouza9+magic@hotmail.com @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
 [  140148ms] [LOG] Magic link sent to: gabriel.desouza9+magic@hotmail.com @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
 [  140662ms] [LOG] Magic link sent - proceeding in dev mode @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  180981ms] [LOG] Attempting magic link signin for: gabriel.service@hotmail.com @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  181607ms] [LOG] Magic link sent to: gabriel.service@hotmail.com @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  182118ms] [LOG] Magic link sent - proceeding in dev mode @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
