@@ -26,3 +26,20 @@
 [  180981ms] [LOG] Attempting magic link signin for: gabriel.service@hotmail.com @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
 [  181607ms] [LOG] Magic link sent to: gabriel.service@hotmail.com @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
 [  182118ms] [LOG] Magic link sent - proceeding in dev mode @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  210082ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  210083ms] [LOG] [Fast Refresh] done in 104ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  247821ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  247859ms] [LOG] [Fast Refresh] done in 124ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  267839ms] [LOG] Login attempt for: gabriel.desouza9+final@hotmail.com @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  267841ms] [LOG] Attempting signup... @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  268349ms] [LOG] Attempting signin... @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  268609ms] [LOG] ✓ Login successful! @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  283855ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/user_progress?select=completed_days&user_id=eq.142b03d2-fe23-490d-8fe7-cfdef07043a3:0
+[  284021ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/user_progress?select=completed_days&user_id=eq.142b03d2-fe23-490d-8fe7-cfdef07043a3:0
+[  297957ms] [LOG] Login attempt for: gabriel.service@hotmail.com @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  297959ms] [LOG] Attempting signup... @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  298139ms] [ERROR] Failed to load resource: the server responded with a status of 422 () @ https://zgetngxwievfhcgtfnhx.supabase.co/auth/v1/signup:0
+[  298140ms] [LOG] Attempting signin... @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[  298385ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://zgetngxwievfhcgtfnhx.supabase.co/auth/v1/token?grant_type=password:0
+[  298386ms] [ERROR] Signin failed: Invalid login credentials @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:3318
+[  298386ms] [ERROR] Auth error: Invalid login credentials @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:3318
