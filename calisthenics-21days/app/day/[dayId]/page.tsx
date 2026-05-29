@@ -133,6 +133,16 @@ export default function DayPage() {
             <div className="text-4xl mb-3">✅</div>
             <h2 className="text-2xl font-bold mb-2">Dia {dayId} Completo!</h2>
             <p className="text-sm opacity-90 mb-4">Você é incrível! Continue assim!</p>
+
+            {/* Progress Bar */}
+            <div className="mb-6 bg-white bg-opacity-20 rounded-full h-2 overflow-hidden">
+              <div
+                className="bg-white h-full rounded-full transition-all"
+                style={{ width: "100%" }}
+              />
+            </div>
+            <p className="text-sm font-semibold mb-4">100% dos exercícios completos</p>
+
             <button
               onClick={() => {
                 if (dayId < 21) {
