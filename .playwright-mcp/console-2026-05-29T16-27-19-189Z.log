@@ -1,0 +1,5 @@
+[     185ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[     210ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[     434ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/user_progress?select=completed_days&user_id=eq.faa0a1b7-b110-4201-a7d4-7d6095dd0e53:0
+[    6376ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
+[    6399ms] [LOG] [Fast Refresh] done in 126ms @ http://localhost:3000/_next/static/chunks/07qn_next_dist_06c20_e._.js:2477
