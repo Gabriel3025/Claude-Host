@@ -19,8 +19,8 @@ export function useAuth() {
     const getSession = async () => {
       try {
         const { data } = await supabase.auth.getSession();
-        if (data?.session?.user) {
-          setUser({ id: data.session.user.id, email: data.session.user.email });
+        if (data?.session?.user?.id) {
+          setUser({ id: data.session.user.id, email: data.session.user.email || "" });
         }
       } catch (error) {
         console.error("Error fetching session:", error);
