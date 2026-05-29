@@ -60,7 +60,7 @@ export default function DayPage() {
           </button>
           <div className="text-center">
             <h1 className="text-3xl font-bold">Dia {dayId}</h1>
-            <p className="text-orange-100">{day.totalDuration} minutos de treino</p>
+            <p className="text-orange-100">~15 minutos de treino</p>
           </div>
           <div className="text-2xl">{isCompleted ? "✅" : "🔄"}</div>
         </div>
@@ -115,7 +115,7 @@ export default function DayPage() {
                   </span>
                   <div className="flex-1">
                     <p className="font-semibold text-gray-800">{exercise.name}</p>
-                    <p className="text-xs text-gray-600">{exercise.duration} minutos</p>
+                    <p className="text-xs text-gray-600">{exercise.sets}x{exercise.reps} • {exercise.restTime}s descanso</p>
                   </div>
                 </div>
               </button>
