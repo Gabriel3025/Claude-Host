@@ -24,37 +24,56 @@ export function DayCard({ dayNumber, isCompleted, isCurrent, onUndo }: DayCardPr
     setIsUndoing(false);
   };
 
+  // Only allow clicking if completed or is current day
+  const isClickable = isCompleted || isCurrent;
+
+  const cardContent = (
+    <div
+      className={`rounded-lg border-2 p-4 transition-all transform ${
+        isClickable ? "cursor-pointer hover:scale-105" : "cursor-not-allowed opacity-60"
+      } ${
+        isCompleted
+          ? "border-green-500 bg-green-50 dark:bg-green-900/20 dark:border-green-700"
+          : isCurrent
+            ? "border-orange-500 bg-orange-50 shadow-lg dark:bg-[var(--bg-elevated)] dark:border-[var(--accent)] dark:shadow-lg"
+            : "border-[var(--border)] bg-[var(--bg-card)] dark:bg-[var(--bg-card)]"
+      }`}
+    >
+      <div className="flex items-center justify-between">
+        <div>
+          <h3 className="text-lg font-bold text-[var(--text-primary)]">Dia {dayNumber}</h3>
+          <p className="text-sm text-[var(--text-secondary)]">
+            {dayNumber === 14 ? "Descanso relativo" : "~15 minutos"}
+          </p>
+        </div>
+        <div className="text-3xl">
+          {isCompleted ? "✅" : isCurrent ? "🎯" : "🔒"}
+        </div>
+      </div>
+
+      {isCurrent && (
+        <div className="mt-3 bg-orange-200 text-orange-800 dark:bg-[var(--accent)] dark:text-black text-xs font-semibold px-2 py-1 rounded-full inline-block">
+          Começar agora
+        </div>
+      )}
+
+      {!isClickable && !isCompleted && (
+        <div className="mt-3 text-xs text-[var(--text-secondary)] italic">
+          Complete os dias anteriores para desbloquear
+        </div>
+      )}
+    </div>
+  );
+
   return (
     <div className="relative">
-      <Link href={`/day/${dayNumber}`}>
-        <div
-          className={`rounded-lg border-2 p-4 cursor-pointer transition-all transform hover:scale-105 ${
-            isCompleted
-              ? "border-green-500 bg-green-50 dark:bg-green-900/20 dark:border-green-700"
-              : isCurrent
-                ? "border-orange-500 bg-orange-50 shadow-lg dark:bg-[var(--bg-elevated)] dark:border-[var(--accent)] dark:shadow-lg"
-                : "border-[var(--border)] bg-[var(--bg-card)] hover:border-orange-300 dark:hover:border-[var(--accent)]"
-          }`}
-        >
-          <div className="flex items-center justify-between">
-            <div>
-              <h3 className="text-lg font-bold text-[var(--text-primary)]">Dia {dayNumber}</h3>
-              <p className="text-sm text-[var(--text-secondary)]">
-                {dayNumber === 14 ? "Descanso relativo" : "~15 minutos"}
-              </p>
-            </div>
-            <div className="text-3xl">
-              {isCompleted ? "✅" : isCurrent ? "🎯" : "🔒"}
-            </div>
-          </div>
-
-          {isCurrent && (
-            <div className="mt-3 bg-orange-200 text-orange-800 dark:bg-[var(--accent)] dark:text-black text-xs font-semibold px-2 py-1 rounded-full inline-block">
-              Começar agora
-            </div>
-          )}
-        </div>
-      </Link>
+      {isClickable ? (
+        <Link href={`/day/${dayNumber}`}>
+          {cardContent}
+        </Link>
+      ) : (
+        cardContent
+      )}
 
       {isCompleted && onUndo && (
         <button
