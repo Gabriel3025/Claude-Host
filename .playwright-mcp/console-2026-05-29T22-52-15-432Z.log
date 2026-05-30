@@ -1,1 +1,49 @@
 [      -7ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://claude-host-seven.vercel.app/:0
+[60589413ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://claude-host-seven.vercel.app/:0
+[60592219ms] [LOG] %c
+▲
+
+    ________   _ __ _          ____           __
+   /  _/ __/  (_) /( )_____   / __/___ ______/ /_
+   / // /_   / / __/// ___/  / /_/ __ `/ ___/ __/
+ _/ // __/  / / /_  (__  )  / __/ /_/ (__  ) /_
+/___/_/    /_/\__/ /____/  /_/  \__,_/____/\__/
+    _ __ _                         _    __                    __
+   (_) /( )_____   ____  ____     | |  / /__  _____________  / /
+  / / __/// ___/  / __ \/ __ \    | | / / _ \/ ___/ ___/ _ \/ /
+ / / /_  (__  )  / /_/ / / / /    | |/ /  __/ /  / /__/  __/ /
+/_/\__/ /____/   \____/_/ /_/     |___/\___/_/   \___/\___/_/
+  
+
+Hello!
+
+- Open Source https://vercel.com/oss
+- Careers https://vercel.com/careers
+- Status https://vercel-status.com
+
+ font-family: "Geist Mono", monospace; white-space: pre; line-height: 1; @ https://vercel.com/vc-ap-vercel-docs/_next/static/immutable/chunks/3awgs-or5gwbm.js:78
+[60592832ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rX (https://vercel.com/vc-ap-vercel-docs/_next/static/immutable/chunks/0uzrquhpwjio1.js:2:40587)
+    at rZ (https://vercel.com/vc-ap-vercel-docs/_next/static/immutable/chunks/0uzrquhpwjio1.js:2:41620)
+    at https://vercel.com/vc-ap-vercel-docs/_next/static/immutable/chunks/0uzrquhpwjio1.js:2:136049
+    at sv (https://vercel.com/vc-ap-vercel-docs/_next/static/immutable/chunks/0uzrquhpwjio1.js:2:141208)
+    at sm (https://vercel.com/vc-ap-vercel-docs/_next/static/immutable/chunks/0uzrquhpwjio1.js:2:132462)
+    at https://vercel.com/vc-ap-vercel-docs/_next/static/immutable/chunks/0uzrquhpwjio1.js:2:132246
+    at sp (https://vercel.com/vc-ap-vercel-docs/_next/static/immutable/chunks/0uzrquhpwjio1.js:2:132254)
+    at st (https://vercel.com/vc-ap-vercel-docs/_next/static/immutable/chunks/0uzrquhpwjio1.js:2:127394)
+    at sq (https://vercel.com/vc-ap-vercel-docs/_next/static/immutable/chunks/0uzrquhpwjio1.js:2:154081)
+    at s$ (https://vercel.com/vc-ap-vercel-docs/_next/static/immutable/chunks/0uzrquhpwjio1.js:2:152295)
+[60593652ms] [WARNING] Deprecated API for given entry type. @ https://vercel.com/vc-ap-vercel-docs/_next/static/immutable/chunks/1v3--c0x-mno1.js:18
+[60593844ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://o205439.ingest.us.sentry.io/api/4507726617772033/envelope/?sentry_key=fa4620bf2250a67e0f31636787ee5ad5&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.111.0:0
+[60597364ms] [WARNING] The resource https://vercel.com/vc-ap-vercel-docs/_next/static/immutable/chunks/05ukjk40yt31z.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/docs/errors/not_found:0
+[60597364ms] [WARNING] The resource https://vercel-docs.vercel.sh/vc-ap-0cca3e/_next/static/immutable/chunks/3kgyi5hwufybw.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/docs/errors/not_found:0
+[60597365ms] [WARNING] The resource https://vercel.com/vc-ap-vercel-docs/_next/static/immutable/chunks/257im70u48z3n.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/docs/errors/not_found:0
+[60597365ms] [WARNING] The resource https://vercel.com/vc-ap-0cca3e/_next/static/immutable/chunks/3kgyi5hwufybw.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/docs/errors/not_found:0
+[60602486ms] [WARNING] The resource https://vercel.com/vc-ap-vercel-docs/_next/static/immutable/chunks/05ukjk40yt31z.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/docs/errors/not_found:0
+[60602492ms] [WARNING] The resource https://vercel-docs.vercel.sh/vc-ap-0cca3e/_next/static/immutable/chunks/3kgyi5hwufybw.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/docs/errors/not_found:0
+[60602492ms] [WARNING] The resource https://vercel.com/vc-ap-vercel-docs/_next/static/immutable/chunks/257im70u48z3n.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/docs/errors/not_found:0
+[60602492ms] [WARNING] The resource https://vercel.com/vc-ap-0cca3e/_next/static/immutable/chunks/3kgyi5hwufybw.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/docs/errors/not_found:0
+[60606606ms] [WARNING] The resource https://vercel.com/vc-ap-vercel-docs/_next/static/immutable/chunks/05ukjk40yt31z.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/docs/errors/not_found:0
+[60606606ms] [WARNING] The resource https://vercel-docs.vercel.sh/vc-ap-0cca3e/_next/static/immutable/chunks/3kgyi5hwufybw.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/docs/errors/not_found:0
+[60606607ms] [WARNING] The resource https://vercel.com/vc-ap-vercel-docs/_next/static/immutable/chunks/257im70u48z3n.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/docs/errors/not_found:0
+[60606607ms] [WARNING] The resource https://vercel.com/vc-ap-0cca3e/_next/static/immutable/chunks/3kgyi5hwufybw.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/docs/errors/not_found:0

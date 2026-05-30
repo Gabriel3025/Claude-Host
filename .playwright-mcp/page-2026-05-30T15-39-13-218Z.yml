@@ -1,0 +1,204 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e9]:
+            - link "gabriel3025's projects Hobby" [ref=e10] [cursor=pointer]:
+              - /url: /gabriel3025s-projects
+              - img [ref=e11]
+              - generic [ref=e12]:
+                - generic [ref=e13]: gabriel3025's projects
+                - generic [ref=e15]: Hobby
+            - button [ref=e16] [cursor=pointer]:
+              - img [ref=e18]
+          - button "Find… F" [ref=e21]:
+            - generic [ref=e23]:
+              - img [ref=e25]
+              - generic [ref=e27]: Find…
+              - generic [ref=e29]: F
+        - navigation [ref=e31]:
+          - generic [ref=e34]:
+            - link "Overview" [ref=e35] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host
+              - generic [ref=e38]: Overview
+            - link "Deployments" [ref=e39] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/deployments
+              - img [ref=e41]
+              - generic [ref=e44]: Deployments
+            - link "Logs" [ref=e45] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/logs
+              - img [ref=e47]
+              - generic [ref=e50]: Logs
+            - link "Analytics" [ref=e51] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/analytics
+              - img [ref=e53]
+              - generic [ref=e56]: Analytics
+            - link "Speed Insights" [ref=e57] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/speed-insights
+              - img [ref=e59]
+              - generic [ref=e62]: Speed Insights
+            - link "Observability" [ref=e63] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/observability
+              - img [ref=e65]
+              - generic [ref=e68]: Observability
+              - img [ref=e70]
+            - link "Firewall" [ref=e72] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/firewall
+              - img [ref=e74]
+              - generic [ref=e78]: Firewall
+              - img [ref=e80]
+            - link "CDN" [ref=e82] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/cdn
+              - img [ref=e84]
+              - generic [ref=e87]: CDN
+              - img [ref=e89]
+            - separator [ref=e91]
+            - link "Environment Variables" [ref=e92] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/settings/environment-variables
+              - img [ref=e94]
+              - generic [ref=e97]: Environment Variables
+            - link "Domains" [ref=e98] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/settings/domains
+              - img [ref=e100]
+              - generic [ref=e103]: Domains
+            - link "Integrations" [ref=e104] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/settings/integrations
+              - img [ref=e106]
+              - generic [ref=e109]: Integrations
+            - link "Storage" [ref=e110] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/stores
+              - img [ref=e112]
+              - generic [ref=e115]: Storage
+            - link "Flags" [ref=e116] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/flags
+              - img [ref=e118]
+              - generic [ref=e121]: Flags
+              - img [ref=e123]
+            - link "Agent" [ref=e125] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/agent
+              - img [ref=e127]
+              - generic [ref=e130]: Agent
+              - img [ref=e132]
+            - link "AI Gateway" [ref=e134] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/ai-gateway
+              - img [ref=e136]
+              - generic [ref=e139]: AI Gateway
+              - img [ref=e141]
+            - link "Sandboxes" [ref=e143] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/sandboxes
+              - img [ref=e145]
+              - generic [ref=e148]: Sandboxes
+            - link "Workflows" [ref=e149] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/workflows
+              - img [ref=e151]
+              - generic [ref=e154]: Workflows
+            - separator [ref=e155]
+            - link "Usage" [ref=e156] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/usage
+              - img [ref=e158]
+              - generic [ref=e161]: Usage
+            - link "Support" [ref=e162] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/support
+              - img [ref=e164]
+              - generic [ref=e167]: Support
+            - link "Settings" [ref=e168] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/settings
+              - img [ref=e170]
+              - generic [ref=e173]: Settings
+              - img [ref=e175]
+        - generic [ref=e181]:
+          - button "Avatar for gabriel3025 gabriel3025" [disabled]:
+            - img "Avatar for gabriel3025":
+              - img "Avatar for gabriel3025"
+            - generic:
+              - generic: gabriel3025
+            - generic:
+              - img
+          - img [ref=e184]
+      - button [ref=e187] [cursor=pointer]:
+        - img [ref=e188]
+    - generic [ref=e191]:
+      - generic [ref=e192]:
+        - generic [ref=e195]:
+          - link "claude-host" [ref=e196] [cursor=pointer]:
+            - /url: /gabriel3025s-projects/claude-host
+            - generic [ref=e199]: claude-host
+          - button [ref=e200] [cursor=pointer]:
+            - img [ref=e202]
+          - link "Back to team view" [ref=e206] [cursor=pointer]:
+            - /url: /gabriel3025s-projects
+            - img [ref=e208]
+        - generic [ref=e212]: Overview
+        - button "Open page actions menu" [ref=e214] [cursor=pointer]:
+          - img [ref=e216]
+      - generic [ref=e220]:
+        - generic [ref=e225]:
+          - heading "Production Deployment" [level=3] [ref=e227]
+          - generic [ref=e242]:
+            - generic [ref=e245]:
+              - term [ref=e246]: Deployment
+              - definition [ref=e247]
+            - generic [ref=e252]:
+              - term [ref=e253]:
+                - generic [ref=e255]:
+                  - text: Domains
+                  - link [ref=e256] [cursor=pointer]:
+                    - /url: /gabriel3025s-projects/claude-host/settings/domains
+                    - img [ref=e257]
+              - definition [ref=e259]
+            - generic [ref=e261]:
+              - generic [ref=e262]:
+                - term [ref=e263]: Status
+                - definition [ref=e264]
+              - generic [ref=e267]:
+                - term [ref=e268]: Created
+                - definition [ref=e269]
+            - generic [ref=e272]:
+              - term [ref=e273]: Source
+              - definition [ref=e274]
+          - button "Deployment Settings" [ref=e280] [cursor=pointer]:
+            - generic [ref=e281]:
+              - img [ref=e282]
+              - generic [ref=e285]: Deployment Settings
+        - generic [ref=e294]:
+          - paragraph [ref=e298]
+          - generic [ref=e303]:
+            - generic [ref=e304]:
+              - generic [ref=e305]:
+                - paragraph [ref=e306]:
+                  - strong [ref=e307]: Observability
+                - time [ref=e308]: 6h
+              - link "Go to page" [ref=e309] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e311]
+              - link [ref=e313] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e315]:
+              - generic [ref=e317]: Edge Requests
+              - generic [ref=e322]: Function Invocations
+              - generic [ref=e327]: Error Rate
+          - generic [ref=e333]:
+            - paragraph [ref=e334]:
+              - strong [ref=e335]: Analytics
+            - time [ref=e336]: 1w
+        - generic [ref=e350]:
+          - img [ref=e353]
+          - img [ref=e364]
+          - img [ref=e375]
+          - img [ref=e386]
+          - generic [ref=e395]:
+            - img [ref=e398]
+            - img [ref=e409]
+            - img [ref=e420]
+            - img [ref=e431]
+            - img [ref=e442]
+            - img [ref=e453]
+  - alert [ref=e462]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - img
