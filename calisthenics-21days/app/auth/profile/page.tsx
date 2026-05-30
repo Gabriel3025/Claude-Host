@@ -59,7 +59,7 @@ export default function ProfilePage() {
           weight: parseFloat(weight),
           height: parseFloat(height),
           updated_at: new Date().toISOString(),
-        });
+        } as any);
 
       if (error) throw error;
 

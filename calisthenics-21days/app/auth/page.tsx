@@ -49,7 +49,7 @@ export default function AuthPage() {
         // Small delay to ensure database is ready
         await new Promise(resolve => setTimeout(resolve, 500));
 
-        const { data: profile } = await supabase
+        const { data: profile } = await (supabase as any)
           .from("profiles")
           .select("id")
           .eq("id", data.session.user.id)

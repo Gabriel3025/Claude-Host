@@ -23,14 +23,14 @@ export default function Home() {
           .from("profiles")
           .select("name, weight, height")
           .eq("id", data.session.user.id)
-          .single();
+          .single() as any;
 
         setUser({
           email: data.session.user.email,
           id: data.session.user.id,
-          name: profile?.name || data.session.user.email,
-          weight: profile?.weight,
-          height: profile?.height,
+          name: (profile as any)?.name || data.session.user.email,
+          weight: (profile as any)?.weight,
+          height: (profile as any)?.height,
         });
       }
     };
@@ -45,7 +45,7 @@ export default function Home() {
 
       if (userId && completedDays.size > 0) {
         // Delete all existing progress records
-        await supabase
+        await (supabase as any)
           .from("progress")
           .delete()
           .eq("user_id", userId);
@@ -53,7 +53,7 @@ export default function Home() {
         // Insert current state
         const daysArray = Array.from(completedDays);
         if (daysArray.length > 0) {
-          await supabase
+          await (supabase as any)
             .from("progress")
             .insert(
               daysArray.map((day) => ({

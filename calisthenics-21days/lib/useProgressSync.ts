@@ -35,13 +35,13 @@ export function useProgressSync() {
         if (currentUserId) {
           setUserId(currentUserId);
 
-          const { data: progressData } = await supabase
+          const { data: progressData } = await (supabase as any)
             .from("progress")
             .select("day")
             .eq("user_id", currentUserId);
 
           if (progressData) {
-            const days = progressData.map((p) => p.day);
+            const days = (progressData as any[]).map((p) => p.day);
             const sanitized = sanitizeProgress(days);
             setCompletedDays(new Set(sanitized));
           } else {
@@ -114,7 +114,7 @@ export function useProgressSync() {
 
     if (userId) {
       try {
-        await supabase.from("progress").insert({
+        await (supabase as any).from("progress").insert({
           user_id: userId,
           day: dayNumber,
         });
