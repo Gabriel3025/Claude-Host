@@ -2946,3 +2946,67 @@ Compaction failed: Another write batch or compaction is already active (Only a s
 Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
 Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
 Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+
+thread '<unnamed>' (22276) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 183842)
+
+Caused by:
+    0: Looking up task storage for TaskId 183842 from database failed
+    1: Unable to open static sorted file referenced from 00004930.meta
+    2: Unable to open static sorted file 00004925.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00004925.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread '<unnamed>' (22276) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 183842)
+
+Caused by:
+    0: Looking up task storage for TaskId 183842 from database failed
+    1: Unable to open static sorted file referenced from 00004930.meta
+    2: Unable to open static sorted file 00004925.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00004925.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread '<unnamed>' (22276) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 183842)
+
+Caused by:
+    0: Looking up task storage for TaskId 183842 from database failed
+    1: Unable to open static sorted file referenced from 00004930.meta
+    2: Unable to open static sorted file 00004925.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00004925.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread '<unnamed>' (22276) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 183842)
+
+Caused by:
+    0: Looking up task storage for TaskId 183842 from database failed
+    1: Unable to open static sorted file referenced from 00004930.meta
+    2: Unable to open static sorted file 00004925.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00004925.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread '<unnamed>' (22276) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 183842)
+
+Caused by:
+    0: Looking up task storage for TaskId 183842 from database failed
+    1: Unable to open static sorted file referenced from 00004930.meta
+    2: Unable to open static sorted file 00004925.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00004925.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread '<unnamed>' (22276) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 183842)
+
+Caused by:
+    0: Looking up task storage for TaskId 183842 from database failed
+    1: Unable to open static sorted file referenced from 00004930.meta
+    2: Unable to open static sorted file 00004925.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00004925.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
