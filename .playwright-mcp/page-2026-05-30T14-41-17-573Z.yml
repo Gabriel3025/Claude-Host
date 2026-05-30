@@ -1,0 +1,782 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e9]:
+            - link "gabriel3025's projects Hobby" [ref=e10] [cursor=pointer]:
+              - /url: /gabriel3025s-projects
+              - img [ref=e11]
+              - generic [ref=e12]:
+                - generic [ref=e13]: gabriel3025's projects
+                - generic [ref=e15]: Hobby
+            - button [ref=e16] [cursor=pointer]:
+              - img [ref=e18]
+          - button "Find… F" [ref=e21]:
+            - generic [ref=e23]:
+              - img [ref=e25]
+              - generic [ref=e27]: Find…
+              - generic [ref=e29]: F
+        - navigation [ref=e31]:
+          - generic [ref=e34]:
+            - link "Other Overview" [ref=e569] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host
+              - img "Other" [ref=e570]:
+                - img "Other" [ref=e571]
+              - generic [ref=e39]: Overview
+            - link "Deployments" [ref=e40] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/deployments
+              - img [ref=e42]
+              - generic [ref=e45]: Deployments
+            - link "Logs" [ref=e46] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/logs
+              - img [ref=e48]
+              - generic [ref=e51]: Logs
+            - link "Analytics" [ref=e52] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/analytics
+              - img [ref=e54]
+              - generic [ref=e57]: Analytics
+            - link "Speed Insights" [ref=e58] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/speed-insights
+              - img [ref=e60]
+              - generic [ref=e63]: Speed Insights
+            - link "Observability" [ref=e64] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/observability
+              - img [ref=e66]
+              - generic [ref=e69]: Observability
+              - img [ref=e71]
+            - link "Firewall" [ref=e73] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/firewall
+              - img [ref=e75]
+              - generic [ref=e79]: Firewall
+              - img [ref=e81]
+            - link "CDN" [ref=e83] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/cdn
+              - img [ref=e85]
+              - generic [ref=e88]: CDN
+              - img [ref=e90]
+            - separator [ref=e92]
+            - link "Environment Variables" [ref=e93] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/settings/environment-variables
+              - img [ref=e95]
+              - generic [ref=e98]: Environment Variables
+            - link "Domains" [ref=e99] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/settings/domains
+              - img [ref=e101]
+              - generic [ref=e104]: Domains
+            - link "Integrations" [ref=e105] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/settings/integrations
+              - img [ref=e107]
+              - generic [ref=e110]: Integrations
+            - link "Storage" [ref=e111] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/stores
+              - img [ref=e113]
+              - generic [ref=e116]: Storage
+            - link "Flags" [ref=e117] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/flags
+              - img [ref=e119]
+              - generic [ref=e122]: Flags
+              - img [ref=e124]
+            - link "Agent" [ref=e126] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/agent
+              - img [ref=e128]
+              - generic [ref=e131]: Agent
+              - img [ref=e133]
+            - link "AI Gateway" [ref=e135] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/ai-gateway
+              - img [ref=e137]
+              - generic [ref=e140]: AI Gateway
+              - img [ref=e142]
+            - link "Sandboxes" [ref=e144] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/sandboxes
+              - img [ref=e146]
+              - generic [ref=e149]: Sandboxes
+            - link "Workflows" [ref=e150] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/workflows
+              - img [ref=e152]
+              - generic [ref=e155]: Workflows
+            - separator [ref=e156]
+            - link "Usage" [ref=e157] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/usage
+              - img [ref=e159]
+              - generic [ref=e162]: Usage
+            - link "Support" [ref=e163] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/support
+              - img [ref=e165]
+              - generic [ref=e168]: Support
+            - link "Settings" [ref=e169] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/settings
+              - img [ref=e171]
+              - generic [ref=e174]: Settings
+              - img [ref=e176]
+        - generic [ref=e178]:
+          - generic [ref=e572]:
+            - generic [ref=e573]:
+              - generic [ref=e575]: Enable Push Notifications
+              - button "Dismiss" [ref=e576] [cursor=pointer]:
+                - img [ref=e578]
+            - generic [ref=e580]:
+              - generic [ref=e581]: Receive instant updates with alerts on desktop or mobile.
+              - button "Enable" [ref=e583] [cursor=pointer]:
+                - generic [ref=e584]: Enable
+          - generic [ref=e180]:
+            - button "Avatar for gabriel3025 gabriel3025" [ref=e556] [cursor=pointer]:
+              - img "Avatar for gabriel3025" [ref=e557]:
+                - img "Avatar for gabriel3025" [ref=e558]
+              - generic [ref=e560]: gabriel3025
+              - img [ref=e562]
+            - button "32 unseen notifications" [ref=e586] [cursor=pointer]:
+              - generic [ref=e587]:
+                - generic [ref=e588]:
+                  - img
+                - img [ref=e589]
+      - button [ref=e186] [cursor=pointer]:
+        - img [ref=e187]
+    - generic [ref=e190]:
+      - generic [ref=e191]:
+        - generic [ref=e194]:
+          - link "Other claude-host" [ref=e591] [cursor=pointer]:
+            - /url: /gabriel3025s-projects/claude-host
+            - img "Other" [ref=e592]:
+              - img "Other" [ref=e593]
+            - generic [ref=e198]: claude-host
+          - button [ref=e199] [cursor=pointer]:
+            - img [ref=e201]
+          - link "Back to team view" [ref=e205] [cursor=pointer]:
+            - /url: /gabriel3025s-projects/~/deployments
+            - img [ref=e207]
+        - generic [ref=e211]: Deployments
+        - button "Open page actions menu" [ref=e213] [cursor=pointer]:
+          - img [ref=e215]
+      - generic [ref=e595]:
+        - generic [ref=e596]:
+          - combobox [ref=e598]:
+            - generic [ref=e599]:
+              - generic:
+                - img
+              - searchbox "All Branches…" [ref=e600]
+              - button "Open menu" [ref=e601] [cursor=pointer]:
+                - img [ref=e602]
+          - combobox [ref=e605]:
+            - generic [ref=e606]:
+              - generic:
+                - img
+              - searchbox "All Authors…" [ref=e607]
+              - button "Open menu" [ref=e608] [cursor=pointer]:
+                - img [ref=e609]
+          - button "Menu" [ref=e613] [cursor=pointer]:
+            - generic [ref=e614]:
+              - generic [ref=e616]: All Environments
+              - img [ref=e618]
+          - button "Select Date Range" [ref=e623] [cursor=pointer]:
+            - img [ref=e625]
+            - generic [ref=e627]: Select Date Range
+          - generic [ref=e628]:
+            - button "Filter by deployment status. 6 of 7 statuses selected" [ref=e632] [cursor=pointer]:
+              - generic [ref=e633]:
+                - generic [ref=e639]: Status
+                - generic "6 of 7 statuses selected" [ref=e640]:
+                  - generic [ref=e641]: 6/7
+              - img [ref=e644]
+            - button "Deployments actions" [ref=e647] [cursor=pointer]:
+              - img [ref=e649]
+        - generic [ref=e652]:
+          - generic [ref=e653] [cursor=pointer]:
+            - generic [ref=e654]:
+              - link "View deployment claude-host-ojptp42hm-gabriel3025s-projects.vercel.app" [ref=e655]:
+                - /url: /gabriel3025s-projects/claude-host/HLWuTHBq3KGKUUJTPsp5CE5BEtd3
+              - generic [ref=e658]: "Auto-update: 2026-05-30 11:34:59"
+              - generic [ref=e659]:
+                - generic "This deployment had an error." [ref=e660]:
+                  - generic [ref=e664]: Error
+                - generic [ref=e665]: 37s
+              - link "Production" [ref=e669]:
+                - /url: https://claude-host-ojptp42hm-gabriel3025s-projects.vercel.app
+                - generic [ref=e670]:
+                  - img [ref=e672]
+                  - text: Production
+            - generic [ref=e674]:
+              - link "7a9a40d" [ref=e676]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/commit/7a9a40d2f65f992e51451db46229e173d6c4b628
+                - img [ref=e677]
+                - generic [ref=e679]: 7a9a40d
+              - link "master" [ref=e681]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/tree/master
+                - img [ref=e682]
+                - generic [ref=e684]: master
+              - generic [ref=e685]:
+                - generic [ref=e687]: 6m ago
+                - img "github/Gabriel3025" [ref=e692]:
+                  - img "github/Gabriel3025" [ref=e693]
+            - button "Deployment Actions" [ref=e695]:
+              - img [ref=e697]
+          - generic [ref=e699] [cursor=pointer]:
+            - generic [ref=e700]:
+              - link "View deployment claude-host-om2dewqo7-gabriel3025s-projects.vercel.app" [ref=e701]:
+                - /url: /gabriel3025s-projects/claude-host/DV1pbo14PHhv2QBzpEzEN2Es5K8V
+              - generic [ref=e704]: "Fix: resolve Vercel build failure by implementing lazy Supabase initialization"
+              - generic [ref=e705]:
+                - generic "This deployment had an error." [ref=e706]:
+                  - generic [ref=e710]: Error
+                - generic [ref=e711]: 37s
+              - link "Production" [ref=e715]:
+                - /url: https://claude-host-om2dewqo7-gabriel3025s-projects.vercel.app
+                - generic [ref=e716]:
+                  - img [ref=e718]
+                  - text: Production
+            - generic [ref=e720]:
+              - link "386cca7" [ref=e722]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/commit/386cca77d35f9ce6f47988ab5c9e18bfc223436c
+                - img [ref=e723]
+                - generic [ref=e725]: 386cca7
+              - link "master" [ref=e727]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/tree/master
+                - img [ref=e728]
+                - generic [ref=e730]: master
+              - generic [ref=e731]:
+                - generic [ref=e733]: 6m ago
+                - img "github/Gabriel3025" [ref=e738]:
+                  - img "github/Gabriel3025" [ref=e739]
+            - button "Deployment Actions" [ref=e741]:
+              - img [ref=e743]
+          - generic [ref=e745] [cursor=pointer]:
+            - generic [ref=e746]:
+              - link "View deployment claude-host-ohfa6q4ne-gabriel3025s-projects.vercel.app" [ref=e747]:
+                - /url: /gabriel3025s-projects/claude-host/3hAAUiLjRqZw9LCFzT3GR1q388mM
+              - generic [ref=e750]: "Auto-update: 2026-05-30 11:00:14"
+              - generic [ref=e751]:
+                - generic "This deployment had an error." [ref=e752]:
+                  - generic [ref=e756]: Error
+                - generic [ref=e757]: 33s
+              - link "Production" [ref=e761]:
+                - /url: https://claude-host-ohfa6q4ne-gabriel3025s-projects.vercel.app
+                - generic [ref=e762]:
+                  - img [ref=e764]
+                  - text: Production
+            - generic [ref=e766]:
+              - link "3adea03" [ref=e768]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/commit/3adea0377fe05138ef66f8a07a22f13376886705
+                - img [ref=e769]
+                - generic [ref=e771]: 3adea03
+              - link "master" [ref=e773]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/tree/master
+                - img [ref=e774]
+                - generic [ref=e776]: master
+              - generic [ref=e777]:
+                - generic [ref=e779]: 41m ago
+                - img "github/Gabriel3025" [ref=e784]:
+                  - img "github/Gabriel3025" [ref=e785]
+            - button "Deployment Actions" [ref=e787]:
+              - img [ref=e789]
+          - generic [ref=e791] [cursor=pointer]:
+            - generic [ref=e792]:
+              - link "View deployment claude-host-nl41s3aqw-gabriel3025s-projects.vercel.app" [ref=e793]:
+                - /url: /gabriel3025s-projects/claude-host/HQyumfu4b5oZCcU4o5HcL331vBbH
+              - generic [ref=e796]: "Trigger: force cache clear on Vercel deploy"
+              - generic [ref=e797]:
+                - generic "This deployment had an error." [ref=e798]:
+                  - generic [ref=e802]: Error
+                - generic [ref=e803]: 33s
+              - link "Production" [ref=e807]:
+                - /url: https://claude-host-nl41s3aqw-gabriel3025s-projects.vercel.app
+                - generic [ref=e808]:
+                  - img [ref=e810]
+                  - text: Production
+            - generic [ref=e812]:
+              - link "fa526b8" [ref=e814]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/commit/fa526b8be3290184de2b32030a2a1ed69ab0a541
+                - img [ref=e815]
+                - generic [ref=e817]: fa526b8
+              - link "master" [ref=e819]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/tree/master
+                - img [ref=e820]
+                - generic [ref=e822]: master
+              - generic [ref=e823]:
+                - generic [ref=e825]: 42m ago
+                - img "github/Gabriel3025" [ref=e830]:
+                  - img "github/Gabriel3025" [ref=e831]
+            - button "Deployment Actions" [ref=e833]:
+              - img [ref=e835]
+          - generic [ref=e837] [cursor=pointer]:
+            - generic [ref=e838]:
+              - link "View deployment claude-host-8r1fy6bnd-gabriel3025s-projects.vercel.app" [ref=e839]:
+                - /url: /gabriel3025s-projects/claude-host/J12gfB9gybCNNX7TMif1CKbRyAmP
+              - generic [ref=e842]: "Fix: remove parent bun.lock to eliminate workspace confusion for Vercel"
+              - generic [ref=e843]:
+                - generic "This deployment had an error." [ref=e844]:
+                  - generic [ref=e848]: Error
+                - generic [ref=e849]: 35s
+              - link "Production" [ref=e853]:
+                - /url: https://claude-host-8r1fy6bnd-gabriel3025s-projects.vercel.app
+                - generic [ref=e854]:
+                  - img [ref=e856]
+                  - text: Production
+            - generic [ref=e858]:
+              - link "11d6edd" [ref=e860]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/commit/11d6edd4d547e6cf21fac05fdcaa9eb96ac3a3e2
+                - img [ref=e861]
+                - generic [ref=e863]: 11d6edd
+              - link "master" [ref=e865]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/tree/master
+                - img [ref=e866]
+                - generic [ref=e868]: master
+              - generic [ref=e869]:
+                - generic [ref=e871]: 42m ago
+                - img "github/Gabriel3025" [ref=e876]:
+                  - img "github/Gabriel3025" [ref=e877]
+            - button "Deployment Actions" [ref=e879]:
+              - img [ref=e881]
+          - generic [ref=e883] [cursor=pointer]:
+            - generic [ref=e884]:
+              - link "View deployment claude-host-red9wzvqc-gabriel3025s-projects.vercel.app" [ref=e885]:
+                - /url: /gabriel3025s-projects/claude-host/7N8rV4NxQ5eLwMDkVhWbNezyDxWU
+              - generic [ref=e888]: "Fix: remove corrupted .next cache — triggers clean Vercel build"
+              - generic [ref=e889]:
+                - generic "This deployment had an error." [ref=e890]:
+                  - generic [ref=e894]: Error
+                - generic [ref=e895]: 36s
+              - link "Production" [ref=e899]:
+                - /url: https://claude-host-red9wzvqc-gabriel3025s-projects.vercel.app
+                - generic [ref=e900]:
+                  - img [ref=e902]
+                  - text: Production
+            - generic [ref=e904]:
+              - link "ba3bacb" [ref=e906]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/commit/ba3bacb09e23a9c012ea5c99497b7d3e083fd2e6
+                - img [ref=e907]
+                - generic [ref=e909]: ba3bacb
+              - link "master" [ref=e911]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/tree/master
+                - img [ref=e912]
+                - generic [ref=e914]: master
+              - generic [ref=e915]:
+                - generic [ref=e917]: 42m ago
+                - img "github/Gabriel3025" [ref=e922]:
+                  - img "github/Gabriel3025" [ref=e923]
+            - button "Deployment Actions" [ref=e925]:
+              - img [ref=e927]
+          - generic [ref=e929] [cursor=pointer]:
+            - generic [ref=e930]:
+              - link "View deployment claude-host-mh65dgiwl-gabriel3025s-projects.vercel.app" [ref=e931]:
+                - /url: /gabriel3025s-projects/claude-host/81gRnNX7mXipdwYwjWCsqYQSYQTD
+              - generic [ref=e934]: "Auto-update: 2026-05-30 10:55:06"
+              - generic [ref=e935]:
+                - generic "This deployment had an error." [ref=e936]:
+                  - generic [ref=e940]: Error
+                - generic [ref=e941]: 35s
+              - link "Production" [ref=e945]:
+                - /url: https://claude-host-mh65dgiwl-gabriel3025s-projects.vercel.app
+                - generic [ref=e946]:
+                  - img [ref=e948]
+                  - text: Production
+            - generic [ref=e950]:
+              - link "afdcada" [ref=e952]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/commit/afdcada6334488bea08e555b9b11df23512c8489
+                - img [ref=e953]
+                - generic [ref=e955]: afdcada
+              - link "master" [ref=e957]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/tree/master
+                - img [ref=e958]
+                - generic [ref=e960]: master
+              - generic [ref=e961]:
+                - generic [ref=e963]: 46m ago
+                - img "github/Gabriel3025" [ref=e968]:
+                  - img "github/Gabriel3025" [ref=e969]
+            - button "Deployment Actions" [ref=e971]:
+              - img [ref=e973]
+          - generic [ref=e975] [cursor=pointer]:
+            - generic [ref=e976]:
+              - link "View deployment claude-host-q2wsijsm9-gabriel3025s-projects.vercel.app" [ref=e977]:
+                - /url: /gabriel3025s-projects/claude-host/4MnHF23U3VU8MFwVJ24XF8tMau1G
+              - generic [ref=e980]: "Auto-update: 2026-05-30 10:51:32"
+              - generic [ref=e981]:
+                - generic "This deployment had an error." [ref=e982]:
+                  - generic [ref=e986]: Error
+                - generic [ref=e987]: 37s
+              - link "Production" [ref=e991]:
+                - /url: https://claude-host-q2wsijsm9-gabriel3025s-projects.vercel.app
+                - generic [ref=e992]:
+                  - img [ref=e994]
+                  - text: Production
+            - generic [ref=e996]:
+              - link "80d8796" [ref=e998]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/commit/80d879688136b5d94d1067c6de2994dd1f6ec9c1
+                - img [ref=e999]
+                - generic [ref=e1001]: 80d8796
+              - link "master" [ref=e1003]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/tree/master
+                - img [ref=e1004]
+                - generic [ref=e1006]: master
+              - generic [ref=e1007]:
+                - generic [ref=e1009]: 49m ago
+                - img "github/Gabriel3025" [ref=e1014]:
+                  - img "github/Gabriel3025" [ref=e1015]
+            - button "Deployment Actions" [ref=e1017]:
+              - img [ref=e1019]
+          - generic [ref=e1021] [cursor=pointer]:
+            - generic [ref=e1022]:
+              - link "View deployment claude-host-1oli582ik-gabriel3025s-projects.vercel.app" [ref=e1023]:
+                - /url: /gabriel3025s-projects/claude-host/4E5C2mkucntrJu6UfFtFQoDf9Rfd
+              - generic [ref=e1026]: "Auto-update: 2026-05-30 10:49:37"
+              - generic [ref=e1027]:
+                - generic "This deployment had an error." [ref=e1028]:
+                  - generic [ref=e1032]: Error
+                - generic [ref=e1033]: 35s
+              - link "Production" [ref=e1037]:
+                - /url: https://claude-host-1oli582ik-gabriel3025s-projects.vercel.app
+                - generic [ref=e1038]:
+                  - img [ref=e1040]
+                  - text: Production
+            - generic [ref=e1042]:
+              - link "ff42a46" [ref=e1044]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/commit/ff42a460063bf72df051aa7cb80e74869ba6e1d8
+                - img [ref=e1045]
+                - generic [ref=e1047]: ff42a46
+              - link "master" [ref=e1049]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/tree/master
+                - img [ref=e1050]
+                - generic [ref=e1052]: master
+              - generic [ref=e1053]:
+                - generic [ref=e1055]: 51m ago
+                - img "github/Gabriel3025" [ref=e1060]:
+                  - img "github/Gabriel3025" [ref=e1061]
+            - button "Deployment Actions" [ref=e1063]:
+              - img [ref=e1065]
+          - generic [ref=e1067] [cursor=pointer]:
+            - generic [ref=e1068]:
+              - link "View deployment claude-host-451lbzi0l-gabriel3025s-projects.vercel.app" [ref=e1069]:
+                - /url: /gabriel3025s-projects/claude-host/B3q8mdrmxXiSWWDHUGFeC2SVcViB
+              - generic [ref=e1072]: "Auto-update: 2026-05-30 10:48:56"
+              - generic [ref=e1073]:
+                - generic "This deployment had an error." [ref=e1074]:
+                  - generic [ref=e1078]: Error
+                - generic [ref=e1079]: 37s
+              - link "Production" [ref=e1083]:
+                - /url: https://claude-host-451lbzi0l-gabriel3025s-projects.vercel.app
+                - generic [ref=e1084]:
+                  - img [ref=e1086]
+                  - text: Production
+            - generic [ref=e1088]:
+              - link "781973b" [ref=e1090]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/commit/781973b281497abdb63d52d9fc188ab7d9a7ceae
+                - img [ref=e1091]
+                - generic [ref=e1093]: 781973b
+              - link "master" [ref=e1095]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/tree/master
+                - img [ref=e1096]
+                - generic [ref=e1098]: master
+              - generic [ref=e1099]:
+                - generic [ref=e1101]: 52m ago
+                - img "github/Gabriel3025" [ref=e1106]:
+                  - img "github/Gabriel3025" [ref=e1107]
+            - button "Deployment Actions" [ref=e1109]:
+              - img [ref=e1111]
+          - generic [ref=e1113] [cursor=pointer]:
+            - generic [ref=e1114]:
+              - link "View deployment claude-host-2eb1oyiis-gabriel3025s-projects.vercel.app" [ref=e1115]:
+                - /url: /gabriel3025s-projects/claude-host/6DzBeAKQ7Ety9rUDwK82pmPork3A
+              - generic [ref=e1118]: "Auto-update: 2026-05-30 10:48:23"
+              - generic [ref=e1119]:
+                - generic "This deployment had an error." [ref=e1120]:
+                  - generic [ref=e1124]: Error
+                - generic [ref=e1125]: 34s
+              - link "Production" [ref=e1129]:
+                - /url: https://claude-host-2eb1oyiis-gabriel3025s-projects.vercel.app
+                - generic [ref=e1130]:
+                  - img [ref=e1132]
+                  - text: Production
+            - generic [ref=e1134]:
+              - link "ef3179b" [ref=e1136]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/commit/ef3179b67a19061b143dde32de43d627c6544ca4
+                - img [ref=e1137]
+                - generic [ref=e1139]: ef3179b
+              - link "master" [ref=e1141]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/tree/master
+                - img [ref=e1142]
+                - generic [ref=e1144]: master
+              - generic [ref=e1145]:
+                - generic [ref=e1147]: 53m ago
+                - img "github/Gabriel3025" [ref=e1152]:
+                  - img "github/Gabriel3025" [ref=e1153]
+            - button "Deployment Actions" [ref=e1155]:
+              - img [ref=e1157]
+          - generic [ref=e1159] [cursor=pointer]:
+            - generic [ref=e1160]:
+              - link "View deployment claude-host-i4f0oxag3-gabriel3025s-projects.vercel.app" [ref=e1161]:
+                - /url: /gabriel3025s-projects/claude-host/ACTLPp6b6gtLorYLcH81cnwmt8VP
+              - generic [ref=e1164]: "Auto-update: 2026-05-30 10:47:45"
+              - generic [ref=e1165]:
+                - generic "This deployment had an error." [ref=e1166]:
+                  - generic [ref=e1170]: Error
+                - generic [ref=e1171]: 34s
+              - link "Production" [ref=e1175]:
+                - /url: https://claude-host-i4f0oxag3-gabriel3025s-projects.vercel.app
+                - generic [ref=e1176]:
+                  - img [ref=e1178]
+                  - text: Production
+            - generic [ref=e1180]:
+              - link "90fa0e6" [ref=e1182]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/commit/90fa0e67e84723dd27d3d731c2e2823df4e51438
+                - img [ref=e1183]
+                - generic [ref=e1185]: 90fa0e6
+              - link "master" [ref=e1187]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/tree/master
+                - img [ref=e1188]
+                - generic [ref=e1190]: master
+              - generic [ref=e1191]:
+                - generic [ref=e1193]: 53m ago
+                - img "github/Gabriel3025" [ref=e1198]:
+                  - img "github/Gabriel3025" [ref=e1199]
+            - button "Deployment Actions" [ref=e1201]:
+              - img [ref=e1203]
+          - generic [ref=e1205] [cursor=pointer]:
+            - generic [ref=e1206]:
+              - link "View deployment claude-host-lyceyc5kx-gabriel3025s-projects.vercel.app" [ref=e1207]:
+                - /url: /gabriel3025s-projects/claude-host/Awt5kxQ3Qm4DJq9svKC4VEvzsMbm
+              - generic [ref=e1210]: "Auto-update: 2026-05-30 10:47:12"
+              - generic [ref=e1211]:
+                - generic "This deployment had an error." [ref=e1212]:
+                  - generic [ref=e1216]: Error
+                - generic [ref=e1217]: 35s
+              - link "Production" [ref=e1221]:
+                - /url: https://claude-host-lyceyc5kx-gabriel3025s-projects.vercel.app
+                - generic [ref=e1222]:
+                  - img [ref=e1224]
+                  - text: Production
+            - generic [ref=e1226]:
+              - link "2521f4b" [ref=e1228]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/commit/2521f4bb1797a66fa5f93793ff1312749b428dbe
+                - img [ref=e1229]
+                - generic [ref=e1231]: 2521f4b
+              - link "master" [ref=e1233]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/tree/master
+                - img [ref=e1234]
+                - generic [ref=e1236]: master
+              - generic [ref=e1237]:
+                - generic [ref=e1239]: 54m ago
+                - img "github/Gabriel3025" [ref=e1244]:
+                  - img "github/Gabriel3025" [ref=e1245]
+            - button "Deployment Actions" [ref=e1247]:
+              - img [ref=e1249]
+          - generic [ref=e1251] [cursor=pointer]:
+            - generic [ref=e1252]:
+              - link "View deployment claude-host-m17crzgz7-gabriel3025s-projects.vercel.app" [ref=e1253]:
+                - /url: /gabriel3025s-projects/claude-host/DPPXsMvgp14HuoY6m6xaoYGf9Gaj
+              - generic [ref=e1256]: "Auto-update: 2026-05-30 10:46:55"
+              - generic [ref=e1257]:
+                - generic "This deployment had an error." [ref=e1258]:
+                  - generic [ref=e1262]: Error
+                - generic [ref=e1263]: 36s
+              - link "Production" [ref=e1267]:
+                - /url: https://claude-host-m17crzgz7-gabriel3025s-projects.vercel.app
+                - generic [ref=e1268]:
+                  - img [ref=e1270]
+                  - text: Production
+            - generic [ref=e1272]:
+              - link "94532f2" [ref=e1274]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/commit/94532f2df35ec93588c534f620a41ff2e283c2cd
+                - img [ref=e1275]
+                - generic [ref=e1277]: 94532f2
+              - link "master" [ref=e1279]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/tree/master
+                - img [ref=e1280]
+                - generic [ref=e1282]: master
+              - generic [ref=e1283]:
+                - generic [ref=e1285]: 54m ago
+                - img "github/Gabriel3025" [ref=e1290]:
+                  - img "github/Gabriel3025" [ref=e1291]
+            - button "Deployment Actions" [ref=e1293]:
+              - img [ref=e1295]
+          - generic [ref=e1297] [cursor=pointer]:
+            - generic [ref=e1298]:
+              - link "View deployment claude-host-h1o0h8pp0-gabriel3025s-projects.vercel.app" [ref=e1299]:
+                - /url: /gabriel3025s-projects/claude-host/AXo1EV5EX5iNHhRVe5KzT2Zdu4Nv
+              - generic [ref=e1302]: "Trigger: rebuild with cleaned environment"
+              - generic [ref=e1303]:
+                - generic "This deployment had an error." [ref=e1304]:
+                  - generic [ref=e1308]: Error
+                - generic [ref=e1309]: 36s
+              - link "Production" [ref=e1313]:
+                - /url: https://claude-host-h1o0h8pp0-gabriel3025s-projects.vercel.app
+                - generic [ref=e1314]:
+                  - img [ref=e1316]
+                  - text: Production
+            - generic [ref=e1318]:
+              - link "2e2e36f" [ref=e1320]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/commit/2e2e36ffddcd932dd1b200174188bf3f54db0630
+                - img [ref=e1321]
+                - generic [ref=e1323]: 2e2e36f
+              - link "master" [ref=e1325]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/tree/master
+                - img [ref=e1326]
+                - generic [ref=e1328]: master
+              - generic [ref=e1329]:
+                - generic [ref=e1331]: 16h ago
+                - img "github/Gabriel3025" [ref=e1336]:
+                  - img "github/Gabriel3025" [ref=e1337]
+            - button "Deployment Actions" [ref=e1339]:
+              - img [ref=e1341]
+          - generic [ref=e1343] [cursor=pointer]:
+            - generic [ref=e1344]:
+              - link "View deployment claude-host-bpm7vcmr2-gabriel3025s-projects.vercel.app" [ref=e1345]:
+                - /url: /gabriel3025s-projects/claude-host/FoDKBC7ePCU4mfr5DxiKteBa7vSt
+              - generic [ref=e1348]: "Auto-update: 2026-05-29 20:08:36"
+              - generic [ref=e1349]:
+                - generic "This deployment had an error." [ref=e1350]:
+                  - generic [ref=e1354]: Error
+                - generic [ref=e1355]: 35s
+              - link "Production" [ref=e1359]:
+                - /url: https://claude-host-bpm7vcmr2-gabriel3025s-projects.vercel.app
+                - generic [ref=e1360]:
+                  - img [ref=e1362]
+                  - text: Production
+            - generic [ref=e1364]:
+              - link "380872a" [ref=e1366]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/commit/380872a001ab0be600b8cbedbfd123f89656aaac
+                - img [ref=e1367]
+                - generic [ref=e1369]: 380872a
+              - link "master" [ref=e1371]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/tree/master
+                - img [ref=e1372]
+                - generic [ref=e1374]: master
+              - generic [ref=e1375]:
+                - generic [ref=e1377]: 16h ago
+                - img "github/Gabriel3025" [ref=e1382]:
+                  - img "github/Gabriel3025" [ref=e1383]
+            - button "Deployment Actions" [ref=e1385]:
+              - img [ref=e1387]
+          - generic [ref=e1389] [cursor=pointer]:
+            - generic [ref=e1390]:
+              - link "View deployment claude-host-qg7o85lyy-gabriel3025s-projects.vercel.app" [ref=e1391]:
+                - /url: /gabriel3025s-projects/claude-host/BYg1B7Mt9SRJqmonb48KjNMx49dG
+              - generic [ref=e1394]: "Diagnóstico: confirma build local passando e estrutura limpa para Vercel"
+              - generic [ref=e1395]:
+                - generic "This deployment had an error." [ref=e1396]:
+                  - generic [ref=e1400]: Error
+                - generic [ref=e1401]: 36s
+              - link "Production" [ref=e1405]:
+                - /url: https://claude-host-qg7o85lyy-gabriel3025s-projects.vercel.app
+                - generic [ref=e1406]:
+                  - img [ref=e1408]
+                  - text: Production
+            - generic [ref=e1410]:
+              - link "1e4fab9" [ref=e1412]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/commit/1e4fab9e89f60bc5c6be750dbbdfcd56038ad567
+                - img [ref=e1413]
+                - generic [ref=e1415]: 1e4fab9
+              - link "master" [ref=e1417]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/tree/master
+                - img [ref=e1418]
+                - generic [ref=e1420]: master
+              - generic [ref=e1421]:
+                - generic [ref=e1423]: 16h ago
+                - img "github/Gabriel3025" [ref=e1428]:
+                  - img "github/Gabriel3025" [ref=e1429]
+            - button "Deployment Actions" [ref=e1431]:
+              - img [ref=e1433]
+          - generic [ref=e1435] [cursor=pointer]:
+            - generic [ref=e1436]:
+              - link "View deployment claude-host-i43yx3kls-gabriel3025s-projects.vercel.app" [ref=e1437]:
+                - /url: /gabriel3025s-projects/claude-host/CiKT11CEMYVS1ZFteu95WVyyceqV
+              - generic [ref=e1440]: "Auto-update: 2026-05-29 20:04:29"
+              - generic [ref=e1441]:
+                - generic "This deployment had an error." [ref=e1442]:
+                  - generic [ref=e1446]: Error
+                - generic [ref=e1447]: 34s
+              - link "Production" [ref=e1451]:
+                - /url: https://claude-host-i43yx3kls-gabriel3025s-projects.vercel.app
+                - generic [ref=e1452]:
+                  - img [ref=e1454]
+                  - text: Production
+            - generic [ref=e1456]:
+              - link "ea363df" [ref=e1458]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/commit/ea363dfedddb667544b314650a010f18280d1b3c
+                - img [ref=e1459]
+                - generic [ref=e1461]: ea363df
+              - link "master" [ref=e1463]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/tree/master
+                - img [ref=e1464]
+                - generic [ref=e1466]: master
+              - generic [ref=e1467]:
+                - generic [ref=e1469]: 16h ago
+                - img "github/Gabriel3025" [ref=e1474]:
+                  - img "github/Gabriel3025" [ref=e1475]
+            - button "Deployment Actions" [ref=e1477]:
+              - img [ref=e1479]
+          - generic [ref=e1481] [cursor=pointer]:
+            - generic [ref=e1482]:
+              - link "View deployment claude-host-npstj9wek-gabriel3025s-projects.vercel.app" [ref=e1483]:
+                - /url: /gabriel3025s-projects/claude-host/DXP3XUXWkBHzqAXX7dBbGaod3Vhy
+              - generic [ref=e1486]: "Clean: remove force rebuild comment"
+              - generic [ref=e1487]:
+                - generic "This deployment had an error." [ref=e1488]:
+                  - generic [ref=e1492]: Error
+                - generic [ref=e1493]: 36s
+              - link "Production" [ref=e1497]:
+                - /url: https://claude-host-npstj9wek-gabriel3025s-projects.vercel.app
+                - generic [ref=e1498]:
+                  - img [ref=e1500]
+                  - text: Production
+            - generic [ref=e1502]:
+              - link "99a7943" [ref=e1504]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/commit/99a7943a50af9a87070df8b291a92e95c1c3054f
+                - img [ref=e1505]
+                - generic [ref=e1507]: 99a7943
+              - link "master" [ref=e1509]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/tree/master
+                - img [ref=e1510]
+                - generic [ref=e1512]: master
+              - generic [ref=e1513]:
+                - generic [ref=e1515]: 16h ago
+                - img "github/Gabriel3025" [ref=e1520]:
+                  - img "github/Gabriel3025" [ref=e1521]
+            - button "Deployment Actions" [ref=e1523]:
+              - img [ref=e1525]
+          - generic [ref=e1527] [cursor=pointer]:
+            - generic [ref=e1528]:
+              - link "View deployment claude-host-a1f7aa0qj-gabriel3025s-projects.vercel.app" [ref=e1529]:
+                - /url: /gabriel3025s-projects/claude-host/H8Cnogoenm2R4KVEMBZP7WYM616R
+              - generic [ref=e1532]: "Trigger: force Vercel rebuild after dependency fix"
+              - generic [ref=e1533]:
+                - generic "This deployment had an error." [ref=e1534]:
+                  - generic [ref=e1538]: Error
+                - generic [ref=e1539]: 33s
+              - link "Production" [ref=e1543]:
+                - /url: https://claude-host-a1f7aa0qj-gabriel3025s-projects.vercel.app
+                - generic [ref=e1544]:
+                  - img [ref=e1546]
+                  - text: Production
+            - generic [ref=e1548]:
+              - link "4afe112" [ref=e1550]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/commit/4afe112437d2a9259598dfe3c36018d1bb695487
+                - img [ref=e1551]
+                - generic [ref=e1553]: 4afe112
+              - link "master" [ref=e1555]:
+                - /url: https://github.com/Gabriel3025/Claude-Host/tree/master
+                - img [ref=e1556]
+                - generic [ref=e1558]: master
+              - generic [ref=e1559]:
+                - generic [ref=e1561]: 16h ago
+                - img "github/Gabriel3025" [ref=e1566]:
+                  - img "github/Gabriel3025" [ref=e1567]
+            - button "Deployment Actions" [ref=e1569]:
+              - img [ref=e1571]
+        - button "Load More" [ref=e1573] [cursor=pointer]:
+          - generic [ref=e1574]: Load More
+        - generic [ref=e1575]:
+          - paragraph [ref=e1576]:
+            - text: Deployment Retention is enabled for this project — some deployments will be deleted after a set time period.
+            - link "Learn more" [ref=e1577] [cursor=pointer]:
+              - /url: /docs/security/deployment-retention
+              - text: Learn more
+              - img [ref=e1578]
+          - button "View Recently Deleted" [ref=e1580] [cursor=pointer]:
+            - generic [ref=e1581]: View Recently Deleted
+  - alert [ref=e568]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - img
