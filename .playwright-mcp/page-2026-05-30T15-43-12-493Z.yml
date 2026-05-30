@@ -1,0 +1,334 @@
+- generic [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e9]:
+            - link "gabriel3025's projects Hobby" [ref=e10] [cursor=pointer]:
+              - /url: /gabriel3025s-projects
+              - img [ref=e11]
+              - generic [ref=e12]:
+                - generic [ref=e13]: gabriel3025's projects
+                - generic [ref=e15]: Hobby
+            - button [ref=e16] [cursor=pointer]:
+              - img [ref=e18]
+          - button "Find… F" [ref=e21]:
+            - generic [ref=e23]:
+              - img [ref=e25]
+              - generic [ref=e27]: Find…
+              - generic [ref=e29]: F
+        - navigation [ref=e31]:
+          - generic [ref=e34]:
+            - link "Other Overview" [ref=e35] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host
+              - img "Other" [ref=e37]:
+                - img "Other" [ref=e38]
+              - generic [ref=e40]: Overview
+            - link "Deployments" [ref=e41] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/deployments
+              - img [ref=e43]
+              - generic [ref=e46]: Deployments
+            - link "Logs" [ref=e47] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/logs
+              - img [ref=e49]
+              - generic [ref=e52]: Logs
+            - link "Analytics" [ref=e53] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/analytics
+              - img [ref=e55]
+              - generic [ref=e58]: Analytics
+            - link "Speed Insights" [ref=e59] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/speed-insights
+              - img [ref=e61]
+              - generic [ref=e64]: Speed Insights
+            - link "Observability" [ref=e65] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/observability
+              - img [ref=e67]
+              - generic [ref=e70]: Observability
+              - img [ref=e72]
+            - link "Firewall" [ref=e74] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/firewall
+              - img [ref=e76]
+              - generic [ref=e80]: Firewall
+              - img [ref=e82]
+            - link "CDN" [ref=e84] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/cdn
+              - img [ref=e86]
+              - generic [ref=e89]: CDN
+              - img [ref=e91]
+            - separator [ref=e93]
+            - link "Environment Variables" [ref=e94] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/settings/environment-variables
+              - img [ref=e96]
+              - generic [ref=e99]: Environment Variables
+            - link "Domains" [ref=e100] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/settings/domains
+              - img [ref=e102]
+              - generic [ref=e105]: Domains
+            - link "Integrations" [ref=e106] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/settings/integrations
+              - img [ref=e108]
+              - generic [ref=e111]: Integrations
+            - link "Storage" [ref=e112] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/stores
+              - img [ref=e114]
+              - generic [ref=e117]: Storage
+            - link "Flags" [ref=e118] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/flags
+              - img [ref=e120]
+              - generic [ref=e123]: Flags
+              - img [ref=e125]
+            - link "Agent" [ref=e127] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/agent
+              - img [ref=e129]
+              - generic [ref=e132]: Agent
+              - img [ref=e134]
+            - link "AI Gateway" [ref=e136] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/ai-gateway
+              - img [ref=e138]
+              - generic [ref=e141]: AI Gateway
+              - img [ref=e143]
+            - link "Sandboxes" [ref=e145] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/sandboxes
+              - img [ref=e147]
+              - generic [ref=e150]: Sandboxes
+            - link "Workflows" [ref=e151] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/workflows
+              - img [ref=e153]
+              - generic [ref=e156]: Workflows
+            - separator [ref=e157]
+            - link "Usage" [ref=e158] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/usage
+              - img [ref=e160]
+              - generic [ref=e163]: Usage
+            - link "Support" [ref=e164] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/support
+              - img [ref=e166]
+              - generic [ref=e169]: Support
+            - link "Settings" [ref=e170] [cursor=pointer]:
+              - /url: /gabriel3025s-projects/claude-host/settings
+              - img [ref=e172]
+              - generic [ref=e175]: Settings
+              - img [ref=e177]
+        - generic [ref=e181]:
+          - generic [ref=e488]:
+            - generic [ref=e489]:
+              - generic [ref=e491]: Enable Push Notifications
+              - button "Dismiss" [ref=e492] [cursor=pointer]:
+                - img [ref=e494]
+            - generic [ref=e496]:
+              - generic [ref=e497]: Receive instant updates with alerts on desktop or mobile.
+              - button "Enable" [ref=e499] [cursor=pointer]:
+                - generic [ref=e500]: Enable
+          - generic [ref=e183]:
+            - button "Avatar for gabriel3025 gabriel3025" [ref=e184] [cursor=pointer]:
+              - img "Avatar for gabriel3025" [ref=e185]:
+                - img "Avatar for gabriel3025" [ref=e186]
+              - generic [ref=e188]: gabriel3025
+              - img [ref=e190]
+            - button "48 unseen notifications" [ref=e194] [cursor=pointer]:
+              - generic [ref=e195]:
+                - generic [ref=e196]:
+                  - img
+                - img [ref=e501]
+      - button [ref=e198] [cursor=pointer]:
+        - img [ref=e199]
+    - generic [ref=e202]:
+      - generic [ref=e203]:
+        - generic [ref=e206]:
+          - link "Other claude-host" [ref=e207] [cursor=pointer]:
+            - /url: /gabriel3025s-projects/claude-host
+            - img "Other" [ref=e208]:
+              - img "Other" [ref=e209]
+            - generic [ref=e211]: claude-host
+          - button [ref=e212] [cursor=pointer]:
+            - img [ref=e214]
+          - link "Back to team view" [ref=e218] [cursor=pointer]:
+            - /url: /gabriel3025s-projects
+            - img [ref=e220]
+        - generic [ref=e224]: Overview
+        - button "Open page actions menu" [ref=e226] [cursor=pointer]:
+          - img [ref=e228]
+      - generic [ref=e232]:
+        - generic [ref=e236]:
+          - generic [ref=e237]:
+            - generic [ref=e238]:
+              - heading "Production Deployment" [level=3] [ref=e239]
+              - generic [ref=e504]:
+                - link "Repository" [ref=e506] [cursor=pointer]:
+                  - /url: https://github.com/Gabriel3025/Claude-Host/tree/master/calisthenics-21days
+                  - img [ref=e508]
+                  - generic [ref=e511]: Repository
+                - generic [ref=e512]:
+                  - button "Instant Rollback" [ref=e513] [cursor=pointer]:
+                    - generic [ref=e515]:
+                      - img [ref=e516]
+                      - generic [ref=e518]: Instant Rollback
+                  - generic [ref=e519]:
+                    - link "Visit" [ref=e520] [cursor=pointer]:
+                      - /url: https://claude-host-seven.vercel.app
+                      - generic [ref=e521]: Visit
+                    - button "Visit with" [ref=e522] [cursor=pointer]:
+                      - img [ref=e524]
+            - generic [ref=e250]:
+              - link "Visit Deployment" [ref=e253] [cursor=pointer]:
+                - /url: https://claude-host-seven.vercel.app
+                - img [ref=e256]
+              - generic [ref=e258]:
+                - generic [ref=e259]:
+                  - generic [ref=e261]:
+                    - term [ref=e262]: Deployment
+                    - definition [ref=e263]:
+                      - link "claude-host-3k3b9a2tu-gabriel3025s-projects.vercel.app" [ref=e265] [cursor=pointer]:
+                        - /url: /gabriel3025s-projects/claude-host/6mAtxNzbJbWC3edMNYAkCy2eCAUG
+                  - link "0" [ref=e267] [cursor=pointer]:
+                    - /url: /gabriel3025s-projects/claude-host/speed-insights
+                    - progressbar [ref=e269]:
+                      - img [ref=e270]
+                      - img [ref=e275]
+                - generic [ref=e278]:
+                  - term [ref=e279]:
+                    - generic [ref=e281]:
+                      - text: Domains
+                      - link [ref=e282] [cursor=pointer]:
+                        - /url: /gabriel3025s-projects/claude-host/settings/domains
+                        - img [ref=e283]
+                  - definition [ref=e285]:
+                    - link "claude-host-seven.vercel.app" [ref=e289] [cursor=pointer]:
+                      - /url: https://claude-host-seven.vercel.app
+                      - generic [ref=e290]: claude-host-seven.vercel.app
+                      - img [ref=e291]
+                - generic [ref=e293]:
+                  - generic [ref=e294]:
+                    - term [ref=e295]: Status
+                    - definition [ref=e296]:
+                      - generic "This deployment is ready." [ref=e299]:
+                        - generic [ref=e303]: Ready
+                  - generic [ref=e305]:
+                    - term [ref=e306]: Created
+                    - definition [ref=e307]:
+                      - generic [ref=e309] [cursor=pointer]:
+                        - paragraph [ref=e310]: 17h ago by Gabriel3025
+                        - img "github/Gabriel3025" [ref=e312]:
+                          - img "github/Gabriel3025" [ref=e313]
+                - generic [ref=e315]:
+                  - term [ref=e316]: Source
+                  - definition [ref=e317]:
+                    - generic [ref=e319]:
+                      - generic [ref=e320]:
+                        - img [ref=e321]
+                        - link "master" [ref=e323] [cursor=pointer]:
+                          - /url: https://github.com/Gabriel3025/Claude-Host/tree/master
+                          - code [ref=e324]: master
+                      - generic [ref=e325]:
+                        - img [ref=e326]
+                        - 'link "5f5da6d Auto-update: 2026-05-29 19:33:43" [ref=e328] [cursor=pointer]':
+                          - /url: https://github.com/Gabriel3025/Claude-Host/commit/5f5da6d99e85b5a012cfd9ca08e19c8eb6aaa72d
+                          - code [ref=e329]: 5f5da6d
+                          - 'generic "Auto-update: 2026-05-29 19:33:43" [ref=e330]'
+            - button "Deployment Settings 4 Recommendations" [ref=e333] [cursor=pointer]:
+              - generic [ref=e334]:
+                - img [ref=e335]
+                - generic [ref=e337]:
+                  - generic [ref=e338]: Deployment Settings
+                  - generic [ref=e344]: 4 Recommendations
+          - generic [ref=e347]:
+            - generic [ref=e351]:
+              - generic "This deployment had an error." [ref=e352]:
+                - generic [ref=e356]: Error
+              - generic [ref=e357]: ·
+              - 'link "Auto-update: 2026-05-30 12:37:56" [ref=e358] [cursor=pointer]':
+                - /url: /gabriel3025s-projects/claude-host/FhbxLEZqmhEaKMmSqtvDkwcMM4R9
+            - generic [ref=e360]:
+              - generic [ref=e361]:
+                - generic [ref=e362]: 4m ago
+                - img "github/Gabriel3025" [ref=e365]:
+                  - img "github/Gabriel3025" [ref=e366]
+                - generic [ref=e367]: Gabriel3025
+              - button "Cancel" [disabled] [ref=e370]:
+                - generic [ref=e371]: Cancel
+        - generic [ref=e374]:
+          - generic [ref=e375]:
+            - generic [ref=e376]:
+              - generic [ref=e377]:
+                - paragraph [ref=e378]:
+                  - strong [ref=e379]: Production Checklist
+                - generic [ref=e381]: 1/5
+              - button "Go to page" [ref=e382] [cursor=pointer]:
+                - img [ref=e384]
+              - button [ref=e386] [cursor=pointer]
+            - generic [ref=e390]:
+              - button "Connect Git Repository" [ref=e391] [cursor=pointer]:
+                - img [ref=e392]
+                - generic [ref=e394]: Connect Git Repository
+                - img [ref=e395]
+              - button "Add Custom Domain" [ref=e397] [cursor=pointer]:
+                - img [ref=e398]
+                - generic [ref=e400]: Add Custom Domain
+              - button "Preview Deployment" [ref=e401] [cursor=pointer]:
+                - img [ref=e402]
+                - generic [ref=e404]: Preview Deployment
+              - button "Enable Web Analytics" [ref=e405] [cursor=pointer]:
+                - img [ref=e406]
+                - generic [ref=e408]: Enable Web Analytics
+              - button "Enable Speed Insights" [ref=e409] [cursor=pointer]:
+                - img [ref=e410]
+                - generic [ref=e412]: Enable Speed Insights
+          - generic [ref=e413]:
+            - generic [ref=e414]:
+              - generic [ref=e415]:
+                - paragraph [ref=e416]:
+                  - strong [ref=e417]: Observability
+                - time [ref=e418]: 6h
+              - link "Go to page" [ref=e419] [cursor=pointer]:
+                - /url: /gabriel3025s-projects/claude-host/observability?period=6h
+                - img [ref=e421]
+              - link [ref=e423] [cursor=pointer]:
+                - /url: /gabriel3025s-projects/claude-host/observability?period=6h
+            - generic [ref=e425]:
+              - generic [ref=e426]:
+                - generic [ref=e427]: Edge Requests
+                - generic [ref=e428]: "523"
+              - img [ref=e433]
+              - generic [ref=e438]:
+                - generic [ref=e439]: Function Invocations
+                - generic [ref=e440]: "0"
+              - img [ref=e445]
+              - generic [ref=e446]:
+                - generic [ref=e447]: Error Rate
+                - generic [ref=e448]: 0%
+              - img [ref=e453]
+          - generic [ref=e454]:
+            - generic [ref=e455]:
+              - paragraph [ref=e457]:
+                - strong [ref=e458]: Analytics
+              - link "Go to page" [ref=e459] [cursor=pointer]:
+                - /url: /gabriel3025s-projects/claude-host/analytics
+                - img [ref=e461]
+              - link [ref=e463] [cursor=pointer]:
+                - /url: /gabriel3025s-projects/claude-host/analytics
+            - generic [ref=e465]:
+              - img [ref=e467]
+              - generic [ref=e469]:
+                - paragraph [ref=e470]: Track Visitors and Page Views
+                - paragraph [ref=e471]: See real-time traffic, top pages, and audience trends.
+              - link "Enable Analytics" [ref=e472] [cursor=pointer]:
+                - /url: /gabriel3025s-projects/claude-host/analytics?enable=1&source=project-overview-analytics-card
+                - generic [ref=e473]: Enable Analytics
+        - generic [ref=e474]:
+          - paragraph [ref=e478]: Active Branches
+          - generic [ref=e482]:
+            - heading "No Active Branches" [level=3] [ref=e483]
+            - paragraph [ref=e485]: Commit using our Git connections.
+  - alert [ref=e487]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - img
+  - dialog [ref=e528]:
+    - menu [ref=e530]:
+      - menuitem "Give Feedback" [active] [ref=e531] [cursor=pointer]:
+        - generic [ref=e532]: Give Feedback
+        - img [ref=e534]
