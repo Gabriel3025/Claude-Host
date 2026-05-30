@@ -263,3 +263,2665 @@ Persisting failed: Another write batch or compaction is already active (Only a s
 Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
 Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
 Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+
+thread 'tokio-runtime-worker' (23840) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 15 tasks
+
+Caused by:
+    0: Looking up typed data for 15 tasks from database failed
+    1: Unable to open static sorted file referenced from 00005791.meta
+    2: Unable to open static sorted file 00005788.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00005788.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (23840) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 15 tasks
+
+Caused by:
+    0: Looking up typed data for 15 tasks from database failed
+    1: Unable to open static sorted file referenced from 00005791.meta
+    2: Unable to open static sorted file 00005788.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00005788.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 48 tasks
+
+Caused by:
+    0: Looking up typed data for 48 tasks from database failed
+    1: Unable to open static sorted file referenced from 00005791.meta
+    2: Unable to open static sorted file 00005788.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00005788.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 48 tasks
+
+Caused by:
+    0: Looking up typed data for 48 tasks from database failed
+    1: Unable to open static sorted file referenced from 00005791.meta
+    2: Unable to open static sorted file 00005788.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00005788.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 23 tasks
+
+Caused by:
+    0: Looking up typed data for 23 tasks from database failed
+    1: Unable to open static sorted file referenced from 00006092.meta
+    2: Unable to open static sorted file 00006088.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00006088.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 23 tasks
+
+Caused by:
+    0: Looking up typed data for 23 tasks from database failed
+    1: Unable to open static sorted file referenced from 00006092.meta
+    2: Unable to open static sorted file 00006088.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00006088.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (29644) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 14 tasks
+
+Caused by:
+    0: Looking up typed data for 14 tasks from database failed
+    1: Unable to open static sorted file referenced from 00006043.meta
+    2: Unable to open static sorted file 00006039.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00006039.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 27 tasks
+
+Caused by:
+    0: Looking up typed data for 27 tasks from database failed
+    1: Unable to open static sorted file referenced from 00006092.meta
+    2: Unable to open static sorted file 00006088.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00006088.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (29644) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 14 tasks
+
+Caused by:
+    0: Looking up typed data for 14 tasks from database failed
+    1: Unable to open static sorted file referenced from 00006043.meta
+    2: Unable to open static sorted file 00006039.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00006039.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 27 tasks
+
+Caused by:
+    0: Looking up typed data for 27 tasks from database failed
+    1: Unable to open static sorted file referenced from 00006092.meta
+    2: Unable to open static sorted file 00006088.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00006088.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 3 tasks
+
+Caused by:
+    0: Looking up typed data for 3 tasks from database failed
+    1: Unable to open static sorted file referenced from 00004936.meta
+    2: Unable to open static sorted file 00004932.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00004932.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (28724) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 20 tasks
+
+Caused by:
+    0: Looking up typed data for 20 tasks from database failed
+    1: Unable to open static sorted file referenced from 00004924.meta
+    2: Unable to open static sorted file 00004919.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00004919.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 3 tasks
+
+Caused by:
+    0: Looking up typed data for 3 tasks from database failed
+    1: Unable to open static sorted file referenced from 00004936.meta
+    2: Unable to open static sorted file 00004932.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00004932.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (28724) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 20 tasks
+
+Caused by:
+    0: Looking up typed data for 20 tasks from database failed
+    1: Unable to open static sorted file referenced from 00004924.meta
+    2: Unable to open static sorted file 00004919.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00004919.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (29644) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139805)
+
+Caused by:
+    0: Looking up task storage for TaskId 139805 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001248.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001248.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001248.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001248.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (7876) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139426)
+
+Caused by:
+    0: Looking up task storage for TaskId 139426 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001248.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001248.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001245.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001245.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 136141)
+
+Caused by:
+    0: Looking up task storage for TaskId 136141 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (23840) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 5 tasks
+
+Caused by:
+    0: Looking up typed data for 5 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139479)
+
+Caused by:
+    0: Looking up task storage for TaskId 139479 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31020) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (12164) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 5 tasks
+
+Caused by:
+    0: Looking up typed data for 5 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (19744) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (7876) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139426)
+
+Caused by:
+    0: Looking up task storage for TaskId 139426 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001248.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001248.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (29644) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139805)
+
+Caused by:
+    0: Looking up task storage for TaskId 139805 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001248.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001248.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 135924)
+
+Caused by:
+    0: Looking up task storage for TaskId 135924 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 132193)
+
+Caused by:
+    0: Looking up task storage for TaskId 132193 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (23840) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 5 tasks
+
+Caused by:
+    0: Looking up typed data for 5 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139479)
+
+Caused by:
+    0: Looking up task storage for TaskId 139479 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31020) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (19744) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 132634)
+
+Caused by:
+    0: Looking up task storage for TaskId 132634 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (12164) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 5 tasks
+
+Caused by:
+    0: Looking up typed data for 5 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139427)
+
+Caused by:
+    0: Looking up task storage for TaskId 139427 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139699)
+
+Caused by:
+    0: Looking up task storage for TaskId 139699 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139766)
+
+Caused by:
+    0: Looking up task storage for TaskId 139766 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139427)
+
+Caused by:
+    0: Looking up task storage for TaskId 139427 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139699)
+
+Caused by:
+    0: Looking up task storage for TaskId 139699 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139701)
+
+Caused by:
+    0: Looking up task storage for TaskId 139701 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 134810)
+
+Caused by:
+    0: Looking up task storage for TaskId 134810 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139766)
+
+Caused by:
+    0: Looking up task storage for TaskId 139766 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 131888)
+
+Caused by:
+    0: Looking up task storage for TaskId 131888 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139701)
+
+Caused by:
+    0: Looking up task storage for TaskId 139701 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001248.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001248.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139472)
+
+Caused by:
+    0: Looking up task storage for TaskId 139472 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 131831)
+
+Caused by:
+    0: Looking up task storage for TaskId 131831 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 133887)
+
+Caused by:
+    0: Looking up task storage for TaskId 133887 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001248.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001248.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139472)
+
+Caused by:
+    0: Looking up task storage for TaskId 139472 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 133882)
+
+Caused by:
+    0: Looking up task storage for TaskId 133882 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 133631)
+
+Caused by:
+    0: Looking up task storage for TaskId 133631 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139430)
+
+Caused by:
+    0: Looking up task storage for TaskId 139430 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 135934)
+
+Caused by:
+    0: Looking up task storage for TaskId 135934 from database failed
+    1: Unable to open static sorted file referenced from 00006092.meta
+    2: Unable to open static sorted file 00006088.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00006088.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139543)
+
+Caused by:
+    0: Looking up task storage for TaskId 139543 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001245.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001245.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139543)
+
+Caused by:
+    0: Looking up task storage for TaskId 139543 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139430)
+
+Caused by:
+    0: Looking up task storage for TaskId 139430 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139789)
+
+Caused by:
+    0: Looking up task storage for TaskId 139789 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139794)
+
+Caused by:
+    0: Looking up task storage for TaskId 139794 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139680)
+
+Caused by:
+    0: Looking up task storage for TaskId 139680 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139789)
+
+Caused by:
+    0: Looking up task storage for TaskId 139789 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139629)
+
+Caused by:
+    0: Looking up task storage for TaskId 139629 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139794)
+
+Caused by:
+    0: Looking up task storage for TaskId 139794 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31020) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139645)
+
+Caused by:
+    0: Looking up task storage for TaskId 139645 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001245.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001245.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (23840) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (12164) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139326)
+
+Caused by:
+    0: Looking up task storage for TaskId 139326 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139629)
+
+Caused by:
+    0: Looking up task storage for TaskId 139629 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139680)
+
+Caused by:
+    0: Looking up task storage for TaskId 139680 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31020) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139645)
+
+Caused by:
+    0: Looking up task storage for TaskId 139645 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 133599)
+
+Caused by:
+    0: Looking up task storage for TaskId 133599 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 138006)
+
+Caused by:
+    0: Looking up task storage for TaskId 138006 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31020) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 135255)
+
+Caused by:
+    0: Looking up task storage for TaskId 135255 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139355)
+
+Caused by:
+    0: Looking up task storage for TaskId 139355 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139659)
+
+Caused by:
+    0: Looking up task storage for TaskId 139659 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139355)
+
+Caused by:
+    0: Looking up task storage for TaskId 139355 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (23840) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 132240)
+
+Caused by:
+    0: Looking up task storage for TaskId 132240 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31020) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 133641)
+
+Caused by:
+    0: Looking up task storage for TaskId 133641 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 134994)
+
+Caused by:
+    0: Looking up task storage for TaskId 134994 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (12164) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139326)
+
+Caused by:
+    0: Looking up task storage for TaskId 139326 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139659)
+
+Caused by:
+    0: Looking up task storage for TaskId 139659 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139935)
+
+Caused by:
+    0: Looking up task storage for TaskId 139935 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (7876) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001245.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001245.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 135911)
+
+Caused by:
+    0: Looking up task storage for TaskId 135911 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (7876) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 132228)
+
+Caused by:
+    0: Looking up task storage for TaskId 132228 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (23840) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139698)
+
+Caused by:
+    0: Looking up task storage for TaskId 139698 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139935)
+
+Caused by:
+    0: Looking up task storage for TaskId 139935 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 131917)
+
+Caused by:
+    0: Looking up task storage for TaskId 131917 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (28724) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139621)
+
+Caused by:
+    0: Looking up task storage for TaskId 139621 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001245.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001245.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001245.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001245.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 135320)
+
+Caused by:
+    0: Looking up task storage for TaskId 135320 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (12164) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139897)
+
+Caused by:
+    0: Looking up task storage for TaskId 139897 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (23840) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139698)
+
+Caused by:
+    0: Looking up task storage for TaskId 139698 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139813)
+
+Caused by:
+    0: Looking up task storage for TaskId 139813 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (28724) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139621)
+
+Caused by:
+    0: Looking up task storage for TaskId 139621 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 4 tasks
+
+Caused by:
+    0: Looking up typed data for 4 tasks from database failed
+    1: Unable to open static sorted file referenced from 00004930.meta
+    2: Unable to open static sorted file 00004925.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00004925.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139813)
+
+Caused by:
+    0: Looking up task storage for TaskId 139813 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (23840) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139629)
+
+Caused by:
+    0: Looking up task storage for TaskId 139629 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (12164) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139897)
+
+Caused by:
+    0: Looking up task storage for TaskId 139897 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 133831)
+
+Caused by:
+    0: Looking up task storage for TaskId 133831 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001245.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001245.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (12164) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139563)
+
+Caused by:
+    0: Looking up task storage for TaskId 139563 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (28724) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (19744) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139600)
+
+Caused by:
+    0: Looking up task storage for TaskId 139600 from database failed
+    1: Unable to open static sorted file referenced from 00001913.meta
+    2: Unable to open static sorted file 00001907.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001907.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139563)
+
+Caused by:
+    0: Looking up task storage for TaskId 139563 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (28724) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 132268)
+
+Caused by:
+    0: Looking up task storage for TaskId 132268 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 135726)
+
+Caused by:
+    0: Looking up task storage for TaskId 135726 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (12164) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139563)
+
+Caused by:
+    0: Looking up task storage for TaskId 139563 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (19744) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139600)
+
+Caused by:
+    0: Looking up task storage for TaskId 139600 from database failed
+    1: Unable to open static sorted file referenced from 00001913.meta
+    2: Unable to open static sorted file 00001907.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001907.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139563)
+
+Caused by:
+    0: Looking up task storage for TaskId 139563 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (28724) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139737)
+
+Caused by:
+    0: Looking up task storage for TaskId 139737 from database failed
+    1: Unable to open static sorted file referenced from 00004186.meta
+    2: Unable to open static sorted file 00004182.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00004182.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139430)
+
+Caused by:
+    0: Looking up task storage for TaskId 139430 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 134322)
+
+Caused by:
+    0: Looking up task storage for TaskId 134322 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (19744) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001245.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001245.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139701)
+
+Caused by:
+    0: Looking up task storage for TaskId 139701 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (28724) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139737)
+
+Caused by:
+    0: Looking up task storage for TaskId 139737 from database failed
+    1: Unable to open static sorted file referenced from 00004186.meta
+    2: Unable to open static sorted file 00004182.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00004182.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139701)
+
+Caused by:
+    0: Looking up task storage for TaskId 139701 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31020) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139296)
+
+Caused by:
+    0: Looking up task storage for TaskId 139296 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (19744) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 135892)
+
+Caused by:
+    0: Looking up task storage for TaskId 135892 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (28724) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139703)
+
+Caused by:
+    0: Looking up task storage for TaskId 139703 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139430)
+
+Caused by:
+    0: Looking up task storage for TaskId 139430 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139789)
+
+Caused by:
+    0: Looking up task storage for TaskId 139789 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139593)
+
+Caused by:
+    0: Looking up task storage for TaskId 139593 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139789)
+
+Caused by:
+    0: Looking up task storage for TaskId 139789 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 135883)
+
+Caused by:
+    0: Looking up task storage for TaskId 135883 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (29644) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001245.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001245.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (19744) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139472)
+
+Caused by:
+    0: Looking up task storage for TaskId 139472 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 133576)
+
+Caused by:
+    0: Looking up task storage for TaskId 133576 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (12164) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139720)
+
+Caused by:
+    0: Looking up task storage for TaskId 139720 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 132185)
+
+Caused by:
+    0: Looking up task storage for TaskId 132185 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (7876) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31020) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139296)
+
+Caused by:
+    0: Looking up task storage for TaskId 139296 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139593)
+
+Caused by:
+    0: Looking up task storage for TaskId 139593 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139935)
+
+Caused by:
+    0: Looking up task storage for TaskId 139935 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139543)
+
+Caused by:
+    0: Looking up task storage for TaskId 139543 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (29644) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 133876)
+
+Caused by:
+    0: Looking up task storage for TaskId 133876 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (19744) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139472)
+
+Caused by:
+    0: Looking up task storage for TaskId 139472 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (12164) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139720)
+
+Caused by:
+    0: Looking up task storage for TaskId 139720 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 131878)
+
+Caused by:
+    0: Looking up task storage for TaskId 131878 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139645)
+
+Caused by:
+    0: Looking up task storage for TaskId 139645 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 131857)
+
+Caused by:
+    0: Looking up task storage for TaskId 131857 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31020) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00006043.meta
+    2: Unable to open static sorted file 00006039.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00006039.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139935)
+
+Caused by:
+    0: Looking up task storage for TaskId 139935 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (29644) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139722)
+
+Caused by:
+    0: Looking up task storage for TaskId 139722 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (19744) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 4 tasks
+
+Caused by:
+    0: Looking up typed data for 4 tasks from database failed
+    1: Unable to open static sorted file referenced from 00006043.meta
+    2: Unable to open static sorted file 00006039.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00006039.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (12164) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139639)
+
+Caused by:
+    0: Looking up task storage for TaskId 139639 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (7876) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 132532)
+
+Caused by:
+    0: Looking up task storage for TaskId 132532 from database failed
+    1: Unable to open static sorted file referenced from 00004186.meta
+    2: Unable to open static sorted file 00004182.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00004182.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139645)
+
+Caused by:
+    0: Looking up task storage for TaskId 139645 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139326)
+
+Caused by:
+    0: Looking up task storage for TaskId 139326 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31020) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 136034)
+
+Caused by:
+    0: Looking up task storage for TaskId 136034 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 131555)
+
+Caused by:
+    0: Looking up task storage for TaskId 131555 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139737)
+
+Caused by:
+    0: Looking up task storage for TaskId 139737 from database failed
+    1: Unable to open static sorted file referenced from 00004186.meta
+    2: Unable to open static sorted file 00004182.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00004182.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (29644) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139722)
+
+Caused by:
+    0: Looking up task storage for TaskId 139722 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (19744) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 14075)
+
+Caused by:
+    0: Looking up task storage for TaskId 14075 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (12164) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139639)
+
+Caused by:
+    0: Looking up task storage for TaskId 139639 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (7876) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 131495)
+
+Caused by:
+    0: Looking up task storage for TaskId 131495 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 131875)
+
+Caused by:
+    0: Looking up task storage for TaskId 131875 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139326)
+
+Caused by:
+    0: Looking up task storage for TaskId 139326 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31020) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 5 tasks
+
+Caused by:
+    0: Looking up typed data for 5 tasks from database failed
+    1: Unable to open static sorted file referenced from 00006068.meta
+    2: Unable to open static sorted file 00006064.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00006064.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139609)
+
+Caused by:
+    0: Looking up task storage for TaskId 139609 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001245.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001245.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139737)
+
+Caused by:
+    0: Looking up task storage for TaskId 139737 from database failed
+    1: Unable to open static sorted file referenced from 00004186.meta
+    2: Unable to open static sorted file 00004182.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00004182.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (29644) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (19744) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139479)
+
+Caused by:
+    0: Looking up task storage for TaskId 139479 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (29644) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 136080)
+
+Caused by:
+    0: Looking up task storage for TaskId 136080 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 4 tasks
+
+Caused by:
+    0: Looking up typed data for 4 tasks from database failed
+    1: Unable to open static sorted file referenced from 00004924.meta
+    2: Unable to open static sorted file 00004919.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00004919.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (29644) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139587)
+
+Caused by:
+    0: Looking up task storage for TaskId 139587 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31020) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 7189)
+
+Caused by:
+    0: Looking up task storage for TaskId 7189 from database failed
+    1: Unable to open static sorted file referenced from 00001927.meta
+    2: Unable to open static sorted file 00001922.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001922.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139609)
+
+Caused by:
+    0: Looking up task storage for TaskId 139609 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001245.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001245.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139639)
+
+Caused by:
+    0: Looking up task storage for TaskId 139639 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31020) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139729)
+
+Caused by:
+    0: Looking up task storage for TaskId 139729 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (19744) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139479)
+
+Caused by:
+    0: Looking up task storage for TaskId 139479 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139783)
+
+Caused by:
+    0: Looking up task storage for TaskId 139783 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (29644) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139587)
+
+Caused by:
+    0: Looking up task storage for TaskId 139587 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (28724) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139703)
+
+Caused by:
+    0: Looking up task storage for TaskId 139703 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139543)
+
+Caused by:
+    0: Looking up task storage for TaskId 139543 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (12164) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 6881)
+
+Caused by:
+    0: Looking up task storage for TaskId 6881 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (7876) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 131490)
+
+Caused by:
+    0: Looking up task storage for TaskId 131490 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139639)
+
+Caused by:
+    0: Looking up task storage for TaskId 139639 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31020) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139729)
+
+Caused by:
+    0: Looking up task storage for TaskId 139729 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139783)
+
+Caused by:
+    0: Looking up task storage for TaskId 139783 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (19744) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001248.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001248.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 132629)
+
+Caused by:
+    0: Looking up task storage for TaskId 132629 from database failed
+    1: Unable to open static sorted file referenced from 00005791.meta
+    2: Unable to open static sorted file 00005788.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00005788.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (19744) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 133998)
+
+Caused by:
+    0: Looking up task storage for TaskId 133998 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (28724) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139703)
+
+Caused by:
+    0: Looking up task storage for TaskId 139703 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139597)
+
+Caused by:
+    0: Looking up task storage for TaskId 139597 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (12164) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 132596)
+
+Caused by:
+    0: Looking up task storage for TaskId 132596 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (7876) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 131866)
+
+Caused by:
+    0: Looking up task storage for TaskId 131866 from database failed
+    1: Unable to open static sorted file referenced from 00004930.meta
+    2: Unable to open static sorted file 00004925.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00004925.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31020) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139609)
+
+Caused by:
+    0: Looking up task storage for TaskId 139609 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001245.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001245.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139720)
+
+Caused by:
+    0: Looking up task storage for TaskId 139720 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (29644) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001245.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001245.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139698)
+
+Caused by:
+    0: Looking up task storage for TaskId 139698 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (19744) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139593)
+
+Caused by:
+    0: Looking up task storage for TaskId 139593 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (28724) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139703)
+
+Caused by:
+    0: Looking up task storage for TaskId 139703 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139597)
+
+Caused by:
+    0: Looking up task storage for TaskId 139597 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (28724) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139794)
+
+Caused by:
+    0: Looking up task storage for TaskId 139794 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (7876) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001245.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001245.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31020) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139609)
+
+Caused by:
+    0: Looking up task storage for TaskId 139609 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001245.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001245.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139720)
+
+Caused by:
+    0: Looking up task storage for TaskId 139720 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (29644) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 133656)
+
+Caused by:
+    0: Looking up task storage for TaskId 133656 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139698)
+
+Caused by:
+    0: Looking up task storage for TaskId 139698 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (29644) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139897)
+
+Caused by:
+    0: Looking up task storage for TaskId 139897 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (12164) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139621)
+
+Caused by:
+    0: Looking up task storage for TaskId 139621 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139805)
+
+Caused by:
+    0: Looking up task storage for TaskId 139805 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001248.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001248.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (7876) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00003596.meta
+    2: Unable to open static sorted file 00003591.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00003591.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31020) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139587)
+
+Caused by:
+    0: Looking up task storage for TaskId 139587 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (19744) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139593)
+
+Caused by:
+    0: Looking up task storage for TaskId 139593 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139426)
+
+Caused by:
+    0: Looking up task storage for TaskId 139426 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001248.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001248.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (29644) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139897)
+
+Caused by:
+    0: Looking up task storage for TaskId 139897 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139805)
+
+Caused by:
+    0: Looking up task storage for TaskId 139805 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001248.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001248.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (12164) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139621)
+
+Caused by:
+    0: Looking up task storage for TaskId 139621 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (7876) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 134802)
+
+Caused by:
+    0: Looking up task storage for TaskId 134802 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31020) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139587)
+
+Caused by:
+    0: Looking up task storage for TaskId 139587 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 133508)
+
+Caused by:
+    0: Looking up task storage for TaskId 133508 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (7876) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139597)
+
+Caused by:
+    0: Looking up task storage for TaskId 139597 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (19744) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139296)
+
+Caused by:
+    0: Looking up task storage for TaskId 139296 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (29644) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139729)
+
+Caused by:
+    0: Looking up task storage for TaskId 139729 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (19744) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139296)
+
+Caused by:
+    0: Looking up task storage for TaskId 139296 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 133721)
+
+Caused by:
+    0: Looking up task storage for TaskId 133721 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (28724) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139794)
+
+Caused by:
+    0: Looking up task storage for TaskId 139794 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (12164) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139575)
+
+Caused by:
+    0: Looking up task storage for TaskId 139575 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139426)
+
+Caused by:
+    0: Looking up task storage for TaskId 139426 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001248.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001248.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31020) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139355)
+
+Caused by:
+    0: Looking up task storage for TaskId 139355 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139766)
+
+Caused by:
+    0: Looking up task storage for TaskId 139766 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (7876) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139597)
+
+Caused by:
+    0: Looking up task storage for TaskId 139597 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001247.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001247.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 6768)
+
+Caused by:
+    0: Looking up task storage for TaskId 6768 from database failed
+    1: Unable to open static sorted file referenced from 00004186.meta
+    2: Unable to open static sorted file 00004182.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00004182.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (29644) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139729)
+
+Caused by:
+    0: Looking up task storage for TaskId 139729 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (19744) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001245.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001245.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:225:17:
+Failed to restore task data (corrupted database or bug): Data for batch of 2 tasks
+
+Caused by:
+    0: Looking up typed data for 2 tasks from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001245.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001245.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (28724) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139659)
+
+Caused by:
+    0: Looking up task storage for TaskId 139659 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (12164) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139575)
+
+Caused by:
+    0: Looking up task storage for TaskId 139575 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (25128) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 134834)
+
+Caused by:
+    0: Looking up task storage for TaskId 134834 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31020) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139355)
+
+Caused by:
+    0: Looking up task storage for TaskId 139355 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (31256) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139766)
+
+Caused by:
+    0: Looking up task storage for TaskId 139766 from database failed
+    1: Unable to open static sorted file referenced from 00001254.meta
+    2: Unable to open static sorted file 00001246.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001246.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (7876) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139699)
+
+Caused by:
+    0: Looking up task storage for TaskId 139699 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (29644) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139722)
+
+Caused by:
+    0: Looking up task storage for TaskId 139722 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139575)
+
+Caused by:
+    0: Looking up task storage for TaskId 139575 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (19744) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 135175)
+
+Caused by:
+    0: Looking up task storage for TaskId 135175 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (29644) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139722)
+
+Caused by:
+    0: Looking up task storage for TaskId 139722 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139600)
+
+Caused by:
+    0: Looking up task storage for TaskId 139600 from database failed
+    1: Unable to open static sorted file referenced from 00001913.meta
+    2: Unable to open static sorted file 00001907.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001907.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (28724) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139659)
+
+Caused by:
+    0: Looking up task storage for TaskId 139659 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (7876) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139699)
+
+Caused by:
+    0: Looking up task storage for TaskId 139699 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (23840) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139629)
+
+Caused by:
+    0: Looking up task storage for TaskId 139629 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (10684) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139575)
+
+Caused by:
+    0: Looking up task storage for TaskId 139575 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (27004) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 139600)
+
+Caused by:
+    0: Looking up task storage for TaskId 139600 from database failed
+    1: Unable to open static sorted file referenced from 00001913.meta
+    2: Unable to open static sorted file 00001907.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001907.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+
+thread 'tokio-runtime-worker' (6468) panicked at turbopack\crates\turbo-tasks-backend\src\backend\operation\mod.rs:197:17:
+Failed to restore task data (corrupted database or bug): Data for TaskId 133919)
+
+Caused by:
+    0: Looking up task storage for TaskId 133919 from database failed
+    1: Unable to open static sorted file referenced from 00001174.meta
+    2: Unable to open static sorted file 00001173.sst
+    3: Failed to open SST file C:\Users\Administrador.LAURAFERREIRA\Downloads\Claude (Host)\calisthenics-21days\.next\dev\cache/turbopack\ee6e79b1\00001173.sst
+    4: O sistema não pode encontrar o caminho especificado. (os error 3)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
