@@ -23,3 +23,19 @@ Hello!
  font-family: "Geist Mono", monospace; white-space: pre; line-height: 1; @ https://vercel.com/_next/static/immutable/chunks/1kb_g4grefj65.js:78
 [    1034ms] [WARNING] iso_swr: SSR fetch failed for "/v1/dashboard/deployments/dpl_5f5da6d?includeDeleted=true&projectName=claude-host&teamId=gabriel3025s-projects" {error: iso_swr_fetch_error, message: Deployment not found} @ https://vercel.com/gabriel3025s-projects/claude-host/5f5da6d:1517
 [    1037ms] [WARNING] iso_swr: SSR fetch failed for "/api/dashboard/deployments/dpl_5f5da6d?includeDeleted=true&projectName=claude-host&teamId=gabriel3025s-projects" {error: iso_swr_fetch_error, message: Deployment not found} @ https://vercel.com/gabriel3025s-projects/claude-host/5f5da6d:1517
+[    3080ms] [WARNING] iso_swr[warn] [client] fallback error for key: "/v1/dashboard/deployments/dpl_5f5da6d?includeDeleted=true&projectName=claude-host&teamId=gabriel3025s-projects" {error: iso_swr_fetch_error, message: Deployment not found} @ https://vercel.com/_next/static/immutable/chunks/2l_sd2llvjnkw.js:11
+[    5360ms] Minified React error #419; visit https://react.dev/errors/419 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+[    5842ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://vercel.com/api/v1/dashboard/deployments/dpl_5f5da6d?includeDeleted=true&projectName=claude-host&teamId=gabriel3025s-projects:0
+[    5869ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/389fqnv9daql5.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabriel3025s-projects/claude-host/5f5da6d:0
+[    5892ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://vercel.com/api/chat/fUtpX1T6vZHo8nKL/stream:0
+[    5988ms] [LOG] Ignored request error CustomFetchError: Deployment not found
+    at g (https://vercel.com/_next/static/immutable/chunks/0ou4mifz6nw60.js:2:37338)
+    at async https://vercel.com/_next/static/immutable/chunks/1e9uq8yeshfw-.js:2:21535
+    at async https://vercel.com/_next/static/immutable/chunks/0q2n-_a1u5boo.js:2:12185 @ https://vercel.com/_next/static/immutable/chunks/41qs7_4z_ovpu.js:11
+[    5997ms] [WARNING] [omniagent] chat stream failed Error: {"error":{"code":"not_found","message":"The requested API endpoint was not found."}}
+    at oS.reconnectToStream (https://vercel.com/_next/static/immutable/chunks/2axfz07t26y9p.js:38:48063)
+    at async ae.makeRequest (https://vercel.com/_next/static/immutable/chunks/2axfz07t26y9p.js:23:47520)
+    at async ae.resumeStream (https://vercel.com/_next/static/immutable/chunks/2axfz07t26y9p.js:23:44598) @ https://vercel.com/_next/static/immutable/chunks/2q-6fmcn5v-eg.js:1
+[    6464ms] [WARNING] Deprecated API for given entry type. @ https://vercel.com/_next/static/immutable/chunks/3nvaismgwj9pr.js:18
+[   10443ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3d792zqltro0t.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabriel3025s-projects/claude-host/5f5da6d:0
+[   10443ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/389fqnv9daql5.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/gabriel3025s-projects/claude-host/5f5da6d:0

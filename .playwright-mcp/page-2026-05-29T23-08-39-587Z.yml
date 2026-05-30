@@ -1,0 +1,21 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e8]: Not Found
+      - generic [ref=e14]:
+        - img [ref=e15]
+        - heading "404" [level=1] [ref=e22]
+        - generic [ref=e23]:
+          - paragraph [ref=e24]:
+            - text: You are logged in as
+            - strong [ref=e25]: gabriel.desouza9@hotmail.com
+          - button "Sign in as a different user" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]: Sign in as a different user
+  - alert [ref=e28]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - img
