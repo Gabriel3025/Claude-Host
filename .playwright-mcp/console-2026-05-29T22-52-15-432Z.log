@@ -47,3 +47,43 @@ Hello!
 [60606606ms] [WARNING] The resource https://vercel-docs.vercel.sh/vc-ap-0cca3e/_next/static/immutable/chunks/3kgyi5hwufybw.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/docs/errors/not_found:0
 [60606607ms] [WARNING] The resource https://vercel.com/vc-ap-vercel-docs/_next/static/immutable/chunks/257im70u48z3n.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/docs/errors/not_found:0
 [60606607ms] [WARNING] The resource https://vercel.com/vc-ap-0cca3e/_next/static/immutable/chunks/3kgyi5hwufybw.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/docs/errors/not_found:0
+[60806655ms] [LOG] %c
+▲
+
+    ____                               _ __
+   / __ \________  ____ _____ ___     (_) /_
+  / / / / ___/ _ \/ __ `/ __ `__ \   / / __/
+ / /_/ / /  /  __/ /_/ / / / / / /  / / /__
+/_____/_/   \___/\__,_/_/ /_/ /_/  /_/\__( )
+   _____ __    _          _ __           |/
+  / ___// /_  (_)___     (_) /_
+  \__ \/ __ \/ / __ \   / / __/
+ ___/ / / / / / /_/ /  / / /_
+/____/_/ /_/_/ .___/  /_/\__/
+            /_/
+  
+
+Hello!
+
+- Open Source https://vercel.com/oss
+- Careers https://vercel.com/careers
+- Status https://vercel-status.com
+
+ font-family: "Geist Mono", monospace; white-space: pre; line-height: 1; @ https://vercel.com/_next/static/immutable/chunks/2ltm-shlkw-ie.js:78
+[60807384ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/jwt:0
+[60807412ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client:84
+[60808014ms] [WARNING] Deprecated API for given entry type. @ https://vercel.com/_next/static/immutable/chunks/0ff0fyh11d0bh.js:18
+[60811120ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/adobe-dark.1yc1msmmj95aw.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdocs%2Ferrors%2Fnot_found:0
+[60811120ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/ebay-dark.34mho2a18qqlt.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdocs%2Ferrors%2Fnot_found:0
+[60811120ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/stripe-light.2l_1jctpe6k_4.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdocs%2Ferrors%2Fnot_found:0
+[60811120ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/389fqnv9daql5.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdocs%2Ferrors%2Fnot_found:0
+[60811120ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/stripe-dark.16ozjth2vgb_3.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdocs%2Ferrors%2Fnot_found:0
+[60811120ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/adobe-light.406_7oryl71va.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdocs%2Ferrors%2Fnot_found:0
+[60811120ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/ebay-light.3ft_ki8203ov0.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdocs%2Ferrors%2Fnot_found:0
+[60821061ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/adobe-dark.1yc1msmmj95aw.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdocs%2Ferrors%2Fnot_found:0
+[60821061ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/ebay-dark.34mho2a18qqlt.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdocs%2Ferrors%2Fnot_found:0
+[60821061ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/stripe-light.2l_1jctpe6k_4.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdocs%2Ferrors%2Fnot_found:0
+[60821061ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/389fqnv9daql5.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdocs%2Ferrors%2Fnot_found:0
+[60821061ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/stripe-dark.16ozjth2vgb_3.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdocs%2Ferrors%2Fnot_found:0
+[60821061ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/adobe-light.406_7oryl71va.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdocs%2Ferrors%2Fnot_found:0
+[60821061ms] [WARNING] The resource https://vercel.com/_next/static/immutable/media/ebay-light.3ft_ki8203ov0.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/login?next=%2Fdocs%2Ferrors%2Fnot_found:0
