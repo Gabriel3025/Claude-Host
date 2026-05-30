@@ -1,0 +1,422 @@
+- generic:
+  - link:
+    - /url: "#geist-skip-nav"
+    - text: Skip to content
+  - generic:
+    - main:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - link:
+                    - /url: /gabriel3025s-projects
+                    - img
+                    - generic:
+                      - generic: gabriel3025's projects
+                      - generic:
+                        - generic: Hobby
+                  - button:
+                    - generic:
+                      - img
+            - button [ref=e431]:
+              - generic [ref=e23]:
+                - img [ref=e25]
+                - generic [ref=e27]: Find…
+                - generic [ref=e29]: F
+          - generic:
+            - navigation:
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /gabriel3025s-projects/claude-host
+                      - generic:
+                        - img:
+                          - img
+                      - generic:
+                        - generic: Overview
+                    - link:
+                      - /url: /gabriel3025s-projects/claude-host/deployments
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Deployments
+                    - link:
+                      - /url: /gabriel3025s-projects/claude-host/logs
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Logs
+                    - link:
+                      - /url: /gabriel3025s-projects/claude-host/analytics
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Analytics
+                    - link:
+                      - /url: /gabriel3025s-projects/claude-host/speed-insights
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Speed Insights
+                    - link:
+                      - /url: /gabriel3025s-projects/claude-host/observability
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Observability
+                      - generic:
+                        - img
+                    - link:
+                      - /url: /gabriel3025s-projects/claude-host/firewall
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Firewall
+                      - generic:
+                        - img
+                    - link:
+                      - /url: /gabriel3025s-projects/claude-host/cdn
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: CDN
+                      - generic:
+                        - img
+                    - separator
+                    - link:
+                      - /url: /gabriel3025s-projects/claude-host/settings/environment-variables
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Environment Variables
+                    - link:
+                      - /url: /gabriel3025s-projects/claude-host/settings/domains
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Domains
+                    - link:
+                      - /url: /gabriel3025s-projects/claude-host/settings/integrations
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Integrations
+                    - link:
+                      - /url: /gabriel3025s-projects/claude-host/stores
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Storage
+                    - link:
+                      - /url: /gabriel3025s-projects/claude-host/flags
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Flags
+                      - generic:
+                        - img
+                    - link:
+                      - /url: /gabriel3025s-projects/claude-host/agent
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Agent
+                      - generic:
+                        - img
+                    - link:
+                      - /url: /gabriel3025s-projects/claude-host/ai-gateway
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: AI Gateway
+                      - generic:
+                        - img
+                    - link:
+                      - /url: /gabriel3025s-projects/claude-host/sandboxes
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Sandboxes
+                    - link:
+                      - /url: /gabriel3025s-projects/claude-host/workflows
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Workflows
+                    - separator
+                    - link:
+                      - /url: /gabriel3025s-projects/claude-host/usage
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Usage
+                    - link:
+                      - /url: /gabriel3025s-projects/claude-host/support
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Support
+                    - link:
+                      - /url: /gabriel3025s-projects/claude-host/settings
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Settings
+                      - generic:
+                        - img
+          - generic:
+            - generic:
+              - generic:
+                - button:
+                  - img:
+                    - img
+                  - generic:
+                    - generic: gabriel3025
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - button:
+                      - generic:
+                        - generic:
+                          - img
+                        - img
+        - button:
+          - img
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - link:
+                    - /url: /gabriel3025s-projects/claude-host
+                    - img:
+                      - img
+                    - generic:
+                      - generic: claude-host
+                  - button:
+                    - generic:
+                      - img
+                  - generic:
+                    - link:
+                      - /url: /gabriel3025s-projects/~/settings/environment-variables
+                      - generic:
+                        - img
+            - generic:
+              - generic:
+                - generic: Environment Variables
+            - generic:
+              - button:
+                - generic:
+                  - img
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - heading [level=2]: Environment Variables
+                                - paragraph:
+                                  - text: Store API keys, tokens, and config securely.
+                                  - link:
+                                    - /url: /docs/environment-variables
+                                    - text: Learn more
+                                    - img
+                              - generic:
+                                - generic:
+                                  - button:
+                                    - generic: Link Shared Variable
+                                - button:
+                                  - generic: Add Environment Variable
+                          - tablist:
+                            - tab [selected]: Project
+                            - tab: Shared
+                          - generic:
+                            - generic:
+                              - generic:
+                                - searchbox
+                                - generic:
+                                  - img
+                            - generic:
+                              - combobox:
+                                - generic:
+                                  - generic:
+                                    - searchbox: All Environments
+                                    - button:
+                                      - img
+                            - generic:
+                              - combobox:
+                                - generic:
+                                  - generic:
+                                    - img
+                                  - searchbox
+                                  - button:
+                                    - img
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - combobox
+                                  - generic:
+                                    - img
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - img
+                                  - combobox
+                                  - generic:
+                                    - img
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - img
+                                            - generic:
+                                              - generic:
+                                                - generic:
+                                                  - generic:
+                                                    - button:
+                                                      - generic:
+                                                        - generic:
+                                                          - generic: NEXT_PUBLIC_SUPABASE_URL
+                                                  - generic:
+                                                    - generic: Sensitive
+                                              - generic:
+                                                - generic:
+                                                  - generic:
+                                                    - generic: Production and Preview
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic [ref=e373] [cursor=pointer]:
+                                                  - generic [ref=e374]: Added
+                                                  - text: 18h ago
+                                                - generic:
+                                                  - img
+                                            - generic:
+                                              - generic:
+                                                - button:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - img
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - img
+                                            - generic:
+                                              - generic:
+                                                - generic:
+                                                  - generic:
+                                                    - button:
+                                                      - generic:
+                                                        - generic:
+                                                          - generic: NEXT_PUBLIC_SUPABASE_ANON_KEY
+                                                  - generic:
+                                                    - generic: Sensitive
+                                              - generic:
+                                                - generic:
+                                                  - generic:
+                                                    - generic: Production and Preview
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic [ref=e412] [cursor=pointer]:
+                                                  - generic [ref=e413]: Added
+                                                  - text: 18h ago
+                                                - generic:
+                                                  - img
+                                            - generic:
+                                              - generic:
+                                                - button:
+                                                  - generic:
+                                                    - generic:
+                                                      - generic:
+                                                        - img
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - checkbox [checked]
+                                      - generic:
+                                        - img
+                                  - generic:
+                                    - text: Enable access to
+                                    - link:
+                                      - /url: /docs/environment-variables/system-environment-variables
+                                      - text: System Environment Variables
+                                      - img
+  - alert
+  - generic:
+    - generic:
+      - img
+  - dialog "Add Environment Variable" [ref=e433]:
+    - generic [ref=e434]:
+      - heading "Add Environment Variable" [level=2] [ref=e435]
+      - button "Close" [active] [ref=e436] [cursor=pointer]:
+        - img [ref=e438]
+    - generic [ref=e442]:
+      - generic [ref=e443]:
+        - generic [ref=e444]:
+          - generic [ref=e447]:
+            - generic [ref=e450]:
+              - generic [ref=e451]: key
+              - textbox "environment variable key" [ref=e453]
+            - generic [ref=e454]:
+              - generic [ref=e455]: value
+              - generic [ref=e457]:
+                - textbox "shared environment variable value" [ref=e458]
+                - button "Show value" [ref=e459] [cursor=pointer]:
+                  - img [ref=e461]
+            - generic [ref=e465]:
+              - generic [ref=e466]: Note (Optional)
+              - textbox "shared environment variable comment" [ref=e468]:
+                - /placeholder: Where to rotate, or who to contact
+          - button "Add Another" [ref=e470] [cursor=pointer]:
+            - img [ref=e472]
+            - generic [ref=e474]: Add Another
+        - separator [ref=e477]
+        - generic [ref=e478]:
+          - generic [ref=e480]:
+            - generic "Sensitive" [ref=e481]:
+              - generic [ref=e482]: Sensitive
+              - checkbox "Sensitive" [checked] [ref=e483]
+            - img [ref=e488]
+          - generic [ref=e491]:
+            - generic [ref=e493]: Environments
+            - generic [ref=e494]:
+              - button "Production and Preview" [ref=e495] [cursor=pointer]:
+                - generic [ref=e497]:
+                  - img [ref=e499]
+                  - generic [ref=e501]: Production and Preview
+                - img [ref=e503]
+              - generic [ref=e505]:
+                - generic [ref=e507]: Branch
+                - button "Select a Custom Preview Branch" [ref=e509] [cursor=pointer]:
+                  - generic [ref=e510]: Select a Custom Preview Branch
+      - generic [ref=e511]:
+        - generic [ref=e513]:
+          - button "Import .env" [ref=e515] [cursor=pointer]:
+            - img [ref=e517]
+            - generic [ref=e519]: Import .env
+          - paragraph [ref=e520]: or paste .env contents in Key input
+        - button "Save" [ref=e523] [cursor=pointer]:
+          - generic [ref=e524]: Save
