@@ -1,0 +1,158 @@
+- generic [active] [ref=e2]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "Back to Dashboard" [ref=e7] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e8]
+        - generic [ref=e10]: Back
+      - generic [ref=e12]: New Project
+      - generic [ref=e13]:
+        - link "Team Settings" [ref=e15] [cursor=pointer]:
+          - /url: /gabriel3025s-projects/~/settings
+          - img [ref=e16]
+        - button "Avatar for gabriel3025" [ref=e20] [cursor=pointer]:
+          - img "Avatar for gabriel3025" [ref=e21]:
+            - img "Avatar for gabriel3025" [ref=e22]
+    - main [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - heading "Let's build something new" [level=2] [ref=e27]
+            - button "Collaborate on Pro" [ref=e30] [cursor=pointer]:
+              - generic [ref=e32]:
+                - img [ref=e33]
+                - text: Collaborate on Pro
+          - generic [ref=e37]:
+            - generic [ref=e38]:
+              - textbox "v0 Prompt or Git Repository URL" [ref=e39]:
+                - /placeholder: Ask v0 to build or enter a Git repository URL…
+              - img [ref=e41]
+            - generic [ref=e43]:
+              - button "Contact Form" [ref=e44] [cursor=pointer]:
+                - generic [ref=e45]:
+                  - img [ref=e47]
+                  - text: Contact Form
+              - button "Image Editor" [ref=e49] [cursor=pointer]:
+                - generic [ref=e50]:
+                  - img [ref=e52]
+                  - text: Image Editor
+              - button "Mini Game" [ref=e54] [cursor=pointer]:
+                - generic [ref=e55]:
+                  - img [ref=e57]
+                  - text: Mini Game
+              - button "Finance Calculator" [ref=e59] [cursor=pointer]:
+                - generic [ref=e60]:
+                  - img [ref=e62]
+                  - text: Finance Calculator
+              - button "Refresh suggestions" [ref=e64] [cursor=pointer]:
+                - img [ref=e67]
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - generic [ref=e72]:
+              - heading "Import Git Repository" [level=3] [ref=e73]
+              - generic [ref=e76]:
+                - generic [ref=e78]:
+                  - combobox [ref=e81]:
+                    - generic [ref=e82]:
+                      - generic:
+                        - img
+                      - searchbox "Select a Git Namespace" [ref=e83]: Gabriel3025
+                      - button "Open menu" [ref=e84] [cursor=pointer]:
+                        - img [ref=e85]
+                  - generic [ref=e90]:
+                    - searchbox "Search" [ref=e91]
+                    - img [ref=e93]
+                - generic [ref=e97]:
+                  - generic [ref=e100]:
+                    - img "Other" [ref=e103]:
+                      - img "Other" [ref=e104]
+                    - generic [ref=e106]:
+                      - generic "Claude-Host" [ref=e108]
+                      - generic [ref=e110]: ·
+                      - generic [ref=e112]: 3m ago
+                    - link "Import Claude-Host" [ref=e115] [cursor=pointer]:
+                      - /url: /new/import?framework=other&hasTrialAvailable=1&id=1183801329&name=Claude-Host&owner=Gabriel3025&project-name=claude-host&provider=github&remainingProjects=1&s=https%3A%2F%2Fgithub.com%2FGabriel3025%2FClaude-Host&totalProjects=1
+                      - generic [ref=e116]: Import
+                  - generic [ref=e119]:
+                    - img "Other" [ref=e122]:
+                      - img "Other" [ref=e123]
+                    - generic [ref=e125]:
+                      - generic "Calend-rio-da-Faxina" [ref=e127]
+                      - generic [ref=e129]: ·
+                      - generic [ref=e131]: Apr 7
+                    - link "Import Calend-rio-da-Faxina" [ref=e134] [cursor=pointer]:
+                      - /url: /new/import?framework=other&hasTrialAvailable=1&id=1204395950&name=Calend-rio-da-Faxina&owner=Gabriel3025&project-name=calend-rio-da-faxina&provider=github&remainingProjects=1&s=https%3A%2F%2Fgithub.com%2FGabriel3025%2FCalend-rio-da-Faxina&totalProjects=1
+                      - generic [ref=e135]: Import
+                  - generic [ref=e138]:
+                    - img "Other" [ref=e141]:
+                      - img "Other" [ref=e142]
+                    - generic [ref=e144]:
+                      - generic "flat-in-7" [ref=e146]
+                      - generic [ref=e148]: ·
+                      - generic [ref=e150]: Apr 6
+                    - link "Import flat-in-7" [ref=e153] [cursor=pointer]:
+                      - /url: /new/import?framework=other&hasTrialAvailable=1&id=1202957302&name=flat-in-7&owner=Gabriel3025&project-name=flat-in-7&provider=github&remainingProjects=1&s=https%3A%2F%2Fgithub.com%2FGabriel3025%2Fflat-in-7&totalProjects=1
+                      - generic [ref=e154]: Import
+            - generic [ref=e156]:
+              - generic [ref=e157]:
+                - heading "Clone Template" [level=2] [ref=e158]
+                - generic [ref=e159]:
+                  - button "AI/Agent" [ref=e160] [cursor=pointer]:
+                    - generic [ref=e162]:
+                      - text: AI/Agent
+                      - img [ref=e163]
+                  - link "Browse All" [ref=e165] [cursor=pointer]:
+                    - /url: /new/templates?type=ai
+                    - generic [ref=e166]: Browse All
+                    - img [ref=e168]
+              - generic [ref=e170]:
+                - link "Vibe Coding Platform An end to end text-to-app coding platform Vibe Coding Platform" [ref=e171] [cursor=pointer]:
+                  - /url: /new/clone?demo-description=An%20end%20to%20end%20text-to-app%20coding%20platform&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2FWt6jnxAtBGWapPn2hphXX%2Ff482eba41754f65e70f4e05c2eb9544c%2Fimage.png&demo-title=Vibe%20Coding%20Platform%20&demo-url=https%3A%2F%2Foss-vibe-coding-platform.vercel.app%2F&from=templates&project-name=Vibe%20Coding%20Platform%20&project-names=Comma%20separated%20list%20of%20project%20names%2Cto%20match%20the%20root-directories&repository-name=vibe-coding-platform&repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fapps%2Fvibe-coding-platform&root-directories=List%20of%20directory%20paths%20for%20the%20directories%20to%20clone%20into%20projects&skippable-integrations=1
+                  - generic [ref=e172]:
+                    - generic [ref=e173]:
+                      - heading "Vibe Coding Platform" [level=3] [ref=e174]
+                      - img [ref=e175]
+                    - generic [ref=e177]: An end to end text-to-app coding platform
+                  - img "Vibe Coding Platform" [ref=e178]
+                - link "AI Gateway Demo An open-source AI chatbot built with Next.js, the AI SDK, and the AI Gateway. AI Gateway Demo" [ref=e179] [cursor=pointer]:
+                  - /url: /new/clone?demo-description=An%20open-source%20AI%20chatbot%20built%20with%20Next.js%2C%20the%20AI%20SDK%2C%20and%20the%20AI%20Gateway.&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F5mz2JCK2z8hNLIiV0PkKux%2F4f4345c6d0a73e27d765a57c9cf1c44a%2Flight.png&demo-title=Vercel%20AI%20Gateway%20Demo&demo-url=https%3A%2F%2Fai-sdk-gateway-demo.labs.vercel.dev%2F&project-name=Vercel%20AI%20Gateway%20Demo&repository-name=vercel-ai-gateway-demo&repository-url=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fai-sdk-gateway-demo
+                  - generic [ref=e180]:
+                    - generic [ref=e181]:
+                      - heading "AI Gateway Demo" [level=3] [ref=e182]
+                      - img [ref=e183]
+                    - generic [ref=e185]: An open-source AI chatbot built with Next.js, the AI SDK, and the AI Gateway.
+                  - img "AI Gateway Demo" [ref=e186]
+                - generic [ref=e188]:
+                  - generic [ref=e189]:
+                    - paragraph [ref=e190]: Install Coding Agent Plugin
+                    - generic [ref=e191]:
+                      - generic [ref=e192]:
+                        - img [ref=e194]
+                        - img [ref=e197]
+                        - img [ref=e199]
+                      - generic [ref=e200]: "|"
+                      - button "Dismiss coding agent plugin notification" [ref=e201]:
+                        - img [ref=e202]
+                  - paragraph [ref=e204]: Turn your coding agent into a Vercel expert. Simply copy and run this in your terminal to install the plugin. Available for Claude, Cursor and Codex.
+                  - generic [ref=e206]:
+                    - generic [ref=e207]: $ npx plugins add vercel/vercel-plugin
+                    - button "Copy to clipboard" [ref=e208] [cursor=pointer]:
+                      - generic [ref=e210]:
+                        - img [ref=e212]
+                        - img [ref=e215]
+          - generic [ref=e220]:
+            - generic [ref=e221]:
+              - img [ref=e223]
+              - generic [ref=e225]:
+                - paragraph [ref=e226]: Create Empty Project
+                - paragraph [ref=e227]: Skip Git setup and instantly access Web Analytics, Speed Insights, and other Vercel products.
+            - button "Create Empty Project" [ref=e229] [cursor=pointer]:
+              - generic [ref=e230]: Create Empty Project
+  - alert [ref=e1]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - img

@@ -1,0 +1,39 @@
+[     609ms] [LOG] %c
+▲
+
+    ________   _ __ _          ____           __
+   /  _/ __/  (_) /( )_____   / __/___ ______/ /_
+   / // /_   / / __/// ___/  / /_/ __ `/ ___/ __/
+ _/ // __/  / / /_  (__  )  / __/ /_/ (__  ) /_
+/___/_/    /_/\__/ /____/  /_/  \__,_/____/\__/
+    _ __ _                         _    __                    __
+   (_) /( )_____   ____  ____     | |  / /__  _____________  / /
+  / / __/// ___/  / __ \/ __ \    | | / / _ \/ ___/ ___/ _ \/ /
+ / / /_  (__  )  / /_/ / / / /    | |/ /  __/ /  / /__/  __/ /
+/_/\__/ /____/   \____/_/ /_/     |___/\___/_/   \___/\___/_/
+  
+
+Hello!
+
+- Open Source https://vercel.com/oss
+- Careers https://vercel.com/careers
+- Status https://vercel-status.com
+
+ font-family: "Geist Mono", monospace; white-space: pre; line-height: 1; @ https://vercel.com/_next/static/immutable/chunks/2ltm-shlkw-ie.js:78
+[    2974ms] [WARNING] Deprecated API for given entry type. @ https://vercel.com/_next/static/immutable/chunks/0ff0fyh11d0bh.js:18
+[    9223ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/0tv257fx586gu.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/new?s=https://github.com/Gabriel3025/calisthenics-21days-v2&framework=nextjs:0
+[    9226ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/389fqnv9daql5.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/new?s=https://github.com/Gabriel3025/calisthenics-21days-v2&framework=nextjs:0
+[    9226ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3d792zqltro0t.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/new?s=https://github.com/Gabriel3025/calisthenics-21days-v2&framework=nextjs:0
+[    9226ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/40i4e3n511dd8.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/new?s=https://github.com/Gabriel3025/calisthenics-21days-v2&framework=nextjs:0
+[    9226ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/10_rratikjhi4.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/new?s=https://github.com/Gabriel3025/calisthenics-21days-v2&framework=nextjs:0
+[    9227ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/2uz1h037me55t.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/new?s=https://github.com/Gabriel3025/calisthenics-21days-v2&framework=nextjs:0
+[    9867ms] [LOG] Clicking: Create Empty Project @ https://vercel.com/_next/static/immutable/chunks/0ff0fyh11d0bh.js:16
+[   12364ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://vercel.com/api/v1/projects/prj_q23JMV84HbKUeQyw958qFkhCjyDE/production-deployment?teamId=gabriel3025s-projects:0
+[   12611ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://vercel.com/api/v1/projects/project-10toi/production-deployment?teamId=gabriel3025s-projects:0
+[   12893ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://vercel.com/api/v1/projects/project-10toi/production-deployment?teamId=gabriel3025s-projects:0
+[   14246ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://vercel.com/api/chat/F3eb2leBIbw4urin/stream:0
+[   14255ms] [WARNING] [omniagent] chat stream failed Error: {"error":{"code":"not_found","message":"The requested API endpoint was not found."}}
+    at oS.reconnectToStream (https://vercel.com/_next/static/immutable/chunks/0jjs0bfulue71.js:38:48063)
+    at async ae.makeRequest (https://vercel.com/_next/static/immutable/chunks/0jjs0bfulue71.js:23:47520)
+    at async ae.resumeStream (https://vercel.com/_next/static/immutable/chunks/0jjs0bfulue71.js:23:44598) @ https://vercel.com/_next/static/immutable/chunks/0ff0fyh11d0bh.js:16
+[   15467ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://vercel.com/api/v1/projects/prj_q23JMV84HbKUeQyw958qFkhCjyDE/production-deployment?teamId=gabriel3025s-projects:0

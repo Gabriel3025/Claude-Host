@@ -1,0 +1,327 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e9]:
+            - link "gabriel3025's projects Hobby" [ref=e10] [cursor=pointer]:
+              - /url: /gabriel3025s-projects
+              - img [ref=e11]
+              - generic [ref=e12]:
+                - generic [ref=e13]: gabriel3025's projects
+                - generic [ref=e15]: Hobby
+            - button [ref=e16] [cursor=pointer]:
+              - img [ref=e18]
+          - button "Find… F" [ref=e21]:
+            - generic [ref=e23]:
+              - img [ref=e25]
+              - generic [ref=e27]: Find…
+              - generic [ref=e29]: F
+        - navigation [ref=e31]:
+          - generic [ref=e32]:
+            - generic:
+              - generic:
+                - link "Overview":
+                  - /url: /gabriel3025s-projects/project-10toi
+                  - generic:
+                    - generic: Overview
+                - link "Deployments":
+                  - /url: /gabriel3025s-projects/project-10toi/deployments
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Deployments
+                - link "Logs":
+                  - /url: /gabriel3025s-projects/project-10toi/logs
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Logs
+                - link "Analytics":
+                  - /url: /gabriel3025s-projects/project-10toi/analytics
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Analytics
+                - link "Speed Insights":
+                  - /url: /gabriel3025s-projects/project-10toi/speed-insights
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Speed Insights
+                - link "Observability":
+                  - /url: /gabriel3025s-projects/project-10toi/observability
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Observability
+                  - generic:
+                    - img
+                - link "Firewall":
+                  - /url: /gabriel3025s-projects/project-10toi/firewall
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Firewall
+                  - generic:
+                    - img
+                - link "CDN":
+                  - /url: /gabriel3025s-projects/project-10toi/cdn
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: CDN
+                  - generic:
+                    - img
+                - separator
+                - link "Environment Variables":
+                  - /url: /gabriel3025s-projects/project-10toi/settings/environment-variables
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Environment Variables
+                - link "Domains":
+                  - /url: /gabriel3025s-projects/project-10toi/settings/domains
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Domains
+                - link "Integrations":
+                  - /url: /gabriel3025s-projects/project-10toi/settings/integrations
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Integrations
+                - link "Storage":
+                  - /url: /gabriel3025s-projects/project-10toi/stores
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Storage
+                - link "Flags":
+                  - /url: /gabriel3025s-projects/project-10toi/flags
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Flags
+                  - generic:
+                    - img
+                - link "Agent":
+                  - /url: /gabriel3025s-projects/project-10toi/agent
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Agent
+                  - generic:
+                    - img
+                - link "AI Gateway":
+                  - /url: /gabriel3025s-projects/project-10toi/ai-gateway
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: AI Gateway
+                  - generic:
+                    - img
+                - link "Sandboxes":
+                  - /url: /gabriel3025s-projects/project-10toi/sandboxes
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Sandboxes
+                - link "Workflows":
+                  - /url: /gabriel3025s-projects/project-10toi/workflows
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Workflows
+                - separator
+                - link "Usage":
+                  - /url: /gabriel3025s-projects/project-10toi/usage
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Usage
+                - link "Support":
+                  - /url: /gabriel3025s-projects/project-10toi/support
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Support
+                - link "Settings":
+                  - /url: /gabriel3025s-projects/project-10toi/settings
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Settings
+                  - generic:
+                    - img
+            - generic [ref=e33]:
+              - button "Settings" [ref=e35] [cursor=pointer]:
+                - img [ref=e37]
+                - generic [ref=e39]: Settings
+              - generic [ref=e41]:
+                - link "General" [ref=e42] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/project-10toi/settings/general
+                  - generic [ref=e44]: General
+                - link "Build and Deployment" [ref=e45] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/project-10toi/settings/build-and-deployment
+                  - generic [ref=e47]: Build and Deployment
+                - link "Environments" [ref=e48] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/project-10toi/settings/environments
+                  - generic [ref=e50]: Environments
+                - link "Git" [ref=e51] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/project-10toi/settings/git
+                  - generic [ref=e53]: Git
+                - link "Deployment Protection" [ref=e54] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/project-10toi/settings/deployment-protection
+                  - generic [ref=e56]: Deployment Protection
+                - link "Functions" [ref=e57] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/project-10toi/settings/functions
+                  - generic [ref=e59]: Functions
+                - link "Cron Jobs" [ref=e60] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/project-10toi/settings/cron-jobs
+                  - generic [ref=e62]: Cron Jobs
+                - link "Microfrontends" [ref=e63] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/project-10toi/settings/microfrontends
+                  - generic [ref=e65]: Microfrontends
+                - link "Project Members" [ref=e66] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/project-10toi/settings/project-members
+                  - generic [ref=e68]: Project Members
+                - link "Drains" [ref=e69] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/project-10toi/settings/drains
+                  - generic [ref=e71]: Drains
+                - link "Security" [ref=e72] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/project-10toi/settings/security
+                  - generic [ref=e74]: Security
+                - link "Networking" [ref=e75] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/project-10toi/settings/networking
+                  - generic [ref=e77]: Networking
+                - link "Advanced" [ref=e78] [cursor=pointer]:
+                  - /url: /gabriel3025s-projects/project-10toi/settings/advanced
+                  - generic [ref=e80]: Advanced
+        - generic [ref=e83]:
+          - button "Avatar for gabriel3025 gabriel3025" [disabled]:
+            - img "Avatar for gabriel3025":
+              - img "Avatar for gabriel3025"
+            - generic:
+              - generic: gabriel3025
+            - generic:
+              - img
+          - img [ref=e86]
+      - button [ref=e89] [cursor=pointer]:
+        - img [ref=e90]
+    - generic [ref=e93]:
+      - generic [ref=e94]:
+        - generic [ref=e97]:
+          - link "project-10toi" [ref=e98] [cursor=pointer]:
+            - /url: /gabriel3025s-projects/project-10toi
+            - generic [ref=e101]: project-10toi
+          - button [ref=e102] [cursor=pointer]:
+            - img [ref=e104]
+          - link "Back to team view" [ref=e108] [cursor=pointer]:
+            - /url: /gabriel3025s-projects/~/settings
+            - img [ref=e110]
+        - generic [ref=e114]: Project Settings
+        - button "Open page actions menu" [ref=e116] [cursor=pointer]:
+          - img [ref=e118]
+      - generic [ref=e128]:
+        - generic [ref=e131]:
+          - heading "Project Name" [level=4] [ref=e133]:
+            - generic [ref=e134]:
+              - link "Project Name" [ref=e135] [cursor=pointer]:
+                - /url: "#project-name"
+                - generic [ref=e136]: Project Name
+              - img [ref=e137]
+          - paragraph [ref=e139]: Used to identify your Project on the Dashboard, Vercel CLI, and in the URL of your Deployments.
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - heading "Project ID" [level=4] [ref=e148]:
+              - generic [ref=e149]:
+                - link "Project ID" [ref=e150] [cursor=pointer]:
+                  - /url: "#project-id"
+                  - generic [ref=e151]: Project ID
+                - img [ref=e152]
+            - paragraph [ref=e154]: Used when interacting with the Vercel API.
+            - generic [ref=e155]:
+              - generic [ref=e156]: prj_q23JMV84HbKUeQyw958qFkhCjyDE
+              - button "Copy to clipboard" [ref=e157] [cursor=pointer]:
+                - generic [ref=e159]:
+                  - img [ref=e161]
+                  - img [ref=e164]
+          - generic [ref=e168]:
+            - text: Learn more about
+            - link "Project ID" [ref=e169] [cursor=pointer]:
+              - /url: /docs/api?query=api#endpoints/projects
+              - text: Project ID
+              - img [ref=e170]
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - heading "Vercel Toolbar" [level=4] [ref=e177]:
+              - generic [ref=e178]:
+                - link "Vercel Toolbar" [ref=e179] [cursor=pointer]:
+                  - /url: "#vercel-toolbar"
+                  - generic [ref=e180]: Vercel Toolbar
+                - img [ref=e181]
+            - paragraph [ref=e183]: Enable the Vercel Toolbar on your Deployments.
+            - generic [ref=e184]:
+              - generic [ref=e185]:
+                - option "Default (controlled at the account level)" [selected]
+                - option "On"
+                - option "Off"
+              - generic [ref=e186]:
+                - option "Default (controlled at the account level)" [selected]
+                - option "On"
+                - option "Off"
+            - generic [ref=e189]:
+              - img [ref=e191]
+              - generic [ref=e193]:
+                - text: To use the toolbar in production your team members need the
+                - link "Chrome extension" [ref=e194] [cursor=pointer]:
+                  - /url: https://chromewebstore.google.com/detail/vercel/lahhiofdgnbcgmemekkmjnpifojdaelb
+                - text: or to enable the toolbar for that domain in the toolbar menu. Learn more about using the
+                - link "toolbar in production" [ref=e195] [cursor=pointer]:
+                  - /url: /docs/vercel-toolbar/in-production-and-localhost/add-to-production
+                - text: .
+          - generic [ref=e198]:
+            - text: Learn more about the
+            - link "Vercel Toolbar" [ref=e199] [cursor=pointer]:
+              - /url: /docs/workflow-collaboration/vercel-toolbar
+              - text: Vercel Toolbar
+              - img [ref=e200]
+        - generic [ref=e204]:
+          - generic [ref=e205]:
+            - heading "Preview Deployment Suffix" [level=4] [ref=e207]:
+              - generic [ref=e208]:
+                - link "Preview Deployment Suffix" [ref=e209] [cursor=pointer]:
+                  - /url: "#preview-deployment-suffix"
+                  - generic [ref=e210]: Preview Deployment Suffix
+                - img [ref=e211]
+            - paragraph [ref=e213]:
+              - text: By default, the URL of every new Preview Deployment ends with
+              - code [ref=e214]: .vercel.app
+              - text: . This setting allows you to choose your own custom domain in place of this suffix. This takes precedence over the team-level preview deployment suffix.
+          - generic [ref=e216]: Please use 63 characters at maximum.
+        - generic [ref=e230]:
+          - heading "Project Expiration" [level=4] [ref=e232]:
+            - generic [ref=e233]:
+              - link "Project Expiration" [ref=e234] [cursor=pointer]:
+                - /url: "#project-expiration"
+                - generic [ref=e235]: Project Expiration
+              - img [ref=e236]
+          - paragraph [ref=e238]: Schedule this project to be automatically deleted after a set period of time, or change when it will expire.
+        - generic [ref=e248]:
+          - heading "Delete Project" [level=4] [ref=e250]:
+            - generic [ref=e251]:
+              - link "Delete Project" [ref=e252] [cursor=pointer]:
+                - /url: "#delete-project"
+                - generic [ref=e253]: Delete Project
+              - img [ref=e254]
+          - paragraph [ref=e256]: Permanently delete this project and all deployments, domains, environment variables, serverless functions, and settings.
+          - separator [ref=e258]
+          - generic [ref=e259]:
+            - paragraph [ref=e262]: Loading…
+            - generic [ref=e263]:
+              - generic "project-10toi" [ref=e264]
+              - generic [ref=e265]: Last updated just now
