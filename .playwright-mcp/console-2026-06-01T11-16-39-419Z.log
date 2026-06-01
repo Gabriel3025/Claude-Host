@@ -1,0 +1,22 @@
+[     953ms] [ERROR] Error loading progress: TypeError: Cannot read properties of undefined (reading 'getSession')
+    at https://calisthenics-app-v2.vercel.app/_next/static/chunks/0-3-yjae66.b8.js:1:14545
+    at https://calisthenics-app-v2.vercel.app/_next/static/chunks/0-3-yjae66.b8.js:1:15091
+    at iv (https://calisthenics-app-v2.vercel.app/_next/static/chunks/10u3y4bw1ayzs.js:1:102969)
+    at up (https://calisthenics-app-v2.vercel.app/_next/static/chunks/10u3y4bw1ayzs.js:1:127008)
+    at ud (https://calisthenics-app-v2.vercel.app/_next/static/chunks/10u3y4bw1ayzs.js:1:126670)
+    at up (https://calisthenics-app-v2.vercel.app/_next/static/chunks/10u3y4bw1ayzs.js:1:126988)
+    at ud (https://calisthenics-app-v2.vercel.app/_next/static/chunks/10u3y4bw1ayzs.js:1:126670)
+    at up (https://calisthenics-app-v2.vercel.app/_next/static/chunks/10u3y4bw1ayzs.js:1:127053)
+    at ud (https://calisthenics-app-v2.vercel.app/_next/static/chunks/10u3y4bw1ayzs.js:1:126670)
+    at up (https://calisthenics-app-v2.vercel.app/_next/static/chunks/10u3y4bw1ayzs.js:1:127053) @ https://calisthenics-app-v2.vercel.app/_next/static/chunks/0-3-yjae66.b8.js:0
+[    1044ms] TypeError: Cannot read properties of undefined (reading 'getSession')
+    at https://calisthenics-app-v2.vercel.app/_next/static/chunks/0b6p6-g6tt5ch.js:3:13023
+    at https://calisthenics-app-v2.vercel.app/_next/static/chunks/0b6p6-g6tt5ch.js:3:13314
+    at iv (https://calisthenics-app-v2.vercel.app/_next/static/chunks/10u3y4bw1ayzs.js:1:102969)
+    at up (https://calisthenics-app-v2.vercel.app/_next/static/chunks/10u3y4bw1ayzs.js:1:127008)
+    at ud (https://calisthenics-app-v2.vercel.app/_next/static/chunks/10u3y4bw1ayzs.js:1:126670)
+    at up (https://calisthenics-app-v2.vercel.app/_next/static/chunks/10u3y4bw1ayzs.js:1:126988)
+    at ud (https://calisthenics-app-v2.vercel.app/_next/static/chunks/10u3y4bw1ayzs.js:1:126670)
+    at up (https://calisthenics-app-v2.vercel.app/_next/static/chunks/10u3y4bw1ayzs.js:1:127053)
+    at ud (https://calisthenics-app-v2.vercel.app/_next/static/chunks/10u3y4bw1ayzs.js:1:126670)
+    at up (https://calisthenics-app-v2.vercel.app/_next/static/chunks/10u3y4bw1ayzs.js:1:127053)

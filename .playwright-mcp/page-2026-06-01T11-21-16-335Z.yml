@@ -1,0 +1,5 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: 🔄
+    - paragraph [ref=e5]: Carregando seu desafio...
+  - alert [ref=e6]
