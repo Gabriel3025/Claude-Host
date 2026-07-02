@@ -1,0 +1,30 @@
+- generic [active] [ref=f8e1]:
+  - generic [ref=f8e4]:
+    - generic [ref=f8e6]:
+      - navigation [ref=f8e7]:
+        - generic [ref=f8e10]:
+          - button [ref=f8e11] [cursor=pointer]:
+            - img [ref=f8e14]
+          - button "Menu dropdown button" [ref=f8e16] [cursor=pointer]:
+            - img [ref=f8e18]
+      - navigation "Floating toolbar" [ref=f8e19]:
+        - generic [ref=f8e20]:
+          - button [ref=f8e21] [cursor=pointer]:
+            - img [ref=f8e23]
+          - button "Help" [ref=f8e27] [cursor=pointer]:
+            - generic [ref=f8e28]:
+              - img [ref=f8e29]
+              - generic [ref=f8e32]: Help
+          - button "Advisor Center" [ref=f8e35] [cursor=pointer]:
+            - generic [ref=f8e36]:
+              - img [ref=f8e37]
+              - generic [ref=f8e39]: Advisor Center
+    - main [ref=f8e46]:
+      - list [ref=f8e49]:
+        - generic [ref=f8e52]:
+          - paragraph [ref=f8e53]
+          - paragraph [ref=f8e54]
+        - generic [ref=f8e57]:
+          - paragraph [ref=f8e58]
+          - paragraph [ref=f8e59]
+  - alert [ref=f8e60]
