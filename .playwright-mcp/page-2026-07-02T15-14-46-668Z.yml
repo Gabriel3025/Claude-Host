@@ -1,0 +1,37 @@
+- generic [active] [ref=f35e1]:
+  - generic [ref=f35e3]:
+    - generic [ref=f35e4]:
+      - generic [ref=f35e6]:
+        - navigation [ref=f35e7]:
+          - generic [ref=f35e10]:
+            - button [ref=f35e11] [cursor=pointer]:
+              - img [ref=f35e14]
+            - button "Menu dropdown button" [ref=f35e16] [cursor=pointer]:
+              - img [ref=f35e18]
+        - navigation "Floating toolbar" [ref=f35e19]:
+          - generic [ref=f35e20]:
+            - button [ref=f35e21] [cursor=pointer]:
+              - img [ref=f35e23]
+            - button "Help" [ref=f35e27] [cursor=pointer]:
+              - generic [ref=f35e28]:
+                - img [ref=f35e29]
+                - generic [ref=f35e32]: Help
+            - button "Advisor Center" [ref=f35e35] [cursor=pointer]:
+              - generic [ref=f35e36]:
+                - img [ref=f35e37]
+                - generic [ref=f35e39]: Advisor Center
+      - main [ref=f35e49]
+    - generic [ref=f35e53]:
+      - generic:
+        - img "Background pattern"
+      - generic [ref=f35e54]:
+        - button "Close banner" [ref=f35e56] [cursor=pointer]:
+          - img [ref=f35e58]
+        - generic [ref=f35e61]:
+          - generic [ref=f35e62]: Notice
+          - generic [ref=f35e63]:
+            - paragraph [ref=f35e64]: We've updated our Terms of Service
+            - paragraph [ref=f35e65]: Updates define the responsibilities of both you and Supabase in the use of AI.
+          - button "Learn more" [ref=f35e66] [cursor=pointer]:
+            - generic [ref=f35e67]: Learn more
+  - alert [ref=f35e68]

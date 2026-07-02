@@ -1,0 +1,10 @@
+- generic [ref=f44e4]:
+  - generic [ref=f44e5]:
+    - img "Calistenia Asiática Logo" [ref=f44e7]
+    - heading "Desafio 21 Dias" [level=1] [ref=f44e8]
+    - paragraph [ref=f44e9]: Calistenia Asiática
+  - paragraph [ref=f44e10]: Insira seu email para começar o desafio
+  - generic [ref=f44e11]:
+    - textbox "seu@email.com" [ref=f44e13]
+    - button "Continuar com Email" [disabled] [ref=f44e14]
+  - paragraph [ref=f44e16]: 💪 Força, Determinação e Consistência

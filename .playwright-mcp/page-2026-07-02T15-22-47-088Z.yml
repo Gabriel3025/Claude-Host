@@ -1,0 +1,22 @@
+- generic [active] [ref=f44e1]:
+  - button "Open Next.js Dev Tools" [ref=f44e22] [cursor=pointer]:
+    - img [ref=f44e23]
+  - alert [ref=f44e26]
+  - generic [ref=f44e30]:
+    - generic [ref=f44e31]:
+      - generic [ref=f44e32]: 📊
+      - heading "Seus Dados" [level=1] [ref=f44e33]
+      - paragraph [ref=f44e34]: Próximo passo do desafio
+    - generic [ref=f44e35]:
+      - generic [ref=f44e36]:
+        - generic [ref=f44e37]: Nome
+        - textbox "Seu nome" [ref=f44e38]
+      - generic [ref=f44e39]:
+        - generic [ref=f44e40]:
+          - generic [ref=f44e41]: Peso (kg)
+          - spinbutton "70" [ref=f44e42]
+        - generic [ref=f44e43]:
+          - generic [ref=f44e44]: Altura (cm)
+          - spinbutton "180" [ref=f44e45]
+      - button "Começar o Desafio" [disabled] [ref=f44e46]
+    - paragraph [ref=f44e48]: 💪 Força, Determinação e Consistência

@@ -1,0 +1,23 @@
+- generic [active] [ref=f38e1]:
+  - generic [ref=f38e4]:
+    - generic [ref=f38e6]:
+      - navigation [ref=f38e7]:
+        - generic [ref=f38e10]:
+          - button [ref=f38e11] [cursor=pointer]:
+            - img [ref=f38e14]
+          - button "Menu dropdown button" [ref=f38e16] [cursor=pointer]:
+            - img [ref=f38e18]
+      - navigation "Floating toolbar" [ref=f38e19]:
+        - generic [ref=f38e20]:
+          - button [ref=f38e21] [cursor=pointer]:
+            - img [ref=f38e23]
+          - button "Help" [ref=f38e27] [cursor=pointer]:
+            - generic [ref=f38e28]:
+              - img [ref=f38e29]
+              - generic [ref=f38e32]: Help
+          - button "Advisor Center" [ref=f38e35] [cursor=pointer]:
+            - generic [ref=f38e36]:
+              - img [ref=f38e37]
+              - generic [ref=f38e39]: Advisor Center
+    - main [ref=f38e49]
+  - alert [ref=f38e50]

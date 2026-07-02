@@ -1,0 +1,103 @@
+- generic [active] [ref=f20e1]:
+  - generic [ref=f20e105]:
+    - generic [ref=f20e106]:
+      - generic [ref=f20e110]:
+        - generic [ref=f20e112]:
+          - img [ref=f20e113]
+          - generic [ref=f20e115]:
+            - paragraph [ref=f20e116]: We are investigating a technical issue
+            - generic [ref=f20e118]:
+              - text: Follow the
+              - link "status page" [ref=f20e119] [cursor=pointer]:
+                - /url: https://status.supabase.com
+              - text: for updates
+        - button "Dismiss banner" [ref=f20e120] [cursor=pointer]:
+          - img [ref=f20e122]
+      - generic [ref=f20e126]:
+        - navigation [ref=f20e127]:
+          - list [ref=f20e129]:
+            - listitem [ref=f20e130]:
+              - button "G Gabriel3025's Org 1 project" [ref=f20e131]:
+                - generic [ref=f20e132]: G
+                - generic [ref=f20e133]:
+                  - generic [ref=f20e134]: Gabriel3025's Org
+                  - generic [ref=f20e135]:
+                    - img [ref=f20e136]
+                    - generic [ref=f20e146]: 1 project
+                - img [ref=f20e147]
+          - generic [ref=f20e150]:
+            - button "Gabriel3025" [ref=f20e151] [cursor=pointer]:
+              - img "Gabriel3025" [ref=f20e153]
+            - button "Menu dropdown button" [ref=f20e154] [cursor=pointer]:
+              - img [ref=f20e156]
+        - navigation "Floating toolbar" [ref=f20e157]:
+          - generic [ref=f20e158]:
+            - button [ref=f20e159] [cursor=pointer]:
+              - img [ref=f20e161]
+            - button "Help" [ref=f20e165] [cursor=pointer]:
+              - generic [ref=f20e166]:
+                - img [ref=f20e167]
+                - generic [ref=f20e170]: Help
+            - button "Advisor Center" [ref=f20e173] [cursor=pointer]:
+              - generic [ref=f20e174]:
+                - img [ref=f20e175]
+                - generic [ref=f20e177]: Advisor Center
+      - main [ref=f20e184]:
+        - generic [ref=f20e185]:
+          - heading "Projects" [level=1] [ref=f20e192]
+          - generic [ref=f20e196]:
+            - generic [ref=f20e197]:
+              - generic [ref=f20e198]:
+                - group [ref=f20e199]:
+                  - textbox "Search for a project" [ref=f20e200]
+                  - group [ref=f20e201]:
+                    - img [ref=f20e202]
+                  - group
+                - generic [ref=f20e205]:
+                  - generic [ref=f20e206] [cursor=pointer]:
+                    - generic [ref=f20e207]: Status
+                    - img [ref=f20e209]
+                  - button "Sorted by name" [ref=f20e211] [cursor=pointer]:
+                    - img [ref=f20e213]
+                    - generic [ref=f20e215]: Sorted by name
+              - generic [ref=f20e216]:
+                - group [ref=f20e217]:
+                  - radio [checked] [ref=f20e218]:
+                    - img [ref=f20e219]
+                  - radio [ref=f20e221]:
+                    - img [ref=f20e222]
+                - link "New project" [ref=f20e223] [cursor=pointer]:
+                  - /url: /dashboard/new/dreelmauwsthnbpazhwy
+                  - img [ref=f20e225]
+                  - generic [ref=f20e226]: New project
+            - list [ref=f20e228]:
+              - listitem [ref=f20e229]:
+                - link "Gabriel3025's Project AWS | us-east-2" [ref=f20e230] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx
+                  - generic [ref=f20e231]:
+                    - generic [ref=f20e233]:
+                      - generic [ref=f20e234]:
+                        - heading "Gabriel3025's Project" [level=5] [ref=f20e235]
+                        - button [ref=f20e237]:
+                          - img [ref=f20e239]
+                      - paragraph [ref=f20e243]: AWS | us-east-2
+                    - alert [ref=f20e245]:
+                      - img [ref=f20e247]
+                      - generic [ref=f20e249]:
+                        - paragraph [ref=f20e250]: Project is paused
+                        - button [ref=f20e251]:
+                          - img [ref=f20e252]
+    - generic [ref=f20e257]:
+      - generic:
+        - img "Background pattern"
+      - generic [ref=f20e258]:
+        - button "Close banner" [ref=f20e260] [cursor=pointer]:
+          - img [ref=f20e262]
+        - generic [ref=f20e265]:
+          - generic [ref=f20e266]: Notice
+          - generic [ref=f20e267]:
+            - paragraph [ref=f20e268]: We've updated our Terms of Service
+            - paragraph [ref=f20e269]: Updates define the responsibilities of both you and Supabase in the use of AI.
+          - button "Learn more" [ref=f20e270] [cursor=pointer]:
+            - generic [ref=f20e271]: Learn more
+  - alert [ref=f20e104]: Supabase

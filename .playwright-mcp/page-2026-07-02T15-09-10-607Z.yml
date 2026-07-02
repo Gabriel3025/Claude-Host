@@ -1,0 +1,60 @@
+- generic [active] [ref=f20e1]:
+  - generic [ref=f20e2]:
+    - generic [ref=f20e272]:
+      - generic [ref=f20e292]:
+        - navigation [ref=f20e293]:
+          - generic [ref=f20e294]:
+            - button "G Gabriel3025's Project main" [ref=f20e295]:
+              - generic [ref=f20e296]: G
+              - generic [ref=f20e297]:
+                - generic [ref=f20e298]: Gabriel3025's Project
+                - generic [ref=f20e299]:
+                  - img [ref=f20e300]
+                  - generic [ref=f20e304]: main
+              - img [ref=f20e305]
+            - button "Connect" [disabled] [ref=f20e432]:
+              - img [ref=f20e310]
+              - generic [ref=f20e312]: Connect
+          - generic [ref=f20e313]:
+            - button "Gabriel3025" [ref=f20e433] [cursor=pointer]:
+              - img "Gabriel3025" [ref=f20e434]
+            - button "Menu dropdown button" [ref=f20e317] [cursor=pointer]:
+              - img [ref=f20e319]
+        - navigation "Floating toolbar" [ref=f20e435]:
+          - generic [ref=f20e321]:
+            - button [ref=f20e322] [cursor=pointer]:
+              - img [ref=f20e324]
+            - button "Help" [ref=f20e436] [cursor=pointer]:
+              - generic [ref=f20e329]:
+                - img [ref=f20e330]
+                - generic [ref=f20e333]: Help
+            - button "Advisor Center" [ref=f20e437] [cursor=pointer]:
+              - generic [ref=f20e337]:
+                - img [ref=f20e338]
+                - generic [ref=f20e340]: Advisor Center
+            - button "SQL Editor" [ref=f20e438] [cursor=pointer]:
+              - generic [ref=f20e343]:
+                - img [ref=f20e344]
+                - generic [ref=f20e346]: SQL Editor
+            - button "AI Assistant" [ref=f20e439] [cursor=pointer]:
+              - generic [ref=f20e349]:
+                - img [ref=f20e352]
+                - generic [ref=f20e355]: AI Assistant
+      - main [ref=f20e365]:
+        - generic [ref=f20e441]:
+          - generic [ref=f20e443]:
+            - img [ref=f20e445]
+            - generic [ref=f20e454]:
+              - paragraph [ref=f20e455]: Restoration in progress
+              - paragraph [ref=f20e456]: Restoration can take from a few minutes up to several hours depending on the size of your database. Your project will be offline while the restoration is running.
+          - button "Download latest backup" [disabled] [ref=f20e458]:
+            - img [ref=f20e460]
+            - generic [ref=f20e463]: Download latest backup
+    - region "Notifications alt+T":
+      - list:
+        - status [ref=f20e464]:
+          - button "Close toast" [ref=f20e465] [cursor=pointer]:
+            - img [ref=f20e466]
+          - img [ref=f20e470]
+          - generic [ref=f20e473]: Restoring project, project will be ready in a few minutes
+  - alert [ref=f20e104]: Gabriel3025's Project | Gabriel3025's Org | Supabase

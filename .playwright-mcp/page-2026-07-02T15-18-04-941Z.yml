@@ -1,0 +1,104 @@
+- generic [ref=f41e1]:
+  - generic [ref=f41e75]:
+    - generic [ref=f41e77]:
+      - navigation [ref=f41e78]:
+        - generic [ref=f41e79]:
+          - button "G Gabriel3025's Project main" [ref=f41e80]:
+            - generic [ref=f41e81]: G
+            - generic [ref=f41e82]:
+              - generic [ref=f41e83]: Gabriel3025's Project
+              - generic [ref=f41e84]:
+                - img [ref=f41e85]
+                - generic [ref=f41e89]: main
+            - img [ref=f41e90]
+          - button "Connect" [ref=f41e93] [cursor=pointer]:
+            - img [ref=f41e95]
+            - generic [ref=f41e97]: Connect
+        - generic [ref=f41e98]:
+          - button "Gabriel3025" [ref=f41e99] [cursor=pointer]:
+            - img "Gabriel3025" [ref=f41e101]
+          - button "Menu dropdown button" [ref=f41e102] [cursor=pointer]:
+            - img [ref=f41e104]
+      - navigation "Floating toolbar" [ref=f41e105]:
+        - generic [ref=f41e106]:
+          - button [ref=f41e107] [cursor=pointer]:
+            - img [ref=f41e109]
+          - button "Help" [ref=f41e113] [cursor=pointer]:
+            - generic [ref=f41e114]:
+              - img [ref=f41e115]
+              - generic [ref=f41e118]: Help
+          - button "Advisor Center" [ref=f41e121] [cursor=pointer]:
+            - generic [ref=f41e122]:
+              - img [ref=f41e123]
+              - generic [ref=f41e125]: Advisor Center
+          - button "SQL Editor" [ref=f41e127] [cursor=pointer]:
+            - generic [ref=f41e128]:
+              - img [ref=f41e129]
+              - generic [ref=f41e131]: SQL Editor
+          - button "AI Assistant" [ref=f41e133] [cursor=pointer]:
+            - generic [ref=f41e134]:
+              - img [ref=f41e137]
+              - generic [ref=f41e140]: AI Assistant
+    - main [ref=f41e150]:
+      - generic [ref=f41e151]:
+        - generic [ref=f41e152]:
+          - generic [ref=f41e154]:
+            - generic [ref=f41e157]:
+              - heading "API Keys" [level=1] [ref=f41e158]
+              - paragraph [ref=f41e159]: Configure API keys to securely control access to your project
+            - link "Docs" [ref=f41e162] [cursor=pointer]:
+              - /url: https://supabase.com/docs/guides/api/api-keys
+              - img [ref=f41e164]
+              - generic [ref=f41e167]: Docs
+          - navigation [ref=f41e168]:
+            - menu [ref=f41e169]:
+              - listitem [ref=f41e170]:
+                - link "Publishable and secret API keys" [ref=f41e171] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/api-keys
+              - listitem [ref=f41e172]:
+                - link "Legacy anon, service_role API keys" [active] [ref=f41e173] [cursor=pointer]:
+                  - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/api-keys/legacy
+        - generic [ref=f41e174]:
+          - generic [ref=f41e290]:
+            - generic [ref=f41e292]:
+              - generic [ref=f41e296]:
+                - code [ref=f41e297]: anon
+                - code [ref=f41e298]: public
+              - generic [ref=f41e299]:
+                - group [ref=f41e301]:
+                  - textbox [ref=f41e302]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpnZXRuZ3h3aWV2ZmhjZ3Rmbmh4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAwNjQxNjUsImV4cCI6MjA5NTY0MDE2NX0.RN3A-uVn0BCgOc4STtZ3X6DaG32gwc_3w16BfsYawTY
+                  - group [ref=f41e303]:
+                    - button "Copy" [ref=f41e304] [cursor=pointer]:
+                      - img [ref=f41e306]
+                      - generic [ref=f41e309]: Copy
+                - paragraph [ref=f41e310]:
+                  - text: This key is safe to use in a browser if you have enabled Row Level Security for your tables and configured policies.
+                  - generic [ref=f41e311]:
+                    - text: Prefer using
+                    - link "Publishable API keys" [ref=f41e312] [cursor=pointer]:
+                      - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/api-keys/new
+                    - text: instead.
+            - generic [ref=f41e314]:
+              - generic [ref=f41e318]:
+                - code [ref=f41e319]: service_role
+                - code [ref=f41e320]: secret
+              - generic [ref=f41e321]:
+                - group [ref=f41e323]:
+                  - textbox [ref=f41e324]: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpnZXRuZ3h3aWV2ZmhjZ3Rmbmh4Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MDA2NDE2NSwiZXhwIjoyMDk1NjQwMTY1fQ.8drmmXvhI_A1cx2ZHg4HH3rOgzoBMU8XJuxH310D99M
+                  - group [ref=f41e325]:
+                    - button "Reveal" [ref=f41e326] [cursor=pointer]:
+                      - generic [ref=f41e327]: Reveal
+                - paragraph [ref=f41e328]:
+                  - text: This key has the ability to bypass Row Level Security. Never share it publicly. If leaked, generate a new JWT secret immediately.
+                  - generic [ref=f41e329]:
+                    - text: Prefer using
+                    - link "Secret API keys" [ref=f41e330] [cursor=pointer]:
+                      - /url: /dashboard/project/zgetngxwievfhcgtfnhx/settings/api-keys/new
+                    - text: instead.
+          - generic [ref=f41e336]:
+            - generic [ref=f41e337]:
+              - paragraph [ref=f41e338]: Disable legacy API keys
+              - paragraph [ref=f41e339]: Make sure you are no longer using your legacy API keys before proceeding.
+            - button "Disable JWT-based API keys" [ref=f41e341] [cursor=pointer]:
+              - generic [ref=f41e342]: Disable JWT-based API keys
+  - alert [ref=f41e74]: API Keys (Legacy) | Settings | Gabriel3025's Project | Gabriel3025's Org | Supabase

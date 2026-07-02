@@ -1,0 +1,63 @@
+- generic [active] [ref=f41e1]:
+  - generic [ref=f41e4]:
+    - generic [ref=f41e6]:
+      - navigation [ref=f41e7]:
+        - generic [ref=f41e10]:
+          - button [ref=f41e11] [cursor=pointer]:
+            - img [ref=f41e14]
+          - button "Menu dropdown button" [ref=f41e16] [cursor=pointer]:
+            - img [ref=f41e18]
+      - navigation "Floating toolbar" [ref=f41e19]:
+        - generic [ref=f41e20]:
+          - button [ref=f41e21] [cursor=pointer]:
+            - img [ref=f41e23]
+          - button "Help" [ref=f41e27] [cursor=pointer]:
+            - generic [ref=f41e28]:
+              - img [ref=f41e29]
+              - generic [ref=f41e32]: Help
+          - button "Advisor Center" [ref=f41e35] [cursor=pointer]:
+            - generic [ref=f41e36]:
+              - img [ref=f41e37]
+              - generic [ref=f41e39]: Advisor Center
+    - main [ref=f41e49]:
+      - generic [ref=f41e50]:
+        - generic [ref=f41e51]:
+          - generic [ref=f41e53]:
+            - generic [ref=f41e56]:
+              - heading "API Keys" [level=1] [ref=f41e57]
+              - paragraph [ref=f41e58]: Configure API keys to securely control access to your project
+            - link "Docs" [ref=f41e61] [cursor=pointer]:
+              - /url: https://supabase.com/docs/guides/api/api-keys
+              - img [ref=f41e63]
+              - generic [ref=f41e66]: Docs
+          - navigation [ref=f41e67]:
+            - menu [ref=f41e68]:
+              - listitem [ref=f41e69]:
+                - link "Publishable and secret API keys" [ref=f41e70] [cursor=pointer]:
+                  - /url: /dashboard/project/undefined/settings/api-keys
+              - listitem [ref=f41e71]:
+                - link "Legacy anon, service_role API keys" [ref=f41e72] [cursor=pointer]:
+                  - /url: /dashboard/project/undefined/settings/api-keys/legacy
+        - generic [ref=f41e73]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - heading "Publishable key" [level=3]
+                  - paragraph: This key is safe to use in a browser if you have enabled Row Level Security (RLS) for your tables and configured policies.
+                - generic:
+                  - button "New publishable key":
+                    - generic:
+                      - img
+                    - generic: New publishable key
+            - generic:
+              - generic:
+                - generic:
+                  - heading "Secret keys" [level=3]
+                  - paragraph: These API keys allow privileged access to your project's APIs. Use in servers, functions, workers or other backend components of your application.
+                - generic:
+                  - button "New secret key":
+                    - generic:
+                      - img
+                    - generic: New secret key
+  - alert [ref=f41e74]

@@ -1,0 +1,87 @@
+- generic [active] [ref=f20e1]:
+  - generic [ref=f20e105]:
+    - generic [ref=f20e272]:
+      - generic [ref=f20e276]:
+        - generic [ref=f20e278]:
+          - img [ref=f20e279]
+          - generic [ref=f20e281]:
+            - paragraph [ref=f20e282]: We are investigating a technical issue
+            - generic [ref=f20e284]:
+              - text: Follow the
+              - link "status page" [ref=f20e285] [cursor=pointer]:
+                - /url: https://status.supabase.com
+              - text: for updates
+        - button "Dismiss banner" [ref=f20e286] [cursor=pointer]:
+          - img [ref=f20e288]
+      - generic [ref=f20e292]:
+        - navigation [ref=f20e293]:
+          - generic [ref=f20e294]:
+            - button "G Gabriel3025's Project main" [ref=f20e295]:
+              - generic [ref=f20e296]: G
+              - generic [ref=f20e297]:
+                - generic [ref=f20e298]: Gabriel3025's Project
+                - generic [ref=f20e299]:
+                  - img [ref=f20e300]
+                  - generic [ref=f20e304]: main
+              - img [ref=f20e305]
+            - button "Connect" [disabled] [ref=f20e308]:
+              - img [ref=f20e310]
+              - generic [ref=f20e312]: Connect
+          - generic [ref=f20e313]:
+            - button "Gabriel3025" [ref=f20e314] [cursor=pointer]:
+              - img "Gabriel3025" [ref=f20e316]
+            - button "Menu dropdown button" [ref=f20e317] [cursor=pointer]:
+              - img [ref=f20e319]
+        - navigation "Floating toolbar" [ref=f20e320]:
+          - generic [ref=f20e321]:
+            - button [ref=f20e322] [cursor=pointer]:
+              - img [ref=f20e324]
+            - button "Help" [ref=f20e328] [cursor=pointer]:
+              - generic [ref=f20e329]:
+                - img [ref=f20e330]
+                - generic [ref=f20e333]: Help
+            - button "Advisor Center" [ref=f20e336] [cursor=pointer]:
+              - generic [ref=f20e337]:
+                - img [ref=f20e338]
+                - generic [ref=f20e340]: Advisor Center
+            - button "SQL Editor" [ref=f20e342] [cursor=pointer]:
+              - generic [ref=f20e343]:
+                - img [ref=f20e344]
+                - generic [ref=f20e346]: SQL Editor
+            - button "AI Assistant" [ref=f20e348] [cursor=pointer]:
+              - generic [ref=f20e349]:
+                - img [ref=f20e352]
+                - generic [ref=f20e355]: AI Assistant
+      - main [ref=f20e365]:
+        - generic [ref=f20e369]:
+          - generic [ref=f20e370]:
+            - img [ref=f20e371]
+            - generic [ref=f20e374]:
+              - heading "The project \"Gabriel3025's Project\" is currently paused" [level=2] [ref=f20e375]
+              - generic [ref=f20e376]:
+                - paragraph [ref=f20e377]:
+                  - text: All data, including backups and storage objects, remains safe. You can resume this project from the dashboard within
+                  - button "67 days" [ref=f20e378]:
+                    - generic [ref=f20e379]: 67 days
+                  - text: (until 07 Sep 2026). After that, this project will not be resumable, but data will still be available for download.
+                - paragraph [ref=f20e380]: To prevent future pauses, consider upgrading to Pro.
+          - generic [ref=f20e381]:
+            - button "Resume project" [ref=f20e382] [cursor=pointer]:
+              - generic [ref=f20e383]: Resume project
+            - link "Upgrade to Pro" [ref=f20e384] [cursor=pointer]:
+              - /url: /dashboard/org/dreelmauwsthnbpazhwy/billing?panel=subscriptionPlan&source=projectPausedStateRestore
+              - generic [ref=f20e385]: Upgrade to Pro
+    - generic [ref=f20e390]:
+      - generic:
+        - img "Background pattern"
+      - generic [ref=f20e391]:
+        - button "Close banner" [ref=f20e393] [cursor=pointer]:
+          - img [ref=f20e395]
+        - generic [ref=f20e398]:
+          - generic [ref=f20e399]: Notice
+          - generic [ref=f20e400]:
+            - paragraph [ref=f20e401]: We've updated our Terms of Service
+            - paragraph [ref=f20e402]: Updates define the responsibilities of both you and Supabase in the use of AI.
+          - button "Learn more" [ref=f20e403] [cursor=pointer]:
+            - generic [ref=f20e404]: Learn more
+  - alert [ref=f20e104]: Gabriel3025's Project | Gabriel3025's Org | Supabase
