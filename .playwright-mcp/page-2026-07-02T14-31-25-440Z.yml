@@ -1,0 +1,54 @@
+- generic [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - generic [ref=f2e4]:
+      - button "← Voltar" [ref=f2e5]
+      - generic [ref=f2e6]:
+        - heading "Dia 1" [level=1] [ref=f2e7]
+        - paragraph [ref=f2e8]: ~15 minutos de treino
+      - generic [ref=f2e9]:
+        - button "Toggle theme" [ref=f2e10]: 🌙
+        - generic [ref=f2e11]: 🔄
+    - generic [ref=f2e12]:
+      - generic [ref=f2e14]:
+        - generic [ref=f2e15]: Exercício 1 de 3
+        - generic [ref=f2e16]: 33%
+      - generic [ref=f2e19]:
+        - generic [ref=f2e20]:
+          - img "Aquecimento - Círculos com Braços" [ref=f2e22]
+          - generic [ref=f2e23]:
+            - heading "Aquecimento - Círculos com Braços" [level=3] [ref=f2e24]
+            - paragraph [ref=f2e25]: 2x30
+            - paragraph [ref=f2e26]: 2x30 segundos. Movimentos circulares com os braços para aquecer.
+        - generic [ref=f2e27]:
+          - paragraph [ref=f2e29]: 2/2 séries concluídas
+          - generic [ref=f2e30]:
+            - button "✓" [ref=f2e68]
+            - button "✓" [active] [ref=f2e69]
+          - generic [ref=f2e33]:
+            - paragraph [ref=f2e34]: 30 repetições • 30s descanso
+            - paragraph [ref=f2e70]: ✓ Exercício Completo!
+          - button "▶ Próximo Exercício" [ref=f2e71]
+      - generic [ref=f2e37]:
+        - heading "Exercícios do Dia" [level=3] [ref=f2e38]
+        - generic [ref=f2e39]:
+          - button "▶ Aquecimento - Círculos com Braços 2x30 • 30s descanso" [ref=f2e40]:
+            - generic [ref=f2e41]:
+              - generic [ref=f2e42]: ▶
+              - generic [ref=f2e43]:
+                - paragraph [ref=f2e44]: Aquecimento - Círculos com Braços
+                - paragraph [ref=f2e45]: 2x30 • 30s descanso
+          - button "○ Flexões 3x10 • 60s descanso" [ref=f2e46]:
+            - generic [ref=f2e47]:
+              - generic [ref=f2e48]: ○
+              - generic [ref=f2e49]:
+                - paragraph [ref=f2e50]: Flexões
+                - paragraph [ref=f2e51]: 3x10 • 60s descanso
+          - button "○ Agachamentos 3x15 • 60s descanso" [ref=f2e52]:
+            - generic [ref=f2e53]:
+              - generic [ref=f2e54]: ○
+              - generic [ref=f2e55]:
+                - paragraph [ref=f2e56]: Agachamentos
+                - paragraph [ref=f2e57]: 3x15 • 60s descanso
+  - button "Open Next.js Dev Tools" [ref=f2e63] [cursor=pointer]:
+    - img [ref=f2e64]
+  - alert [ref=f2e67]

@@ -1,0 +1,7 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e3]:
+    - generic [ref=f3e4]: 🔄
+    - paragraph [ref=f3e5]: Carregando seu desafio...
+  - button "Open Next.js Dev Tools" [ref=f3e11] [cursor=pointer]:
+    - img [ref=f3e12]
+  - alert [ref=f3e15]

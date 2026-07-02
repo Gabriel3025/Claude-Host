@@ -1,0 +1,18 @@
+[     553ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     792ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    1005ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    1066ms] [LOG] [Fast Refresh] done in 175ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    1228ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    1304ms] [LOG] [Fast Refresh] done in 187ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   45888ms] [LOG] 🔐 Tentando login para: gabriel@teste.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   45896ms] [LOG] 🔑 Tentando signin... @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   45957ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://zgetngxwievfhcgtfnhx.supabase.co/auth/v1/token?grant_type=password:0
+[   45959ms] [ERROR] TypeError: Failed to fetch
+    at http://localhost:3000/_next/static/chunks/node_modules_%40supabase_auth-js_dist_module_0.pzobh._.js:606:23
+    at _handleRequest (http://localhost:3000/_next/static/chunks/node_modules_%40supabase_auth-js_dist_module_0.pzobh._.js:988:24)
+    at _request (http://localhost:3000/_next/static/chunks/node_modules_%40supabase_auth-js_dist_module_0.pzobh._.js:975:24)
+    at SupabaseAuthClient.signInWithPassword (http://localhost:3000/_next/static/chunks/node_modules_%40supabase_auth-js_dist_module_0.pzobh._.js:4447:219)
+    at loginWithEmail (http://localhost:3000/_next/static/chunks/_131d-y7._.js:86:198)
+    at async handleSubmit (http://localhost:3000/_next/static/chunks/_131d-y7._.js:198:24) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[   45962ms] [ERROR] ❌ Erro no signin: Failed to fetch @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[   45962ms] [ERROR] ❌ Erro final: Failed to fetch @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318

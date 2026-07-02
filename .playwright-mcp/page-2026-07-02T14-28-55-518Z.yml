@@ -1,0 +1,26 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e10] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=f1e11]:
+      - img [ref=f1e12]
+    - generic [ref=f1e31]:
+      - button "Open issues overlay" [ref=f1e32]:
+        - generic [ref=f1e33]:
+          - generic [ref=f1e34]: "2"
+          - generic [ref=f1e35]: "3"
+        - generic [ref=f1e36]:
+          - text: Issue
+          - generic [ref=f1e37]: s
+      - button "Collapse issues badge" [ref=f1e38]:
+        - img [ref=f1e39]
+  - alert [ref=f1e15]
+  - generic [ref=f1e18]:
+    - generic [ref=f1e19]:
+      - img "Calistenia Asiática Logo" [ref=f1e21]
+      - heading "Desafio 21 Dias" [level=1] [ref=f1e22]
+      - paragraph [ref=f1e23]: Calistenia Asiática
+    - paragraph [ref=f1e24]: Insira seu email para começar o desafio
+    - generic [ref=f1e25]:
+      - textbox "seu@email.com" [ref=f1e27]: gabriel@teste.com
+      - paragraph [ref=f1e42]: Failed to fetch
+      - button "Continuar com Email" [ref=f1e28]
+    - paragraph [ref=f1e30]: 💪 Força, Determinação e Consistência
