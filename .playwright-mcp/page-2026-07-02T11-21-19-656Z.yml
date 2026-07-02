@@ -1,0 +1,74 @@
+- generic [ref=f46e12]:
+  - generic [ref=f46e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=f46e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=f46e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=f46e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=f46e24] [cursor=pointer]:
+      - generic [ref=f46e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=f46e27] [cursor=pointer]:
+      - generic [ref=f46e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=f46e30] [cursor=pointer]:
+      - generic [ref=f46e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=f46e33] [cursor=pointer]
+  - generic [ref=f46e40]:
+    - combobox "Brasil" [ref=f46e44] [cursor=pointer]:
+      - generic [ref=f46e51]: Brasil
+    - combobox "Todos os anúncios" [ref=f46e62] [cursor=pointer]:
+      - generic [ref=f46e72]: Todos os anúncios
+    - generic [ref=f46e82]:
+      - generic [ref=f46e88]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=f46e94]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=f46e100]: Ana Oliveira
+        - button "Limpar" [ref=f46e102] [cursor=pointer]
+  - generic [ref=f46e105]:
+    - generic [ref=f46e107]:
+      - img "Foto do perfil da Página" [ref=f46e112]
+      - link "Ana Oliveira" [ref=f46e115] [cursor=pointer]:
+        - /url: https://facebook.com/61588140075534
+        - heading "Ana Oliveira" [level=1] [ref=f46e116]
+    - generic [ref=f46e117]:
+      - link "Anúncios" [ref=f46e118] [cursor=pointer]
+      - link "Sobre" [ref=f46e119] [cursor=pointer]
+  - dialog [ref=f46e120]:
+    - generic [ref=f46e121]:
+      - link [ref=f46e122] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f46e123]: Entrar
+      - menuitem [ref=f46e124] [cursor=pointer]
+    - generic [ref=f46e126]:
+      - generic [ref=f46e127]:
+        - heading [level=4] [ref=f46e129]: Biblioteca de Anúncios
+        - menuitem [ref=f46e131] [cursor=pointer]:
+          - heading [level=4] [ref=f46e133]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=f46e135] [cursor=pointer]:
+          - heading [level=4] [ref=f46e137]: API da Biblioteca de Anúncios
+        - menuitem [ref=f46e139] [cursor=pointer]:
+          - heading [level=4] [ref=f46e141]: Conteúdo de marca
+      - separator [ref=f46e142]
+      - generic [ref=f46e143]:
+        - menuitem [ref=f46e145] [cursor=pointer]:
+          - heading [level=4] [ref=f46e147]: Status do sistema
+        - menuitem [ref=f46e149] [cursor=pointer]:
+          - heading [level=4] [ref=f46e151]: Assinar para receber atualizações por email
+        - menuitem [ref=f46e153] [cursor=pointer]:
+          - heading [level=4] [ref=f46e155]: Perguntas frequentes
+        - menuitem [ref=f46e157] [cursor=pointer]:
+          - heading [level=4] [ref=f46e159]: Sobre anúncios e uso de dados
+        - menuitem [ref=f46e161] [cursor=pointer]:
+          - heading [level=4] [ref=f46e163]: Privacidade
+        - menuitem [ref=f46e165] [cursor=pointer]:
+          - heading [level=4] [ref=f46e167]: Termos
+        - menuitem [ref=f46e169] [cursor=pointer]:
+          - heading [level=4] [ref=f46e171]: Cookies
+  - generic [ref=f46e175]:
+    - progressbar [ref=f46e176]
+    - progressbar [ref=f46e177]
+    - progressbar [ref=f46e178]
+    - progressbar [ref=f46e179]
+    - progressbar [ref=f46e180]
+    - progressbar [ref=f46e181]
+    - progressbar [ref=f46e182]
+    - progressbar [ref=f46e183]
+    - progressbar [ref=f46e184]
+    - progressbar [ref=f46e185]

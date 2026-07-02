@@ -1,0 +1,91 @@
+- generic [ref=f49e12]:
+  - generic [ref=f49e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=f49e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=f49e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=f49e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=f49e24] [cursor=pointer]:
+      - generic [ref=f49e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=f49e27] [cursor=pointer]:
+      - generic [ref=f49e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=f49e30] [cursor=pointer]:
+      - generic [ref=f49e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=f49e33] [cursor=pointer]
+  - generic [ref=f49e40]:
+    - combobox "Brasil" [ref=f49e44] [cursor=pointer]:
+      - generic [ref=f49e51]: Brasil
+    - combobox "Todos os anúncios" [ref=f49e62] [cursor=pointer]:
+      - generic [ref=f49e72]: Todos os anúncios
+    - generic [ref=f49e82]:
+      - generic [ref=f49e88]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=f49e94]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=f49e100]: TCC Academy - Professora Joana Barbosa
+        - button "Limpar" [ref=f49e102] [cursor=pointer]
+  - generic [ref=f49e105]:
+    - generic [ref=f49e107]:
+      - img "Foto do perfil da Página" [ref=f49e112]
+      - link "TCC Academy - Professora Joana Barbosa" [ref=f49e115] [cursor=pointer]:
+        - /url: https://facebook.com/tcc.academy.br
+        - heading "TCC Academy - Professora Joana Barbosa" [level=1] [ref=f49e116]
+    - generic [ref=f49e117]:
+      - link "Anúncios" [ref=f49e118] [cursor=pointer]
+      - link "Sobre" [ref=f49e119] [cursor=pointer]
+  - dialog [ref=f49e120]:
+    - generic [ref=f49e121]:
+      - link [ref=f49e122] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f49e123]: Entrar
+      - menuitem [ref=f49e124] [cursor=pointer]
+    - generic [ref=f49e126]:
+      - generic [ref=f49e127]:
+        - heading [level=4] [ref=f49e129]: Biblioteca de Anúncios
+        - menuitem [ref=f49e131] [cursor=pointer]:
+          - heading [level=4] [ref=f49e133]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=f49e135] [cursor=pointer]:
+          - heading [level=4] [ref=f49e137]: API da Biblioteca de Anúncios
+        - menuitem [ref=f49e139] [cursor=pointer]:
+          - heading [level=4] [ref=f49e141]: Conteúdo de marca
+      - separator [ref=f49e142]
+      - generic [ref=f49e143]:
+        - menuitem [ref=f49e145] [cursor=pointer]:
+          - heading [level=4] [ref=f49e147]: Status do sistema
+        - menuitem [ref=f49e149] [cursor=pointer]:
+          - heading [level=4] [ref=f49e151]: Assinar para receber atualizações por email
+        - menuitem [ref=f49e153] [cursor=pointer]:
+          - heading [level=4] [ref=f49e155]: Perguntas frequentes
+        - menuitem [ref=f49e157] [cursor=pointer]:
+          - heading [level=4] [ref=f49e159]: Sobre anúncios e uso de dados
+        - menuitem [ref=f49e161] [cursor=pointer]:
+          - heading [level=4] [ref=f49e163]: Privacidade
+        - menuitem [ref=f49e165] [cursor=pointer]:
+          - heading [level=4] [ref=f49e167]: Termos
+        - menuitem [ref=f49e169] [cursor=pointer]:
+          - heading [level=4] [ref=f49e171]: Cookies
+  - generic [ref=f49e174]:
+    - generic [ref=f49e182]: Status do sistema
+    - generic [ref=f49e186]:
+      - list [ref=f49e187]:
+        - listitem [ref=f49e188]:
+          - heading "API da Biblioteca de Anúncios" [level=3] [ref=f49e189]:
+            - link "API da Biblioteca de Anúncios" [ref=f49e190] [cursor=pointer]:
+              - /url: /ads/library/api/?source=archive-landing-page
+        - listitem [ref=f49e191]:
+          - heading "Sobre anúncios e uso de dados" [level=3] [ref=f49e192]:
+            - link "Sobre anúncios e uso de dados" [ref=f49e193] [cursor=pointer]:
+              - /url: /ads/about/?entry_product=ad_library
+        - listitem [ref=f49e194]:
+          - heading "Privacidade" [level=3] [ref=f49e195]:
+            - link "Privacidade" [ref=f49e196] [cursor=pointer]:
+              - /url: /privacy/center/?entry_point=privacy_basics_redirect
+        - listitem [ref=f49e197]:
+          - heading "Termos" [level=3] [ref=f49e198]:
+            - link "Termos" [ref=f49e199] [cursor=pointer]:
+              - /url: /policies/
+        - listitem [ref=f49e200]:
+          - heading "Cookies" [level=3] [ref=f49e201]:
+            - link "Cookies" [ref=f49e202] [cursor=pointer]:
+              - /url: /policies/cookies/
+      - heading "Meta © 2026 | Português (Brasil)" [level=3] [ref=f49e204]:
+        - text: Meta © 2026 |
+        - link "Português (Brasil)" [ref=f49e205] [cursor=pointer]:
+          - /url: /language/

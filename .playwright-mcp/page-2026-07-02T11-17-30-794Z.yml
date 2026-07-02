@@ -1,0 +1,91 @@
+- generic [ref=f28e12]:
+  - generic [ref=f28e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=f28e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=f28e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=f28e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=f28e24] [cursor=pointer]:
+      - generic [ref=f28e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=f28e27] [cursor=pointer]:
+      - generic [ref=f28e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=f28e30] [cursor=pointer]:
+      - generic [ref=f28e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=f28e33] [cursor=pointer]
+  - generic [ref=f28e40]:
+    - combobox "Tudo" [ref=f28e44] [cursor=pointer]:
+      - generic [ref=f28e51]: Tudo
+    - combobox "Todos os anúncios" [ref=f28e62] [cursor=pointer]:
+      - generic [ref=f28e72]: Todos os anúncios
+    - generic [ref=f28e82]:
+      - generic [ref=f28e88]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=f28e94]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=f28e100]: Alana Educa
+        - button "Limpar" [ref=f28e102] [cursor=pointer]
+  - generic [ref=f28e105]:
+    - generic [ref=f28e107]:
+      - img "Foto do perfil da Página" [ref=f28e112]
+      - link "Alana Educa" [ref=f28e115] [cursor=pointer]:
+        - /url: https://facebook.com/61573067603760
+        - heading "Alana Educa" [level=1] [ref=f28e116]
+    - generic [ref=f28e117]:
+      - link "Anúncios" [ref=f28e118] [cursor=pointer]
+      - link "Sobre" [ref=f28e119] [cursor=pointer]
+  - dialog [ref=f28e120]:
+    - generic [ref=f28e121]:
+      - link [ref=f28e122] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f28e123]: Entrar
+      - menuitem [ref=f28e124] [cursor=pointer]
+    - generic [ref=f28e126]:
+      - generic [ref=f28e127]:
+        - heading [level=4] [ref=f28e129]: Biblioteca de Anúncios
+        - menuitem [ref=f28e131] [cursor=pointer]:
+          - heading [level=4] [ref=f28e133]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=f28e135] [cursor=pointer]:
+          - heading [level=4] [ref=f28e137]: API da Biblioteca de Anúncios
+        - menuitem [ref=f28e139] [cursor=pointer]:
+          - heading [level=4] [ref=f28e141]: Conteúdo de marca
+      - separator [ref=f28e142]
+      - generic [ref=f28e143]:
+        - menuitem [ref=f28e145] [cursor=pointer]:
+          - heading [level=4] [ref=f28e147]: Status do sistema
+        - menuitem [ref=f28e149] [cursor=pointer]:
+          - heading [level=4] [ref=f28e151]: Assinar para receber atualizações por email
+        - menuitem [ref=f28e153] [cursor=pointer]:
+          - heading [level=4] [ref=f28e155]: Perguntas frequentes
+        - menuitem [ref=f28e157] [cursor=pointer]:
+          - heading [level=4] [ref=f28e159]: Sobre anúncios e uso de dados
+        - menuitem [ref=f28e161] [cursor=pointer]:
+          - heading [level=4] [ref=f28e163]: Privacidade
+        - menuitem [ref=f28e165] [cursor=pointer]:
+          - heading [level=4] [ref=f28e167]: Termos
+        - menuitem [ref=f28e169] [cursor=pointer]:
+          - heading [level=4] [ref=f28e171]: Cookies
+  - generic [ref=f28e174]:
+    - generic [ref=f28e182]: Status do sistema
+    - generic [ref=f28e186]:
+      - list [ref=f28e187]:
+        - listitem [ref=f28e188]:
+          - heading "API da Biblioteca de Anúncios" [level=3] [ref=f28e189]:
+            - link "API da Biblioteca de Anúncios" [ref=f28e190] [cursor=pointer]:
+              - /url: /ads/library/api/?source=archive-landing-page
+        - listitem [ref=f28e191]:
+          - heading "Sobre anúncios e uso de dados" [level=3] [ref=f28e192]:
+            - link "Sobre anúncios e uso de dados" [ref=f28e193] [cursor=pointer]:
+              - /url: /ads/about/?entry_product=ad_library
+        - listitem [ref=f28e194]:
+          - heading "Privacidade" [level=3] [ref=f28e195]:
+            - link "Privacidade" [ref=f28e196] [cursor=pointer]:
+              - /url: /privacy/center/?entry_point=privacy_basics_redirect
+        - listitem [ref=f28e197]:
+          - heading "Termos" [level=3] [ref=f28e198]:
+            - link "Termos" [ref=f28e199] [cursor=pointer]:
+              - /url: /policies/
+        - listitem [ref=f28e200]:
+          - heading "Cookies" [level=3] [ref=f28e201]:
+            - link "Cookies" [ref=f28e202] [cursor=pointer]:
+              - /url: /policies/cookies/
+      - heading "Meta © 2026 | Português (Brasil)" [level=3] [ref=f28e204]:
+        - text: Meta © 2026 |
+        - link "Português (Brasil)" [ref=f28e205] [cursor=pointer]:
+          - /url: /language/

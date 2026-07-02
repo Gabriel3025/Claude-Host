@@ -1,0 +1,118 @@
+- generic [ref=f17e12]:
+  - generic [ref=f17e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=f17e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=f17e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=f17e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=f17e24] [cursor=pointer]:
+      - generic [ref=f17e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=f17e27] [cursor=pointer]:
+      - generic [ref=f17e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=f17e30] [cursor=pointer]:
+      - generic [ref=f17e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=f17e33] [cursor=pointer]
+  - generic [ref=f17e40]:
+    - combobox "Tudo" [ref=f17e44] [cursor=pointer]:
+      - generic [ref=f17e51]: Tudo
+    - combobox "Todos os anúncios" [ref=f17e62] [cursor=pointer]:
+      - generic [ref=f17e72]: Todos os anúncios
+    - generic [ref=f17e82]:
+      - generic [ref=f17e88]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=f17e94]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=f17e100]: Letícia levita
+        - button "Limpar" [ref=f17e102] [cursor=pointer]
+  - generic [ref=f17e105]:
+    - generic [ref=f17e107]:
+      - img "Foto do perfil da Página" [ref=f17e112]
+      - link "Letícia levita" [ref=f17e115] [cursor=pointer]:
+        - /url: https://facebook.com/100071508069117
+        - heading "Letícia levita" [level=1] [ref=f17e116]
+    - generic [ref=f17e117]:
+      - link "Anúncios" [ref=f17e118] [cursor=pointer]
+      - link "Sobre" [ref=f17e119] [cursor=pointer]
+  - dialog [ref=f17e120]:
+    - generic [ref=f17e121]:
+      - link [ref=f17e122] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f17e123]: Entrar
+      - menuitem [ref=f17e124] [cursor=pointer]
+    - generic [ref=f17e126]:
+      - generic [ref=f17e127]:
+        - heading [level=4] [ref=f17e129]: Biblioteca de Anúncios
+        - menuitem [ref=f17e131] [cursor=pointer]:
+          - heading [level=4] [ref=f17e133]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=f17e135] [cursor=pointer]:
+          - heading [level=4] [ref=f17e137]: API da Biblioteca de Anúncios
+        - menuitem [ref=f17e139] [cursor=pointer]:
+          - heading [level=4] [ref=f17e141]: Conteúdo de marca
+      - separator [ref=f17e142]
+      - generic [ref=f17e143]:
+        - menuitem [ref=f17e145] [cursor=pointer]:
+          - heading [level=4] [ref=f17e147]: Status do sistema
+        - menuitem [ref=f17e149] [cursor=pointer]:
+          - heading [level=4] [ref=f17e151]: Assinar para receber atualizações por email
+        - menuitem [ref=f17e153] [cursor=pointer]:
+          - heading [level=4] [ref=f17e155]: Perguntas frequentes
+        - menuitem [ref=f17e157] [cursor=pointer]:
+          - heading [level=4] [ref=f17e159]: Sobre anúncios e uso de dados
+        - menuitem [ref=f17e161] [cursor=pointer]:
+          - heading [level=4] [ref=f17e163]: Privacidade
+        - menuitem [ref=f17e165] [cursor=pointer]:
+          - heading [level=4] [ref=f17e167]: Termos
+        - menuitem [ref=f17e169] [cursor=pointer]:
+          - heading [level=4] [ref=f17e171]: Cookies
+  - generic [ref=f17e172]:
+    - generic [ref=f17e177]:
+      - generic [ref=f17e186]:
+        - generic [ref=f17e187]:
+          - textbox "Palavra-chave" [ref=f17e189]
+          - button "Filtros" [ref=f17e193] [cursor=pointer]:
+            - generic [ref=f17e198]: Filtros
+          - generic [ref=f17e200]:
+            - generic [ref=f17e206]: Classificar
+            - combobox "Classificar" [ref=f17e211] [cursor=pointer]:
+              - generic [ref=f17e218]: Classificar por
+        - generic [ref=f17e223]:
+          - generic [ref=f17e224]:
+            - strong [ref=f17e225]: Status online
+            - text: ": Anúncios ativos"
+          - button "Remover" [ref=f17e226] [cursor=pointer]:
+            - generic [ref=f17e229]: Remover
+      - generic [ref=f17e234]:
+        - generic [ref=f17e235]:
+          - heading "Nenhum anúncio corresponde aos seus critérios de pesquisa" [level=2] [ref=f17e236]
+          - generic [ref=f17e237]: Remova ou ajuste os filtros que você aplicou para obter resultados diferentes.
+        - button "Limpar filtros" [ref=f17e239] [cursor=pointer]:
+          - generic [ref=f17e243]: Limpar filtros
+        - link "Veja dicas de pesquisa." [ref=f17e245] [cursor=pointer]:
+          - /url: "#"
+        - generic:
+          - list
+    - generic [ref=f17e247]:
+      - generic [ref=f17e255]: Status do sistema
+      - generic [ref=f17e259]:
+        - list [ref=f17e260]:
+          - listitem [ref=f17e261]:
+            - heading "API da Biblioteca de Anúncios" [level=3] [ref=f17e262]:
+              - link "API da Biblioteca de Anúncios" [ref=f17e263] [cursor=pointer]:
+                - /url: /ads/library/api/?source=archive-landing-page
+          - listitem [ref=f17e264]:
+            - heading "Sobre anúncios e uso de dados" [level=3] [ref=f17e265]:
+              - link "Sobre anúncios e uso de dados" [ref=f17e266] [cursor=pointer]:
+                - /url: /ads/about/?entry_product=ad_library
+          - listitem [ref=f17e267]:
+            - heading "Privacidade" [level=3] [ref=f17e268]:
+              - link "Privacidade" [ref=f17e269] [cursor=pointer]:
+                - /url: /privacy/center/?entry_point=privacy_basics_redirect
+          - listitem [ref=f17e270]:
+            - heading "Termos" [level=3] [ref=f17e271]:
+              - link "Termos" [ref=f17e272] [cursor=pointer]:
+                - /url: /policies/
+          - listitem [ref=f17e273]:
+            - heading "Cookies" [level=3] [ref=f17e274]:
+              - link "Cookies" [ref=f17e275] [cursor=pointer]:
+                - /url: /policies/cookies/
+        - heading "Meta © 2026 | Português (Brasil)" [level=3] [ref=f17e277]:
+          - text: Meta © 2026 |
+          - link "Português (Brasil)" [ref=f17e278] [cursor=pointer]:
+            - /url: /language/

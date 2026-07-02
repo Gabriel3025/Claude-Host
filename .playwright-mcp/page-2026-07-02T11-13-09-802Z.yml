@@ -1,0 +1,65 @@
+- generic [ref=f8e12]:
+  - generic [ref=f8e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=f8e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=f8e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=f8e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=f8e24] [cursor=pointer]:
+      - generic [ref=f8e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=f8e27] [cursor=pointer]:
+      - generic [ref=f8e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=f8e30] [cursor=pointer]:
+      - generic [ref=f8e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=f8e33] [cursor=pointer]
+  - generic [ref=f8e40]:
+    - combobox "Tudo" [ref=f8e44] [cursor=pointer]:
+      - generic [ref=f8e51]: Tudo
+    - combobox "Todos os anúncios" [ref=f8e57] [cursor=pointer]:
+      - generic [ref=f8e67]: Todos os anúncios
+    - generic [ref=f8e77]:
+      - generic [ref=f8e83]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=f8e89]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=f8e95]: dinamicasjiujitsu.netlify.app
+        - button "Limpar" [ref=f8e97] [cursor=pointer]
+  - dialog [ref=f8e99]:
+    - generic [ref=f8e100]:
+      - link [ref=f8e101] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f8e102]: Entrar
+      - menuitem [ref=f8e103] [cursor=pointer]
+    - generic [ref=f8e105]:
+      - generic [ref=f8e106]:
+        - heading [level=4] [ref=f8e108]: Biblioteca de Anúncios
+        - menuitem [ref=f8e110] [cursor=pointer]:
+          - heading [level=4] [ref=f8e112]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=f8e114] [cursor=pointer]:
+          - heading [level=4] [ref=f8e116]: API da Biblioteca de Anúncios
+        - menuitem [ref=f8e118] [cursor=pointer]:
+          - heading [level=4] [ref=f8e120]: Conteúdo de marca
+      - separator [ref=f8e121]
+      - generic [ref=f8e122]:
+        - menuitem [ref=f8e124] [cursor=pointer]:
+          - heading [level=4] [ref=f8e126]: Status do sistema
+        - menuitem [ref=f8e128] [cursor=pointer]:
+          - heading [level=4] [ref=f8e130]: Assinar para receber atualizações por email
+        - menuitem [ref=f8e132] [cursor=pointer]:
+          - heading [level=4] [ref=f8e134]: Perguntas frequentes
+        - menuitem [ref=f8e136] [cursor=pointer]:
+          - heading [level=4] [ref=f8e138]: Sobre anúncios e uso de dados
+        - menuitem [ref=f8e140] [cursor=pointer]:
+          - heading [level=4] [ref=f8e142]: Privacidade
+        - menuitem [ref=f8e144] [cursor=pointer]:
+          - heading [level=4] [ref=f8e146]: Termos
+        - menuitem [ref=f8e148] [cursor=pointer]:
+          - heading [level=4] [ref=f8e150]: Cookies
+  - generic [ref=f8e154]:
+    - progressbar [ref=f8e155]
+    - progressbar [ref=f8e156]
+    - progressbar [ref=f8e157]
+    - progressbar [ref=f8e158]
+    - progressbar [ref=f8e159]
+    - progressbar [ref=f8e160]
+    - progressbar [ref=f8e161]
+    - progressbar [ref=f8e162]
+    - progressbar [ref=f8e163]
+    - progressbar [ref=f8e164]

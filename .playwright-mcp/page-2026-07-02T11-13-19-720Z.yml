@@ -1,0 +1,82 @@
+- generic [ref=f9e12]:
+  - generic [ref=f9e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=f9e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=f9e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=f9e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=f9e24] [cursor=pointer]:
+      - generic [ref=f9e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=f9e27] [cursor=pointer]:
+      - generic [ref=f9e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=f9e30] [cursor=pointer]:
+      - generic [ref=f9e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=f9e33] [cursor=pointer]
+  - generic [ref=f9e40]:
+    - combobox "Tudo" [ref=f9e44] [cursor=pointer]:
+      - generic [ref=f9e51]: Tudo
+    - combobox "Todos os anúncios" [ref=f9e57] [cursor=pointer]:
+      - generic [ref=f9e67]: Todos os anúncios
+    - generic [ref=f9e77]:
+      - generic [ref=f9e83]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=f9e89]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=f9e95]: v0-pacotedeatividades2.vercel.app
+        - button "Limpar" [ref=f9e97] [cursor=pointer]
+  - dialog [ref=f9e99]:
+    - generic [ref=f9e100]:
+      - link [ref=f9e101] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f9e102]: Entrar
+      - menuitem [ref=f9e103] [cursor=pointer]
+    - generic [ref=f9e105]:
+      - generic [ref=f9e106]:
+        - heading [level=4] [ref=f9e108]: Biblioteca de Anúncios
+        - menuitem [ref=f9e110] [cursor=pointer]:
+          - heading [level=4] [ref=f9e112]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=f9e114] [cursor=pointer]:
+          - heading [level=4] [ref=f9e116]: API da Biblioteca de Anúncios
+        - menuitem [ref=f9e118] [cursor=pointer]:
+          - heading [level=4] [ref=f9e120]: Conteúdo de marca
+      - separator [ref=f9e121]
+      - generic [ref=f9e122]:
+        - menuitem [ref=f9e124] [cursor=pointer]:
+          - heading [level=4] [ref=f9e126]: Status do sistema
+        - menuitem [ref=f9e128] [cursor=pointer]:
+          - heading [level=4] [ref=f9e130]: Assinar para receber atualizações por email
+        - menuitem [ref=f9e132] [cursor=pointer]:
+          - heading [level=4] [ref=f9e134]: Perguntas frequentes
+        - menuitem [ref=f9e136] [cursor=pointer]:
+          - heading [level=4] [ref=f9e138]: Sobre anúncios e uso de dados
+        - menuitem [ref=f9e140] [cursor=pointer]:
+          - heading [level=4] [ref=f9e142]: Privacidade
+        - menuitem [ref=f9e144] [cursor=pointer]:
+          - heading [level=4] [ref=f9e146]: Termos
+        - menuitem [ref=f9e148] [cursor=pointer]:
+          - heading [level=4] [ref=f9e150]: Cookies
+  - generic [ref=f9e153]:
+    - generic [ref=f9e161]: Status do sistema
+    - generic [ref=f9e165]:
+      - list [ref=f9e166]:
+        - listitem [ref=f9e167]:
+          - heading "API da Biblioteca de Anúncios" [level=3] [ref=f9e168]:
+            - link "API da Biblioteca de Anúncios" [ref=f9e169] [cursor=pointer]:
+              - /url: /ads/library/api/?source=archive-landing-page
+        - listitem [ref=f9e170]:
+          - heading "Sobre anúncios e uso de dados" [level=3] [ref=f9e171]:
+            - link "Sobre anúncios e uso de dados" [ref=f9e172] [cursor=pointer]:
+              - /url: /ads/about/?entry_product=ad_library
+        - listitem [ref=f9e173]:
+          - heading "Privacidade" [level=3] [ref=f9e174]:
+            - link "Privacidade" [ref=f9e175] [cursor=pointer]:
+              - /url: /privacy/center/?entry_point=privacy_basics_redirect
+        - listitem [ref=f9e176]:
+          - heading "Termos" [level=3] [ref=f9e177]:
+            - link "Termos" [ref=f9e178] [cursor=pointer]:
+              - /url: /policies/
+        - listitem [ref=f9e179]:
+          - heading "Cookies" [level=3] [ref=f9e180]:
+            - link "Cookies" [ref=f9e181] [cursor=pointer]:
+              - /url: /policies/cookies/
+      - heading "Meta © 2026 | Português (Brasil)" [level=3] [ref=f9e183]:
+        - text: Meta © 2026 |
+        - link "Português (Brasil)" [ref=f9e184] [cursor=pointer]:
+          - /url: /language/

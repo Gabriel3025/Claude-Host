@@ -1,0 +1,1612 @@
+- generic [ref=f54e12]:
+  - generic [ref=f54e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=f54e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=f54e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=f54e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=f54e24] [cursor=pointer]:
+      - generic [ref=f54e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=f54e27] [cursor=pointer]:
+      - generic [ref=f54e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=f54e30] [cursor=pointer]:
+      - generic [ref=f54e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=f54e33] [cursor=pointer]
+  - generic [ref=f54e40]:
+    - combobox "Brasil" [ref=f54e44] [cursor=pointer]:
+      - generic [ref=f54e51]: Brasil
+    - combobox "Todos os anúncios" [ref=f54e62] [cursor=pointer]:
+      - generic [ref=f54e72]: Todos os anúncios
+    - generic [ref=f54e82]:
+      - generic [ref=f54e88]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=f54e94]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=f54e100]: Joana Pires
+        - button "Limpar" [ref=f54e102] [cursor=pointer]
+  - generic [ref=f54e105]:
+    - generic [ref=f54e107]:
+      - img "Foto do perfil da Página" [ref=f54e112]
+      - link "Joana Pires" [ref=f54e115] [cursor=pointer]:
+        - /url: https://facebook.com/61578766121490
+        - heading "Joana Pires" [level=1] [ref=f54e116]
+    - generic [ref=f54e117]:
+      - link "Anúncios" [ref=f54e118] [cursor=pointer]
+      - link "Sobre" [ref=f54e119] [cursor=pointer]
+  - dialog [ref=f54e120]:
+    - generic [ref=f54e121]:
+      - link [ref=f54e122] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f54e123]: Entrar
+      - menuitem [ref=f54e124] [cursor=pointer]
+    - generic [ref=f54e126]:
+      - generic [ref=f54e127]:
+        - heading [level=4] [ref=f54e129]: Biblioteca de Anúncios
+        - menuitem [ref=f54e131] [cursor=pointer]:
+          - heading [level=4] [ref=f54e133]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=f54e135] [cursor=pointer]:
+          - heading [level=4] [ref=f54e137]: API da Biblioteca de Anúncios
+        - menuitem [ref=f54e139] [cursor=pointer]:
+          - heading [level=4] [ref=f54e141]: Conteúdo de marca
+      - separator [ref=f54e142]
+      - generic [ref=f54e143]:
+        - menuitem [ref=f54e145] [cursor=pointer]:
+          - heading [level=4] [ref=f54e147]: Status do sistema
+        - menuitem [ref=f54e149] [cursor=pointer]:
+          - heading [level=4] [ref=f54e151]: Assinar para receber atualizações por email
+        - menuitem [ref=f54e153] [cursor=pointer]:
+          - heading [level=4] [ref=f54e155]: Perguntas frequentes
+        - menuitem [ref=f54e157] [cursor=pointer]:
+          - heading [level=4] [ref=f54e159]: Sobre anúncios e uso de dados
+        - menuitem [ref=f54e161] [cursor=pointer]:
+          - heading [level=4] [ref=f54e163]: Privacidade
+        - menuitem [ref=f54e165] [cursor=pointer]:
+          - heading [level=4] [ref=f54e167]: Termos
+        - menuitem [ref=f54e169] [cursor=pointer]:
+          - heading [level=4] [ref=f54e171]: Cookies
+  - generic [ref=f54e172]:
+    - generic [ref=f54e173]:
+      - heading "~18 resultados" [level=3] [ref=f54e181]
+      - generic [ref=f54e182]:
+        - generic [ref=f54e191]:
+          - generic [ref=f54e192]:
+            - textbox "Palavra-chave" [ref=f54e194]
+            - button "Filtros" [ref=f54e198] [cursor=pointer]:
+              - generic [ref=f54e203]: Filtros
+            - generic [ref=f54e205]:
+              - generic [ref=f54e211]: Classificar
+              - combobox "Classificar" [ref=f54e216] [cursor=pointer]:
+                - generic [ref=f54e223]: Classificar por
+          - generic [ref=f54e228]:
+            - generic [ref=f54e229]:
+              - strong [ref=f54e230]: Status online
+              - text: ": Anúncios ativos"
+            - button "Remover" [ref=f54e231] [cursor=pointer]:
+              - generic [ref=f54e234]: Remover
+        - generic [ref=f54e238]:
+          - generic [ref=f54e240]:
+            - generic [ref=f54e242]:
+              - generic [ref=f54e243]:
+                - generic [ref=f54e250]: Ativo
+                - generic [ref=f54e253]: "Identificação da biblioteca: 1068973722152892"
+                - generic [ref=f54e255]: Veiculação iniciada em 22 de jun de 2026
+                - generic [ref=f54e257]: Plataformas
+              - button "Abrir menu suspenso" [ref=f54e271] [cursor=pointer]:
+                - generic [ref=f54e274]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=f54e277] [cursor=pointer]:
+              - generic [ref=f54e281]: Ver detalhes do anúncio
+            - separator [ref=f54e282]
+            - generic [ref=f54e287]:
+              - generic [ref=f54e289]:
+                - img "Joana Pires" [ref=f54e290]
+                - generic [ref=f54e292]:
+                  - link "Joana Pires" [ref=f54e293] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61578766121490/
+                  - generic [ref=f54e297]:
+                    - strong [ref=f54e299]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=f54e300]:
+                - button "Vai fazer a prova teórica do Detran em 2026? Pare de estudar sem direção e aumente suas chances de passar de primeira! ✅ Simulados atualizados ✅ Gabarito explicado ✅ Estude pelo celular em qualquer lugar ✅ Ideal para primeira habilitação e reciclagem Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗" [ref=f54e303]:
+                  - generic [ref=f54e306]:
+                    - text: Vai fazer a prova teórica do Detran em 2026?
+                    - text: Pare de estudar sem direção e aumente suas chances de passar de primeira!
+                    - text: ✅ Simulados atualizados
+                    - text: ✅ Gabarito explicado
+                    - text: ✅ Estude pelo celular em qualquer lugar
+                    - text: ✅ Ideal para primeira habilitação e reciclagem
+                    - text: Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗
+                - group "Video player" [ref=f54e317]:
+                  - button "Reproduzir o vídeo" [ref=f54e319] [cursor=pointer]
+                  - generic [ref=f54e321]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:00
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar":
+                                - img
+                - link "SIMULADOSDETRAN2026.NETLIFY.APP Baixe os Simulados Agora! ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato Ver detalhes" [ref=f54e323] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsimuladosdetran2026.netlify.app%2F&h=AUCisZnzsGaejEVHXbx1xqGAZx5VHpKm9W0kN1zJc4cHyCM_Y8P5w7AEruSBA_vKCMxsFwXatzBTvnW5t0B0SX5FAn-l188jA1wFiZHJhGzXmMu_KUKN2hnlpyNNbxzsWVLUlpfS3N24wHvJn40DGg
+                  - generic [ref=f54e324]:
+                    - generic [ref=f54e325]:
+                      - button "SIMULADOSDETRAN2026.NETLIFY.APP" [ref=f54e327]:
+                        - generic [ref=f54e328]: SIMULADOSDETRAN2026.NETLIFY.APP
+                      - button "Baixe os Simulados Agora!" [ref=f54e330]:
+                        - generic [ref=f54e331]: Baixe os Simulados Agora!
+                      - button "⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato" [ref=f54e333]:
+                        - generic [ref=f54e334]: ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato
+                      - generic:
+                        - button
+                    - button "Ver detalhes" [ref=f54e336]:
+                      - generic [ref=f54e340]: Ver detalhes
+          - generic [ref=f54e342]:
+            - generic [ref=f54e344]:
+              - generic [ref=f54e345]:
+                - generic [ref=f54e352]: Ativo
+                - generic [ref=f54e355]: "Identificação da biblioteca: 1500086434753597"
+                - generic [ref=f54e357]: Veiculação iniciada em 23 de jun de 2026
+                - generic [ref=f54e359]: Plataformas
+              - button "Abrir menu suspenso" [ref=f54e373] [cursor=pointer]:
+                - generic [ref=f54e376]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=f54e379] [cursor=pointer]:
+              - generic [ref=f54e383]: Ver detalhes do anúncio
+            - separator [ref=f54e384]
+            - generic [ref=f54e389]:
+              - generic [ref=f54e391]:
+                - img "Joana Pires" [ref=f54e392]
+                - generic [ref=f54e394]:
+                  - link "Joana Pires" [ref=f54e395] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61578766121490/
+                  - generic [ref=f54e399]:
+                    - strong [ref=f54e401]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=f54e402]:
+                - button "Vai fazer a prova teórica do Detran em 2026? Pare de estudar sem direção e aumente suas chances de passar de primeira! ✅ Simulados atualizados ✅ Gabarito explicado ✅ Estude pelo celular em qualquer lugar ✅ Ideal para primeira habilitação e reciclagem Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗" [ref=f54e405]:
+                  - generic [ref=f54e408]:
+                    - text: Vai fazer a prova teórica do Detran em 2026?
+                    - text: Pare de estudar sem direção e aumente suas chances de passar de primeira!
+                    - text: ✅ Simulados atualizados
+                    - text: ✅ Gabarito explicado
+                    - text: ✅ Estude pelo celular em qualquer lugar
+                    - text: ✅ Ideal para primeira habilitação e reciclagem
+                    - text: Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗
+                - group "Video player" [ref=f54e419]:
+                  - button "Reproduzir o vídeo" [ref=f54e421] [cursor=pointer]
+                  - generic [ref=f54e423]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:00
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar":
+                                - img
+                - link "SIMULADOSDETRAN2026.NETLIFY.APP Baixe os Simulados Agora! ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato Saiba mais" [ref=f54e425] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsimuladosdetran2026.netlify.app%2F&h=AUCisZnzsGaejEVHXbx1xqGAZx5VHpKm9W0kN1zJc4cHyCM_Y8P5w7AEruSBA_vKCMxsFwXatzBTvnW5t0B0SX5FAn-l188jA1wFiZHJhGzXmMu_KUKN2hnlpyNNbxzsWVLUlpfS3N24wHvJn40DGg
+                  - generic [ref=f54e426]:
+                    - generic [ref=f54e427]:
+                      - button "SIMULADOSDETRAN2026.NETLIFY.APP" [ref=f54e429]:
+                        - generic [ref=f54e430]: SIMULADOSDETRAN2026.NETLIFY.APP
+                      - button "Baixe os Simulados Agora!" [ref=f54e432]:
+                        - generic [ref=f54e433]: Baixe os Simulados Agora!
+                      - button "⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato" [ref=f54e435]:
+                        - generic [ref=f54e436]: ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=f54e438]:
+                      - generic [ref=f54e442]: Saiba mais
+          - generic [ref=f54e444]:
+            - generic [ref=f54e446]:
+              - generic [ref=f54e447]:
+                - generic [ref=f54e454]: Ativo
+                - generic [ref=f54e457]: "Identificação da biblioteca: 1660025201897780"
+                - generic [ref=f54e459]: Veiculação iniciada em 26 de jun de 2026
+                - generic [ref=f54e461]: Plataformas
+              - button "Abrir menu suspenso" [ref=f54e475] [cursor=pointer]:
+                - generic [ref=f54e478]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=f54e481] [cursor=pointer]:
+              - generic [ref=f54e485]: Ver detalhes do anúncio
+            - separator [ref=f54e486]
+            - generic [ref=f54e491]:
+              - generic [ref=f54e493]:
+                - img "Joana Pires" [ref=f54e494]
+                - generic [ref=f54e496]:
+                  - link "Joana Pires" [ref=f54e497] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61578766121490/
+                  - generic [ref=f54e501]:
+                    - strong [ref=f54e503]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=f54e504]:
+                - button "Vai fazer a prova teórica do Detran em 2026? Pare de estudar sem direção e aumente suas chances de passar de primeira! ✅ Simulados atualizados ✅ Gabarito explicado ✅ Estude pelo celular em qualquer lugar ✅ Ideal para primeira habilitação e reciclagem Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗" [ref=f54e507]:
+                  - generic [ref=f54e510]:
+                    - text: Vai fazer a prova teórica do Detran em 2026?
+                    - text: Pare de estudar sem direção e aumente suas chances de passar de primeira!
+                    - text: ✅ Simulados atualizados
+                    - text: ✅ Gabarito explicado
+                    - text: ✅ Estude pelo celular em qualquer lugar
+                    - text: ✅ Ideal para primeira habilitação e reciclagem
+                    - text: Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗
+                - group "Video player" [ref=f54e521]:
+                  - button "Reproduzir o vídeo" [ref=f54e523] [cursor=pointer]
+                  - generic [ref=f54e525]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:00
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar":
+                                - img
+                - link "SIMULADOSDETRAN2026.NETLIFY.APP Baixe os Simulados Agora! ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato Saiba mais" [ref=f54e527] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsimuladosdetran2026.netlify.app%2F&h=AUCisZnzsGaejEVHXbx1xqGAZx5VHpKm9W0kN1zJc4cHyCM_Y8P5w7AEruSBA_vKCMxsFwXatzBTvnW5t0B0SX5FAn-l188jA1wFiZHJhGzXmMu_KUKN2hnlpyNNbxzsWVLUlpfS3N24wHvJn40DGg
+                  - generic [ref=f54e528]:
+                    - generic [ref=f54e529]:
+                      - button "SIMULADOSDETRAN2026.NETLIFY.APP" [ref=f54e531]:
+                        - generic [ref=f54e532]: SIMULADOSDETRAN2026.NETLIFY.APP
+                      - button "Baixe os Simulados Agora!" [ref=f54e534]:
+                        - generic [ref=f54e535]: Baixe os Simulados Agora!
+                      - button "⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato" [ref=f54e537]:
+                        - generic [ref=f54e538]: ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=f54e540]:
+                      - generic [ref=f54e544]: Saiba mais
+          - generic [ref=f54e546]:
+            - generic [ref=f54e548]:
+              - generic [ref=f54e549]:
+                - generic [ref=f54e556]: Ativo
+                - generic [ref=f54e559]: "Identificação da biblioteca: 980376834607568"
+                - generic [ref=f54e561]: Veiculação iniciada em 22 de jun de 2026
+                - generic [ref=f54e563]: Plataformas
+              - button "Abrir menu suspenso" [ref=f54e577] [cursor=pointer]:
+                - generic [ref=f54e580]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=f54e583] [cursor=pointer]:
+              - generic [ref=f54e587]: Ver detalhes do anúncio
+            - separator [ref=f54e588]
+            - generic [ref=f54e593]:
+              - generic [ref=f54e595]:
+                - img "Joana Pires" [ref=f54e596]
+                - generic [ref=f54e598]:
+                  - link "Joana Pires" [ref=f54e599] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61578766121490/
+                  - generic [ref=f54e603]:
+                    - strong [ref=f54e605]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=f54e606]:
+                - button "Vai fazer a prova teórica do Detran em 2026? Pare de estudar sem direção e aumente suas chances de passar de primeira! ✅ Simulados atualizados ✅ Gabarito explicado ✅ Estude pelo celular em qualquer lugar ✅ Ideal para primeira habilitação e reciclagem Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗" [ref=f54e609]:
+                  - generic [ref=f54e612]:
+                    - text: Vai fazer a prova teórica do Detran em 2026?
+                    - text: Pare de estudar sem direção e aumente suas chances de passar de primeira!
+                    - text: ✅ Simulados atualizados
+                    - text: ✅ Gabarito explicado
+                    - text: ✅ Estude pelo celular em qualquer lugar
+                    - text: ✅ Ideal para primeira habilitação e reciclagem
+                    - text: Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗
+                - group "Video player" [ref=f54e623]:
+                  - button "Reproduzir o vídeo" [ref=f54e625] [cursor=pointer]
+                  - generic [ref=f54e627]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:00
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar":
+                                - img
+                - link "SIMULADOSDETRAN2026.NETLIFY.APP Baixe os Simulados Agora! ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato Baixar" [ref=f54e629] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsimuladosdetran2026.netlify.app%2F&h=AUCisZnzsGaejEVHXbx1xqGAZx5VHpKm9W0kN1zJc4cHyCM_Y8P5w7AEruSBA_vKCMxsFwXatzBTvnW5t0B0SX5FAn-l188jA1wFiZHJhGzXmMu_KUKN2hnlpyNNbxzsWVLUlpfS3N24wHvJn40DGg
+                  - generic [ref=f54e630]:
+                    - generic [ref=f54e631]:
+                      - button "SIMULADOSDETRAN2026.NETLIFY.APP" [ref=f54e633]:
+                        - generic [ref=f54e634]: SIMULADOSDETRAN2026.NETLIFY.APP
+                      - button "Baixe os Simulados Agora!" [ref=f54e636]:
+                        - generic [ref=f54e637]: Baixe os Simulados Agora!
+                      - button "⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato" [ref=f54e639]:
+                        - generic [ref=f54e640]: ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato
+                      - generic:
+                        - button
+                    - button "Baixar" [ref=f54e642]:
+                      - generic [ref=f54e646]: Baixar
+          - generic [ref=f54e648]:
+            - generic [ref=f54e650]:
+              - generic [ref=f54e651]:
+                - generic [ref=f54e658]: Ativo
+                - generic [ref=f54e661]: "Identificação da biblioteca: 2412204032589862"
+                - generic [ref=f54e663]: Veiculação iniciada em 22 de jun de 2026
+                - generic [ref=f54e665]: Plataformas
+              - button "Abrir menu suspenso" [ref=f54e679] [cursor=pointer]:
+                - generic [ref=f54e682]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=f54e685] [cursor=pointer]:
+              - generic [ref=f54e689]: Ver detalhes do anúncio
+            - separator [ref=f54e690]
+            - generic [ref=f54e695]:
+              - generic [ref=f54e697]:
+                - img "Joana Pires" [ref=f54e698]
+                - generic [ref=f54e700]:
+                  - link "Joana Pires" [ref=f54e701] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61578766121490/
+                  - generic [ref=f54e705]:
+                    - strong [ref=f54e707]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=f54e708]:
+                - button "Vai fazer a prova teórica do Detran em 2026? Pare de estudar sem direção e aumente suas chances de passar de primeira! ✅ Simulados atualizados ✅ Gabarito explicado ✅ Estude pelo celular em qualquer lugar ✅ Ideal para primeira habilitação e reciclagem Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗" [ref=f54e711]:
+                  - generic [ref=f54e714]:
+                    - text: Vai fazer a prova teórica do Detran em 2026?
+                    - text: Pare de estudar sem direção e aumente suas chances de passar de primeira!
+                    - text: ✅ Simulados atualizados
+                    - text: ✅ Gabarito explicado
+                    - text: ✅ Estude pelo celular em qualquer lugar
+                    - text: ✅ Ideal para primeira habilitação e reciclagem
+                    - text: Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗
+                - group "Video player" [ref=f54e725]:
+                  - button "Reproduzir o vídeo" [ref=f54e727] [cursor=pointer]
+                  - generic [ref=f54e729]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:00
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar":
+                                - img
+                - link "SIMULADOSDETRAN2026.NETLIFY.APP Baixe os Simulados Agora! ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato Saiba mais" [ref=f54e731] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsimuladosdetran2026.netlify.app%2F&h=AUCisZnzsGaejEVHXbx1xqGAZx5VHpKm9W0kN1zJc4cHyCM_Y8P5w7AEruSBA_vKCMxsFwXatzBTvnW5t0B0SX5FAn-l188jA1wFiZHJhGzXmMu_KUKN2hnlpyNNbxzsWVLUlpfS3N24wHvJn40DGg
+                  - generic [ref=f54e732]:
+                    - generic [ref=f54e733]:
+                      - button "SIMULADOSDETRAN2026.NETLIFY.APP" [ref=f54e735]:
+                        - generic [ref=f54e736]: SIMULADOSDETRAN2026.NETLIFY.APP
+                      - button "Baixe os Simulados Agora!" [ref=f54e738]:
+                        - generic [ref=f54e739]: Baixe os Simulados Agora!
+                      - button "⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato" [ref=f54e741]:
+                        - generic [ref=f54e742]: ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=f54e744]:
+                      - generic [ref=f54e748]: Saiba mais
+          - generic [ref=f54e750]:
+            - generic [ref=f54e752]:
+              - generic [ref=f54e753]:
+                - generic [ref=f54e760]: Ativo
+                - generic [ref=f54e763]: "Identificação da biblioteca: 1052211747143703"
+                - generic [ref=f54e765]: Veiculação iniciada em 22 de jun de 2026
+                - generic [ref=f54e767]: Plataformas
+              - button "Abrir menu suspenso" [ref=f54e781] [cursor=pointer]:
+                - generic [ref=f54e784]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=f54e787] [cursor=pointer]:
+              - generic [ref=f54e791]: Ver detalhes do anúncio
+            - separator [ref=f54e792]
+            - generic [ref=f54e797]:
+              - generic [ref=f54e799]:
+                - img "Joana Pires" [ref=f54e800]
+                - generic [ref=f54e802]:
+                  - link "Joana Pires" [ref=f54e803] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61578766121490/
+                  - generic [ref=f54e807]:
+                    - strong [ref=f54e809]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=f54e810]:
+                - button "Vai fazer a prova teórica do Detran em 2026? Pare de estudar sem direção e aumente suas chances de passar de primeira! ✅ Simulados atualizados ✅ Gabarito explicado ✅ Estude pelo celular em qualquer lugar ✅ Ideal para primeira habilitação e reciclagem Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗" [ref=f54e813]:
+                  - generic [ref=f54e816]:
+                    - text: Vai fazer a prova teórica do Detran em 2026?
+                    - text: Pare de estudar sem direção e aumente suas chances de passar de primeira!
+                    - text: ✅ Simulados atualizados
+                    - text: ✅ Gabarito explicado
+                    - text: ✅ Estude pelo celular em qualquer lugar
+                    - text: ✅ Ideal para primeira habilitação e reciclagem
+                    - text: Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗
+                - group "Video player" [ref=f54e827]:
+                  - button "Reproduzir o vídeo" [ref=f54e829] [cursor=pointer]
+                  - generic [ref=f54e831]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:00
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar":
+                                - img
+                - link "SIMULADOSDETRAN2026.NETLIFY.APP Baixe os Simulados Agora! ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato Saiba mais" [ref=f54e833] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsimuladosdetran2026.netlify.app%2F&h=AUCisZnzsGaejEVHXbx1xqGAZx5VHpKm9W0kN1zJc4cHyCM_Y8P5w7AEruSBA_vKCMxsFwXatzBTvnW5t0B0SX5FAn-l188jA1wFiZHJhGzXmMu_KUKN2hnlpyNNbxzsWVLUlpfS3N24wHvJn40DGg
+                  - generic [ref=f54e834]:
+                    - generic [ref=f54e835]:
+                      - button "SIMULADOSDETRAN2026.NETLIFY.APP" [ref=f54e837]:
+                        - generic [ref=f54e838]: SIMULADOSDETRAN2026.NETLIFY.APP
+                      - button "Baixe os Simulados Agora!" [ref=f54e840]:
+                        - generic [ref=f54e841]: Baixe os Simulados Agora!
+                      - button "⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato" [ref=f54e843]:
+                        - generic [ref=f54e844]: ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=f54e846]:
+                      - generic [ref=f54e850]: Saiba mais
+          - generic [ref=f54e852]:
+            - generic [ref=f54e854]:
+              - generic [ref=f54e855]:
+                - generic [ref=f54e862]: Ativo
+                - generic [ref=f54e865]: "Identificação da biblioteca: 1368090358541013"
+                - generic [ref=f54e867]: Veiculação iniciada em 22 de jun de 2026
+                - generic [ref=f54e869]: Plataformas
+              - button "Abrir menu suspenso" [ref=f54e883] [cursor=pointer]:
+                - generic [ref=f54e886]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=f54e889] [cursor=pointer]:
+              - generic [ref=f54e893]: Ver detalhes do anúncio
+            - separator [ref=f54e894]
+            - generic [ref=f54e899]:
+              - generic [ref=f54e901]:
+                - img "Joana Pires" [ref=f54e902]
+                - generic [ref=f54e904]:
+                  - link "Joana Pires" [ref=f54e905] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61578766121490/
+                  - generic [ref=f54e909]:
+                    - strong [ref=f54e911]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=f54e912]:
+                - button "Vai fazer a prova teórica do Detran em 2026? Pare de estudar sem direção e aumente suas chances de passar de primeira! ✅ Simulados atualizados ✅ Gabarito explicado ✅ Estude pelo celular em qualquer lugar ✅ Ideal para primeira habilitação e reciclagem Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗" [ref=f54e915]:
+                  - generic [ref=f54e918]:
+                    - text: Vai fazer a prova teórica do Detran em 2026?
+                    - text: Pare de estudar sem direção e aumente suas chances de passar de primeira!
+                    - text: ✅ Simulados atualizados
+                    - text: ✅ Gabarito explicado
+                    - text: ✅ Estude pelo celular em qualquer lugar
+                    - text: ✅ Ideal para primeira habilitação e reciclagem
+                    - text: Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗
+                - group "Video player" [ref=f54e929]:
+                  - button "Reproduzir o vídeo" [ref=f54e931] [cursor=pointer]
+                  - generic [ref=f54e933]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:00
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar":
+                                - img
+                - link "SIMULADOSDETRAN2026.NETLIFY.APP Baixe os Simulados Agora! ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato Ver detalhes" [ref=f54e935] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsimuladosdetran2026.netlify.app%2F&h=AUCisZnzsGaejEVHXbx1xqGAZx5VHpKm9W0kN1zJc4cHyCM_Y8P5w7AEruSBA_vKCMxsFwXatzBTvnW5t0B0SX5FAn-l188jA1wFiZHJhGzXmMu_KUKN2hnlpyNNbxzsWVLUlpfS3N24wHvJn40DGg
+                  - generic [ref=f54e936]:
+                    - generic [ref=f54e937]:
+                      - button "SIMULADOSDETRAN2026.NETLIFY.APP" [ref=f54e939]:
+                        - generic [ref=f54e940]: SIMULADOSDETRAN2026.NETLIFY.APP
+                      - button "Baixe os Simulados Agora!" [ref=f54e942]:
+                        - generic [ref=f54e943]: Baixe os Simulados Agora!
+                      - button "⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato" [ref=f54e945]:
+                        - generic [ref=f54e946]: ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato
+                      - generic:
+                        - button
+                    - button "Ver detalhes" [ref=f54e948]:
+                      - generic [ref=f54e952]: Ver detalhes
+          - generic [ref=f54e954]:
+            - generic [ref=f54e956]:
+              - generic [ref=f54e957]:
+                - generic [ref=f54e964]: Ativo
+                - generic [ref=f54e967]: "Identificação da biblioteca: 1729738718167007"
+                - generic [ref=f54e969]: Veiculação iniciada em 22 de jun de 2026
+                - generic [ref=f54e971]: Plataformas
+              - button "Abrir menu suspenso" [ref=f54e985] [cursor=pointer]:
+                - generic [ref=f54e988]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=f54e991] [cursor=pointer]:
+              - generic [ref=f54e995]: Ver detalhes do anúncio
+            - separator [ref=f54e996]
+            - generic [ref=f54e1001]:
+              - generic [ref=f54e1003]:
+                - img "Joana Pires" [ref=f54e1004]
+                - generic [ref=f54e1006]:
+                  - link "Joana Pires" [ref=f54e1007] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61578766121490/
+                  - generic [ref=f54e1011]:
+                    - strong [ref=f54e1013]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=f54e1014]:
+                - button "Vai fazer a prova teórica do Detran em 2026? Pare de estudar sem direção e aumente suas chances de passar de primeira! ✅ Simulados atualizados ✅ Gabarito explicado ✅ Estude pelo celular em qualquer lugar ✅ Ideal para primeira habilitação e reciclagem Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗" [ref=f54e1017]:
+                  - generic [ref=f54e1020]:
+                    - text: Vai fazer a prova teórica do Detran em 2026?
+                    - text: Pare de estudar sem direção e aumente suas chances de passar de primeira!
+                    - text: ✅ Simulados atualizados
+                    - text: ✅ Gabarito explicado
+                    - text: ✅ Estude pelo celular em qualquer lugar
+                    - text: ✅ Ideal para primeira habilitação e reciclagem
+                    - text: Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗
+                - group "Video player" [ref=f54e1031]:
+                  - button "Reproduzir o vídeo" [ref=f54e1033] [cursor=pointer]
+                  - generic [ref=f54e1035]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:00
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar":
+                                - img
+                - link "SIMULADOSDETRAN2026.NETLIFY.APP Baixe os Simulados Agora! ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato Ver detalhes" [ref=f54e1037] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsimuladosdetran2026.netlify.app%2F&h=AUCisZnzsGaejEVHXbx1xqGAZx5VHpKm9W0kN1zJc4cHyCM_Y8P5w7AEruSBA_vKCMxsFwXatzBTvnW5t0B0SX5FAn-l188jA1wFiZHJhGzXmMu_KUKN2hnlpyNNbxzsWVLUlpfS3N24wHvJn40DGg
+                  - generic [ref=f54e1038]:
+                    - generic [ref=f54e1039]:
+                      - button "SIMULADOSDETRAN2026.NETLIFY.APP" [ref=f54e1041]:
+                        - generic [ref=f54e1042]: SIMULADOSDETRAN2026.NETLIFY.APP
+                      - button "Baixe os Simulados Agora!" [ref=f54e1044]:
+                        - generic [ref=f54e1045]: Baixe os Simulados Agora!
+                      - button "⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato" [ref=f54e1047]:
+                        - generic [ref=f54e1048]: ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato
+                      - generic:
+                        - button
+                    - button "Ver detalhes" [ref=f54e1050]:
+                      - generic [ref=f54e1054]: Ver detalhes
+          - generic [ref=f54e1056]:
+            - generic [ref=f54e1058]:
+              - generic [ref=f54e1059]:
+                - generic [ref=f54e1066]: Ativo
+                - generic [ref=f54e1069]: "Identificação da biblioteca: 1527010805572516"
+                - generic [ref=f54e1071]: Veiculação iniciada em 26 de jun de 2026
+                - generic [ref=f54e1073]: Plataformas
+              - button "Abrir menu suspenso" [ref=f54e1087] [cursor=pointer]:
+                - generic [ref=f54e1090]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=f54e1093] [cursor=pointer]:
+              - generic [ref=f54e1097]: Ver detalhes do anúncio
+            - separator [ref=f54e1098]
+            - generic [ref=f54e1103]:
+              - generic [ref=f54e1105]:
+                - img "Joana Pires" [ref=f54e1106]
+                - generic [ref=f54e1108]:
+                  - link "Joana Pires" [ref=f54e1109] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61578766121490/
+                  - generic [ref=f54e1113]:
+                    - strong [ref=f54e1115]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=f54e1116]:
+                - button "Vai fazer a prova teórica do Detran em 2026? Pare de estudar sem direção e aumente suas chances de passar de primeira! ✅ Simulados atualizados ✅ Gabarito explicado ✅ Estude pelo celular em qualquer lugar ✅ Ideal para primeira habilitação e reciclagem Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗" [ref=f54e1119]:
+                  - generic [ref=f54e1122]:
+                    - text: Vai fazer a prova teórica do Detran em 2026?
+                    - text: Pare de estudar sem direção e aumente suas chances de passar de primeira!
+                    - text: ✅ Simulados atualizados
+                    - text: ✅ Gabarito explicado
+                    - text: ✅ Estude pelo celular em qualquer lugar
+                    - text: ✅ Ideal para primeira habilitação e reciclagem
+                    - text: Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗
+                - group "Video player" [ref=f54e1133]:
+                  - button "Reproduzir o vídeo" [ref=f54e1135] [cursor=pointer]
+                  - generic [ref=f54e1137]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:00
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar":
+                                - img
+                - link "SIMULADOSDETRAN2026.NETLIFY.APP Baixe os Simulados Agora! ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato Saiba mais" [ref=f54e1139] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsimuladosdetran2026.netlify.app%2F&h=AUCisZnzsGaejEVHXbx1xqGAZx5VHpKm9W0kN1zJc4cHyCM_Y8P5w7AEruSBA_vKCMxsFwXatzBTvnW5t0B0SX5FAn-l188jA1wFiZHJhGzXmMu_KUKN2hnlpyNNbxzsWVLUlpfS3N24wHvJn40DGg
+                  - generic [ref=f54e1140]:
+                    - generic [ref=f54e1141]:
+                      - button "SIMULADOSDETRAN2026.NETLIFY.APP" [ref=f54e1143]:
+                        - generic [ref=f54e1144]: SIMULADOSDETRAN2026.NETLIFY.APP
+                      - button "Baixe os Simulados Agora!" [ref=f54e1146]:
+                        - generic [ref=f54e1147]: Baixe os Simulados Agora!
+                      - button "⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato" [ref=f54e1149]:
+                        - generic [ref=f54e1150]: ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=f54e1152]:
+                      - generic [ref=f54e1156]: Saiba mais
+          - generic [ref=f54e1158]:
+            - generic [ref=f54e1160]:
+              - generic [ref=f54e1161]:
+                - generic [ref=f54e1168]: Ativo
+                - generic [ref=f54e1171]: "Identificação da biblioteca: 1924616751578044"
+                - generic [ref=f54e1173]: Veiculação iniciada em 23 de jun de 2026
+                - generic [ref=f54e1175]: Plataformas
+              - button "Abrir menu suspenso" [ref=f54e1189] [cursor=pointer]:
+                - generic [ref=f54e1192]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=f54e1195] [cursor=pointer]:
+              - generic [ref=f54e1199]: Ver detalhes do anúncio
+            - separator [ref=f54e1200]
+            - generic [ref=f54e1205]:
+              - generic [ref=f54e1207]:
+                - img "Joana Pires" [ref=f54e1208]
+                - generic [ref=f54e1210]:
+                  - link "Joana Pires" [ref=f54e1211] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61578766121490/
+                  - generic [ref=f54e1215]:
+                    - strong [ref=f54e1217]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=f54e1218]:
+                - button "Vai fazer a prova teórica do Detran em 2026? Pare de estudar sem direção e aumente suas chances de passar de primeira! ✅ Simulados atualizados ✅ Gabarito explicado ✅ Estude pelo celular em qualquer lugar ✅ Ideal para primeira habilitação e reciclagem Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗" [ref=f54e1221]:
+                  - generic [ref=f54e1224]:
+                    - text: Vai fazer a prova teórica do Detran em 2026?
+                    - text: Pare de estudar sem direção e aumente suas chances de passar de primeira!
+                    - text: ✅ Simulados atualizados
+                    - text: ✅ Gabarito explicado
+                    - text: ✅ Estude pelo celular em qualquer lugar
+                    - text: ✅ Ideal para primeira habilitação e reciclagem
+                    - text: Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗
+                - group "Video player" [ref=f54e1235]:
+                  - button "Reproduzir o vídeo" [ref=f54e1237] [cursor=pointer]
+                  - generic [ref=f54e1239]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:00
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar":
+                                - img
+                - link "SIMULADOSDETRAN2026.NETLIFY.APP Baixe os Simulados Agora! ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato Saiba mais" [ref=f54e1241] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsimuladosdetran2026.netlify.app%2F&h=AUCisZnzsGaejEVHXbx1xqGAZx5VHpKm9W0kN1zJc4cHyCM_Y8P5w7AEruSBA_vKCMxsFwXatzBTvnW5t0B0SX5FAn-l188jA1wFiZHJhGzXmMu_KUKN2hnlpyNNbxzsWVLUlpfS3N24wHvJn40DGg
+                  - generic [ref=f54e1242]:
+                    - generic [ref=f54e1243]:
+                      - button "SIMULADOSDETRAN2026.NETLIFY.APP" [ref=f54e1245]:
+                        - generic [ref=f54e1246]: SIMULADOSDETRAN2026.NETLIFY.APP
+                      - button "Baixe os Simulados Agora!" [ref=f54e1248]:
+                        - generic [ref=f54e1249]: Baixe os Simulados Agora!
+                      - button "⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato" [ref=f54e1251]:
+                        - generic [ref=f54e1252]: ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=f54e1254]:
+                      - generic [ref=f54e1258]: Saiba mais
+          - generic [ref=f54e1260]:
+            - generic [ref=f54e1262]:
+              - generic [ref=f54e1263]:
+                - generic [ref=f54e1270]: Ativo
+                - generic [ref=f54e1273]: "Identificação da biblioteca: 1727019351944554"
+                - generic [ref=f54e1275]: Veiculação iniciada em 23 de jun de 2026
+                - generic [ref=f54e1277]: Plataformas
+              - button "Abrir menu suspenso" [ref=f54e1291] [cursor=pointer]:
+                - generic [ref=f54e1294]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=f54e1297] [cursor=pointer]:
+              - generic [ref=f54e1301]: Ver detalhes do anúncio
+            - separator [ref=f54e1302]
+            - generic [ref=f54e1307]:
+              - generic [ref=f54e1309]:
+                - img "Joana Pires" [ref=f54e1310]
+                - generic [ref=f54e1312]:
+                  - link "Joana Pires" [ref=f54e1313] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61578766121490/
+                  - generic [ref=f54e1317]:
+                    - strong [ref=f54e1319]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=f54e1320]:
+                - button "Vai fazer a prova teórica do Detran em 2026? Pare de estudar sem direção e aumente suas chances de passar de primeira! ✅ Simulados atualizados ✅ Gabarito explicado ✅ Estude pelo celular em qualquer lugar ✅ Ideal para primeira habilitação e reciclagem Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗" [ref=f54e1323]:
+                  - generic [ref=f54e1326]:
+                    - text: Vai fazer a prova teórica do Detran em 2026?
+                    - text: Pare de estudar sem direção e aumente suas chances de passar de primeira!
+                    - text: ✅ Simulados atualizados
+                    - text: ✅ Gabarito explicado
+                    - text: ✅ Estude pelo celular em qualquer lugar
+                    - text: ✅ Ideal para primeira habilitação e reciclagem
+                    - text: Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗
+                - group "Video player" [ref=f54e1337]:
+                  - button "Reproduzir o vídeo" [ref=f54e1339] [cursor=pointer]
+                  - generic [ref=f54e1341]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:00
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar":
+                                - img
+                - link "SIMULADOSDETRAN2026.NETLIFY.APP Baixe os Simulados Agora! ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato Ver detalhes" [ref=f54e1343] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsimuladosdetran2026.netlify.app%2F&h=AUCisZnzsGaejEVHXbx1xqGAZx5VHpKm9W0kN1zJc4cHyCM_Y8P5w7AEruSBA_vKCMxsFwXatzBTvnW5t0B0SX5FAn-l188jA1wFiZHJhGzXmMu_KUKN2hnlpyNNbxzsWVLUlpfS3N24wHvJn40DGg
+                  - generic [ref=f54e1344]:
+                    - generic [ref=f54e1345]:
+                      - button "SIMULADOSDETRAN2026.NETLIFY.APP" [ref=f54e1347]:
+                        - generic [ref=f54e1348]: SIMULADOSDETRAN2026.NETLIFY.APP
+                      - button "Baixe os Simulados Agora!" [ref=f54e1350]:
+                        - generic [ref=f54e1351]: Baixe os Simulados Agora!
+                      - button "⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato" [ref=f54e1353]:
+                        - generic [ref=f54e1354]: ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato
+                      - generic:
+                        - button
+                    - button "Ver detalhes" [ref=f54e1356]:
+                      - generic [ref=f54e1360]: Ver detalhes
+          - generic [ref=f54e1362]:
+            - generic [ref=f54e1364]:
+              - generic [ref=f54e1365]:
+                - generic [ref=f54e1372]: Ativo
+                - generic [ref=f54e1375]: "Identificação da biblioteca: 2263674611116515"
+                - generic [ref=f54e1377]: Veiculação iniciada em 23 de jun de 2026
+                - generic [ref=f54e1379]: Plataformas
+              - button "Abrir menu suspenso" [ref=f54e1393] [cursor=pointer]:
+                - generic [ref=f54e1396]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=f54e1399] [cursor=pointer]:
+              - generic [ref=f54e1403]: Ver detalhes do anúncio
+            - separator [ref=f54e1404]
+            - generic [ref=f54e1409]:
+              - generic [ref=f54e1411]:
+                - img "Joana Pires" [ref=f54e1412]
+                - generic [ref=f54e1414]:
+                  - link "Joana Pires" [ref=f54e1415] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61578766121490/
+                  - generic [ref=f54e1419]:
+                    - strong [ref=f54e1421]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=f54e1422]:
+                - button "Vai fazer a prova teórica do Detran em 2026? Pare de estudar sem direção e aumente suas chances de passar de primeira! ✅ Simulados atualizados ✅ Gabarito explicado ✅ Estude pelo celular em qualquer lugar ✅ Ideal para primeira habilitação e reciclagem Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗" [ref=f54e1425]:
+                  - generic [ref=f54e1428]:
+                    - text: Vai fazer a prova teórica do Detran em 2026?
+                    - text: Pare de estudar sem direção e aumente suas chances de passar de primeira!
+                    - text: ✅ Simulados atualizados
+                    - text: ✅ Gabarito explicado
+                    - text: ✅ Estude pelo celular em qualquer lugar
+                    - text: ✅ Ideal para primeira habilitação e reciclagem
+                    - text: Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗
+                - group "Video player" [ref=f54e1439]:
+                  - button "Reproduzir o vídeo" [ref=f54e1441] [cursor=pointer]
+                  - generic [ref=f54e1443]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:00
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar":
+                                - img
+                - link "SIMULADOSDETRAN2026.NETLIFY.APP Baixe os Simulados Agora! ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato Ver detalhes" [ref=f54e1445] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsimuladosdetran2026.netlify.app%2F&h=AUCisZnzsGaejEVHXbx1xqGAZx5VHpKm9W0kN1zJc4cHyCM_Y8P5w7AEruSBA_vKCMxsFwXatzBTvnW5t0B0SX5FAn-l188jA1wFiZHJhGzXmMu_KUKN2hnlpyNNbxzsWVLUlpfS3N24wHvJn40DGg
+                  - generic [ref=f54e1446]:
+                    - generic [ref=f54e1447]:
+                      - button "SIMULADOSDETRAN2026.NETLIFY.APP" [ref=f54e1449]:
+                        - generic [ref=f54e1450]: SIMULADOSDETRAN2026.NETLIFY.APP
+                      - button "Baixe os Simulados Agora!" [ref=f54e1452]:
+                        - generic [ref=f54e1453]: Baixe os Simulados Agora!
+                      - button "⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato" [ref=f54e1455]:
+                        - generic [ref=f54e1456]: ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato
+                      - generic:
+                        - button
+                    - button "Ver detalhes" [ref=f54e1458]:
+                      - generic [ref=f54e1462]: Ver detalhes
+          - generic [ref=f54e1464]:
+            - generic [ref=f54e1466]:
+              - generic [ref=f54e1467]:
+                - generic [ref=f54e1474]: Ativo
+                - generic [ref=f54e1477]: "Identificação da biblioteca: 2010865616458248"
+                - generic [ref=f54e1479]: Veiculação iniciada em 23 de jun de 2026
+                - generic [ref=f54e1481]: Plataformas
+              - button "Abrir menu suspenso" [ref=f54e1495] [cursor=pointer]:
+                - generic [ref=f54e1498]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=f54e1501] [cursor=pointer]:
+              - generic [ref=f54e1505]: Ver detalhes do anúncio
+            - separator [ref=f54e1506]
+            - generic [ref=f54e1511]:
+              - generic [ref=f54e1513]:
+                - img "Joana Pires" [ref=f54e1514]
+                - generic [ref=f54e1516]:
+                  - link "Joana Pires" [ref=f54e1517] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61578766121490/
+                  - generic [ref=f54e1521]:
+                    - strong [ref=f54e1523]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=f54e1524]:
+                - button "Vai fazer a prova teórica do Detran em 2026? Pare de estudar sem direção e aumente suas chances de passar de primeira! ✅ Simulados atualizados ✅ Gabarito explicado ✅ Estude pelo celular em qualquer lugar ✅ Ideal para primeira habilitação e reciclagem Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗" [ref=f54e1527]:
+                  - generic [ref=f54e1530]:
+                    - text: Vai fazer a prova teórica do Detran em 2026?
+                    - text: Pare de estudar sem direção e aumente suas chances de passar de primeira!
+                    - text: ✅ Simulados atualizados
+                    - text: ✅ Gabarito explicado
+                    - text: ✅ Estude pelo celular em qualquer lugar
+                    - text: ✅ Ideal para primeira habilitação e reciclagem
+                    - text: Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗
+                - group "Video player" [ref=f54e1541]:
+                  - button "Reproduzir o vídeo" [ref=f54e1543] [cursor=pointer]
+                  - generic [ref=f54e1545]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:00
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar":
+                                - img
+                - link "SIMULADOSDETRAN2026.NETLIFY.APP Baixe os Simulados Agora! ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato Ver detalhes" [ref=f54e1547] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsimuladosdetran2026.netlify.app%2F&h=AUCisZnzsGaejEVHXbx1xqGAZx5VHpKm9W0kN1zJc4cHyCM_Y8P5w7AEruSBA_vKCMxsFwXatzBTvnW5t0B0SX5FAn-l188jA1wFiZHJhGzXmMu_KUKN2hnlpyNNbxzsWVLUlpfS3N24wHvJn40DGg
+                  - generic [ref=f54e1548]:
+                    - generic [ref=f54e1549]:
+                      - button "SIMULADOSDETRAN2026.NETLIFY.APP" [ref=f54e1551]:
+                        - generic [ref=f54e1552]: SIMULADOSDETRAN2026.NETLIFY.APP
+                      - button "Baixe os Simulados Agora!" [ref=f54e1554]:
+                        - generic [ref=f54e1555]: Baixe os Simulados Agora!
+                      - button "⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato" [ref=f54e1557]:
+                        - generic [ref=f54e1558]: ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato
+                      - generic:
+                        - button
+                    - button "Ver detalhes" [ref=f54e1560]:
+                      - generic [ref=f54e1564]: Ver detalhes
+          - generic [ref=f54e1566]:
+            - generic [ref=f54e1568]:
+              - generic [ref=f54e1569]:
+                - generic [ref=f54e1576]: Ativo
+                - generic [ref=f54e1579]: "Identificação da biblioteca: 1546981510295641"
+                - generic [ref=f54e1581]: Veiculação iniciada em 26 de jun de 2026
+                - generic [ref=f54e1583]: Plataformas
+              - button "Abrir menu suspenso" [ref=f54e1597] [cursor=pointer]:
+                - generic [ref=f54e1600]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=f54e1603] [cursor=pointer]:
+              - generic [ref=f54e1607]: Ver detalhes do anúncio
+            - separator [ref=f54e1608]
+            - generic [ref=f54e1613]:
+              - generic [ref=f54e1615]:
+                - img "Joana Pires" [ref=f54e1616]
+                - generic [ref=f54e1618]:
+                  - link "Joana Pires" [ref=f54e1619] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61578766121490/
+                  - generic [ref=f54e1623]:
+                    - strong [ref=f54e1625]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=f54e1626]:
+                - button "Vai fazer a prova teórica do Detran em 2026? Pare de estudar sem direção e aumente suas chances de passar de primeira! ✅ Simulados atualizados ✅ Gabarito explicado ✅ Estude pelo celular em qualquer lugar ✅ Ideal para primeira habilitação e reciclagem Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗" [ref=f54e1629]:
+                  - generic [ref=f54e1632]:
+                    - text: Vai fazer a prova teórica do Detran em 2026?
+                    - text: Pare de estudar sem direção e aumente suas chances de passar de primeira!
+                    - text: ✅ Simulados atualizados
+                    - text: ✅ Gabarito explicado
+                    - text: ✅ Estude pelo celular em qualquer lugar
+                    - text: ✅ Ideal para primeira habilitação e reciclagem
+                    - text: Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗
+                - group "Video player" [ref=f54e1643]:
+                  - button "Reproduzir o vídeo" [ref=f54e1645] [cursor=pointer]
+                  - generic [ref=f54e1647]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:00
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar":
+                                - img
+                - link "SIMULADOSDETRAN2026.NETLIFY.APP Baixe os Simulados Agora! ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato Saiba mais" [ref=f54e1649] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsimuladosdetran2026.netlify.app%2F&h=AUCisZnzsGaejEVHXbx1xqGAZx5VHpKm9W0kN1zJc4cHyCM_Y8P5w7AEruSBA_vKCMxsFwXatzBTvnW5t0B0SX5FAn-l188jA1wFiZHJhGzXmMu_KUKN2hnlpyNNbxzsWVLUlpfS3N24wHvJn40DGg
+                  - generic [ref=f54e1650]:
+                    - generic [ref=f54e1651]:
+                      - button "SIMULADOSDETRAN2026.NETLIFY.APP" [ref=f54e1653]:
+                        - generic [ref=f54e1654]: SIMULADOSDETRAN2026.NETLIFY.APP
+                      - button "Baixe os Simulados Agora!" [ref=f54e1656]:
+                        - generic [ref=f54e1657]: Baixe os Simulados Agora!
+                      - button "⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato" [ref=f54e1659]:
+                        - generic [ref=f54e1660]: ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=f54e1662]:
+                      - generic [ref=f54e1666]: Saiba mais
+          - generic [ref=f54e1668]:
+            - generic [ref=f54e1670]:
+              - generic [ref=f54e1671]:
+                - generic [ref=f54e1678]: Ativo
+                - generic [ref=f54e1681]: "Identificação da biblioteca: 906162805850801"
+                - generic [ref=f54e1683]: Veiculação iniciada em 26 de jun de 2026
+                - generic [ref=f54e1685]: Plataformas
+              - button "Abrir menu suspenso" [ref=f54e1699] [cursor=pointer]:
+                - generic [ref=f54e1702]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=f54e1705] [cursor=pointer]:
+              - generic [ref=f54e1709]: Ver detalhes do anúncio
+            - separator [ref=f54e1710]
+            - generic [ref=f54e1715]:
+              - generic [ref=f54e1717]:
+                - img "Joana Pires" [ref=f54e1718]
+                - generic [ref=f54e1720]:
+                  - link "Joana Pires" [ref=f54e1721] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61578766121490/
+                  - generic [ref=f54e1725]:
+                    - strong [ref=f54e1727]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=f54e1728]:
+                - button "Vai fazer a prova teórica do Detran em 2026? Pare de estudar sem direção e aumente suas chances de passar de primeira! ✅ Simulados atualizados ✅ Gabarito explicado ✅ Estude pelo celular em qualquer lugar ✅ Ideal para primeira habilitação e reciclagem Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗" [ref=f54e1731]:
+                  - generic [ref=f54e1734]:
+                    - text: Vai fazer a prova teórica do Detran em 2026?
+                    - text: Pare de estudar sem direção e aumente suas chances de passar de primeira!
+                    - text: ✅ Simulados atualizados
+                    - text: ✅ Gabarito explicado
+                    - text: ✅ Estude pelo celular em qualquer lugar
+                    - text: ✅ Ideal para primeira habilitação e reciclagem
+                    - text: Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗
+                - group "Video player" [ref=f54e1745]:
+                  - button "Reproduzir o vídeo" [ref=f54e1747] [cursor=pointer]
+                  - generic [ref=f54e1749]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:00
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar":
+                                - img
+                - link "SIMULADOSDETRAN2026.NETLIFY.APP Baixe os Simulados Agora! ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato Saiba mais" [ref=f54e1751] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsimuladosdetran2026.netlify.app%2F&h=AUCisZnzsGaejEVHXbx1xqGAZx5VHpKm9W0kN1zJc4cHyCM_Y8P5w7AEruSBA_vKCMxsFwXatzBTvnW5t0B0SX5FAn-l188jA1wFiZHJhGzXmMu_KUKN2hnlpyNNbxzsWVLUlpfS3N24wHvJn40DGg
+                  - generic [ref=f54e1752]:
+                    - generic [ref=f54e1753]:
+                      - button "SIMULADOSDETRAN2026.NETLIFY.APP" [ref=f54e1755]:
+                        - generic [ref=f54e1756]: SIMULADOSDETRAN2026.NETLIFY.APP
+                      - button "Baixe os Simulados Agora!" [ref=f54e1758]:
+                        - generic [ref=f54e1759]: Baixe os Simulados Agora!
+                      - button "⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato" [ref=f54e1761]:
+                        - generic [ref=f54e1762]: ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=f54e1764]:
+                      - generic [ref=f54e1768]: Saiba mais
+          - generic [ref=f54e1770]:
+            - generic [ref=f54e1772]:
+              - generic [ref=f54e1773]:
+                - generic [ref=f54e1780]: Ativo
+                - generic [ref=f54e1783]: "Identificação da biblioteca: 1019003434214451"
+                - generic [ref=f54e1785]: Veiculação iniciada em 26 de jun de 2026
+                - generic [ref=f54e1787]: Plataformas
+              - button "Abrir menu suspenso" [ref=f54e1801] [cursor=pointer]:
+                - generic [ref=f54e1804]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=f54e1807] [cursor=pointer]:
+              - generic [ref=f54e1811]: Ver detalhes do anúncio
+            - separator [ref=f54e1812]
+            - generic [ref=f54e1817]:
+              - generic [ref=f54e1819]:
+                - img "Joana Pires" [ref=f54e1820]
+                - generic [ref=f54e1822]:
+                  - link "Joana Pires" [ref=f54e1823] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61578766121490/
+                  - generic [ref=f54e1827]:
+                    - strong [ref=f54e1829]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=f54e1830]:
+                - button "Vai fazer a prova teórica do Detran em 2026? Pare de estudar sem direção e aumente suas chances de passar de primeira! ✅ Simulados atualizados ✅ Gabarito explicado ✅ Estude pelo celular em qualquer lugar ✅ Ideal para primeira habilitação e reciclagem Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗" [ref=f54e1833]:
+                  - generic [ref=f54e1836]:
+                    - text: Vai fazer a prova teórica do Detran em 2026?
+                    - text: Pare de estudar sem direção e aumente suas chances de passar de primeira!
+                    - text: ✅ Simulados atualizados
+                    - text: ✅ Gabarito explicado
+                    - text: ✅ Estude pelo celular em qualquer lugar
+                    - text: ✅ Ideal para primeira habilitação e reciclagem
+                    - text: Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗
+                - group "Video player" [ref=f54e1847]:
+                  - button "Reproduzir o vídeo" [ref=f54e1849] [cursor=pointer]
+                  - generic [ref=f54e1851]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:00
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar":
+                                - img
+                - link "SIMULADOSDETRAN2026.NETLIFY.APP Baixe os Simulados Agora! ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato Saiba mais" [ref=f54e1853] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsimuladosdetran2026.netlify.app%2F&h=AUCisZnzsGaejEVHXbx1xqGAZx5VHpKm9W0kN1zJc4cHyCM_Y8P5w7AEruSBA_vKCMxsFwXatzBTvnW5t0B0SX5FAn-l188jA1wFiZHJhGzXmMu_KUKN2hnlpyNNbxzsWVLUlpfS3N24wHvJn40DGg
+                  - generic [ref=f54e1854]:
+                    - generic [ref=f54e1855]:
+                      - button "SIMULADOSDETRAN2026.NETLIFY.APP" [ref=f54e1857]:
+                        - generic [ref=f54e1858]: SIMULADOSDETRAN2026.NETLIFY.APP
+                      - button "Baixe os Simulados Agora!" [ref=f54e1860]:
+                        - generic [ref=f54e1861]: Baixe os Simulados Agora!
+                      - button "⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato" [ref=f54e1863]:
+                        - generic [ref=f54e1864]: ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=f54e1866]:
+                      - generic [ref=f54e1870]: Saiba mais
+          - generic [ref=f54e1872]:
+            - generic [ref=f54e1874]:
+              - generic [ref=f54e1875]:
+                - generic [ref=f54e1882]: Ativo
+                - generic [ref=f54e1885]: "Identificação da biblioteca: 1673772580509071"
+                - generic [ref=f54e1887]: Veiculação iniciada em 26 de jun de 2026
+                - generic [ref=f54e1889]: Plataformas
+              - button "Abrir menu suspenso" [ref=f54e1903] [cursor=pointer]:
+                - generic [ref=f54e1906]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=f54e1909] [cursor=pointer]:
+              - generic [ref=f54e1913]: Ver detalhes do anúncio
+            - separator [ref=f54e1914]
+            - generic [ref=f54e1919]:
+              - generic [ref=f54e1921]:
+                - img "Joana Pires" [ref=f54e1922]
+                - generic [ref=f54e1924]:
+                  - link "Joana Pires" [ref=f54e1925] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61578766121490/
+                  - generic [ref=f54e1929]:
+                    - strong [ref=f54e1931]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=f54e1932]:
+                - button "Vai fazer a prova teórica do Detran em 2026? Pare de estudar sem direção e aumente suas chances de passar de primeira! ✅ Simulados atualizados ✅ Gabarito explicado ✅ Estude pelo celular em qualquer lugar ✅ Ideal para primeira habilitação e reciclagem Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗" [ref=f54e1935]:
+                  - generic [ref=f54e1938]:
+                    - text: Vai fazer a prova teórica do Detran em 2026?
+                    - text: Pare de estudar sem direção e aumente suas chances de passar de primeira!
+                    - text: ✅ Simulados atualizados
+                    - text: ✅ Gabarito explicado
+                    - text: ✅ Estude pelo celular em qualquer lugar
+                    - text: ✅ Ideal para primeira habilitação e reciclagem
+                    - text: Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗
+                - group "Video player" [ref=f54e1949]:
+                  - button "Reproduzir o vídeo" [ref=f54e1951] [cursor=pointer]
+                  - generic [ref=f54e1953]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:00
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar":
+                                - img
+                - link "SIMULADOSDETRAN2026.NETLIFY.APP Baixe os Simulados Agora! ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato Saiba mais" [ref=f54e1955] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsimuladosdetran2026.netlify.app%2F&h=AUCisZnzsGaejEVHXbx1xqGAZx5VHpKm9W0kN1zJc4cHyCM_Y8P5w7AEruSBA_vKCMxsFwXatzBTvnW5t0B0SX5FAn-l188jA1wFiZHJhGzXmMu_KUKN2hnlpyNNbxzsWVLUlpfS3N24wHvJn40DGg
+                  - generic [ref=f54e1956]:
+                    - generic [ref=f54e1957]:
+                      - button "SIMULADOSDETRAN2026.NETLIFY.APP" [ref=f54e1959]:
+                        - generic [ref=f54e1960]: SIMULADOSDETRAN2026.NETLIFY.APP
+                      - button "Baixe os Simulados Agora!" [ref=f54e1962]:
+                        - generic [ref=f54e1963]: Baixe os Simulados Agora!
+                      - button "⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato" [ref=f54e1965]:
+                        - generic [ref=f54e1966]: ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato
+                      - generic:
+                        - button
+                    - button "Saiba mais" [ref=f54e1968]:
+                      - generic [ref=f54e1972]: Saiba mais
+          - generic [ref=f54e1974]:
+            - generic [ref=f54e1976]:
+              - generic [ref=f54e1977]:
+                - generic [ref=f54e1984]: Ativo
+                - generic [ref=f54e1987]: "Identificação da biblioteca: 906570685805251"
+                - generic [ref=f54e1989]: Veiculação iniciada em 22 de jun de 2026
+                - generic [ref=f54e1991]: Plataformas
+              - button "Abrir menu suspenso" [ref=f54e2005] [cursor=pointer]:
+                - generic [ref=f54e2008]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=f54e2011] [cursor=pointer]:
+              - generic [ref=f54e2015]: Ver detalhes do anúncio
+            - separator [ref=f54e2016]
+            - generic [ref=f54e2021]:
+              - generic [ref=f54e2023]:
+                - img "Joana Pires" [ref=f54e2024]
+                - generic [ref=f54e2026]:
+                  - link "Joana Pires" [ref=f54e2027] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61578766121490/
+                  - generic [ref=f54e2031]:
+                    - strong [ref=f54e2033]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=f54e2034]:
+                - button "Vai fazer a prova teórica do Detran em 2026? Pare de estudar sem direção e aumente suas chances de passar de primeira! ✅ Simulados atualizados ✅ Gabarito explicado ✅ Estude pelo celular em qualquer lugar ✅ Ideal para primeira habilitação e reciclagem Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗" [ref=f54e2037]:
+                  - generic [ref=f54e2040]:
+                    - text: Vai fazer a prova teórica do Detran em 2026?
+                    - text: Pare de estudar sem direção e aumente suas chances de passar de primeira!
+                    - text: ✅ Simulados atualizados
+                    - text: ✅ Gabarito explicado
+                    - text: ✅ Estude pelo celular em qualquer lugar
+                    - text: ✅ Ideal para primeira habilitação e reciclagem
+                    - text: Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗
+                - group "Video player" [ref=f54e2051]:
+                  - button "Reproduzir o vídeo" [ref=f54e2053] [cursor=pointer]
+                  - generic [ref=f54e2055]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:00
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar":
+                                - img
+                - link "SIMULADOSDETRAN2026.NETLIFY.APP Baixe os Simulados Agora! ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato Ver detalhes" [ref=f54e2057] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsimuladosdetran2026.netlify.app%2F&h=AUCisZnzsGaejEVHXbx1xqGAZx5VHpKm9W0kN1zJc4cHyCM_Y8P5w7AEruSBA_vKCMxsFwXatzBTvnW5t0B0SX5FAn-l188jA1wFiZHJhGzXmMu_KUKN2hnlpyNNbxzsWVLUlpfS3N24wHvJn40DGg
+                  - generic [ref=f54e2058]:
+                    - generic [ref=f54e2059]:
+                      - button "SIMULADOSDETRAN2026.NETLIFY.APP" [ref=f54e2061]:
+                        - generic [ref=f54e2062]: SIMULADOSDETRAN2026.NETLIFY.APP
+                      - button "Baixe os Simulados Agora!" [ref=f54e2064]:
+                        - generic [ref=f54e2065]: Baixe os Simulados Agora!
+                      - button "⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato" [ref=f54e2067]:
+                        - generic [ref=f54e2068]: ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato
+                      - generic:
+                        - button
+                    - button "Ver detalhes" [ref=f54e2070]:
+                      - generic [ref=f54e2074]: Ver detalhes
+          - generic [ref=f54e2076]:
+            - generic [ref=f54e2078]:
+              - generic [ref=f54e2079]:
+                - generic [ref=f54e2086]: Ativo
+                - generic [ref=f54e2089]: "Identificação da biblioteca: 2219251755279934"
+                - generic [ref=f54e2091]: Veiculação iniciada em 23 de jun de 2026
+                - generic [ref=f54e2093]: Plataformas
+              - button "Abrir menu suspenso" [ref=f54e2107] [cursor=pointer]:
+                - generic [ref=f54e2110]: Abrir menu suspenso
+            - button "Ver detalhes do anúncio" [ref=f54e2113] [cursor=pointer]:
+              - generic [ref=f54e2117]: Ver detalhes do anúncio
+            - separator [ref=f54e2118]
+            - generic [ref=f54e2123]:
+              - generic [ref=f54e2125]:
+                - img "Joana Pires" [ref=f54e2126]
+                - generic [ref=f54e2128]:
+                  - link "Joana Pires" [ref=f54e2129] [cursor=pointer]:
+                    - /url: https://www.facebook.com/61578766121490/
+                  - generic [ref=f54e2133]:
+                    - strong [ref=f54e2135]: Patrocinado
+                    - generic:
+                      - strong
+              - generic [ref=f54e2136]:
+                - button "Vai fazer a prova teórica do Detran em 2026? Pare de estudar sem direção e aumente suas chances de passar de primeira! ✅ Simulados atualizados ✅ Gabarito explicado ✅ Estude pelo celular em qualquer lugar ✅ Ideal para primeira habilitação e reciclagem Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗" [ref=f54e2139]:
+                  - generic [ref=f54e2142]:
+                    - text: Vai fazer a prova teórica do Detran em 2026?
+                    - text: Pare de estudar sem direção e aumente suas chances de passar de primeira!
+                    - text: ✅ Simulados atualizados
+                    - text: ✅ Gabarito explicado
+                    - text: ✅ Estude pelo celular em qualquer lugar
+                    - text: ✅ Ideal para primeira habilitação e reciclagem
+                    - text: Treine como se estivesse na prova real e chegue preparado no dia do exame. 📚🚗
+                - group "Video player" [ref=f54e2153]:
+                  - button "Reproduzir o vídeo" [ref=f54e2155] [cursor=pointer]
+                  - generic [ref=f54e2157]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Reproduzir"
+                      - generic: 0:00 / 0:00
+                    - generic:
+                      - generic:
+                        - slider "Change Position"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Configurações"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Entrar no modo de tela cheia"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - slider "Alterar volume"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reativar":
+                                - img
+                - link "SIMULADOSDETRAN2026.NETLIFY.APP Baixe os Simulados Agora! ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato Ver detalhes" [ref=f54e2159] [cursor=pointer]:
+                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsimuladosdetran2026.netlify.app%2F&h=AUCisZnzsGaejEVHXbx1xqGAZx5VHpKm9W0kN1zJc4cHyCM_Y8P5w7AEruSBA_vKCMxsFwXatzBTvnW5t0B0SX5FAn-l188jA1wFiZHJhGzXmMu_KUKN2hnlpyNNbxzsWVLUlpfS3N24wHvJn40DGg
+                  - generic [ref=f54e2160]:
+                    - generic [ref=f54e2161]:
+                      - button "SIMULADOSDETRAN2026.NETLIFY.APP" [ref=f54e2163]:
+                        - generic [ref=f54e2164]: SIMULADOSDETRAN2026.NETLIFY.APP
+                      - button "Baixe os Simulados Agora!" [ref=f54e2166]:
+                        - generic [ref=f54e2167]: Baixe os Simulados Agora!
+                      - button "⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato" [ref=f54e2169]:
+                        - generic [ref=f54e2170]: ⭐⭐⭐⭐⭐ 4,9/5 (1.297) avaliações Download imediato
+                      - generic:
+                        - button
+                    - button "Ver detalhes" [ref=f54e2172]:
+                      - generic [ref=f54e2176]: Ver detalhes
+    - generic [ref=f54e2178]:
+      - generic [ref=f54e2186]: Status do sistema
+      - generic [ref=f54e2190]:
+        - list [ref=f54e2191]:
+          - listitem [ref=f54e2192]:
+            - heading "API da Biblioteca de Anúncios" [level=3] [ref=f54e2193]:
+              - link "API da Biblioteca de Anúncios" [ref=f54e2194] [cursor=pointer]:
+                - /url: /ads/library/api/?source=archive-landing-page
+          - listitem [ref=f54e2195]:
+            - heading "Sobre anúncios e uso de dados" [level=3] [ref=f54e2196]:
+              - link "Sobre anúncios e uso de dados" [ref=f54e2197] [cursor=pointer]:
+                - /url: /ads/about/?entry_product=ad_library
+          - listitem [ref=f54e2198]:
+            - heading "Privacidade" [level=3] [ref=f54e2199]:
+              - link "Privacidade" [ref=f54e2200] [cursor=pointer]:
+                - /url: /privacy/center/?entry_point=privacy_basics_redirect
+          - listitem [ref=f54e2201]:
+            - heading "Termos" [level=3] [ref=f54e2202]:
+              - link "Termos" [ref=f54e2203] [cursor=pointer]:
+                - /url: /policies/
+          - listitem [ref=f54e2204]:
+            - heading "Cookies" [level=3] [ref=f54e2205]:
+              - link "Cookies" [ref=f54e2206] [cursor=pointer]:
+                - /url: /policies/cookies/
+        - heading "Meta © 2026 | Português (Brasil)" [level=3] [ref=f54e2208]:
+          - text: Meta © 2026 |
+          - link "Português (Brasil)" [ref=f54e2209] [cursor=pointer]:
+            - /url: /language/

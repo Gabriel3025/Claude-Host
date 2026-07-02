@@ -1,0 +1,1264 @@
+- generic [ref=f51e1]:
+  - generic [ref=f51e12]:
+    - generic [ref=f51e15]:
+      - link "Biblioteca de Anúncios da Meta" [ref=f51e18] [cursor=pointer]:
+        - /url: /ads/library/?source=fb-logo
+        - generic [ref=f51e20]: Biblioteca de Anúncios da Meta
+      - generic [ref=f51e22]: Biblioteca de Anúncios
+      - menuitem "Relatório da Biblioteca de Anúncios" [ref=f51e24] [cursor=pointer]:
+        - generic [ref=f51e25]: Relatório da Biblioteca de Anúncios
+      - menuitem "API da Biblioteca de Anúncios" [ref=f51e27] [cursor=pointer]:
+        - generic [ref=f51e28]: API da Biblioteca de Anúncios
+      - menuitem "Conteúdo de marca" [ref=f51e30] [cursor=pointer]:
+        - generic [ref=f51e31]: Conteúdo de marca
+      - menuitem "Open navigation panel" [ref=f51e33] [cursor=pointer]
+    - generic [ref=f51e40]:
+      - combobox "Brasil" [ref=f51e44] [cursor=pointer]:
+        - generic [ref=f51e51]: Brasil
+      - combobox "Todos os anúncios" [ref=f51e62] [cursor=pointer]:
+        - generic [ref=f51e72]: Todos os anúncios
+      - generic [ref=f51e82]:
+        - generic [ref=f51e88]: Pesquisar por palavra-chave ou anunciante
+        - generic [ref=f51e94]:
+          - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=f51e100]: Luísa Helena
+          - button "Limpar" [ref=f51e102] [cursor=pointer]
+    - generic [ref=f51e105]:
+      - generic [ref=f51e107]:
+        - img "Foto do perfil da Página" [ref=f51e112]
+        - link "Luísa Helena" [ref=f51e115] [cursor=pointer]:
+          - /url: https://facebook.com/100093035161395
+          - heading "Luísa Helena" [level=1] [ref=f51e116]
+      - generic [ref=f51e117]:
+        - link "Anúncios" [ref=f51e118] [cursor=pointer]
+        - link "Sobre" [ref=f51e119] [cursor=pointer]
+    - dialog [ref=f51e120]:
+      - generic [ref=f51e121]:
+        - link [ref=f51e122] [cursor=pointer]:
+          - /url: /
+          - heading [level=4] [ref=f51e123]: Entrar
+        - menuitem [ref=f51e124] [cursor=pointer]
+      - generic [ref=f51e126]:
+        - generic [ref=f51e127]:
+          - heading [level=4] [ref=f51e129]: Biblioteca de Anúncios
+          - menuitem [ref=f51e131] [cursor=pointer]:
+            - heading [level=4] [ref=f51e133]: Relatório da Biblioteca de Anúncios
+          - menuitem [ref=f51e135] [cursor=pointer]:
+            - heading [level=4] [ref=f51e137]: API da Biblioteca de Anúncios
+          - menuitem [ref=f51e139] [cursor=pointer]:
+            - heading [level=4] [ref=f51e141]: Conteúdo de marca
+        - separator [ref=f51e142]
+        - generic [ref=f51e143]:
+          - menuitem [ref=f51e145] [cursor=pointer]:
+            - heading [level=4] [ref=f51e147]: Status do sistema
+          - menuitem [ref=f51e149] [cursor=pointer]:
+            - heading [level=4] [ref=f51e151]: Assinar para receber atualizações por email
+          - menuitem [ref=f51e153] [cursor=pointer]:
+            - heading [level=4] [ref=f51e155]: Perguntas frequentes
+          - menuitem [ref=f51e157] [cursor=pointer]:
+            - heading [level=4] [ref=f51e159]: Sobre anúncios e uso de dados
+          - menuitem [ref=f51e161] [cursor=pointer]:
+            - heading [level=4] [ref=f51e163]: Privacidade
+          - menuitem [ref=f51e165] [cursor=pointer]:
+            - heading [level=4] [ref=f51e167]: Termos
+          - menuitem [ref=f51e169] [cursor=pointer]:
+            - heading [level=4] [ref=f51e171]: Cookies
+    - generic [ref=f51e172]:
+      - generic [ref=f51e173]:
+        - heading "~13 resultados" [level=3] [ref=f51e181]
+        - generic [ref=f51e182]:
+          - generic [ref=f51e191]:
+            - generic [ref=f51e192]:
+              - textbox "Palavra-chave" [ref=f51e194]
+              - button "Filtros" [ref=f51e198] [cursor=pointer]:
+                - generic [ref=f51e203]: Filtros
+              - generic [ref=f51e205]:
+                - generic [ref=f51e211]: Classificar
+                - combobox "Classificar" [ref=f51e216] [cursor=pointer]:
+                  - generic [ref=f51e223]: Classificar por
+            - generic [ref=f51e228]:
+              - generic [ref=f51e229]:
+                - strong [ref=f51e230]: Status online
+                - text: ": Anúncios ativos"
+              - button "Remover" [ref=f51e231] [cursor=pointer]:
+                - generic [ref=f51e234]: Remover
+          - generic [ref=f51e238]:
+            - generic [ref=f51e240]:
+              - generic [ref=f51e242]:
+                - generic [ref=f51e243]:
+                  - generic [ref=f51e250]: Ativo
+                  - generic [ref=f51e253]: "Identificação da biblioteca: 2189712881790117"
+                  - generic [ref=f51e255]: Veiculação iniciada em 18 de mai de 2026
+                  - generic [ref=f51e257]: Plataformas
+                - button "Abrir menu suspenso" [ref=f51e271] [cursor=pointer]:
+                  - generic [ref=f51e274]: Abrir menu suspenso
+              - button "Ver detalhes do anúncio" [ref=f51e277] [cursor=pointer]:
+                - generic [ref=f51e281]: Ver detalhes do anúncio
+              - separator [ref=f51e282]
+              - generic [ref=f51e287]:
+                - generic [ref=f51e289]:
+                  - img "Luísa Helena" [ref=f51e290]
+                  - generic [ref=f51e292]:
+                    - link "Luísa Helena" [ref=f51e293] [cursor=pointer]:
+                      - /url: https://www.facebook.com/100093035161395/
+                    - generic [ref=f51e297]:
+                      - strong [ref=f51e299]: Patrocinado
+                      - generic:
+                        - strong
+                - generic [ref=f51e300]:
+                  - button "Transforme suas aulas e atendimentos com +1000 atividades, alongamentos e dinâmicas exclusivas para idosos! ✅ Material completo, organizado e pronto para aplicar 📱 Aplicativo incluso — acesse direto do celular ♾️ Acesso vitalício — estude e use quando quiser Ideal para professores de educação física, cuidadores e fisioterapeutas que buscam novos exercícios para manter os idosos ativos, fortes e com mais qualidade de vida 💪✨ ➡️ Clique em “Saiba mais” e conheça o material completo!" [ref=f51e303]:
+                    - generic [ref=f51e306]:
+                      - text: Transforme suas aulas e atendimentos com +1000 atividades, alongamentos e dinâmicas exclusivas para idosos!
+                      - text: ✅ Material completo, organizado e pronto para aplicar
+                      - text: 📱 Aplicativo incluso — acesse direto do celular
+                      - text: ♾️ Acesso vitalício — estude e use quando quiser
+                      - text: Ideal para professores de educação física, cuidadores e fisioterapeutas que buscam novos exercícios para manter os idosos ativos, fortes e com mais qualidade de vida 💪✨
+                      - text: ➡️ Clique em “Saiba mais” e conheça o material completo!
+                  - group "Video player" [ref=f51e317]:
+                    - button "Reproduzir o vídeo" [ref=f51e319] [cursor=pointer]
+                    - generic [ref=f51e321]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reproduzir"
+                        - generic: 0:00 / 0:27
+                      - generic:
+                        - generic:
+                          - slider "Change Position"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Configurações"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Entrar no modo de tela cheia"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - slider "Alterar volume"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Reativar":
+                                  - img
+                  - link "KITATIVIDADESPARAIDOSOS.NETLIFY.APP Trabalha com idosos? Veja isso Saiba mais" [ref=f51e323] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkitatividadesparaidosos.netlify.app%2F&h=AUCAVXy5xV1UiMYSUXS2ByJe79I-FxuVXq6cf5hPVxO3RWxzsWtjz5THhq4nsOojPTXEyDVCcPyLS9sP9BsnKh59Hjlunvf3IHtn-JlQt9FxwdEfbURXqySnEwvukuukljDt9CdxKFkisBpAgKlaRw
+                    - generic [ref=f51e324]:
+                      - generic [ref=f51e325]:
+                        - button "KITATIVIDADESPARAIDOSOS.NETLIFY.APP" [ref=f51e327]:
+                          - generic [ref=f51e328]: KITATIVIDADESPARAIDOSOS.NETLIFY.APP
+                        - button "Trabalha com idosos? Veja isso" [ref=f51e330]:
+                          - generic [ref=f51e331]: Trabalha com idosos? Veja isso
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "Saiba mais" [ref=f51e333]:
+                        - generic [ref=f51e337]: Saiba mais
+            - generic [ref=f51e339]:
+              - generic [ref=f51e341]:
+                - generic [ref=f51e342]:
+                  - generic [ref=f51e349]: Ativo
+                  - generic [ref=f51e352]: "Identificação da biblioteca: 1320471736844432"
+                  - generic [ref=f51e354]: Veiculação iniciada em 22 de mai de 2026
+                  - generic [ref=f51e356]: Plataformas
+                - button "Abrir menu suspenso" [ref=f51e370] [cursor=pointer]:
+                  - generic [ref=f51e373]: Abrir menu suspenso
+              - button "Ver detalhes do anúncio" [ref=f51e376] [cursor=pointer]:
+                - generic [ref=f51e380]: Ver detalhes do anúncio
+              - separator [ref=f51e381]
+              - generic [ref=f51e386]:
+                - generic [ref=f51e388]:
+                  - img "Luísa Helena" [ref=f51e389]
+                  - generic [ref=f51e391]:
+                    - link "Luísa Helena" [ref=f51e392] [cursor=pointer]:
+                      - /url: https://www.facebook.com/100093035161395/
+                    - generic [ref=f51e396]:
+                      - strong [ref=f51e398]: Patrocinado
+                      - generic:
+                        - strong
+                - generic [ref=f51e399]:
+                  - button "Transforme suas aulas e atendimentos com +1000 atividades, exercícios e alongamentos adaptados para idosos! ✅ Material completo, organizado e pronto para aplicar 📱 Aplicativo incluso — acesse direto do celular ♾️ Acesso vitalício — estude e use quando quiser Ideal para professores de educação física, cuidadores e fisioterapeutas que buscam novos exercícios para manter os idosos ativos, fortes e com mais qualidade de vida 💪✨ ➡️ Clique em “Saiba mais” e conheça o material completo!" [ref=f51e402]:
+                    - generic [ref=f51e405]:
+                      - text: Transforme suas aulas e atendimentos com +1000 atividades, exercícios e alongamentos adaptados para idosos!
+                      - text: ✅ Material completo, organizado e pronto para aplicar
+                      - text: 📱 Aplicativo incluso — acesse direto do celular
+                      - text: ♾️ Acesso vitalício — estude e use quando quiser
+                      - text: Ideal para professores de educação física, cuidadores e fisioterapeutas que buscam novos exercícios para manter os idosos ativos, fortes e com mais qualidade de vida 💪✨
+                      - text: ➡️ Clique em “Saiba mais” e conheça o material completo!
+                  - group "Video player" [ref=f51e416]:
+                    - button "Reproduzir o vídeo" [ref=f51e418] [cursor=pointer]
+                    - generic [ref=f51e420]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reproduzir"
+                        - generic: 0:00 / 0:26
+                      - generic:
+                        - generic:
+                          - slider "Change Position"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Configurações"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Entrar no modo de tela cheia"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - slider "Alterar volume"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Reativar":
+                                  - img
+                  - link "KITATIVIDADESPARAIDOSOS.NETLIFY.APP Trabalha com idosos? Veja isso Saiba mais" [ref=f51e422] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkitatividadesparaidosos.netlify.app%2F&h=AUCAVXy5xV1UiMYSUXS2ByJe79I-FxuVXq6cf5hPVxO3RWxzsWtjz5THhq4nsOojPTXEyDVCcPyLS9sP9BsnKh59Hjlunvf3IHtn-JlQt9FxwdEfbURXqySnEwvukuukljDt9CdxKFkisBpAgKlaRw
+                    - generic [ref=f51e423]:
+                      - generic [ref=f51e424]:
+                        - button "KITATIVIDADESPARAIDOSOS.NETLIFY.APP" [ref=f51e426]:
+                          - generic [ref=f51e427]: KITATIVIDADESPARAIDOSOS.NETLIFY.APP
+                        - button "Trabalha com idosos? Veja isso" [ref=f51e429]:
+                          - generic [ref=f51e430]: Trabalha com idosos? Veja isso
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "Saiba mais" [ref=f51e432]:
+                        - generic [ref=f51e436]: Saiba mais
+            - generic [ref=f51e438]:
+              - generic [ref=f51e440]:
+                - generic [ref=f51e441]:
+                  - generic [ref=f51e448]: Ativo
+                  - generic [ref=f51e451]: "Identificação da biblioteca: 844670431432628"
+                  - generic [ref=f51e453]: Veiculação iniciada em 11 de mai de 2026
+                  - generic [ref=f51e455]: Plataformas
+                - button "Abrir menu suspenso" [ref=f51e469] [cursor=pointer]:
+                  - generic [ref=f51e472]: Abrir menu suspenso
+              - button "Ver detalhes do anúncio" [ref=f51e475] [cursor=pointer]:
+                - generic [ref=f51e479]: Ver detalhes do anúncio
+              - separator [ref=f51e480]
+              - generic [ref=f51e485]:
+                - generic [ref=f51e487]:
+                  - img "Luísa Helena" [ref=f51e488]
+                  - generic [ref=f51e490]:
+                    - link "Luísa Helena" [ref=f51e491] [cursor=pointer]:
+                      - /url: https://www.facebook.com/100093035161395/
+                    - generic [ref=f51e495]:
+                      - strong [ref=f51e497]: Patrocinado
+                      - generic:
+                        - strong
+                - generic [ref=f51e498]:
+                  - button [ref=f51e501]:
+                    - generic [ref=f51e504]:
+                      - text: Perdendo tempo procurando e adaptando exercícios de pilates para idosos?
+                      - text: Muitos profissionais acabam repetindo as mesmas aulas por falta de repertório e praticidade no dia a dia.
+                      - text: Esse material foi criado exatamente para professores de pilates, fisioterapeutas e educadores físicos que trabalham com idosos e precisam de exercícios organizados e prontos para aplicar.
+                      - text: "👉 Dentro do acesso você encontra:"
+                      - text: Exercícios de pilates adaptados para idosos
+                      - text: Exercícios organizados por nível e objetivo
+                      - text: Pilates no Solo, Bola Suíça, Magic Circle e Faixas Elásticas
+                      - text: Exercícios para mobilidade, equilíbrio e fortalecimento
+                      - text: Conteúdos para idosos com mobilidade reduzida e recuperação física
+                      - text: Guia de avaliação física para idosos no pilates
+                      - text: Tudo pensado para facilitar o planejamento das aulas e trazer mais praticidade no dia a dia.
+                      - text: Se você quer variar mais as aulas e ganhar tempo no planejamento…
+                      - text: ➡️ Clique no botão e tenha acesso imediato
+                  - group "Video player" [ref=f51e514]:
+                    - button "Reproduzir o vídeo" [ref=f51e516] [cursor=pointer]
+                    - generic [ref=f51e518]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reproduzir"
+                        - generic: 0:00 / 0:30
+                      - generic:
+                        - generic:
+                          - slider "Change Position"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Configurações"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Entrar no modo de tela cheia"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - slider "Alterar volume"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Reativar":
+                                  - img
+                  - link "PILATESPARAIDOSOS.NETLIFY.APP +500 Exercícios de Pilates para Idosos Saiba mais" [ref=f51e520] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fpilatesparaidosos.netlify.app%2F&h=AUCAVXy5xV1UiMYSUXS2ByJe79I-FxuVXq6cf5hPVxO3RWxzsWtjz5THhq4nsOojPTXEyDVCcPyLS9sP9BsnKh59Hjlunvf3IHtn-JlQt9FxwdEfbURXqySnEwvukuukljDt9CdxKFkisBpAgKlaRw
+                    - generic [ref=f51e521]:
+                      - generic [ref=f51e522]:
+                        - button "PILATESPARAIDOSOS.NETLIFY.APP" [ref=f51e524]:
+                          - generic [ref=f51e525]: PILATESPARAIDOSOS.NETLIFY.APP
+                        - button "+500 Exercícios de Pilates para Idosos" [ref=f51e527]:
+                          - generic [ref=f51e528]: +500 Exercícios de Pilates para Idosos
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "Saiba mais" [ref=f51e530]:
+                        - generic [ref=f51e534]: Saiba mais
+            - generic [ref=f51e536]:
+              - generic [ref=f51e538]:
+                - generic [ref=f51e539]:
+                  - generic [ref=f51e546]: Ativo
+                  - generic [ref=f51e549]: "Identificação da biblioteca: 2575513952863079"
+                  - generic [ref=f51e551]: Veiculação iniciada em 21 de jun de 2026
+                  - generic [ref=f51e553]: Plataformas
+                - button "Abrir menu suspenso" [ref=f51e567] [cursor=pointer]:
+                  - generic [ref=f51e570]: Abrir menu suspenso
+              - button "Ver detalhes do anúncio" [ref=f51e573] [cursor=pointer]:
+                - generic [ref=f51e577]: Ver detalhes do anúncio
+              - separator [ref=f51e578]
+              - generic [ref=f51e583]:
+                - generic [ref=f51e585]:
+                  - img "Luísa Helena" [ref=f51e586]
+                  - generic [ref=f51e588]:
+                    - link "Luísa Helena" [ref=f51e589] [cursor=pointer]:
+                      - /url: https://www.facebook.com/100093035161395/
+                    - generic [ref=f51e593]:
+                      - strong [ref=f51e595]: Patrocinado
+                      - generic:
+                        - strong
+                - generic [ref=f51e596]:
+                  - button [ref=f51e599]:
+                    - generic [ref=f51e602]:
+                      - text: Perdendo tempo procurando e adaptando exercícios de pilates para idosos?
+                      - text: Muitos profissionais acabam repetindo as mesmas aulas por falta de repertório e praticidade no dia a dia.
+                      - text: Esse material foi criado exatamente para professores de pilates, fisioterapeutas e educadores físicos que trabalham com idosos e precisam de exercícios organizados e prontos para aplicar.
+                      - text: "👉 Dentro do acesso você encontra:"
+                      - text: Exercícios de pilates adaptados para idosos
+                      - text: Exercícios organizados por nível e objetivo
+                      - text: Pilates no Solo, Bola Suíça, Magic Circle e Faixas Elásticas
+                      - text: Exercícios para mobilidade, equilíbrio e fortalecimento
+                      - text: Conteúdos para idosos com mobilidade reduzida e recuperação física
+                      - text: Guia de avaliação física para idosos no pilates
+                      - text: Tudo pensado para facilitar o planejamento das aulas e trazer mais praticidade no dia a dia.
+                      - text: Se você quer variar mais as aulas e ganhar tempo no planejamento…
+                      - text: ➡️ Clique no botão e tenha acesso imediato
+                  - group "Video player" [ref=f51e612]:
+                    - button "Reproduzir o vídeo" [ref=f51e614] [cursor=pointer]
+                    - generic [ref=f51e616]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reproduzir"
+                        - generic: 0:00 / 0:27
+                      - generic:
+                        - generic:
+                          - slider "Change Position"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Configurações"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Entrar no modo de tela cheia"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - slider "Alterar volume"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Reativar":
+                                  - img
+                  - link "PILATESPARAIDOSOS.NETLIFY.APP +500 Exercícios de Pilates para Idosos Saiba mais" [ref=f51e618] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fpilatesparaidosos.netlify.app%2F&h=AUCAVXy5xV1UiMYSUXS2ByJe79I-FxuVXq6cf5hPVxO3RWxzsWtjz5THhq4nsOojPTXEyDVCcPyLS9sP9BsnKh59Hjlunvf3IHtn-JlQt9FxwdEfbURXqySnEwvukuukljDt9CdxKFkisBpAgKlaRw
+                    - generic [ref=f51e619]:
+                      - generic [ref=f51e620]:
+                        - button "PILATESPARAIDOSOS.NETLIFY.APP" [ref=f51e622]:
+                          - generic [ref=f51e623]: PILATESPARAIDOSOS.NETLIFY.APP
+                        - button "+500 Exercícios de Pilates para Idosos" [ref=f51e625]:
+                          - generic [ref=f51e626]: +500 Exercícios de Pilates para Idosos
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "Saiba mais" [ref=f51e628]:
+                        - generic [ref=f51e632]: Saiba mais
+            - generic [ref=f51e634]:
+              - generic [ref=f51e636]:
+                - generic [ref=f51e637]:
+                  - generic [ref=f51e644]: Ativo
+                  - generic [ref=f51e647]: "Identificação da biblioteca: 1304219558448465"
+                  - generic [ref=f51e649]: Veiculação iniciada em 26 de jun de 2026
+                  - generic [ref=f51e651]: Plataformas
+                - button "Abrir menu suspenso" [ref=f51e665] [cursor=pointer]:
+                  - generic [ref=f51e668]: Abrir menu suspenso
+              - button "Ver detalhes do anúncio" [ref=f51e671] [cursor=pointer]:
+                - generic [ref=f51e675]: Ver detalhes do anúncio
+              - separator [ref=f51e676]
+              - generic [ref=f51e681]:
+                - generic [ref=f51e683]:
+                  - img "Luísa Helena" [ref=f51e684]
+                  - generic [ref=f51e686]:
+                    - link "Luísa Helena" [ref=f51e687] [cursor=pointer]:
+                      - /url: https://www.facebook.com/100093035161395/
+                    - generic [ref=f51e691]:
+                      - strong [ref=f51e693]: Patrocinado
+                      - generic:
+                        - strong
+                - generic [ref=f51e694]:
+                  - button [ref=f51e697]:
+                    - generic [ref=f51e700]:
+                      - text: Perdendo tempo procurando e adaptando exercícios de pilates para idosos?
+                      - text: Muitos profissionais acabam repetindo as mesmas aulas por falta de repertório e praticidade no dia a dia.
+                      - text: Esse material foi criado exatamente para professores de pilates, fisioterapeutas e educadores físicos que trabalham com idosos e precisam de exercícios organizados e prontos para aplicar.
+                      - text: "👉 Dentro do acesso você encontra:"
+                      - text: Exercícios de pilates adaptados para idosos
+                      - text: Exercícios organizados por nível e objetivo
+                      - text: Pilates no Solo, Bola Suíça, Magic Circle e Faixas Elásticas
+                      - text: Exercícios para mobilidade, equilíbrio e fortalecimento
+                      - text: Conteúdos para idosos com mobilidade reduzida e recuperação física
+                      - text: Guia de avaliação física para idosos no pilates
+                      - text: Tudo pensado para facilitar o planejamento das aulas e trazer mais praticidade no dia a dia.
+                      - text: Se você quer variar mais as aulas e ganhar tempo no planejamento…
+                      - text: ➡️ Clique no botão e tenha acesso imediato
+                  - group "Video player" [ref=f51e710]:
+                    - button "Reproduzir o vídeo" [ref=f51e712] [cursor=pointer]
+                    - generic [ref=f51e714]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reproduzir"
+                        - generic: 0:00 / 0:37
+                      - generic:
+                        - generic:
+                          - slider "Change Position"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Configurações"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Entrar no modo de tela cheia"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - slider "Alterar volume"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Reativar":
+                                  - img
+                  - link "PILATESPARAIDOSOS.NETLIFY.APP +500 Exercícios de Pilates para Idosos Saiba mais" [ref=f51e716] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fpilatesparaidosos.netlify.app%2F&h=AUCAVXy5xV1UiMYSUXS2ByJe79I-FxuVXq6cf5hPVxO3RWxzsWtjz5THhq4nsOojPTXEyDVCcPyLS9sP9BsnKh59Hjlunvf3IHtn-JlQt9FxwdEfbURXqySnEwvukuukljDt9CdxKFkisBpAgKlaRw
+                    - generic [ref=f51e717]:
+                      - generic [ref=f51e718]:
+                        - button "PILATESPARAIDOSOS.NETLIFY.APP" [ref=f51e720]:
+                          - generic [ref=f51e721]: PILATESPARAIDOSOS.NETLIFY.APP
+                        - button "+500 Exercícios de Pilates para Idosos" [ref=f51e723]:
+                          - generic [ref=f51e724]: +500 Exercícios de Pilates para Idosos
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "Saiba mais" [ref=f51e726]:
+                        - generic [ref=f51e730]: Saiba mais
+            - generic [ref=f51e732]:
+              - generic [ref=f51e734]:
+                - generic [ref=f51e735]:
+                  - generic [ref=f51e742]: Ativo
+                  - generic [ref=f51e745]: "Identificação da biblioteca: 27027516566944791"
+                  - generic [ref=f51e747]: Veiculação iniciada em 25 de jun de 2026
+                  - generic [ref=f51e749]: Plataformas
+                - button "Abrir menu suspenso" [ref=f51e763] [cursor=pointer]:
+                  - generic [ref=f51e766]: Abrir menu suspenso
+              - button "Ver detalhes do anúncio" [ref=f51e769] [cursor=pointer]:
+                - generic [ref=f51e773]: Ver detalhes do anúncio
+              - separator [ref=f51e774]
+              - generic [ref=f51e779]:
+                - generic [ref=f51e781]:
+                  - img "Luísa Helena" [ref=f51e782]
+                  - generic [ref=f51e784]:
+                    - link "Luísa Helena" [ref=f51e785] [cursor=pointer]:
+                      - /url: https://www.facebook.com/100093035161395/
+                    - generic [ref=f51e789]:
+                      - strong [ref=f51e791]: Patrocinado
+                      - generic:
+                        - strong
+                - generic [ref=f51e792]:
+                  - button [ref=f51e795]:
+                    - generic [ref=f51e798]:
+                      - text: Perdendo tempo procurando e adaptando exercícios de pilates para idosos?
+                      - text: Muitos profissionais acabam repetindo as mesmas aulas por falta de repertório e praticidade no dia a dia.
+                      - text: Esse material foi criado exatamente para professores de pilates, fisioterapeutas e educadores físicos que trabalham com idosos e precisam de exercícios organizados e prontos para aplicar.
+                      - text: "👉 Dentro do acesso você encontra:"
+                      - text: Exercícios de pilates adaptados para idosos
+                      - text: Exercícios organizados por nível e objetivo
+                      - text: Pilates no Solo, Bola Suíça, Magic Circle e Faixas Elásticas
+                      - text: Exercícios para mobilidade, equilíbrio e fortalecimento
+                      - text: Conteúdos para idosos com mobilidade reduzida e recuperação física
+                      - text: Guia de avaliação física para idosos no pilates
+                      - text: Tudo pensado para facilitar o planejamento das aulas e trazer mais praticidade no dia a dia.
+                      - text: Se você quer variar mais as aulas e ganhar tempo no planejamento…
+                      - text: ➡️ Clique no botão e tenha acesso imediato
+                  - group "Video player" [ref=f51e808]:
+                    - button "Reproduzir o vídeo" [ref=f51e810] [cursor=pointer]
+                    - generic [ref=f51e812]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reproduzir"
+                        - generic: 0:00 / 0:36
+                      - generic:
+                        - generic:
+                          - slider "Change Position"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Configurações"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Entrar no modo de tela cheia"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - slider "Alterar volume"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Reativar":
+                                  - img
+                  - link "PILATESPARAIDOSOS.NETLIFY.APP +500 Exercícios de Pilates para Idosos Saiba mais" [ref=f51e814] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fpilatesparaidosos.netlify.app%2F&h=AUCAVXy5xV1UiMYSUXS2ByJe79I-FxuVXq6cf5hPVxO3RWxzsWtjz5THhq4nsOojPTXEyDVCcPyLS9sP9BsnKh59Hjlunvf3IHtn-JlQt9FxwdEfbURXqySnEwvukuukljDt9CdxKFkisBpAgKlaRw
+                    - generic [ref=f51e815]:
+                      - generic [ref=f51e816]:
+                        - button "PILATESPARAIDOSOS.NETLIFY.APP" [ref=f51e818]:
+                          - generic [ref=f51e819]: PILATESPARAIDOSOS.NETLIFY.APP
+                        - button "+500 Exercícios de Pilates para Idosos" [ref=f51e821]:
+                          - generic [ref=f51e822]: +500 Exercícios de Pilates para Idosos
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "Saiba mais" [ref=f51e824]:
+                        - generic [ref=f51e828]: Saiba mais
+            - generic [ref=f51e830]:
+              - generic [ref=f51e832]:
+                - generic [ref=f51e833]:
+                  - generic [ref=f51e840]: Ativo
+                  - generic [ref=f51e843]: "Identificação da biblioteca: 2261112431325747"
+                  - generic [ref=f51e845]: "Veiculação iniciada em 2 de jul de 2026 · Tempo total ativo: 8h"
+                  - generic [ref=f51e847]: Plataformas
+                - button "Abrir menu suspenso" [ref=f51e861] [cursor=pointer]:
+                  - generic [ref=f51e864]: Abrir menu suspenso
+              - button "Ver detalhes do anúncio" [ref=f51e867] [cursor=pointer]:
+                - generic [ref=f51e871]: Ver detalhes do anúncio
+              - separator [ref=f51e872]
+              - generic [ref=f51e877]:
+                - generic [ref=f51e879]:
+                  - img "Luísa Helena" [ref=f51e880]
+                  - generic [ref=f51e882]:
+                    - link "Luísa Helena" [ref=f51e883] [cursor=pointer]:
+                      - /url: https://www.facebook.com/100093035161395/
+                    - generic [ref=f51e887]:
+                      - strong [ref=f51e889]: Patrocinado
+                      - generic:
+                        - strong
+                - generic [ref=f51e890]:
+                  - button "Transforme suas aulas e atendimentos com +1000 atividades, exercícios e alongamentos adaptados para idosos! ✅ Material completo, organizado e pronto para aplicar 📱 Aplicativo incluso — acesse direto do celular ♾️ Acesso vitalício — estude e use quando quiser Ideal para professores de educação física, cuidadores e fisioterapeutas que buscam novos exercícios para manter os idosos ativos, fortes e com mais qualidade de vida 💪✨ ➡️ Clique em “Saiba mais” e conheça o material completo!" [ref=f51e893]:
+                    - generic [ref=f51e896]:
+                      - text: Transforme suas aulas e atendimentos com +1000 atividades, exercícios e alongamentos adaptados para idosos!
+                      - text: ✅ Material completo, organizado e pronto para aplicar
+                      - text: 📱 Aplicativo incluso — acesse direto do celular
+                      - text: ♾️ Acesso vitalício — estude e use quando quiser
+                      - text: Ideal para professores de educação física, cuidadores e fisioterapeutas que buscam novos exercícios para manter os idosos ativos, fortes e com mais qualidade de vida 💪✨
+                      - text: ➡️ Clique em “Saiba mais” e conheça o material completo!
+                  - group "Video player" [ref=f51e907]:
+                    - button "Reproduzir o vídeo" [ref=f51e909] [cursor=pointer]
+                    - generic [ref=f51e911]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reproduzir"
+                        - generic: 0:00 / 0:26
+                      - generic:
+                        - generic:
+                          - slider "Change Position"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Configurações"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Entrar no modo de tela cheia"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - slider "Alterar volume"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Reativar":
+                                  - img
+                  - link "KITATIVIDADESPARAIDOSOS.NETLIFY.APP Trabalha com idosos? Veja isso Saiba mais" [ref=f51e913] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkitatividadesparaidosos.netlify.app%2F&h=AUCAVXy5xV1UiMYSUXS2ByJe79I-FxuVXq6cf5hPVxO3RWxzsWtjz5THhq4nsOojPTXEyDVCcPyLS9sP9BsnKh59Hjlunvf3IHtn-JlQt9FxwdEfbURXqySnEwvukuukljDt9CdxKFkisBpAgKlaRw
+                    - generic [ref=f51e914]:
+                      - generic [ref=f51e915]:
+                        - button "KITATIVIDADESPARAIDOSOS.NETLIFY.APP" [ref=f51e917]:
+                          - generic [ref=f51e918]: KITATIVIDADESPARAIDOSOS.NETLIFY.APP
+                        - button "Trabalha com idosos? Veja isso" [ref=f51e920]:
+                          - generic [ref=f51e921]: Trabalha com idosos? Veja isso
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "Saiba mais" [ref=f51e923]:
+                        - generic [ref=f51e927]: Saiba mais
+            - generic [ref=f51e929]:
+              - generic [ref=f51e931]:
+                - generic [ref=f51e932]:
+                  - generic [ref=f51e939]: Ativo
+                  - generic [ref=f51e942]: "Identificação da biblioteca: 1680431033009543"
+                  - generic [ref=f51e944]: "Veiculação iniciada em 1 de jul de 2026 · Tempo total ativo: 8h"
+                  - generic [ref=f51e946]: Plataformas
+                - button "Abrir menu suspenso" [ref=f51e960] [cursor=pointer]:
+                  - generic [ref=f51e963]: Abrir menu suspenso
+              - button "Ver detalhes do anúncio" [ref=f51e966] [cursor=pointer]:
+                - generic [ref=f51e970]: Ver detalhes do anúncio
+              - separator [ref=f51e971]
+              - generic [ref=f51e976]:
+                - generic [ref=f51e978]:
+                  - img "Luísa Helena" [ref=f51e979]
+                  - generic [ref=f51e981]:
+                    - link "Luísa Helena" [ref=f51e982] [cursor=pointer]:
+                      - /url: https://www.facebook.com/100093035161395/
+                    - generic [ref=f51e986]:
+                      - strong [ref=f51e988]: Patrocinado
+                      - generic:
+                        - strong
+                - generic [ref=f51e989]:
+                  - button "Transforme suas aulas e atendimentos com +1000 atividades, exercícios e alongamentos adaptados para idosos! ✅ Material completo, organizado e pronto para aplicar 📱 Aplicativo incluso — acesse direto do celular ♾️ Acesso vitalício — estude e use quando quiser Ideal para professores de educação física, cuidadores e fisioterapeutas que buscam novos exercícios para manter os idosos ativos, fortes e com mais qualidade de vida 💪✨ ➡️ Clique em “Saiba mais” e conheça o material completo!" [ref=f51e992]:
+                    - generic [ref=f51e995]:
+                      - text: Transforme suas aulas e atendimentos com +1000 atividades, exercícios e alongamentos adaptados para idosos!
+                      - text: ✅ Material completo, organizado e pronto para aplicar
+                      - text: 📱 Aplicativo incluso — acesse direto do celular
+                      - text: ♾️ Acesso vitalício — estude e use quando quiser
+                      - text: Ideal para professores de educação física, cuidadores e fisioterapeutas que buscam novos exercícios para manter os idosos ativos, fortes e com mais qualidade de vida 💪✨
+                      - text: ➡️ Clique em “Saiba mais” e conheça o material completo!
+                  - group "Video player" [ref=f51e1006]:
+                    - button "Reproduzir o vídeo" [ref=f51e1008] [cursor=pointer]
+                    - generic [ref=f51e1010]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reproduzir"
+                        - generic: 0:00 / 0:27
+                      - generic:
+                        - generic:
+                          - slider "Change Position"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Configurações"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Entrar no modo de tela cheia"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - slider "Alterar volume"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Reativar":
+                                  - img
+                  - link "KITATIVIDADESPARAIDOSOS.NETLIFY.APP Trabalha com idosos? Veja isso Saiba mais" [ref=f51e1012] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkitatividadesparaidosos.netlify.app%2F&h=AUCAVXy5xV1UiMYSUXS2ByJe79I-FxuVXq6cf5hPVxO3RWxzsWtjz5THhq4nsOojPTXEyDVCcPyLS9sP9BsnKh59Hjlunvf3IHtn-JlQt9FxwdEfbURXqySnEwvukuukljDt9CdxKFkisBpAgKlaRw
+                    - generic [ref=f51e1013]:
+                      - generic [ref=f51e1014]:
+                        - button "KITATIVIDADESPARAIDOSOS.NETLIFY.APP" [ref=f51e1016]:
+                          - generic [ref=f51e1017]: KITATIVIDADESPARAIDOSOS.NETLIFY.APP
+                        - button "Trabalha com idosos? Veja isso" [ref=f51e1019]:
+                          - generic [ref=f51e1020]: Trabalha com idosos? Veja isso
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "Saiba mais" [ref=f51e1022]:
+                        - generic [ref=f51e1026]: Saiba mais
+            - generic [ref=f51e1028]:
+              - generic [ref=f51e1030]:
+                - generic [ref=f51e1031]:
+                  - generic [ref=f51e1038]: Ativo
+                  - generic [ref=f51e1041]: "Identificação da biblioteca: 993947739937135"
+                  - generic [ref=f51e1043]: "Veiculação iniciada em 2 de jul de 2026 · Tempo total ativo: 8h"
+                  - generic [ref=f51e1045]: Plataformas
+                - button "Abrir menu suspenso" [ref=f51e1059] [cursor=pointer]:
+                  - generic [ref=f51e1062]: Abrir menu suspenso
+              - button "Ver detalhes do anúncio" [ref=f51e1065] [cursor=pointer]:
+                - generic [ref=f51e1069]: Ver detalhes do anúncio
+              - separator [ref=f51e1070]
+              - generic [ref=f51e1075]:
+                - generic [ref=f51e1077]:
+                  - img "Luísa Helena" [ref=f51e1078]
+                  - generic [ref=f51e1080]:
+                    - link "Luísa Helena" [ref=f51e1081] [cursor=pointer]:
+                      - /url: https://www.facebook.com/100093035161395/
+                    - generic [ref=f51e1085]:
+                      - strong [ref=f51e1087]: Patrocinado
+                      - generic:
+                        - strong
+                - generic [ref=f51e1088]:
+                  - button "Transforme suas aulas e atendimentos com +1000 atividades, exercícios e alongamentos adaptados para idosos! ✅ Material completo, organizado e pronto para aplicar 📱 Aplicativo incluso — acesse direto do celular ♾️ Acesso vitalício — estude e use quando quiser Ideal para professores de educação física, cuidadores e fisioterapeutas que buscam novos exercícios para manter os idosos ativos, fortes e com mais qualidade de vida 💪✨ ➡️ Clique em “Saiba mais” e conheça o material completo!" [ref=f51e1091]:
+                    - generic [ref=f51e1094]:
+                      - text: Transforme suas aulas e atendimentos com +1000 atividades, exercícios e alongamentos adaptados para idosos!
+                      - text: ✅ Material completo, organizado e pronto para aplicar
+                      - text: 📱 Aplicativo incluso — acesse direto do celular
+                      - text: ♾️ Acesso vitalício — estude e use quando quiser
+                      - text: Ideal para professores de educação física, cuidadores e fisioterapeutas que buscam novos exercícios para manter os idosos ativos, fortes e com mais qualidade de vida 💪✨
+                      - text: ➡️ Clique em “Saiba mais” e conheça o material completo!
+                  - group "Video player" [ref=f51e1105]:
+                    - button "Reproduzir o vídeo" [ref=f51e1107] [cursor=pointer]
+                    - generic [ref=f51e1109]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reproduzir"
+                        - generic: 0:00 / 0:30
+                      - generic:
+                        - generic:
+                          - slider "Change Position"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Configurações"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Entrar no modo de tela cheia"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - slider "Alterar volume"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Reativar":
+                                  - img
+                  - link "KITATIVIDADESPARAIDOSOS.NETLIFY.APP Trabalha com idosos? Veja isso Saiba mais" [ref=f51e1111] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkitatividadesparaidosos.netlify.app%2F&h=AUCAVXy5xV1UiMYSUXS2ByJe79I-FxuVXq6cf5hPVxO3RWxzsWtjz5THhq4nsOojPTXEyDVCcPyLS9sP9BsnKh59Hjlunvf3IHtn-JlQt9FxwdEfbURXqySnEwvukuukljDt9CdxKFkisBpAgKlaRw
+                    - generic [ref=f51e1112]:
+                      - generic [ref=f51e1113]:
+                        - button "KITATIVIDADESPARAIDOSOS.NETLIFY.APP" [ref=f51e1115]:
+                          - generic [ref=f51e1116]: KITATIVIDADESPARAIDOSOS.NETLIFY.APP
+                        - button "Trabalha com idosos? Veja isso" [ref=f51e1118]:
+                          - generic [ref=f51e1119]: Trabalha com idosos? Veja isso
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "Saiba mais" [ref=f51e1121]:
+                        - generic [ref=f51e1125]: Saiba mais
+            - generic [ref=f51e1127]:
+              - generic [ref=f51e1129]:
+                - generic [ref=f51e1130]:
+                  - generic [ref=f51e1137]: Ativo
+                  - generic [ref=f51e1140]: "Identificação da biblioteca: 2271499463675263"
+                  - generic [ref=f51e1142]: "Veiculação iniciada em 1 de jul de 2026 · Tempo total ativo: 8h"
+                  - generic [ref=f51e1144]: Plataformas
+                - button "Abrir menu suspenso" [ref=f51e1158] [cursor=pointer]:
+                  - generic [ref=f51e1161]: Abrir menu suspenso
+              - button "Ver detalhes do anúncio" [ref=f51e1164] [cursor=pointer]:
+                - generic [ref=f51e1168]: Ver detalhes do anúncio
+              - separator [ref=f51e1169]
+              - generic [ref=f51e1174]:
+                - generic [ref=f51e1176]:
+                  - img "Luísa Helena" [ref=f51e1177]
+                  - generic [ref=f51e1179]:
+                    - link "Luísa Helena" [ref=f51e1180] [cursor=pointer]:
+                      - /url: https://www.facebook.com/100093035161395/
+                    - generic [ref=f51e1184]:
+                      - strong [ref=f51e1186]: Patrocinado
+                      - generic:
+                        - strong
+                - generic [ref=f51e1187]:
+                  - button "Transforme suas aulas e atendimentos com +1000 atividades, exercícios e alongamentos adaptados para idosos! ✅ Material completo, organizado e pronto para aplicar 📱 Aplicativo incluso — acesse direto do celular ♾️ Acesso vitalício — estude e use quando quiser Ideal para professores de educação física, cuidadores e fisioterapeutas que buscam novos exercícios para manter os idosos ativos, fortes e com mais qualidade de vida 💪✨ ➡️ Clique em “Saiba mais” e conheça o material completo!" [ref=f51e1190]:
+                    - generic [ref=f51e1193]:
+                      - text: Transforme suas aulas e atendimentos com +1000 atividades, exercícios e alongamentos adaptados para idosos!
+                      - text: ✅ Material completo, organizado e pronto para aplicar
+                      - text: 📱 Aplicativo incluso — acesse direto do celular
+                      - text: ♾️ Acesso vitalício — estude e use quando quiser
+                      - text: Ideal para professores de educação física, cuidadores e fisioterapeutas que buscam novos exercícios para manter os idosos ativos, fortes e com mais qualidade de vida 💪✨
+                      - text: ➡️ Clique em “Saiba mais” e conheça o material completo!
+                  - group "Video player" [ref=f51e1204]:
+                    - button "Reproduzir o vídeo" [ref=f51e1206] [cursor=pointer]
+                    - generic [ref=f51e1208]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reproduzir"
+                        - generic: 0:00 / 0:29
+                      - generic:
+                        - generic:
+                          - slider "Change Position"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Configurações"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Entrar no modo de tela cheia"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - slider "Alterar volume"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Reativar":
+                                  - img
+                  - link "KITATIVIDADESPARAIDOSOS.NETLIFY.APP Trabalha com idosos? Veja isso Saiba mais" [ref=f51e1210] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkitatividadesparaidosos.netlify.app%2F&h=AUCAVXy5xV1UiMYSUXS2ByJe79I-FxuVXq6cf5hPVxO3RWxzsWtjz5THhq4nsOojPTXEyDVCcPyLS9sP9BsnKh59Hjlunvf3IHtn-JlQt9FxwdEfbURXqySnEwvukuukljDt9CdxKFkisBpAgKlaRw
+                    - generic [ref=f51e1211]:
+                      - generic [ref=f51e1212]:
+                        - button "KITATIVIDADESPARAIDOSOS.NETLIFY.APP" [ref=f51e1214]:
+                          - generic [ref=f51e1215]: KITATIVIDADESPARAIDOSOS.NETLIFY.APP
+                        - button "Trabalha com idosos? Veja isso" [ref=f51e1217]:
+                          - generic [ref=f51e1218]: Trabalha com idosos? Veja isso
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "Saiba mais" [ref=f51e1220]:
+                        - generic [ref=f51e1224]: Saiba mais
+            - generic [ref=f51e1226]:
+              - generic [ref=f51e1228]:
+                - generic [ref=f51e1229]:
+                  - generic [ref=f51e1236]: Ativo
+                  - generic [ref=f51e1239]: "Identificação da biblioteca: 2981385258920367"
+                  - generic [ref=f51e1241]: "Veiculação iniciada em 1 de jul de 2026 · Tempo total ativo: 8h"
+                  - generic [ref=f51e1243]: Plataformas
+                - button "Abrir menu suspenso" [ref=f51e1257] [cursor=pointer]:
+                  - generic [ref=f51e1260]: Abrir menu suspenso
+              - button "Ver detalhes do anúncio" [ref=f51e1263] [cursor=pointer]:
+                - generic [ref=f51e1267]: Ver detalhes do anúncio
+              - separator [ref=f51e1268]
+              - generic [ref=f51e1273]:
+                - generic [ref=f51e1275]:
+                  - img "Luísa Helena" [ref=f51e1276]
+                  - generic [ref=f51e1278]:
+                    - link "Luísa Helena" [ref=f51e1279] [cursor=pointer]:
+                      - /url: https://www.facebook.com/100093035161395/
+                    - generic [ref=f51e1283]:
+                      - strong [ref=f51e1285]: Patrocinado
+                      - generic:
+                        - strong
+                - generic [ref=f51e1286]:
+                  - button "Transforme suas aulas e atendimentos com +1000 atividades, exercícios e alongamentos adaptados para idosos! ✅ Material completo, organizado e pronto para aplicar 📱 Aplicativo incluso — acesse direto do celular ♾️ Acesso vitalício — estude e use quando quiser Ideal para professores de educação física, cuidadores e fisioterapeutas que buscam novos exercícios para manter os idosos ativos, fortes e com mais qualidade de vida 💪✨ ➡️ Clique em “Saiba mais” e conheça o material completo!" [ref=f51e1289]:
+                    - generic [ref=f51e1292]:
+                      - text: Transforme suas aulas e atendimentos com +1000 atividades, exercícios e alongamentos adaptados para idosos!
+                      - text: ✅ Material completo, organizado e pronto para aplicar
+                      - text: 📱 Aplicativo incluso — acesse direto do celular
+                      - text: ♾️ Acesso vitalício — estude e use quando quiser
+                      - text: Ideal para professores de educação física, cuidadores e fisioterapeutas que buscam novos exercícios para manter os idosos ativos, fortes e com mais qualidade de vida 💪✨
+                      - text: ➡️ Clique em “Saiba mais” e conheça o material completo!
+                  - group "Video player" [ref=f51e1303]:
+                    - button "Reproduzir o vídeo" [ref=f51e1305] [cursor=pointer]
+                    - generic [ref=f51e1307]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reproduzir"
+                        - generic: 0:00 / 0:25
+                      - generic:
+                        - generic:
+                          - slider "Change Position"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Configurações"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Entrar no modo de tela cheia"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - slider "Alterar volume"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Reativar":
+                                  - img
+                  - link "KITATIVIDADESPARAIDOSOS.NETLIFY.APP Trabalha com idosos? Veja isso Saiba mais" [ref=f51e1309] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkitatividadesparaidosos.netlify.app%2F&h=AUCAVXy5xV1UiMYSUXS2ByJe79I-FxuVXq6cf5hPVxO3RWxzsWtjz5THhq4nsOojPTXEyDVCcPyLS9sP9BsnKh59Hjlunvf3IHtn-JlQt9FxwdEfbURXqySnEwvukuukljDt9CdxKFkisBpAgKlaRw
+                    - generic [ref=f51e1310]:
+                      - generic [ref=f51e1311]:
+                        - button "KITATIVIDADESPARAIDOSOS.NETLIFY.APP" [ref=f51e1313]:
+                          - generic [ref=f51e1314]: KITATIVIDADESPARAIDOSOS.NETLIFY.APP
+                        - button "Trabalha com idosos? Veja isso" [ref=f51e1316]:
+                          - generic [ref=f51e1317]: Trabalha com idosos? Veja isso
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "Saiba mais" [ref=f51e1319]:
+                        - generic [ref=f51e1323]: Saiba mais
+            - generic [ref=f51e1325]:
+              - generic [ref=f51e1327]:
+                - generic [ref=f51e1328]:
+                  - generic [ref=f51e1335]: Ativo
+                  - generic [ref=f51e1338]: "Identificação da biblioteca: 1006814408726269"
+                  - generic [ref=f51e1340]: "Veiculação iniciada em 1 de jul de 2026 · Tempo total ativo: 8h"
+                  - generic [ref=f51e1342]: Plataformas
+                - button "Abrir menu suspenso" [ref=f51e1356] [cursor=pointer]:
+                  - generic [ref=f51e1359]: Abrir menu suspenso
+              - button "Ver detalhes do anúncio" [ref=f51e1362] [cursor=pointer]:
+                - generic [ref=f51e1366]: Ver detalhes do anúncio
+              - separator [ref=f51e1367]
+              - generic [ref=f51e1372]:
+                - generic [ref=f51e1374]:
+                  - img "Luísa Helena" [ref=f51e1375]
+                  - generic [ref=f51e1377]:
+                    - link "Luísa Helena" [ref=f51e1378] [cursor=pointer]:
+                      - /url: https://www.facebook.com/100093035161395/
+                    - generic [ref=f51e1382]:
+                      - strong [ref=f51e1384]: Patrocinado
+                      - generic:
+                        - strong
+                - generic [ref=f51e1385]:
+                  - button "Transforme suas aulas e atendimentos com +1000 atividades, exercícios e alongamentos adaptados para idosos! ✅ Material completo, organizado e pronto para aplicar 📱 Aplicativo incluso — acesse direto do celular ♾️ Acesso vitalício — estude e use quando quiser Ideal para professores de educação física, cuidadores e fisioterapeutas que buscam novos exercícios para manter os idosos ativos, fortes e com mais qualidade de vida 💪✨ ➡️ Clique em “Saiba mais” e conheça o material completo!" [ref=f51e1388]:
+                    - generic [ref=f51e1391]:
+                      - text: Transforme suas aulas e atendimentos com +1000 atividades, exercícios e alongamentos adaptados para idosos!
+                      - text: ✅ Material completo, organizado e pronto para aplicar
+                      - text: 📱 Aplicativo incluso — acesse direto do celular
+                      - text: ♾️ Acesso vitalício — estude e use quando quiser
+                      - text: Ideal para professores de educação física, cuidadores e fisioterapeutas que buscam novos exercícios para manter os idosos ativos, fortes e com mais qualidade de vida 💪✨
+                      - text: ➡️ Clique em “Saiba mais” e conheça o material completo!
+                  - group "Video player" [ref=f51e1402]:
+                    - button "Reproduzir o vídeo" [ref=f51e1404] [cursor=pointer]
+                    - generic [ref=f51e1406]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reproduzir"
+                        - generic: 0:00 / 0:47
+                      - generic:
+                        - generic:
+                          - slider "Change Position"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Configurações"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Entrar no modo de tela cheia"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - slider "Alterar volume"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Reativar":
+                                  - img
+                  - link "KITATIVIDADESPARAIDOSOS.NETLIFY.APP Trabalha com idosos? Veja isso Saiba mais" [ref=f51e1408] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkitatividadesparaidosos.netlify.app%2F&h=AUCAVXy5xV1UiMYSUXS2ByJe79I-FxuVXq6cf5hPVxO3RWxzsWtjz5THhq4nsOojPTXEyDVCcPyLS9sP9BsnKh59Hjlunvf3IHtn-JlQt9FxwdEfbURXqySnEwvukuukljDt9CdxKFkisBpAgKlaRw
+                    - generic [ref=f51e1409]:
+                      - generic [ref=f51e1410]:
+                        - button "KITATIVIDADESPARAIDOSOS.NETLIFY.APP" [ref=f51e1412]:
+                          - generic [ref=f51e1413]: KITATIVIDADESPARAIDOSOS.NETLIFY.APP
+                        - button "Trabalha com idosos? Veja isso" [ref=f51e1415]:
+                          - generic [ref=f51e1416]: Trabalha com idosos? Veja isso
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "Saiba mais" [ref=f51e1418]:
+                        - generic [ref=f51e1422]: Saiba mais
+            - generic [ref=f51e1424]:
+              - generic [ref=f51e1426]:
+                - generic [ref=f51e1427]:
+                  - generic [ref=f51e1434]: Ativo
+                  - generic [ref=f51e1437]: "Identificação da biblioteca: 1506816564513614"
+                  - generic [ref=f51e1439]: "Veiculação iniciada em 1 de jul de 2026 · Tempo total ativo: 8h"
+                  - generic [ref=f51e1441]: Plataformas
+                - button "Abrir menu suspenso" [ref=f51e1455] [cursor=pointer]:
+                  - generic [ref=f51e1458]: Abrir menu suspenso
+              - button "Ver detalhes do anúncio" [ref=f51e1461] [cursor=pointer]:
+                - generic [ref=f51e1465]: Ver detalhes do anúncio
+              - separator [ref=f51e1466]
+              - generic [ref=f51e1471]:
+                - generic [ref=f51e1473]:
+                  - img "Luísa Helena" [ref=f51e1474]
+                  - generic [ref=f51e1476]:
+                    - link "Luísa Helena" [ref=f51e1477] [cursor=pointer]:
+                      - /url: https://www.facebook.com/100093035161395/
+                    - generic [ref=f51e1481]:
+                      - strong [ref=f51e1483]: Patrocinado
+                      - generic:
+                        - strong
+                - generic [ref=f51e1484]:
+                  - button [ref=f51e1487]:
+                    - generic [ref=f51e1490]:
+                      - text: Perdendo tempo procurando e adaptando exercícios de pilates para idosos?
+                      - text: Muitos profissionais acabam repetindo as mesmas aulas por falta de repertório e praticidade no dia a dia.
+                      - text: Esse material foi criado exatamente para professores de pilates, fisioterapeutas e educadores físicos que trabalham com idosos e precisam de exercícios organizados e prontos para aplicar.
+                      - text: "👉 Dentro do acesso você encontra:"
+                      - text: Exercícios de pilates adaptados para idosos
+                      - text: Exercícios organizados por nível e objetivo
+                      - text: Pilates no Solo, Bola Suíça, Magic Circle e Faixas Elásticas
+                      - text: Exercícios para mobilidade, equilíbrio e fortalecimento
+                      - text: Conteúdos para idosos com mobilidade reduzida e recuperação física
+                      - text: Guia de avaliação física para idosos no pilates
+                      - text: Tudo pensado para facilitar o planejamento das aulas e trazer mais praticidade no dia a dia.
+                      - text: Se você quer variar mais as aulas e ganhar tempo no planejamento…
+                      - text: ➡️ Clique no botão e tenha acesso imediato
+                  - group "Video player" [ref=f51e1500]:
+                    - button "Reproduzir o vídeo" [ref=f51e1502] [cursor=pointer]
+                    - generic [ref=f51e1504]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reproduzir"
+                        - generic: 0:00 / 0:35
+                      - generic:
+                        - generic:
+                          - slider "Change Position"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Configurações"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Entrar no modo de tela cheia"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - slider "Alterar volume"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Reativar":
+                                  - img
+                  - link "PILATESPARAIDOSOS.NETLIFY.APP +500 Exercícios de Pilates para Idosos Saiba mais" [ref=f51e1506] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fpilatesparaidosos.netlify.app%2F&h=AUCAVXy5xV1UiMYSUXS2ByJe79I-FxuVXq6cf5hPVxO3RWxzsWtjz5THhq4nsOojPTXEyDVCcPyLS9sP9BsnKh59Hjlunvf3IHtn-JlQt9FxwdEfbURXqySnEwvukuukljDt9CdxKFkisBpAgKlaRw
+                    - generic [ref=f51e1507]:
+                      - generic [ref=f51e1508]:
+                        - button "PILATESPARAIDOSOS.NETLIFY.APP" [ref=f51e1510]:
+                          - generic [ref=f51e1511]: PILATESPARAIDOSOS.NETLIFY.APP
+                        - button "+500 Exercícios de Pilates para Idosos" [ref=f51e1513]:
+                          - generic [ref=f51e1514]: +500 Exercícios de Pilates para Idosos
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "Saiba mais" [ref=f51e1516]:
+                        - generic [ref=f51e1520]: Saiba mais
+            - generic [ref=f51e1522]:
+              - generic [ref=f51e1524]:
+                - generic [ref=f51e1525]:
+                  - generic [ref=f51e1532]: Ativo
+                  - generic [ref=f51e1535]: "Identificação da biblioteca: 1090224710095149"
+                  - generic [ref=f51e1537]: "Veiculação iniciada em 1 de jul de 2026 · Tempo total ativo: 8h"
+                  - generic [ref=f51e1539]: Plataformas
+                - button "Abrir menu suspenso" [ref=f51e1553] [cursor=pointer]:
+                  - generic [ref=f51e1556]: Abrir menu suspenso
+              - button "Ver detalhes do anúncio" [ref=f51e1559] [cursor=pointer]:
+                - generic [ref=f51e1563]: Ver detalhes do anúncio
+              - separator [ref=f51e1564]
+              - generic [ref=f51e1569]:
+                - generic [ref=f51e1571]:
+                  - img "Luísa Helena" [ref=f51e1572]
+                  - generic [ref=f51e1574]:
+                    - link "Luísa Helena" [ref=f51e1575] [cursor=pointer]:
+                      - /url: https://www.facebook.com/100093035161395/
+                    - generic [ref=f51e1579]:
+                      - strong [ref=f51e1581]: Patrocinado
+                      - generic:
+                        - strong
+                - generic [ref=f51e1582]:
+                  - button [ref=f51e1585]:
+                    - generic [ref=f51e1588]:
+                      - text: Perdendo tempo procurando e adaptando exercícios de pilates para idosos?
+                      - text: Muitos profissionais acabam repetindo as mesmas aulas por falta de repertório e praticidade no dia a dia.
+                      - text: Esse material foi criado exatamente para professores de pilates, fisioterapeutas e educadores físicos que trabalham com idosos e precisam de exercícios organizados e prontos para aplicar.
+                      - text: "👉 Dentro do acesso você encontra:"
+                      - text: Exercícios de pilates adaptados para idosos
+                      - text: Exercícios organizados por nível e objetivo
+                      - text: Pilates no Solo, Bola Suíça, Magic Circle e Faixas Elásticas
+                      - text: Exercícios para mobilidade, equilíbrio e fortalecimento
+                      - text: Conteúdos para idosos com mobilidade reduzida e recuperação física
+                      - text: Guia de avaliação física para idosos no pilates
+                      - text: Tudo pensado para facilitar o planejamento das aulas e trazer mais praticidade no dia a dia.
+                      - text: Se você quer variar mais as aulas e ganhar tempo no planejamento…
+                      - text: ➡️ Clique no botão e tenha acesso imediato
+                  - group "Video player" [ref=f51e1598]:
+                    - button "Reproduzir o vídeo" [ref=f51e1600] [cursor=pointer]
+                    - generic [ref=f51e1602]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Reproduzir"
+                        - generic: 0:00 / 0:37
+                      - generic:
+                        - generic:
+                          - slider "Change Position"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Configurações"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button "Entrar no modo de tela cheia"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - slider "Alterar volume"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Reativar":
+                                  - img
+                  - link "PILATESPARAIDOSOS.NETLIFY.APP +500 Exercícios de Pilates para Idosos Saiba mais" [ref=f51e1604] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fpilatesparaidosos.netlify.app%2F&h=AUCAVXy5xV1UiMYSUXS2ByJe79I-FxuVXq6cf5hPVxO3RWxzsWtjz5THhq4nsOojPTXEyDVCcPyLS9sP9BsnKh59Hjlunvf3IHtn-JlQt9FxwdEfbURXqySnEwvukuukljDt9CdxKFkisBpAgKlaRw
+                    - generic [ref=f51e1605]:
+                      - generic [ref=f51e1606]:
+                        - button "PILATESPARAIDOSOS.NETLIFY.APP" [ref=f51e1608]:
+                          - generic [ref=f51e1609]: PILATESPARAIDOSOS.NETLIFY.APP
+                        - button "+500 Exercícios de Pilates para Idosos" [ref=f51e1611]:
+                          - generic [ref=f51e1612]: +500 Exercícios de Pilates para Idosos
+                        - generic:
+                          - button
+                        - generic:
+                          - button
+                      - button "Saiba mais" [ref=f51e1614]:
+                        - generic [ref=f51e1618]: Saiba mais
+      - generic [ref=f51e1620]:
+        - generic [ref=f51e1628]: Status do sistema
+        - generic [ref=f51e1632]:
+          - list [ref=f51e1633]:
+            - listitem [ref=f51e1634]:
+              - heading "API da Biblioteca de Anúncios" [level=3] [ref=f51e1635]:
+                - link "API da Biblioteca de Anúncios" [ref=f51e1636] [cursor=pointer]:
+                  - /url: /ads/library/api/?source=archive-landing-page
+            - listitem [ref=f51e1637]:
+              - heading "Sobre anúncios e uso de dados" [level=3] [ref=f51e1638]:
+                - link "Sobre anúncios e uso de dados" [ref=f51e1639] [cursor=pointer]:
+                  - /url: /ads/about/?entry_product=ad_library
+            - listitem [ref=f51e1640]:
+              - heading "Privacidade" [level=3] [ref=f51e1641]:
+                - link "Privacidade" [ref=f51e1642] [cursor=pointer]:
+                  - /url: /privacy/center/?entry_point=privacy_basics_redirect
+            - listitem [ref=f51e1643]:
+              - heading "Termos" [level=3] [ref=f51e1644]:
+                - link "Termos" [ref=f51e1645] [cursor=pointer]:
+                  - /url: /policies/
+            - listitem [ref=f51e1646]:
+              - heading "Cookies" [level=3] [ref=f51e1647]:
+                - link "Cookies" [ref=f51e1648] [cursor=pointer]:
+                  - /url: /policies/cookies/
+          - heading "Meta © 2026 | Português (Brasil)" [level=3] [ref=f51e1650]:
+            - text: Meta © 2026 |
+            - link "Português (Brasil)" [ref=f51e1651] [cursor=pointer]:
+              - /url: /language/
+  - dialog "Link para o anúncio" [ref=f51e1654]:
+    - generic [ref=f51e1656]:
+      - generic [ref=f51e1657]:
+        - heading "Link para o anúncio" [level=3] [ref=f51e1660]
+        - button "Fechar" [active] [ref=f51e1663] [cursor=pointer]:
+          - generic [ref=f51e1666]: Fechar
+      - generic [ref=f51e1676]:
+        - generic [ref=f51e1677]:
+          - heading "O anúncio não está na Biblioteca de Anúncios" [level=2] [ref=f51e1678]
+          - generic [ref=f51e1679]: O motivo mais comum pelo qual isso acontece é porque o anúncio ainda não recebeu nenhuma impressão.
+        - button "Copiar link do anúncio" [ref=f51e1680] [cursor=pointer]:
+          - generic [ref=f51e1685]: Copiar link do anúncio
+        - link "Veja dicas de pesquisa." [ref=f51e1687] [cursor=pointer]:
+          - /url: "#"
+        - generic:
+          - list
+      - button "Fechar" [ref=f51e1690] [cursor=pointer]:
+        - generic [ref=f51e1694]: Fechar

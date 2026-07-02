@@ -1,0 +1,74 @@
+- generic [ref=f16e12]:
+  - generic [ref=f16e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=f16e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=f16e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=f16e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=f16e24] [cursor=pointer]:
+      - generic [ref=f16e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=f16e27] [cursor=pointer]:
+      - generic [ref=f16e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=f16e30] [cursor=pointer]:
+      - generic [ref=f16e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=f16e33] [cursor=pointer]
+  - generic [ref=f16e40]:
+    - combobox "Tudo" [ref=f16e44] [cursor=pointer]:
+      - generic [ref=f16e51]: Tudo
+    - combobox "Todos os anúncios" [ref=f16e62] [cursor=pointer]:
+      - generic [ref=f16e72]: Todos os anúncios
+    - generic [ref=f16e82]:
+      - generic [ref=f16e88]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=f16e94]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=f16e100]: Jiu-jitsu Kids
+        - button "Limpar" [ref=f16e102] [cursor=pointer]
+  - generic [ref=f16e105]:
+    - generic [ref=f16e107]:
+      - img "Foto do perfil da Página" [ref=f16e112]
+      - link "Jiu-jitsu Kids" [ref=f16e115] [cursor=pointer]:
+        - /url: https://facebook.com/61579564396962
+        - heading "Jiu-jitsu Kids" [level=1] [ref=f16e116]
+    - generic [ref=f16e117]:
+      - link "Anúncios" [ref=f16e118] [cursor=pointer]
+      - link "Sobre" [ref=f16e119] [cursor=pointer]
+  - dialog [ref=f16e120]:
+    - generic [ref=f16e121]:
+      - link [ref=f16e122] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f16e123]: Entrar
+      - menuitem [ref=f16e124] [cursor=pointer]
+    - generic [ref=f16e126]:
+      - generic [ref=f16e127]:
+        - heading [level=4] [ref=f16e129]: Biblioteca de Anúncios
+        - menuitem [ref=f16e131] [cursor=pointer]:
+          - heading [level=4] [ref=f16e133]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=f16e135] [cursor=pointer]:
+          - heading [level=4] [ref=f16e137]: API da Biblioteca de Anúncios
+        - menuitem [ref=f16e139] [cursor=pointer]:
+          - heading [level=4] [ref=f16e141]: Conteúdo de marca
+      - separator [ref=f16e142]
+      - generic [ref=f16e143]:
+        - menuitem [ref=f16e145] [cursor=pointer]:
+          - heading [level=4] [ref=f16e147]: Status do sistema
+        - menuitem [ref=f16e149] [cursor=pointer]:
+          - heading [level=4] [ref=f16e151]: Assinar para receber atualizações por email
+        - menuitem [ref=f16e153] [cursor=pointer]:
+          - heading [level=4] [ref=f16e155]: Perguntas frequentes
+        - menuitem [ref=f16e157] [cursor=pointer]:
+          - heading [level=4] [ref=f16e159]: Sobre anúncios e uso de dados
+        - menuitem [ref=f16e161] [cursor=pointer]:
+          - heading [level=4] [ref=f16e163]: Privacidade
+        - menuitem [ref=f16e165] [cursor=pointer]:
+          - heading [level=4] [ref=f16e167]: Termos
+        - menuitem [ref=f16e169] [cursor=pointer]:
+          - heading [level=4] [ref=f16e171]: Cookies
+  - generic [ref=f16e175]:
+    - progressbar [ref=f16e176]
+    - progressbar [ref=f16e177]
+    - progressbar [ref=f16e178]
+    - progressbar [ref=f16e179]
+    - progressbar [ref=f16e180]
+    - progressbar [ref=f16e181]
+    - progressbar [ref=f16e182]
+    - progressbar [ref=f16e183]
+    - progressbar [ref=f16e184]
+    - progressbar [ref=f16e185]

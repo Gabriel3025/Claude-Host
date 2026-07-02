@@ -1,0 +1,74 @@
+- generic [ref=f35e12]:
+  - generic [ref=f35e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=f35e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=f35e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=f35e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=f35e24] [cursor=pointer]:
+      - generic [ref=f35e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=f35e27] [cursor=pointer]:
+      - generic [ref=f35e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=f35e30] [cursor=pointer]:
+      - generic [ref=f35e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=f35e33] [cursor=pointer]
+  - generic [ref=f35e40]:
+    - combobox "Brasil" [ref=f35e44] [cursor=pointer]:
+      - generic [ref=f35e51]: Brasil
+    - combobox "Todos os anúncios" [ref=f35e62] [cursor=pointer]:
+      - generic [ref=f35e72]: Todos os anúncios
+    - generic [ref=f35e82]:
+      - generic [ref=f35e88]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=f35e94]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=f35e100]: MetDesign
+        - button "Limpar" [ref=f35e102] [cursor=pointer]
+  - generic [ref=f35e105]:
+    - generic [ref=f35e107]:
+      - img "Foto do perfil da Página" [ref=f35e112]
+      - link "MetDesign" [ref=f35e115] [cursor=pointer]:
+        - /url: https://facebook.com/61558876820804
+        - heading "MetDesign" [level=1] [ref=f35e116]
+    - generic [ref=f35e117]:
+      - link "Anúncios" [ref=f35e118] [cursor=pointer]
+      - link "Sobre" [ref=f35e119] [cursor=pointer]
+  - dialog [ref=f35e120]:
+    - generic [ref=f35e121]:
+      - link [ref=f35e122] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f35e123]: Entrar
+      - menuitem [ref=f35e124] [cursor=pointer]
+    - generic [ref=f35e126]:
+      - generic [ref=f35e127]:
+        - heading [level=4] [ref=f35e129]: Biblioteca de Anúncios
+        - menuitem [ref=f35e131] [cursor=pointer]:
+          - heading [level=4] [ref=f35e133]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=f35e135] [cursor=pointer]:
+          - heading [level=4] [ref=f35e137]: API da Biblioteca de Anúncios
+        - menuitem [ref=f35e139] [cursor=pointer]:
+          - heading [level=4] [ref=f35e141]: Conteúdo de marca
+      - separator [ref=f35e142]
+      - generic [ref=f35e143]:
+        - menuitem [ref=f35e145] [cursor=pointer]:
+          - heading [level=4] [ref=f35e147]: Status do sistema
+        - menuitem [ref=f35e149] [cursor=pointer]:
+          - heading [level=4] [ref=f35e151]: Assinar para receber atualizações por email
+        - menuitem [ref=f35e153] [cursor=pointer]:
+          - heading [level=4] [ref=f35e155]: Perguntas frequentes
+        - menuitem [ref=f35e157] [cursor=pointer]:
+          - heading [level=4] [ref=f35e159]: Sobre anúncios e uso de dados
+        - menuitem [ref=f35e161] [cursor=pointer]:
+          - heading [level=4] [ref=f35e163]: Privacidade
+        - menuitem [ref=f35e165] [cursor=pointer]:
+          - heading [level=4] [ref=f35e167]: Termos
+        - menuitem [ref=f35e169] [cursor=pointer]:
+          - heading [level=4] [ref=f35e171]: Cookies
+  - generic [ref=f35e175]:
+    - progressbar [ref=f35e176]
+    - progressbar [ref=f35e177]
+    - progressbar [ref=f35e178]
+    - progressbar [ref=f35e179]
+    - progressbar [ref=f35e180]
+    - progressbar [ref=f35e181]
+    - progressbar [ref=f35e182]
+    - progressbar [ref=f35e183]
+    - progressbar [ref=f35e184]
+    - progressbar [ref=f35e185]
