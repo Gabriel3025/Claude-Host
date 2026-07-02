@@ -1,0 +1,184 @@
+- generic [active] [ref=f44e1]:
+  - button "Open Next.js Dev Tools" [ref=f44e22] [cursor=pointer]:
+    - img [ref=f44e23]
+  - alert [ref=f44e26]
+  - generic [ref=f44e350]:
+    - generic [ref=f44e353]:
+      - generic [ref=f44e354]:
+        - img "Calistenia Asiática Logo" [ref=f44e355]
+        - generic [ref=f44e356]:
+          - heading "Desafio 21 Dias" [level=1] [ref=f44e357]
+          - paragraph [ref=f44e358]: Calistenia Asiática - Sua Jornada Começou!
+          - paragraph [ref=f44e359]: Bem-vindo, Gabriel!
+      - generic [ref=f44e360]:
+        - button "Toggle theme" [ref=f44e361]: ☀️
+        - button "Sair" [ref=f44e362]
+    - generic [ref=f44e363]:
+      - generic [ref=f44e364]:
+        - generic [ref=f44e366]:
+          - generic [ref=f44e367]: "Progresso: 1/21 dias"
+          - generic [ref=f44e368]: 5%
+        - generic [ref=f44e371]:
+          - generic [ref=f44e372]:
+            - generic [ref=f44e373]: "1"
+            - paragraph [ref=f44e374]: Dias Completos
+          - generic [ref=f44e375]:
+            - generic [ref=f44e376]: "2"
+            - paragraph [ref=f44e377]: Dia Atual
+          - generic [ref=f44e378]:
+            - generic [ref=f44e379]: "20"
+            - paragraph [ref=f44e380]: Faltam
+      - generic [ref=f44e381]:
+        - generic [ref=f44e382]:
+          - link "Dia 1 ~15 minutos ✅" [ref=f44e383] [cursor=pointer]:
+            - /url: /day/1
+            - generic [ref=f44e385]:
+              - generic [ref=f44e386]:
+                - heading "Dia 1" [level=3] [ref=f44e387]
+                - paragraph [ref=f44e388]: ~15 minutos
+              - generic [ref=f44e389]: ✅
+          - button "↶" [ref=f44e390]
+        - link "Dia 2 ~15 minutos 🎯 Começar agora" [ref=f44e392] [cursor=pointer]:
+          - /url: /day/2
+          - generic [ref=f44e393]:
+            - generic [ref=f44e394]:
+              - generic [ref=f44e395]:
+                - heading "Dia 2" [level=3] [ref=f44e396]
+                - paragraph [ref=f44e397]: ~15 minutos
+              - generic [ref=f44e398]: 🎯
+            - generic [ref=f44e399]: Começar agora
+        - generic [ref=f44e401]:
+          - generic [ref=f44e402]:
+            - generic [ref=f44e403]:
+              - heading "Dia 3" [level=3] [ref=f44e404]
+              - paragraph [ref=f44e405]: ~15 minutos
+            - generic [ref=f44e406]: 🔒
+          - generic [ref=f44e407]: Complete os dias anteriores para desbloquear
+        - generic [ref=f44e409]:
+          - generic [ref=f44e410]:
+            - generic [ref=f44e411]:
+              - heading "Dia 4" [level=3] [ref=f44e412]
+              - paragraph [ref=f44e413]: ~15 minutos
+            - generic [ref=f44e414]: 🔒
+          - generic [ref=f44e415]: Complete os dias anteriores para desbloquear
+        - generic [ref=f44e417]:
+          - generic [ref=f44e418]:
+            - generic [ref=f44e419]:
+              - heading "Dia 5" [level=3] [ref=f44e420]
+              - paragraph [ref=f44e421]: ~15 minutos
+            - generic [ref=f44e422]: 🔒
+          - generic [ref=f44e423]: Complete os dias anteriores para desbloquear
+        - generic [ref=f44e425]:
+          - generic [ref=f44e426]:
+            - generic [ref=f44e427]:
+              - heading "Dia 6" [level=3] [ref=f44e428]
+              - paragraph [ref=f44e429]: ~15 minutos
+            - generic [ref=f44e430]: 🔒
+          - generic [ref=f44e431]: Complete os dias anteriores para desbloquear
+        - generic [ref=f44e433]:
+          - generic [ref=f44e434]:
+            - generic [ref=f44e435]:
+              - heading "Dia 7" [level=3] [ref=f44e436]
+              - paragraph [ref=f44e437]: ~15 minutos
+            - generic [ref=f44e438]: 🔒
+          - generic [ref=f44e439]: Complete os dias anteriores para desbloquear
+        - generic [ref=f44e441]:
+          - generic [ref=f44e442]:
+            - generic [ref=f44e443]:
+              - heading "Dia 8" [level=3] [ref=f44e444]
+              - paragraph [ref=f44e445]: ~15 minutos
+            - generic [ref=f44e446]: 🔒
+          - generic [ref=f44e447]: Complete os dias anteriores para desbloquear
+        - generic [ref=f44e449]:
+          - generic [ref=f44e450]:
+            - generic [ref=f44e451]:
+              - heading "Dia 9" [level=3] [ref=f44e452]
+              - paragraph [ref=f44e453]: ~15 minutos
+            - generic [ref=f44e454]: 🔒
+          - generic [ref=f44e455]: Complete os dias anteriores para desbloquear
+        - generic [ref=f44e457]:
+          - generic [ref=f44e458]:
+            - generic [ref=f44e459]:
+              - heading "Dia 10" [level=3] [ref=f44e460]
+              - paragraph [ref=f44e461]: ~15 minutos
+            - generic [ref=f44e462]: 🔒
+          - generic [ref=f44e463]: Complete os dias anteriores para desbloquear
+        - generic [ref=f44e465]:
+          - generic [ref=f44e466]:
+            - generic [ref=f44e467]:
+              - heading "Dia 11" [level=3] [ref=f44e468]
+              - paragraph [ref=f44e469]: ~15 minutos
+            - generic [ref=f44e470]: 🔒
+          - generic [ref=f44e471]: Complete os dias anteriores para desbloquear
+        - generic [ref=f44e473]:
+          - generic [ref=f44e474]:
+            - generic [ref=f44e475]:
+              - heading "Dia 12" [level=3] [ref=f44e476]
+              - paragraph [ref=f44e477]: ~15 minutos
+            - generic [ref=f44e478]: 🔒
+          - generic [ref=f44e479]: Complete os dias anteriores para desbloquear
+        - generic [ref=f44e481]:
+          - generic [ref=f44e482]:
+            - generic [ref=f44e483]:
+              - heading "Dia 13" [level=3] [ref=f44e484]
+              - paragraph [ref=f44e485]: ~15 minutos
+            - generic [ref=f44e486]: 🔒
+          - generic [ref=f44e487]: Complete os dias anteriores para desbloquear
+        - generic [ref=f44e489]:
+          - generic [ref=f44e490]:
+            - generic [ref=f44e491]:
+              - heading "Dia 14" [level=3] [ref=f44e492]
+              - paragraph [ref=f44e493]: Descanso relativo
+            - generic [ref=f44e494]: 🔒
+          - generic [ref=f44e495]: Complete os dias anteriores para desbloquear
+        - generic [ref=f44e497]:
+          - generic [ref=f44e498]:
+            - generic [ref=f44e499]:
+              - heading "Dia 15" [level=3] [ref=f44e500]
+              - paragraph [ref=f44e501]: ~15 minutos
+            - generic [ref=f44e502]: 🔒
+          - generic [ref=f44e503]: Complete os dias anteriores para desbloquear
+        - generic [ref=f44e505]:
+          - generic [ref=f44e506]:
+            - generic [ref=f44e507]:
+              - heading "Dia 16" [level=3] [ref=f44e508]
+              - paragraph [ref=f44e509]: ~15 minutos
+            - generic [ref=f44e510]: 🔒
+          - generic [ref=f44e511]: Complete os dias anteriores para desbloquear
+        - generic [ref=f44e513]:
+          - generic [ref=f44e514]:
+            - generic [ref=f44e515]:
+              - heading "Dia 17" [level=3] [ref=f44e516]
+              - paragraph [ref=f44e517]: ~15 minutos
+            - generic [ref=f44e518]: 🔒
+          - generic [ref=f44e519]: Complete os dias anteriores para desbloquear
+        - generic [ref=f44e521]:
+          - generic [ref=f44e522]:
+            - generic [ref=f44e523]:
+              - heading "Dia 18" [level=3] [ref=f44e524]
+              - paragraph [ref=f44e525]: ~15 minutos
+            - generic [ref=f44e526]: 🔒
+          - generic [ref=f44e527]: Complete os dias anteriores para desbloquear
+        - generic [ref=f44e529]:
+          - generic [ref=f44e530]:
+            - generic [ref=f44e531]:
+              - heading "Dia 19" [level=3] [ref=f44e532]
+              - paragraph [ref=f44e533]: ~15 minutos
+            - generic [ref=f44e534]: 🔒
+          - generic [ref=f44e535]: Complete os dias anteriores para desbloquear
+        - generic [ref=f44e537]:
+          - generic [ref=f44e538]:
+            - generic [ref=f44e539]:
+              - heading "Dia 20" [level=3] [ref=f44e540]
+              - paragraph [ref=f44e541]: ~15 minutos
+            - generic [ref=f44e542]: 🔒
+          - generic [ref=f44e543]: Complete os dias anteriores para desbloquear
+        - generic [ref=f44e545]:
+          - generic [ref=f44e546]:
+            - generic [ref=f44e547]:
+              - heading "Dia 21" [level=3] [ref=f44e548]
+              - paragraph [ref=f44e549]: ~15 minutos
+            - generic [ref=f44e550]: 🔒
+          - generic [ref=f44e551]: Complete os dias anteriores para desbloquear
+      - button "🔄 Reiniciar Desafio" [ref=f44e553]
+    - paragraph [ref=f44e555]: 💪 Força, Determinação e Consistência

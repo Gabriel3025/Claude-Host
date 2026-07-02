@@ -1,0 +1,7 @@
+- generic [active] [ref=f44e1]:
+  - button "Open Next.js Dev Tools" [ref=f44e22] [cursor=pointer]:
+    - img [ref=f44e23]
+  - alert [ref=f44e26]
+  - generic [ref=f44e50]:
+    - generic [ref=f44e51]: 🔄
+    - paragraph [ref=f44e52]: Carregando seu desafio...

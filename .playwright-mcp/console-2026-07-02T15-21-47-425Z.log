@@ -13,3 +13,14 @@
 [   22575ms] [LOG] ➡️ Redirecionando para preencher dados... @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
 [   22702ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
 [   24247ms] [LOG] [Fast Refresh] done in 1648ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  190477ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  190513ms] [LOG] [Fast Refresh] done in 144ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  386469ms] [ERROR] Failed to load resource: the server responded with a status of 409 () @ https://zgetngxwievfhcgtfnhx.supabase.co/rest/v1/progress?columns=%22user_id%22%2C%22day%22:0
+[  386473ms] [LOG] ✅ Progress synced before logout @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  410246ms] [LOG] 🔐 Tentando login para: gabrielferreiradesouza1@gmail.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  410250ms] [LOG] 🔑 Tentando signin... @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  410534ms] [LOG] ✅ Login bem-sucedido! @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  412470ms] [LOG] 📋 Session after refresh: gabrielferreiradesouza1@gmail.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  412470ms] [LOG] ✅ Usuário autenticado, verificando perfil... @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  413470ms] [LOG] 📝 Perfil encontrado: sim @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  413471ms] [LOG] ➡️ Redirecionando para dashboard... @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
