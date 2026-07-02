@@ -1,0 +1,354 @@
+[
+  {
+    "rowIdx": 1,
+    "produto": "Tarot",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 2
+  },
+  {
+    "rowIdx": 8,
+    "produto": "Como plantar",
+    "colDia": 14,
+    "valor": 500,
+    "dia": 9,
+    "sheetRow": 9
+  },
+  {
+    "rowIdx": 12,
+    "produto": "Neuropro",
+    "colDia": 14,
+    "valor": 16,
+    "dia": 9,
+    "sheetRow": 13
+  },
+  {
+    "rowIdx": 20,
+    "produto": "Airfryer",
+    "colDia": 14,
+    "valor": 700,
+    "dia": 9,
+    "sheetRow": 21
+  },
+  {
+    "rowIdx": 30,
+    "produto": "Saude (Euro)",
+    "colDia": 14,
+    "valor": 68,
+    "dia": 9,
+    "sheetRow": 31
+  },
+  {
+    "rowIdx": 32,
+    "produto": "Emagrecimento",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 33
+  },
+  {
+    "rowIdx": 33,
+    "produto": "Atividade cursiva",
+    "colDia": 14,
+    "valor": 60,
+    "dia": 9,
+    "sheetRow": 34
+  },
+  {
+    "rowIdx": 34,
+    "produto": "Jiujistu",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 35
+  },
+  {
+    "rowIdx": 35,
+    "produto": "Alfabetização",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 36
+  },
+  {
+    "rowIdx": 36,
+    "produto": "Pacotes de músicas",
+    "colDia": 14,
+    "valor": 24,
+    "dia": 9,
+    "sheetRow": 37
+  },
+  {
+    "rowIdx": 38,
+    "produto": "100 Brincadeiras Bebês",
+    "colDia": 14,
+    "valor": 6,
+    "dia": 9,
+    "sheetRow": 39
+  },
+  {
+    "rowIdx": 39,
+    "produto": "Organização do Lar",
+    "colDia": 14,
+    "valor": 400,
+    "dia": 9,
+    "sheetRow": 40
+  },
+  {
+    "rowIdx": 40,
+    "produto": "DryWall",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 41
+  },
+  {
+    "rowIdx": 41,
+    "produto": "100 Cards Anti-Bullying",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 42
+  },
+  {
+    "rowIdx": 42,
+    "produto": "Planilha Capivarinha",
+    "colDia": 14,
+    "valor": 11,
+    "dia": 9,
+    "sheetRow": 43
+  },
+  {
+    "rowIdx": 43,
+    "produto": "JiuJistsu (LATAM)",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 44
+  },
+  {
+    "rowIdx": 52,
+    "produto": "Atividades Copa do mundo",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 53
+  },
+  {
+    "rowIdx": 53,
+    "produto": "Calistenia asiática",
+    "colDia": 14,
+    "valor": 140,
+    "dia": 9,
+    "sheetRow": 54
+  },
+  {
+    "rowIdx": 56,
+    "produto": "Hora da Leiturinha",
+    "colDia": 14,
+    "valor": 55,
+    "dia": 9,
+    "sheetRow": 57
+  },
+  {
+    "rowIdx": 58,
+    "produto": "Cafajeste (Acompanhar OF)",
+    "colDia": 14,
+    "valor": 520,
+    "dia": 9,
+    "sheetRow": 59
+  },
+  {
+    "rowIdx": 60,
+    "produto": "Painel Campeões",
+    "colDia": 14,
+    "valor": 95,
+    "dia": 9,
+    "sheetRow": 61
+  },
+  {
+    "rowIdx": 61,
+    "produto": "Dinamicas aulas de PTBR",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 62
+  },
+  {
+    "rowIdx": 62,
+    "produto": "Planilha financeira",
+    "colDia": 14,
+    "valor": 900,
+    "dia": 9,
+    "sheetRow": 63
+  },
+  {
+    "rowIdx": 63,
+    "produto": "Atividades da Pro",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 64
+  },
+  {
+    "rowIdx": 64,
+    "produto": "Calistenia asiática 2",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 65
+  },
+  {
+    "rowIdx": 65,
+    "produto": "Atividades de português",
+    "colDia": 14,
+    "valor": 720,
+    "dia": 9,
+    "sheetRow": 66
+  },
+  {
+    "rowIdx": 66,
+    "produto": "Atividades em segundos",
+    "colDia": 14,
+    "valor": 800,
+    "dia": 9,
+    "sheetRow": 67
+  },
+  {
+    "rowIdx": 67,
+    "produto": "Figurinhaa do filho",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 68
+  },
+  {
+    "rowIdx": 68,
+    "produto": "Potinho da fé",
+    "colDia": 14,
+    "valor": 780,
+    "dia": 9,
+    "sheetRow": 69
+  },
+  {
+    "rowIdx": 69,
+    "produto": "Alfabetização",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 70
+  },
+  {
+    "rowIdx": 70,
+    "produto": "ABA no Autismo",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 71
+  },
+  {
+    "rowIdx": 71,
+    "produto": "KIT de costura (Acomapnhar)",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 72
+  },
+  {
+    "rowIdx": 72,
+    "produto": "Baralho do coração aberto",
+    "colDia": 14,
+    "valor": 26,
+    "dia": 9,
+    "sheetRow": 73
+  },
+  {
+    "rowIdx": 73,
+    "produto": "Jogo da Memória da Copa",
+    "colDia": 14,
+    "valor": 330,
+    "dia": 9,
+    "sheetRow": 74
+  },
+  {
+    "rowIdx": 74,
+    "produto": "Colorir Copa do Mundo",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 75
+  },
+  {
+    "rowIdx": 75,
+    "produto": "Artes para Terraplanagem",
+    "colDia": 14,
+    "valor": 3,
+    "dia": 9,
+    "sheetRow": 76
+  },
+  {
+    "rowIdx": 76,
+    "produto": "Logo",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 77
+  },
+  {
+    "rowIdx": 77,
+    "produto": "TDAH",
+    "colDia": 14,
+    "valor": 700,
+    "dia": 9,
+    "sheetRow": 78
+  },
+  {
+    "rowIdx": 78,
+    "produto": "Segredo do bebe",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 79
+  },
+  {
+    "rowIdx": 79,
+    "produto": "80 recursos terapeuticos",
+    "colDia": 14,
+    "valor": 140,
+    "dia": 9,
+    "sheetRow": 80
+  },
+  {
+    "rowIdx": 80,
+    "produto": "Acelerar aprendizado da cria",
+    "colDia": 14,
+    "valor": 16,
+    "dia": 9,
+    "sheetRow": 81
+  },
+  {
+    "rowIdx": 81,
+    "produto": "Quadro com versículos",
+    "colDia": 14,
+    "valor": 15,
+    "dia": 9,
+    "sheetRow": 82
+  },
+  {
+    "rowIdx": 82,
+    "produto": "Bolsas Croche",
+    "colDia": 14,
+    "valor": 850,
+    "dia": 9,
+    "sheetRow": 83
+  },
+  {
+    "rowIdx": 83,
+    "produto": "Hora de aprender cristão",
+    "colDia": 14,
+    "valor": 51,
+    "dia": 9,
+    "sheetRow": 84
+  }
+]

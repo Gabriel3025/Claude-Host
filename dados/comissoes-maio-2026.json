@@ -1,0 +1,114 @@
+{
+  "periodo": "Maio 2026",
+  "colaboradora": "Laura",
+  "resumo": {
+    "total_bruto": 926350.00,
+    "custos_reembolso": 1177.00,
+    "liquido_receber": 925173.00
+  },
+  "mentorias": {
+    "total_items": 5,
+    "items_pagos": 4,
+    "detalhes": [
+      {
+        "profissional": "Angélica Brugnera Benvegnú",
+        "valor": 110400.00,
+        "status": "pago"
+      },
+      {
+        "profissional": "Daniel Ribeiro Chaves",
+        "valor": 0.00,
+        "status": "não pago"
+      },
+      {
+        "profissional": "Guaracy de Macedo Machado Filho",
+        "valor": 104000.00,
+        "status": "pago"
+      },
+      {
+        "profissional": "Jorge Mário Sedlacek",
+        "valor": 110000.00,
+        "status": "pago"
+      },
+      {
+        "profissional": "Diego de Almeida Bandeira",
+        "valor": 111600.00,
+        "status": "pago"
+      }
+    ],
+    "subtotal": 536000.00
+  },
+  "procedimentos": {
+    "atendimentos": [
+      {
+        "profissional": "Marcos Lázaro Andrade Leite",
+        "valor": 53900.00
+      },
+      {
+        "profissional": "Luiz Alberto Consoli",
+        "valor": 65000.00
+      },
+      {
+        "profissional": "Lucas Agostini",
+        "valor": 44900.00
+      },
+      {
+        "profissional": "Renata Dantas Bellodi",
+        "valor": 52300.00
+      },
+      {
+        "profissional": "Terezinha Izabel Brizot",
+        "valor": 61200.00
+      },
+      {
+        "profissional": "Andressa Gitti Alves",
+        "valor": 52200.00
+      },
+      {
+        "profissional": "Maria Lúcia Ferreira Chagas",
+        "valor": 52200.00
+      }
+    ],
+    "subtotal_atendimentos": 381700.00,
+    "provedores_fechados": {
+      "quantidade": 7,
+      "valor_unitario": 1000.00,
+      "subtotal": 7000.00
+    },
+    "total_procedimentos": 388700.00
+  },
+  "consultas": {
+    "quantidade": 13,
+    "valor_unitario": 50.00,
+    "subtotal": 650.00
+  },
+  "custos_reembolso": {
+    "detalhes": [
+      {
+        "descricao": "Toner",
+        "valor": 150.00
+      },
+      {
+        "descricao": "Débora (adiantado)",
+        "valor": 500.00
+      },
+      {
+        "descricao": "Cafés",
+        "valor": 467.00
+      },
+      {
+        "descricao": "Gilson - celular Aniele",
+        "valor": 60.00
+      }
+    ],
+    "total": 1177.00
+  },
+  "calculo_final": {
+    "mentorias": 536000.00,
+    "procedimentos": 388700.00,
+    "consultas": 650.00,
+    "total_comissoes": 925350.00,
+    "custos_reembolso": 1177.00,
+    "total_receber": 926527.00
+  }
+}

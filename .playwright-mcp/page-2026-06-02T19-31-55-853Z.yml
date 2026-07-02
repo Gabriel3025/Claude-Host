@@ -1,0 +1,13 @@
+- generic [ref=e1907]:
+  - banner [ref=e1908]:
+    - button "Voltar" [ref=e1909] [cursor=pointer]:
+      - img [ref=e1910]
+    - generic [ref=e1912]:
+      - generic [ref=e1913]: CALISTENIA
+      - generic [ref=e1914]: by Atlas
+  - main [ref=e1917]:
+    - generic [ref=e1919]:
+      - img "Mulher motivada" [ref=e1921]
+      - heading "Recupere Seu Corpo!" [level=1] [ref=e1922]
+      - paragraph [ref=e1923]: Não sabe por onde começar? Nós já planejamos tudo. Não tem certeza de que pode fazer isso? Estamos prontos para motivá-la e apoiá-la!
+      - button "Continuar" [ref=e1924] [cursor=pointer]

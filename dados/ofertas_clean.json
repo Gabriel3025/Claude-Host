@@ -1,0 +1,284 @@
+[
+  {
+    "rowIdx": 1,
+    "colDia": 13,
+    "produto": "Tarot",
+    "valor": 61
+  },
+  {
+    "rowIdx": 8,
+    "colDia": 13,
+    "produto": "Como plantar",
+    "valor": 5
+  },
+  {
+    "rowIdx": 12,
+    "colDia": 13,
+    "produto": "Neuropro",
+    "valor": 42
+  },
+  {
+    "rowIdx": 20,
+    "colDia": 13,
+    "produto": "Airfryer",
+    "valor": 29
+  },
+  {
+    "rowIdx": 30,
+    "colDia": 13,
+    "produto": "Saude (Euro)",
+    "valor": 48
+  },
+  {
+    "rowIdx": 32,
+    "colDia": 13,
+    "produto": "Emagrecimento",
+    "valor": 0
+  },
+  {
+    "rowIdx": 33,
+    "colDia": 13,
+    "produto": "Atividade cursiva",
+    "valor": 10
+  },
+  {
+    "rowIdx": 34,
+    "colDia": 13,
+    "produto": "Jiujistu",
+    "valor": 17
+  },
+  {
+    "rowIdx": 35,
+    "colDia": 13,
+    "produto": "Alfabetização",
+    "valor": 0
+  },
+  {
+    "rowIdx": 36,
+    "colDia": 13,
+    "produto": "Pacotes de músicas",
+    "valor": 0
+  },
+  {
+    "rowIdx": 39,
+    "colDia": 13,
+    "produto": "100 Brincadeiras Bebês",
+    "valor": 4
+  },
+  {
+    "rowIdx": 40,
+    "colDia": 13,
+    "produto": "Organização do Lar",
+    "valor": 90
+  },
+  {
+    "rowIdx": 41,
+    "colDia": 13,
+    "produto": "DryWall",
+    "valor": 0
+  },
+  {
+    "rowIdx": 42,
+    "colDia": 13,
+    "produto": "100 Cards Anti-Bullying",
+    "valor": 11
+  },
+  {
+    "rowIdx": 43,
+    "colDia": 13,
+    "produto": "Planilha Capivarinha",
+    "valor": 23
+  },
+  {
+    "rowIdx": 44,
+    "colDia": 13,
+    "produto": "JiuJistsu (LATAM)",
+    "valor": 19
+  },
+  {
+    "rowIdx": 52,
+    "colDia": 13,
+    "produto": "Atividades Copa do mundo",
+    "valor": 7
+  },
+  {
+    "rowIdx": 53,
+    "colDia": 13,
+    "produto": "Calistenia asiática",
+    "valor": 100
+  },
+  {
+    "rowIdx": 56,
+    "colDia": 13,
+    "produto": "Hora da Leiturinha",
+    "valor": 23
+  },
+  {
+    "rowIdx": 58,
+    "colDia": 13,
+    "produto": "Cafajeste (Acompanhar OF)",
+    "valor": 3
+  },
+  {
+    "rowIdx": 60,
+    "colDia": 13,
+    "produto": "Painel Campeões",
+    "valor": 11
+  },
+  {
+    "rowIdx": 61,
+    "colDia": 13,
+    "produto": "Dinamicas aulas de PTBR",
+    "valor": 6
+  },
+  {
+    "rowIdx": 62,
+    "colDia": 13,
+    "produto": "Planilha financeira",
+    "valor": 0
+  },
+  {
+    "rowIdx": 63,
+    "colDia": 13,
+    "produto": "Atividades da Pro",
+    "valor": 11
+  },
+  {
+    "rowIdx": 64,
+    "colDia": 13,
+    "produto": "Calistenia asiática 2",
+    "valor": 100
+  },
+  {
+    "rowIdx": 65,
+    "colDia": 13,
+    "produto": "Atividades de português",
+    "valor": 3
+  },
+  {
+    "rowIdx": 66,
+    "colDia": 13,
+    "produto": "Atividades em segundos",
+    "valor": 8
+  },
+  {
+    "rowIdx": 67,
+    "colDia": 13,
+    "produto": "Figurinhaa do filho",
+    "valor": 44
+  },
+  {
+    "rowIdx": 68,
+    "colDia": 13,
+    "produto": "Potinho da fé",
+    "valor": 12
+  },
+  {
+    "rowIdx": 69,
+    "colDia": 13,
+    "produto": "Alfabetização",
+    "valor": 81
+  },
+  {
+    "rowIdx": 70,
+    "colDia": 13,
+    "produto": "ABA no Autismo",
+    "valor": 10
+  },
+  {
+    "rowIdx": 71,
+    "colDia": 13,
+    "produto": "KIT de costura (Acomapnhar)",
+    "valor": 4
+  },
+  {
+    "rowIdx": 72,
+    "colDia": 13,
+    "produto": "Baralho do coração aberto",
+    "valor": 40
+  },
+  {
+    "rowIdx": 73,
+    "colDia": 13,
+    "produto": "Jogo da Memória da Copa",
+    "valor": 24
+  },
+  {
+    "rowIdx": 74,
+    "colDia": 11,
+    "produto": "Colorir Copa do Mundo",
+    "valor": 4
+  },
+  {
+    "rowIdx": 75,
+    "colDia": 11,
+    "produto": "Artes para Terraplanagem",
+    "valor": 83
+  },
+  {
+    "rowIdx": 76,
+    "colDia": 11,
+    "produto": "Logo",
+    "valor": 140
+  },
+  {
+    "rowIdx": 77,
+    "colDia": 11,
+    "produto": "TDAH",
+    "valor": 25
+  },
+  {
+    "rowIdx": 78,
+    "colDia": 11,
+    "produto": "Segredo do bebe",
+    "valor": 21
+  },
+  {
+    "rowIdx": 79,
+    "colDia": 11,
+    "produto": "80 recursos terapeuticos",
+    "valor": 50
+  },
+  {
+    "rowIdx": 80,
+    "colDia": 11,
+    "produto": "Acelerar aprendizado da cria",
+    "valor": 0
+  },
+  {
+    "rowIdx": 81,
+    "colDia": 11,
+    "produto": "Quadro com versículos",
+    "valor": 15
+  },
+  {
+    "rowIdx": 82,
+    "colDia": 11,
+    "produto": "Bolsas Croche",
+    "valor": 0
+  },
+  {
+    "rowIdx": 83,
+    "colDia": 11,
+    "produto": "Hora de aprender cristão",
+    "valor": 0
+  },
+  {
+    "rowIdx": 84,
+    "colDia": 10,
+    "produto": "Materiais para professores",
+    "valor": 44
+  },
+  {
+    "rowIdx": 85,
+    "colDia": 10,
+    "produto": "Pack Figurinhas",
+    "valor": 47
+  },
+  {
+    "rowIdx": 86,
+    "colDia": 10,
+    "produto": "Pack Figurinhas Copa",
+    "valor": 17
+  }
+]

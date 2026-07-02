@@ -1,0 +1,18 @@
+- generic [ref=e54]:
+  - banner [ref=e55]:
+    - button "Voltar" [ref=e56] [cursor=pointer]:
+      - img [ref=e57]
+    - generic [ref=e59]:
+      - generic [ref=e60]: CALISTENIA
+      - generic [ref=e61]: by Atlas
+  - main [ref=e64]:
+    - generic [ref=e65]:
+      - heading "Você já experimentou exercícios de calistenia?" [level=1] [ref=e67]
+      - generic [ref=e68]:
+        - generic:
+          - img "Mulher fitness"
+        - generic [ref=e69]:
+          - button "Sim" [ref=e70] [cursor=pointer]:
+            - generic [ref=e72]: Sim
+          - button "Não" [ref=e73] [cursor=pointer]:
+            - generic [ref=e75]: Não

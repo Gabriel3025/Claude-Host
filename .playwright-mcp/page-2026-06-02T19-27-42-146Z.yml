@@ -1,0 +1,13 @@
+- generic [ref=e328]:
+  - banner [ref=e329]:
+    - button "Voltar" [ref=e330] [cursor=pointer]:
+      - img [ref=e331]
+    - generic [ref=e333]:
+      - generic [ref=e334]: CALISTENIA
+      - generic [ref=e335]: by Atlas
+  - main [ref=e338]:
+    - generic [ref=e340]:
+      - img "Mulher fazendo sinal de OK" [ref=e342]
+      - heading "Apenas 7 minutos por dia — transformarão seu corpo e destravarão o seu metabolismo sem o esforço exaustivo da academia!" [level=1] [ref=e343]
+      - paragraph [ref=e344]: O Protocolo de Calistenia Asiática utiliza ativações de fibras profundas para derreter a gordura acumulada e chapar a barriga, agindo onde os exercícios comuns de academia não conseguem chegar, de forma simples e definitiva...
+    - button "Continuar" [ref=e347] [cursor=pointer]

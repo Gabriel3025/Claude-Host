@@ -1,0 +1,63 @@
+{
+  "timestamp": "12/06/2026, 09:23:45",
+  "status": "SUCESSO",
+  "totals": {
+    "produtosColetados": 48,
+    "produtosComValor": 48,
+    "totalAnuncios": 915,
+    "mediaAnunciosPorProduto": "19.1"
+  },
+  "topProdutos": [
+    {
+      "rowIdx": 32,
+      "produto": "Organização",
+      "anuncios": 110
+    },
+    {
+      "rowIdx": 53,
+      "produto": "Calistenia",
+      "anuncios": 110
+    },
+    {
+      "rowIdx": 64,
+      "produto": "Cal 2",
+      "anuncios": 110
+    },
+    {
+      "rowIdx": 40,
+      "produto": "Saude",
+      "anuncios": 63
+    },
+    {
+      "rowIdx": 34,
+      "produto": "Tarot",
+      "anuncios": 61
+    },
+    {
+      "rowIdx": 67,
+      "produto": "Figurinha",
+      "anuncios": 57
+    },
+    {
+      "rowIdx": 36,
+      "produto": "Neuropro",
+      "anuncios": 55
+    },
+    {
+      "rowIdx": 24,
+      "produto": "Croche",
+      "anuncios": 49
+    },
+    {
+      "rowIdx": 39,
+      "produto": "Airfryer",
+      "anuncios": 31
+    },
+    {
+      "rowIdx": 60,
+      "produto": "Painel",
+      "anuncios": 30
+    }
+  ],
+  "erros": []
+}

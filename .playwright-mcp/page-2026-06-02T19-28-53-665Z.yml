@@ -1,0 +1,35 @@
+- generic [ref=e545]:
+  - banner [ref=e546]:
+    - button "Voltar" [ref=e547] [cursor=pointer]:
+      - img [ref=e548]
+    - generic [ref=e550]:
+      - generic [ref=e551]: CALISTENIA
+      - generic [ref=e552]: by Atlas
+  - main [ref=e555]:
+    - generic [ref=e557]:
+      - heading "Qual é a sua altura?" [level=1] [ref=e558]
+      - generic [ref=e559]:
+        - button "cm" [ref=e560] [cursor=pointer]
+        - button "pol" [ref=e561] [cursor=pointer]
+      - generic [ref=e562]:
+        - generic [ref=e563]: "165"
+        - generic [ref=e564]: cm
+      - generic [ref=e565]:
+        - generic [ref=e566]:
+          - generic:
+            - generic [ref=e774]: "120"
+            - generic [ref=e775]: "130"
+            - generic [ref=e776]: "140"
+            - generic [ref=e777]: "150"
+            - generic [ref=e778]: "160"
+            - generic [ref=e779]: "170"
+            - generic [ref=e780]: "180"
+            - generic [ref=e781]: "190"
+            - generic [ref=e782]: "200"
+            - generic [ref=e783]: "210"
+            - generic [ref=e784]: "220"
+        - paragraph [ref=e786]: Arraste para ajustar
+      - generic [ref=e788]:
+        - generic [ref=e790]: i
+        - generic [ref=e791]: Calculando seu IMC
+      - button "Próximo passo" [ref=e792] [cursor=pointer]

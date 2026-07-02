@@ -1,0 +1,45 @@
+- generic [ref=e1759]:
+  - banner [ref=e1760]:
+    - button "Voltar" [ref=e1761] [cursor=pointer]:
+      - img [ref=e1762]
+    - generic [ref=e1764]:
+      - generic [ref=e1765]: CALISTENIA
+      - generic [ref=e1766]: by Atlas
+  - main [ref=e1769]:
+    - generic [ref=e1771]:
+      - heading "Quais desses hábitos você tem?" [level=1] [ref=e1772]
+      - generic [ref=e1773]:
+        - button "⏰ Procrastinação" [ref=e1774] [cursor=pointer]:
+          - generic [ref=e1775]: ⏰
+          - generic [ref=e1777]: Procrastinação
+        - button "🍔 Alimentação pouco saudável" [ref=e1779] [cursor=pointer]:
+          - generic [ref=e1780]: 🍔
+          - generic [ref=e1782]: Alimentação pouco saudável
+        - button "📱 Mídias sociais" [ref=e1784] [cursor=pointer]:
+          - generic [ref=e1785]: 📱
+          - generic [ref=e1787]: Mídias sociais
+        - button "☕ Beber muita cafeína" [ref=e1789] [cursor=pointer]:
+          - generic [ref=e1790]: ☕
+          - generic [ref=e1792]: Beber muita cafeína
+        - button "📺 Maratona de séries" [ref=e1794] [cursor=pointer]:
+          - generic [ref=e1795]: 📺
+          - generic [ref=e1797]: Maratona de séries
+        - button "💭 Dúvida sobre si mesmo" [ref=e1799] [cursor=pointer]:
+          - generic [ref=e1800]: 💭
+          - generic [ref=e1802]: Dúvida sobre si mesmo
+        - button "🤚 Roer as unhas" [ref=e1804] [cursor=pointer]:
+          - generic [ref=e1805]: 🤚
+          - generic [ref=e1807]: Roer as unhas
+        - button "⏳ Estar atrasada" [ref=e1809] [cursor=pointer]:
+          - generic [ref=e1810]: ⏳
+          - generic [ref=e1812]: Estar atrasada
+        - button "🚬 Fumar" [ref=e1814] [cursor=pointer]:
+          - generic [ref=e1815]: 🚬
+          - generic [ref=e1817]: Fumar
+        - button "🍷 Beber álcool" [ref=e1819] [cursor=pointer]:
+          - generic [ref=e1820]: 🍷
+          - generic [ref=e1822]: Beber álcool
+        - button "✨ Nenhum deles" [ref=e1824] [cursor=pointer]:
+          - generic [ref=e1825]: ✨
+          - generic [ref=e1827]: Nenhum deles
+  - button "Continuar" [disabled] [ref=e1831]

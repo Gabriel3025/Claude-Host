@@ -1,0 +1,20 @@
+[
+  {
+    "rowIdx": 1,
+    "produto": "Tarot",
+    "valor": 400,
+    "screenshot": "screenshot_Tarot.png"
+  },
+  {
+    "rowIdx": 8,
+    "produto": "Como plantar",
+    "valor": 500,
+    "screenshot": "screenshot_Como_plantar.png"
+  },
+  {
+    "rowIdx": 12,
+    "produto": "Neuropro",
+    "valor": 16,
+    "screenshot": "screenshot_Neuropro.png"
+  }
+]

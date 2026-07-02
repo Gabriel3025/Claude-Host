@@ -1,0 +1,39 @@
+- generic [ref=e1186]:
+  - banner [ref=e1187]:
+    - button "Voltar" [ref=e1188] [cursor=pointer]:
+      - img [ref=e1189]
+    - generic [ref=e1191]:
+      - generic [ref=e1192]: CALISTENIA
+      - generic [ref=e1193]: by Atlas
+  - main [ref=e1196]:
+    - generic [ref=e1198]:
+      - heading "Qual é o seu peso alvo?" [level=1] [ref=e1199]
+      - generic [ref=e1200]:
+        - button "kg" [ref=e1201] [cursor=pointer]
+        - button "Libra" [ref=e1202] [cursor=pointer]
+      - generic [ref=e1203]:
+        - generic [ref=e1204]: "57"
+        - generic [ref=e1205]: kg
+      - generic [ref=e1206]:
+        - generic [ref=e1207]:
+          - generic:
+            - generic [ref=e1555]: "30"
+            - generic [ref=e1556]: "40"
+            - generic [ref=e1557]: "50"
+            - generic [ref=e1558]: "60"
+            - generic [ref=e1559]: "70"
+            - generic [ref=e1560]: "80"
+            - generic [ref=e1561]: "90"
+            - generic [ref=e1562]: "100"
+            - generic [ref=e1563]: "110"
+            - generic [ref=e1564]: "120"
+            - generic [ref=e1565]: "130"
+            - generic [ref=e1566]: "140"
+            - generic [ref=e1567]: "150"
+            - generic [ref=e1568]: "160"
+            - generic [ref=e1569]: "170"
+            - generic [ref=e1570]: "180"
+            - generic [ref=e1571]: "190"
+            - generic [ref=e1572]: "200"
+        - paragraph [ref=e1574]: Arraste para ajustar
+      - button "Próximo passo" [ref=e1575] [cursor=pointer]

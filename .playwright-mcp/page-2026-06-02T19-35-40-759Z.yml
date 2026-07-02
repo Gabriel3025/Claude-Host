@@ -1,0 +1,11 @@
+- generic [ref=e2182]:
+  - banner [ref=e2183]:
+    - button "Voltar" [ref=e2184] [cursor=pointer]:
+      - img [ref=e2185]
+    - generic [ref=e2187]:
+      - generic [ref=e2188]: CALISTENIA
+      - generic [ref=e2189]: by Atlas
+  - main [ref=e2190]:
+    - generic [ref=e2191]:
+      - heading "Seu plano de Calistenia Asiática está pronto!" [level=1] [ref=e2192]
+      - paragraph [ref=e2193]: Assista ao vídeo abaixo para entender como funciona...

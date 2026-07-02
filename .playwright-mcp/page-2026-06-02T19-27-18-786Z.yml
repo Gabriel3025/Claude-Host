@@ -1,0 +1,33 @@
+- generic [ref=e213]:
+  - banner [ref=e214]:
+    - button "Voltar" [ref=e215] [cursor=pointer]:
+      - img [ref=e216]
+    - generic [ref=e218]:
+      - generic [ref=e219]: CALISTENIA
+      - generic [ref=e220]: by Atlas
+  - main [ref=e223]:
+    - generic [ref=e225]:
+      - heading "Quais são as zonas que mais a preocupam?" [level=1] [ref=e226]
+      - paragraph [ref=e227]: Por favor, selecione todas as opções aplicáveis
+      - generic [ref=e228]:
+        - switch [ref=e229] [cursor=pointer]
+        - generic [ref=e230]: Melhorar o corpo inteiro
+      - generic [ref=e231]:
+        - button "Queixo duplo" [ref=e232] [cursor=pointer]:
+          - generic [ref=e235]: Queixo duplo
+        - button "Braços flácidos" [ref=e237] [cursor=pointer]:
+          - generic [ref=e240]: Braços flácidos
+        - button "Seios caídos" [ref=e242] [cursor=pointer]:
+          - generic [ref=e245]: Seios caídos
+        - button "Gordura da barriga" [active] [ref=e247] [cursor=pointer]:
+          - generic [ref=e250]: Gordura da barriga
+          - img [ref=e275]
+        - button "Gordura nos joelhos" [ref=e252] [cursor=pointer]:
+          - generic [ref=e255]: Gordura nos joelhos
+        - button "Traseiro de alforje" [ref=e257] [cursor=pointer]:
+          - generic [ref=e260]: Traseiro de alforje
+        - button "Nádegas flácidas" [ref=e262] [cursor=pointer]:
+          - generic [ref=e265]: Nádegas flácidas
+        - button "Parte interna da coxa" [ref=e267] [cursor=pointer]:
+          - generic [ref=e270]: Parte interna da coxa
+  - button "Próximo passo" [ref=e274] [cursor=pointer]

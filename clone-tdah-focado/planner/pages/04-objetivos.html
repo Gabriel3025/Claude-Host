@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TDAH Focado Kids - Objetivos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <style>
+    @page { size: A4; margin: 0.5cm; }
+    h1 { font-size: 24px; color: var(--color-text-dark); margin-bottom: 8mm; }
+    .objectives-container { display: grid; grid-template-columns: 1fr 1fr; gap: 8mm; margin-bottom: 10mm; }
+    .objective-card { border: 2px solid var(--color-border); border-radius: 8px; padding: 8mm; }
+    .objective-card-1, .objective-card-3 { background-color: rgba(255, 179, 103, 0.1); }
+    .objective-card-2 { background-color: rgba(78, 205, 196, 0.08); }
+    .card-icon { font-size: 20px; margin-bottom: 4mm; }
+    .card-label { font-size: 13px; font-weight: 600; color: var(--color-text-dark); margin-bottom: 3mm; }
+    .card-desc { font-size: 11px; border: 1px dotted var(--color-border); padding: 4mm; height: 40mm; margin-bottom: 6mm; background-color: white; }
+    .stars-row { display: flex; gap: 4mm; margin-top: 6mm; }
+    .star { font-size: 18px; cursor: pointer; }
+    .objective-full { grid-column: 1 / -1; }
+  </style>
+</head>
+<body>
+  <h1>🎯 Meus 3 Objetivos deste Mês</h1>
+  <div class="separator"></div>
+
+  <div class="objectives-container">
+    <div class="objective-card objective-card-1">
+      <div class="card-icon">📖</div>
+      <div class="card-label">Objetivo 1</div>
+      <div class="card-desc"></div>
+      <div style="font-size: 12px; font-weight: 600; margin-bottom: 4mm;">Progresso:</div>
+      <div class="stars-row">
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+      </div>
+    </div>
+
+    <div class="objective-card objective-card-2">
+      <div class="card-icon">🏃</div>
+      <div class="card-label">Objetivo 2</div>
+      <div class="card-desc"></div>
+      <div style="font-size: 12px; font-weight: 600; margin-bottom: 4mm;">Progresso:</div>
+      <div class="stars-row">
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+      </div>
+    </div>
+
+    <div class="objective-card objective-card-3 objective-full">
+      <div class="card-icon">🎮</div>
+      <div class="card-label">Objetivo 3</div>
+      <div class="card-desc"></div>
+      <div style="font-size: 12px; font-weight: 600; margin-bottom: 4mm;">Progresso:</div>
+      <div class="stars-row">
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+        <span class="star">☆</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="text-align: center; margin-top: 10mm; font-size: 12px; color: var(--color-text);">
+    ⭐ Pinte uma estrela cada vez que você conseguir! ⭐
+  </div>
+</body>
+</html>

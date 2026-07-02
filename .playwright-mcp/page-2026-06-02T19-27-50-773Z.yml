@@ -1,0 +1,23 @@
+- generic [ref=e348]:
+  - banner [ref=e349]:
+    - button "Voltar" [ref=e350] [cursor=pointer]:
+      - img [ref=e351]
+    - generic [ref=e353]:
+      - generic [ref=e354]: CALISTENIA
+      - generic [ref=e355]: by Atlas
+  - main [ref=e358]:
+    - generic [ref=e360]:
+      - heading "Como você descreveria o seu corpo atualmente?" [level=1] [ref=e361]
+      - generic [ref=e362]:
+        - button "Magra Magra" [ref=e363] [cursor=pointer]:
+          - img "Magra" [ref=e366]
+          - generic [ref=e367]: Magra
+        - button "Falsa Magra Falsa Magra" [ref=e368] [cursor=pointer]:
+          - img "Falsa Magra" [ref=e371]
+          - generic [ref=e372]: Falsa Magra
+        - button "Acima do peso Acima do peso" [ref=e373] [cursor=pointer]:
+          - img "Acima do peso" [ref=e376]
+          - generic [ref=e377]: Acima do peso
+        - button "Sobrepeso Sobrepeso" [ref=e378] [cursor=pointer]:
+          - img "Sobrepeso" [ref=e381]
+          - generic [ref=e382]: Sobrepeso

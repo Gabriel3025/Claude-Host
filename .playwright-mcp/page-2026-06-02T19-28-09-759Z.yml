@@ -1,0 +1,21 @@
+- generic [ref=e423]:
+  - banner [ref=e424]:
+    - button "Voltar" [ref=e425] [cursor=pointer]:
+      - img [ref=e426]
+    - generic [ref=e428]:
+      - generic [ref=e429]: CALISTENIA
+      - generic [ref=e430]: by Atlas
+  - main [ref=e433]:
+    - generic [ref=e434]:
+      - heading "Há quanto tempo você estava na melhor forma da sua vida?" [level=1] [ref=e435]
+      - generic [ref=e436]:
+        - generic [ref=e437]:
+          - button "1 a 2 anos atrás" [ref=e438] [cursor=pointer]:
+            - generic [ref=e440]: 1 a 2 anos atrás
+          - button "3 a 5 anos atrás" [ref=e441] [cursor=pointer]:
+            - generic [ref=e443]: 3 a 5 anos atrás
+          - button "Mais de 5 anos atrás" [ref=e444] [cursor=pointer]:
+            - generic [ref=e446]: Mais de 5 anos atrás
+          - button "Nunca" [ref=e447] [cursor=pointer]:
+            - generic [ref=e449]: Nunca
+        - img "Mulher em forma"

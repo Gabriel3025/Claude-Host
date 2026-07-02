@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TDAH Focado Kids - Resumo do Mês</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <style>
+    @page { size: A4; margin: 0.5cm; }
+    h1 { font-size: 24px; color: var(--color-text-dark); margin-bottom: 6mm; text-align: center; }
+    .summary-box { border: 2px solid var(--color-primary); border-radius: 8px; padding: 10mm; margin-bottom: 10mm; background-color: rgba(255, 140, 0, 0.08); }
+    .summary-title { font-size: 14px; font-weight: 700; color: var(--color-text-dark); margin-bottom: 6mm; }
+    .summary-item { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6mm; font-size: 13px; }
+    .summary-label { color: var(--color-text-dark); font-weight: 600; }
+    .summary-input { border-bottom: 2px solid var(--color-border); padding: 2mm; width: 80mm; text-align: center; }
+    .reflection-section { border: 2px solid var(--color-accent); border-radius: 8px; padding: 10mm; background-color: rgba(78, 205, 196, 0.05); margin-bottom: 10mm; }
+    .reflection-question { font-size: 13px; font-weight: 600; color: var(--color-accent); margin-bottom: 6mm; }
+    .reflection-input { border-bottom: 1px dotted var(--color-border); width: 100%; padding: 4mm 0; font-size: 12px; margin-bottom: 6mm; }
+    .feeling-options { display: flex; gap: 8mm; justify-content: space-around; margin-top: 10mm; }
+    .feeling-option { display: flex; flex-direction: column; align-items: center; }
+    .checkbox { width: 14px; height: 14px; border: 2px solid var(--color-text); border-radius: 4px; margin-bottom: 4mm; }
+    .feeling-label { font-size: 11px; text-align: center; width: 40mm; }
+    .celebration { text-align: center; padding: 10mm; background-color: rgba(255, 140, 0, 0.1); border-radius: 8px; margin-top: 10mm; }
+    .celebration-text { font-size: 14px; font-weight: 700; color: var(--color-text-dark); }
+    .celebration-emoji { font-size: 32px; margin: 6mm 0; }
+  </style>
+</head>
+<body>
+  <h1>📊 Resumo do Mês</h1>
+
+  <div class="summary-box">
+    <div class="summary-title">Meu Desempenho</div>
+
+    <div class="summary-item">
+      <span class="summary-label">Total de pontos conquistados:</span>
+      <input type="text" class="summary-input" placeholder="">
+    </div>
+
+    <div class="summary-item">
+      <span class="summary-label">Minha meta era:</span>
+      <input type="text" class="summary-input" placeholder="">
+    </div>
+
+    <div class="summary-item">
+      <span class="summary-label">Consegui atingir minha meta?</span>
+      <div style="display: flex; gap: 10mm;">
+        <div><input type="checkbox"> Sim!</div>
+        <div><input type="checkbox"> Não, mas tentei</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="reflection-section">
+    <div class="reflection-question">💭 O que achei do sistema de recompensas este mês?</div>
+    <input type="text" class="reflection-input" placeholder="">
+
+    <div class="reflection-question">🌟 Qual foi meu maior sucesso?</div>
+    <input type="text" class="reflection-input" placeholder="">
+
+    <div class="reflection-question">😊 Como me senti?</div>
+    <div class="feeling-options">
+      <div class="feeling-option">
+        <div class="checkbox"></div>
+        <div class="feeling-label">Incrível</div>
+      </div>
+      <div class="feeling-option">
+        <div class="checkbox"></div>
+        <div class="feeling-label">Bem</div>
+      </div>
+      <div class="feeling-option">
+        <div class="checkbox"></div>
+        <div class="feeling-label">Ok</div>
+      </div>
+      <div class="feeling-option">
+        <div class="checkbox"></div>
+        <div class="feeling-label">Difícil</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="celebration">
+    <div class="celebration-emoji">🎉 ⭐ 🎉</div>
+    <div class="celebration-text">Parabéns! Você completou um mês inteiro!</div>
+    <div style="font-size: 12px; margin-top: 6mm; color: var(--color-text);">Você merece descansar e celebrar suas conquistas!</div>
+  </div>
+</body>
+</html>

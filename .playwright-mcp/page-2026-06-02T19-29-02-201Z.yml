@@ -1,0 +1,42 @@
+- generic [ref=e793]:
+  - banner [ref=e794]:
+    - button "Voltar" [ref=e795] [cursor=pointer]:
+      - img [ref=e796]
+    - generic [ref=e798]:
+      - generic [ref=e799]: CALISTENIA
+      - generic [ref=e800]: by Atlas
+  - main [ref=e803]:
+    - generic [ref=e805]:
+      - heading "Qual é o seu peso agora?" [level=1] [ref=e806]
+      - generic [ref=e807]:
+        - button "kg" [ref=e808] [cursor=pointer]
+        - button "Libra" [ref=e809] [cursor=pointer]
+      - generic [ref=e810]:
+        - generic [ref=e811]: "73"
+        - generic [ref=e812]: kg
+      - generic [ref=e813]:
+        - generic [ref=e814]:
+          - generic:
+            - generic [ref=e1162]: "30"
+            - generic [ref=e1163]: "40"
+            - generic [ref=e1164]: "50"
+            - generic [ref=e1165]: "60"
+            - generic [ref=e1166]: "70"
+            - generic [ref=e1167]: "80"
+            - generic [ref=e1168]: "90"
+            - generic [ref=e1169]: "100"
+            - generic [ref=e1170]: "110"
+            - generic [ref=e1171]: "120"
+            - generic [ref=e1172]: "130"
+            - generic [ref=e1173]: "140"
+            - generic [ref=e1174]: "150"
+            - generic [ref=e1175]: "160"
+            - generic [ref=e1176]: "170"
+            - generic [ref=e1177]: "180"
+            - generic [ref=e1178]: "190"
+            - generic [ref=e1179]: "200"
+        - paragraph [ref=e1181]: Arraste para ajustar
+      - generic [ref=e1182]:
+        - paragraph [ref=e1183]: Seu IMC é 26.81, que é considerado sobrepeso.
+        - paragraph [ref=e1184]: Mantenha-se positivo e concentre-se em uma dieta equilibrada e exercícios.
+      - button "Próximo passo" [ref=e1185] [cursor=pointer]

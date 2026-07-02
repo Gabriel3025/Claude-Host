@@ -1,0 +1,137 @@
+[
+  {
+    "heading": "TDAH e desempenho escolar:como ajudar seu filho a aprender melhor",
+    "level": "h1",
+    "classes": "text-3xl sm:text-4xl font-extrabold text-[#7c2d12] leading-tight mb-4 text-center tracking-tight",
+    "styles": {
+      "fontSize": "36px",
+      "fontWeight": "800",
+      "color": "rgb(124, 45, 18)",
+      "margin": "0px 0px 16px",
+      "lineHeight": "45px"
+    },
+    "contentBlocks": 2,
+    "content": [
+      {
+        "tag": "p",
+        "classes": "text-center text-sm text-amber-700 mb-10",
+        "text": "Atualizado em 2026 · Leitura de 7 minutos",
+        "children": 0
+      },
+      {
+        "tag": "div",
+        "classes": "prose prose-amber max-w-none mb-10 space-y-4 text-[#3f2c1f] leading-relaxed",
+        "text": "Quando uma criança com TDAH começa a ter notas baixas, esquece a lição em casa ou “não consegue ficar quieta na sala”, a primeira reação de muitos pai",
+        "children": 3
+      }
+    ]
+  },
+  {
+    "heading": "Sinais de dificuldade escolar por idade",
+    "level": "h2",
+    "classes": "text-2xl font-extrabold text-[#7c2d12] mb-5 mt-12",
+    "styles": {
+      "fontSize": "24px",
+      "fontWeight": "800",
+      "color": "rgb(124, 45, 18)",
+      "margin": "48px 0px 20px",
+      "lineHeight": "32px"
+    },
+    "contentBlocks": 1,
+    "content": [
+      {
+        "tag": "div",
+        "classes": "grid sm:grid-cols-3 gap-4 mb-10",
+        "text": "4 a 6 anosPré-escola•Não consegue ouvir histórias até o fim•Troca de atividade a cada poucos minutos•Tem dificuldade em seguir regras de jogos simples",
+        "children": 3
+      }
+    ]
+  },
+  {
+    "heading": "Sinais de atenção que merecem cuidado",
+    "level": "h2",
+    "classes": "text-2xl font-extrabold text-[#7c2d12] mb-5 mt-12",
+    "styles": {
+      "fontSize": "24px",
+      "fontWeight": "800",
+      "color": "rgb(124, 45, 18)",
+      "margin": "48px 0px 20px",
+      "lineHeight": "32px"
+    },
+    "contentBlocks": 3,
+    "content": [
+      {
+        "tag": "p",
+        "classes": "text-[#3f2c1f] mb-5 leading-relaxed",
+        "text": "Crianças com TDAH não “escolhem” ignorar comandos. Elas têm um cérebro que processa informação de forma diferente. Fique atento se você nota:",
+        "children": 0
+      },
+      {
+        "tag": "ul",
+        "classes": "space-y-3 mb-10",
+        "text": "✓Dificuldade em manter o foco em tarefas que exigem esforço mental✓Esquece compromissos, materiais e instruções recém-dadas✓Não termina o que começa —",
+        "children": 7
+      },
+      {
+        "tag": "div",
+        "classes": "my-12 bg-amber-50 border border-amber-200 rounded-2xl p-5 sm:p-6 flex flex-col sm:flex-row gap-4 items-center",
+        "text": "📖Quer um material prático com tudo isso aplicado?Preparamos um planner pronto para imprimir, com rotina, sistema de recompensas e checklist escolar a",
+        "children": 3
+      }
+    ]
+  },
+  {
+    "heading": "6 estratégias para apoiar em casa",
+    "level": "h2",
+    "classes": "text-2xl font-extrabold text-[#7c2d12] mb-5 mt-12",
+    "styles": {
+      "fontSize": "24px",
+      "fontWeight": "800",
+      "color": "rgb(124, 45, 18)",
+      "margin": "48px 0px 20px",
+      "lineHeight": "32px"
+    },
+    "contentBlocks": 1,
+    "content": [
+      {
+        "tag": "div",
+        "classes": "space-y-4 mb-10",
+        "text": "1Crie uma rotina visualCrianças com TDAH precisam ver o que vai acontecer. Use um quadro com horários, tarefas e símbolos. O que está no papel libera ",
+        "children": 6
+      }
+    ]
+  },
+  {
+    "heading": "Quando é hora de procurar um profissional",
+    "level": "h2",
+    "classes": "text-2xl font-extrabold text-[#7c2d12] mb-5 mt-12",
+    "styles": {
+      "fontSize": "24px",
+      "fontWeight": "800",
+      "color": "rgb(124, 45, 18)",
+      "margin": "48px 0px 20px",
+      "lineHeight": "32px"
+    },
+    "contentBlocks": 3,
+    "content": [
+      {
+        "tag": "div",
+        "classes": "bg-white border border-orange-100 rounded-2xl p-6 mb-12",
+        "text": "Estratégias em casa ajudam muito, mas existem situações em que o apoio de um especialista é indispensável. Procure um neuropediatra, psiquiatra infant",
+        "children": 2
+      },
+      {
+        "tag": "section",
+        "classes": "my-14 relative overflow-hidden rounded-3xl bg-gradient-to-br from-orange-500 via-orange-400 to-amber-400 p-7 sm:p-10 shadow-2xl",
+        "text": "Material exclusivoAprenda as estratégias e apliqueem casa a partir de hojeUm planner pronto para imprimir + sistema de recompensas + checklist escolar",
+        "children": 3
+      },
+      {
+        "tag": "div",
+        "classes": "bg-amber-50 border-l-4 border-amber-300 rounded-r-lg p-4 mb-10",
+        "text": "Aviso: Este conteúdo tem caráter exclusivamente informativo e educacional. Não substitui consulta com médico, psicólogo ou outro profissional de saúde",
+        "children": 1
+      }
+    ]
+  }
+]

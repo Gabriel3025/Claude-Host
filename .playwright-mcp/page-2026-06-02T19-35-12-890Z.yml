@@ -1,0 +1,23 @@
+- generic [ref=e2070]:
+  - banner [ref=e2071]:
+    - button "Voltar" [ref=e2072] [cursor=pointer]:
+      - img [ref=e2073]
+    - generic [ref=e2075]:
+      - generic [ref=e2076]: CALISTENIA
+      - generic [ref=e2077]: by Atlas
+  - main [ref=e2080]:
+    - generic [ref=e2082]:
+      - heading "Quão confiante você está em entrar em forma até o dia 23 de junho?" [level=1] [ref=e2083]
+      - generic [ref=e2084]:
+        - button "Eu sei que consigo!" [ref=e2085] [cursor=pointer]:
+          - img [ref=e2087]
+          - generic [ref=e2093]: Eu sei que consigo!
+          - img [ref=e2094]
+        - button "Estou disposta a tentar algo novo!" [ref=e2096] [cursor=pointer]:
+          - img [ref=e2098]
+          - generic [ref=e2101]: Estou disposta a tentar algo novo!
+          - img [ref=e2102]
+        - button "Ainda sinto insegurança, mas quero mudar!" [ref=e2104] [cursor=pointer]:
+          - img [ref=e2106]
+          - generic [ref=e2109]: Ainda sinto insegurança, mas quero mudar!
+          - img [ref=e2110]

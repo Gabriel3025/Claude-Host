@@ -1,0 +1,88 @@
+{
+  "totalSections": 3,
+  "pageHeight": 4070,
+  "sections": [
+    {
+      "index": 0,
+      "tag": "header",
+      "classes": "border-b border-orange-100 bg-white/80 backdrop-blur-sm sticky top-0 z-10",
+      "id": "",
+      "scrollPosition": {
+        "top": 0,
+        "height": 53,
+        "width": 1034
+      },
+      "content": {
+        "headings": [],
+        "textNodes": 0,
+        "lists": 0,
+        "cards": 3,
+        "images": 0,
+        "buttons": 0
+      }
+    },
+    {
+      "index": 1,
+      "tag": "article",
+      "classes": "max-w-3xl mx-auto px-5 py-10",
+      "id": "",
+      "scrollPosition": {
+        "top": 53,
+        "height": 3880,
+        "width": 768
+      },
+      "content": {
+        "headings": [
+          {
+            "level": "h1",
+            "text": "TDAH e desempenho escolar:como ajudar seu filho a aprender melhor"
+          },
+          {
+            "level": "h2",
+            "text": "Sinais de dificuldade escolar por idade"
+          },
+          {
+            "level": "h2",
+            "text": "Sinais de atenção que merecem cuidado"
+          },
+          {
+            "level": "h2",
+            "text": "6 estratégias para apoiar em casa"
+          },
+          {
+            "level": "h2",
+            "text": "Quando é hora de procurar um profissional"
+          },
+          {
+            "level": "h3",
+            "text": "Aprenda as estratégias e apliqueem casa a partir de hoje"
+          }
+        ],
+        "textNodes": 16,
+        "lists": 5,
+        "cards": 7,
+        "images": 0,
+        "buttons": 0
+      }
+    },
+    {
+      "index": 2,
+      "tag": "footer",
+      "classes": "border-t border-orange-100 bg-white/60 mt-10",
+      "id": "",
+      "scrollPosition": {
+        "top": 3973,
+        "height": 97,
+        "width": 1034
+      },
+      "content": {
+        "headings": [],
+        "textNodes": 1,
+        "lists": 0,
+        "cards": 2,
+        "images": 0,
+        "buttons": 0
+      }
+    }
+  ]
+}

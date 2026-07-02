@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TDAH Focado Kids - Meu Perfil</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <style>
+    @page { size: A4; margin: 0.5cm; }
+    h1 { font-size: 24px; color: var(--color-text-dark); margin-bottom: 8mm; }
+    .decorative { display: flex; justify-content: space-between; margin-bottom: 12mm; font-size: 24px; }
+    .field-group { margin-bottom: 10mm; }
+    .field-label { font-size: 13px; font-weight: 600; color: var(--color-text-dark); margin-bottom: 3mm; }
+    .field-input { width: 100%; border-bottom: 2px solid var(--color-border); padding: 4mm 0; font-size: 12px; }
+    .field-input:focus { outline: none; border-bottom-color: var(--color-primary); }
+    .bullet-field { border: 1px solid var(--color-accent); border-radius: 4px; padding: 6mm; background-color: rgba(78, 205, 196, 0.05); }
+    .bullet-line { display: flex; align-items: flex-start; margin-bottom: 4mm; }
+    .bullet { color: var(--color-accent); margin-right: 4mm; margin-top: 2mm; font-weight: 600; }
+    .line-input { flex: 1; border-bottom: 1px dotted var(--color-border); padding: 2mm 0; font-size: 11px; }
+  </style>
+</head>
+<body>
+  <h1>😊 Meu Perfil</h1>
+
+  <div class="decorative">
+    <span>😊</span>
+    <span style="visibility: hidden;">😊</span>
+    <span>🧠</span>
+  </div>
+
+  <div class="separator"></div>
+
+  <div class="field-group">
+    <div class="field-label">Meu nome é:</div>
+    <input type="text" class="field-input" placeholder="____________________________">
+  </div>
+
+  <div class="field-group">
+    <div class="field-label">Minha escola é:</div>
+    <input type="text" class="field-input" placeholder="____________________________">
+  </div>
+
+  <div class="field-group">
+    <div class="field-label">Minha série/ano é:</div>
+    <input type="text" class="field-input" placeholder="____________________________">
+  </div>
+
+  <div class="field-group">
+    <div class="field-label">O que me distrai:</div>
+    <div class="bullet-field">
+      <div class="bullet-line">
+        <span class="bullet">•</span>
+        <input type="text" class="line-input" placeholder="___________________________">
+      </div>
+      <div class="bullet-line">
+        <span class="bullet">•</span>
+        <input type="text" class="line-input" placeholder="___________________________">
+      </div>
+      <div class="bullet-line">
+        <span class="bullet">•</span>
+        <input type="text" class="line-input" placeholder="___________________________">
+      </div>
+      <div class="bullet-line">
+        <span class="bullet">•</span>
+        <input type="text" class="line-input" placeholder="___________________________">
+      </div>
+    </div>
+  </div>
+
+  <div class="field-group">
+    <div class="field-label">O que me ajuda:</div>
+    <div class="bullet-field">
+      <div class="bullet-line">
+        <span class="bullet">•</span>
+        <input type="text" class="line-input" placeholder="___________________________">
+      </div>
+      <div class="bullet-line">
+        <span class="bullet">•</span>
+        <input type="text" class="line-input" placeholder="___________________________">
+      </div>
+      <div class="bullet-line">
+        <span class="bullet">•</span>
+        <input type="text" class="line-input" placeholder="___________________________">
+      </div>
+      <div class="bullet-line">
+        <span class="bullet">•</span>
+        <input type="text" class="line-input" placeholder="___________________________">
+      </div>
+    </div>
+  </div>
+
+  <div style="display: flex; justify-content: space-between; margin-top: 15mm; font-size: 24px;">
+    <span>📚</span>
+    <span style="visibility: hidden;">📚</span>
+    <span>⭐</span>
+  </div>
+</body>
+</html>

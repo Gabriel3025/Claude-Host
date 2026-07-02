@@ -1,0 +1,31 @@
+- generic [ref=e2012]:
+  - banner [ref=e2013]:
+    - button "Voltar" [ref=e2014] [cursor=pointer]:
+      - img [ref=e2015]
+    - generic [ref=e2017]:
+      - generic [ref=e2018]: CALISTENIA
+      - generic [ref=e2019]: by Atlas
+  - main [ref=e2022]:
+    - generic [ref=e2024]:
+      - heading "Qual é o seu principal motivo para transformar o seu corpo?" [level=1] [ref=e2025]
+      - generic [ref=e2026]:
+        - button "Me sentir mais confiante com o meu corpo." [ref=e2027] [cursor=pointer]:
+          - img [ref=e2029]
+          - generic [ref=e2032]: Me sentir mais confiante com o meu corpo.
+          - img [ref=e2033]
+        - button "Ficar mais saudável e ter mais energia." [ref=e2035] [cursor=pointer]:
+          - img [ref=e2037]
+          - generic [ref=e2040]: Ficar mais saudável e ter mais energia.
+          - img [ref=e2041]
+        - button "Me sentir bem nas minhas roupas." [ref=e2043] [cursor=pointer]:
+          - img [ref=e2045]
+          - generic [ref=e2048]: Me sentir bem nas minhas roupas.
+          - img [ref=e2049]
+        - button "Recuperar o corpo e a autoestima após o parto." [ref=e2051] [cursor=pointer]:
+          - img [ref=e2053]
+          - generic [ref=e2057]: Recuperar o corpo e a autoestima após o parto.
+          - img [ref=e2058]
+        - button "Outro." [ref=e2060] [cursor=pointer]:
+          - img [ref=e2062]
+          - generic [ref=e2067]: Outro.
+          - img [ref=e2068]

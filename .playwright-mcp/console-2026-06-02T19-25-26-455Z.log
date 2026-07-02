@@ -1,0 +1,18 @@
+[     735ms] [LOG] utms script loaded! 2.3.12 @ https://cdn.utmify.com.br/scripts/utms/latest.js:0
+[     850ms] [LOG] Tracker Meta version 1.6.1 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[     851ms] [LOG] Tracker.inited?: false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[     899ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://api6.ipify.org/?format=json:0
+[     899ms] [LOG] error on getIpv6 TypeError: Failed to fetch
+    at n.<anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:1:6490)
+    at Generator.next (<anonymous>)
+    at https://cdn.utmify.com.br/scripts/pixel/pixel.js:1:5946
+    at new Promise (<anonymous>)
+    at i (https://cdn.utmify.com.br/scripts/pixel/pixel.js:1:5691)
+    at n.fetchIp (https://cdn.utmify.com.br/scripts/pixel/pixel.js:1:6400)
+    at n.<anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:1:6270)
+    at Generator.next (<anonymous>)
+    at https://cdn.utmify.com.br/scripts/pixel/pixel.js:1:5946
+    at new Promise (<anonymous>) @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    1049ms] [LOG] buttons [button.btn, button.btn, button.btn, button.btn] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    1409ms] [LOG] response for 690251d46cc53e762019cf98: 1191709552540591 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    9150ms] [LOG] response for 690251d46cc53e762019cf98: 1191709552540591 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0

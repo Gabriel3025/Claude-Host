@@ -1,0 +1,21 @@
+- generic [ref=e1656]:
+  - banner [ref=e1657]:
+    - button "Voltar" [ref=e1658] [cursor=pointer]:
+      - img [ref=e1659]
+    - generic [ref=e1661]:
+      - generic [ref=e1662]: CALISTENIA
+      - generic [ref=e1663]: by Atlas
+  - main [ref=e1666]:
+    - generic [ref=e1667]:
+      - heading "Quanto de água você bebe diariamente?" [level=1] [ref=e1668]
+      - generic [ref=e1669]:
+        - generic [ref=e1670]:
+          - button "Eu só tomo café ou chá" [ref=e1671] [cursor=pointer]:
+            - generic [ref=e1673]: Eu só tomo café ou chá
+          - button "Cerca de 2 copos (0,5 L)" [ref=e1674] [cursor=pointer]:
+            - generic [ref=e1676]: Cerca de 2 copos (0,5 L)
+          - button "2 a 6 copos (0,5–1,5 L)" [ref=e1677] [cursor=pointer]:
+            - generic [ref=e1679]: 2 a 6 copos (0,5–1,5 L)
+          - button "Mais de 6 copos" [ref=e1680] [cursor=pointer]:
+            - generic [ref=e1682]: Mais de 6 copos
+        - img "Mulher bebendo água"

@@ -1,0 +1,27 @@
+{
+  "name": "tdah-focado-kids-planner",
+  "version": "1.0.0",
+  "description": "Planner imprimível para crianças com TDAH",
+  "type": "module",
+  "main": "generate-pdf.mjs",
+  "scripts": {
+    "generate": "node generate-pdf.mjs",
+    "generate-pdf": "node generate-pdf.mjs"
+  },
+  "keywords": [
+    "TDAH",
+    "planner",
+    "crianças",
+    "PDF",
+    "organização"
+  ],
+  "author": "TDAH Focado Kids",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.48.0",
+    "pdf-lib": "^1.17.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

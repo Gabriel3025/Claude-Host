@@ -1,0 +1,17 @@
+- generic [ref=e1925]:
+  - banner [ref=e1926]:
+    - button "Voltar" [ref=e1927] [cursor=pointer]:
+      - img [ref=e1928]
+    - generic [ref=e1930]:
+      - generic [ref=e1931]: CALISTENIA
+      - generic [ref=e1932]: by Atlas
+  - main [ref=e1935]:
+    - generic [ref=e1937]:
+      - heading "É assim que a transformação da sua vida se parece" [level=1] [ref=e1938]
+      - paragraph [ref=e1939]: Com base nas suas respostas, prevemos que você está entre as mulheres com mais chances de atingir seus objetivos!
+      - generic [ref=e1940]:
+        - img [ref=e1941]
+        - generic [ref=e1949]: Você
+        - generic [ref=e1950]: Com Calistenia Asiática
+        - generic [ref=e1951]: Sem mudanças
+      - button "Continuar" [ref=e1952] [cursor=pointer]

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TDAH Focado Kids - Semana 3 Tarefas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <style>
+    @page { size: A4; margin: 0.5cm; }
+    h1 { font-size: 24px; color: var(--color-text-dark); margin-bottom: 3mm; }
+    .container { display: grid; grid-template-columns: 1fr 1fr; gap: 8mm; margin-bottom: 6mm; }
+    .column { border: 2px solid var(--color-border); border-radius: 6px; padding: 6mm; }
+    .column-tasks { background-color: white; }
+    .column-home { background-color: rgba(78, 205, 196, 0.05); border-color: var(--color-accent); }
+    .column-title { font-size: 15px; font-weight: 600; color: var(--color-text-dark); margin-bottom: 6mm; padding-bottom: 4mm; border-bottom: 2px solid var(--color-border); }
+    .task-item { display: flex; align-items: flex-start; margin-bottom: 3mm; }
+    .checkbox { width: 14px; height: 14px; border: 1px solid var(--color-text); margin-right: 6mm; margin-top: 2mm; flex-shrink: 0; cursor: pointer; }
+    .task-text { font-size: 14px; flex: 1; border-bottom: 1px dotted var(--color-border); padding-bottom: 2mm; }
+    .pomodoro-section { grid-column: 1 / -1; border: 2px solid var(--color-primary); border-radius: 6px; padding: 6mm; background-color: rgba(255, 140, 0, 0.05); }
+    .pomodoro-title { font-size: 13px; font-weight: 600; color: var(--color-text-dark); margin-bottom: 3mm; }
+    .pomodoro-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4mm; margin-bottom: 6mm; }
+    .pomodoro-circle { width: 28mm; height: 28mm; border: 3px solid var(--color-pomodoro); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 20px; }
+    .count-section { text-align: center; margin-top: 6mm; }
+    .count-label { font-size: 11px; margin-bottom: 3mm; }
+    .count-boxes { display: flex; justify-content: center; gap: 6mm; }
+    .count-box { width: 15mm; height: 15mm; border: 2px solid var(--color-border); border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>✅ Semana 3 - Tarefas e Foco</h1>
+
+  <div class="container">
+    <div class="column column-tasks">
+      <div class="column-title">Minhas Tarefas</div>
+      <div class="task-item"><div class="checkbox"></div><div class="task-text">________________________</div></div>
+      <div class="task-item"><div class="checkbox"></div><div class="task-text">________________________</div></div>
+      <div class="task-item"><div class="checkbox"></div><div class="task-text">________________________</div></div>
+      <div class="task-item"><div class="checkbox"></div><div class="task-text">________________________</div></div>
+      <div class="task-item"><div class="checkbox"></div><div class="task-text">________________________</div></div>
+      <div class="task-item"><div class="checkbox"></div><div class="task-text">________________________</div></div>
+      <div class="task-item"><div class="checkbox"></div><div class="task-text">________________________</div></div>
+      <div class="task-item"><div class="checkbox"></div><div class="task-text">________________________</div></div>
+    </div>
+
+    <div class="column column-home">
+      <div class="column-title">Tarefas de Casa</div>
+      <div class="task-item"><div class="checkbox"></div><div class="task-text">________________________</div></div>
+      <div class="task-item"><div class="checkbox"></div><div class="task-text">________________________</div></div>
+      <div class="task-item"><div class="checkbox"></div><div class="task-text">________________________</div></div>
+      <div class="task-item"><div class="checkbox"></div><div class="task-text">________________________</div></div>
+      <div class="task-item"><div class="checkbox"></div><div class="task-text">________________________</div></div>
+      <div class="task-item"><div class="checkbox"></div><div class="task-text">________________________</div></div>
+      <div class="task-item"><div class="checkbox"></div><div class="task-text">________________________</div></div>
+      <div class="task-item"><div class="checkbox"></div><div class="task-text">________________________</div></div>
+    </div>
+  </div>
+
+  <div class="pomodoro-section">
+    <div class="pomodoro-title">🍅 Meu Foco Pomodoro - Quantas rodadas de 25 min consegui?</div>
+    <div class="pomodoro-grid">
+      <div class="pomodoro-circle">🍅</div>
+      <div class="pomodoro-circle">🍅</div>
+      <div class="pomodoro-circle">🍅</div>
+      <div class="pomodoro-circle">🍅</div>
+    </div>
+    <div class="count-section">
+      <div class="count-label"><strong>Total desta semana:</strong></div>
+      <div class="count-boxes">
+        <div class="count-box"></div>
+        <div class="count-box"></div>
+        <div class="count-box"></div>
+        <div class="count-box"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

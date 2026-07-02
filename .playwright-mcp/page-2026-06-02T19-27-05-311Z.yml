@@ -1,0 +1,29 @@
+- generic [ref=e146]:
+  - banner [ref=e147]:
+    - button "Voltar" [ref=e148] [cursor=pointer]:
+      - img [ref=e149]
+    - generic [ref=e151]:
+      - generic [ref=e152]: CALISTENIA
+      - generic [ref=e153]: by Atlas
+  - main [ref=e156]:
+    - generic [ref=e158]:
+      - heading "O que mais você espera alcançar com este plano?" [level=1] [ref=e159]
+      - paragraph [ref=e160]: Pode escolher várias opções
+      - generic [ref=e161]:
+        - button "Aumentar a energia" [active] [ref=e162] [cursor=pointer]:
+          - img [ref=e164]
+          - generic [ref=e167]: Aumentar a energia
+          - img [ref=e211]
+        - button "Melhorar o sono" [ref=e169] [cursor=pointer]:
+          - img [ref=e171]
+          - generic [ref=e174]: Melhorar o sono
+        - button "Reduzir o estresse" [ref=e176] [cursor=pointer]:
+          - img [ref=e178]
+          - generic [ref=e189]: Reduzir o estresse
+        - button "Melhorar a postura e a mobilidade" [ref=e191] [cursor=pointer]:
+          - img [ref=e193]
+          - generic [ref=e199]: Melhorar a postura e a mobilidade
+        - button "Desenvolver flexibilidade" [ref=e201] [cursor=pointer]:
+          - img [ref=e203]
+          - generic [ref=e206]: Desenvolver flexibilidade
+  - button "Continuar" [ref=e210] [cursor=pointer]

@@ -1,0 +1,26 @@
+- generic [ref=e277]:
+  - banner [ref=e278]:
+    - button "Voltar" [ref=e279] [cursor=pointer]:
+      - img [ref=e280]
+    - generic [ref=e282]:
+      - generic [ref=e283]: CALISTENIA
+      - generic [ref=e284]: by Atlas
+  - main [ref=e287]:
+    - generic [ref=e289]:
+      - heading "Quais são as suas zonas alvo?" [level=1] [ref=e290]
+      - paragraph [ref=e291]: Escolha todas as opções aplicáveis
+      - generic [ref=e292]:
+        - button "Barriga" [active] [ref=e293] [cursor=pointer]:
+          - generic [ref=e296]: Barriga
+          - img [ref=e326]
+        - button "Bunda" [ref=e298] [cursor=pointer]:
+          - generic [ref=e301]: Bunda
+        - button "Pernas" [ref=e303] [cursor=pointer]:
+          - generic [ref=e306]: Pernas
+        - button "Peito" [ref=e308] [cursor=pointer]:
+          - generic [ref=e311]: Peito
+        - button "Braços" [ref=e313] [cursor=pointer]:
+          - generic [ref=e316]: Braços
+        - button "Costas" [ref=e318] [cursor=pointer]:
+          - generic [ref=e321]: Costas
+  - button "Próximo passo" [ref=e325] [cursor=pointer]

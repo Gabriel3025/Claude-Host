@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TDAH Focado Kids - Banco Semana 3</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <style>
+    @page { size: A4; margin: 0.5cm; }
+    h1 { font-size: 24px; color: var(--color-text-dark); margin-bottom: 4mm; }
+    .week-label { font-size: 12px; color: var(--color-text); margin-bottom: 10mm; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 10mm; }
+    thead { background-color: var(--color-accent); }
+    th { color: white; padding: 4mm; font-size: 12px; font-weight: 600; text-align: center; }
+    td { border: 1px solid var(--color-border); padding: 4mm; text-align: center; font-size: 12px; }
+    .day-label { background-color: var(--color-gray-light); font-weight: 600; color: var(--color-text-dark); }
+    .input-cell { background-color: white; }
+    input { border: none; width: 100%; text-align: center; font-size: 12px; }
+    .total-row { background-color: rgba(255, 140, 0, 0.1); }
+    .total-row td { font-weight: 600; }
+    .reflection { border: 2px solid var(--color-accent); border-radius: 6px; padding: 8mm; margin-top: 10mm; background-color: rgba(78, 205, 196, 0.05); }
+    .reflection-title { font-size: 13px; font-weight: 600; color: var(--color-accent); margin-bottom: 6mm; }
+    .reflection-text { font-size: 12px; border-bottom: 1px dotted var(--color-border); width: 100%; padding: 4mm 0; margin-bottom: 6mm; }
+  </style>
+</head>
+<body>
+  <h1>📊 Banco de Pontos — Semana 3</h1>
+  <div class="week-label">Semana de ___/___/______ até ___/___/______</div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Dia</th>
+        <th>SEG</th>
+        <th>TER</th>
+        <th>QUA</th>
+        <th>QUI</th>
+        <th>SEX</th>
+        <th>SAB</th>
+        <th>DOM</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="day-label">Pontos do dia</td>
+        <td class="input-cell"><input type="text" placeholder=""></td>
+        <td class="input-cell"><input type="text" placeholder=""></td>
+        <td class="input-cell"><input type="text" placeholder=""></td>
+        <td class="input-cell"><input type="text" placeholder=""></td>
+        <td class="input-cell"><input type="text" placeholder=""></td>
+        <td class="input-cell"><input type="text" placeholder=""></td>
+        <td class="input-cell"><input type="text" placeholder=""></td>
+      </tr>
+      <tr class="total-row">
+        <td style="font-weight: 700;">TOTAL DA SEMANA</td>
+        <td colspan="7"><input type="text" placeholder="" style="font-weight: 600;"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="reflection">
+    <div class="reflection-title">💭 Como me senti nesta semana?</div>
+    <div class="reflection-text"></div>
+    <div style="font-size: 11px; color: var(--color-text);">Desenhe ou escreva como foi sua semana:</div>
+  </div>
+</body>
+</html>

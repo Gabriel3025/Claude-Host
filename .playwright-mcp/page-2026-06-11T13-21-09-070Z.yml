@@ -1,0 +1,180 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: 💡
+        - generic [ref=e7]: TDAH Produtivo Kids
+      - generic [ref=e8]: Conteúdo educativo
+    - article [ref=e9]:
+      - generic [ref=e11]: 📚 Conteúdo Educativo Gratuito
+      - 'heading "TDAH e desempenho escolar: como ajudar seu filho a aprender melhor" [level=1] [ref=e12]':
+        - text: "TDAH e desempenho escolar:"
+        - text: como ajudar seu filho a aprender melhor
+      - paragraph [ref=e13]: Atualizado em 2026 · Leitura de 7 minutos
+      - generic [ref=e14]:
+        - paragraph [ref=e15]:
+          - text: Quando uma criança com TDAH começa a ter notas baixas, esquece a lição em casa ou “não consegue ficar quieta na sala”, a primeira reação de muitos pais é cobrar mais disciplina. Mas estudos da Academia Americana de Pediatria mostram que o problema raramente é falta de esforço — e quase sempre é falta de
+          - strong [ref=e16]: um sistema adaptado ao cérebro dela
+          - text: .
+        - paragraph [ref=e17]: O TDAH (Transtorno de Déficit de Atenção e Hiperatividade) afeta funções executivas como organização, memória de trabalho, controle de impulsos e gerenciamento de tempo. Tudo isso é exigido o tempo inteiro dentro de uma sala de aula. Sem o apoio certo, essas crianças entram em um ciclo de frustração que confunde dificuldade neurológica com “falta de vontade”.
+        - paragraph [ref=e18]: Este guia reúne o que pesquisadores e neuropsicopedagogos recomendam para pais que querem apoiar o desempenho escolar do filho com TDAH — sem brigas, sem chantagem e sem rotular a criança como “problema”.
+      - heading "Sinais de dificuldade escolar por idade" [level=2] [ref=e19]
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - generic [ref=e22]: 4 a 6 anos
+          - generic [ref=e23]: Pré-escola
+          - list [ref=e24]:
+            - listitem [ref=e25]:
+              - generic [ref=e26]: •
+              - generic [ref=e27]: Não consegue ouvir histórias até o fim
+            - listitem [ref=e28]:
+              - generic [ref=e29]: •
+              - generic [ref=e30]: Troca de atividade a cada poucos minutos
+            - listitem [ref=e31]:
+              - generic [ref=e32]: •
+              - generic [ref=e33]: Tem dificuldade em seguir regras de jogos simples
+        - generic [ref=e34]:
+          - generic [ref=e35]: 7 a 10 anos
+          - generic [ref=e36]: Anos iniciais
+          - list [ref=e37]:
+            - listitem [ref=e38]:
+              - generic [ref=e39]: •
+              - generic [ref=e40]: Esquece o material em casa ou na escola
+            - listitem [ref=e41]:
+              - generic [ref=e42]: •
+              - generic [ref=e43]: Demora muito mais que os colegas no dever
+            - listitem [ref=e44]:
+              - generic [ref=e45]: •
+              - generic [ref=e46]: Letra desorganizada e cadernos bagunçados
+        - generic [ref=e47]:
+          - generic [ref=e48]: 11 a 14 anos
+          - generic [ref=e49]: Pré-adolescência
+          - list [ref=e50]:
+            - listitem [ref=e51]:
+              - generic [ref=e52]: •
+              - generic [ref=e53]: Notas caem mesmo entendendo a matéria
+            - listitem [ref=e54]:
+              - generic [ref=e55]: •
+              - generic [ref=e56]: Não consegue estudar para prova sozinho
+            - listitem [ref=e57]:
+              - generic [ref=e58]: •
+              - generic [ref=e59]: Conflitos frequentes com professores
+      - heading "Sinais de atenção que merecem cuidado" [level=2] [ref=e60]
+      - paragraph [ref=e61]: "Crianças com TDAH não “escolhem” ignorar comandos. Elas têm um cérebro que processa informação de forma diferente. Fique atento se você nota:"
+      - list [ref=e62]:
+        - listitem [ref=e63]:
+          - generic [ref=e64]: ✓
+          - generic [ref=e65]: Dificuldade em manter o foco em tarefas que exigem esforço mental
+        - listitem [ref=e66]:
+          - generic [ref=e67]: ✓
+          - generic [ref=e68]: Esquece compromissos, materiais e instruções recém-dadas
+        - listitem [ref=e69]:
+          - generic [ref=e70]: ✓
+          - generic [ref=e71]: Não termina o que começa — mesmo coisas que gosta
+        - listitem [ref=e72]:
+          - generic [ref=e73]: ✓
+          - generic [ref=e74]: Distrai-se com qualquer barulho, movimento ou pensamento próprio
+        - listitem [ref=e75]:
+          - generic [ref=e76]: ✓
+          - generic [ref=e77]: Parece ‘não ouvir’ quando se fala diretamente com ela
+        - listitem [ref=e78]:
+          - generic [ref=e79]: ✓
+          - generic [ref=e80]: Reage de forma intensa a pequenas frustrações ou mudanças de rotina
+        - listitem [ref=e81]:
+          - generic [ref=e82]: ✓
+          - generic [ref=e83]: Tem o sono agitado, demora pra adormecer ou acorda várias vezes
+      - generic [ref=e84]:
+        - generic [ref=e85]: 📖
+        - generic [ref=e86]:
+          - paragraph [ref=e87]: Quer um material prático com tudo isso aplicado?
+          - paragraph [ref=e88]: Preparamos um planner pronto para imprimir, com rotina, sistema de recompensas e checklist escolar adaptado ao cérebro com TDAH.
+        - link "Ver o material →" [ref=e89] [cursor=pointer]:
+          - /url: https://pay.wiapy.com/3ICW1YyCBy?utm_source=organic&utm_medium=&utm_campaign=&utm_content=&utm_term=
+      - heading "6 estratégias para apoiar em casa" [level=2] [ref=e90]
+      - generic [ref=e91]:
+        - generic [ref=e92]:
+          - generic [ref=e93]: "1"
+          - generic [ref=e94]:
+            - generic [ref=e95]: Crie uma rotina visual
+            - paragraph [ref=e96]: Crianças com TDAH precisam ver o que vai acontecer. Use um quadro com horários, tarefas e símbolos. O que está no papel libera espaço no cérebro pra focar no que importa.
+        - generic [ref=e97]:
+          - generic [ref=e98]: "2"
+          - generic [ref=e99]:
+            - generic [ref=e100]: Divida tarefas em micro-passos
+            - paragraph [ref=e101]: “Faça o dever” é abstrato demais. “Abra o caderno, leia o enunciado, escreva o número da página” é executável. Quebre tudo em ações pequenas.
+        - generic [ref=e102]:
+          - generic [ref=e103]: "3"
+          - generic [ref=e104]:
+            - generic [ref=e105]: Use o método dos 25 minutos
+            - paragraph [ref=e106]: "Pomodoro infantil: 25 minutos de foco + 5 de pausa. O cérebro com TDAH responde melhor a sprints curtos do que a maratonas de estudo."
+        - generic [ref=e107]:
+          - generic [ref=e108]: "4"
+          - generic [ref=e109]:
+            - generic [ref=e110]: Reforce o progresso, não o resultado
+            - paragraph [ref=e111]: Em vez de “tirou nota boa, parabéns”, diga “você sentou e fez sem desistir, isso é o que importa”. O TDAH precisa de feedback do processo.
+        - generic [ref=e112]:
+          - generic [ref=e113]: "5"
+          - generic [ref=e114]:
+            - generic [ref=e115]: Reduza estímulos no ambiente de estudo
+            - paragraph [ref=e116]: Tire celular, TV e brinquedos da mesa. Use fones com música instrumental se ajudar. O cérebro com TDAH não filtra ruído — você precisa filtrar por ele.
+        - generic [ref=e117]:
+          - generic [ref=e118]: "6"
+          - generic [ref=e119]:
+            - generic [ref=e120]: Mantenha contato direto com a escola
+            - paragraph [ref=e121]: Combine com o professor um sinal discreto (um toque na mesa) quando perceber dispersão. E peça uma agenda escolar compartilhada — não dependa só do que a criança lembra.
+      - heading "Quando é hora de procurar um profissional" [level=2] [ref=e122]
+      - generic [ref=e123]:
+        - paragraph [ref=e124]:
+          - text: Estratégias em casa ajudam muito, mas existem situações em que o apoio de um especialista é indispensável. Procure um
+          - strong [ref=e125]: neuropediatra, psiquiatra infantil ou neuropsicopedagogo
+          - text: "se você nota:"
+        - list [ref=e126]:
+          - listitem [ref=e127]:
+            - generic [ref=e128]: →
+            - text: Queda de notas persistente, mesmo com apoio em casa
+          - listitem [ref=e129]:
+            - generic [ref=e130]: →
+            - text: Sofrimento emocional da criança (tristeza, ansiedade, isolamento)
+          - listitem [ref=e131]:
+            - generic [ref=e132]: →
+            - text: Conflitos sociais frequentes na escola
+          - listitem [ref=e133]:
+            - generic [ref=e134]: →
+            - text: Comportamentos agressivos ou de risco
+          - listitem [ref=e135]:
+            - generic [ref=e136]: →
+            - text: Suspeita de comorbidades (ansiedade, dislexia, TOD)
+      - generic [ref=e140]:
+        - generic [ref=e141]: Material exclusivo
+        - heading "Aprenda as estratégias e aplique em casa a partir de hoje" [level=3] [ref=e142]:
+          - text: Aprenda as estratégias e aplique
+          - text: em casa a partir de hoje
+        - paragraph [ref=e143]: Um planner pronto para imprimir + sistema de recompensas + checklist escolar, todos feitos especificamente para o cérebro de crianças com TDAH.
+        - generic [ref=e144]:
+          - generic [ref=e145]:
+            - generic [ref=e146]: 📋
+            - generic [ref=e147]: Planner imprimível
+          - generic [ref=e148]:
+            - generic [ref=e149]: 🕒
+            - generic [ref=e150]: Rotina visual
+          - generic [ref=e151]:
+            - generic [ref=e152]: ⭐
+            - generic [ref=e153]: Sistema de recompensas
+          - generic [ref=e154]:
+            - generic [ref=e155]: 🎁
+            - generic [ref=e156]: Bônus exclusivos
+        - link "Quero acessar o material →" [ref=e157] [cursor=pointer]:
+          - /url: https://pay.wiapy.com/3ICW1YyCBy?utm_source=organic&utm_medium=&utm_campaign=&utm_content=&utm_term=
+        - generic [ref=e158]:
+          - generic [ref=e159]: 🔒 Compra 100% segura
+          - generic [ref=e160]: ⚡ Acesso imediato
+          - generic [ref=e161]: ✅ Garantia de 7 dias
+      - paragraph [ref=e163]:
+        - strong [ref=e164]: "Aviso:"
+        - text: Este conteúdo tem caráter exclusivamente informativo e educacional. Não substitui consulta com médico, psicólogo ou outro profissional de saúde. O diagnóstico de TDAH deve ser feito por especialista qualificado, com base em avaliação clínica completa.
+    - generic [ref=e166]:
+      - generic [ref=e167]:
+        - generic [ref=e168]: 💡
+        - generic [ref=e169]: TDAH Produtivo Kids
+      - paragraph [ref=e170]: © 2026 TDAH Produtivo Kids · Conteúdo educativo para pais
+  - alert [ref=e171]

@@ -1,0 +1,282 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+              - generic [ref=e53]: Search or jump to...
+              - img [ref=e55]
+            - link "Sign in" [ref=e59] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FAnil-matcha%2FOpen-Generative-AI%2Freleases%2Ftag%2Fv2.0.0
+            - link "Sign up" [ref=e60] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Freleases%2Fshow&source=header-repo&source_repo=Anil-matcha%2FOpen-Generative-AI
+            - button "Appearance settings" [ref=e63] [cursor=pointer]:
+              - img
+  - main [ref=e67]:
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e71]:
+          - img [ref=e72]
+          - link "Anil-matcha" [ref=e75] [cursor=pointer]:
+            - /url: /Anil-matcha
+          - generic [ref=e76]: /
+          - strong [ref=e77]:
+            - link "Open-Generative-AI" [ref=e78] [cursor=pointer]:
+              - /url: /Anil-matcha/Open-Generative-AI
+          - generic [ref=e79]: Public
+        - generic [ref=e80]:
+          - list:
+            - listitem [ref=e81]:
+              - link "You must be signed in to change notification settings" [ref=e82] [cursor=pointer]:
+                - /url: /login?return_to=%2FAnil-matcha%2FOpen-Generative-AI
+                - img [ref=e83]
+                - text: Notifications
+            - listitem [ref=e85]:
+              - link "Fork 3.5k" [ref=e86] [cursor=pointer]:
+                - /url: /login?return_to=%2FAnil-matcha%2FOpen-Generative-AI
+                - img [ref=e87]
+                - text: Fork
+                - generic "3,541" [ref=e89]: 3.5k
+            - listitem [ref=e90]:
+              - link "You must be signed in to star a repository" [ref=e92] [cursor=pointer]:
+                - /url: /login?return_to=%2FAnil-matcha%2FOpen-Generative-AI
+                - img [ref=e93]
+                - text: Star
+                - generic "20626 users starred this repository" [ref=e95]: 20.6k
+      - navigation "Repository" [ref=e96]:
+        - list [ref=e97]:
+          - listitem [ref=e98]:
+            - link "Code" [ref=e99] [cursor=pointer]:
+              - /url: /Anil-matcha/Open-Generative-AI/tree/v2.0.0
+              - img [ref=e100]
+              - generic [ref=e102]: Code
+          - listitem [ref=e103]:
+            - link "Issues 6" [ref=e104] [cursor=pointer]:
+              - /url: /Anil-matcha/Open-Generative-AI/issues
+              - img [ref=e105]
+              - generic [ref=e108]: Issues
+              - generic "6" [ref=e109]
+          - listitem [ref=e110]:
+            - link "Pull requests 11" [ref=e111] [cursor=pointer]:
+              - /url: /Anil-matcha/Open-Generative-AI/pulls
+              - img [ref=e112]
+              - generic [ref=e114]: Pull requests
+              - generic "11" [ref=e115]
+          - listitem [ref=e116]:
+            - link "Actions" [ref=e117] [cursor=pointer]:
+              - /url: /Anil-matcha/Open-Generative-AI/actions
+              - img [ref=e118]
+              - generic [ref=e120]: Actions
+          - listitem [ref=e121]:
+            - link "Projects" [ref=e122] [cursor=pointer]:
+              - /url: /Anil-matcha/Open-Generative-AI/projects
+              - img [ref=e123]
+              - generic [ref=e125]: Projects
+          - listitem [ref=e126]:
+            - link "Security and quality" [ref=e127] [cursor=pointer]:
+              - /url: /Anil-matcha/Open-Generative-AI/security
+              - img [ref=e128]
+              - generic [ref=e130]: Security and quality
+          - listitem [ref=e131]:
+            - link "Insights" [ref=e132] [cursor=pointer]:
+              - /url: /Anil-matcha/Open-Generative-AI/pulse
+              - img [ref=e133]
+              - generic [ref=e135]: Insights
+    - generic [ref=e138]:
+      - navigation "Breadcrumb" [ref=e139]:
+        - list [ref=e140]:
+          - listitem [ref=e141]:
+            - link "Releases" [ref=e142] [cursor=pointer]:
+              - /url: /Anil-matcha/Open-Generative-AI/releases
+          - listitem [ref=e143]:
+            - link "v2.0.0" [ref=e144]:
+              - /url: /Anil-matcha/Open-Generative-AI/releases/tag/v2.0.0
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - generic [ref=e150]:
+              - heading "v2.0.0 — Audio Studio, Vibe Motion, Clipping, Design Agent & more" [level=1] [ref=e151]
+              - link "Latest" [ref=e153] [cursor=pointer]:
+                - /url: /Anil-matcha/Open-Generative-AI/releases/latest
+                - generic [ref=e154]: Latest
+            - button "Compare" [ref=e158] [cursor=pointer]:
+              - generic [ref=e159]:
+                - generic [ref=e160]: Compare
+                - generic:
+                  - img
+          - generic [ref=e162]:
+            - generic [ref=e163]:
+              - img "@Anil-matcha" [ref=e164]
+              - link "Anil-matcha" [ref=e165] [cursor=pointer]:
+                - /url: /Anil-matcha
+              - text: released this 23 May 00:42 May 22
+            - generic [ref=e166]:
+              - text: ·
+              - link "27 commits" [ref=e167] [cursor=pointer]:
+                - /url: /Anil-matcha/Open-Generative-AI/compare/v2.0.0...main
+              - text: to main since this release
+            - link "Tag v2.0.0" [ref=e169] [cursor=pointer]:
+              - /url: /Anil-matcha/Open-Generative-AI/tree/v2.0.0
+              - generic [ref=e170]:
+                - img "Tag" [ref=e171]
+                - text: v2.0.0
+            - link "Commit 0bc9744" [ref=e174] [cursor=pointer]:
+              - /url: /Anil-matcha/Open-Generative-AI/commit/0bc974433d660639bc0c888bb9423c9316c12f0a
+              - img "Commit" [ref=e175]
+              - code [ref=e177]: 0bc9744
+          - generic [ref=e178]:
+            - heading "What's New in v2.0.0" [level=2] [ref=e179]
+            - heading "New Features" [level=3] [ref=e180]
+            - list [ref=e181]:
+              - listitem [ref=e182]:
+                - strong [ref=e183]: Audio Studio
+                - text: — dedicated audio generation tab
+              - listitem [ref=e184]:
+                - strong [ref=e185]: Vibe Motion
+                - text: — new motion effect capability
+              - listitem [ref=e186]:
+                - strong [ref=e187]: Clipping Tab
+                - text: — video clipping workflow
+              - listitem [ref=e188]:
+                - strong [ref=e189]: Design Agent
+                - text: — AI-powered design assistant integration
+              - listitem [ref=e190]:
+                - strong [ref=e191]: EN/ZH Language Switcher
+                - text: — internationalization across all studio components
+              - listitem [ref=e192]:
+                - strong [ref=e193]: Interactive Command Generator Playground
+                - text: — MCP CLI studio improvement
+              - listitem [ref=e194]:
+                - strong [ref=e195]: Custom Local-AI Storage Directory
+                - text: — choose where local models are stored
+            - heading "Fixes & Improvements" [level=3] [ref=e196]
+            - list [ref=e197]:
+              - listitem [ref=e198]:
+                - strong [ref=e199]: "Wan2GP:"
+                - text: keep default endpoints available without metadata; endpoint fallback support
+              - listitem [ref=e200]:
+                - strong [ref=e201]: "Studio:"
+                - text: re-prompt for API key on 401/403 responses and harden header visibility
+              - listitem [ref=e202]:
+                - strong [ref=e203]: "Models:"
+                - text: correct Z-Image Base download URL filename casing
+              - listitem [ref=e204]:
+                - strong [ref=e205]: "McpCliStudio:"
+                - text: remove duplicated helpers and orphan code that broke Vite build
+              - listitem [ref=e206]:
+                - strong [ref=e207]: "Local-AI:"
+                - text: include model name and ID in download error messages
+              - listitem [ref=e208]:
+                - strong [ref=e209]: "Linux:"
+                - text: bundled local inference packaging for Linux builds
+              - listitem [ref=e210]:
+                - strong [ref=e211]: "Workflow/Design Agent:"
+                - text: updated UI components and Tailwind/jsconfig paths
+            - heading "Downloads" [level=2] [ref=e212]
+            - list [ref=e213]:
+              - listitem [ref=e214]:
+                - strong [ref=e215]: "Windows:"
+                - text: Open.Generative.AI.Setup.2.0.0.exe
+              - listitem [ref=e216]:
+                - strong [ref=e217]: "macOS (Apple Silicon):"
+                - text: Open.Generative.AI-2.0.0-arm64.dmg
+              - listitem [ref=e218]:
+                - strong [ref=e219]: "macOS (Intel):"
+                - text: Open.Generative.AI-2.0.0.dmg
+              - listitem [ref=e220]:
+                - strong [ref=e221]: "Linux (AppImage):"
+                - text: Open.Generative.AI-2.0.0.AppImage
+              - listitem [ref=e222]:
+                - strong [ref=e223]: "Linux (Debian/Ubuntu):"
+                - text: open-generative-ai_2.0.0_amd64.deb
+        - generic [ref=e224]:
+          - group [ref=e227]:
+            - button "Assets 7" [expanded] [ref=e228] [cursor=pointer]:
+              - generic [ref=e229]:
+                - generic [ref=e230]: Assets
+                - generic "7" [ref=e231]
+            - generic [ref=e234]:
+              - img [ref=e235]
+              - generic [ref=e238]: Loading
+          - generic [ref=e240]:
+            - generic [ref=e242]:
+              - 'button "thumbs up (7): Anil-matcha, 12:40AM on May 23" [disabled] [ref=e243]':
+                - generic [ref=e244]: 👍
+                - generic [ref=e245]: "7"
+              - 'button "hooray (3): Anil-matcha, 12:40AM on May 23" [disabled] [ref=e246]':
+                - generic [ref=e247]: 🎉
+                - generic [ref=e248]: "3"
+              - 'button "heart (5): Anil-matcha, 12:40AM on May 23" [disabled] [ref=e249]':
+                - generic [ref=e250]: ❤️
+                - generic [ref=e251]: "5"
+            - generic [ref=e252]: 11 people reacted
+  - contentinfo [ref=e253]:
+    - heading "Footer" [level=2] [ref=e254]
+    - generic [ref=e255]:
+      - generic [ref=e256]:
+        - link "GitHub Homepage" [ref=e257] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e258]
+        - generic [ref=e260]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e261]:
+        - heading "Footer navigation" [level=3] [ref=e262]
+        - list "Footer navigation" [ref=e263]:
+          - listitem [ref=e264]:
+            - link "Terms" [ref=e265] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e266]:
+            - link "Privacy" [ref=e267] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e268]:
+            - link "Security" [ref=e269] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e270]:
+            - link "Status" [ref=e271] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e272]:
+            - link "Community" [ref=e273] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e274]:
+            - link "Docs" [ref=e275] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e276]:
+            - link "Contact" [ref=e277] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e278]:
+            - button "Manage cookies" [ref=e280] [cursor=pointer]
+          - listitem [ref=e281]:
+            - button "Do not share my personal information" [ref=e283] [cursor=pointer]

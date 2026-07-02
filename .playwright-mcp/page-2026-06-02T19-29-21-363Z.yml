@@ -1,0 +1,17 @@
+- generic [ref=e1576]:
+  - banner [ref=e1577]:
+    - button "Voltar" [ref=e1578] [cursor=pointer]:
+      - img [ref=e1579]
+    - generic [ref=e1581]:
+      - generic [ref=e1582]: CALISTENIA
+      - generic [ref=e1583]: by Atlas
+  - main [ref=e1586]:
+    - generic [ref=e1588]:
+      - heading "Qual é a sua idade?" [level=1] [ref=e1589]
+      - textbox "Digite sua idade" [ref=e1591]
+      - generic [ref=e1592]:
+        - generic [ref=e1593]:
+          - generic [ref=e1595]: i
+          - generic [ref=e1596]: Perguntamos sua idade para personalizar seu plano
+        - paragraph [ref=e1597]: As pessoas mais velhas têm um percentual de gordura corporal mais alto do que as pessoas mais jovens com o mesmo IMC.
+      - button "Próximo passo" [disabled] [ref=e1598]

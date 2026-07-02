@@ -1,0 +1,130 @@
+[
+  {
+    "rowIdx": 1,
+    "produto": "Tarot",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 2
+  },
+  {
+    "rowIdx": 8,
+    "produto": "Como plantar",
+    "colDia": 14,
+    "valor": 5,
+    "dia": 9,
+    "sheetRow": 9
+  },
+  {
+    "rowIdx": 12,
+    "produto": "Neuropro",
+    "colDia": 14,
+    "valor": 44,
+    "dia": 9,
+    "sheetRow": 13
+  },
+  {
+    "rowIdx": 20,
+    "produto": "Airfryer",
+    "colDia": 14,
+    "valor": 15,
+    "dia": 9,
+    "sheetRow": 21
+  },
+  {
+    "rowIdx": 30,
+    "produto": "Saude (Euro)",
+    "colDia": 14,
+    "valor": 44,
+    "dia": 9,
+    "sheetRow": 31
+  },
+  {
+    "rowIdx": 32,
+    "produto": "Emagrecimento",
+    "colDia": 14,
+    "valor": 19,
+    "dia": 9,
+    "sheetRow": 33
+  },
+  {
+    "rowIdx": 33,
+    "produto": "Atividade cursiva",
+    "colDia": 14,
+    "valor": 10,
+    "dia": 9,
+    "sheetRow": 34
+  },
+  {
+    "rowIdx": 34,
+    "produto": "Jiujistu",
+    "colDia": 14,
+    "valor": 17,
+    "dia": 9,
+    "sheetRow": 35
+  },
+  {
+    "rowIdx": 35,
+    "produto": "Alfabetização",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 36
+  },
+  {
+    "rowIdx": 36,
+    "produto": "Pacotes de músicas",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 37
+  },
+  {
+    "rowIdx": 38,
+    "produto": "100 Brincadeiras Bebês",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 39
+  },
+  {
+    "rowIdx": 39,
+    "produto": "Organização do Lar",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 40
+  },
+  {
+    "rowIdx": 40,
+    "produto": "DryWall",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 41
+  },
+  {
+    "rowIdx": 41,
+    "produto": "100 Cards Anti-Bullying",
+    "colDia": 14,
+    "valor": 10,
+    "dia": 9,
+    "sheetRow": 42
+  },
+  {
+    "rowIdx": 42,
+    "produto": "Planilha Capivarinha",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 43
+  },
+  {
+    "rowIdx": 43,
+    "produto": "JiuJistsu (LATAM)",
+    "colDia": 14,
+    "valor": 0,
+    "dia": 9,
+    "sheetRow": 44
+  }
+]

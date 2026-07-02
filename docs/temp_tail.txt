@@ -1,0 +1,100 @@
+  {
+    "rowIdx": 78,
+    "colDia": 10,
+    "produto": "Segredo do bebe",
+    "identificado": "11/06/2026",
+    "diasPassados": 4,
+    "diaNome": "DIA 5",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=1895457088077461&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=104281642605477",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 79,
+    "colDia": 10,
+    "produto": "80 recursos terapeuticos",
+    "identificado": "11/06/2026",
+    "diasPassados": 4,
+    "diaNome": "DIA 5",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=2014856769454001&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=456601417538756",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 80,
+    "colDia": 10,
+    "produto": "Acelerar aprendizado da cria",
+    "identificado": "11/06/2026",
+    "diasPassados": 4,
+    "diaNome": "DIA 5",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=2419112398599913&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=1079576205235125",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 81,
+    "colDia": 10,
+    "produto": "Quadro com versículos",
+    "identificado": "11/06/2026",
+    "diasPassados": 4,
+    "diaNome": "DIA 5",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=1455818499565681&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=160646760811963",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 82,
+    "colDia": 10,
+    "produto": "Bolsas Croche",
+    "identificado": "11/06/2026",
+    "diasPassados": 4,
+    "diaNome": "DIA 5",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=27233702462890933&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=938589105997445",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 83,
+    "colDia": 10,
+    "produto": "Hora de aprender cristão",
+    "identificado": "11/06/2026",
+    "diasPassados": 4,
+    "diaNome": "DIA 5",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=2113158056291301&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=119250001264774",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 84,
+    "colDia": 9,
+    "produto": "Materiais para professores",
+    "identificado": "12/06/2026",
+    "diasPassados": 3,
+    "diaNome": "DIA 4",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=2185778578837548&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=128822573650748",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 85,
+    "colDia": 9,
+    "produto": "Pack Figurinhas",
+    "identificado": "12/06/2026",
+    "diasPassados": 3,
+    "diaNome": "DIA 4",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=929442639749702&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=123045347437517",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 86,
+    "colDia": 9,
+    "produto": "Pack Figurinhas Copa ",
+    "identificado": "12/06/2026",
+    "diasPassados": 3,
+    "diaNome": "DIA 4",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=921717424316509&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=1027166040489643",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  }
+]

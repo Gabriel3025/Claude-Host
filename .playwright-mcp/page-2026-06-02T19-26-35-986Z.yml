@@ -1,0 +1,21 @@
+- generic [ref=e76]:
+  - banner [ref=e77]:
+    - button "Voltar" [ref=e78] [cursor=pointer]:
+      - img [ref=e79]
+    - generic [ref=e81]:
+      - generic [ref=e82]: CALISTENIA
+      - generic [ref=e83]: by Atlas
+  - main [ref=e86]:
+    - generic [ref=e88]:
+      - generic [ref=e89]:
+        - heading "Não se preocupe, a Calistenia Asiática é perfeita para quem está começando do zero!" [level=1] [ref=e90]
+        - paragraph [ref=e91]:
+          - text: Calistenia significa usar apenas o peso do seu corpo, e nossa técnica simplifica tudo ao focar na ativação das
+          - strong [ref=e92]: fibras profundas
+          - text: . É o caminho mais rápido para você
+          - strong [ref=e93]: destravar o metabolismo
+          - text: e
+          - strong [ref=e94]: secar a barriga
+          - text: sem o esforço exaustivo da academia.
+      - img "Mulher praticando exercício" [ref=e96]
+    - button "Continuar" [ref=e98] [cursor=pointer]

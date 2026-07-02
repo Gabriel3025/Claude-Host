@@ -1,0 +1,561 @@
+
+⛔ ENCERRADOS (passaram do DIA 10 — busca não necessária):
+  [linha 3] Receitas airfrayer | Identificado: 14/03/2026 | 93 dias atrás
+  [linha 4] DoramaFlix | Identificado: 16/03/2026 | 91 dias atrás
+  [linha 5] Receitas rápidas | Identificado: 16/03/2026 | 91 dias atrás
+  [linha 6] Cristão | Identificado: 16/03/2026 | 91 dias atrás
+  [linha 7] Aprender Kids | Identificado: 16/03/2026 | 91 dias atrás
+  [linha 8] Treino Futsal | Identificado: 16/03/2026 | 91 dias atrás
+  [linha 10] Cristão | Identificado: 16/03/2026 | 91 dias atrás
+  [linha 11] Protocolo gelatina | Identificado: 16/03/2026 | 91 dias atrás
+  [linha 12] Receitas (Marmita Fit) | Identificado: 16/03/2026 | 91 dias atrás
+  [linha 14] Recheios | Identificado: 16/03/2026 | 91 dias atrás
+  [linha 15] Exercicios (Black) | Identificado: 16/03/2026 | 91 dias atrás
+  [linha 16] 365 Versiculos bíblia ⭐ | Identificado: 16/03/2026 | 91 dias atrás
+  [linha 17] Próxy Enzimático | Identificado: 19/03/2026 | 88 dias atrás
+  [linha 18] Médoto P.E.I | Identificado: 19/03/2026 | 88 dias atrás
+  [linha 19] Aprovação Concursos | Identificado: 19/03/2026 | 88 dias atrás
+  [linha 20] Album Casamento | Identificado: 19/03/2026 | 88 dias atrás
+  [linha 22] 200 dinamicas cristã | Identificado: 25/05/2026 | 21 dias atrás
+  [linha 23] Venda Físíca (cristã) | Identificado: 19/03/2026 | 88 dias atrás
+  [linha 24] Eternizando memórias | Identificado: 19/03/2026 | 88 dias atrás
+  [linha 25] Croche | Identificado: 25/05/2026 | 21 dias atrás
+  [linha 26] Saxofone | Identificado: 19/03/2026 | 88 dias atrás
+  [linha 27] Ebook bibílico (Infant) | Identificado: 25/05/2026 | 21 dias atrás
+  [linha 28] Ficha de Treino | Identificado: 25/05/2026 | 21 dias atrás
+  [linha 29] 1.200 Moldes de Papel | Identificado: 25/05/2026 | 21 dias atrás
+  [linha 30] Exerc. Anatomia | Identificado: 25/05/2026 | 21 dias atrás
+  [linha 32] Moldes em FOAM (Dol) | Identificado: 25/05/2026 | 21 dias atrás
+  [linha 38] 120 dinamicas infan | Identificado: 25/05/2026 | 21 dias atrás
+  [linha 39] Moldes EVA | Identificado: 25/05/2026 | 21 dias atrás
+  [linha 46] Kit Casinhas de Boneca | Identificado: 25/05/2026 | 21 dias atrás
+  [linha 47] Kit Figurinhas Educativas | Identificado: 25/05/2026 | 21 dias atrás
+  [linha 48] Fichas e Resumos de Letras | Identificado: 25/05/2026 | 21 dias atrás
+  [linha 49] Projeto Marcenaria | Identificado: 25/05/2026 | 21 dias atrás
+  [linha 50] Bijuteria | Identificado: 25/05/2026 | 21 dias atrás
+  [linha 51] Alfabetização | Identificado: 25/05/2026 | 21 dias atrás
+  [linha 52] Creme AntRugas (DROP) | Identificado: 25/05/2026 | 21 dias atrás
+  [linha 55] Religião LATAM | Identificado: 25/05/2026 | 21 dias atrás
+  [linha 56] Dinamicas terapeuticas | Identificado: 25/05/2026 | 21 dias atrás
+  [linha 58] EUAMOAnatomia | Identificado: 25/05/2026 | 21 dias atrás
+  [linha 60] Sono bebe | Identificado: 25/05/2026 | 21 dias atrás
+
+[
+  {
+    "rowIdx": 1,
+    "colDia": 12,
+    "produto": "Tarot",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=332302629966050",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 8,
+    "colDia": 12,
+    "produto": "Como plantar",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=agroescola.blog.br&search_type=keyword_unordered&sort_data[mode]=total_impressions&sort_data[direction]=desc",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 12,
+    "colDia": 12,
+    "produto": "Neuropro",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=137915816063469",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 20,
+    "colDia": 12,
+    "produto": "Airfryer",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=568879309640604",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 30,
+    "colDia": 12,
+    "produto": "Saude (Euro)",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=985969307931107",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 32,
+    "colDia": 12,
+    "produto": "Emagrecimento",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=370127649521306",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 33,
+    "colDia": 12,
+    "produto": "Atividade cursiva",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&id=1259020229407188&view_all_page_id=100560129589941&search_type=page&media_type=all",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 34,
+    "colDia": 12,
+    "produto": "Jiujistu",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=dinamicasjiujitsu.netlify.app&search_type=keyword_unordered&sort_data[mode]=total_impressions&sort_data[direction]=desc",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 35,
+    "colDia": 12,
+    "produto": "Alfabetização",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=v0-pacotedeatividades2.vercel.app&search_type=keyword_unordered&sort_data[mode]=total_impressions&sort_data[direction]=desc",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 36,
+    "colDia": 12,
+    "produto": "Pacotes de músicas",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=840327012401314&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=471645392708038",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 39,
+    "colDia": 12,
+    "produto": "100 Brincadeiras Bebês",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&is_targeted_country=false&media_type=all&q=Espa%C3%A7o%20Compartilhando%20Saberes&search_type=keyword_unordered&sort_data[direction]=desc&sort_data[mode]=total_impressions&source=fb-logo",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 40,
+    "colDia": 12,
+    "produto": "Organização do Lar",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&id=4306298432934563&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=323957035217343",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 41,
+    "colDia": 12,
+    "produto": "DryWall",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=106015925221593",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 42,
+    "colDia": 12,
+    "produto": "100 Cards Anti-Bullying",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&id=1566627487729300&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=620103851191814",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 43,
+    "colDia": 12,
+    "produto": "Planilha Capivarinha",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=103914724705901",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 44,
+    "colDia": 12,
+    "produto": "JiuJistsu (LATAM)",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=1014540858412585",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 52,
+    "colDia": 12,
+    "produto": "Atividades Copa do mundo",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=104124204625179",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 53,
+    "colDia": 12,
+    "produto": "Calistenia asiática",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=634382966425687",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 56,
+    "colDia": 12,
+    "produto": "Hora da Leiturinha",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=505480929317347",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 58,
+    "colDia": 12,
+    "produto": "Cafajeste (Acompanhar OF)",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=348265368374848",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 60,
+    "colDia": 12,
+    "produto": "Painel Campeões",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=366031383255150",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 61,
+    "colDia": 12,
+    "produto": "Dinamicas aulas de PTBR",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=1079543025232215",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 62,
+    "colDia": 12,
+    "produto": "Planilha financeira",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=721380667735839",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 63,
+    "colDia": 12,
+    "produto": "Atividades da Pro",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=366031383255150",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 64,
+    "colDia": 12,
+    "produto": "Calistenia asiática 2 ",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=634382966425687",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 65,
+    "colDia": 12,
+    "produto": "Atividades de português",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=109797355340410",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 66,
+    "colDia": 12,
+    "produto": "Atividades em segundos",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=264978283375190",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 67,
+    "colDia": 12,
+    "produto": "Figurinhaa do filho",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=667848806422877",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 68,
+    "colDia": 12,
+    "produto": "Potinho da fé",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=1053098841226167",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 69,
+    "colDia": 12,
+    "produto": "Alfabetização",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=531839286685764",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 70,
+    "colDia": 12,
+    "produto": "ABA no Autismo",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=2355407888026229",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 71,
+    "colDia": 12,
+    "produto": "KIT de costura (Acomapnhar)",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=103027082609605",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 72,
+    "colDia": 12,
+    "produto": "Baralho do coração aberto",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=1009496725582636",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 73,
+    "colDia": 12,
+    "produto": "Jogo da Memória da Copa",
+    "identificado": "09/06/2026",
+    "diasPassados": 6,
+    "diaNome": "DIA 7",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&id=1329141256012536&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=1041598825693538",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 74,
+    "colDia": 10,
+    "produto": "Colorir Copa do Mundo",
+    "identificado": "11/06/2026",
+    "diasPassados": 4,
+    "diaNome": "DIA 5",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=1920654611973945&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=1108292285704598",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 75,
+    "colDia": 10,
+    "produto": "Artes para Terraplanagem",
+    "identificado": "11/06/2026",
+    "diasPassados": 4,
+    "diaNome": "DIA 5",
+    "link": "https://www.facebook.com/ads/library/?id=711781368658553",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 76,
+    "colDia": 10,
+    "produto": "Logo",
+    "identificado": "11/06/2026",
+    "diasPassados": 4,
+    "diaNome": "DIA 5",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=2146722662816707&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=277295208806442",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 77,
+    "colDia": 10,
+    "produto": "TDAH",
+    "identificado": "11/06/2026",
+    "diasPassados": 4,
+    "diaNome": "DIA 5",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=1314783087281541&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=363096403554825",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 78,
+    "colDia": 10,
+    "produto": "Segredo do bebe",
+    "identificado": "11/06/2026",
+    "diasPassados": 4,
+    "diaNome": "DIA 5",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=1895457088077461&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=104281642605477",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 79,
+    "colDia": 10,
+    "produto": "80 recursos terapeuticos",
+    "identificado": "11/06/2026",
+    "diasPassados": 4,
+    "diaNome": "DIA 5",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=2014856769454001&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=456601417538756",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 80,
+    "colDia": 10,
+    "produto": "Acelerar aprendizado da cria",
+    "identificado": "11/06/2026",
+    "diasPassados": 4,
+    "diaNome": "DIA 5",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=2419112398599913&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=1079576205235125",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 81,
+    "colDia": 10,
+    "produto": "Quadro com versículos",
+    "identificado": "11/06/2026",
+    "diasPassados": 4,
+    "diaNome": "DIA 5",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=1455818499565681&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=160646760811963",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 82,
+    "colDia": 10,
+    "produto": "Bolsas Croche",
+    "identificado": "11/06/2026",
+    "diasPassados": 4,
+    "diaNome": "DIA 5",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=27233702462890933&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=938589105997445",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 83,
+    "colDia": 10,
+    "produto": "Hora de aprender cristão",
+    "identificado": "11/06/2026",
+    "diasPassados": 4,
+    "diaNome": "DIA 5",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=2113158056291301&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=119250001264774",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 84,
+    "colDia": 9,
+    "produto": "Materiais para professores",
+    "identificado": "12/06/2026",
+    "diasPassados": 3,
+    "diaNome": "DIA 4",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=2185778578837548&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=128822573650748",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 85,
+    "colDia": 9,
+    "produto": "Pack Figurinhas",
+    "identificado": "12/06/2026",
+    "diasPassados": 3,
+    "diaNome": "DIA 4",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=929442639749702&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=123045347437517",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  },
+  {
+    "rowIdx": 86,
+    "colDia": 9,
+    "produto": "Pack Figurinhas Copa ",
+    "identificado": "12/06/2026",
+    "diasPassados": 3,
+    "diaNome": "DIA 4",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&id=921717424316509&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=1027166040489643",
+    "valorAtual": "",
+    "precisaPreenchimento": true
+  }
+]

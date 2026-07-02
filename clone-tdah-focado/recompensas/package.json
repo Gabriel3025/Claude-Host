@@ -1,0 +1,27 @@
+{
+  "name": "tdah-focado-kids-recompensas",
+  "version": "1.0.0",
+  "description": "Sistema de Recompensas - TDAH Focado Kids",
+  "type": "module",
+  "main": "generate-pdf.mjs",
+  "scripts": {
+    "generate": "node generate-pdf.mjs",
+    "generate-pdf": "node generate-pdf.mjs"
+  },
+  "keywords": [
+    "TDAH",
+    "recompensas",
+    "gamificação",
+    "crianças",
+    "PDF"
+  ],
+  "author": "TDAH Focado Kids",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.48.0",
+    "pdf-lib": "^1.17.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

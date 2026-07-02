@@ -1,0 +1,13 @@
+- generic [ref=e38]:
+  - banner [ref=e39]:
+    - button "Voltar" [ref=e40] [cursor=pointer]:
+      - img [ref=e41]
+    - generic [ref=e43]:
+      - generic [ref=e44]: CALISTENIA
+      - generic [ref=e45]: by Atlas
+  - main [ref=e46]:
+    - generic [ref=e48]:
+      - img "Grupo de mulheres praticando exercícios" [ref=e50]
+      - heading "Elas conseguiram e você também pode" [level=1] [ref=e51]
+      - paragraph [ref=e52]: Mais de 27 milhões de mulheres já transformaram suas vidas com a Calistenia Asiática
+      - button "Continuar" [ref=e53] [cursor=pointer]

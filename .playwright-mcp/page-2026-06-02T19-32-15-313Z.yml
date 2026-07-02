@@ -1,0 +1,13 @@
+- generic [ref=e1953]:
+  - banner [ref=e1954]:
+    - button "Voltar" [ref=e1955] [cursor=pointer]:
+      - img [ref=e1956]
+    - generic [ref=e1958]:
+      - generic [ref=e1959]: CALISTENIA
+      - generic [ref=e1960]: by Atlas
+  - main [ref=e1961]:
+    - generic [ref=e1963]:
+      - heading "Aguarde, estamos criando seu plano personalizado" [level=1] [ref=e1964]
+      - paragraph [ref=e1968]: 33%
+      - img "Transformação" [ref=e1970]
+      - paragraph [ref=e1971]: Resultados reais de usuárias do programa.

@@ -1,0 +1,23 @@
+- generic [ref=e1599]:
+  - banner [ref=e1600]:
+    - button "Voltar" [ref=e1601] [cursor=pointer]:
+      - img [ref=e1602]
+    - generic [ref=e1604]:
+      - generic [ref=e1605]: CALISTENIA
+      - generic [ref=e1606]: by Atlas
+  - main [ref=e1609]:
+    - generic [ref=e1611]:
+      - heading "Como você descreveria seu dia típico?" [level=1] [ref=e1612]
+      - generic [ref=e1613]:
+        - button "Sedentário Eu passo a maior parte do dia sentado" [ref=e1614] [cursor=pointer]:
+          - generic [ref=e1616]:
+            - generic [ref=e1617]: Sedentário
+            - generic [ref=e1618]: Eu passo a maior parte do dia sentado
+        - button "Atividade moderada Eu faço pausas ativas" [ref=e1619] [cursor=pointer]:
+          - generic [ref=e1621]:
+            - generic [ref=e1622]: Atividade moderada
+            - generic [ref=e1623]: Eu faço pausas ativas
+        - button "Eu sou imparável Estou de pé o dia todo" [ref=e1624] [cursor=pointer]:
+          - generic [ref=e1626]:
+            - generic [ref=e1627]: Eu sou imparável
+            - generic [ref=e1628]: Estou de pé o dia todo

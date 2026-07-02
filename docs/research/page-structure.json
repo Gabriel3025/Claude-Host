@@ -1,0 +1,1859 @@
+{
+  "bodyHTML": {
+    "tag": "body",
+    "classes": "min-h-full flex flex-col bg-[#fffbf5] font-[family-name:var(--font-poppins)]",
+    "id": "",
+    "text": null,
+    "styles": {
+      "display": "flex",
+      "position": "static",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(124, 45, 18)",
+      "backgroundColor": "rgb(255, 251, 245)",
+      "padding": "0px",
+      "margin": "0px",
+      "width": "1034px",
+      "height": "4070px",
+      "textAlign": "start"
+    },
+    "childCount": 21,
+    "children": [
+      {
+        "tag": "div",
+        "classes": "",
+        "id": "",
+        "text": null,
+        "styles": {
+          "display": "none",
+          "position": "static",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "rgb(124, 45, 18)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "textAlign": "start"
+        },
+        "childCount": 0,
+        "children": []
+      },
+      {
+        "tag": "main",
+        "classes": "min-h-screen bg-gradient-to-b from-[#fffbf5] via-[#fff8ee] to-[#fff4e3]",
+        "id": "",
+        "text": null,
+        "styles": {
+          "display": "block",
+          "position": "static",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "rgb(124, 45, 18)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "width": "1034px",
+          "height": "4070px",
+          "textAlign": "start"
+        },
+        "childCount": 3,
+        "children": [
+          {
+            "tag": "header",
+            "classes": "border-b border-orange-100 bg-white/80 backdrop-blur-sm sticky",
+            "id": "",
+            "text": null,
+            "styles": {
+              "display": "block",
+              "position": "sticky",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "color": "rgb(124, 45, 18)",
+              "backgroundColor": "oklab(0.999994 0.0000455677 0.0000200868 / 0.8)",
+              "padding": "0px",
+              "margin": "0px",
+              "width": "1034px",
+              "height": "53px",
+              "textAlign": "start"
+            },
+            "childCount": 1,
+            "children": [
+              {
+                "tag": "div",
+                "classes": "max-w-3xl mx-auto px-5 py-3 flex",
+                "id": "",
+                "text": null,
+                "styles": {
+                  "display": "flex",
+                  "position": "static",
+                  "fontSize": "16px",
+                  "fontWeight": "400",
+                  "color": "rgb(124, 45, 18)",
+                  "backgroundColor": "rgba(0, 0, 0, 0)",
+                  "padding": "12px 20px",
+                  "margin": "0px 133px",
+                  "width": "768px",
+                  "height": "52px",
+                  "textAlign": "start"
+                },
+                "childCount": 2,
+                "children": [
+                  {
+                    "tag": "div",
+                    "classes": "flex items-center gap-2",
+                    "id": "",
+                    "text": null,
+                    "styles": {
+                      "display": "flex",
+                      "position": "static",
+                      "fontSize": "16px",
+                      "fontWeight": "400",
+                      "color": "rgb(124, 45, 18)",
+                      "backgroundColor": "rgba(0, 0, 0, 0)",
+                      "padding": "0px",
+                      "margin": "0px",
+                      "width": "200.422px",
+                      "height": "28px",
+                      "textAlign": "start"
+                    },
+                    "childCount": 2,
+                    "children": [
+                      {
+                        "tag": "div",
+                        "classes": "w-7 h-7 bg-orange-400 rounded-full flex",
+                        "id": "",
+                        "text": "💡",
+                        "styles": {
+                          "display": "flex",
+                          "position": "static",
+                          "fontSize": "14px",
+                          "fontWeight": "400",
+                          "color": "rgb(124, 45, 18)",
+                          "backgroundColor": "lab(70.0429 42.5156 75.8207)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "28px",
+                          "height": "28px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      },
+                      {
+                        "tag": "span",
+                        "classes": "font-semibold text-orange-700 text-sm tracking-wide uppercase",
+                        "id": "",
+                        "text": "TDAH Produtivo Kids",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "14px",
+                          "fontWeight": "600",
+                          "color": "lab(46.4615 57.7275 70.8507)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "164.422px",
+                          "height": "20px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "classes": "text-xs text-amber-700 font-medium hidden sm:inline",
+                    "id": "",
+                    "text": "Conteúdo educativo",
+                    "styles": {
+                      "display": "block",
+                      "position": "static",
+                      "fontSize": "12px",
+                      "fontWeight": "500",
+                      "color": "lab(47.2709 42.9082 69.2966)",
+                      "backgroundColor": "rgba(0, 0, 0, 0)",
+                      "padding": "0px",
+                      "margin": "0px",
+                      "width": "124.156px",
+                      "height": "16px",
+                      "textAlign": "start"
+                    },
+                    "childCount": 0,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "article",
+            "classes": "max-w-3xl mx-auto px-5 py-10",
+            "id": "",
+            "text": null,
+            "styles": {
+              "display": "block",
+              "position": "static",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "color": "rgb(124, 45, 18)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "40px 20px",
+              "margin": "0px 133px",
+              "width": "768px",
+              "height": "3880px",
+              "textAlign": "start"
+            },
+            "childCount": 16,
+            "children": [
+              {
+                "tag": "div",
+                "classes": "flex justify-center mb-6",
+                "id": "",
+                "text": null,
+                "styles": {
+                  "display": "flex",
+                  "position": "static",
+                  "fontSize": "16px",
+                  "fontWeight": "400",
+                  "color": "rgb(124, 45, 18)",
+                  "backgroundColor": "rgba(0, 0, 0, 0)",
+                  "padding": "0px",
+                  "margin": "0px 0px 24px",
+                  "width": "728px",
+                  "height": "30px",
+                  "textAlign": "start"
+                },
+                "childCount": 1,
+                "children": [
+                  {
+                    "tag": "span",
+                    "classes": "bg-amber-100 text-amber-700 text-xs font-semibold px-4",
+                    "id": "",
+                    "text": "📚 Conteúdo Educativo Gratuito",
+                    "styles": {
+                      "display": "block",
+                      "position": "static",
+                      "fontSize": "12px",
+                      "fontWeight": "600",
+                      "color": "lab(47.2709 42.9082 69.2966)",
+                      "backgroundColor": "lab(95.916 -1.21653 23.111)",
+                      "padding": "6px 16px",
+                      "margin": "0px",
+                      "width": "230.719px",
+                      "height": "30px",
+                      "textAlign": "start"
+                    },
+                    "childCount": 0,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tag": "h1",
+                "classes": "text-3xl sm:text-4xl font-extrabold text-[#7c2d12] leading-tight",
+                "id": "",
+                "text": null,
+                "styles": {
+                  "display": "block",
+                  "position": "static",
+                  "fontSize": "36px",
+                  "fontWeight": "800",
+                  "color": "rgb(124, 45, 18)",
+                  "backgroundColor": "rgba(0, 0, 0, 0)",
+                  "padding": "0px",
+                  "margin": "0px 0px 16px",
+                  "width": "728px",
+                  "height": "90px",
+                  "textAlign": "center"
+                },
+                "childCount": 2,
+                "children": [
+                  {
+                    "tag": "br",
+                    "classes": "",
+                    "id": "",
+                    "text": null,
+                    "styles": {
+                      "display": "inline",
+                      "position": "static",
+                      "fontSize": "36px",
+                      "fontWeight": "800",
+                      "color": "rgb(124, 45, 18)",
+                      "backgroundColor": "rgba(0, 0, 0, 0)",
+                      "padding": "0px",
+                      "margin": "0px",
+                      "textAlign": "center"
+                    },
+                    "childCount": 0,
+                    "children": []
+                  },
+                  {
+                    "tag": "span",
+                    "classes": "text-orange-500",
+                    "id": "",
+                    "text": "como ajudar seu filho a aprender melhor",
+                    "styles": {
+                      "display": "inline",
+                      "position": "static",
+                      "fontSize": "36px",
+                      "fontWeight": "800",
+                      "color": "lab(64.272 57.1788 90.3583)",
+                      "backgroundColor": "rgba(0, 0, 0, 0)",
+                      "padding": "0px",
+                      "margin": "0px",
+                      "textAlign": "center"
+                    },
+                    "childCount": 0,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "classes": "text-center text-sm text-amber-700 mb-10",
+                "id": "",
+                "text": "Atualizado em 2026 · Leitura de 7 minutos",
+                "styles": {
+                  "display": "block",
+                  "position": "static",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "color": "lab(47.2709 42.9082 69.2966)",
+                  "backgroundColor": "rgba(0, 0, 0, 0)",
+                  "padding": "0px",
+                  "margin": "0px 0px 40px",
+                  "width": "728px",
+                  "height": "20px",
+                  "textAlign": "center"
+                },
+                "childCount": 0,
+                "children": []
+              },
+              {
+                "tag": "div",
+                "classes": "prose prose-amber max-w-none mb-10 space-y-4",
+                "id": "",
+                "text": null,
+                "styles": {
+                  "display": "block",
+                  "position": "static",
+                  "fontSize": "16px",
+                  "fontWeight": "400",
+                  "color": "rgb(63, 44, 31)",
+                  "backgroundColor": "rgba(0, 0, 0, 0)",
+                  "padding": "0px",
+                  "margin": "0px 0px 40px",
+                  "width": "728px",
+                  "height": "370px",
+                  "textAlign": "start"
+                },
+                "childCount": 3,
+                "children": [
+                  {
+                    "tag": "p",
+                    "classes": "",
+                    "id": "",
+                    "text": null,
+                    "styles": {
+                      "display": "block",
+                      "position": "static",
+                      "fontSize": "16px",
+                      "fontWeight": "400",
+                      "color": "rgb(63, 44, 31)",
+                      "backgroundColor": "rgba(0, 0, 0, 0)",
+                      "padding": "0px",
+                      "margin": "0px 0px 16px",
+                      "width": "728px",
+                      "height": "130px",
+                      "textAlign": "start"
+                    },
+                    "childCount": 1,
+                    "children": [
+                      {
+                        "tag": "strong",
+                        "classes": "",
+                        "id": "",
+                        "text": "um sistema adaptado ao cérebro dela",
+                        "styles": {
+                          "display": "inline",
+                          "position": "static",
+                          "fontSize": "16px",
+                          "fontWeight": "700",
+                          "color": "rgb(63, 44, 31)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "p",
+                    "classes": "",
+                    "id": "",
+                    "text": "O TDAH (Transtorno de Déficit de Atenção e Hiperatividade) afeta funções executivas como organização, memória de trabalho, controle de impulsos e gerenciamento de tempo. Tudo isso é exigido o tempo inteiro dentro de uma sala de aula. Sem o apoio certo, essas crianças entram em um ciclo de frustração",
+                    "styles": {
+                      "display": "block",
+                      "position": "static",
+                      "fontSize": "16px",
+                      "fontWeight": "400",
+                      "color": "rgb(63, 44, 31)",
+                      "backgroundColor": "rgba(0, 0, 0, 0)",
+                      "padding": "0px",
+                      "margin": "0px 0px 16px",
+                      "width": "728px",
+                      "height": "130px",
+                      "textAlign": "start"
+                    },
+                    "childCount": 0,
+                    "children": []
+                  },
+                  {
+                    "tag": "p",
+                    "classes": "",
+                    "id": "",
+                    "text": "Este guia reúne o que pesquisadores e neuropsicopedagogos recomendam para pais que querem apoiar o desempenho escolar do filho com TDAH — sem brigas, sem chantagem e sem rotular a criança como “problema”.",
+                    "styles": {
+                      "display": "block",
+                      "position": "static",
+                      "fontSize": "16px",
+                      "fontWeight": "400",
+                      "color": "rgb(63, 44, 31)",
+                      "backgroundColor": "rgba(0, 0, 0, 0)",
+                      "padding": "0px",
+                      "margin": "0px",
+                      "width": "728px",
+                      "height": "78px",
+                      "textAlign": "start"
+                    },
+                    "childCount": 0,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tag": "h2",
+                "classes": "text-2xl font-extrabold text-[#7c2d12] mb-5 mt-12",
+                "id": "",
+                "text": "Sinais de dificuldade escolar por idade",
+                "styles": {
+                  "display": "block",
+                  "position": "static",
+                  "fontSize": "24px",
+                  "fontWeight": "800",
+                  "color": "rgb(124, 45, 18)",
+                  "backgroundColor": "rgba(0, 0, 0, 0)",
+                  "padding": "0px",
+                  "margin": "48px 0px 20px",
+                  "width": "728px",
+                  "height": "32px",
+                  "textAlign": "start"
+                },
+                "childCount": 0,
+                "children": []
+              },
+              {
+                "tag": "div",
+                "classes": "grid sm:grid-cols-3 gap-4 mb-10",
+                "id": "",
+                "text": null,
+                "styles": {
+                  "display": "grid",
+                  "position": "static",
+                  "fontSize": "16px",
+                  "fontWeight": "400",
+                  "color": "rgb(124, 45, 18)",
+                  "backgroundColor": "rgba(0, 0, 0, 0)",
+                  "padding": "0px",
+                  "margin": "0px 0px 40px",
+                  "width": "728px",
+                  "height": "254px",
+                  "textAlign": "start"
+                },
+                "childCount": 3,
+                "children": [
+                  {
+                    "tag": "div",
+                    "classes": "bg-white border border-orange-100 rounded-2xl p-5",
+                    "id": "",
+                    "text": null,
+                    "styles": {
+                      "display": "block",
+                      "position": "static",
+                      "fontSize": "16px",
+                      "fontWeight": "400",
+                      "color": "rgb(124, 45, 18)",
+                      "backgroundColor": "rgb(255, 255, 255)",
+                      "padding": "20px",
+                      "margin": "0px",
+                      "width": "232px",
+                      "height": "254px",
+                      "textAlign": "start"
+                    },
+                    "childCount": 3,
+                    "children": [
+                      {
+                        "tag": "div",
+                        "classes": "text-xs font-bold text-orange-500 uppercase tracking-wider",
+                        "id": "",
+                        "text": "4 a 6 anos",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "12px",
+                          "fontWeight": "700",
+                          "color": "lab(64.272 57.1788 90.3583)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px 0px 4px",
+                          "width": "190px",
+                          "height": "16px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "font-bold text-[#7c2d12] mb-3",
+                        "id": "",
+                        "text": "Pré-escola",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "16px",
+                          "fontWeight": "700",
+                          "color": "rgb(124, 45, 18)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px 0px 12px",
+                          "width": "190px",
+                          "height": "24px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      },
+                      {
+                        "tag": "ul",
+                        "classes": "space-y-2 text-sm text-amber-900",
+                        "id": "",
+                        "text": null,
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "14px",
+                          "fontWeight": "400",
+                          "color": "lab(31.2288 30.2627 40.0378)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "190px",
+                          "height": "156px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 3,
+                        "children": [
+                          {
+                            "tag": "li",
+                            "classes": "flex gap-2",
+                            "id": "",
+                            "text": null,
+                            "styles": {
+                              "display": "flex",
+                              "position": "static",
+                              "fontSize": "14px",
+                              "fontWeight": "400",
+                              "color": "lab(31.2288 30.2627 40.0378)",
+                              "backgroundColor": "rgba(0, 0, 0, 0)",
+                              "padding": "0px",
+                              "margin": "0px 0px 8px",
+                              "width": "190px",
+                              "height": "40px",
+                              "textAlign": "start"
+                            },
+                            "childCount": 2,
+                            "children": []
+                          },
+                          {
+                            "tag": "li",
+                            "classes": "flex gap-2",
+                            "id": "",
+                            "text": null,
+                            "styles": {
+                              "display": "flex",
+                              "position": "static",
+                              "fontSize": "14px",
+                              "fontWeight": "400",
+                              "color": "lab(31.2288 30.2627 40.0378)",
+                              "backgroundColor": "rgba(0, 0, 0, 0)",
+                              "padding": "0px",
+                              "margin": "0px 0px 8px",
+                              "width": "190px",
+                              "height": "40px",
+                              "textAlign": "start"
+                            },
+                            "childCount": 2,
+                            "children": []
+                          },
+                          {
+                            "tag": "li",
+                            "classes": "flex gap-2",
+                            "id": "",
+                            "text": null,
+                            "styles": {
+                              "display": "flex",
+                              "position": "static",
+                              "fontSize": "14px",
+                              "fontWeight": "400",
+                              "color": "lab(31.2288 30.2627 40.0378)",
+                              "backgroundColor": "rgba(0, 0, 0, 0)",
+                              "padding": "0px",
+                              "margin": "0px",
+                              "width": "190px",
+                              "height": "60px",
+                              "textAlign": "start"
+                            },
+                            "childCount": 2,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "bg-white border border-orange-100 rounded-2xl p-5",
+                    "id": "",
+                    "text": null,
+                    "styles": {
+                      "display": "block",
+                      "position": "static",
+                      "fontSize": "16px",
+                      "fontWeight": "400",
+                      "color": "rgb(124, 45, 18)",
+                      "backgroundColor": "rgb(255, 255, 255)",
+                      "padding": "20px",
+                      "margin": "0px",
+                      "width": "232px",
+                      "height": "254px",
+                      "textAlign": "start"
+                    },
+                    "childCount": 3,
+                    "children": [
+                      {
+                        "tag": "div",
+                        "classes": "text-xs font-bold text-orange-500 uppercase tracking-wider",
+                        "id": "",
+                        "text": "7 a 10 anos",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "12px",
+                          "fontWeight": "700",
+                          "color": "lab(64.272 57.1788 90.3583)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px 0px 4px",
+                          "width": "190px",
+                          "height": "16px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "font-bold text-[#7c2d12] mb-3",
+                        "id": "",
+                        "text": "Anos iniciais",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "16px",
+                          "fontWeight": "700",
+                          "color": "rgb(124, 45, 18)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px 0px 12px",
+                          "width": "190px",
+                          "height": "24px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      },
+                      {
+                        "tag": "ul",
+                        "classes": "space-y-2 text-sm text-amber-900",
+                        "id": "",
+                        "text": null,
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "14px",
+                          "fontWeight": "400",
+                          "color": "lab(31.2288 30.2627 40.0378)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "190px",
+                          "height": "136px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 3,
+                        "children": [
+                          {
+                            "tag": "li",
+                            "classes": "flex gap-2",
+                            "id": "",
+                            "text": null,
+                            "styles": {
+                              "display": "flex",
+                              "position": "static",
+                              "fontSize": "14px",
+                              "fontWeight": "400",
+                              "color": "lab(31.2288 30.2627 40.0378)",
+                              "backgroundColor": "rgba(0, 0, 0, 0)",
+                              "padding": "0px",
+                              "margin": "0px 0px 8px",
+                              "width": "190px",
+                              "height": "40px",
+                              "textAlign": "start"
+                            },
+                            "childCount": 2,
+                            "children": []
+                          },
+                          {
+                            "tag": "li",
+                            "classes": "flex gap-2",
+                            "id": "",
+                            "text": null,
+                            "styles": {
+                              "display": "flex",
+                              "position": "static",
+                              "fontSize": "14px",
+                              "fontWeight": "400",
+                              "color": "lab(31.2288 30.2627 40.0378)",
+                              "backgroundColor": "rgba(0, 0, 0, 0)",
+                              "padding": "0px",
+                              "margin": "0px 0px 8px",
+                              "width": "190px",
+                              "height": "40px",
+                              "textAlign": "start"
+                            },
+                            "childCount": 2,
+                            "children": []
+                          },
+                          {
+                            "tag": "li",
+                            "classes": "flex gap-2",
+                            "id": "",
+                            "text": null,
+                            "styles": {
+                              "display": "flex",
+                              "position": "static",
+                              "fontSize": "14px",
+                              "fontWeight": "400",
+                              "color": "lab(31.2288 30.2627 40.0378)",
+                              "backgroundColor": "rgba(0, 0, 0, 0)",
+                              "padding": "0px",
+                              "margin": "0px",
+                              "width": "190px",
+                              "height": "40px",
+                              "textAlign": "start"
+                            },
+                            "childCount": 2,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "bg-white border border-orange-100 rounded-2xl p-5",
+                    "id": "",
+                    "text": null,
+                    "styles": {
+                      "display": "block",
+                      "position": "static",
+                      "fontSize": "16px",
+                      "fontWeight": "400",
+                      "color": "rgb(124, 45, 18)",
+                      "backgroundColor": "rgb(255, 255, 255)",
+                      "padding": "20px",
+                      "margin": "0px",
+                      "width": "232px",
+                      "height": "254px",
+                      "textAlign": "start"
+                    },
+                    "childCount": 3,
+                    "children": [
+                      {
+                        "tag": "div",
+                        "classes": "text-xs font-bold text-orange-500 uppercase tracking-wider",
+                        "id": "",
+                        "text": "11 a 14 anos",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "12px",
+                          "fontWeight": "700",
+                          "color": "lab(64.272 57.1788 90.3583)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px 0px 4px",
+                          "width": "190px",
+                          "height": "16px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "font-bold text-[#7c2d12] mb-3",
+                        "id": "",
+                        "text": "Pré-adolescência",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "16px",
+                          "fontWeight": "700",
+                          "color": "rgb(124, 45, 18)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px 0px 12px",
+                          "width": "190px",
+                          "height": "24px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      },
+                      {
+                        "tag": "ul",
+                        "classes": "space-y-2 text-sm text-amber-900",
+                        "id": "",
+                        "text": null,
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "14px",
+                          "fontWeight": "400",
+                          "color": "lab(31.2288 30.2627 40.0378)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "190px",
+                          "height": "136px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 3,
+                        "children": [
+                          {
+                            "tag": "li",
+                            "classes": "flex gap-2",
+                            "id": "",
+                            "text": null,
+                            "styles": {
+                              "display": "flex",
+                              "position": "static",
+                              "fontSize": "14px",
+                              "fontWeight": "400",
+                              "color": "lab(31.2288 30.2627 40.0378)",
+                              "backgroundColor": "rgba(0, 0, 0, 0)",
+                              "padding": "0px",
+                              "margin": "0px 0px 8px",
+                              "width": "190px",
+                              "height": "40px",
+                              "textAlign": "start"
+                            },
+                            "childCount": 2,
+                            "children": []
+                          },
+                          {
+                            "tag": "li",
+                            "classes": "flex gap-2",
+                            "id": "",
+                            "text": null,
+                            "styles": {
+                              "display": "flex",
+                              "position": "static",
+                              "fontSize": "14px",
+                              "fontWeight": "400",
+                              "color": "lab(31.2288 30.2627 40.0378)",
+                              "backgroundColor": "rgba(0, 0, 0, 0)",
+                              "padding": "0px",
+                              "margin": "0px 0px 8px",
+                              "width": "190px",
+                              "height": "40px",
+                              "textAlign": "start"
+                            },
+                            "childCount": 2,
+                            "children": []
+                          },
+                          {
+                            "tag": "li",
+                            "classes": "flex gap-2",
+                            "id": "",
+                            "text": null,
+                            "styles": {
+                              "display": "flex",
+                              "position": "static",
+                              "fontSize": "14px",
+                              "fontWeight": "400",
+                              "color": "lab(31.2288 30.2627 40.0378)",
+                              "backgroundColor": "rgba(0, 0, 0, 0)",
+                              "padding": "0px",
+                              "margin": "0px",
+                              "width": "190px",
+                              "height": "40px",
+                              "textAlign": "start"
+                            },
+                            "childCount": 2,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "h2",
+                "classes": "text-2xl font-extrabold text-[#7c2d12] mb-5 mt-12",
+                "id": "",
+                "text": "Sinais de atenção que merecem cuidado",
+                "styles": {
+                  "display": "block",
+                  "position": "static",
+                  "fontSize": "24px",
+                  "fontWeight": "800",
+                  "color": "rgb(124, 45, 18)",
+                  "backgroundColor": "rgba(0, 0, 0, 0)",
+                  "padding": "0px",
+                  "margin": "48px 0px 20px",
+                  "width": "728px",
+                  "height": "32px",
+                  "textAlign": "start"
+                },
+                "childCount": 0,
+                "children": []
+              },
+              {
+                "tag": "p",
+                "classes": "text-[#3f2c1f] mb-5 leading-relaxed",
+                "id": "",
+                "text": "Crianças com TDAH não “escolhem” ignorar comandos. Elas têm um cérebro que processa informação de forma diferente. Fique atento se você nota:",
+                "styles": {
+                  "display": "block",
+                  "position": "static",
+                  "fontSize": "16px",
+                  "fontWeight": "400",
+                  "color": "rgb(63, 44, 31)",
+                  "backgroundColor": "rgba(0, 0, 0, 0)",
+                  "padding": "0px",
+                  "margin": "0px 0px 20px",
+                  "width": "728px",
+                  "height": "52px",
+                  "textAlign": "start"
+                },
+                "childCount": 0,
+                "children": []
+              },
+              {
+                "tag": "ul",
+                "classes": "space-y-3 mb-10",
+                "id": "",
+                "text": null,
+                "styles": {
+                  "display": "block",
+                  "position": "static",
+                  "fontSize": "16px",
+                  "fontWeight": "400",
+                  "color": "rgb(124, 45, 18)",
+                  "backgroundColor": "rgba(0, 0, 0, 0)",
+                  "padding": "0px",
+                  "margin": "0px 0px 40px",
+                  "width": "728px",
+                  "height": "478px",
+                  "textAlign": "start"
+                },
+                "childCount": 7,
+                "children": [
+                  {
+                    "tag": "li",
+                    "classes": "flex gap-3 bg-white border border-orange-100",
+                    "id": "",
+                    "text": null,
+                    "styles": {
+                      "display": "flex",
+                      "position": "static",
+                      "fontSize": "16px",
+                      "fontWeight": "400",
+                      "color": "rgb(124, 45, 18)",
+                      "backgroundColor": "rgb(255, 255, 255)",
+                      "padding": "16px",
+                      "margin": "0px 0px 12px",
+                      "width": "728px",
+                      "height": "58px",
+                      "textAlign": "start"
+                    },
+                    "childCount": 2,
+                    "children": [
+                      {
+                        "tag": "span",
+                        "classes": "text-orange-500 font-bold",
+                        "id": "",
+                        "text": "✓",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "16px",
+                          "fontWeight": "700",
+                          "color": "lab(64.272 57.1788 90.3583)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "11.9844px",
+                          "height": "24px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      },
+                      {
+                        "tag": "span",
+                        "classes": "text-[#3f2c1f] text-sm leading-relaxed",
+                        "id": "",
+                        "text": "Dificuldade em manter o foco em tarefas que exigem esforço mental",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "14px",
+                          "fontWeight": "400",
+                          "color": "rgb(63, 44, 31)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "485.422px",
+                          "height": "24px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "li",
+                    "classes": "flex gap-3 bg-white border border-orange-100",
+                    "id": "",
+                    "text": null,
+                    "styles": {
+                      "display": "flex",
+                      "position": "static",
+                      "fontSize": "16px",
+                      "fontWeight": "400",
+                      "color": "rgb(124, 45, 18)",
+                      "backgroundColor": "rgb(255, 255, 255)",
+                      "padding": "16px",
+                      "margin": "0px 0px 12px",
+                      "width": "728px",
+                      "height": "58px",
+                      "textAlign": "start"
+                    },
+                    "childCount": 2,
+                    "children": [
+                      {
+                        "tag": "span",
+                        "classes": "text-orange-500 font-bold",
+                        "id": "",
+                        "text": "✓",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "16px",
+                          "fontWeight": "700",
+                          "color": "lab(64.272 57.1788 90.3583)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "11.9844px",
+                          "height": "24px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      },
+                      {
+                        "tag": "span",
+                        "classes": "text-[#3f2c1f] text-sm leading-relaxed",
+                        "id": "",
+                        "text": "Esquece compromissos, materiais e instruções recém-dadas",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "14px",
+                          "fontWeight": "400",
+                          "color": "rgb(63, 44, 31)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "430.547px",
+                          "height": "24px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "li",
+                    "classes": "flex gap-3 bg-white border border-orange-100",
+                    "id": "",
+                    "text": null,
+                    "styles": {
+                      "display": "flex",
+                      "position": "static",
+                      "fontSize": "16px",
+                      "fontWeight": "400",
+                      "color": "rgb(124, 45, 18)",
+                      "backgroundColor": "rgb(255, 255, 255)",
+                      "padding": "16px",
+                      "margin": "0px 0px 12px",
+                      "width": "728px",
+                      "height": "58px",
+                      "textAlign": "start"
+                    },
+                    "childCount": 2,
+                    "children": [
+                      {
+                        "tag": "span",
+                        "classes": "text-orange-500 font-bold",
+                        "id": "",
+                        "text": "✓",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "16px",
+                          "fontWeight": "700",
+                          "color": "lab(64.272 57.1788 90.3583)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "11.9844px",
+                          "height": "24px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      },
+                      {
+                        "tag": "span",
+                        "classes": "text-[#3f2c1f] text-sm leading-relaxed",
+                        "id": "",
+                        "text": "Não termina o que começa — mesmo coisas que gosta",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "14px",
+                          "fontWeight": "400",
+                          "color": "rgb(63, 44, 31)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "390.344px",
+                          "height": "24px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "li",
+                    "classes": "flex gap-3 bg-white border border-orange-100",
+                    "id": "",
+                    "text": null,
+                    "styles": {
+                      "display": "flex",
+                      "position": "static",
+                      "fontSize": "16px",
+                      "fontWeight": "400",
+                      "color": "rgb(124, 45, 18)",
+                      "backgroundColor": "rgb(255, 255, 255)",
+                      "padding": "16px",
+                      "margin": "0px 0px 12px",
+                      "width": "728px",
+                      "height": "58px",
+                      "textAlign": "start"
+                    },
+                    "childCount": 2,
+                    "children": [
+                      {
+                        "tag": "span",
+                        "classes": "text-orange-500 font-bold",
+                        "id": "",
+                        "text": "✓",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "16px",
+                          "fontWeight": "700",
+                          "color": "lab(64.272 57.1788 90.3583)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "11.9844px",
+                          "height": "24px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      },
+                      {
+                        "tag": "span",
+                        "classes": "text-[#3f2c1f] text-sm leading-relaxed",
+                        "id": "",
+                        "text": "Distrai-se com qualquer barulho, movimento ou pensamento próprio",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "14px",
+                          "fontWeight": "400",
+                          "color": "rgb(63, 44, 31)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "485.969px",
+                          "height": "24px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "li",
+                    "classes": "flex gap-3 bg-white border border-orange-100",
+                    "id": "",
+                    "text": null,
+                    "styles": {
+                      "display": "flex",
+                      "position": "static",
+                      "fontSize": "16px",
+                      "fontWeight": "400",
+                      "color": "rgb(124, 45, 18)",
+                      "backgroundColor": "rgb(255, 255, 255)",
+                      "padding": "16px",
+                      "margin": "0px 0px 12px",
+                      "width": "728px",
+                      "height": "58px",
+                      "textAlign": "start"
+                    },
+                    "childCount": 2,
+                    "children": [
+                      {
+                        "tag": "span",
+                        "classes": "text-orange-500 font-bold",
+                        "id": "",
+                        "text": "✓",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "16px",
+                          "fontWeight": "700",
+                          "color": "lab(64.272 57.1788 90.3583)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "11.9844px",
+                          "height": "24px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      },
+                      {
+                        "tag": "span",
+                        "classes": "text-[#3f2c1f] text-sm leading-relaxed",
+                        "id": "",
+                        "text": "Parece ‘não ouvir’ quando se fala diretamente com ela",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "14px",
+                          "fontWeight": "400",
+                          "color": "rgb(63, 44, 31)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "385.422px",
+                          "height": "24px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "li",
+                    "classes": "flex gap-3 bg-white border border-orange-100",
+                    "id": "",
+                    "text": null,
+                    "styles": {
+                      "display": "flex",
+                      "position": "static",
+                      "fontSize": "16px",
+                      "fontWeight": "400",
+                      "color": "rgb(124, 45, 18)",
+                      "backgroundColor": "rgb(255, 255, 255)",
+                      "padding": "16px",
+                      "margin": "0px 0px 12px",
+                      "width": "728px",
+                      "height": "58px",
+                      "textAlign": "start"
+                    },
+                    "childCount": 2,
+                    "children": [
+                      {
+                        "tag": "span",
+                        "classes": "text-orange-500 font-bold",
+                        "id": "",
+                        "text": "✓",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "16px",
+                          "fontWeight": "700",
+                          "color": "lab(64.272 57.1788 90.3583)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "11.9844px",
+                          "height": "24px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      },
+                      {
+                        "tag": "span",
+                        "classes": "text-[#3f2c1f] text-sm leading-relaxed",
+                        "id": "",
+                        "text": "Reage de forma intensa a pequenas frustrações ou mudanças de rotina",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "14px",
+                          "fontWeight": "400",
+                          "color": "rgb(63, 44, 31)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "508.438px",
+                          "height": "24px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "li",
+                    "classes": "flex gap-3 bg-white border border-orange-100",
+                    "id": "",
+                    "text": null,
+                    "styles": {
+                      "display": "flex",
+                      "position": "static",
+                      "fontSize": "16px",
+                      "fontWeight": "400",
+                      "color": "rgb(124, 45, 18)",
+                      "backgroundColor": "rgb(255, 255, 255)",
+                      "padding": "16px",
+                      "margin": "0px",
+                      "width": "728px",
+                      "height": "58px",
+                      "textAlign": "start"
+                    },
+                    "childCount": 2,
+                    "children": [
+                      {
+                        "tag": "span",
+                        "classes": "text-orange-500 font-bold",
+                        "id": "",
+                        "text": "✓",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "16px",
+                          "fontWeight": "700",
+                          "color": "lab(64.272 57.1788 90.3583)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "11.9844px",
+                          "height": "24px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      },
+                      {
+                        "tag": "span",
+                        "classes": "text-[#3f2c1f] text-sm leading-relaxed",
+                        "id": "",
+                        "text": "Tem o sono agitado, demora pra adormecer ou acorda várias vezes",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "14px",
+                          "fontWeight": "400",
+                          "color": "rgb(63, 44, 31)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "478.953px",
+                          "height": "24px",
+                          "textAlign": "start"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "classes": "my-12 bg-amber-50 border border-amber-200 rounded-2xl",
+                "id": "",
+                "text": null,
+                "styles": {
+                  "display": "flex",
+                  "position": "static",
+                  "fontSize": "16px",
+                  "fontWeight": "400",
+                  "color": "rgb(124, 45, 18)",
+                  "backgroundColor": "lab(98.6252 -0.635922 8.42309)",
+                  "padding": "24px",
+                  "margin": "48px 0px",
+                  "width": "728px",
+                  "height": "113px",
+                  "textAlign": "start"
+                },
+                "childCount": 3,
+                "children": [
+                  {
+                    "tag": "div",
+                    "classes": "text-3xl",
+                    "id": "",
+                    "text": "📖",
+                    "styles": {
+                      "display": "block",
+                      "position": "static",
+                      "fontSize": "30px",
+                      "fontWeight": "400",
+                      "color": "rgb(124, 45, 18)",
+                      "backgroundColor": "rgba(0, 0, 0, 0)",
+                      "padding": "0px",
+                      "margin": "0px",
+                      "width": "41.2031px",
+                      "height": "36px",
+                      "textAlign": "start"
+                    },
+                    "childCount": 0,
+                    "children": []
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "flex-1 text-center sm:text-left",
+                    "id": "",
+                    "text": null,
+                    "styles": {
+                      "display": "block",
+                      "position": "static",
+                      "fontSize": "16px",
+                      "fontWeight": "400",
+                      "color": "rgb(124, 45, 18)",
+                      "backgroundColor": "rgba(0, 0, 0, 0)",
+                      "padding": "0px",
+                      "margin": "0px",
+                      "width": "484.031px",
+                      "height": "63px",
+                      "textAlign": "left"
+                    },
+                    "childCount": 2,
+                    "children": [
+                      {
+                        "tag": "p",
+                        "classes": "text-[#7c2d12] font-semibold text-sm mb-1",
+                        "id": "",
+                        "text": "Quer um material prático com tudo isso aplicado?",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "14px",
+                          "fontWeight": "600",
+                          "color": "rgb(124, 45, 18)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px 0px 4px",
+                          "width": "484.031px",
+                          "height": "20px",
+                          "textAlign": "left"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      },
+                      {
+                        "tag": "p",
+                        "classes": "text-amber-800 text-xs leading-relaxed",
+                        "id": "",
+                        "text": "Preparamos um planner pronto para imprimir, com rotina, sistema de recompensas e checklist escolar adaptado ao cérebro com TDAH.",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "12px",
+                          "fontWeight": "400",
+                          "color": "lab(37.8822 37.1699 52.2718)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "484.031px",
+                          "height": "39px",
+                          "textAlign": "left"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "a",
+                    "classes": "text-sm font-bold text-orange-700 underline underline-offset-4",
+                    "id": "",
+                    "text": "Ver o material →",
+                    "styles": {
+                      "display": "block",
+                      "position": "static",
+                      "fontSize": "14px",
+                      "fontWeight": "700",
+                      "color": "lab(46.4615 57.7275 70.8507)",
+                      "backgroundColor": "rgba(0, 0, 0, 0)",
+                      "padding": "0px",
+                      "margin": "0px",
+                      "width": "120.766px",
+                      "height": "20px",
+                      "textAlign": "start"
+                    },
+                    "childCount": 0,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "footer",
+            "classes": "border-t border-orange-100 bg-white/60 mt-10",
+            "id": "",
+            "text": null,
+            "styles": {
+              "display": "block",
+              "position": "static",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "color": "rgb(124, 45, 18)",
+              "backgroundColor": "oklab(0.999994 0.0000455677 0.0000200868 / 0.6)",
+              "padding": "0px",
+              "margin": "40px 0px 0px",
+              "width": "1034px",
+              "height": "97px",
+              "textAlign": "start"
+            },
+            "childCount": 1,
+            "children": [
+              {
+                "tag": "div",
+                "classes": "max-w-3xl mx-auto px-5 py-6 text-center",
+                "id": "",
+                "text": null,
+                "styles": {
+                  "display": "block",
+                  "position": "static",
+                  "fontSize": "16px",
+                  "fontWeight": "400",
+                  "color": "rgb(124, 45, 18)",
+                  "backgroundColor": "rgba(0, 0, 0, 0)",
+                  "padding": "24px 20px",
+                  "margin": "0px 133px",
+                  "width": "768px",
+                  "height": "96px",
+                  "textAlign": "center"
+                },
+                "childCount": 2,
+                "children": [
+                  {
+                    "tag": "div",
+                    "classes": "flex items-center justify-center gap-2 mb-2",
+                    "id": "",
+                    "text": null,
+                    "styles": {
+                      "display": "flex",
+                      "position": "static",
+                      "fontSize": "16px",
+                      "fontWeight": "400",
+                      "color": "rgb(124, 45, 18)",
+                      "backgroundColor": "rgba(0, 0, 0, 0)",
+                      "padding": "0px",
+                      "margin": "0px 0px 8px",
+                      "width": "728px",
+                      "height": "24px",
+                      "textAlign": "center"
+                    },
+                    "childCount": 2,
+                    "children": [
+                      {
+                        "tag": "div",
+                        "classes": "w-6 h-6 bg-orange-400 rounded-full flex",
+                        "id": "",
+                        "text": "💡",
+                        "styles": {
+                          "display": "flex",
+                          "position": "static",
+                          "fontSize": "12px",
+                          "fontWeight": "400",
+                          "color": "rgb(124, 45, 18)",
+                          "backgroundColor": "lab(70.0429 42.5156 75.8207)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "24px",
+                          "height": "24px",
+                          "textAlign": "center"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      },
+                      {
+                        "tag": "span",
+                        "classes": "font-semibold text-orange-700 text-sm",
+                        "id": "",
+                        "text": "TDAH Produtivo Kids",
+                        "styles": {
+                          "display": "block",
+                          "position": "static",
+                          "fontSize": "14px",
+                          "fontWeight": "600",
+                          "color": "lab(46.4615 57.7275 70.8507)",
+                          "backgroundColor": "rgba(0, 0, 0, 0)",
+                          "padding": "0px",
+                          "margin": "0px",
+                          "width": "143.641px",
+                          "height": "20px",
+                          "textAlign": "center"
+                        },
+                        "childCount": 0,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "p",
+                    "classes": "text-xs text-amber-700",
+                    "id": "",
+                    "text": null,
+                    "styles": {
+                      "display": "block",
+                      "position": "static",
+                      "fontSize": "12px",
+                      "fontWeight": "400",
+                      "color": "lab(47.2709 42.9082 69.2966)",
+                      "backgroundColor": "rgba(0, 0, 0, 0)",
+                      "padding": "0px",
+                      "margin": "0px",
+                      "width": "728px",
+                      "height": "16px",
+                      "textAlign": "center"
+                    },
+                    "childCount": 0,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "noscript",
+        "classes": "",
+        "id": "",
+        "text": "<img height=\"1\" width=\"1\" style=\"display:none\" src=\"https://www.facebook.com/tr?id=26925200123779436&amp;ev=PageView&amp;noscript=1\" alt=\"\"/>",
+        "styles": {
+          "display": "block",
+          "position": "static",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "rgb(124, 45, 18)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "textAlign": "start"
+        },
+        "childCount": 0,
+        "children": []
+      },
+      {
+        "tag": "script",
+        "classes": "",
+        "id": "_R_",
+        "text": null,
+        "styles": {
+          "display": "none",
+          "position": "static",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "rgb(124, 45, 18)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "textAlign": "start"
+        },
+        "childCount": 0,
+        "children": []
+      },
+      {
+        "tag": "script",
+        "classes": "",
+        "id": "",
+        "text": "(self.__next_f=self.__next_f||[]).push([0])",
+        "styles": {
+          "display": "none",
+          "position": "static",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "rgb(124, 45, 18)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "textAlign": "start"
+        },
+        "childCount": 0,
+        "children": []
+      },
+      {
+        "tag": "script",
+        "classes": "",
+        "id": "",
+        "text": "self.__next_f.push([1,\"1:\\\"$Sreact.fragment\\\"\\n2:I[39756,[\\\"/_next/static/chunks/0klsv.ufr07qh.js\\\",\\\"/_next/static/chunks/0d3shmwh5_nmn.js\\\"],\\\"default\\\"]\\n3:I[37457,[\\\"/_next/static/chunks/0klsv.ufr07qh.js\\\",\\\"/_next/static/chunks/0d3shmwh5_nmn.js\\\"],\\\"default\\\"]\\n4:I[79520,[\\\"/_next/static/chunks",
+        "styles": {
+          "display": "none",
+          "position": "static",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "rgb(124, 45, 18)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "textAlign": "start"
+        },
+        "childCount": 0,
+        "children": []
+      },
+      {
+        "tag": "script",
+        "classes": "",
+        "id": "",
+        "text": "self.__next_f.push([1,\"0:{\\\"P\\\":null,\\\"c\\\":[\\\"\\\",\\\"safe\\\"],\\\"q\\\":\\\"\\\",\\\"i\\\":false,\\\"f\\\":[[[\\\"\\\",{\\\"children\\\":[\\\"safe\\\",{\\\"children\\\":[\\\"__PAGE__\\\",{}]}]},\\\"$undefined\\\",\\\"$undefined\\\",16],[[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[[[\\\"$\\\",\\\"link\\\",\\\"0\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/chu",
+        "styles": {
+          "display": "none",
+          "position": "static",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "rgb(124, 45, 18)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "textAlign": "start"
+        },
+        "childCount": 0,
+        "children": []
+      },
+      {
+        "tag": "script",
+        "classes": "",
+        "id": "",
+        "text": "self.__next_f.push([1,\"1d:I[22016,[\\\"/_next/static/chunks/0klsv.ufr07qh.js\\\",\\\"/_next/static/chunks/0d3shmwh5_nmn.js\\\",\\\"/_next/static/chunks/0ka051yepewro.js\\\"],\\\"\\\"]\\n1e:I[97367,[\\\"/_next/static/chunks/0klsv.ufr07qh.js\\\",\\\"/_next/static/chunks/0d3shmwh5_nmn.js\\\"],\\\"OutletBoundary\\\"]\\n1f:\\\"$Sreact.",
+        "styles": {
+          "display": "none",
+          "position": "static",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "rgb(124, 45, 18)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "textAlign": "start"
+        },
+        "childCount": 0,
+        "children": []
+      },
+      {
+        "tag": "script",
+        "classes": "",
+        "id": "",
+        "text": "self.__next_f.push([1,\"b:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"grid sm:grid-cols-3 gap-4 mb-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",\\\"4 a 6 anos\\\",{\\\"className\\\":\\\"bg-white border border-orange-100 rounded-2xl p-5 shadow-sm\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"text-xs font-bold text-orange-",
+        "styles": {
+          "display": "none",
+          "position": "static",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "rgb(124, 45, 18)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "textAlign": "start"
+        },
+        "childCount": 0,
+        "children": []
+      },
+      {
+        "tag": "script",
+        "classes": "",
+        "id": "",
+        "text": "self.__next_f.push([1,\"c:[\\\"$\\\",\\\"h2\\\",null,{\\\"className\\\":\\\"text-2xl font-extrabold text-[#7c2d12] mb-5 mt-12\\\",\\\"children\\\":\\\"Sinais de atenção que merecem cuidado\\\"}]\\nd:[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-[#3f2c1f] mb-5 leading-relaxed\\\",\\\"children\\\":\\\"Crianças com TDAH não “escolhem” ignora",
+        "styles": {
+          "display": "none",
+          "position": "static",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "color": "rgb(124, 45, 18)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px",
+          "textAlign": "start"
+        },
+        "childCount": 0,
+        "children": []
+      }
+    ]
+  },
+  "pageHeight": 4070,
+  "viewportWidth": 1034,
+  "viewportHeight": 549
+}

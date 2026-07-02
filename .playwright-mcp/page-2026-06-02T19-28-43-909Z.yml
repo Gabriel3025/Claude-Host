@@ -1,0 +1,13 @@
+- generic [ref=e527]:
+  - banner [ref=e528]:
+    - button "Voltar" [ref=e529] [cursor=pointer]:
+      - img [ref=e530]
+    - generic [ref=e532]:
+      - generic [ref=e533]: CALISTENIA
+      - generic [ref=e534]: by Atlas
+  - main [ref=e537]:
+    - generic [ref=e539]:
+      - img "Mulher motivada" [ref=e541]
+      - heading "Isso é ótimo!" [level=1] [ref=e542]
+      - paragraph [ref=e543]: Você está pronta para seguir em frente - prepare-se para a transformação com a Calistenia Asiática.
+      - button "Continuar" [ref=e544] [cursor=pointer]

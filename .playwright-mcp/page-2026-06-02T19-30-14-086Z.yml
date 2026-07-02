@@ -1,0 +1,22 @@
+- generic [ref=e1683]:
+  - banner [ref=e1684]:
+    - button "Voltar" [ref=e1685] [cursor=pointer]:
+      - img [ref=e1686]
+    - generic [ref=e1688]:
+      - generic [ref=e1689]: CALISTENIA
+      - generic [ref=e1690]: by Atlas
+  - main [ref=e1693]:
+    - generic [ref=e1694]:
+      - heading "Quantas horas você costuma dormir?" [level=1] [ref=e1695]
+      - generic [ref=e1696]:
+        - generic [ref=e1697]:
+          - button "Menos de 5 horas" [ref=e1698] [cursor=pointer]:
+            - generic [ref=e1700]: Menos de 5 horas
+          - button "5-6 horas" [ref=e1701] [cursor=pointer]:
+            - generic [ref=e1703]: 5-6 horas
+          - button "7-8 horas" [ref=e1704] [cursor=pointer]:
+            - generic [ref=e1706]: 7-8 horas
+          - button "Mais de 8 horas" [ref=e1707] [cursor=pointer]:
+            - generic [ref=e1709]: Mais de 8 horas
+        - generic:
+          - img "Mulher dormindo"

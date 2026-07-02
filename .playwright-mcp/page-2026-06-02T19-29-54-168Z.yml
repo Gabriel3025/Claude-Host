@@ -1,0 +1,19 @@
+- generic [ref=e1629]:
+  - banner [ref=e1630]:
+    - button "Voltar" [ref=e1631] [cursor=pointer]:
+      - img [ref=e1632]
+    - generic [ref=e1634]:
+      - generic [ref=e1635]: CALISTENIA
+      - generic [ref=e1636]: by Atlas
+  - main [ref=e1639]:
+    - generic [ref=e1641]:
+      - heading "Como estão seus níveis de energia durante o dia?" [level=1] [ref=e1642]
+      - generic [ref=e1643]:
+        - button "Baixo, sinto-me cansada durante todo o dia" [ref=e1644] [cursor=pointer]:
+          - generic [ref=e1646]: Baixo, sinto-me cansada durante todo o dia
+        - button "Queda pós-almoço" [ref=e1647] [cursor=pointer]:
+          - generic [ref=e1649]: Queda pós-almoço
+        - button "Arrastando antes das refeições" [ref=e1650] [cursor=pointer]:
+          - generic [ref=e1652]: Arrastando antes das refeições
+        - button "Alto e estável" [ref=e1653] [cursor=pointer]:
+          - generic [ref=e1655]: Alto e estável

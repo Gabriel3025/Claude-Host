@@ -1,0 +1,30 @@
+- generic [ref=e1834]:
+  - banner [ref=e1835]:
+    - button "Voltar" [ref=e1836] [cursor=pointer]:
+      - img [ref=e1837]
+    - generic [ref=e1839]:
+      - generic [ref=e1840]: CALISTENIA
+      - generic [ref=e1841]: by Atlas
+  - main [ref=e1844]:
+    - generic [ref=e1846]:
+      - heading "Algum dos eventos abaixo te levou a ganhar peso nos últimos anos?" [level=1] [ref=e1847]
+      - generic [ref=e1848]:
+        - button "Casamento ou relacionamento" [ref=e1849] [cursor=pointer]:
+          - img [ref=e1851]
+          - generic [ref=e1854]: Casamento ou relacionamento
+        - button "Gravidez" [ref=e1856] [cursor=pointer]:
+          - img [ref=e1858]
+          - generic [ref=e1861]: Gravidez
+        - button "Trabalho agitado ou vida familiar" [ref=e1863] [cursor=pointer]:
+          - img [ref=e1865]
+          - generic [ref=e1869]: Trabalho agitado ou vida familiar
+        - button "Estresse ou saúde mental" [ref=e1871] [cursor=pointer]:
+          - img [ref=e1873]
+          - generic [ref=e1884]: Estresse ou saúde mental
+        - button "Medicamento ou distúrbio hormonal" [ref=e1886] [cursor=pointer]:
+          - img [ref=e1888]
+          - generic [ref=e1892]: Medicamento ou distúrbio hormonal
+        - button "Nenhuma das acima" [ref=e1894] [cursor=pointer]:
+          - img [ref=e1896]
+          - generic [ref=e1900]: Nenhuma das acima
+  - button "Próximo passo" [disabled] [ref=e1904]

@@ -1,0 +1,26 @@
+- generic [ref=e450]:
+  - banner [ref=e451]:
+    - button "Voltar" [ref=e452] [cursor=pointer]:
+      - img [ref=e453]
+    - generic [ref=e455]:
+      - generic [ref=e456]: CALISTENIA
+      - generic [ref=e457]: by Atlas
+  - main [ref=e460]:
+    - generic [ref=e462]:
+      - heading "Você tem dificuldades com algum dos seguintes itens?" [level=1] [ref=e463]
+      - paragraph [ref=e464]: Por favor, selecione todas as opções aplicáveis
+      - generic [ref=e465]:
+        - button "Costas sensíveis" [ref=e466] [cursor=pointer]:
+          - generic [ref=e469]: Costas sensíveis
+        - button "Joelhos sensíveis" [ref=e471] [cursor=pointer]:
+          - generic [ref=e474]: Joelhos sensíveis
+        - button "Quadril sensível" [ref=e476] [cursor=pointer]:
+          - generic [ref=e479]: Quadril sensível
+        - button "Ombros e braços" [ref=e481] [cursor=pointer]:
+          - generic [ref=e484]: Ombros e braços
+        - button "Panturrilhas e tornozelos" [ref=e486] [cursor=pointer]:
+          - generic [ref=e489]: Panturrilhas e tornozelos
+        - button "Nenhuma das opções acima" [active] [ref=e491] [cursor=pointer]:
+          - generic [ref=e493]: Nenhuma das opções acima
+          - img [ref=e498]
+  - button "Próximo passo" [ref=e497] [cursor=pointer]

@@ -1,0 +1,20 @@
+- generic [ref=e500]:
+  - banner [ref=e501]:
+    - button "Voltar" [ref=e502] [cursor=pointer]:
+      - img [ref=e503]
+    - generic [ref=e505]:
+      - generic [ref=e506]: CALISTENIA
+      - generic [ref=e507]: by Atlas
+  - main [ref=e510]:
+    - generic [ref=e512]:
+      - heading "Você se sente confortável ao se exercitar?" [level=1] [ref=e513]
+      - generic [ref=e514]:
+        - button "😔 Sinto dor/Desconforto" [ref=e515] [cursor=pointer]:
+          - generic [ref=e516]: 😔
+          - generic [ref=e518]: Sinto dor/Desconforto
+        - button "😐 Sinto alguma dificuldade" [ref=e519] [cursor=pointer]:
+          - generic [ref=e520]: 😐
+          - generic [ref=e522]: Sinto alguma dificuldade
+        - button "😊 Sinto-me confortável" [ref=e523] [cursor=pointer]:
+          - generic [ref=e524]: 😊
+          - generic [ref=e526]: Sinto-me confortável

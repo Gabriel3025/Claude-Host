@@ -1,0 +1,26 @@
+- generic [ref=e383]:
+  - banner [ref=e384]:
+    - button "Voltar" [ref=e385] [cursor=pointer]:
+      - img [ref=e386]
+    - generic [ref=e388]:
+      - generic [ref=e389]: CALISTENIA
+      - generic [ref=e390]: by Atlas
+  - main [ref=e393]:
+    - generic [ref=e395]:
+      - heading "Qual é o corpo dos seus sonhos?" [level=1] [ref=e396]
+      - generic [ref=e397]:
+        - button "Curvado Curvado" [ref=e398] [cursor=pointer]:
+          - img "Curvado" [ref=e401]
+          - generic [ref=e402]: Curvado
+        - button "Magro Magro" [ref=e403] [cursor=pointer]:
+          - img "Magro" [ref=e406]
+          - generic [ref=e407]: Magro
+        - button "Em forma Em forma" [ref=e408] [cursor=pointer]:
+          - img "Em forma" [ref=e411]
+          - generic [ref=e412]: Em forma
+        - button "Tonificado Tonificado" [ref=e413] [cursor=pointer]:
+          - img "Tonificado" [ref=e416]
+          - generic [ref=e417]: Tonificado
+        - button "Estou bem com meu corpo Estou bem com meu corpo" [ref=e418] [cursor=pointer]:
+          - img "Estou bem com meu corpo" [ref=e421]
+          - generic [ref=e422]: Estou bem com meu corpo

@@ -1,0 +1,143 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]: TDAH Focado
+  - main [ref=e6]:
+    - article [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]: Atualizado em 2026
+        - generic [ref=e11]: ·
+        - generic [ref=e12]: Leitura de 7 minutos
+      - 'heading "TDAH e desempenho escolar: como ajudar seu filho a aprender melhor" [level=1] [ref=e13]'
+      - generic [ref=e14]:
+        - paragraph [ref=e15]: Quando uma criança com TDAH começa a ter notas baixas, esquece a lição em casa ou não consegue ficar quieta na sala, a primeira reação de muitos pais é cobrar mais disciplina. Mas estudos da Academia mostram que crianças com TDAH não escolhem desatenção — o cérebro delas processa informação de forma diferente.
+        - paragraph [ref=e16]: O TDAH (Transtorno de Déficit de Atenção e Hiperatividade) afeta funções executivas como organização, memória de trabalho, controle de impulsos e gerenciamento de tempo. Tudo isso é exigido o tempo inteiro na escola.
+        - paragraph [ref=e17]: Este guia reúne o que pesquisadores e neuropsicopedagogos recomendam para pais que querem apoiar o desempenho escolar do filho com TDAH — sem brigas, sem chantagem e sem rotular a criança como problema.
+    - article [ref=e19]:
+      - heading "Sinais de dificuldade escolar por idade" [level=2] [ref=e20]
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - heading "4-6 anos" [level=3] [ref=e23]
+          - list [ref=e24]:
+            - listitem [ref=e25]:
+              - generic [ref=e26]: ✓
+              - generic [ref=e27]: Dificuldade em seguir rotinas simples
+            - listitem [ref=e28]:
+              - generic [ref=e29]: ✓
+              - generic [ref=e30]: Brinquedo desorganizado, perde objetos frequentemente
+            - listitem [ref=e31]:
+              - generic [ref=e32]: ✓
+              - generic [ref=e33]: Impulsivo em atividades com outras crianças
+        - generic [ref=e34]:
+          - heading "7-9 anos" [level=3] [ref=e35]
+          - list [ref=e36]:
+            - listitem [ref=e37]:
+              - generic [ref=e38]: ✓
+              - generic [ref=e39]: Esquece lição de casa mesmo quando anotou
+            - listitem [ref=e40]:
+              - generic [ref=e41]: ✓
+              - generic [ref=e42]: Dificuldade em completar tarefas mesmo que goste
+            - listitem [ref=e43]:
+              - generic [ref=e44]: ✓
+              - generic [ref=e45]: Notas baixas apesar de inteligência
+        - generic [ref=e46]:
+          - heading "10+ anos" [level=3] [ref=e47]
+          - list [ref=e48]:
+            - listitem [ref=e49]:
+              - generic [ref=e50]: ✓
+              - generic [ref=e51]: Gestão de tempo ruim (procrastinação)
+            - listitem [ref=e52]:
+              - generic [ref=e53]: ✓
+              - generic [ref=e54]: Esquece compromissos e materiais escolares
+            - listitem [ref=e55]:
+              - generic [ref=e56]: ✓
+              - generic [ref=e57]: Dificuldade em organizar pensamentos na escrita
+    - article [ref=e59]:
+      - heading "Sinais de atenção que merecem cuidado" [level=2] [ref=e60]
+      - paragraph [ref=e61]: "Crianças com TDAH não escolhem ignorar comandos. Elas têm um cérebro que processa informação de forma diferente. Fique atento se você nota:"
+      - list [ref=e62]:
+        - listitem [ref=e63]:
+          - generic [ref=e64]: ✓
+          - generic [ref=e65]: Dificuldade em manter o foco em tarefas que exigem esforço mental
+        - listitem [ref=e66]:
+          - generic [ref=e67]: ✓
+          - generic [ref=e68]: Esquece compromissos, materiais e instruções recém-dadas
+        - listitem [ref=e69]:
+          - generic [ref=e70]: ✓
+          - generic [ref=e71]: Não termina o que começa — mesmo coisas que gosta
+        - listitem [ref=e72]:
+          - generic [ref=e73]: ✓
+          - generic [ref=e74]: Distrai-se com qualquer barulho, movimento ou pensamento próprio
+        - listitem [ref=e75]:
+          - generic [ref=e76]: ✓
+          - generic [ref=e77]: Parece não ouvir quando se fala diretamente com ela
+        - listitem [ref=e78]:
+          - generic [ref=e79]: ✓
+          - generic [ref=e80]: Reage de forma intensa a pequenas frustrações ou mudanças de rotina
+        - listitem [ref=e81]:
+          - generic [ref=e82]: ✓
+          - generic [ref=e83]: Tem o sono agitado, demora pra adormecer ou acorda várias vezes
+    - article [ref=e85]:
+      - heading "6 estratégias para apoiar em casa" [level=2] [ref=e86]
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - generic [ref=e89]: "1"
+          - generic [ref=e90]:
+            - heading "Visualize a rotina" [level=3] [ref=e91]
+            - paragraph [ref=e92]: Crianças com TDAH precisam ver o que vai acontecer. Use um quadro com horários, tarefas e símbolos. O que está no papel libera espaço no cérebro pra focar no que importa.
+        - generic [ref=e93]:
+          - generic [ref=e94]: "2"
+          - generic [ref=e95]:
+            - heading "Quebre tarefas em ações pequenas" [level=3] [ref=e96]
+            - paragraph [ref=e97]: Faça o dever é abstrato demais. Abra o caderno, leia o enunciado, escreva o número da página é executável. Quebre tudo em ações pequenas.
+        - generic [ref=e98]:
+          - generic [ref=e99]: "3"
+          - generic [ref=e100]:
+            - 'heading "Pomodoro infantil: ciclos curtos de foco" [level=3] [ref=e101]'
+            - paragraph [ref=e102]: "Pomodoro infantil: 25 minutos de foco + 5 de pausa. O cérebro com TDAH responde melhor a sprints curtos do que a maratonas de estudo."
+        - generic [ref=e103]:
+          - generic [ref=e104]: "4"
+          - generic [ref=e105]:
+            - heading "Valorize o esforço, não só o resultado" [level=3] [ref=e106]
+            - paragraph [ref=e107]: Em vez de tirou nota boa, parabéns, diga você sentou e fez sem desistir, isso é o que importa. O TDAH precisa de feedback do processo.
+        - generic [ref=e108]:
+          - generic [ref=e109]: "5"
+          - generic [ref=e110]:
+            - heading "Elimine distrações físicas" [level=3] [ref=e111]
+            - paragraph [ref=e112]: Tire celular, TV e brinquedos da mesa. Use fones com música instrumental se ajudar. O cérebro com TDAH não filtra ruído — você precisa filtrar por ele.
+        - generic [ref=e113]:
+          - generic [ref=e114]: "6"
+          - generic [ref=e115]:
+            - heading "Comunique com a escola" [level=3] [ref=e116]
+            - paragraph [ref=e117]: Combine com o professor um sinal discreto (um toque na mesa) quando perceber dispersão. E peça uma agenda escolar compartilhada — não dependa só do que a criança lembra.
+    - generic [ref=e120]:
+      - heading "Aprenda as estratégias e aplique em casa a partir de hoje" [level=3] [ref=e121]
+      - paragraph [ref=e122]: Quer um material prático com tudo isso aplicado?
+      - paragraph [ref=e123]: Preparamos um planner pronto para imprimir, com rotina, sistema de recompensas e checklist escolar adaptado ao cérebro com TDAH.
+      - link "Quero acessar o material →" [ref=e124] [cursor=pointer]:
+        - /url: https://pay.wiapy.com/3ICW1YyCBy?utm_source=organic&utm_medium=&utm_campaign=&utm_content=&utm_term=
+    - article [ref=e126]:
+      - heading "Quando é hora de procurar um profissional" [level=2] [ref=e127]
+      - paragraph [ref=e128]: "Estratégias em casa ajudam muito, mas existem situações em que o apoio de um especialista é indispensável. Procure um neuropediatra, psiquiatra infantil ou neuropsicopedagogo se você nota:"
+      - list [ref=e129]:
+        - listitem [ref=e130]:
+          - generic [ref=e131]: ✓
+          - generic [ref=e132]: Sintomas começam em ambiente estruturado (escola) mais cedo que o esperado
+        - listitem [ref=e133]:
+          - generic [ref=e134]: ✓
+          - generic [ref=e135]: Comportamento interfere na vida social e academica
+        - listitem [ref=e136]:
+          - generic [ref=e137]: ✓
+          - generic [ref=e138]: Sintomas persistem apesar de estratégias implementadas
+        - listitem [ref=e139]:
+          - generic [ref=e140]: ✓
+          - generic [ref=e141]: Há histórico familiar de TDAH ou transtornos do neurodesenvolvimento
+        - listitem [ref=e142]:
+          - generic [ref=e143]: ✓
+          - generic [ref=e144]: A criança apresenta ansiedade ou depressão associada
+    - article [ref=e146]:
+      - paragraph [ref=e147]: © 2026 TDAH Focado · Conteúdo educativo para pais
+      - paragraph [ref=e149]:
+        - strong [ref=e150]: "Aviso:"
+        - text: Este conteúdo tem caráter exclusivamente informativo e educacional. Não substitui consulta com médico, psicólogo ou outro profissional de saúde. O diagnóstico de TDAH deve ser feito por especialista.
+      - link "Ver o material →" [ref=e152] [cursor=pointer]:
+        - /url: https://pay.wiapy.com/3ICW1YyCBy?utm_source=organic&utm_medium=&utm_campaign=&utm_content=&utm_term=
