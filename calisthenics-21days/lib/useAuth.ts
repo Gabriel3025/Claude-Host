@@ -34,68 +34,20 @@ export function useAuth() {
 
   const loginWithEmail = async (email: string) => {
     try {
-      console.log("🔐 Tentando login para:", email);
-
-      // Generate deterministic password from email
-      const encoder = new TextEncoder();
-      const emailData = encoder.encode(email + "calisthenics-21-days");
-      const hashBuffer = await crypto.subtle.digest("SHA-256", emailData);
-      const hashArray = Array.from(new Uint8Array(hashBuffer));
-      const hashHex = hashArray.map(b => b.toString(16).padStart(2, "0")).join("");
-      const password = "Calisthenics1" + hashHex.substring(0, 19);
-
-      // Try signin first
-      console.log("🔑 Tentando signin...");
-      let { error: signinError, data: signinData } = await supabase.auth.signInWithPassword({
+      const { error } = await supabase.auth.signInWithOtp({
         email,
-        password,
+        options: {
+          shouldCreateUser: true,
+          emailRedirectTo: `${window.location.origin}/auth/callback`,
+        },
       });
 
-      // If user doesn't exist, create it
-      if (signinError?.message?.includes("Invalid login credentials")) {
-        console.log("👤 Usuário não encontrado. Criando...");
+      if (error) throw error;
 
-        const { error: signupError } = await supabase.auth.signUp({
-          email,
-          password,
-        });
-
-        if (signupError) {
-          console.error("❌ Erro ao criar:", signupError.message);
-          throw signupError;
-        }
-
-        console.log("✅ Usuário criado. Aguardando confirmação...");
-        await new Promise(resolve => setTimeout(resolve, 2000));
-
-        // Try signin again
-        const result = await supabase.auth.signInWithPassword({
-          email,
-          password,
-        });
-
-        if (result.error) {
-          console.error("❌ Erro ao fazer signin após criar:", result.error.message);
-          throw result.error;
-        }
-
-        signinData = result.data;
-      } else if (signinError) {
-        console.error("❌ Erro no signin:", signinError.message);
-        throw signinError;
-      }
-
-      if (signinData?.session?.user) {
-        console.log("✅ Login bem-sucedido!");
-        return { success: true };
-      }
-
-      console.log("⚠️ Sem erro, mas sem sessão. Aguardando...");
       return { success: true };
-
     } catch (error: any) {
-      console.error("❌ Erro final:", error.message);
-      return { success: false, error: error.message || "Erro ao fazer login" };
+      console.error("Erro ao enviar link de login:", error.message);
+      return { success: false, error: error.message || "Erro ao enviar link de login" };
     }
   };
 

@@ -17,7 +17,21 @@ function AuthCallbackContent() {
         await supabase.auth.exchangeCodeForSession(code);
       }
 
-      router.push("/auth/profile");
+      const { data } = await supabase.auth.getSession();
+      const userId = data?.session?.user?.id;
+
+      if (!userId) {
+        router.push("/auth");
+        return;
+      }
+
+      const { data: profile } = await supabase
+        .from("profiles")
+        .select("id")
+        .eq("id", userId)
+        .single();
+
+      router.push(profile ? "/" : "/auth/profile");
     };
 
     handleAuthCallback();

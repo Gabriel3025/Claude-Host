@@ -1,16 +1,13 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
 import { useAuth } from "@/lib/useAuth";
-import { supabase } from "@/lib/supabase";
 
 export default function AuthPage() {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
-  const router = useRouter();
   const { loginWithEmail } = useAuth();
 
   // Force dark mode on auth pages
@@ -35,41 +32,9 @@ export default function AuthPage() {
     const result = await loginWithEmail(email);
 
     if (result.success) {
-      // Wait for session to be saved
-      await new Promise(resolve => setTimeout(resolve, 1500));
-
-      // Force refresh session
-      const { data } = await supabase.auth.refreshSession();
-
-      console.log("📋 Session after refresh:", data?.session?.user?.email);
-
-      if (data?.session?.user) {
-        console.log("✅ Usuário autenticado, verificando perfil...");
-
-        // Small delay to ensure database is ready
-        await new Promise(resolve => setTimeout(resolve, 500));
-
-        const { data: profile } = await (supabase as any)
-          .from("profiles")
-          .select("id")
-          .eq("id", data.session.user.id)
-          .single();
-
-        console.log("📝 Perfil encontrado:", profile ? "sim" : "não");
-
-        if (profile) {
-          console.log("➡️ Redirecionando para dashboard...");
-          router.push("/");
-        } else {
-          console.log("➡️ Redirecionando para preencher dados...");
-          router.push("/auth/profile");
-        }
-      } else {
-        console.log("⚠️ Sem sessão após login");
-        setError("Sessão não foi criada");
-      }
+      setMessage("Enviamos um link de acesso para o seu email.");
     } else {
-      setError(result.error || "Erro ao criar conta");
+      setError(result.error || "Erro ao enviar link de login");
     }
 
     setLoading(false);
