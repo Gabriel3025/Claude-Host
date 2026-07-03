@@ -1,0 +1,74 @@
+- generic [ref=f1e12]:
+  - generic [ref=f1e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=f1e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=f1e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=f1e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=f1e24] [cursor=pointer]:
+      - generic [ref=f1e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=f1e27] [cursor=pointer]:
+      - generic [ref=f1e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=f1e30] [cursor=pointer]:
+      - generic [ref=f1e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=f1e33] [cursor=pointer]
+  - generic [ref=f1e40]:
+    - combobox "Tudo" [ref=f1e44] [cursor=pointer]:
+      - generic [ref=f1e51]: Tudo
+    - combobox "Todos os anúncios" [ref=f1e62] [cursor=pointer]:
+      - generic [ref=f1e72]: Todos os anúncios
+    - generic [ref=f1e82]:
+      - generic [ref=f1e88]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=f1e94]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=f1e100]: Melissa Tarot
+        - button "Limpar" [ref=f1e102] [cursor=pointer]
+  - generic [ref=f1e105]:
+    - generic [ref=f1e107]:
+      - img "Foto do perfil da Página" [ref=f1e112]
+      - link "Melissa Tarot" [ref=f1e115] [cursor=pointer]:
+        - /url: https://facebook.com/Melissa.Tarot01
+        - heading "Melissa Tarot" [level=1] [ref=f1e116]
+    - generic [ref=f1e117]:
+      - link "Anúncios" [ref=f1e118] [cursor=pointer]
+      - link "Sobre" [ref=f1e119] [cursor=pointer]
+  - dialog [ref=f1e120]:
+    - generic [ref=f1e121]:
+      - link [ref=f1e122] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f1e123]: Entrar
+      - menuitem [ref=f1e124] [cursor=pointer]
+    - generic [ref=f1e126]:
+      - generic [ref=f1e127]:
+        - heading [level=4] [ref=f1e129]: Biblioteca de Anúncios
+        - menuitem [ref=f1e131] [cursor=pointer]:
+          - heading [level=4] [ref=f1e133]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=f1e135] [cursor=pointer]:
+          - heading [level=4] [ref=f1e137]: API da Biblioteca de Anúncios
+        - menuitem [ref=f1e139] [cursor=pointer]:
+          - heading [level=4] [ref=f1e141]: Conteúdo de marca
+      - separator [ref=f1e142]
+      - generic [ref=f1e143]:
+        - menuitem [ref=f1e145] [cursor=pointer]:
+          - heading [level=4] [ref=f1e147]: Status do sistema
+        - menuitem [ref=f1e149] [cursor=pointer]:
+          - heading [level=4] [ref=f1e151]: Assinar para receber atualizações por email
+        - menuitem [ref=f1e153] [cursor=pointer]:
+          - heading [level=4] [ref=f1e155]: Perguntas frequentes
+        - menuitem [ref=f1e157] [cursor=pointer]:
+          - heading [level=4] [ref=f1e159]: Sobre anúncios e uso de dados
+        - menuitem [ref=f1e161] [cursor=pointer]:
+          - heading [level=4] [ref=f1e163]: Privacidade
+        - menuitem [ref=f1e165] [cursor=pointer]:
+          - heading [level=4] [ref=f1e167]: Termos
+        - menuitem [ref=f1e169] [cursor=pointer]:
+          - heading [level=4] [ref=f1e171]: Cookies
+  - generic [ref=f1e175]:
+    - progressbar [ref=f1e176]
+    - progressbar [ref=f1e177]
+    - progressbar [ref=f1e178]
+    - progressbar [ref=f1e179]
+    - progressbar [ref=f1e180]
+    - progressbar [ref=f1e181]
+    - progressbar [ref=f1e182]
+    - progressbar [ref=f1e183]
+    - progressbar [ref=f1e184]
+    - progressbar [ref=f1e185]

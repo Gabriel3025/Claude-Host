@@ -1,0 +1,84 @@
+- generic [ref=f3e12]:
+  - generic [ref=f3e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=f3e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=f3e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=f3e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=f3e24] [cursor=pointer]:
+      - generic [ref=f3e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=f3e27] [cursor=pointer]:
+      - generic [ref=f3e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=f3e30] [cursor=pointer]:
+      - generic [ref=f3e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=f3e33] [cursor=pointer]
+  - generic [ref=f3e39]:
+    - generic [ref=f3e40]:
+      - combobox "Tudo" [ref=f3e44] [cursor=pointer]:
+        - generic [ref=f3e51]: Tudo
+      - combobox "Todos os anúncios" [ref=f3e63] [cursor=pointer]:
+        - generic [ref=f3e73]: Todos os anúncios
+    - generic [ref=f3e83]:
+      - generic [ref=f3e89]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=f3e95]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=f3e101]: Educacao mind
+        - button "Limpar" [ref=f3e103] [cursor=pointer]
+  - generic [ref=f3e106]:
+    - img "Foto do perfil da Página" [ref=f3e111]
+    - heading "Educacao mind" [level=1] [ref=f3e116]
+  - generic [ref=f3e118]:
+    - link "Anúncios" [ref=f3e119] [cursor=pointer]
+    - link "Sobre" [ref=f3e120] [cursor=pointer]
+  - dialog [ref=f3e121]:
+    - generic [ref=f3e122]:
+      - link [ref=f3e123] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f3e124]: Entrar
+      - menuitem [ref=f3e125] [cursor=pointer]
+    - generic [ref=f3e127]:
+      - generic [ref=f3e128]:
+        - heading [level=4] [ref=f3e130]: Biblioteca de Anúncios
+        - menuitem [ref=f3e132] [cursor=pointer]:
+          - heading [level=4] [ref=f3e134]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=f3e136] [cursor=pointer]:
+          - heading [level=4] [ref=f3e138]: API da Biblioteca de Anúncios
+        - menuitem [ref=f3e140] [cursor=pointer]:
+          - heading [level=4] [ref=f3e142]: Conteúdo de marca
+      - separator [ref=f3e143]
+      - generic [ref=f3e144]:
+        - menuitem [ref=f3e146] [cursor=pointer]:
+          - heading [level=4] [ref=f3e148]: Status do sistema
+        - menuitem [ref=f3e150] [cursor=pointer]:
+          - heading [level=4] [ref=f3e152]: Assinar para receber atualizações por email
+        - menuitem [ref=f3e154] [cursor=pointer]:
+          - heading [level=4] [ref=f3e156]: Perguntas frequentes
+        - menuitem [ref=f3e158] [cursor=pointer]:
+          - heading [level=4] [ref=f3e160]: Sobre anúncios e uso de dados
+        - menuitem [ref=f3e162] [cursor=pointer]:
+          - heading [level=4] [ref=f3e164]: Privacidade
+        - menuitem [ref=f3e166] [cursor=pointer]:
+          - heading [level=4] [ref=f3e168]: Termos
+        - menuitem [ref=f3e170] [cursor=pointer]:
+          - heading [level=4] [ref=f3e172]: Cookies
+  - generic [ref=f3e175]:
+    - generic [ref=f3e183]: Status do sistema
+    - generic [ref=f3e187]:
+      - list [ref=f3e188]:
+        - listitem [ref=f3e189]:
+          - link "API da Biblioteca de Anúncios" [ref=f3e191] [cursor=pointer]:
+            - /url: /ads/library/api/?source=archive-landing-page
+        - listitem [ref=f3e192]:
+          - link "Sobre anúncios e uso de dados" [ref=f3e194] [cursor=pointer]:
+            - /url: /ads/about/?entry_product=ad_library
+        - listitem [ref=f3e195]:
+          - link "Privacidade" [ref=f3e197] [cursor=pointer]:
+            - /url: /privacy/center/?entry_point=privacy_basics_redirect
+        - listitem [ref=f3e198]:
+          - link "Termos" [ref=f3e200] [cursor=pointer]:
+            - /url: /policies/
+        - listitem [ref=f3e201]:
+          - link "Cookies" [ref=f3e203] [cursor=pointer]:
+            - /url: /policies/cookies/
+      - generic [ref=f3e205]:
+        - text: Meta © 2026 |
+        - link "Português (Brasil)" [ref=f3e206] [cursor=pointer]:
+          - /url: /language/

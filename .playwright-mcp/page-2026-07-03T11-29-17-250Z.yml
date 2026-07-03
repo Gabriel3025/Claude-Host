@@ -1,0 +1,84 @@
+- generic [ref=f5e12]:
+  - generic [ref=f5e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=f5e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=f5e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=f5e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=f5e24] [cursor=pointer]:
+      - generic [ref=f5e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=f5e27] [cursor=pointer]:
+      - generic [ref=f5e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=f5e30] [cursor=pointer]:
+      - generic [ref=f5e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=f5e33] [cursor=pointer]
+  - generic [ref=f5e39]:
+    - generic [ref=f5e40]:
+      - combobox "Tudo" [ref=f5e44] [cursor=pointer]:
+        - generic [ref=f5e51]: Tudo
+      - combobox "Todos os anúncios" [ref=f5e63] [cursor=pointer]:
+        - generic [ref=f5e73]: Todos os anúncios
+    - generic [ref=f5e83]:
+      - generic [ref=f5e89]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=f5e95]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=f5e101]: Yan Zhen
+        - button "Limpar" [ref=f5e103] [cursor=pointer]
+  - generic [ref=f5e106]:
+    - img "Foto do perfil da Página" [ref=f5e111]
+    - heading "Yan Zhen" [level=1] [ref=f5e116]
+  - generic [ref=f5e118]:
+    - link "Anúncios" [ref=f5e119] [cursor=pointer]
+    - link "Sobre" [ref=f5e120] [cursor=pointer]
+  - dialog [ref=f5e121]:
+    - generic [ref=f5e122]:
+      - link [ref=f5e123] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f5e124]: Entrar
+      - menuitem [ref=f5e125] [cursor=pointer]
+    - generic [ref=f5e127]:
+      - generic [ref=f5e128]:
+        - heading [level=4] [ref=f5e130]: Biblioteca de Anúncios
+        - menuitem [ref=f5e132] [cursor=pointer]:
+          - heading [level=4] [ref=f5e134]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=f5e136] [cursor=pointer]:
+          - heading [level=4] [ref=f5e138]: API da Biblioteca de Anúncios
+        - menuitem [ref=f5e140] [cursor=pointer]:
+          - heading [level=4] [ref=f5e142]: Conteúdo de marca
+      - separator [ref=f5e143]
+      - generic [ref=f5e144]:
+        - menuitem [ref=f5e146] [cursor=pointer]:
+          - heading [level=4] [ref=f5e148]: Status do sistema
+        - menuitem [ref=f5e150] [cursor=pointer]:
+          - heading [level=4] [ref=f5e152]: Assinar para receber atualizações por email
+        - menuitem [ref=f5e154] [cursor=pointer]:
+          - heading [level=4] [ref=f5e156]: Perguntas frequentes
+        - menuitem [ref=f5e158] [cursor=pointer]:
+          - heading [level=4] [ref=f5e160]: Sobre anúncios e uso de dados
+        - menuitem [ref=f5e162] [cursor=pointer]:
+          - heading [level=4] [ref=f5e164]: Privacidade
+        - menuitem [ref=f5e166] [cursor=pointer]:
+          - heading [level=4] [ref=f5e168]: Termos
+        - menuitem [ref=f5e170] [cursor=pointer]:
+          - heading [level=4] [ref=f5e172]: Cookies
+  - generic [ref=f5e175]:
+    - generic [ref=f5e183]: Status do sistema
+    - generic [ref=f5e187]:
+      - list [ref=f5e188]:
+        - listitem [ref=f5e189]:
+          - link "API da Biblioteca de Anúncios" [ref=f5e191] [cursor=pointer]:
+            - /url: /ads/library/api/?source=archive-landing-page
+        - listitem [ref=f5e192]:
+          - link "Sobre anúncios e uso de dados" [ref=f5e194] [cursor=pointer]:
+            - /url: /ads/about/?entry_product=ad_library
+        - listitem [ref=f5e195]:
+          - link "Privacidade" [ref=f5e197] [cursor=pointer]:
+            - /url: /privacy/center/?entry_point=privacy_basics_redirect
+        - listitem [ref=f5e198]:
+          - link "Termos" [ref=f5e200] [cursor=pointer]:
+            - /url: /policies/
+        - listitem [ref=f5e201]:
+          - link "Cookies" [ref=f5e203] [cursor=pointer]:
+            - /url: /policies/cookies/
+      - generic [ref=f5e205]:
+        - text: Meta © 2026 |
+        - link "Português (Brasil)" [ref=f5e206] [cursor=pointer]:
+          - /url: /language/
