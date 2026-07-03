@@ -1,0 +1,72 @@
+- generic [ref=f14e12]:
+  - generic [ref=f14e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=f14e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=f14e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=f14e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=f14e24] [cursor=pointer]:
+      - generic [ref=f14e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=f14e27] [cursor=pointer]:
+      - generic [ref=f14e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=f14e30] [cursor=pointer]:
+      - generic [ref=f14e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=f14e33] [cursor=pointer]
+  - generic [ref=f14e39]:
+    - generic [ref=f14e40]:
+      - combobox "Tudo" [ref=f14e44] [cursor=pointer]:
+        - generic [ref=f14e51]: Tudo
+      - combobox "Todos os anúncios" [ref=f14e63] [cursor=pointer]:
+        - generic [ref=f14e73]: Todos os anúncios
+    - generic [ref=f14e83]:
+      - generic [ref=f14e89]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=f14e95]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=f14e101]: Emoções com Consciência
+        - button "Limpar" [ref=f14e103] [cursor=pointer]
+  - generic [ref=f14e106]:
+    - img "Foto do perfil da Página" [ref=f14e111]
+    - heading "Emoções com Consciência" [level=1] [ref=f14e116]
+  - generic [ref=f14e118]:
+    - link "Anúncios" [ref=f14e119] [cursor=pointer]
+    - link "Sobre" [ref=f14e120] [cursor=pointer]
+  - dialog [ref=f14e121]:
+    - generic [ref=f14e122]:
+      - link [ref=f14e123] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f14e124]: Entrar
+      - menuitem [ref=f14e125] [cursor=pointer]
+    - generic [ref=f14e127]:
+      - generic [ref=f14e128]:
+        - heading [level=4] [ref=f14e130]: Biblioteca de Anúncios
+        - menuitem [ref=f14e132] [cursor=pointer]:
+          - heading [level=4] [ref=f14e134]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=f14e136] [cursor=pointer]:
+          - heading [level=4] [ref=f14e138]: API da Biblioteca de Anúncios
+        - menuitem [ref=f14e140] [cursor=pointer]:
+          - heading [level=4] [ref=f14e142]: Conteúdo de marca
+      - separator [ref=f14e143]
+      - generic [ref=f14e144]:
+        - menuitem [ref=f14e146] [cursor=pointer]:
+          - heading [level=4] [ref=f14e148]: Status do sistema
+        - menuitem [ref=f14e150] [cursor=pointer]:
+          - heading [level=4] [ref=f14e152]: Assinar para receber atualizações por email
+        - menuitem [ref=f14e154] [cursor=pointer]:
+          - heading [level=4] [ref=f14e156]: Perguntas frequentes
+        - menuitem [ref=f14e158] [cursor=pointer]:
+          - heading [level=4] [ref=f14e160]: Sobre anúncios e uso de dados
+        - menuitem [ref=f14e162] [cursor=pointer]:
+          - heading [level=4] [ref=f14e164]: Privacidade
+        - menuitem [ref=f14e166] [cursor=pointer]:
+          - heading [level=4] [ref=f14e168]: Termos
+        - menuitem [ref=f14e170] [cursor=pointer]:
+          - heading [level=4] [ref=f14e172]: Cookies
+  - generic [ref=f14e176]:
+    - progressbar [ref=f14e177]
+    - progressbar [ref=f14e178]
+    - progressbar [ref=f14e179]
+    - progressbar [ref=f14e180]
+    - progressbar [ref=f14e181]
+    - progressbar [ref=f14e182]
+    - progressbar [ref=f14e183]
+    - progressbar [ref=f14e184]
+    - progressbar [ref=f14e185]
+    - progressbar [ref=f14e186]

@@ -1,0 +1,84 @@
+- generic [ref=f38e12]:
+  - generic [ref=f38e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=f38e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=f38e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=f38e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=f38e24] [cursor=pointer]:
+      - generic [ref=f38e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=f38e27] [cursor=pointer]:
+      - generic [ref=f38e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=f38e30] [cursor=pointer]:
+      - generic [ref=f38e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=f38e33] [cursor=pointer]
+  - generic [ref=f38e39]:
+    - generic [ref=f38e40]:
+      - combobox "Brasil" [ref=f38e44] [cursor=pointer]:
+        - generic [ref=f38e51]: Brasil
+      - combobox "Todos os anúncios" [ref=f38e63] [cursor=pointer]:
+        - generic [ref=f38e73]: Todos os anúncios
+    - generic [ref=f38e83]:
+      - generic [ref=f38e89]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=f38e95]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=f38e101]: Dra Maria G.
+        - button "Limpar" [ref=f38e103] [cursor=pointer]
+  - generic [ref=f38e106]:
+    - img "Foto do perfil da Página" [ref=f38e111]
+    - heading "Dra Maria G." [level=1] [ref=f38e116]
+  - generic [ref=f38e118]:
+    - link "Anúncios" [ref=f38e119] [cursor=pointer]
+    - link "Sobre" [ref=f38e120] [cursor=pointer]
+  - dialog [ref=f38e121]:
+    - generic [ref=f38e122]:
+      - link [ref=f38e123] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f38e124]: Entrar
+      - menuitem [ref=f38e125] [cursor=pointer]
+    - generic [ref=f38e127]:
+      - generic [ref=f38e128]:
+        - heading [level=4] [ref=f38e130]: Biblioteca de Anúncios
+        - menuitem [ref=f38e132] [cursor=pointer]:
+          - heading [level=4] [ref=f38e134]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=f38e136] [cursor=pointer]:
+          - heading [level=4] [ref=f38e138]: API da Biblioteca de Anúncios
+        - menuitem [ref=f38e140] [cursor=pointer]:
+          - heading [level=4] [ref=f38e142]: Conteúdo de marca
+      - separator [ref=f38e143]
+      - generic [ref=f38e144]:
+        - menuitem [ref=f38e146] [cursor=pointer]:
+          - heading [level=4] [ref=f38e148]: Status do sistema
+        - menuitem [ref=f38e150] [cursor=pointer]:
+          - heading [level=4] [ref=f38e152]: Assinar para receber atualizações por email
+        - menuitem [ref=f38e154] [cursor=pointer]:
+          - heading [level=4] [ref=f38e156]: Perguntas frequentes
+        - menuitem [ref=f38e158] [cursor=pointer]:
+          - heading [level=4] [ref=f38e160]: Sobre anúncios e uso de dados
+        - menuitem [ref=f38e162] [cursor=pointer]:
+          - heading [level=4] [ref=f38e164]: Privacidade
+        - menuitem [ref=f38e166] [cursor=pointer]:
+          - heading [level=4] [ref=f38e168]: Termos
+        - menuitem [ref=f38e170] [cursor=pointer]:
+          - heading [level=4] [ref=f38e172]: Cookies
+  - generic [ref=f38e175]:
+    - generic [ref=f38e183]: Status do sistema
+    - generic [ref=f38e187]:
+      - list [ref=f38e188]:
+        - listitem [ref=f38e189]:
+          - link "API da Biblioteca de Anúncios" [ref=f38e191] [cursor=pointer]:
+            - /url: /ads/library/api/?source=archive-landing-page
+        - listitem [ref=f38e192]:
+          - link "Sobre anúncios e uso de dados" [ref=f38e194] [cursor=pointer]:
+            - /url: /ads/about/?entry_product=ad_library
+        - listitem [ref=f38e195]:
+          - link "Privacidade" [ref=f38e197] [cursor=pointer]:
+            - /url: /privacy/center/?entry_point=privacy_basics_redirect
+        - listitem [ref=f38e198]:
+          - link "Termos" [ref=f38e200] [cursor=pointer]:
+            - /url: /policies/
+        - listitem [ref=f38e201]:
+          - link "Cookies" [ref=f38e203] [cursor=pointer]:
+            - /url: /policies/cookies/
+      - generic [ref=f38e205]:
+        - text: Meta © 2026 |
+        - link "Português (Brasil)" [ref=f38e206] [cursor=pointer]:
+          - /url: /language/

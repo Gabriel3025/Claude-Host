@@ -1,0 +1,66 @@
+- generic [ref=f8e12]:
+  - generic [ref=f8e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=f8e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=f8e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=f8e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=f8e24] [cursor=pointer]:
+      - generic [ref=f8e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=f8e27] [cursor=pointer]:
+      - generic [ref=f8e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=f8e30] [cursor=pointer]:
+      - generic [ref=f8e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=f8e33] [cursor=pointer]
+  - generic [ref=f8e39]:
+    - generic [ref=f8e40]:
+      - combobox "Tudo" [ref=f8e44] [cursor=pointer]:
+        - generic [ref=f8e51]: Tudo
+      - combobox "Todos os anúncios" [ref=f8e58] [cursor=pointer]:
+        - generic [ref=f8e68]: Todos os anúncios
+    - generic [ref=f8e78]:
+      - generic [ref=f8e84]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=f8e90]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=f8e96]: dinamicasjiujitsu.netlify.app
+        - button "Limpar" [ref=f8e98] [cursor=pointer]
+  - dialog [ref=f8e100]:
+    - generic [ref=f8e101]:
+      - link [ref=f8e102] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f8e103]: Entrar
+      - menuitem [ref=f8e104] [cursor=pointer]
+    - generic [ref=f8e106]:
+      - generic [ref=f8e107]:
+        - heading [level=4] [ref=f8e109]: Biblioteca de Anúncios
+        - menuitem [ref=f8e111] [cursor=pointer]:
+          - heading [level=4] [ref=f8e113]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=f8e115] [cursor=pointer]:
+          - heading [level=4] [ref=f8e117]: API da Biblioteca de Anúncios
+        - menuitem [ref=f8e119] [cursor=pointer]:
+          - heading [level=4] [ref=f8e121]: Conteúdo de marca
+      - separator [ref=f8e122]
+      - generic [ref=f8e123]:
+        - menuitem [ref=f8e125] [cursor=pointer]:
+          - heading [level=4] [ref=f8e127]: Status do sistema
+        - menuitem [ref=f8e129] [cursor=pointer]:
+          - heading [level=4] [ref=f8e131]: Assinar para receber atualizações por email
+        - menuitem [ref=f8e133] [cursor=pointer]:
+          - heading [level=4] [ref=f8e135]: Perguntas frequentes
+        - menuitem [ref=f8e137] [cursor=pointer]:
+          - heading [level=4] [ref=f8e139]: Sobre anúncios e uso de dados
+        - menuitem [ref=f8e141] [cursor=pointer]:
+          - heading [level=4] [ref=f8e143]: Privacidade
+        - menuitem [ref=f8e145] [cursor=pointer]:
+          - heading [level=4] [ref=f8e147]: Termos
+        - menuitem [ref=f8e149] [cursor=pointer]:
+          - heading [level=4] [ref=f8e151]: Cookies
+  - generic [ref=f8e155]:
+    - progressbar [ref=f8e156]
+    - progressbar [ref=f8e157]
+    - progressbar [ref=f8e158]
+    - progressbar [ref=f8e159]
+    - progressbar [ref=f8e160]
+    - progressbar [ref=f8e161]
+    - progressbar [ref=f8e162]
+    - progressbar [ref=f8e163]
+    - progressbar [ref=f8e164]
+    - progressbar [ref=f8e165]

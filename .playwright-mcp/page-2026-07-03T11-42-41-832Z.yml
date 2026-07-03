@@ -1,0 +1,72 @@
+- generic [ref=f57e12]:
+  - generic [ref=f57e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=f57e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=f57e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=f57e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=f57e24] [cursor=pointer]:
+      - generic [ref=f57e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=f57e27] [cursor=pointer]:
+      - generic [ref=f57e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=f57e30] [cursor=pointer]:
+      - generic [ref=f57e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=f57e33] [cursor=pointer]
+  - generic [ref=f57e39]:
+    - generic [ref=f57e40]:
+      - combobox "Brasil" [ref=f57e44] [cursor=pointer]:
+        - generic [ref=f57e51]: Brasil
+      - combobox "Todos os anúncios" [ref=f57e63] [cursor=pointer]:
+        - generic [ref=f57e73]: Todos os anúncios
+    - generic [ref=f57e83]:
+      - generic [ref=f57e89]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=f57e95]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=f57e101]: Criando Artes
+        - button "Limpar" [ref=f57e103] [cursor=pointer]
+  - generic [ref=f57e106]:
+    - img "Foto do perfil da Página" [ref=f57e111]
+    - heading "Criando Artes" [level=1] [ref=f57e116]
+  - generic [ref=f57e118]:
+    - link "Anúncios" [ref=f57e119] [cursor=pointer]
+    - link "Sobre" [ref=f57e120] [cursor=pointer]
+  - dialog [ref=f57e121]:
+    - generic [ref=f57e122]:
+      - link [ref=f57e123] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f57e124]: Entrar
+      - menuitem [ref=f57e125] [cursor=pointer]
+    - generic [ref=f57e127]:
+      - generic [ref=f57e128]:
+        - heading [level=4] [ref=f57e130]: Biblioteca de Anúncios
+        - menuitem [ref=f57e132] [cursor=pointer]:
+          - heading [level=4] [ref=f57e134]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=f57e136] [cursor=pointer]:
+          - heading [level=4] [ref=f57e138]: API da Biblioteca de Anúncios
+        - menuitem [ref=f57e140] [cursor=pointer]:
+          - heading [level=4] [ref=f57e142]: Conteúdo de marca
+      - separator [ref=f57e143]
+      - generic [ref=f57e144]:
+        - menuitem [ref=f57e146] [cursor=pointer]:
+          - heading [level=4] [ref=f57e148]: Status do sistema
+        - menuitem [ref=f57e150] [cursor=pointer]:
+          - heading [level=4] [ref=f57e152]: Assinar para receber atualizações por email
+        - menuitem [ref=f57e154] [cursor=pointer]:
+          - heading [level=4] [ref=f57e156]: Perguntas frequentes
+        - menuitem [ref=f57e158] [cursor=pointer]:
+          - heading [level=4] [ref=f57e160]: Sobre anúncios e uso de dados
+        - menuitem [ref=f57e162] [cursor=pointer]:
+          - heading [level=4] [ref=f57e164]: Privacidade
+        - menuitem [ref=f57e166] [cursor=pointer]:
+          - heading [level=4] [ref=f57e168]: Termos
+        - menuitem [ref=f57e170] [cursor=pointer]:
+          - heading [level=4] [ref=f57e172]: Cookies
+  - generic [ref=f57e176]:
+    - progressbar [ref=f57e177]
+    - progressbar [ref=f57e178]
+    - progressbar [ref=f57e179]
+    - progressbar [ref=f57e180]
+    - progressbar [ref=f57e181]
+    - progressbar [ref=f57e182]
+    - progressbar [ref=f57e183]
+    - progressbar [ref=f57e184]
+    - progressbar [ref=f57e185]
+    - progressbar [ref=f57e186]

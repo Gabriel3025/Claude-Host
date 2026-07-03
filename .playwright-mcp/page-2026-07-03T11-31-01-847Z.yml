@@ -1,0 +1,78 @@
+- generic [ref=f11e12]:
+  - generic [ref=f11e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=f11e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=f11e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=f11e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=f11e24] [cursor=pointer]:
+      - generic [ref=f11e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=f11e27] [cursor=pointer]:
+      - generic [ref=f11e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=f11e30] [cursor=pointer]:
+      - generic [ref=f11e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=f11e33] [cursor=pointer]
+  - generic [ref=f11e39]:
+    - generic [ref=f11e40]:
+      - combobox "Brasil" [ref=f11e44] [cursor=pointer]:
+        - generic [ref=f11e51]: Brasil
+      - combobox "Todos os anúncios" [ref=f11e58] [cursor=pointer]:
+        - generic [ref=f11e68]: Todos os anúncios
+    - generic [ref=f11e78]:
+      - generic [ref=f11e84]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=f11e90]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=f11e96]: Espaço Compartilhando Saberes
+        - button "Limpar" [ref=f11e98] [cursor=pointer]
+  - dialog [ref=f11e100]:
+    - generic [ref=f11e101]:
+      - link [ref=f11e102] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f11e103]: Entrar
+      - menuitem [ref=f11e104] [cursor=pointer]
+    - generic [ref=f11e106]:
+      - generic [ref=f11e107]:
+        - heading [level=4] [ref=f11e109]: Biblioteca de Anúncios
+        - menuitem [ref=f11e111] [cursor=pointer]:
+          - heading [level=4] [ref=f11e113]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=f11e115] [cursor=pointer]:
+          - heading [level=4] [ref=f11e117]: API da Biblioteca de Anúncios
+        - menuitem [ref=f11e119] [cursor=pointer]:
+          - heading [level=4] [ref=f11e121]: Conteúdo de marca
+      - separator [ref=f11e122]
+      - generic [ref=f11e123]:
+        - menuitem [ref=f11e125] [cursor=pointer]:
+          - heading [level=4] [ref=f11e127]: Status do sistema
+        - menuitem [ref=f11e129] [cursor=pointer]:
+          - heading [level=4] [ref=f11e131]: Assinar para receber atualizações por email
+        - menuitem [ref=f11e133] [cursor=pointer]:
+          - heading [level=4] [ref=f11e135]: Perguntas frequentes
+        - menuitem [ref=f11e137] [cursor=pointer]:
+          - heading [level=4] [ref=f11e139]: Sobre anúncios e uso de dados
+        - menuitem [ref=f11e141] [cursor=pointer]:
+          - heading [level=4] [ref=f11e143]: Privacidade
+        - menuitem [ref=f11e145] [cursor=pointer]:
+          - heading [level=4] [ref=f11e147]: Termos
+        - menuitem [ref=f11e149] [cursor=pointer]:
+          - heading [level=4] [ref=f11e151]: Cookies
+  - generic [ref=f11e154]:
+    - generic [ref=f11e162]: Status do sistema
+    - generic [ref=f11e166]:
+      - list [ref=f11e167]:
+        - listitem [ref=f11e168]:
+          - link "API da Biblioteca de Anúncios" [ref=f11e170] [cursor=pointer]:
+            - /url: /ads/library/api/?source=archive-landing-page
+        - listitem [ref=f11e171]:
+          - link "Sobre anúncios e uso de dados" [ref=f11e173] [cursor=pointer]:
+            - /url: /ads/about/?entry_product=ad_library
+        - listitem [ref=f11e174]:
+          - link "Privacidade" [ref=f11e176] [cursor=pointer]:
+            - /url: /privacy/center/?entry_point=privacy_basics_redirect
+        - listitem [ref=f11e177]:
+          - link "Termos" [ref=f11e179] [cursor=pointer]:
+            - /url: /policies/
+        - listitem [ref=f11e180]:
+          - link "Cookies" [ref=f11e182] [cursor=pointer]:
+            - /url: /policies/cookies/
+      - generic [ref=f11e184]:
+        - text: Meta © 2026 |
+        - link "Português (Brasil)" [ref=f11e185] [cursor=pointer]:
+          - /url: /language/

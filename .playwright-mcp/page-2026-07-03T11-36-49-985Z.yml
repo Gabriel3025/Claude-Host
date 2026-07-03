@@ -1,0 +1,72 @@
+- generic [ref=f33e12]:
+  - generic [ref=f33e15]:
+    - link "Biblioteca de Anúncios da Meta" [ref=f33e18] [cursor=pointer]:
+      - /url: /ads/library/?source=fb-logo
+      - generic [ref=f33e20]: Biblioteca de Anúncios da Meta
+    - generic [ref=f33e22]: Biblioteca de Anúncios
+    - menuitem "Relatório da Biblioteca de Anúncios" [ref=f33e24] [cursor=pointer]:
+      - generic [ref=f33e25]: Relatório da Biblioteca de Anúncios
+    - menuitem "API da Biblioteca de Anúncios" [ref=f33e27] [cursor=pointer]:
+      - generic [ref=f33e28]: API da Biblioteca de Anúncios
+    - menuitem "Conteúdo de marca" [ref=f33e30] [cursor=pointer]:
+      - generic [ref=f33e31]: Conteúdo de marca
+    - menuitem "Open navigation panel" [ref=f33e33] [cursor=pointer]
+  - generic [ref=f33e39]:
+    - generic [ref=f33e40]:
+      - combobox "Brasil" [ref=f33e44] [cursor=pointer]:
+        - generic [ref=f33e51]: Brasil
+      - combobox "Todos os anúncios" [ref=f33e63] [cursor=pointer]:
+        - generic [ref=f33e73]: Todos os anúncios
+    - generic [ref=f33e83]:
+      - generic [ref=f33e89]: Pesquisar por palavra-chave ou anunciante
+      - generic [ref=f33e95]:
+        - searchbox "Pesquisar por palavra-chave ou anunciante" [ref=f33e101]: Alegria Colorida
+        - button "Limpar" [ref=f33e103] [cursor=pointer]
+  - generic [ref=f33e106]:
+    - img "Foto do perfil da Página" [ref=f33e111]
+    - heading "Alegria Colorida" [level=1] [ref=f33e116]
+  - generic [ref=f33e118]:
+    - link "Anúncios" [ref=f33e119] [cursor=pointer]
+    - link "Sobre" [ref=f33e120] [cursor=pointer]
+  - dialog [ref=f33e121]:
+    - generic [ref=f33e122]:
+      - link [ref=f33e123] [cursor=pointer]:
+        - /url: /
+        - heading [level=4] [ref=f33e124]: Entrar
+      - menuitem [ref=f33e125] [cursor=pointer]
+    - generic [ref=f33e127]:
+      - generic [ref=f33e128]:
+        - heading [level=4] [ref=f33e130]: Biblioteca de Anúncios
+        - menuitem [ref=f33e132] [cursor=pointer]:
+          - heading [level=4] [ref=f33e134]: Relatório da Biblioteca de Anúncios
+        - menuitem [ref=f33e136] [cursor=pointer]:
+          - heading [level=4] [ref=f33e138]: API da Biblioteca de Anúncios
+        - menuitem [ref=f33e140] [cursor=pointer]:
+          - heading [level=4] [ref=f33e142]: Conteúdo de marca
+      - separator [ref=f33e143]
+      - generic [ref=f33e144]:
+        - menuitem [ref=f33e146] [cursor=pointer]:
+          - heading [level=4] [ref=f33e148]: Status do sistema
+        - menuitem [ref=f33e150] [cursor=pointer]:
+          - heading [level=4] [ref=f33e152]: Assinar para receber atualizações por email
+        - menuitem [ref=f33e154] [cursor=pointer]:
+          - heading [level=4] [ref=f33e156]: Perguntas frequentes
+        - menuitem [ref=f33e158] [cursor=pointer]:
+          - heading [level=4] [ref=f33e160]: Sobre anúncios e uso de dados
+        - menuitem [ref=f33e162] [cursor=pointer]:
+          - heading [level=4] [ref=f33e164]: Privacidade
+        - menuitem [ref=f33e166] [cursor=pointer]:
+          - heading [level=4] [ref=f33e168]: Termos
+        - menuitem [ref=f33e170] [cursor=pointer]:
+          - heading [level=4] [ref=f33e172]: Cookies
+  - generic [ref=f33e176]:
+    - progressbar [ref=f33e177]
+    - progressbar [ref=f33e178]
+    - progressbar [ref=f33e179]
+    - progressbar [ref=f33e180]
+    - progressbar [ref=f33e181]
+    - progressbar [ref=f33e182]
+    - progressbar [ref=f33e183]
+    - progressbar [ref=f33e184]
+    - progressbar [ref=f33e185]
+    - progressbar [ref=f33e186]
