@@ -1,0 +1,401 @@
+- generic [ref=e2]:
+  - main [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]: METODOLOGIA SOLLIEVO®
+        - heading "Sua dor não precisa ser permanente." [level=1] [ref=e8]:
+          - text: Sua dor
+          - generic [ref=e9]: não precisa
+          - emphasis [ref=e10]: ser permanente.
+      - generic [ref=e11]:
+        - paragraph [ref=e12]:
+          - text: Você não está condenada(o) a viver com
+          - strong [ref=e13]: ENXAQUECA CRÔNICA
+          - text: . Entenda como resolver seu problema de uma vez por todas. Já são
+          - strong [ref=e14]: +1.000 pacientes
+          - text: livres da dor, sem uma única incisão.
+        - link "Agendar consulta" [ref=e16] [cursor=pointer]:
+          - /url: https://api.whatsapp.com/send?phone=5563992092431&text=Ol%C3%A1%2C%20venho%20da%20p%C3%A1gina.%0AQuero%20entender%20melhor%20sobre%20o%20tratamento
+          - img [ref=e19]
+          - generic: Agendar minha avaliação
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - img [ref=e23]
+            - text: Atendimento em Palmas — TO
+          - generic [ref=e25]:
+            - img [ref=e26]
+            - text: Causas raízes investigadas
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - text: Sem espera de meses
+          - generic [ref=e31]:
+            - img [ref=e32]
+            - text: Sua resposta em uma avaliação
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic:
+            - button "Replace"
+            - button "Remove"
+        - generic [ref=e37]: Especialista em Dor Crônica
+        - generic [ref=e39]:
+          - generic [ref=e40]: 80%
+          - generic [ref=e41]:
+            - text: de alívio em 30 dias
+            - text: Criadora do método Sollievo
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - emphasis [ref=e47]: + 1.000
+        - generic [ref=e48]: Pacientes tratados
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - emphasis [ref=e51]: "80"
+          - superscript [ref=e52]: "%"
+        - generic [ref=e53]: Resolução em Enxaqueca
+        - generic [ref=e54]: Com o método SOLLIEVO®
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - emphasis [ref=e57]: "10"
+          - superscript [ref=e58]: + anos de experiência
+        - generic [ref=e59]: Experiência prática
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - emphasis [ref=e62]: "100"
+          - superscript [ref=e63]: "%"
+        - generic [ref=e64]: Atendimento individual
+      - generic [ref=e65]:
+        - emphasis [ref=e67]: + 1.000
+        - generic [ref=e68]: Pacientes tratados
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - emphasis [ref=e71]: "80"
+          - superscript [ref=e72]: "%"
+        - generic [ref=e73]: Resolução em Enxaqueca
+        - generic [ref=e74]: Com o método SOLLIEVO®
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - emphasis [ref=e77]: "10"
+          - superscript [ref=e78]: + anos de experiência
+        - generic [ref=e79]: Experiência prática
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - emphasis [ref=e82]: "100"
+          - superscript [ref=e83]: "%"
+        - generic [ref=e84]: Atendimento individual
+      - generic [ref=e85]:
+        - emphasis [ref=e87]: + 1.000
+        - generic [ref=e88]: Pacientes tratados
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - emphasis [ref=e91]: "80"
+          - superscript [ref=e92]: "%"
+        - generic [ref=e93]: Resolução em Enxaqueca
+        - generic [ref=e94]: Com o método SOLLIEVO®
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - emphasis [ref=e97]: "10"
+          - superscript [ref=e98]: + anos de experiência
+        - generic [ref=e99]: Experiência prática
+      - generic [ref=e100]:
+        - generic [ref=e101]:
+          - emphasis [ref=e102]: "100"
+          - superscript [ref=e103]: "%"
+        - generic [ref=e104]: Atendimento individual
+    - generic [ref=e106]:
+      - generic [ref=e107]:
+        - generic [ref=e108]: — PARA QUEM É
+        - heading "Esta abordagem foi desenhada para quem quer resolver, não apenas conviver." [level=2] [ref=e109]:
+          - text: Esta abordagem foi desenhada
+          - emphasis [ref=e110]: para quem quer resolver, não apenas conviver.
+        - paragraph [ref=e111]: Leia com atenção. Nem toda abordagem serve para todo momento, entenda o seu caso.
+      - generic [ref=e113]:
+        - paragraph [ref=e114]: "A Metodologia SOLLIEVO® pode fazer sentido para você se:"
+        - generic [ref=e115]:
+          - generic [ref=e116]:
+            - generic "Incluído" [ref=e117]:
+              - img [ref=e118]
+            - generic [ref=e120]:
+              - generic [ref=e121]: "01"
+              - generic [ref=e122]: Você sente que vive apenas administrando crises, sem previsibilidade real
+          - generic [ref=e123]:
+            - generic "Incluído" [ref=e124]:
+              - img [ref=e125]
+            - generic [ref=e127]:
+              - generic [ref=e128]: "02"
+              - generic [ref=e129]: Seu corpo está constantemente em estado de alerta, tensão ou exaustão
+          - generic [ref=e130]:
+            - generic "Incluído" [ref=e131]:
+              - img [ref=e132]
+            - generic [ref=e134]:
+              - generic [ref=e135]: "03"
+              - generic [ref=e136]: A enxaqueca já começa a limitar seu trabalho, vida social, viagens ou momentos em família
+          - generic [ref=e137]:
+            - generic "Incluído" [ref=e138]:
+              - img [ref=e139]
+            - generic [ref=e141]:
+              - generic [ref=e142]: "04"
+              - generic [ref=e143]: Você se tornou dependente de medicações para conseguir funcionar na rotina
+          - generic [ref=e144]:
+            - generic "Incluído" [ref=e145]:
+              - img [ref=e146]
+            - generic [ref=e148]:
+              - generic [ref=e149]: "05"
+              - generic [ref=e150]: Já passou por diferentes tratamentos, mas continua tendo recaídas
+          - generic [ref=e151]:
+            - generic "Incluído" [ref=e152]:
+              - img [ref=e153]
+            - generic [ref=e155]:
+              - generic [ref=e156]: "06"
+              - generic [ref=e157]: Deseja acompanhamento próximo, ajustes contínuos e continuidade no cuidado
+          - generic [ref=e158]:
+            - generic "Incluído" [ref=e159]:
+              - img [ref=e160]
+            - generic [ref=e162]:
+              - generic [ref=e163]: "07"
+              - generic [ref=e164]: Entende que quadros crônicos raramente melhoram com soluções isoladas
+          - generic [ref=e165]:
+            - generic "Incluído" [ref=e166]:
+              - img [ref=e167]
+            - generic [ref=e169]:
+              - generic [ref=e170]: "08"
+              - generic [ref=e171]: Não quer apenas suportar a dor — quer recuperar previsibilidade e clareza mental
+      - generic [ref=e173]:
+        - paragraph [ref=e174]: "Talvez não seja o momento certo se:"
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - generic "Não incluído" [ref=e177]:
+              - img [ref=e178]
+            - generic [ref=e180]:
+              - generic [ref=e181]: "01"
+              - generic [ref=e182]: Você busca apenas uma medicação rápida para momentos isolados de dor
+          - generic [ref=e183]:
+            - generic "Não incluído" [ref=e184]:
+              - img [ref=e185]
+            - generic [ref=e187]:
+              - generic [ref=e188]: "02"
+              - generic [ref=e189]: Espera melhora completa sem ajustes, acompanhamento ou participação ativa
+          - generic [ref=e190]:
+            - generic "Não incluído" [ref=e191]:
+              - img [ref=e192]
+            - generic [ref=e194]:
+              - generic [ref=e195]: "03"
+              - generic [ref=e196]: Procura solução imediata, sem disposição para investigar o que perpetua as crises
+          - generic [ref=e197]:
+            - generic "Não incluído" [ref=e198]:
+              - img [ref=e199]
+            - generic [ref=e201]:
+              - generic [ref=e202]: "04"
+              - generic [ref=e203]: Não deseja nenhuma mudança de sono, hábitos ou rotina quando necessário
+          - generic [ref=e204]:
+            - generic "Não incluído" [ref=e205]:
+              - img [ref=e206]
+            - generic [ref=e208]:
+              - generic [ref=e209]: "05"
+              - generic [ref=e210]: Acredita que um único procedimento ou medicação resolve sozinho um quadro crônico
+    - generic [ref=e212]:
+      - generic [ref=e213]:
+        - generic [ref=e214]: — PROCESSO DE AVALIAÇÃO
+        - heading "Como funciona sua avaliação com a Dra. Renata" [level=2] [ref=e215]:
+          - text: Como funciona sua avaliação
+          - emphasis [ref=e216]: com a Dra. Renata
+        - paragraph [ref=e217]: Uma avaliação construída para entender você, e não apenas a sua dor.
+      - generic [ref=e218]:
+        - article [ref=e219]:
+          - generic [ref=e220]:
+            - generic [ref=e222]: "01"
+            - generic [ref=e223]:
+              - generic [ref=e224]: ⚑
+              - text: EXCLUSIVO · 1 DIA ANTES
+          - heading "Triagem Personalizada" [level=3] [ref=e225]
+          - paragraph [ref=e226]: com Nossa Equipe de Enfermagem
+          - generic [ref=e228]:
+            - paragraph [ref=e229]: ⏱ 15 a 20 min · Vídeo ou áudio um dia antes.
+            - generic [ref=e230]:
+              - generic [ref=e231]: ✓
+              - generic [ref=e232]: Histórico detalhado de crises
+            - generic [ref=e233]:
+              - generic [ref=e234]: ✓
+              - generic [ref=e235]: Identificação dos seus gatilhos
+            - generic [ref=e236]:
+              - generic [ref=e237]: ✓
+              - generic [ref=e238]: Como a enxaqueca afeta sua rotina
+        - article [ref=e239]:
+          - generic [ref=e240]:
+            - generic [ref=e242]: "02"
+            - generic [ref=e243]:
+              - generic [ref=e244]: ⏱
+              - text: ATÉ 2 HORAS DE CONSULTA
+          - heading "Avaliação Clínica e Física" [level=3] [ref=e245]
+          - paragraph [ref=e246]: Detalhada
+          - generic [ref=e248]:
+            - paragraph [ref=e249]: A enxaqueca raramente tem uma causa única...
+            - generic [ref=e250]:
+              - generic [ref=e251]: ✓
+              - generic [ref=e252]: Exame físico e neurológico completo
+            - generic [ref=e253]:
+              - generic [ref=e254]: ✓
+              - generic [ref=e255]: Análise hormonal, cervical e de sono
+            - generic [ref=e256]:
+              - generic [ref=e257]: ✓
+              - generic [ref=e258]: Mapeamento das causas raízes
+        - article [ref=e259]:
+          - generic [ref=e260]:
+            - generic [ref=e262]: "03"
+            - generic [ref=e263]:
+              - generic [ref=e264]: ✦
+              - text: PLANEJAMENTO PARA TRATAMENTO
+          - heading "Plano SOLLIEVO®" [level=3] [ref=e265]
+          - paragraph [ref=e266]: Personalizado Para Você
+          - generic [ref=e268]:
+            - paragraph [ref=e269]: Com tudo mapeado, a Dra. Renata constrói seu plano feito especialmente para o seu caso.
+            - generic [ref=e270]:
+              - generic [ref=e271]: Infiltrações
+              - generic [ref=e272]: Tecnologia
+              - generic [ref=e273]: Medicamentos
+              - generic [ref=e274]: Reabilitação
+              - generic [ref=e275]: Acompanhamento
+    - generic [ref=e277]:
+      - generic [ref=e278]:
+        - generic [ref=e279]:
+          - generic [ref=e280]: Os 4 Pilares
+          - heading "O método SOLLIEVO® funciona porque trata o sistema que gera as crises." [level=2] [ref=e281]:
+            - text: O método SOLLIEVO®
+            - emphasis [ref=e282]: funciona
+            - text: porque trata o sistema que gera as crises.
+          - paragraph [ref=e283]: A magia não está em um pilar. Está em como os quatro conversam entre si, simultaneamente, desde o primeiro dia.
+        - generic [ref=e284]:
+          - text: — 4 PILARES,
+          - text: UM SISTEMA SÓ
+      - generic [ref=e285]:
+        - article [ref=e286]:
+          - generic [ref=e287]:
+            - generic [ref=e289]: "01"
+            - generic [ref=e291]: MONITORAMENTO CONTÍNUO
+          - heading "Acompanhamento Clínico Estruturado" [level=3] [ref=e292]
+          - paragraph [ref=e294]: A enxaqueca crônica exige monitoramento contínuo e ajustes estratégicos ao longo do tratamento. Por isso, o acompanhamento médico frequente faz parte da metodologia, permitindo analisar a resposta do organismo e adaptar as condutas de forma individualizada.
+        - article [ref=e295]:
+          - generic [ref=e296]:
+            - generic [ref=e298]: "02"
+            - generic [ref=e300]: REDUÇÃO DE FREQUÊNCIA E INTENSIDADE
+          - heading "Modulação da Dor e Estabilização Neurológica" [level=3] [ref=e301]
+          - paragraph [ref=e303]: Utilizamos recursos modernos para reduzir a frequência, intensidade e imprevisibilidade das crises.
+          - list [ref=e304]:
+            - listitem [ref=e305]:
+              - generic [ref=e306]: ›
+              - generic [ref=e307]: Toxina botulínica
+            - listitem [ref=e308]:
+              - generic [ref=e309]: ›
+              - generic [ref=e310]: Anticorpos monoclonais
+            - listitem [ref=e311]:
+              - generic [ref=e312]: ›
+              - generic [ref=e313]: Infiltrações específicas
+        - article [ref=e314]:
+          - generic [ref=e315]:
+            - generic [ref=e317]: "03"
+            - generic [ref=e319]: ALÉM DO CÉREBRO
+          - heading "Tratamento dos Fatores Perpetuadores" [level=3] [ref=e320]
+          - paragraph [ref=e322]: Muitas vezes a dor não está relacionada apenas ao cérebro, mas também a fatores musculares, cervicais, metabólicos e emocionais que mantêm o sistema nervoso em estado de alerta constante.
+          - list [ref=e323]:
+            - listitem [ref=e324]:
+              - generic [ref=e325]: ›
+              - generic [ref=e326]: Infiltrações musculares
+            - listitem [ref=e327]:
+              - generic [ref=e328]: ›
+              - generic [ref=e329]: Terapia por ondas de choque
+            - listitem [ref=e330]:
+              - generic [ref=e331]: ›
+              - generic [ref=e332]: Fisioterapia especializada
+        - article [ref=e333]:
+          - generic [ref=e334]:
+            - generic [ref=e336]: "04"
+            - generic [ref=e338]: CONTINUIDADE E ESTABILIDADE
+          - heading "Reabilitação Integral e Sustentação da Resposta Clínica" [level=3] [ref=e339]
+          - paragraph [ref=e341]: A estabilidade da enxaqueca costuma depender de uma abordagem contínua e multidisciplinar. Por isso, a metodologia pode envolver acompanhamento psicológico, reabilitação física, estratégias de redução de sensibilização e suporte para recuperação funcional e emocional.
+      - paragraph [ref=e342]: "\"Porque conviver com crises frequentes não deveria ser considerado normal.\""
+    - generic [ref=e344]:
+      - generic [ref=e345]:
+        - generic [ref=e347]:
+          - generic:
+            - button "Replace"
+            - button "Remove"
+        - generic [ref=e349]:
+          - paragraph [ref=e350]: "\"Enxaqueca crônica é uma conversa entre múltiplos sistemas. Se você escuta apenas um, nunca entende a história inteira.\""
+          - generic [ref=e351]: — Dra. Renata Rossato
+      - generic [ref=e352]:
+        - generic [ref=e353]: QUEM CUIDA DE VOCÊ DRA. RENANTA ROSSATO
+        - heading "10 anos curando Enxaqueca crônica." [level=2] [ref=e354]
+        - paragraph [ref=e355]:
+          - text: "O que diferencia a Dra Renata Rossato é sua abordagem: Ela não apenas trata a dor."
+          - strong [ref=e356]: Ela identifica as causas e trata diretamente as raízes.
+        - paragraph [ref=e357]: "Depois de uma década em Palmas, atendendo centenas de pacientes com enxaqueca, Dra. Renata percebeu algo que poucos admitem em voz alta:"
+        - paragraph [ref=e358]:
+          - strong [ref=e359]: A maioria das pessoas com enxaqueca crônica já passou por vários especialistas, exames normais e medicações diferentes. Mas nunca tiveram a clareza sobre o problema.
+        - generic [ref=e360]: "\"Quando você finalmente entende o que causa, tudo muda. Não só a dor, mas a forma como você vive\""
+        - paragraph [ref=e361]:
+          - text: Ela estudou além do que a medicina padrão ensina. Como investigar as causas reais, hormônios, cervical, sono, sensibilização neural. Descobriu que, quando a enxaqueca é tratada como
+          - strong [ref=e362]: sistema
+          - text: (e não fragmentos isolados), a taxa de efetividade no tratamento sobe para 80%.
+    - generic [ref=e364]:
+      - generic [ref=e365]: Próximo passo
+      - heading "Sua dor tem um fim. E começa agora." [level=2] [ref=e366]:
+        - text: Sua dor tem um
+        - emphasis [ref=e367]: fim.
+        - text: E começa
+        - emphasis [ref=e368]: agora.
+      - paragraph [ref=e369]:
+        - text: Na avaliação, a Dra. Renata identifica a fonte real da sua dor, o motivo de tratamentos anteriores terem falhado, e desenha o seu plano para a resolução.
+        - strong [ref=e370]: Dê o primeiro passo clicando abaixo.
+      - link "Começar meu Diagnóstico" [ref=e372] [cursor=pointer]:
+        - /url: https://api.whatsapp.com/send?phone=5563992092431&text=Ol%C3%A1%2C%20venho%20da%20p%C3%A1gina.%0AQuero%20entender%20melhor%20sobre%20o%20tratamento
+        - text: Começar meu Diagnóstico
+        - img [ref=e373]
+      - generic [ref=e375]:
+        - generic [ref=e376]:
+          - img [ref=e377]
+          - text: Plano personalizado em mãos
+        - generic [ref=e379]:
+          - img [ref=e380]
+          - text: Atendimento humano por WhatsApp
+        - generic [ref=e382]:
+          - img [ref=e383]
+          - text: Sem espera de meses
+  - contentinfo [ref=e385]:
+    - generic [ref=e388]:
+      - generic [ref=e389]:
+        - generic [ref=e390]:
+          - img "Dra. Renata Rossato" [ref=e392]
+          - generic [ref=e393]:
+            - generic [ref=e394]: Dra. Renata Rossato
+            - generic [ref=e395]: CRM 4359 · RQE 2580
+        - paragraph [ref=e396]:
+          - text: © 2026 Dra. Renata Rossato.
+          - text: Todos os direitos reservados.
+      - generic [ref=e397]:
+        - heading "Atendimento" [level=3] [ref=e398]
+        - list [ref=e399]:
+          - listitem [ref=e400]: Palmas — Tocantins
+          - listitem [ref=e401]: Consulta com agendamento
+          - listitem [ref=e402]: SOLLIEVO® é marca registrada
+      - generic [ref=e403]:
+        - heading "Acompanhe" [level=3] [ref=e404]
+        - list [ref=e405]:
+          - listitem [ref=e406]:
+            - link "Instagram" [ref=e407] [cursor=pointer]:
+              - /url: https://www.instagram.com/drarenatarossato/
+              - img [ref=e408]
+              - text: Instagram
+          - listitem [ref=e412]:
+            - link "WhatsApp" [ref=e413] [cursor=pointer]:
+              - /url: https://api.whatsapp.com/send?phone=5563992092431&text=Ol%C3%A1%2C%20venho%20da%20p%C3%A1gina.%0AQuero%20entender%20melhor%20sobre%20o%20tratamento
+              - img [ref=e414]
+              - text: WhatsApp
+      - generic [ref=e416]:
+        - heading "Localização" [level=3] [ref=e417]
+        - button "Live Palmas — TO Clique para expandir" [ref=e418] [cursor=pointer]:
+          - generic [ref=e419]:
+            - img [ref=e422]
+            - generic [ref=e424]:
+              - generic [ref=e425]:
+                - img [ref=e427]
+                - generic [ref=e431]: Live
+              - heading "Palmas — TO" [level=4] [ref=e433]
+          - generic: Clique para expandir
