@@ -1,0 +1,5 @@
+[     692ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.whatsapp.com/data/manifest.json:0
+[     696ms] [ERROR] Manifest fetch from https://api.whatsapp.com/data/manifest.json failed, code 404 @ https://api.whatsapp.com/send?phone=5563992092431&text=Ol%C3%A1%2C%20venho%20da%20p%C3%A1gina.%0AQuero%20entender%20melhor%20sobre%20o%20tratamento:9
+[    1107ms] [ERROR] Failed to launch 'whatsapp://send/?phone=5563992092431&text=Ol%C3%A1%2C%20venho%20da%20p%C3%A1gina.%0AQuero%20entender%20melhor%20sobre%20o%20tratamento' because the scheme does not have a registered handler. @ https://api.whatsapp.com/send?phone=5563992092431&text=Ol%C3%A1%2C%20venho%20da%20p%C3%A1gina.%0AQuero%20entender%20melhor%20sobre%20o%20tratamento:0
+[    1373ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.whatsapp.com/data/manifest.json:0
+[    1381ms] [ERROR] Manifest fetch from https://api.whatsapp.com/data/manifest.json failed, code 404 @ https://api.whatsapp.com/send?phone=5563992092431&text=Ol%C3%A1%2C%20venho%20da%20p%C3%A1gina.%0AQuero%20entender%20melhor%20sobre%20o%20tratamento:0
