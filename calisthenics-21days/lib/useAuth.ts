@@ -32,22 +32,38 @@ export function useAuth() {
     getSession();
   }, []);
 
+  const derivePassword = async (email: string) => {
+    const encoder = new TextEncoder();
+    const data = encoder.encode(`${email.toLowerCase().trim()}calisthenics-21-days`);
+    const hashBuffer = await crypto.subtle.digest("SHA-256", data);
+    return Array.from(new Uint8Array(hashBuffer))
+      .map((b) => b.toString(16).padStart(2, "0"))
+      .join("");
+  };
+
   const loginWithEmail = async (email: string) => {
     try {
-      const { error } = await supabase.auth.signInWithOtp({
-        email,
-        options: {
-          shouldCreateUser: true,
-          emailRedirectTo: `${window.location.origin}/auth/callback`,
-        },
+      const normalizedEmail = email.toLowerCase().trim();
+      const password = await derivePassword(normalizedEmail);
+
+      const { error: signInError } = await supabase.auth.signInWithPassword({
+        email: normalizedEmail,
+        password,
       });
 
-      if (error) throw error;
+      if (signInError) {
+        const { error: signUpError } = await supabase.auth.signUp({
+          email: normalizedEmail,
+          password,
+        });
+
+        if (signUpError) throw signUpError;
+      }
 
       return { success: true };
     } catch (error: any) {
-      console.error("Erro ao enviar link de login:", error.message);
-      return { success: false, error: error.message || "Erro ao enviar link de login" };
+      console.error("Erro ao fazer login:", error.message);
+      return { success: false, error: error.message || "Erro ao fazer login" };
     }
   };
 
