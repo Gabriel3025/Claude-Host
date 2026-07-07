@@ -46,19 +46,23 @@ export function useAuth() {
       const normalizedEmail = email.toLowerCase().trim();
       const password = await derivePassword(normalizedEmail);
 
+      const ensureRes = await fetch("/api/auth/ensure-user", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: normalizedEmail, password }),
+      });
+
+      if (!ensureRes.ok) {
+        const body = await ensureRes.json().catch(() => ({}));
+        throw new Error(body.error || "Erro ao preparar conta");
+      }
+
       const { error: signInError } = await supabase.auth.signInWithPassword({
         email: normalizedEmail,
         password,
       });
 
-      if (signInError) {
-        const { error: signUpError } = await supabase.auth.signUp({
-          email: normalizedEmail,
-          password,
-        });
-
-        if (signUpError) throw signUpError;
-      }
+      if (signInError) throw signInError;
 
       return { success: true };
     } catch (error: any) {
