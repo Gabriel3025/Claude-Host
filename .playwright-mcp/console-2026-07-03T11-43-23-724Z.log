@@ -6,3 +6,7 @@
 %cConsulte https://www.facebook.com/selfxss para mais informações. font-family:helvetica; font-size:20px;  @ https://static.xx.fbcdn.net/rsrc.php/v4/yX/r/4wLeY5_5Fx0.js:246
 [    3234ms] [LOG] 
 %c  @ https://static.xx.fbcdn.net/rsrc.php/v4/yX/r/4wLeY5_5Fx0.js:246
+[29478236ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ https://www.facebook.com/ajax/bz?__a=1&__aaid=0&__ccg=EXCELLENT&__comet_req=94&__hs=20637.HYP%3Acomet_plat_default_pkg.2.1...0&__hsi=7658266006196242799&__jssesw=1&__req=1e&__rev=1042607275&__s=%3Ay33hke%3A2azn44&__spin_b=trunk&__spin_r=1042607275&__spin_t=1783079003&__user=0&dpr=1&jazoest=22385&lsd=AdQ1nrzqml_HvyZ901Pz2L5YYxU&ph=C3:0
+[29478246ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ https://www.facebook.com/nw/:0
+[29478903ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ https://www.facebook.com/nw/:0
+[293013104ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://www.facebook.com/nw/:0
