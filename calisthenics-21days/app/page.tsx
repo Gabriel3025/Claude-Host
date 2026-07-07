@@ -13,29 +13,39 @@ import { useProgressSync } from "@/lib/useProgressSync";
 export default function Home() {
   const { completedDays, undoDay, resetProgress, isLoaded } = useProgressSync();
   const [user, setUser] = useState<any>(null);
+  const [checkingAuth, setCheckingAuth] = useState(true);
   const router = useRouter();
 
   useEffect(() => {
     const getUser = async () => {
       const { data } = await supabase.auth.getSession();
-      if (data?.session?.user) {
-        const { data: profile } = await supabase
-          .from("profiles")
-          .select("name, weight, height")
-          .eq("id", data.session.user.id)
-          .single() as any;
-
-        setUser({
-          email: data.session.user.email,
-          id: data.session.user.id,
-          name: (profile as any)?.name || data.session.user.email,
-          weight: (profile as any)?.weight,
-          height: (profile as any)?.height,
-        });
+      if (!data?.session?.user) {
+        router.push("/auth");
+        return;
       }
+
+      const { data: profile } = await supabase
+        .from("profiles")
+        .select("name, weight, height")
+        .eq("id", data.session.user.id)
+        .single() as any;
+
+      if (!profile) {
+        router.push("/auth/profile");
+        return;
+      }
+
+      setUser({
+        email: data.session.user.email,
+        id: data.session.user.id,
+        name: (profile as any)?.name || data.session.user.email,
+        weight: (profile as any)?.weight,
+        height: (profile as any)?.height,
+      });
+      setCheckingAuth(false);
     };
     getUser();
-  }, []);
+  }, [router]);
 
   const handleLogout = async () => {
     // Force sync all progress to Supabase before logout
@@ -74,7 +84,7 @@ export default function Home() {
     router.push("/auth");
   };
 
-  if (!isLoaded) {
+  if (checkingAuth || !isLoaded) {
     return (
       <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-orange-50 to-red-50">
         <div className="text-center">
