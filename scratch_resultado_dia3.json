@@ -1,0 +1,301 @@
+{
+  "resultados": [
+    {
+      "rowIdx": 1,
+      "valor": 52,
+      "produto": "Tarot"
+    },
+    {
+      "rowIdx": 8,
+      "valor": 4,
+      "produto": "Como plantar"
+    },
+    {
+      "rowIdx": 12,
+      "valor": 41,
+      "produto": "Neuropro"
+    },
+    {
+      "rowIdx": 20,
+      "valor": 12,
+      "produto": "Airfryer"
+    },
+    {
+      "rowIdx": 30,
+      "valor": 0,
+      "produto": "Saude (Euro)"
+    },
+    {
+      "rowIdx": 32,
+      "valor": 0,
+      "produto": "Emagrecimento"
+    },
+    {
+      "rowIdx": 33,
+      "valor": 20,
+      "produto": "Atividade cursiva"
+    },
+    {
+      "rowIdx": 34,
+      "valor": 5,
+      "produto": "Jiujistu"
+    },
+    {
+      "rowIdx": 39,
+      "valor": 31,
+      "produto": "100 Brincadeiras Bebês"
+    },
+    {
+      "rowIdx": 40,
+      "valor": 46,
+      "produto": "Organização do Lar"
+    },
+    {
+      "rowIdx": 42,
+      "valor": 0,
+      "produto": "100 Cards Anti-Bullying"
+    },
+    {
+      "rowIdx": 43,
+      "valor": 24,
+      "produto": "Planilha Capivarinha"
+    },
+    {
+      "rowIdx": 44,
+      "valor": 13,
+      "produto": "JiuJistsu (LATAM)"
+    },
+    {
+      "rowIdx": 52,
+      "valor": 0,
+      "produto": "Atividades Copa do mundo"
+    },
+    {
+      "rowIdx": 53,
+      "valor": 240,
+      "produto": "Calistenia asiática"
+    },
+    {
+      "rowIdx": 56,
+      "valor": 43,
+      "produto": "Hora da Leiturinha"
+    },
+    {
+      "rowIdx": 58,
+      "valor": 3,
+      "produto": "Cafajeste (Acompanhar OF)"
+    },
+    {
+      "rowIdx": 60,
+      "valor": 6,
+      "produto": "Painel Campeões"
+    }
+  ],
+  "falhas": [
+    {
+      "rowIdx": 61,
+      "produto": "Dinamicas aulas de PTBR",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 62,
+      "produto": "Planilha financeira",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 63,
+      "produto": "Atividades da Pro",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 64,
+      "produto": "Calistenia asiática 2 ",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 65,
+      "produto": "Atividades de português",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 66,
+      "produto": "Atividades em segundos",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 67,
+      "produto": "Figurinhaa do filho",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 68,
+      "produto": "Potinho da fé",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 69,
+      "produto": "Alfabetização",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 70,
+      "produto": "ABA no Autismo",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 71,
+      "produto": "KIT de costura (Acomapnhar)",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 72,
+      "produto": "Baralho do coração aberto",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 73,
+      "produto": "Jogo da Memória da Copa",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 74,
+      "produto": "Colorir Copa do Mundo",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 75,
+      "produto": "Artes para Terraplanagem",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 76,
+      "produto": "Logo",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 77,
+      "produto": "TDAH",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 78,
+      "produto": "Segredo do bebe",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 79,
+      "produto": "80 recursos terapeuticos",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 80,
+      "produto": "Acelerar aprendizado da cria",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 81,
+      "produto": "Quadro com versículos",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 82,
+      "produto": "Bolsas Croche",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 83,
+      "produto": "Hora de aprender cristão",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 84,
+      "produto": "Materiais para professores",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 85,
+      "produto": "Pack Figurinhas",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 86,
+      "produto": "Pack Figurinhas Copa ",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 87,
+      "produto": "Exercícios para TDAH",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 88,
+      "produto": "Molde Roupa PET",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 89,
+      "produto": "Cristão + Hidroponica",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 90,
+      "produto": "TCC com IA (R$ 297,00)",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 91,
+      "produto": "Catalogo Estética automotiva",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 92,
+      "produto": "Atividades para idosos",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 93,
+      "produto": "Atividades para copa",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 94,
+      "produto": "Adesivo Sono",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 95,
+      "produto": "Simulado CNH",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 96,
+      "produto": "Matemática Minecraft",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 97,
+      "produto": "Desafio 21 dias Emagrec.",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 98,
+      "produto": "Brinquedos de Papel",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 99,
+      "produto": "A história do lider (Política)",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 100,
+      "produto": "Dor na coluna (Acompanhar)",
+      "erro": "page.goto: url: expected string, got undefined"
+    },
+    {
+      "rowIdx": 101,
+      "produto": "Bolsas de Crochê",
+      "erro": "page.goto: url: expected string, got undefined"
+    }
+  ]
+}
