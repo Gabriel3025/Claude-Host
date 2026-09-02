@@ -5,6 +5,7 @@ import { ScoreBadge } from "../components/ScoreBadge";
 import { formatPhoneDisplay, waLink } from "../utils";
 import { LeadDrawer } from "../components/LeadDrawer";
 import { ColorPicker } from "../components/ColorPicker";
+import { WhatsAppIcon } from "../components/WhatsAppIcon";
 
 export function CRMBoard() {
   const [stages, setStages] = useState<CrmStage[]>([]);
@@ -103,7 +104,7 @@ export function CRMBoard() {
     <div>
       <div className="label-tag" style={{ marginBottom: 16, fontSize: 14 }}>🗂️ [ CRM ]</div>
 
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: 14, alignItems: "start" }}>
+      <div style={{ display: "flex", gap: 14, overflowX: "auto", paddingBottom: 12, alignItems: "flex-start" }}>
         {stages.map((stage) => (
           <div
             key={stage.id}
@@ -111,13 +112,16 @@ export function CRMBoard() {
             onDragLeave={() => setDragOverStage((s) => (s === stage.id ? null : s))}
             onDrop={() => handleDrop(stage.id)}
             style={{
+              width: 268, flexShrink: 0,
+              display: "flex", flexDirection: "column",
+              maxHeight: "calc(100vh - 200px)",
               background: dragOverStage === stage.id ? "rgba(0,229,255,0.06)" : "var(--surface)",
               border: `1px solid ${dragOverStage === stage.id ? "var(--cyan)" : "var(--border)"}`,
               borderTop: `3px solid ${stage.color || "var(--border)"}`,
               borderRadius: 6, padding: 10,
             }}
           >
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10, gap: 6 }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10, gap: 6, flexShrink: 0 }}>
               {editingStageId === stage.id ? (
                 <input
                   autoFocus
@@ -149,7 +153,7 @@ export function CRMBoard() {
               </div>
             </div>
 
-            <div style={{ display: "flex", flexDirection: "column", gap: 8, minHeight: 40 }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: 8, minHeight: 40, overflowY: "auto", paddingRight: 2 }}>
               {(stage.cards || []).map((lead) => (
                 <div
                   key={lead.id}
@@ -158,10 +162,11 @@ export function CRMBoard() {
                   onDragEnd={() => setDraggingLeadId(null)}
                   onClick={() => setSelected(lead)}
                   style={{
-                    background: "var(--surface-2)",
-                    border: "1px solid var(--border)",
+                    background: stage.color ? `${stage.color}22` : "var(--surface-2)",
+                    border: `1px solid ${stage.color ? `${stage.color}55` : "var(--border)"}`,
                     borderRadius: 5, padding: "10px 12px", cursor: "grab",
                     opacity: draggingLeadId === lead.id ? 0.4 : 1,
+                    flexShrink: 0,
                   }}
                 >
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 8, marginBottom: 8 }}>
@@ -178,7 +183,12 @@ export function CRMBoard() {
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8, marginTop: 8 }} onClick={(e) => e.stopPropagation()}>
                     <div>
                       {waLink(lead) && (
-                        <a href={waLink(lead)!} target="_blank" rel="noreferrer" style={{ fontSize: 12 }}>💬 WhatsApp</a>
+                        <a
+                          href={waLink(lead)!} target="_blank" rel="noreferrer"
+                          style={{ fontSize: 12, display: "inline-flex", alignItems: "center", gap: 4 }}
+                        >
+                          <WhatsAppIcon size={13} /> WPP
+                        </a>
                       )}
                     </div>
                     <span className="hover-tooltip">
@@ -194,7 +204,7 @@ export function CRMBoard() {
           </div>
         ))}
 
-        <div style={{ display: "flex", gap: 6, alignSelf: "start" }}>
+        <div style={{ display: "flex", gap: 6, flexShrink: 0, width: 220 }}>
           <input
             placeholder="➕ Nova coluna..."
             value={newColumnName}
