@@ -27,14 +27,14 @@ export function LeadTable({ leads, onSelect, selectedIds, onToggleSelect, onTogg
     <div className="card" style={{ padding: 0, overflowX: "auto" }}>
       <table style={{ width: "100%", borderCollapse: "collapse", minWidth: 880, tableLayout: "fixed" }}>
         <colgroup>
-          <col style={{ width: 24 }} />
+          <col style={{ width: 20 }} />
           <col style={{ width: 78 }} />
-          <col style={{ width: "20%" }} />
+          <col style={{ width: "22%" }} />
           <col style={{ width: 148 }} />
-          <col style={{ width: "14%" }} />
+          <col style={{ width: "16%" }} />
           <col style={{ width: 100 }} />
           <col style={{ width: 96 }} />
-          <col style={{ width: 158 }} />
+          <col style={{ width: 150 }} />
         </colgroup>
         <thead>
           <tr style={{ borderBottom: "1px solid var(--border)" }}>
@@ -69,18 +69,7 @@ export function LeadTable({ leads, onSelect, selectedIds, onToggleSelect, onTogg
                 <ScoreBadge score={lead.score} scoreClass={lead.score_class} />
               </td>
               <td style={{ padding: "12px 10px", fontWeight: 500 }}>
-                <div style={{ display: "flex", alignItems: "center", gap: 8, minWidth: 0 }}>
-                  <span className="truncate" title={lead.name} style={{ minWidth: 0 }}>{lead.name}</span>
-                  {lead.crm_stage_id ? (
-                    <span
-                      className="chip active"
-                      style={{ fontSize: 10, padding: "2px 8px", whiteSpace: "nowrap", flexShrink: 0 }}
-                      title="Este lead já está no CRM"
-                    >
-                      ✅ NO CRM
-                    </span>
-                  ) : null}
-                </div>
+                <span className="truncate" title={lead.name} style={{ minWidth: 0, display: "block" }}>{lead.name}</span>
               </td>
               <td style={{ padding: "12px 10px", whiteSpace: "nowrap" }} className="mono">
                 {formatPhoneDisplay(lead.phone_e164) || <span className="text-muted">—</span>}
@@ -93,27 +82,38 @@ export function LeadTable({ leads, onSelect, selectedIds, onToggleSelect, onTogg
                 {lead.rating ? `${lead.rating.toFixed(1)} ★ (${lead.reviews_count})` : <span className="text-muted">—</span>}
               </td>
               <td style={{ padding: "12px 10px" }} onClick={(e) => e.stopPropagation()}>
-                <div style={{ display: "flex", alignItems: "center" }}>
-                  <div style={{ width: 54, flexShrink: 0 }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                  <div style={{ display: "flex", flexDirection: "column", gap: 3, width: 58, flexShrink: 0 }}>
                     {waLink(lead) && (
                       <a
                         href={waLink(lead)!} target="_blank" rel="noreferrer" title="WhatsApp"
-                        style={{ display: "inline-flex", alignItems: "center", gap: 4 }}
+                        style={{ display: "inline-flex", alignItems: "center", gap: 5, fontSize: 12 }}
                       >
-                        <WhatsAppIcon size={13} /> WPP
+                        <WhatsAppIcon size={12} /> WPP
+                      </a>
+                    )}
+                    {lead.google_maps_url && (
+                      <a
+                        href={lead.google_maps_url} target="_blank" rel="noreferrer" title="Google Maps"
+                        style={{ display: "inline-flex", alignItems: "center", gap: 5, fontSize: 12 }}
+                      >
+                        <span style={{ fontSize: 12, width: 12, textAlign: "center" }}>📍</span> Maps
                       </a>
                     )}
                   </div>
-                  <div style={{ width: 46, flexShrink: 0 }}>
-                    {lead.google_maps_url && (
-                      <a href={lead.google_maps_url} target="_blank" rel="noreferrer" title="Google Maps">📍 Maps</a>
-                    )}
-                  </div>
-                  <div style={{ width: 56, flexShrink: 0 }}>
-                    {!lead.crm_stage_id && (
+                  <div style={{ flexShrink: 0 }}>
+                    {lead.crm_stage_id ? (
+                      <span
+                        className="chip active"
+                        style={{ fontSize: 10, padding: "2px 8px", whiteSpace: "nowrap" }}
+                        title="Este lead já está no CRM"
+                      >
+                        ✅ NO CRM
+                      </span>
+                    ) : (
                       <button
                         className="btn"
-                        style={{ padding: "4px 8px", fontSize: 11 }}
+                        style={{ padding: "4px 8px", fontSize: 11, whiteSpace: "nowrap" }}
                         onClick={() => onSendToCrm(lead.id)}
                         title="Enviar este lead para o CRM"
                       >
