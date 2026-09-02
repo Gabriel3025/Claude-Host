@@ -53,22 +53,23 @@ class ApifyProvider(SearchProvider):
         actor_client = self.client.actor(APIFY_ACTOR_ID)
 
         run = await asyncio.to_thread(actor_client.start, run_input=run_input)
-        run_id = run["id"]
+        run_id = run.id
         logger.info(f"Apify run started: {run_id} niche={niche} location={location_query}")
 
-        dataset_id = run.get("defaultDatasetId")
+        dataset_id = run.default_dataset_id
         run_client = self.client.run(run_id)
 
         elapsed = 0
         poll_interval = 5
-        status = run.get("status", "RUNNING")
+        status = run.status or "RUNNING"
 
         while status not in TERMINAL_STATUSES and elapsed < APIFY_CALL_TIMEOUT_S:
             await asyncio.sleep(poll_interval)
             elapsed += poll_interval
             run_info = await asyncio.to_thread(run_client.get)
-            status = run_info.get("status", status)
-            dataset_id = run_info.get("defaultDatasetId", dataset_id)
+            if run_info is not None:
+                status = run_info.status or status
+                dataset_id = run_info.default_dataset_id or dataset_id
             if dataset_id:
                 try:
                     count_info = await asyncio.to_thread(

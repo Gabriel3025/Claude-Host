@@ -64,6 +64,6 @@ async def test_token():
 
         client = ApifyClient(config.APIFY_TOKEN)
         user = client.user().get()
-        return {"ok": True, "username": user.get("username", "")}
+        return {"ok": True, "username": getattr(user, "username", "")}
     except Exception as e:
         return {"ok": False, "message": str(e)}
