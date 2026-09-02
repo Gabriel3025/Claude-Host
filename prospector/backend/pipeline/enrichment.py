@@ -16,6 +16,22 @@ class EnrichmentResult:
     linkedin: str | None = None
 
 
+def enrich_from_social_url(url: str | None) -> EnrichmentResult:
+    """When the lead's own website_url IS a social profile (SOCIAL_ONLY),
+    the profile link is already known -- no HTML fetch needed to record it."""
+    result = EnrichmentResult()
+    if not url:
+        return result
+    low = url.lower()
+    if "instagram.com" in low:
+        result.instagram = url
+    elif "facebook.com" in low or "fb.com" in low:
+        result.facebook = url
+    elif "linkedin.com" in low:
+        result.linkedin = url
+    return result
+
+
 def enrich_from_html(html: str | None) -> EnrichmentResult:
     result = EnrichmentResult()
     if not html:

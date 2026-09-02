@@ -52,6 +52,19 @@ def _host_is_social(url: str) -> bool:
     return any(host == d or host.endswith("." + d) for d in SOCIAL_DOMAINS)
 
 
+WHATSAPP_DOMAINS = {"wa.me", "api.whatsapp.com", "whatsapp.com", "chat.whatsapp.com"}
+
+
+def _is_whatsapp(url: str) -> bool:
+    try:
+        host = urlparse(url).netloc.lower().split(":")[0]
+        if host.startswith("www."):
+            host = host[4:]
+    except Exception:
+        return False
+    return any(host == d or host.endswith("." + d) for d in WHATSAPP_DOMAINS)
+
+
 async def check_website(url: str | None) -> SiteCheckResult:
     if not url or not url.strip():
         return SiteCheckResult(site_status="NO_WEBSITE")
@@ -61,12 +74,15 @@ async def check_website(url: str | None) -> SiteCheckResult:
         url = "https://" + url
 
     if _host_is_social(url):
-        return SiteCheckResult(site_status="SOCIAL_ONLY", final_url=url)
+        return SiteCheckResult(
+            site_status="SOCIAL_ONLY", final_url=url, whatsapp_found=_is_whatsapp(url)
+        )
 
     result = await _fetch(url)
 
     if result.final_url and _host_is_social(result.final_url):
         result.site_status = "SOCIAL_ONLY"
+        result.whatsapp_found = _is_whatsapp(result.final_url)
         return result
 
     if result.site_status == "ONLINE":

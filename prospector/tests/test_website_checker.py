@@ -25,6 +25,13 @@ async def test_social_only_instagram():
 async def test_social_only_whatsapp():
     result = await check_website("https://wa.me/5531999999748")
     assert result.site_status == "SOCIAL_ONLY"
+    assert result.whatsapp_found is True
+
+
+@pytest.mark.asyncio
+async def test_social_only_instagram_not_whatsapp():
+    result = await check_website("https://instagram.com/escritoriosilva")
+    assert result.whatsapp_found is False
 
 
 @pytest.mark.asyncio

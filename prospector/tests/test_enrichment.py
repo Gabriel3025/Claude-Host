@@ -1,4 +1,4 @@
-from backend.pipeline.enrichment import enrich_from_html
+from backend.pipeline.enrichment import enrich_from_html, enrich_from_social_url
 
 HTML = """
 <html><body>
@@ -42,3 +42,27 @@ def test_enrich_rejects_image_as_email():
     html = '<a href="mailto:banner@sentry.io">x</a><p>logo@site.png info@example.com</p>'
     result = enrich_from_html(html)
     assert result.email is None
+
+
+def test_enrich_from_social_url_instagram():
+    result = enrich_from_social_url("https://www.instagram.com/fornodiorobh")
+    assert result.instagram == "https://www.instagram.com/fornodiorobh"
+    assert result.facebook is None
+
+
+def test_enrich_from_social_url_facebook():
+    result = enrich_from_social_url("https://www.facebook.com/escritoriosilva")
+    assert result.facebook == "https://www.facebook.com/escritoriosilva"
+    assert result.instagram is None
+
+
+def test_enrich_from_social_url_whatsapp_maps_to_nothing():
+    result = enrich_from_social_url("https://wa.me/5531999999748")
+    assert result.instagram is None
+    assert result.facebook is None
+    assert result.linkedin is None
+
+
+def test_enrich_from_social_url_empty():
+    result = enrich_from_social_url(None)
+    assert result.instagram is None

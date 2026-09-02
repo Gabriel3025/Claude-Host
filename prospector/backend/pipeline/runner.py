@@ -13,7 +13,7 @@ from backend.config import (
 from backend.pipeline import progress
 from backend.pipeline.normalize import normalize_phone, build_dedup_key
 from backend.pipeline.website_checker import check_website, tech_issues_to_json
-from backend.pipeline.enrichment import enrich_from_html
+from backend.pipeline.enrichment import enrich_from_html, enrich_from_social_url
 from backend.pipeline.scoring import compute_score
 from backend.scoring_config import SLOW_SITE_MS, TINY_SITE_BYTES
 from backend.providers.apify_provider import ApifyProvider
@@ -86,7 +86,10 @@ async def run_pipeline(search_id: int, niche: str, city: str, state: str,
                 async with semaphore:
                     try:
                         site_result = await check_website(place.website_url)
-                        enrichment = enrich_from_html(site_result.html)
+                        if site_result.site_status == "SOCIAL_ONLY":
+                            enrichment = enrich_from_social_url(site_result.final_url)
+                        else:
+                            enrichment = enrich_from_html(site_result.html)
                     except Exception as e:
                         logger.warning(f"Erro ao processar lead '{place.name}': {e}")
                         progress.increment_error(search_id)
