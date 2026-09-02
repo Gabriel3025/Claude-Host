@@ -22,6 +22,7 @@ export interface CreateSearchPayload {
   quantity: number;
   confirmed?: boolean;
   include_duplicates?: boolean;
+  no_site_only?: boolean;
 }
 
 export interface CreateSearchResult {
@@ -39,13 +40,20 @@ export const api = {
 
   getSearch: (id: number) => request<Search>(`/searches/${id}`),
 
-  listSearches: () => request<Search[]>("/searches"),
+  listSearches: (trash = false) => request<Search[]>(`/searches?trash=${trash}`),
 
   cancelSearch: (id: number) =>
     request<{ ok: boolean }>(`/searches/${id}/cancel`, { method: "POST" }),
 
   includeDuplicates: (id: number) =>
     request<{ added: number }>(`/searches/${id}/include-duplicates`, { method: "POST" }),
+
+  deleteSearch: (id: number) =>
+    request<{ ok: boolean }>(`/searches/${id}/delete`, { method: "POST" }),
+  restoreSearch: (id: number) =>
+    request<{ ok: boolean }>(`/searches/${id}/restore`, { method: "POST" }),
+  permanentlyDeleteSearch: (id: number) =>
+    request<{ ok: boolean }>(`/searches/${id}`, { method: "DELETE" }),
 
   listLeads: (params: Record<string, string | number | boolean | undefined>) => {
     const qs = new URLSearchParams();

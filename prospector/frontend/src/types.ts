@@ -105,6 +105,7 @@ export interface Search {
   estimated_cost_usd: number;
   duplicate_count: number;
   duplicate_lead_ids?: string;
+  is_deleted: number;
   error: string | null;
   created_at: string;
   finished_at: string | null;

@@ -9,6 +9,8 @@ from backend.config import (
     APIFY_COST_START,
     SITE_CHECK_CONCURRENCY,
     MAX_LEADS_ABSOLUTE,
+    MAX_SEARCH_ATTEMPTS,
+    NO_SITE_STATUSES,
 )
 from backend.pipeline import progress
 from backend.pipeline.normalize import normalize_phone, build_dedup_key
@@ -32,7 +34,8 @@ def _is_cancelled(search_id: int) -> bool:
 
 
 async def run_pipeline(search_id: int, niche: str, city: str, state: str,
-                        region: str | None, quantity: int, include_duplicates: bool = False):
+                        region: str | None, quantity: int, include_duplicates: bool = False,
+                        no_site_only: bool = False):
     conn = db.get_conn()
     progress.start(search_id, quantity)
     from_cache_count = 0
@@ -45,6 +48,7 @@ async def run_pipeline(search_id: int, niche: str, city: str, state: str,
 
         known_place_ids = _get_known_place_ids(conn)
         known_dedup_keys = _get_known_dedup_keys(conn)
+        accumulated_keys: set[str] = set()
 
         def split(raw_places):
             new_list, dup_list, seen = [], [], set()
@@ -53,7 +57,7 @@ async def run_pipeline(search_id: int, niche: str, city: str, state: str,
                     continue
                 phone_e164, is_mobile = normalize_phone(place.phone_raw)
                 key = place.place_id or build_dedup_key(place.name, phone_e164, place.address)
-                if key in seen:
+                if key in seen or key in accumulated_keys:
                     continue
                 seen.add(key)
                 is_known = (place.place_id and place.place_id in known_place_ids) or \
@@ -65,51 +69,6 @@ async def run_pipeline(search_id: int, niche: str, city: str, state: str,
                     new_list.append(item)
             return new_list, dup_list
 
-        progress.set_phase(search_id, "BUSCANDO EMPRESAS")
-        raw_places, run_id = await provider.search(niche, city, state, region, quantity, on_progress)
-        total_scraped = len(raw_places)
-        candidates, duplicates = split(raw_places)
-
-        if len(candidates) < quantity and duplicates and not include_duplicates and not _is_cancelled(search_id):
-            topup_target = min(MAX_LEADS_ABSOLUTE, quantity + len(duplicates))
-            logger.info(
-                f"Busca {search_id}: {len(duplicates)} duplicados encontrados, "
-                f"buscando complemento (alvo {topup_target})"
-            )
-            raw_places_2, run_id_2 = await provider.search(
-                niche, city, state, region, topup_target, on_progress
-            )
-            total_scraped += len(raw_places_2)
-            candidates_2, duplicates_2 = split(raw_places_2)
-
-            existing_keys = {c[3] for c in candidates}
-            for c in candidates_2:
-                if c[3] not in existing_keys:
-                    candidates.append(c)
-                    existing_keys.add(c[3])
-
-            dup_keys_seen = {d[3] for d in duplicates}
-            for d in duplicates_2:
-                if d[3] not in dup_keys_seen:
-                    duplicates.append(d)
-                    dup_keys_seen.add(d[3])
-
-            run_id = f"{run_id},{run_id_2}"
-
-        candidates = candidates[:quantity]
-
-        conn.execute("UPDATE searches SET provider_run_id=? WHERE id=?", (run_id, search_id))
-        conn.commit()
-
-        duplicate_lead_ids = _resolve_existing_lead_ids(conn, duplicates)
-
-        if _is_cancelled(search_id):
-            _finish_cancelled(search_id)
-            return
-
-        progress.update(search_id, total=len(candidates))
-
-        progress.set_phase(search_id, "VALIDANDO SITES")
         semaphore = asyncio.Semaphore(SITE_CHECK_CONCURRENCY)
         analyzed = 0
 
@@ -138,9 +97,60 @@ async def run_pipeline(search_id: int, niche: str, city: str, state: str,
             progress.update(search_id, analyzed=analyzed)
             return lead_data
 
-        tasks = [process_one(item) for item in candidates]
-        lead_rows = await asyncio.gather(*tasks)
-        lead_rows = [r for r in lead_rows if r is not None]
+        progress.set_phase(search_id, "BUSCANDO EMPRESAS")
+
+        lead_rows: list[dict] = []
+        duplicates: list[tuple] = []
+        run_ids: list[str] = []
+        total_scraped = 0
+        target = quantity
+        attempts = 0
+        filtered_out_count = 0
+
+        while len(lead_rows) < quantity and attempts < MAX_SEARCH_ATTEMPTS and not _is_cancelled(search_id):
+            attempts += 1
+            raw_places, run_id = await provider.search(niche, city, state, region, target, on_progress)
+            total_scraped += len(raw_places)
+            run_ids.append(run_id)
+
+            new_items, dup_items = split(raw_places)
+            duplicates.extend(dup_items)
+
+            progress.set_phase(search_id, "VALIDANDO SITES")
+            progress.update(search_id, total=len(lead_rows) + len(new_items))
+
+            tasks = [process_one(item) for item in new_items]
+            processed = await asyncio.gather(*tasks)
+            processed = [r for r in processed if r is not None]
+            for r in processed:
+                accumulated_keys.add(r["dedup_key"])
+
+            if no_site_only:
+                kept = [r for r in processed if r["site_status"] in NO_SITE_STATUSES]
+                filtered_out_count += len(processed) - len(kept)
+            else:
+                kept = processed
+
+            lead_rows.extend(kept)
+
+            if _is_cancelled(search_id) or len(lead_rows) >= quantity:
+                break
+
+            reason_to_retry = bool(dup_items) or (no_site_only and len(kept) < len(processed))
+            if not reason_to_retry:
+                break
+
+            deficit = quantity - len(lead_rows)
+            target = min(MAX_LEADS_ABSOLUTE, target + max(deficit * 2, len(dup_items), 10))
+            progress.set_phase(search_id, "BUSCANDO EMPRESAS")
+
+        lead_rows = lead_rows[:quantity]
+        run_id = ",".join(run_ids)
+
+        conn.execute("UPDATE searches SET provider_run_id=? WHERE id=?", (run_id, search_id))
+        conn.commit()
+
+        duplicate_lead_ids = _resolve_existing_lead_ids(conn, duplicates)
 
         if _is_cancelled(search_id):
             _finish_cancelled(search_id)
@@ -181,7 +191,7 @@ async def run_pipeline(search_id: int, niche: str, city: str, state: str,
             )
 
         api_calls = total_scraped
-        estimated_cost = api_calls * APIFY_COST_PER_PLACE + APIFY_COST_START
+        estimated_cost = api_calls * APIFY_COST_PER_PLACE + APIFY_COST_START * attempts
         conn.execute(
             "UPDATE searches SET status='DONE', results_count=?, from_cache_count=?, "
             "estimated_cost_usd=?, duplicate_count=?, duplicate_lead_ids=?, "
@@ -200,7 +210,9 @@ async def run_pipeline(search_id: int, niche: str, city: str, state: str,
 
         logger.info(
             f"Busca {search_id} concluida: {len(lead_ids)} leads novos, "
-            f"{len(duplicate_lead_ids)} duplicados ignorados, custo ~US${estimated_cost:.4f}"
+            f"{len(duplicate_lead_ids)} duplicados ignorados, "
+            f"{filtered_out_count} descartados por ja terem site, "
+            f"{attempts} chamada(s) a apify, custo ~US${estimated_cost:.4f}"
         )
 
     except Exception as e:

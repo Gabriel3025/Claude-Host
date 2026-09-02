@@ -25,6 +25,7 @@ class SearchCreate(BaseModel):
     quantity: int
     confirmed: bool = False
     include_duplicates: bool = False
+    no_site_only: bool = False
 
 
 @router.post("")
@@ -59,6 +60,7 @@ async def create_search(payload: SearchCreate):
         runner.run_pipeline(
             search_id, niche, city, state, payload.region, payload.quantity,
             include_duplicates=payload.include_duplicates,
+            no_site_only=payload.no_site_only,
         )
     )
 
@@ -129,11 +131,51 @@ async def get_search(search_id: int):
 
 
 @router.get("")
-async def list_searches():
+async def list_searches(trash: bool = False):
     conn = db.get_conn()
     cur = conn.cursor()
-    cur.execute("SELECT * FROM searches ORDER BY created_at DESC LIMIT 200")
+    cur.execute(
+        "SELECT * FROM searches WHERE is_deleted=? ORDER BY created_at DESC LIMIT 200",
+        (1 if trash else 0,),
+    )
     return [dict(r) for r in cur.fetchall()]
+
+
+@router.post("/{search_id}/delete")
+async def soft_delete_search(search_id: int):
+    conn = db.get_conn()
+    cur = conn.cursor()
+    cur.execute("SELECT id FROM searches WHERE id=?", (search_id,))
+    if not cur.fetchone():
+        raise HTTPException(404, "Busca nao encontrada.")
+    cur.execute("UPDATE searches SET is_deleted=1 WHERE id=?", (search_id,))
+    conn.commit()
+    return {"ok": True}
+
+
+@router.post("/{search_id}/restore")
+async def restore_search(search_id: int):
+    conn = db.get_conn()
+    cur = conn.cursor()
+    cur.execute("SELECT id FROM searches WHERE id=?", (search_id,))
+    if not cur.fetchone():
+        raise HTTPException(404, "Busca nao encontrada.")
+    cur.execute("UPDATE searches SET is_deleted=0 WHERE id=?", (search_id,))
+    conn.commit()
+    return {"ok": True}
+
+
+@router.delete("/{search_id}")
+async def permanently_delete_search(search_id: int):
+    conn = db.get_conn()
+    cur = conn.cursor()
+    cur.execute("SELECT id FROM searches WHERE id=?", (search_id,))
+    if not cur.fetchone():
+        raise HTTPException(404, "Busca nao encontrada.")
+    cur.execute("DELETE FROM search_leads WHERE search_id=?", (search_id,))
+    cur.execute("DELETE FROM searches WHERE id=?", (search_id,))
+    conn.commit()
+    return {"ok": True}
 
 
 @router.post("/{search_id}/cancel")

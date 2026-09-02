@@ -14,6 +14,7 @@ export function ControlPanel({ onSearchStarted }: Props) {
   const [state, setState] = useState("");
   const [region, setRegion] = useState("");
   const [quantity, setQuantity] = useState(100);
+  const [noSiteOnly, setNoSiteOnly] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [warning, setWarning] = useState<{ type: string; message: string } | null>(null);
   const [loading, setLoading] = useState(false);
@@ -41,6 +42,7 @@ export function ControlPanel({ onSearchStarted }: Props) {
       const result = await api.createSearch({
         niche: niche.trim(), city: city.trim() || undefined, state: state.trim(),
         region: region.trim() || undefined, quantity, confirmed,
+        no_site_only: noSiteOnly,
       });
       if (result.warning) {
         setWarning({ type: result.warning, message: result.message || "Confirmar busca?" });
@@ -130,6 +132,22 @@ export function ControlPanel({ onSearchStarted }: Props) {
 
         <Field label="🎯 Região / Bairro (opcional)">
           <input value={region} onChange={(e) => setRegion(e.target.value)} style={{ width: "100%" }} />
+        </Field>
+
+        <Field label="🌐 Possui site?">
+          <select
+            value={noSiteOnly ? "sem_site" : "tanto_faz"}
+            onChange={(e) => setNoSiteOnly(e.target.value === "sem_site")}
+            style={{ width: "100%" }}
+          >
+            <option value="tanto_faz">Tanto faz</option>
+            <option value="sem_site">Sem site (sem site ou fora do ar)</option>
+          </select>
+          {noSiteOnly && (
+            <div className="text-muted" style={{ marginTop: 6, fontSize: 12 }}>
+              A busca vai priorizar empresas sem website ou com site fora do ar — pode levar um pouco mais de tempo e custar um pouco mais, já que descartamos quem já tem site funcionando.
+            </div>
+          )}
         </Field>
 
         <Field label="🔢 Quantidade de leads">

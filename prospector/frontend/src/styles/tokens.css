@@ -168,6 +168,26 @@ input:focus, select:focus, textarea:focus {
 .stat-card:hover { border-color: var(--text-muted); }
 .stat-card.active { border-color: var(--cyan); background: rgba(0,229,255,0.05); }
 
+.nav-pill {
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.nav-pill:hover { border-color: var(--text-muted); color: var(--text); }
+.nav-pill.active {
+  background: var(--cyan);
+  border-color: var(--cyan);
+  color: #04141a;
+  font-weight: 700;
+  box-shadow: 0 0 14px rgba(0,229,255,0.3);
+}
+
 .checkbox-round {
   appearance: none;
   -webkit-appearance: none;

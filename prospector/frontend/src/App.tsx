@@ -53,12 +53,11 @@ export default function App() {
           {NAV.map((item) => (
             <button
               key={item.key}
-              className={`chip ${page === item.key || (item.key === "leads" && page === "processing") ? "active" : ""}`}
+              className={`nav-pill ${page === item.key || (item.key === "leads" && page === "processing") ? "active" : ""}`}
               onClick={() => {
                 if (item.key === "leads") setActiveSearchId(null);
                 setPage(item.key);
               }}
-              style={{ padding: "8px 14px" }}
             >
               {item.label}
             </button>
@@ -66,7 +65,7 @@ export default function App() {
         </nav>
       </header>
 
-      <main style={{ flex: 1, padding: "28px 24px", maxWidth: 1200, width: "100%", margin: "0 auto" }}>
+      <main style={{ flex: 1, padding: "28px 24px", maxWidth: "min(1900px, 96vw)", width: "100%", margin: "0 auto" }}>
         {errorBanner && (
           <div className="card" style={{ borderColor: "var(--red)", color: "var(--red)", marginBottom: 20 }}>
             {errorBanner}

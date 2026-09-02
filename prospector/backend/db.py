@@ -151,6 +151,8 @@ def _migrate(conn):
         conn.execute("ALTER TABLE searches ADD COLUMN duplicate_lead_ids TEXT DEFAULT '[]'")
     if not _column_exists(conn, "crm_stages", "color"):
         conn.execute("ALTER TABLE crm_stages ADD COLUMN color TEXT")
+    if not _column_exists(conn, "searches", "is_deleted"):
+        conn.execute("ALTER TABLE searches ADD COLUMN is_deleted INTEGER DEFAULT 0")
     conn.execute("CREATE INDEX IF NOT EXISTS idx_leads_crm_stage ON leads(crm_stage_id)")
     conn.commit()
 
