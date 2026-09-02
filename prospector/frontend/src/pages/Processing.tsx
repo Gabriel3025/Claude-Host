@@ -18,6 +18,8 @@ interface Props {
 
 export function Processing({ searchId, onDone, onError }: Props) {
   const [search, setSearch] = useState<Search | null>(null);
+  const [done, setDone] = useState<Search | null>(null);
+  const [includingDup, setIncludingDup] = useState(false);
   const intervalRef = useRef<number | null>(null);
 
   useEffect(() => {
@@ -27,7 +29,11 @@ export function Processing({ searchId, onDone, onError }: Props) {
         setSearch(data);
         if (data.status === "DONE") {
           if (intervalRef.current) window.clearInterval(intervalRef.current);
-          setTimeout(onDone, 400);
+          if (data.duplicate_count > 0) {
+            setDone(data);
+          } else {
+            setTimeout(onDone, 400);
+          }
         } else if (data.status === "ERROR") {
           if (intervalRef.current) window.clearInterval(intervalRef.current);
           onError(data.error || "Erro desconhecido na busca.");
@@ -52,6 +58,39 @@ export function Processing({ searchId, onDone, onError }: Props) {
 
   async function handleCancel() {
     await api.cancelSearch(searchId);
+  }
+
+  async function handleIncludeDuplicates() {
+    setIncludingDup(true);
+    await api.includeDuplicates(searchId);
+    onDone();
+  }
+
+  if (done) {
+    return (
+      <div style={{ maxWidth: 480, margin: "80px auto", textAlign: "center" }}>
+        <div className="mono" style={{ color: "var(--green)", fontSize: 20, marginBottom: 20 }}>
+          BUSCA CONCLUÍDA
+        </div>
+        <div className="card" style={{ textAlign: "left" }}>
+          <p style={{ marginTop: 0 }}>
+            <strong className="mono">{done.results_count}</strong> leads novos coletados.
+          </p>
+          <p>
+            <strong className="mono">{done.duplicate_count}</strong> lead(s) encontrados já estavam na sua lista
+            (de buscas anteriores) e não foram incluídos nesta busca.
+          </p>
+          <div style={{ display: "flex", gap: 10, marginTop: 16, flexWrap: "wrap" }}>
+            <button className="btn" disabled={includingDup} onClick={onDone}>
+              Continuar sem eles
+            </button>
+            <button className="btn btn-primary" disabled={includingDup} onClick={handleIncludeDuplicates}>
+              {includingDup ? "Incluindo..." : `Incluir os ${done.duplicate_count} mesmo assim`}
+            </button>
+          </div>
+        </div>
+      </div>
+    );
   }
 
   return (

@@ -1,6 +1,6 @@
 import asyncio
+import json
 import logging
-from datetime import datetime, timedelta
 
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
@@ -10,7 +10,6 @@ from backend.config import (
     MAX_LEADS_CONFIRM_THRESHOLD,
     MAX_LEADS_ABSOLUTE,
     APIFY_COST_PER_PLACE,
-    CACHE_TTL_DAYS,
 )
 from backend.pipeline import progress, runner
 
@@ -20,22 +19,22 @@ router = APIRouter(prefix="/api/searches", tags=["searches"])
 
 class SearchCreate(BaseModel):
     niche: str
-    city: str
+    city: str | None = None
     state: str
     region: str | None = None
     quantity: int
     confirmed: bool = False
-    reuse: bool = True
+    include_duplicates: bool = False
 
 
 @router.post("")
 async def create_search(payload: SearchCreate):
     niche = payload.niche.strip()
-    city = payload.city.strip()
+    city = (payload.city or "").strip()
     state = payload.state.strip().upper()
 
-    if not niche or not city or not state:
-        raise HTTPException(400, "Nicho, cidade e estado sao obrigatorios.")
+    if not niche or not state:
+        raise HTTPException(400, "Nicho e estado sao obrigatorios.")
     if payload.quantity < 1 or payload.quantity > MAX_LEADS_ABSOLUTE:
         raise HTTPException(400, f"Quantidade deve ser entre 1 e {MAX_LEADS_ABSOLUTE}.")
 
@@ -47,25 +46,6 @@ async def create_search(payload: SearchCreate):
                        f"(~US$ {est_cost:.2f}). Confirmar?",
         }
 
-    if payload.reuse:
-        cutoff = (datetime.utcnow() - timedelta(days=CACHE_TTL_DAYS)).isoformat()
-        conn = db.get_conn()
-        cur = conn.cursor()
-        cur.execute(
-            """SELECT id, created_at, results_count FROM searches
-               WHERE niche=? AND city=? AND state=? AND status='DONE'
-               AND created_at >= ? ORDER BY created_at DESC LIMIT 1""",
-            (niche, city, state, cutoff),
-        )
-        recent = cur.fetchone()
-        if recent:
-            return {
-                "warning": "RECENT_SEARCH_EXISTS",
-                "message": f"Ja existe uma busca igual feita em {recent['created_at'][:10]} "
-                           f"com {recent['results_count']} leads.",
-                "existing_search_id": recent["id"],
-            }
-
     conn = db.get_conn()
     cur = conn.cursor()
     cur.execute(
@@ -76,10 +56,51 @@ async def create_search(payload: SearchCreate):
     search_id = cur.lastrowid
 
     asyncio.create_task(
-        runner.run_pipeline(search_id, niche, city, state, payload.region, payload.quantity)
+        runner.run_pipeline(
+            search_id, niche, city, state, payload.region, payload.quantity,
+            include_duplicates=payload.include_duplicates,
+        )
     )
 
     return {"search_id": search_id}
+
+
+@router.post("/{search_id}/include-duplicates")
+async def include_duplicates_route(search_id: int):
+    conn = db.get_conn()
+    cur = conn.cursor()
+    cur.execute("SELECT duplicate_lead_ids, status FROM searches WHERE id=?", (search_id,))
+    row = cur.fetchone()
+    if not row:
+        raise HTTPException(404, "Busca nao encontrada.")
+    if row["status"] != "DONE":
+        raise HTTPException(400, "Busca ainda nao foi concluida.")
+
+    dup_ids = json.loads(row["duplicate_lead_ids"] or "[]")
+    if not dup_ids:
+        return {"added": 0}
+
+    cur.execute("SELECT COALESCE(MAX(rank), 0) as max_rank FROM search_leads WHERE search_id=?", (search_id,))
+    rank = cur.fetchone()["max_rank"]
+
+    added = 0
+    for lead_id in dup_ids:
+        cur.execute("SELECT 1 FROM search_leads WHERE search_id=? AND lead_id=?", (search_id, lead_id))
+        if cur.fetchone():
+            continue
+        rank += 1
+        cur.execute(
+            "INSERT INTO search_leads (search_id, lead_id, rank) VALUES (?, ?, ?)",
+            (search_id, lead_id, rank),
+        )
+        added += 1
+
+    cur.execute(
+        "UPDATE searches SET results_count = results_count + ?, duplicate_lead_ids='[]' WHERE id=?",
+        (added, search_id),
+    )
+    conn.commit()
+    return {"added": added}
 
 
 @router.get("/{search_id}")

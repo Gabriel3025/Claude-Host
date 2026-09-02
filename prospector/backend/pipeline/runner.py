@@ -1,14 +1,14 @@
 import asyncio
+import json
 import logging
-from datetime import datetime, timedelta
 
 from backend import db
 from backend.config import (
     APIFY_TOKEN,
     APIFY_COST_PER_PLACE,
     APIFY_COST_START,
-    CACHE_TTL_DAYS,
     SITE_CHECK_CONCURRENCY,
+    MAX_LEADS_ABSOLUTE,
 )
 from backend.pipeline import progress
 from backend.pipeline.normalize import normalize_phone, build_dedup_key
@@ -32,7 +32,7 @@ def _is_cancelled(search_id: int) -> bool:
 
 
 async def run_pipeline(search_id: int, niche: str, city: str, state: str,
-                        region: str | None, quantity: int):
+                        region: str | None, quantity: int, include_duplicates: bool = False):
     conn = db.get_conn()
     progress.start(search_id, quantity)
     from_cache_count = 0
@@ -43,60 +43,96 @@ async def run_pipeline(search_id: int, niche: str, city: str, state: str,
         def on_progress(found: int):
             progress.update(search_id, found=found)
 
+        known_place_ids = _get_known_place_ids(conn)
+        known_dedup_keys = _get_known_dedup_keys(conn)
+
+        def split(raw_places):
+            new_list, dup_list, seen = [], [], set()
+            for place in raw_places:
+                if place.permanently_closed:
+                    continue
+                phone_e164, is_mobile = normalize_phone(place.phone_raw)
+                key = place.place_id or build_dedup_key(place.name, phone_e164, place.address)
+                if key in seen:
+                    continue
+                seen.add(key)
+                is_known = (place.place_id and place.place_id in known_place_ids) or \
+                           (not place.place_id and key in known_dedup_keys)
+                item = (place, phone_e164, is_mobile, key)
+                if is_known and not include_duplicates:
+                    dup_list.append(item)
+                else:
+                    new_list.append(item)
+            return new_list, dup_list
+
         progress.set_phase(search_id, "BUSCANDO EMPRESAS")
         raw_places, run_id = await provider.search(niche, city, state, region, quantity, on_progress)
+        total_scraped = len(raw_places)
+        candidates, duplicates = split(raw_places)
+
+        if len(candidates) < quantity and duplicates and not include_duplicates and not _is_cancelled(search_id):
+            topup_target = min(MAX_LEADS_ABSOLUTE, quantity + len(duplicates))
+            logger.info(
+                f"Busca {search_id}: {len(duplicates)} duplicados encontrados, "
+                f"buscando complemento (alvo {topup_target})"
+            )
+            raw_places_2, run_id_2 = await provider.search(
+                niche, city, state, region, topup_target, on_progress
+            )
+            total_scraped += len(raw_places_2)
+            candidates_2, duplicates_2 = split(raw_places_2)
+
+            existing_keys = {c[3] for c in candidates}
+            for c in candidates_2:
+                if c[3] not in existing_keys:
+                    candidates.append(c)
+                    existing_keys.add(c[3])
+
+            dup_keys_seen = {d[3] for d in duplicates}
+            for d in duplicates_2:
+                if d[3] not in dup_keys_seen:
+                    duplicates.append(d)
+                    dup_keys_seen.add(d[3])
+
+            run_id = f"{run_id},{run_id_2}"
+
+        candidates = candidates[:quantity]
+
         conn.execute("UPDATE searches SET provider_run_id=? WHERE id=?", (run_id, search_id))
         conn.commit()
+
+        duplicate_lead_ids = _resolve_existing_lead_ids(conn, duplicates)
 
         if _is_cancelled(search_id):
             _finish_cancelled(search_id)
             return
-
-        progress.set_phase(search_id, "COLETANDO INFORMACOES")
-        candidates = []
-        seen_keys = set()
-        for place in raw_places:
-            if place.permanently_closed:
-                continue
-            phone_e164, is_mobile = normalize_phone(place.phone_raw)
-            dedup_key = place.place_id or build_dedup_key(place.name, phone_e164, place.address)
-            if dedup_key in seen_keys:
-                continue
-            seen_keys.add(dedup_key)
-            candidates.append((place, phone_e164, is_mobile, dedup_key))
 
         progress.update(search_id, total=len(candidates))
 
         progress.set_phase(search_id, "VALIDANDO SITES")
         semaphore = asyncio.Semaphore(SITE_CHECK_CONCURRENCY)
         analyzed = 0
-        results = []
 
         async def process_one(item):
-            nonlocal analyzed, from_cache_count
+            nonlocal analyzed
             if _is_cancelled(search_id):
                 return None
             place, phone_e164, is_mobile, dedup_key = item
-            existing = _get_existing_lead(conn, place.place_id, dedup_key)
 
-            if existing and _is_fresh(existing["last_enriched_at"]):
-                from_cache_count += 1
-                lead_data = dict(existing)
-            else:
-                async with semaphore:
-                    try:
-                        site_result = await check_website(place.website_url)
-                        if site_result.site_status == "SOCIAL_ONLY":
-                            enrichment = enrich_from_social_url(site_result.final_url)
-                        else:
-                            enrichment = enrich_from_html(site_result.html)
-                    except Exception as e:
-                        logger.warning(f"Erro ao processar lead '{place.name}': {e}")
-                        progress.increment_error(search_id)
-                        site_result = None
-                        enrichment = None
+            async with semaphore:
+                try:
+                    site_result = await check_website(place.website_url)
+                    if site_result.site_status == "SOCIAL_ONLY":
+                        enrichment = enrich_from_social_url(site_result.final_url)
+                    else:
+                        enrichment = enrich_from_html(site_result.html)
+                except Exception as e:
+                    logger.warning(f"Erro ao processar lead '{place.name}': {e}")
+                    progress.increment_error(search_id)
+                    site_result = None
+                    enrichment = None
 
-                lead_data = _build_lead_data(place, phone_e164, is_mobile, site_result, enrichment)
+            lead_data = _build_lead_data(place, phone_e164, is_mobile, site_result, enrichment)
 
             analyzed += 1
             progress.update(search_id, analyzed=analyzed)
@@ -144,12 +180,16 @@ async def run_pipeline(search_id: int, niche: str, city: str, state: str,
                 (search_id, lead_id, rank),
             )
 
-        api_calls = len(raw_places)
+        api_calls = total_scraped
         estimated_cost = api_calls * APIFY_COST_PER_PLACE + APIFY_COST_START
         conn.execute(
             "UPDATE searches SET status='DONE', results_count=?, from_cache_count=?, "
-            "estimated_cost_usd=?, finished_at=datetime('now') WHERE id=?",
-            (len(lead_ids), from_cache_count, estimated_cost, search_id),
+            "estimated_cost_usd=?, duplicate_count=?, duplicate_lead_ids=?, "
+            "finished_at=datetime('now') WHERE id=?",
+            (
+                len(lead_ids), from_cache_count, estimated_cost,
+                len(duplicate_lead_ids), json.dumps(duplicate_lead_ids), search_id,
+            ),
         )
         conn.commit()
 
@@ -159,8 +199,8 @@ async def run_pipeline(search_id: int, niche: str, city: str, state: str,
         db.increment_setting("total_estimated_cost_usd", estimated_cost)
 
         logger.info(
-            f"Busca {search_id} concluida: {len(lead_ids)} leads, "
-            f"{from_cache_count} do cache, custo ~US${estimated_cost:.4f}"
+            f"Busca {search_id} concluida: {len(lead_ids)} leads novos, "
+            f"{len(duplicate_lead_ids)} duplicados ignorados, custo ~US${estimated_cost:.4f}"
         )
 
     except Exception as e:
@@ -186,25 +226,32 @@ def _finish_cancelled(search_id: int):
     _cancelled.discard(search_id)
 
 
-def _is_fresh(last_enriched_at: str | None) -> bool:
-    if not last_enriched_at:
-        return False
-    try:
-        dt = datetime.fromisoformat(last_enriched_at)
-    except ValueError:
-        return False
-    return datetime.utcnow() - dt < timedelta(days=CACHE_TTL_DAYS)
+def _get_known_place_ids(conn) -> set[str]:
+    cur = conn.execute("SELECT place_id FROM leads WHERE place_id IS NOT NULL")
+    return {row[0] for row in cur.fetchall()}
 
 
-def _get_existing_lead(conn, place_id, dedup_key):
-    cur = conn.cursor()
-    if place_id:
-        cur.execute("SELECT * FROM leads WHERE place_id=?", (place_id,))
-        row = cur.fetchone()
-        if row:
-            return row
-    cur.execute("SELECT * FROM leads WHERE dedup_key=?", (dedup_key,))
-    return cur.fetchone()
+def _get_known_dedup_keys(conn) -> set[str]:
+    cur = conn.execute("SELECT dedup_key FROM leads WHERE dedup_key IS NOT NULL")
+    return {row[0] for row in cur.fetchall()}
+
+
+def _resolve_existing_lead_ids(conn, duplicate_items) -> list[int]:
+    ids = []
+    seen = set()
+    for place, _phone_e164, _is_mobile, key in duplicate_items:
+        cur = conn.cursor()
+        row = None
+        if place.place_id:
+            cur.execute("SELECT id FROM leads WHERE place_id=?", (place.place_id,))
+            row = cur.fetchone()
+        if not row:
+            cur.execute("SELECT id FROM leads WHERE dedup_key=?", (key,))
+            row = cur.fetchone()
+        if row and row[0] not in seen:
+            seen.add(row[0])
+            ids.append(row[0])
+    return ids
 
 
 def _build_lead_data(place, phone_e164, is_mobile, site_result, enrichment) -> dict:
@@ -268,8 +315,6 @@ def _build_lead_data(place, phone_e164, is_mobile, site_result, enrichment) -> d
 
 
 def _upsert_lead(conn, lead: dict) -> int:
-    import json
-
     cur = conn.cursor()
     cur.execute(
         "SELECT id, crm_status, notes FROM leads WHERE place_id=? OR dedup_key=?",

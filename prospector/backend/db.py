@@ -142,6 +142,12 @@ def _migrate(conn):
         conn.execute("ALTER TABLE leads ADD COLUMN crm_position INTEGER")
     if not _column_exists(conn, "leads", "crm_added_at"):
         conn.execute("ALTER TABLE leads ADD COLUMN crm_added_at TEXT")
+    if not _column_exists(conn, "leads", "crm_card_color"):
+        conn.execute("ALTER TABLE leads ADD COLUMN crm_card_color TEXT")
+    if not _column_exists(conn, "searches", "duplicate_count"):
+        conn.execute("ALTER TABLE searches ADD COLUMN duplicate_count INTEGER DEFAULT 0")
+    if not _column_exists(conn, "searches", "duplicate_lead_ids"):
+        conn.execute("ALTER TABLE searches ADD COLUMN duplicate_lead_ids TEXT DEFAULT '[]'")
     conn.execute("CREATE INDEX IF NOT EXISTS idx_leads_crm_stage ON leads(crm_stage_id)")
     conn.commit()
 

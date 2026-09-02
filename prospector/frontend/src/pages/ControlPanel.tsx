@@ -15,29 +15,25 @@ export function ControlPanel({ onSearchStarted }: Props) {
   const [region, setRegion] = useState("");
   const [quantity, setQuantity] = useState(100);
   const [error, setError] = useState<string | null>(null);
-  const [warning, setWarning] = useState<{ type: string; message: string; existingId?: number } | null>(null);
+  const [warning, setWarning] = useState<{ type: string; message: string } | null>(null);
   const [loading, setLoading] = useState(false);
 
   const estimatedCost = (quantity * 0.004).toFixed(2);
 
-  async function startSearch(confirmed = false, reuse = true) {
+  async function startSearch(confirmed = false) {
     setError(null);
-    if (!niche.trim() || !city.trim() || !state.trim()) {
-      setError("Preencha nicho, cidade e estado.");
+    if (!niche.trim() || !state.trim()) {
+      setError("Preencha nicho e estado.");
       return;
     }
     setLoading(true);
     try {
       const result = await api.createSearch({
-        niche: niche.trim(), city: city.trim(), state: state.trim(),
-        region: region.trim() || undefined, quantity, confirmed, reuse,
+        niche: niche.trim(), city: city.trim() || undefined, state: state.trim(),
+        region: region.trim() || undefined, quantity, confirmed,
       });
       if (result.warning) {
-        setWarning({
-          type: result.warning,
-          message: result.message || "Confirmar busca?",
-          existingId: result.existing_search_id,
-        });
+        setWarning({ type: result.warning, message: result.message || "Confirmar busca?" });
         setLoading(false);
         return;
       }
@@ -69,17 +65,22 @@ export function ControlPanel({ onSearchStarted }: Props) {
         </Field>
 
         <div style={{ display: "flex", gap: 12 }}>
-          <div style={{ flex: 2 }}>
-            <Field label="Cidade">
-              <input value={city} onChange={(e) => setCity(e.target.value)} style={{ width: "100%" }} />
-            </Field>
-          </div>
           <div style={{ flex: 1 }}>
-            <Field label="Estado">
+            <Field label="Estado (obrigatório)">
               <select value={state} onChange={(e) => setState(e.target.value)} style={{ width: "100%" }}>
                 <option value="">UF</option>
                 {UFS.map((uf) => <option key={uf} value={uf}>{uf}</option>)}
               </select>
+            </Field>
+          </div>
+          <div style={{ flex: 2 }}>
+            <Field label="Cidade (opcional)">
+              <input
+                value={city}
+                onChange={(e) => setCity(e.target.value)}
+                style={{ width: "100%" }}
+                placeholder="Deixe em branco para buscar no estado todo"
+              />
             </Field>
           </div>
         </div>
@@ -124,19 +125,8 @@ export function ControlPanel({ onSearchStarted }: Props) {
         <ConfirmModal
           message={warning.message}
           onCancel={() => setWarning(null)}
-          onConfirm={() => { setWarning(null); startSearch(true, true); }}
+          onConfirm={() => { setWarning(null); startSearch(true); }}
           confirmLabel="Confirmar"
-        />
-      )}
-
-      {warning?.type === "RECENT_SEARCH_EXISTS" && (
-        <ConfirmModal
-          message={warning.message}
-          onCancel={() => setWarning(null)}
-          onConfirm={() => { setWarning(null); startSearch(true, false); }}
-          confirmLabel="Buscar novamente"
-          secondaryLabel="Ver resultados salvos"
-          onSecondary={() => warning.existingId && onSearchStarted(warning.existingId)}
         />
       )}
     </div>

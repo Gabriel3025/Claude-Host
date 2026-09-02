@@ -39,6 +39,7 @@ export interface Lead {
   crm_stage_id: number | null;
   crm_position: number | null;
   crm_added_at: string | null;
+  crm_card_color: string | null;
   first_seen_at: string;
   updated_at: string;
 }
@@ -102,6 +103,8 @@ export interface Search {
   results_count: number;
   from_cache_count: number;
   estimated_cost_usd: number;
+  duplicate_count: number;
+  duplicate_lead_ids?: string;
   error: string | null;
   created_at: string;
   finished_at: string | null;

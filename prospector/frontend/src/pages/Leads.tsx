@@ -100,6 +100,12 @@ export function Leads({ searchId }: Props) {
     }
   }
 
+  async function handleSendOneToCrm(leadId: number) {
+    await api.addToCrm([leadId]);
+    const updated = await api.getLead(leadId);
+    setLeads((prev) => prev.map((l) => (l.id === updated.id ? updated : l)));
+  }
+
   const exportParams = {
     search_id: searchId ?? undefined,
     score_class: filters.score_class,
@@ -145,6 +151,7 @@ export function Leads({ searchId }: Props) {
           selectedIds={selectedIds}
           onToggleSelect={toggleSelect}
           onToggleSelectAll={toggleSelectAll}
+          onSendToCrm={handleSendOneToCrm}
         />
       )}
 

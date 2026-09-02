@@ -8,9 +8,10 @@ interface Props {
   selectedIds: Set<number>;
   onToggleSelect: (leadId: number) => void;
   onToggleSelectAll: () => void;
+  onSendToCrm: (leadId: number) => void;
 }
 
-export function LeadTable({ leads, onSelect, selectedIds, onToggleSelect, onToggleSelectAll }: Props) {
+export function LeadTable({ leads, onSelect, selectedIds, onToggleSelect, onToggleSelectAll, onSendToCrm }: Props) {
   if (leads.length === 0) {
     return (
       <div className="card" style={{ textAlign: "center", padding: 40, color: "var(--text-muted)" }}>
@@ -55,7 +56,20 @@ export function LeadTable({ leads, onSelect, selectedIds, onToggleSelect, onTogg
               <td style={{ padding: "12px 16px" }}>
                 <ScoreBadge score={lead.score} scoreClass={lead.score_class} />
               </td>
-              <td style={{ padding: "12px 16px", fontWeight: 500 }}>{lead.name}</td>
+              <td style={{ padding: "12px 16px", fontWeight: 500 }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                  <span>{lead.name}</span>
+                  {lead.crm_stage_id && (
+                    <span
+                      className="chip active"
+                      style={{ fontSize: 10, padding: "2px 8px", whiteSpace: "nowrap" }}
+                      title="Este lead já está no CRM"
+                    >
+                      NO CRM
+                    </span>
+                  )}
+                </div>
+              </td>
               <td style={{ padding: "12px 16px" }} className="mono">
                 {formatPhoneDisplay(lead.phone_e164) || <span className="text-muted">—</span>}
               </td>
@@ -73,9 +87,19 @@ export function LeadTable({ leads, onSelect, selectedIds, onToggleSelect, onTogg
                   </a>
                 )}
                 {lead.google_maps_url && (
-                  <a href={lead.google_maps_url} target="_blank" rel="noreferrer" title="Google Maps">
+                  <a href={lead.google_maps_url} target="_blank" rel="noreferrer" title="Google Maps" style={{ marginRight: 10 }}>
                     Maps
                   </a>
+                )}
+                {!lead.crm_stage_id && (
+                  <button
+                    className="btn"
+                    style={{ padding: "4px 10px", fontSize: 12 }}
+                    onClick={() => onSendToCrm(lead.id)}
+                    title="Enviar este lead para o CRM"
+                  >
+                    + CRM
+                  </button>
                 )}
               </td>
             </tr>

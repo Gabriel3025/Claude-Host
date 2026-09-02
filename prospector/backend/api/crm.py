@@ -239,6 +239,26 @@ async def move_card(lead_id: int, payload: MoveCard):
     return dict(cur.fetchone())
 
 
+class CardColorUpdate(BaseModel):
+    color: str | None = None
+
+
+@router.patch("/cards/{lead_id}/color")
+async def set_card_color(lead_id: int, payload: CardColorUpdate):
+    conn = db.get_conn()
+    cur = conn.cursor()
+    cur.execute("SELECT id FROM leads WHERE id=?", (lead_id,))
+    if not cur.fetchone():
+        raise HTTPException(404, "Lead nao encontrado.")
+    cur.execute(
+        "UPDATE leads SET crm_card_color=?, updated_at=datetime('now') WHERE id=?",
+        (payload.color, lead_id),
+    )
+    conn.commit()
+    cur.execute("SELECT * FROM leads WHERE id=?", (lead_id,))
+    return dict(cur.fetchone())
+
+
 @router.get("/cards/{lead_id}/history")
 async def get_history(lead_id: int):
     conn = db.get_conn()

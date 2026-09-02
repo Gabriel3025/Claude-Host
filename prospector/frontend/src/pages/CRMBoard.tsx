@@ -4,6 +4,7 @@ import type { CrmStage, Lead } from "../types";
 import { ScoreBadge } from "../components/ScoreBadge";
 import { formatPhoneDisplay, waLink } from "../utils";
 import { LeadDrawer } from "../components/LeadDrawer";
+import { ColorPicker } from "../components/ColorPicker";
 
 export function CRMBoard() {
   const [stages, setStages] = useState<CrmStage[]>([]);
@@ -91,6 +92,16 @@ export function CRMBoard() {
     setSelected(updated);
   }
 
+  async function handleColorChange(leadId: number, color: string | null) {
+    setStages((prev) =>
+      prev.map((s) => ({
+        ...s,
+        cards: s.cards?.map((c) => (c.id === leadId ? { ...c, crm_card_color: color } : c)),
+      }))
+    );
+    await api.setCardColor(leadId, color);
+  }
+
   if (loading) return <div>Carregando...</div>;
 
   return (
@@ -149,14 +160,28 @@ export function CRMBoard() {
                   onDragEnd={() => setDraggingLeadId(null)}
                   onClick={() => setSelected(lead)}
                   style={{
-                    background: "var(--surface-2)", border: "1px solid var(--border)",
-                    borderRadius: 5, padding: 10, cursor: "grab",
+                    background: lead.crm_card_color ? `${lead.crm_card_color}1A` : "var(--surface-2)",
+                    borderTop: "1px solid var(--border)",
+                    borderRight: "1px solid var(--border)",
+                    borderBottom: "1px solid var(--border)",
+                    borderLeft: `3px solid ${lead.crm_card_color || "var(--border)"}`,
+                    borderRadius: 5, padding: "10px 12px", cursor: "grab",
                     opacity: draggingLeadId === lead.id ? 0.4 : 1,
                   }}
                 >
-                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 6 }}>
-                    <div style={{ fontWeight: 500, fontSize: 13 }}>{lead.name}</div>
-                    <ScoreBadge score={lead.score} scoreClass={lead.score_class} />
+                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 8, marginBottom: 8 }}>
+                    <div style={{ fontWeight: 500, fontSize: 13, lineHeight: 1.4, minWidth: 0, wordBreak: "break-word" }}>
+                      {lead.name}
+                    </div>
+                    <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-end", gap: 6, flexShrink: 0 }}>
+                      <ScoreBadge score={lead.score} scoreClass={lead.score_class} />
+                      <div onClick={(e) => e.stopPropagation()}>
+                        <ColorPicker
+                          color={lead.crm_card_color}
+                          onChange={(c) => handleColorChange(lead.id, c)}
+                        />
+                      </div>
+                    </div>
                   </div>
                   <div className="mono text-muted" style={{ fontSize: 12 }}>
                     {formatPhoneDisplay(lead.phone_e164) || "—"}

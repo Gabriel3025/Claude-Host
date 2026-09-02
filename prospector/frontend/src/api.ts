@@ -16,19 +16,18 @@ async function request<T>(path: string, options?: RequestInit): Promise<T> {
 
 export interface CreateSearchPayload {
   niche: string;
-  city: string;
+  city?: string;
   state: string;
   region?: string;
   quantity: number;
   confirmed?: boolean;
-  reuse?: boolean;
+  include_duplicates?: boolean;
 }
 
 export interface CreateSearchResult {
   search_id?: number;
   warning?: string;
   message?: string;
-  existing_search_id?: number;
 }
 
 export const api = {
@@ -44,6 +43,9 @@ export const api = {
 
   cancelSearch: (id: number) =>
     request<{ ok: boolean }>(`/searches/${id}/cancel`, { method: "POST" }),
+
+  includeDuplicates: (id: number) =>
+    request<{ added: number }>(`/searches/${id}/include-duplicates`, { method: "POST" }),
 
   listLeads: (params: Record<string, string | number | boolean | undefined>) => {
     const qs = new URLSearchParams();
@@ -100,4 +102,6 @@ export const api = {
       body: JSON.stringify({ stage_id, position }),
     }),
   getLeadHistory: (leadId: number) => request<CrmHistoryEntry[]>(`/crm/cards/${leadId}/history`),
+  setCardColor: (leadId: number, color: string | null) =>
+    request<Lead>(`/crm/cards/${leadId}/color`, { method: "PATCH", body: JSON.stringify({ color }) }),
 };
