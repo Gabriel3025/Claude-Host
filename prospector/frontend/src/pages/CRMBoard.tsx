@@ -12,6 +12,7 @@ export function CRMBoard() {
   const [loading, setLoading] = useState(true);
   const [selected, setSelected] = useState<Lead | null>(null);
   const [draggingLeadId, setDraggingLeadId] = useState<number | null>(null);
+  const [draggingStageId, setDraggingStageId] = useState<number | null>(null);
   const [dragOverStage, setDragOverStage] = useState<number | null>(null);
   const [newColumnName, setNewColumnName] = useState("");
   const [editingStageId, setEditingStageId] = useState<number | null>(null);
@@ -51,6 +52,23 @@ export function CRMBoard() {
     }
   }
 
+  function handleStageReorder(targetStageId: number) {
+    const sourceId = draggingStageId;
+    setDragOverStage(null);
+    setDraggingStageId(null);
+    if (sourceId == null || sourceId === targetStageId) return;
+
+    const fromIdx = stages.findIndex((s) => s.id === sourceId);
+    const toIdx = stages.findIndex((s) => s.id === targetStageId);
+    if (fromIdx === -1 || toIdx === -1) return;
+
+    const arr = [...stages];
+    const [moved] = arr.splice(fromIdx, 1);
+    arr.splice(toIdx, 0, moved);
+    setStages(arr);
+    api.reorderStages(arr.map((s) => s.id)).catch(() => load());
+  }
+
   async function handleAddColumn() {
     const name = newColumnName.trim();
     if (!name) return;
@@ -88,6 +106,11 @@ export function CRMBoard() {
     setSelected(null);
   }
 
+  async function handleQuickRemove(leadId: number) {
+    setStages((prev) => prev.map((s) => ({ ...s, cards: s.cards?.filter((c) => c.id !== leadId) })));
+    await api.removeFromCrm(leadId);
+  }
+
   function handleUpdatedLead(updated: Lead) {
     setStages((prev) =>
       prev.map((s) => ({
@@ -110,7 +133,7 @@ export function CRMBoard() {
             key={stage.id}
             onDragOver={(e) => { e.preventDefault(); setDragOverStage(stage.id); }}
             onDragLeave={() => setDragOverStage((s) => (s === stage.id ? null : s))}
-            onDrop={() => handleDrop(stage.id)}
+            onDrop={() => (draggingStageId != null ? handleStageReorder(stage.id) : handleDrop(stage.id))}
             style={{
               width: 268, flexShrink: 0,
               display: "flex", flexDirection: "column",
@@ -119,9 +142,19 @@ export function CRMBoard() {
               border: `1px solid ${dragOverStage === stage.id ? "var(--cyan)" : "var(--border)"}`,
               borderTop: `3px solid ${stage.color || "var(--border)"}`,
               borderRadius: 6, padding: 10,
+              opacity: draggingStageId === stage.id ? 0.4 : 1,
             }}
           >
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10, gap: 6, flexShrink: 0 }}>
+              <span
+                draggable
+                onDragStart={(e) => { e.stopPropagation(); setDraggingStageId(stage.id); }}
+                onDragEnd={() => setDraggingStageId(null)}
+                title="Clique e arraste para reordenar a coluna"
+                style={{ cursor: "grab", color: "var(--text-muted)", fontSize: 13, flexShrink: 0, userSelect: "none" }}
+              >
+                ⠿
+              </span>
               {editingStageId === stage.id ? (
                 <input
                   autoFocus
@@ -191,12 +224,24 @@ export function CRMBoard() {
                         </a>
                       )}
                     </div>
-                    <span className="hover-tooltip">
-                      <span style={{ fontSize: 13, cursor: "default", opacity: lead.notes ? 1 : 0.35 }}>📝</span>
-                      <span className="tooltip-content">
-                        {lead.notes ? lead.notes : "Sem anotações ainda."}
+                    <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                      <span className="hover-tooltip">
+                        <span style={{ fontSize: 13, cursor: "default", opacity: lead.notes ? 1 : 0.35 }}>📝</span>
+                        <span className="tooltip-content">
+                          {lead.notes ? lead.notes : "Sem anotações ainda."}
+                        </span>
                       </span>
-                    </span>
+                      <button
+                        onClick={() => handleQuickRemove(lead.id)}
+                        title="Remover do CRM"
+                        style={{
+                          background: "none", border: "none", color: "var(--text-muted)",
+                          fontSize: 14, lineHeight: 1, padding: 0, cursor: "pointer",
+                        }}
+                      >
+                        ×
+                      </button>
+                    </div>
                   </div>
                 </div>
               ))}

@@ -171,10 +171,10 @@ input:focus, select:focus, textarea:focus {
 .checkbox-round {
   appearance: none;
   -webkit-appearance: none;
-  width: 11px;
-  height: 11px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  border: 1.25px solid var(--text-muted);
+  border: 1px solid var(--text-muted);
   background: var(--surface-2);
   cursor: pointer;
   display: inline-block;
@@ -186,13 +186,4 @@ input:focus, select:focus, textarea:focus {
 .checkbox-round:checked {
   border-color: var(--green);
   background: var(--green);
-}
-.checkbox-round:checked::after {
-  content: "";
-  position: absolute;
-  top: 50%; left: 50%;
-  width: 3px; height: 3px;
-  border-radius: 50%;
-  background: #06120B;
-  transform: translate(-50%, -50%);
 }
