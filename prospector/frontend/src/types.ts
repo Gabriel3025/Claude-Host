@@ -36,8 +36,32 @@ export interface Lead {
   score_reasons: string;
   crm_status: string;
   notes: string;
+  crm_stage_id: number | null;
+  crm_position: number | null;
+  crm_added_at: string | null;
   first_seen_at: string;
   updated_at: string;
+}
+
+export interface CrmStage {
+  id: number;
+  name: string;
+  position: number;
+  created_at: string;
+  cards?: Lead[];
+}
+
+export interface CrmBoard {
+  stages: CrmStage[];
+}
+
+export interface CrmHistoryEntry {
+  id: number;
+  lead_id: number;
+  event_type: "ADDED_TO_CRM" | "STAGE_CHANGED" | "REMOVED_FROM_CRM";
+  from_stage_name: string | null;
+  to_stage_name: string | null;
+  occurred_at: string;
 }
 
 export interface LeadsResponse {
@@ -98,4 +122,4 @@ export interface Settings {
   cost_per_place_usd: number;
 }
 
-export type Page = "control" | "processing" | "leads" | "history" | "settings";
+export type Page = "control" | "processing" | "leads" | "history" | "settings" | "crm";

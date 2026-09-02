@@ -5,9 +5,12 @@ import { formatPhoneDisplay, waLink, siteStatusLabel } from "../utils";
 interface Props {
   leads: Lead[];
   onSelect: (lead: Lead) => void;
+  selectedIds: Set<number>;
+  onToggleSelect: (leadId: number) => void;
+  onToggleSelectAll: () => void;
 }
 
-export function LeadTable({ leads, onSelect }: Props) {
+export function LeadTable({ leads, onSelect, selectedIds, onToggleSelect, onToggleSelectAll }: Props) {
   if (leads.length === 0) {
     return (
       <div className="card" style={{ textAlign: "center", padding: 40, color: "var(--text-muted)" }}>
@@ -16,11 +19,16 @@ export function LeadTable({ leads, onSelect }: Props) {
     );
   }
 
+  const allSelected = leads.length > 0 && leads.every((l) => selectedIds.has(l.id));
+
   return (
     <div className="card" style={{ padding: 0, overflowX: "auto" }}>
-      <table style={{ width: "100%", borderCollapse: "collapse", minWidth: 760 }}>
+      <table style={{ width: "100%", borderCollapse: "collapse", minWidth: 800 }}>
         <thead>
           <tr style={{ borderBottom: "1px solid var(--border)" }}>
+            <th style={{ padding: "12px 16px", width: 32 }}>
+              <input type="checkbox" checked={allSelected} onChange={onToggleSelectAll} />
+            </th>
             {["SCORE", "EMPRESA", "TELEFONE", "CIDADE/UF", "STATUS SITE", "AVALIAÇÕES", "AÇÃO"].map((h) => (
               <th key={h} className="label-tag" style={{ textAlign: "left", padding: "12px 16px", fontWeight: 500 }}>
                 {h}
@@ -37,6 +45,13 @@ export function LeadTable({ leads, onSelect }: Props) {
               onMouseEnter={(e) => (e.currentTarget.style.background = "var(--surface-2)")}
               onMouseLeave={(e) => (e.currentTarget.style.background = "transparent")}
             >
+              <td style={{ padding: "12px 16px" }} onClick={(e) => e.stopPropagation()}>
+                <input
+                  type="checkbox"
+                  checked={selectedIds.has(lead.id)}
+                  onChange={() => onToggleSelect(lead.id)}
+                />
+              </td>
               <td style={{ padding: "12px 16px" }}>
                 <ScoreBadge score={lead.score} scoreClass={lead.score_class} />
               </td>

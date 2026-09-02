@@ -5,10 +5,12 @@ import { Processing } from "./pages/Processing";
 import { Leads } from "./pages/Leads";
 import { History } from "./pages/History";
 import { Settings } from "./pages/Settings";
+import { CRMBoard } from "./pages/CRMBoard";
 
 const NAV: { key: Page; label: string }[] = [
   { key: "control", label: "Painel" },
   { key: "leads", label: "Leads" },
+  { key: "crm", label: "CRM" },
   { key: "history", label: "Histórico" },
   { key: "settings", label: "Configurações" },
 ];
@@ -76,6 +78,7 @@ export default function App() {
           <Processing searchId={activeSearchId} onDone={handleProcessingDone} onError={handleProcessingError} />
         )}
         {page === "leads" && <Leads searchId={activeSearchId} />}
+        {page === "crm" && <CRMBoard />}
         {page === "history" && <History onOpenSearch={handleOpenHistorySearch} />}
         {page === "settings" && <Settings />}
       </main>

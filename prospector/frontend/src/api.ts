@@ -1,4 +1,4 @@
-import type { Lead, LeadsResponse, Search, Settings } from "./types";
+import type { Lead, LeadsResponse, Search, Settings, CrmStage, CrmBoard, CrmHistoryEntry } from "./types";
 
 const BASE = "/api";
 
@@ -73,4 +73,31 @@ export const api = {
     request<{ ok: boolean }>("/settings", { method: "PUT", body: JSON.stringify({ apify_token }) }),
 
   testToken: () => request<{ ok: boolean; message?: string; username?: string }>("/settings/test-token", { method: "POST" }),
+
+  // CRM
+  listStages: () => request<CrmStage[]>("/crm/stages"),
+  createStage: (name: string) =>
+    request<CrmStage>("/crm/stages", { method: "POST", body: JSON.stringify({ name }) }),
+  updateStage: (id: number, name: string) =>
+    request<CrmStage>(`/crm/stages/${id}`, { method: "PATCH", body: JSON.stringify({ name }) }),
+  reorderStages: (stage_ids: number[]) =>
+    request<{ ok: boolean }>("/crm/stages/reorder", { method: "POST", body: JSON.stringify({ stage_ids }) }),
+  deleteStage: (id: number) =>
+    request<{ ok: boolean }>(`/crm/stages/${id}`, { method: "DELETE" }),
+
+  getBoard: () => request<CrmBoard>("/crm/board"),
+
+  addToCrm: (lead_ids: number[], stage_id?: number) =>
+    request<{ added: number[] }>("/crm/cards", {
+      method: "POST",
+      body: JSON.stringify({ lead_ids, stage_id }),
+    }),
+  removeFromCrm: (leadId: number) =>
+    request<{ ok: boolean }>(`/crm/cards/${leadId}`, { method: "DELETE" }),
+  moveCard: (leadId: number, stage_id: number, position?: number) =>
+    request<Lead>(`/crm/cards/${leadId}`, {
+      method: "PATCH",
+      body: JSON.stringify({ stage_id, position }),
+    }),
+  getLeadHistory: (leadId: number) => request<CrmHistoryEntry[]>(`/crm/cards/${leadId}/history`),
 };

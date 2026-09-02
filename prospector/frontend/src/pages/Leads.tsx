@@ -24,6 +24,8 @@ export function Leads({ searchId }: Props) {
   const [page, setPage] = useState(1);
   const [selected, setSelected] = useState<Lead | null>(null);
   const [loading, setLoading] = useState(false);
+  const [selectedIds, setSelectedIds] = useState<Set<number>>(new Set());
+  const [sending, setSending] = useState(false);
 
   useEffect(() => setPage(1), [filters, searchId]);
 
@@ -57,6 +59,47 @@ export function Leads({ searchId }: Props) {
     setSelected(updated);
   }
 
+  function toggleSelect(leadId: number) {
+    setSelectedIds((prev) => {
+      const next = new Set(prev);
+      if (next.has(leadId)) next.delete(leadId); else next.add(leadId);
+      return next;
+    });
+  }
+
+  function toggleSelectAll() {
+    const allSelected = leads.length > 0 && leads.every((l) => selectedIds.has(l.id));
+    setSelectedIds((prev) => {
+      const next = new Set(prev);
+      if (allSelected) {
+        leads.forEach((l) => next.delete(l.id));
+      } else {
+        leads.forEach((l) => next.add(l.id));
+      }
+      return next;
+    });
+  }
+
+  async function handleSendToCrm() {
+    if (selectedIds.size === 0) return;
+    setSending(true);
+    try {
+      await api.addToCrm(Array.from(selectedIds));
+      setSelectedIds(new Set());
+      const res = await api.listLeads({
+        search_id: searchId ?? undefined, score_class: filters.score_class,
+        site_status: filters.site_status, has_phone: filters.has_phone || undefined,
+        has_whatsapp: filters.has_whatsapp || undefined, city: filters.city, state: filters.state,
+        crm_status: filters.crm_status, q: filters.q, sort: filters.sort, order: filters.order,
+        page, page_size: PAGE_SIZE,
+      });
+      setLeads(res.items);
+      setStats(res.stats);
+    } finally {
+      setSending(false);
+    }
+  }
+
   const exportParams = {
     search_id: searchId ?? undefined,
     score_class: filters.score_class,
@@ -78,9 +121,16 @@ export function Leads({ searchId }: Props) {
       <StatsCards stats={stats} />
       <FilterBar filters={filters} onChange={setFilters} />
 
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12 }}>
-        <div className="text-muted" style={{ fontSize: 13 }}>{total} lead(s)</div>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12, flexWrap: "wrap", gap: 10 }}>
+        <div className="text-muted" style={{ fontSize: 13 }}>
+          {total} lead(s){selectedIds.size > 0 && ` · ${selectedIds.size} selecionado(s)`}
+        </div>
         <div style={{ display: "flex", gap: 10 }}>
+          {selectedIds.size > 0 && (
+            <button className="btn btn-primary" disabled={sending} onClick={handleSendToCrm}>
+              {sending ? "Enviando..." : `Enviar ${selectedIds.size} para CRM`}
+            </button>
+          )}
           <a className="btn" href={api.exportUrl(exportParams, "csv")}>EXPORTAR CSV</a>
           <a className="btn" href={api.exportUrl(exportParams, "xlsx")}>EXPORTAR XLSX</a>
         </div>
@@ -89,7 +139,13 @@ export function Leads({ searchId }: Props) {
       {loading ? (
         <div className="card" style={{ textAlign: "center", padding: 40 }}>Carregando...</div>
       ) : (
-        <LeadTable leads={leads} onSelect={setSelected} />
+        <LeadTable
+          leads={leads}
+          onSelect={setSelected}
+          selectedIds={selectedIds}
+          onToggleSelect={toggleSelect}
+          onToggleSelectAll={toggleSelectAll}
+        />
       )}
 
       {totalPages > 1 && (

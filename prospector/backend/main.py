@@ -7,7 +7,7 @@ from fastapi.staticfiles import StaticFiles
 
 from backend.config import LOG_PATH, ROOT_DIR
 from backend import db
-from backend.api import searches, leads, export, settings as settings_api
+from backend.api import searches, leads, export, settings as settings_api, crm
 
 logging.basicConfig(
     level=logging.INFO,
@@ -39,6 +39,7 @@ app.include_router(searches.router)
 app.include_router(leads.router)
 app.include_router(export.router)
 app.include_router(settings_api.router)
+app.include_router(crm.router)
 
 FRONTEND_DIST = ROOT_DIR / "frontend" / "dist"
 if FRONTEND_DIST.exists():

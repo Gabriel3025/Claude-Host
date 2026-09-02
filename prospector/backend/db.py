@@ -79,10 +79,32 @@ CREATE TABLE IF NOT EXISTS app_settings (
     value TEXT
 );
 
+CREATE TABLE IF NOT EXISTS crm_stages (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    position INTEGER NOT NULL,
+    created_at TEXT DEFAULT (datetime('now'))
+);
+
+CREATE TABLE IF NOT EXISTS crm_history (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    lead_id INTEGER REFERENCES leads(id),
+    event_type TEXT NOT NULL,
+    from_stage_name TEXT,
+    to_stage_name TEXT,
+    occurred_at TEXT DEFAULT (datetime('now'))
+);
+
 CREATE INDEX IF NOT EXISTS idx_leads_score ON leads(score DESC);
 CREATE INDEX IF NOT EXISTS idx_leads_city ON leads(city, state);
 CREATE INDEX IF NOT EXISTS idx_leads_crm ON leads(crm_status);
+CREATE INDEX IF NOT EXISTS idx_crm_history_lead ON crm_history(lead_id);
 """
+
+DEFAULT_STAGES = [
+    "A FAZER", "EM CONTATO", "REUNIAO AGENDADA", "ENVIAR PROPOSTA",
+    "EM FECHAMENTO", "FECHADO",
+]
 
 
 def get_conn() -> sqlite3.Connection:
@@ -108,10 +130,35 @@ def db_cursor(commit: bool = False):
         cur.close()
 
 
+def _column_exists(conn, table: str, column: str) -> bool:
+    cur = conn.execute(f"PRAGMA table_info({table})")
+    return any(row[1] == column for row in cur.fetchall())
+
+
+def _migrate(conn):
+    if not _column_exists(conn, "leads", "crm_stage_id"):
+        conn.execute("ALTER TABLE leads ADD COLUMN crm_stage_id INTEGER")
+    if not _column_exists(conn, "leads", "crm_position"):
+        conn.execute("ALTER TABLE leads ADD COLUMN crm_position INTEGER")
+    if not _column_exists(conn, "leads", "crm_added_at"):
+        conn.execute("ALTER TABLE leads ADD COLUMN crm_added_at TEXT")
+    conn.execute("CREATE INDEX IF NOT EXISTS idx_leads_crm_stage ON leads(crm_stage_id)")
+    conn.commit()
+
+    cur = conn.execute("SELECT COUNT(*) FROM crm_stages")
+    if cur.fetchone()[0] == 0:
+        for i, name in enumerate(DEFAULT_STAGES):
+            conn.execute(
+                "INSERT INTO crm_stages (name, position) VALUES (?, ?)", (name, i)
+            )
+        conn.commit()
+
+
 def init_db():
     conn = get_conn()
     conn.executescript(SCHEMA)
     conn.commit()
+    _migrate(conn)
     # Reset any RUNNING search left orphaned by a previous crash/restart
     conn.execute(
         "UPDATE searches SET status='ERROR', error='Interrompida por reinicio do servidor' "

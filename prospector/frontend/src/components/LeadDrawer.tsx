@@ -1,30 +1,34 @@
 import { useEffect, useRef, useState } from "react";
-import type { Lead } from "../types";
+import type { CrmHistoryEntry, CrmStage, Lead } from "../types";
 import { api } from "../api";
 import { ScoreBadge } from "./ScoreBadge";
 import { formatPhoneDisplay, telLink, waLink, siteStatusLabel } from "../utils";
-
-const CRM_STATUSES = [
-  "NOVO", "LIGAR", "TENTATIVA 1", "TENTATIVA 2", "CONTATO REALIZADO",
-  "INTERESSADO", "PROPOSTA", "CLIENTE", "SEM INTERESSE",
-];
 
 interface Props {
   lead: Lead;
   onClose: () => void;
   onUpdated: (lead: Lead) => void;
+  onRemoveFromCrm?: () => void;
 }
 
-export function LeadDrawer({ lead, onClose, onUpdated }: Props) {
+const EVENT_LABELS: Record<string, (h: CrmHistoryEntry) => string> = {
+  ADDED_TO_CRM: (h) => `Adicionado ao CRM — etapa "${h.to_stage_name}"`,
+  STAGE_CHANGED: (h) => `Movido de "${h.from_stage_name}" para "${h.to_stage_name}"`,
+  REMOVED_FROM_CRM: (h) => `Removido do CRM (estava em "${h.from_stage_name}")`,
+};
+
+export function LeadDrawer({ lead, onClose, onUpdated, onRemoveFromCrm }: Props) {
   const [notes, setNotes] = useState(lead.notes || "");
   const [saved, setSaved] = useState(true);
-  const [crmStatus, setCrmStatus] = useState(lead.crm_status);
+  const [stages, setStages] = useState<CrmStage[]>([]);
+  const [history, setHistory] = useState<CrmHistoryEntry[]>([]);
   const debounceRef = useRef<number | null>(null);
 
   useEffect(() => {
     setNotes(lead.notes || "");
-    setCrmStatus(lead.crm_status);
     setSaved(true);
+    api.listStages().then(setStages);
+    api.getLeadHistory(lead.id).then(setHistory);
   }, [lead.id]);
 
   const reasons: string[] = safeParseJson(lead.score_reasons);
@@ -41,10 +45,32 @@ export function LeadDrawer({ lead, onClose, onUpdated }: Props) {
     }, 1000);
   }
 
-  async function handleStatusChange(value: string) {
-    setCrmStatus(value);
-    const updated = await api.updateLead(lead.id, { crm_status: value });
+  async function refreshHistory() {
+    api.getLeadHistory(lead.id).then(setHistory);
+  }
+
+  async function handleAddToCrm() {
+    await api.addToCrm([lead.id]);
+    const updated = await api.getLead(lead.id);
     onUpdated(updated);
+    refreshHistory();
+  }
+
+  async function handleMoveStage(stageId: number) {
+    const updated = await api.moveCard(lead.id, stageId);
+    onUpdated(updated);
+    refreshHistory();
+  }
+
+  async function handleRemove() {
+    if (onRemoveFromCrm) {
+      onRemoveFromCrm();
+      return;
+    }
+    await api.removeFromCrm(lead.id);
+    const updated = await api.getLead(lead.id);
+    onUpdated(updated);
+    refreshHistory();
   }
 
   return (
@@ -102,10 +128,31 @@ export function LeadDrawer({ lead, onClose, onUpdated }: Props) {
           )}
         </Section>
 
-        <Section title="FUNIL">
-          <select value={crmStatus} onChange={(e) => handleStatusChange(e.target.value)} style={{ width: "100%" }}>
-            {CRM_STATUSES.map((s) => <option key={s} value={s}>{s}</option>)}
-          </select>
+        <Section title="CRM">
+          {lead.crm_stage_id ? (
+            <>
+              <div style={{ marginBottom: 8 }}>
+                <label style={{ display: "block", fontSize: 12, color: "var(--text-muted)", marginBottom: 4 }}>
+                  Etapa atual
+                </label>
+                <select
+                  value={lead.crm_stage_id}
+                  onChange={(e) => handleMoveStage(Number(e.target.value))}
+                  style={{ width: "100%" }}
+                >
+                  {stages.map((s) => <option key={s.id} value={s.id}>{s.name}</option>)}
+                </select>
+              </div>
+              {lead.crm_added_at && (
+                <div className="text-muted" style={{ fontSize: 12, marginBottom: 8 }}>
+                  No CRM desde {lead.crm_added_at}
+                </div>
+              )}
+              <button className="btn" onClick={handleRemove}>Remover do CRM</button>
+            </>
+          ) : (
+            <button className="btn btn-primary" onClick={handleAddToCrm}>Adicionar ao CRM</button>
+          )}
         </Section>
 
         <Section title="NOTAS">
@@ -120,7 +167,32 @@ export function LeadDrawer({ lead, onClose, onUpdated }: Props) {
             {saved ? "salvo ✓" : "salvando..."}
           </div>
         </Section>
+
+        <Section title="HISTÓRICO">
+          <Timeline lead={lead} history={history} />
+        </Section>
       </div>
+    </div>
+  );
+}
+
+function Timeline({ lead, history }: { lead: Lead; history: CrmHistoryEntry[] }) {
+  const entries: { at: string; label: string }[] = [
+    { at: lead.first_seen_at, label: "Lead coletado na busca" },
+    ...history.map((h) => ({
+      at: h.occurred_at,
+      label: (EVENT_LABELS[h.event_type] || (() => h.event_type))(h),
+    })),
+  ].sort((a, b) => a.at.localeCompare(b.at));
+
+  return (
+    <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+      {entries.map((e, i) => (
+        <div key={i} style={{ display: "flex", gap: 10, fontSize: 13 }}>
+          <span className="mono text-muted" style={{ whiteSpace: "nowrap", fontSize: 11 }}>{e.at}</span>
+          <span>{e.label}</span>
+        </div>
+      ))}
     </div>
   );
 }
