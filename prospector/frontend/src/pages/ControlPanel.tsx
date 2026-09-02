@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { api } from "../api";
 import { NICHE_SUGGESTIONS, UFS } from "../utils";
 
@@ -17,6 +17,16 @@ export function ControlPanel({ onSearchStarted }: Props) {
   const [error, setError] = useState<string | null>(null);
   const [warning, setWarning] = useState<{ type: string; message: string } | null>(null);
   const [loading, setLoading] = useState(false);
+  const [nicheDropdownOpen, setNicheDropdownOpen] = useState(false);
+  const nicheRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function onClickOutside(e: MouseEvent) {
+      if (nicheRef.current && !nicheRef.current.contains(e.target as Node)) setNicheDropdownOpen(false);
+    }
+    if (nicheDropdownOpen) document.addEventListener("mousedown", onClickOutside);
+    return () => document.removeEventListener("mousedown", onClickOutside);
+  }, [nicheDropdownOpen]);
 
   const estimatedCost = (quantity * 0.004).toFixed(2);
 
@@ -56,15 +66,45 @@ export function ControlPanel({ onSearchStarted }: Props) {
       </div>
       <div className="card">
         <Field label="🏷️ Segmento / Nicho">
-          <input
-            list="niche-suggestions"
-            value={niche}
-            onChange={(e) => setNiche(e.target.value)}
-            style={{ width: "100%" }}
-          />
-          <datalist id="niche-suggestions">
-            {NICHE_SUGGESTIONS.map((n) => <option key={n} value={n} />)}
-          </datalist>
+          <div ref={nicheRef} style={{ position: "relative" }}>
+            <input
+              value={niche}
+              onChange={(e) => setNiche(e.target.value)}
+              onFocus={() => setNicheDropdownOpen(true)}
+              style={{ width: "100%" }}
+              autoComplete="off"
+              placeholder="Ex: Escritório de Advocacia"
+            />
+            {nicheDropdownOpen && (
+              <div
+                style={{
+                  position: "absolute", top: "calc(100% + 4px)", left: 0, right: 0, zIndex: 50,
+                  background: "var(--surface)", border: "1px solid var(--border)",
+                  borderRadius: 6, boxShadow: "0 8px 24px rgba(0,0,0,0.45)",
+                  maxHeight: 220, overflowY: "auto",
+                }}
+              >
+                {NICHE_SUGGESTIONS
+                  .filter((n) => n.toLowerCase().includes(niche.trim().toLowerCase()))
+                  .map((n) => (
+                    <div
+                      key={n}
+                      onClick={() => { setNiche(n); setNicheDropdownOpen(false); }}
+                      style={{ padding: "9px 12px", cursor: "pointer", fontSize: 13 }}
+                      onMouseEnter={(e) => (e.currentTarget.style.background = "var(--surface-2)")}
+                      onMouseLeave={(e) => (e.currentTarget.style.background = "transparent")}
+                    >
+                      {n}
+                    </div>
+                  ))}
+                {NICHE_SUGGESTIONS.filter((n) => n.toLowerCase().includes(niche.trim().toLowerCase())).length === 0 && (
+                  <div className="text-muted" style={{ padding: "9px 12px", fontSize: 12 }}>
+                    Nenhuma sugestão — use o texto digitado livremente.
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
         </Field>
 
         <div style={{ display: "flex", gap: 12 }}>

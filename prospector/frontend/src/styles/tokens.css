@@ -171,8 +171,14 @@ input:focus, select:focus, textarea:focus {
 .checkbox-round {
   appearance: none;
   -webkit-appearance: none;
+  -moz-appearance: none;
+  box-sizing: border-box;
   width: 8px;
   height: 8px;
+  min-width: 8px;
+  min-height: 8px;
+  max-width: 8px;
+  max-height: 8px;
   border-radius: 50%;
   border: 1px solid var(--text-muted);
   background: var(--surface-2);
@@ -181,6 +187,8 @@ input:focus, select:focus, textarea:focus {
   position: relative;
   flex-shrink: 0;
   margin: 0;
+  padding: 0;
+  outline: none;
   vertical-align: middle;
 }
 .checkbox-round:checked {
