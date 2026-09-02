@@ -24,10 +24,20 @@ export function LeadTable({ leads, onSelect, selectedIds, onToggleSelect, onTogg
 
   return (
     <div className="card" style={{ padding: 0, overflowX: "auto" }}>
-      <table style={{ width: "100%", borderCollapse: "collapse", minWidth: 800 }}>
+      <table style={{ width: "100%", borderCollapse: "collapse", minWidth: 880, tableLayout: "fixed" }}>
+        <colgroup>
+          <col style={{ width: 32 }} />
+          <col style={{ width: 90 }} />
+          <col style={{ width: "22%" }} />
+          <col style={{ width: 130 }} />
+          <col style={{ width: "16%" }} />
+          <col style={{ width: 110 }} />
+          <col style={{ width: 140 }} />
+          <col style={{ width: 190 }} />
+        </colgroup>
         <thead>
           <tr style={{ borderBottom: "1px solid var(--border)" }}>
-            <th style={{ padding: "12px 16px", width: 32 }}>
+            <th style={{ padding: "12px 16px" }}>
               <input type="checkbox" checked={allSelected} onChange={onToggleSelectAll} />
             </th>
             {["SCORE", "EMPRESA", "TELEFONE", "CIDADE/UF", "STATUS SITE", "AVALIAÇÕES", "AÇÃO"].map((h) => (
@@ -57,50 +67,54 @@ export function LeadTable({ leads, onSelect, selectedIds, onToggleSelect, onTogg
                 <ScoreBadge score={lead.score} scoreClass={lead.score_class} />
               </td>
               <td style={{ padding: "12px 16px", fontWeight: 500 }}>
-                <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                  <span>{lead.name}</span>
-                  {lead.crm_stage_id && (
+                <div style={{ display: "flex", alignItems: "center", gap: 8, minWidth: 0 }}>
+                  <span className="truncate" title={lead.name} style={{ minWidth: 0 }}>{lead.name}</span>
+                  {lead.crm_stage_id ? (
                     <span
                       className="chip active"
-                      style={{ fontSize: 10, padding: "2px 8px", whiteSpace: "nowrap" }}
+                      style={{ fontSize: 10, padding: "2px 8px", whiteSpace: "nowrap", flexShrink: 0 }}
                       title="Este lead já está no CRM"
                     >
-                      NO CRM
+                      ✅ NO CRM
                     </span>
-                  )}
+                  ) : null}
                 </div>
               </td>
-              <td style={{ padding: "12px 16px" }} className="mono">
+              <td style={{ padding: "12px 16px" }} className="mono truncate" title={formatPhoneDisplay(lead.phone_e164) || ""}>
                 {formatPhoneDisplay(lead.phone_e164) || <span className="text-muted">—</span>}
               </td>
-              <td style={{ padding: "12px 16px" }}>
+              <td style={{ padding: "12px 16px" }} className="truncate" title={lead.city ? `${lead.city}/${lead.state || ""}` : ""}>
                 {lead.city ? `${lead.city}/${lead.state || ""}` : <span className="text-muted">—</span>}
               </td>
-              <td style={{ padding: "12px 16px" }}>{siteStatusLabel(lead.site_status)}</td>
-              <td style={{ padding: "12px 16px" }} className="mono">
+              <td style={{ padding: "12px 16px" }} className="truncate">{siteStatusLabel(lead.site_status)}</td>
+              <td style={{ padding: "12px 16px" }} className="mono truncate">
                 {lead.rating ? `${lead.rating.toFixed(1)} ★ (${lead.reviews_count})` : <span className="text-muted">—</span>}
               </td>
-              <td style={{ padding: "12px 16px", whiteSpace: "nowrap" }} onClick={(e) => e.stopPropagation()}>
-                {waLink(lead) && (
-                  <a href={waLink(lead)!} target="_blank" rel="noreferrer" title="WhatsApp" style={{ marginRight: 10 }}>
-                    WhatsApp
-                  </a>
-                )}
-                {lead.google_maps_url && (
-                  <a href={lead.google_maps_url} target="_blank" rel="noreferrer" title="Google Maps" style={{ marginRight: 10 }}>
-                    Maps
-                  </a>
-                )}
-                {!lead.crm_stage_id && (
-                  <button
-                    className="btn"
-                    style={{ padding: "4px 10px", fontSize: 12 }}
-                    onClick={() => onSendToCrm(lead.id)}
-                    title="Enviar este lead para o CRM"
-                  >
-                    + CRM
-                  </button>
-                )}
+              <td style={{ padding: "12px 16px" }} onClick={(e) => e.stopPropagation()}>
+                <div style={{ display: "flex", alignItems: "center" }}>
+                  <div style={{ width: 78, flexShrink: 0 }}>
+                    {waLink(lead) && (
+                      <a href={waLink(lead)!} target="_blank" rel="noreferrer" title="WhatsApp">💬 WhatsApp</a>
+                    )}
+                  </div>
+                  <div style={{ width: 52, flexShrink: 0 }}>
+                    {lead.google_maps_url && (
+                      <a href={lead.google_maps_url} target="_blank" rel="noreferrer" title="Google Maps">📍 Maps</a>
+                    )}
+                  </div>
+                  <div style={{ width: 60, flexShrink: 0 }}>
+                    {!lead.crm_stage_id && (
+                      <button
+                        className="btn"
+                        style={{ padding: "4px 10px", fontSize: 12 }}
+                        onClick={() => onSendToCrm(lead.id)}
+                        title="Enviar este lead para o CRM"
+                      >
+                        + CRM
+                      </button>
+                    )}
+                  </div>
+                </div>
               </td>
             </tr>
           ))}

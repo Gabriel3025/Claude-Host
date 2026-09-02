@@ -22,7 +22,7 @@ export function History({ onOpenSearch }: Props) {
 
   return (
     <div>
-      <div className="label-tag" style={{ marginBottom: 16, fontSize: 14 }}>[ HISTORICO ]</div>
+      <div className="label-tag" style={{ marginBottom: 16, fontSize: 14 }}>🕒 [ HISTORICO ]</div>
 
       {searches.length === 0 ? (
         <div className="card" style={{ textAlign: "center", padding: 40, color: "var(--text-muted)" }}>

@@ -39,7 +39,6 @@ export interface Lead {
   crm_stage_id: number | null;
   crm_position: number | null;
   crm_added_at: string | null;
-  crm_card_color: string | null;
   first_seen_at: string;
   updated_at: string;
 }
@@ -48,6 +47,7 @@ export interface CrmStage {
   id: number;
   name: string;
   position: number;
+  color: string | null;
   created_at: string;
   cards?: Lead[];
 }

@@ -37,7 +37,7 @@ export function Settings() {
 
   return (
     <div style={{ maxWidth: 640 }}>
-      <div className="label-tag" style={{ marginBottom: 16, fontSize: 14 }}>[ CONFIGURACOES ]</div>
+      <div className="label-tag" style={{ marginBottom: 16, fontSize: 14 }}>⚙️ [ CONFIGURACOES ]</div>
 
       <div className="card" style={{ marginBottom: 16 }}>
         <div className="label-tag" style={{ marginBottom: 12 }}>PROVEDOR</div>

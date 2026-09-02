@@ -18,6 +18,7 @@ async def list_stages():
 
 class StageCreate(BaseModel):
     name: str
+    color: str | None = None
 
 
 @router.post("/stages")
@@ -29,7 +30,10 @@ async def create_stage(payload: StageCreate):
     cur = conn.cursor()
     cur.execute("SELECT COALESCE(MAX(position), -1) + 1 as next_pos FROM crm_stages")
     next_pos = cur.fetchone()["next_pos"]
-    cur.execute("INSERT INTO crm_stages (name, position) VALUES (?, ?)", (name, next_pos))
+    cur.execute(
+        "INSERT INTO crm_stages (name, position, color) VALUES (?, ?, ?)",
+        (name, next_pos, payload.color),
+    )
     conn.commit()
     cur.execute("SELECT * FROM crm_stages WHERE id=?", (cur.lastrowid,))
     return dict(cur.fetchone())
@@ -37,6 +41,7 @@ async def create_stage(payload: StageCreate):
 
 class StageUpdate(BaseModel):
     name: str | None = None
+    color: str | None = "__unset__"
 
 
 @router.patch("/stages/{stage_id}")
@@ -51,6 +56,9 @@ async def update_stage(stage_id: int, payload: StageUpdate):
         if not name:
             raise HTTPException(400, "Nome da coluna nao pode ser vazio.")
         cur.execute("UPDATE crm_stages SET name=? WHERE id=?", (name, stage_id))
+        conn.commit()
+    if payload.color != "__unset__":
+        cur.execute("UPDATE crm_stages SET color=? WHERE id=?", (payload.color, stage_id))
         conn.commit()
     cur.execute("SELECT * FROM crm_stages WHERE id=?", (stage_id,))
     return dict(cur.fetchone())
@@ -234,26 +242,6 @@ async def move_card(lead_id: int, payload: MoveCard):
             (lead_id, old_stage_name, new_stage["name"]),
         )
 
-    conn.commit()
-    cur.execute("SELECT * FROM leads WHERE id=?", (lead_id,))
-    return dict(cur.fetchone())
-
-
-class CardColorUpdate(BaseModel):
-    color: str | None = None
-
-
-@router.patch("/cards/{lead_id}/color")
-async def set_card_color(lead_id: int, payload: CardColorUpdate):
-    conn = db.get_conn()
-    cur = conn.cursor()
-    cur.execute("SELECT id FROM leads WHERE id=?", (lead_id,))
-    if not cur.fetchone():
-        raise HTTPException(404, "Lead nao encontrado.")
-    cur.execute(
-        "UPDATE leads SET crm_card_color=?, updated_at=datetime('now') WHERE id=?",
-        (payload.color, lead_id),
-    )
     conn.commit()
     cur.execute("SELECT * FROM leads WHERE id=?", (lead_id,))
     return dict(cur.fetchone())

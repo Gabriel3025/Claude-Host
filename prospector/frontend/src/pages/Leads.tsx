@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { api } from "../api";
 import type { Lead, Stats } from "../types";
 import { StatsCards } from "../components/StatsCards";
+import type { StatFilterKey } from "../components/StatsCards";
 import { FilterBar } from "../components/FilterBar";
 import type { Filters } from "../components/FilterBar";
 import { LeadTable } from "../components/LeadTable";
@@ -100,6 +101,27 @@ export function Leads({ searchId }: Props) {
     }
   }
 
+  const activeStatFilter: StatFilterKey =
+    filters.score_class === "A" ? "score_a"
+    : filters.site_status === "sem_site" ? "no_website"
+    : filters.site_status === "fora_do_ar" ? "site_down"
+    : filters.has_phone ? "with_phone"
+    : null;
+
+  function handleStatFilterClick(key: StatFilterKey) {
+    setFilters((prev) => {
+      const next: Filters = {
+        ...prev,
+        score_class: undefined, site_status: undefined, has_phone: false,
+      };
+      if (key === "score_a") next.score_class = "A";
+      else if (key === "no_website") next.site_status = "sem_site";
+      else if (key === "site_down") next.site_status = "fora_do_ar";
+      else if (key === "with_phone") next.has_phone = true;
+      return next;
+    });
+  }
+
   async function handleSendOneToCrm(leadId: number) {
     await api.addToCrm([leadId]);
     const updated = await api.getLead(leadId);
@@ -122,9 +144,9 @@ export function Leads({ searchId }: Props) {
 
   return (
     <div>
-      <div className="label-tag" style={{ marginBottom: 16, fontSize: 14 }}>[ LEADS_QUALIFICADOS ]</div>
+      <div className="label-tag" style={{ marginBottom: 16, fontSize: 14 }}>🎯 [ LEADS_QUALIFICADOS ]</div>
 
-      <StatsCards stats={stats} />
+      <StatsCards stats={stats} activeFilter={activeStatFilter} onFilterClick={handleStatFilterClick} />
       <FilterBar filters={filters} onChange={setFilters} />
 
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12, flexWrap: "wrap", gap: 10 }}>

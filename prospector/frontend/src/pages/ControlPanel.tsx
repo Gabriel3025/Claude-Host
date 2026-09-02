@@ -48,11 +48,14 @@ export function ControlPanel({ onSearchStarted }: Props) {
 
   return (
     <div style={{ maxWidth: 640, margin: "40px auto" }}>
-      <div className="label-tag" style={{ textAlign: "center", marginBottom: 8, fontSize: 14 }}>
-        [ CONTROL_PANEL ]
+      <div className="label-tag" style={{ textAlign: "center", marginBottom: 4, fontSize: 14 }}>
+        🛰️ [ CONTROL_PANEL ]
+      </div>
+      <div className="text-muted" style={{ textAlign: "center", marginBottom: 20, fontSize: 12 }}>
+        Configure a busca e encontre suas próximas oportunidades
       </div>
       <div className="card">
-        <Field label="Segmento / Nicho">
+        <Field label="🏷️ Segmento / Nicho">
           <input
             list="niche-suggestions"
             value={niche}
@@ -66,7 +69,7 @@ export function ControlPanel({ onSearchStarted }: Props) {
 
         <div style={{ display: "flex", gap: 12 }}>
           <div style={{ flex: 1 }}>
-            <Field label="Estado (obrigatório)">
+            <Field label="📍 Estado (obrigatório)">
               <select value={state} onChange={(e) => setState(e.target.value)} style={{ width: "100%" }}>
                 <option value="">UF</option>
                 {UFS.map((uf) => <option key={uf} value={uf}>{uf}</option>)}
@@ -74,7 +77,7 @@ export function ControlPanel({ onSearchStarted }: Props) {
             </Field>
           </div>
           <div style={{ flex: 2 }}>
-            <Field label="Cidade (opcional)">
+            <Field label="🏙️ Cidade (opcional)">
               <input
                 value={city}
                 onChange={(e) => setCity(e.target.value)}
@@ -85,11 +88,11 @@ export function ControlPanel({ onSearchStarted }: Props) {
           </div>
         </div>
 
-        <Field label="Região / Bairro (opcional)">
+        <Field label="🎯 Região / Bairro (opcional)">
           <input value={region} onChange={(e) => setRegion(e.target.value)} style={{ width: "100%" }} />
         </Field>
 
-        <Field label="Quantidade de leads">
+        <Field label="🔢 Quantidade de leads">
           <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
             <input
               type="range" min={1} max={1000} value={quantity}
@@ -110,14 +113,14 @@ export function ControlPanel({ onSearchStarted }: Props) {
             ))}
           </div>
           <div className="text-muted mono" style={{ marginTop: 8, fontSize: 12 }}>
-            ~US$ {estimatedCost} (Apify)
+            💰 ~US$ {estimatedCost} (Apify)
           </div>
         </Field>
 
-        {error && <div style={{ color: "var(--red)", marginBottom: 12, fontSize: 13 }}>{error}</div>}
+        {error && <div style={{ color: "var(--red)", marginBottom: 12, fontSize: 13 }}>⚠️ {error}</div>}
 
         <button className="btn btn-primary" style={{ width: "100%", padding: 14, fontSize: 15 }} disabled={loading} onClick={() => startSearch()}>
-          {loading ? "INICIANDO..." : "INICIAR BUSCA"}
+          {loading ? "INICIANDO..." : "🚀 INICIAR BUSCA"}
         </button>
       </div>
 

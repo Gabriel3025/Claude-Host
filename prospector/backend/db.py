@@ -83,6 +83,7 @@ CREATE TABLE IF NOT EXISTS crm_stages (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT NOT NULL,
     position INTEGER NOT NULL,
+    color TEXT,
     created_at TEXT DEFAULT (datetime('now'))
 );
 
@@ -148,6 +149,8 @@ def _migrate(conn):
         conn.execute("ALTER TABLE searches ADD COLUMN duplicate_count INTEGER DEFAULT 0")
     if not _column_exists(conn, "searches", "duplicate_lead_ids"):
         conn.execute("ALTER TABLE searches ADD COLUMN duplicate_lead_ids TEXT DEFAULT '[]'")
+    if not _column_exists(conn, "crm_stages", "color"):
+        conn.execute("ALTER TABLE crm_stages ADD COLUMN color TEXT")
     conn.execute("CREATE INDEX IF NOT EXISTS idx_leads_crm_stage ON leads(crm_stage_id)")
     conn.commit()
 

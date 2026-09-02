@@ -66,6 +66,11 @@ export function CRMBoard() {
     setStages((prev) => prev.map((s) => (s.id === stageId ? { ...s, name } : s)));
   }
 
+  async function handleStageColorChange(stageId: number, color: string | null) {
+    setStages((prev) => prev.map((s) => (s.id === stageId ? { ...s, color } : s)));
+    await api.updateStage(stageId, undefined, color);
+  }
+
   async function handleDeleteColumn(stage: CrmStage) {
     if ((stage.cards || []).length > 0) {
       alert("Mova os leads desta coluna antes de excluí-la.");
@@ -92,23 +97,13 @@ export function CRMBoard() {
     setSelected(updated);
   }
 
-  async function handleColorChange(leadId: number, color: string | null) {
-    setStages((prev) =>
-      prev.map((s) => ({
-        ...s,
-        cards: s.cards?.map((c) => (c.id === leadId ? { ...c, crm_card_color: color } : c)),
-      }))
-    );
-    await api.setCardColor(leadId, color);
-  }
-
   if (loading) return <div>Carregando...</div>;
 
   return (
     <div>
-      <div className="label-tag" style={{ marginBottom: 16, fontSize: 14 }}>[ CRM ]</div>
+      <div className="label-tag" style={{ marginBottom: 16, fontSize: 14 }}>🗂️ [ CRM ]</div>
 
-      <div style={{ display: "flex", gap: 14, overflowX: "auto", paddingBottom: 12, alignItems: "flex-start" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: 14, alignItems: "start" }}>
         {stages.map((stage) => (
           <div
             key={stage.id}
@@ -116,13 +111,13 @@ export function CRMBoard() {
             onDragLeave={() => setDragOverStage((s) => (s === stage.id ? null : s))}
             onDrop={() => handleDrop(stage.id)}
             style={{
-              minWidth: 260, width: 260, flexShrink: 0,
               background: dragOverStage === stage.id ? "rgba(0,229,255,0.06)" : "var(--surface)",
               border: `1px solid ${dragOverStage === stage.id ? "var(--cyan)" : "var(--border)"}`,
+              borderTop: `3px solid ${stage.color || "var(--border)"}`,
               borderRadius: 6, padding: 10,
             }}
           >
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10 }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10, gap: 6 }}>
               {editingStageId === stage.id ? (
                 <input
                   autoFocus
@@ -130,25 +125,28 @@ export function CRMBoard() {
                   onChange={(e) => setEditingName(e.target.value)}
                   onBlur={() => handleRenameColumn(stage.id)}
                   onKeyDown={(e) => e.key === "Enter" && handleRenameColumn(stage.id)}
-                  style={{ flex: 1, fontSize: 13 }}
+                  style={{ flex: 1, fontSize: 13, minWidth: 0 }}
                 />
               ) : (
                 <div
-                  className="label-tag"
-                  style={{ cursor: "pointer", flex: 1 }}
+                  className="label-tag truncate"
+                  style={{ cursor: "pointer", flex: 1, minWidth: 0 }}
                   onClick={() => { setEditingStageId(stage.id); setEditingName(stage.name); }}
                   title="Clique para renomear"
                 >
                   {stage.name} <span className="text-muted">({stage.cards?.length || 0})</span>
                 </div>
               )}
-              <button
-                onClick={() => handleDeleteColumn(stage)}
-                title="Excluir coluna"
-                style={{ background: "none", border: "none", color: "var(--text-muted)", fontSize: 14, padding: "0 4px" }}
-              >
-                ×
-              </button>
+              <div style={{ display: "flex", alignItems: "center", gap: 4, flexShrink: 0 }}>
+                <ColorPicker color={stage.color ?? null} onChange={(c) => handleStageColorChange(stage.id, c)} />
+                <button
+                  onClick={() => handleDeleteColumn(stage)}
+                  title="Excluir coluna"
+                  style={{ background: "none", border: "none", color: "var(--text-muted)", fontSize: 15, padding: "0 2px", cursor: "pointer" }}
+                >
+                  ×
+                </button>
+              </div>
             </div>
 
             <div style={{ display: "flex", flexDirection: "column", gap: 8, minHeight: 40 }}>
@@ -160,11 +158,8 @@ export function CRMBoard() {
                   onDragEnd={() => setDraggingLeadId(null)}
                   onClick={() => setSelected(lead)}
                   style={{
-                    background: lead.crm_card_color ? `${lead.crm_card_color}1A` : "var(--surface-2)",
-                    borderTop: "1px solid var(--border)",
-                    borderRight: "1px solid var(--border)",
-                    borderBottom: "1px solid var(--border)",
-                    borderLeft: `3px solid ${lead.crm_card_color || "var(--border)"}`,
+                    background: "var(--surface-2)",
+                    border: "1px solid var(--border)",
                     borderRadius: 5, padding: "10px 12px", cursor: "grab",
                     opacity: draggingLeadId === lead.id ? 0.4 : 1,
                   }}
@@ -173,23 +168,25 @@ export function CRMBoard() {
                     <div style={{ fontWeight: 500, fontSize: 13, lineHeight: 1.4, minWidth: 0, wordBreak: "break-word" }}>
                       {lead.name}
                     </div>
-                    <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-end", gap: 6, flexShrink: 0 }}>
+                    <div style={{ flexShrink: 0 }}>
                       <ScoreBadge score={lead.score} scoreClass={lead.score_class} />
-                      <div onClick={(e) => e.stopPropagation()}>
-                        <ColorPicker
-                          color={lead.crm_card_color}
-                          onChange={(c) => handleColorChange(lead.id, c)}
-                        />
-                      </div>
                     </div>
                   </div>
                   <div className="mono text-muted" style={{ fontSize: 12 }}>
                     {formatPhoneDisplay(lead.phone_e164) || "—"}
                   </div>
-                  <div style={{ display: "flex", gap: 8, marginTop: 6 }} onClick={(e) => e.stopPropagation()}>
-                    {waLink(lead) && (
-                      <a href={waLink(lead)!} target="_blank" rel="noreferrer" style={{ fontSize: 12 }}>WhatsApp</a>
-                    )}
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8, marginTop: 8 }} onClick={(e) => e.stopPropagation()}>
+                    <div>
+                      {waLink(lead) && (
+                        <a href={waLink(lead)!} target="_blank" rel="noreferrer" style={{ fontSize: 12 }}>💬 WhatsApp</a>
+                      )}
+                    </div>
+                    <span className="hover-tooltip">
+                      <span style={{ fontSize: 13, cursor: "default", opacity: lead.notes ? 1 : 0.35 }}>📝</span>
+                      <span className="tooltip-content">
+                        {lead.notes ? lead.notes : "Sem anotações ainda."}
+                      </span>
+                    </span>
                   </div>
                 </div>
               ))}
@@ -197,17 +194,15 @@ export function CRMBoard() {
           </div>
         ))}
 
-        <div style={{ minWidth: 220, flexShrink: 0 }}>
-          <div style={{ display: "flex", gap: 6 }}>
-            <input
-              placeholder="Nova coluna..."
-              value={newColumnName}
-              onChange={(e) => setNewColumnName(e.target.value)}
-              onKeyDown={(e) => e.key === "Enter" && handleAddColumn()}
-              style={{ flex: 1 }}
-            />
-            <button className="btn" onClick={handleAddColumn}>+</button>
-          </div>
+        <div style={{ display: "flex", gap: 6, alignSelf: "start" }}>
+          <input
+            placeholder="➕ Nova coluna..."
+            value={newColumnName}
+            onChange={(e) => setNewColumnName(e.target.value)}
+            onKeyDown={(e) => e.key === "Enter" && handleAddColumn()}
+            style={{ flex: 1, minWidth: 0 }}
+          />
+          <button className="btn" onClick={handleAddColumn}>+</button>
         </div>
       </div>
 

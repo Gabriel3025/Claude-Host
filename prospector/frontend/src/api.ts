@@ -78,10 +78,14 @@ export const api = {
 
   // CRM
   listStages: () => request<CrmStage[]>("/crm/stages"),
-  createStage: (name: string) =>
-    request<CrmStage>("/crm/stages", { method: "POST", body: JSON.stringify({ name }) }),
-  updateStage: (id: number, name: string) =>
-    request<CrmStage>(`/crm/stages/${id}`, { method: "PATCH", body: JSON.stringify({ name }) }),
+  createStage: (name: string, color?: string | null) =>
+    request<CrmStage>("/crm/stages", { method: "POST", body: JSON.stringify({ name, color }) }),
+  updateStage: (id: number, name?: string, color?: string | null) => {
+    const body: Record<string, unknown> = {};
+    if (name !== undefined) body.name = name;
+    if (color !== undefined) body.color = color;
+    return request<CrmStage>(`/crm/stages/${id}`, { method: "PATCH", body: JSON.stringify(body) });
+  },
   reorderStages: (stage_ids: number[]) =>
     request<{ ok: boolean }>("/crm/stages/reorder", { method: "POST", body: JSON.stringify({ stage_ids }) }),
   deleteStage: (id: number) =>
@@ -102,6 +106,4 @@ export const api = {
       body: JSON.stringify({ stage_id, position }),
     }),
   getLeadHistory: (leadId: number) => request<CrmHistoryEntry[]>(`/crm/cards/${leadId}/history`),
-  setCardColor: (leadId: number, color: string | null) =>
-    request<Lead>(`/crm/cards/${leadId}/color`, { method: "PATCH", body: JSON.stringify({ color }) }),
 };
