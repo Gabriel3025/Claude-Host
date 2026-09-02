@@ -205,8 +205,6 @@ def _get_existing_lead(conn, place_id, dedup_key):
 
 
 def _build_lead_data(place, phone_e164, is_mobile, site_result, enrichment) -> dict:
-    from backend.pipeline.normalize import build_dedup_key
-
     dedup_key = place.place_id or build_dedup_key(place.name, phone_e164, place.address)
 
     if site_result is None:

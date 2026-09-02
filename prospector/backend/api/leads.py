@@ -113,12 +113,12 @@ async def list_leads(
     cur.execute(
         f"""SELECT
                 COUNT(*) as collected,
-                SUM(CASE WHEN score_class='A' THEN 1 ELSE 0 END) as score_a,
-                SUM(CASE WHEN score_class='B' THEN 1 ELSE 0 END) as score_b,
-                SUM(CASE WHEN score_class='C' THEN 1 ELSE 0 END) as score_c,
-                SUM(CASE WHEN site_status='NO_WEBSITE' THEN 1 ELSE 0 END) as no_website,
-                SUM(CASE WHEN site_status IN ('OFFLINE','TIMEOUT','HTTP_ERROR','DNS_ERROR') THEN 1 ELSE 0 END) as site_down,
-                SUM(CASE WHEN phone_e164 IS NOT NULL THEN 1 ELSE 0 END) as with_phone
+                COALESCE(SUM(CASE WHEN score_class='A' THEN 1 ELSE 0 END),0) as score_a,
+                COALESCE(SUM(CASE WHEN score_class='B' THEN 1 ELSE 0 END),0) as score_b,
+                COALESCE(SUM(CASE WHEN score_class='C' THEN 1 ELSE 0 END),0) as score_c,
+                COALESCE(SUM(CASE WHEN site_status='NO_WEBSITE' THEN 1 ELSE 0 END),0) as no_website,
+                COALESCE(SUM(CASE WHEN site_status IN ('OFFLINE','TIMEOUT','HTTP_ERROR','DNS_ERROR') THEN 1 ELSE 0 END),0) as site_down,
+                COALESCE(SUM(CASE WHEN phone_e164 IS NOT NULL THEN 1 ELSE 0 END),0) as with_phone
             FROM leads l WHERE {where}""",
         params,
     )
@@ -183,12 +183,12 @@ async def global_stats(search_id: int | None = None):
     cur.execute(
         f"""SELECT
                 COUNT(*) as collected,
-                SUM(CASE WHEN score_class='A' THEN 1 ELSE 0 END) as score_a,
-                SUM(CASE WHEN score_class='B' THEN 1 ELSE 0 END) as score_b,
-                SUM(CASE WHEN score_class='C' THEN 1 ELSE 0 END) as score_c,
-                SUM(CASE WHEN site_status='NO_WEBSITE' THEN 1 ELSE 0 END) as no_website,
-                SUM(CASE WHEN site_status IN ('OFFLINE','TIMEOUT','HTTP_ERROR','DNS_ERROR') THEN 1 ELSE 0 END) as site_down,
-                SUM(CASE WHEN phone_e164 IS NOT NULL THEN 1 ELSE 0 END) as with_phone
+                COALESCE(SUM(CASE WHEN score_class='A' THEN 1 ELSE 0 END),0) as score_a,
+                COALESCE(SUM(CASE WHEN score_class='B' THEN 1 ELSE 0 END),0) as score_b,
+                COALESCE(SUM(CASE WHEN score_class='C' THEN 1 ELSE 0 END),0) as score_c,
+                COALESCE(SUM(CASE WHEN site_status='NO_WEBSITE' THEN 1 ELSE 0 END),0) as no_website,
+                COALESCE(SUM(CASE WHEN site_status IN ('OFFLINE','TIMEOUT','HTTP_ERROR','DNS_ERROR') THEN 1 ELSE 0 END),0) as site_down,
+                COALESCE(SUM(CASE WHEN phone_e164 IS NOT NULL THEN 1 ELSE 0 END),0) as with_phone
             FROM leads l WHERE {where}""",
         params,
     )
