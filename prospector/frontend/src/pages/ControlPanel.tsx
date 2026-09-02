@@ -1,15 +1,18 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { api } from "../api";
-import { NICHE_SUGGESTIONS, UFS } from "../utils";
+import { NICHE_PRESETS, UFS } from "../utils";
 
 interface Props {
   onSearchStarted: (searchId: number) => void;
 }
 
 const QUICK_AMOUNTS = [25, 50, 100, 250, 500];
+const CUSTOM_VALUE = "__custom__";
 
 export function ControlPanel({ onSearchStarted }: Props) {
-  const [niche, setNiche] = useState("Escritório de Advocacia");
+  const [nicheChoice, setNicheChoice] = useState(NICHE_PRESETS[0].name);
+  const [customNiche, setCustomNiche] = useState("");
+  const [customAbbr, setCustomAbbr] = useState("");
   const [city, setCity] = useState("");
   const [state, setState] = useState("");
   const [region, setRegion] = useState("");
@@ -18,17 +21,12 @@ export function ControlPanel({ onSearchStarted }: Props) {
   const [error, setError] = useState<string | null>(null);
   const [warning, setWarning] = useState<{ type: string; message: string } | null>(null);
   const [loading, setLoading] = useState(false);
-  const [nicheDropdownOpen, setNicheDropdownOpen] = useState(false);
-  const nicheRef = useRef<HTMLDivElement>(null);
   const [apifyUsage, setApifyUsage] = useState<{ usage_usd: number; limit_usd: number } | null>(null);
 
-  useEffect(() => {
-    function onClickOutside(e: MouseEvent) {
-      if (nicheRef.current && !nicheRef.current.contains(e.target as Node)) setNicheDropdownOpen(false);
-    }
-    if (nicheDropdownOpen) document.addEventListener("mousedown", onClickOutside);
-    return () => document.removeEventListener("mousedown", onClickOutside);
-  }, [nicheDropdownOpen]);
+  const isCustom = nicheChoice === CUSTOM_VALUE;
+  const selectedPreset = NICHE_PRESETS.find((p) => p.name === nicheChoice);
+  const niche = isCustom ? customNiche : nicheChoice;
+  const nicheAbbr = isCustom ? customAbbr : selectedPreset?.abbr || "";
 
   useEffect(() => {
     api.getApifyUsage().then((res) => {
@@ -49,7 +47,8 @@ export function ControlPanel({ onSearchStarted }: Props) {
     setLoading(true);
     try {
       const result = await api.createSearch({
-        niche: niche.trim(), city: city.trim() || undefined, state: state.trim(),
+        niche: niche.trim(), niche_abbr: nicheAbbr.trim() || undefined,
+        city: city.trim() || undefined, state: state.trim(),
         region: region.trim() || undefined, quantity, confirmed,
         no_site_only: noSiteOnly,
       });
@@ -82,45 +81,43 @@ export function ControlPanel({ onSearchStarted }: Props) {
       )}
       <div className="card">
         <Field label="🏷️ Segmento / Nicho">
-          <div ref={nicheRef} style={{ position: "relative" }}>
-            <input
-              value={niche}
-              onChange={(e) => setNiche(e.target.value)}
-              onFocus={() => setNicheDropdownOpen(true)}
-              style={{ width: "100%" }}
-              autoComplete="off"
-              placeholder="Ex: Escritório de Advocacia"
-            />
-            {nicheDropdownOpen && (
-              <div
-                style={{
-                  position: "absolute", top: "calc(100% + 4px)", left: 0, right: 0, zIndex: 50,
-                  background: "var(--surface)", border: "1px solid var(--border)",
-                  borderRadius: 6, boxShadow: "0 8px 24px rgba(0,0,0,0.45)",
-                  maxHeight: 220, overflowY: "auto",
-                }}
-              >
-                {NICHE_SUGGESTIONS
-                  .filter((n) => n.toLowerCase().includes(niche.trim().toLowerCase()))
-                  .map((n) => (
-                    <div
-                      key={n}
-                      onClick={() => { setNiche(n); setNicheDropdownOpen(false); }}
-                      style={{ padding: "9px 12px", cursor: "pointer", fontSize: 13 }}
-                      onMouseEnter={(e) => (e.currentTarget.style.background = "var(--surface-2)")}
-                      onMouseLeave={(e) => (e.currentTarget.style.background = "transparent")}
-                    >
-                      {n}
-                    </div>
-                  ))}
-                {NICHE_SUGGESTIONS.filter((n) => n.toLowerCase().includes(niche.trim().toLowerCase())).length === 0 && (
-                  <div className="text-muted" style={{ padding: "9px 12px", fontSize: 12 }}>
-                    Nenhuma sugestão — use o texto digitado livremente.
-                  </div>
-                )}
+          <select
+            value={nicheChoice}
+            onChange={(e) => setNicheChoice(e.target.value)}
+            style={{ width: "100%" }}
+          >
+            {NICHE_PRESETS.map((p) => (
+              <option key={p.name} value={p.name}>{p.name} ({p.abbr})</option>
+            ))}
+            <option value={CUSTOM_VALUE}>➕ Personalizado...</option>
+          </select>
+
+          {isCustom && (
+            <div style={{ display: "flex", gap: 10, marginTop: 10 }}>
+              <div style={{ flex: 3 }}>
+                <input
+                  value={customNiche}
+                  onChange={(e) => setCustomNiche(e.target.value)}
+                  placeholder="Nome do nicho (ex: Loja de Eletrônicos)"
+                  style={{ width: "100%" }}
+                />
               </div>
-            )}
-          </div>
+              <div style={{ flex: 1 }}>
+                <input
+                  value={customAbbr}
+                  onChange={(e) => setCustomAbbr(e.target.value.toUpperCase().slice(0, 6))}
+                  placeholder="Sigla"
+                  className="mono"
+                  style={{ width: "100%" }}
+                />
+              </div>
+            </div>
+          )}
+          {isCustom && (
+            <div className="text-muted" style={{ marginTop: 6, fontSize: 11 }}>
+              Use sempre a mesma sigla para o mesmo nicho (ex: sempre "ADV" para advocacia) — isso mantém a coluna Nicho consistente na lista de leads.
+            </div>
+          )}
         </Field>
 
         <div style={{ display: "flex", gap: 12 }}>

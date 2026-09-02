@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { api } from "../api";
 import type { CrmStage, Lead } from "../types";
 import { ScoreBadge } from "../components/ScoreBadge";
@@ -17,6 +17,17 @@ export function CRMBoard() {
   const [newColumnName, setNewColumnName] = useState("");
   const [editingStageId, setEditingStageId] = useState<number | null>(null);
   const [editingName, setEditingName] = useState("");
+  const [sortPickerOpen, setSortPickerOpen] = useState(false);
+  const [sortSelection, setSortSelection] = useState<Set<number>>(new Set());
+  const sortPickerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function onClickOutside(e: MouseEvent) {
+      if (sortPickerRef.current && !sortPickerRef.current.contains(e.target as Node)) setSortPickerOpen(false);
+    }
+    if (sortPickerOpen) document.addEventListener("mousedown", onClickOutside);
+    return () => document.removeEventListener("mousedown", onClickOutside);
+  }, [sortPickerOpen]);
 
   function load() {
     setLoading(true);
@@ -25,31 +36,83 @@ export function CRMBoard() {
 
   useEffect(load, []);
 
-  async function handleDrop(stageId: number) {
+  function persistStageOrder(newStages: CrmStage[], stageId: number) {
+    const stage = newStages.find((s) => s.id === stageId);
+    if (!stage) return;
+    api.reorderCards(stageId, (stage.cards || []).map((c) => c.id)).catch(() => load());
+  }
+
+  function handleDrop(stageId: number) {
     if (draggingLeadId == null) return;
     setDragOverStage(null);
     const leadId = draggingLeadId;
     setDraggingLeadId(null);
 
     const source = stages.find((s) => s.cards?.some((c) => c.id === leadId));
-    if (!source || source.id === stageId) return;
+    if (!source) return;
+    if (source.id === stageId) return;
 
-    setStages((prev) =>
-      prev.map((s) => {
-        if (s.id === source.id) return { ...s, cards: s.cards?.filter((c) => c.id !== leadId) };
-        if (s.id === stageId) {
-          const card = source.cards?.find((c) => c.id === leadId);
-          return card ? { ...s, cards: [...(s.cards || []), card] } : s;
-        }
-        return s;
-      })
-    );
+    const movingCard = source.cards!.find((c) => c.id === leadId)!;
+    const newStages = stages.map((s) => {
+      if (s.id === source.id) return { ...s, cards: s.cards!.filter((c) => c.id !== leadId) };
+      if (s.id === stageId) return { ...s, cards: [...(s.cards || []), movingCard] };
+      return s;
+    });
+    setStages(newStages);
+    persistStageOrder(newStages, stageId);
+  }
 
-    try {
-      await api.moveCard(leadId, stageId);
-    } catch {
-      load();
-    }
+  function handleCardDrop(targetStageId: number, targetLeadId: number) {
+    if (draggingLeadId == null || draggingLeadId === targetLeadId) return;
+    setDragOverStage(null);
+    const leadId = draggingLeadId;
+    setDraggingLeadId(null);
+
+    const source = stages.find((s) => s.cards?.some((c) => c.id === leadId));
+    if (!source) return;
+    const movingCard = source.cards!.find((c) => c.id === leadId)!;
+
+    const newStages = stages.map((s) => {
+      let cards = s.cards || [];
+      if (s.id === source.id) cards = cards.filter((c) => c.id !== leadId);
+      if (s.id === targetStageId) {
+        const idx = cards.findIndex((c) => c.id === targetLeadId);
+        const insertAt = idx === -1 ? cards.length : idx;
+        cards = [...cards.slice(0, insertAt), movingCard, ...cards.slice(insertAt)];
+      }
+      return { ...s, cards };
+    });
+    setStages(newStages);
+    persistStageOrder(newStages, targetStageId);
+  }
+
+  function sortStageByScore(stageId: number) {
+    const newStages = stages.map((s) => {
+      if (s.id !== stageId) return s;
+      const sorted = [...(s.cards || [])].sort((a, b) => b.score - a.score);
+      return { ...s, cards: sorted };
+    });
+    setStages(newStages);
+    persistStageOrder(newStages, stageId);
+  }
+
+  function toggleSortSelection(stageId: number) {
+    setSortSelection((prev) => {
+      const next = new Set(prev);
+      if (next.has(stageId)) next.delete(stageId); else next.add(stageId);
+      return next;
+    });
+  }
+
+  function applyBulkSort() {
+    const newStages = stages.map((s) => {
+      if (!sortSelection.has(s.id)) return s;
+      const sorted = [...(s.cards || [])].sort((a, b) => b.score - a.score);
+      return { ...s, cards: sorted };
+    });
+    setStages(newStages);
+    sortSelection.forEach((stageId) => persistStageOrder(newStages, stageId));
+    setSortPickerOpen(false);
   }
 
   function handleStageReorder(targetStageId: number) {
@@ -125,7 +188,49 @@ export function CRMBoard() {
 
   return (
     <div>
-      <div className="label-tag" style={{ marginBottom: 16, fontSize: 14 }}>🗂️ [ CRM ]</div>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 16, position: "relative" }}>
+        <div className="label-tag" style={{ fontSize: 14 }}>🗂️ [ CRM ]</div>
+        <div ref={sortPickerRef}>
+          <button
+            className="btn"
+            style={{ fontSize: 12, padding: "6px 12px" }}
+            onClick={() => {
+              setSortSelection(new Set(stages.map((s) => s.id)));
+              setSortPickerOpen((v) => !v);
+            }}
+          >
+            🔽 Ordenar por Score
+          </button>
+          {sortPickerOpen && (
+            <div
+              style={{
+                position: "absolute", top: "calc(100% + 6px)", right: 0, zIndex: 60,
+                background: "var(--surface)", border: "1px solid var(--border)",
+                borderRadius: 6, padding: 14, width: 240,
+                boxShadow: "0 8px 24px rgba(0,0,0,0.45)",
+              }}
+            >
+              <div className="text-muted" style={{ fontSize: 12, marginBottom: 10 }}>
+                Escolha as colunas para ordenar por score (maior → menor):
+              </div>
+              {stages.map((s) => (
+                <label key={s.id} style={{ display: "flex", alignItems: "center", gap: 8, padding: "4px 0", fontSize: 13, cursor: "pointer" }}>
+                  <input
+                    type="checkbox"
+                    checked={sortSelection.has(s.id)}
+                    onChange={() => toggleSortSelection(s.id)}
+                  />
+                  {s.name}
+                </label>
+              ))}
+              <div style={{ display: "flex", gap: 8, marginTop: 12 }}>
+                <button className="btn" style={{ fontSize: 12, padding: "4px 10px" }} onClick={() => setSortPickerOpen(false)}>Cancelar</button>
+                <button className="btn btn-primary" style={{ fontSize: 12, padding: "4px 10px" }} onClick={applyBulkSort}>Aplicar</button>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
 
       <div style={{ display: "flex", gap: 14, overflowX: "auto", paddingBottom: 12, alignItems: "flex-start" }}>
         {stages.map((stage) => (
@@ -175,6 +280,13 @@ export function CRMBoard() {
                 </div>
               )}
               <div style={{ display: "flex", alignItems: "center", gap: 4, flexShrink: 0 }}>
+                <button
+                  onClick={() => sortStageByScore(stage.id)}
+                  title="Ordenar esta coluna por score (maior → menor)"
+                  style={{ background: "none", border: "none", color: "var(--text-muted)", fontSize: 13, padding: "0 2px", cursor: "pointer" }}
+                >
+                  🔽
+                </button>
                 <ColorPicker color={stage.color ?? null} onChange={(c) => handleStageColorChange(stage.id, c)} />
                 <button
                   onClick={() => handleDeleteColumn(stage)}
@@ -193,6 +305,8 @@ export function CRMBoard() {
                   draggable
                   onDragStart={() => setDraggingLeadId(lead.id)}
                   onDragEnd={() => setDraggingLeadId(null)}
+                  onDragOver={(e) => { e.preventDefault(); e.stopPropagation(); }}
+                  onDrop={(e) => { e.preventDefault(); e.stopPropagation(); handleCardDrop(stage.id, lead.id); }}
                   onClick={() => setSelected(lead)}
                   style={{
                     background: stage.color ? `${stage.color}22` : "var(--surface-2)",

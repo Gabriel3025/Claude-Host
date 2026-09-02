@@ -25,7 +25,10 @@ def _build_filters(
     search_id, score_class, site_status, has_phone, has_whatsapp,
     city, state, crm_status, min_reviews, min_score, max_score, q,
 ):
-    clauses = []
+    clauses = [
+        "(EXISTS (SELECT 1 FROM search_leads sl JOIN searches s ON sl.search_id=s.id "
+        "WHERE sl.lead_id=l.id AND s.is_deleted=0) OR l.crm_stage_id IS NOT NULL)"
+    ]
     params: list = []
 
     if search_id is not None:

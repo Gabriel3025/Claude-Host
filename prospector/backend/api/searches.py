@@ -19,6 +19,7 @@ router = APIRouter(prefix="/api/searches", tags=["searches"])
 
 class SearchCreate(BaseModel):
     niche: str
+    niche_abbr: str | None = None
     city: str | None = None
     state: str
     region: str | None = None
@@ -47,11 +48,13 @@ async def create_search(payload: SearchCreate):
                        f"(~US$ {est_cost:.2f}). Confirmar?",
         }
 
+    niche_abbr = (payload.niche_abbr or "").strip().upper() or None
+
     conn = db.get_conn()
     cur = conn.cursor()
     cur.execute(
-        "INSERT INTO searches (niche, city, state, region, requested_count) VALUES (?,?,?,?,?)",
-        (niche, city, state, payload.region, payload.quantity),
+        "INSERT INTO searches (niche, niche_abbr, city, state, region, requested_count) VALUES (?,?,?,?,?,?)",
+        (niche, niche_abbr, city, state, payload.region, payload.quantity),
     )
     conn.commit()
     search_id = cur.lastrowid
@@ -61,6 +64,7 @@ async def create_search(payload: SearchCreate):
             search_id, niche, city, state, payload.region, payload.quantity,
             include_duplicates=payload.include_duplicates,
             no_site_only=payload.no_site_only,
+            niche_abbr=niche_abbr,
         )
     )
 

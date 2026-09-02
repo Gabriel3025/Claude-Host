@@ -3,6 +3,7 @@ export interface Lead {
   place_id: string | null;
   name: string;
   category: string | null;
+  niche_abbr: string | null;
   phone_raw: string | null;
   phone_e164: string | null;
   is_mobile_phone: number;

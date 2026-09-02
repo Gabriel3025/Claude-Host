@@ -35,7 +35,7 @@ def _is_cancelled(search_id: int) -> bool:
 
 async def run_pipeline(search_id: int, niche: str, city: str, state: str,
                         region: str | None, quantity: int, include_duplicates: bool = False,
-                        no_site_only: bool = False):
+                        no_site_only: bool = False, niche_abbr: str | None = None):
     conn = db.get_conn()
     progress.start(search_id, quantity)
     from_cache_count = 0
@@ -92,6 +92,7 @@ async def run_pipeline(search_id: int, niche: str, city: str, state: str,
                     enrichment = None
 
             lead_data = _build_lead_data(place, phone_e164, is_mobile, site_result, enrichment)
+            lead_data["niche_abbr"] = niche_abbr
 
             analyzed += 1
             progress.update(search_id, analyzed=analyzed)
@@ -347,6 +348,7 @@ def _upsert_lead(conn, lead: dict) -> int:
                 page_size_bytes=?, has_title=?, has_viewport=?, has_contact_form=?,
                 site_tech_issues=?, email=?, instagram=?, facebook=?, linkedin=?,
                 whatsapp_found=?, phone_on_site=?, score=?, score_class=?, score_reasons=?,
+                niche_abbr=COALESCE(?, niche_abbr),
                 last_enriched_at=datetime('now'), updated_at=datetime('now')
                WHERE id=?""",
             (
@@ -361,6 +363,7 @@ def _upsert_lead(conn, lead: dict) -> int:
                 lead["email"], lead["instagram"], lead["facebook"], lead["linkedin"],
                 lead["whatsapp_found"], lead["phone_on_site"],
                 lead.get("score", 0), lead.get("score_class"), reasons_json,
+                lead.get("niche_abbr"),
                 existing["id"],
             ),
         )
@@ -375,8 +378,8 @@ def _upsert_lead(conn, lead: dict) -> int:
                 website_url, final_url, site_status, https, response_time_ms, page_size_bytes,
                 has_title, has_viewport, has_contact_form, site_tech_issues,
                 email, instagram, facebook, linkedin, whatsapp_found, phone_on_site,
-                score, score_class, score_reasons, last_enriched_at
-            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,datetime('now'))""",
+                score, score_class, score_reasons, niche_abbr, last_enriched_at
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,datetime('now'))""",
             (
                 lead["place_id"], lead["dedup_key"], lead["name"], lead["category"],
                 lead["phone_raw"], lead["phone_e164"], lead["is_mobile_phone"],
@@ -390,6 +393,7 @@ def _upsert_lead(conn, lead: dict) -> int:
                 lead["instagram"], lead["facebook"], lead["linkedin"],
                 lead["whatsapp_found"], lead["phone_on_site"],
                 lead.get("score", 0), lead.get("score_class"), reasons_json,
+                lead.get("niche_abbr"),
             ),
         )
         conn.commit()

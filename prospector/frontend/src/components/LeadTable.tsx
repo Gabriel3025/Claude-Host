@@ -1,7 +1,8 @@
 import type { Lead } from "../types";
 import { ScoreBadge } from "./ScoreBadge";
 import { WhatsAppIcon } from "./WhatsAppIcon";
-import { formatPhoneDisplay, waLink, siteStatusLabel } from "../utils";
+import { SiteStatusBadge } from "./SiteStatusBadge";
+import { formatPhoneDisplay, waLink } from "../utils";
 
 interface Props {
   leads: Lead[];
@@ -29,10 +30,11 @@ export function LeadTable({ leads, onSelect, selectedIds, onToggleSelect, onTogg
         <colgroup>
           <col style={{ width: 20 }} />
           <col style={{ width: 78 }} />
-          <col style={{ width: "22%" }} />
+          <col style={{ width: 52 }} />
+          <col style={{ width: "20%" }} />
           <col style={{ width: 148 }} />
-          <col style={{ width: "16%" }} />
-          <col style={{ width: 100 }} />
+          <col style={{ width: "15%" }} />
+          <col style={{ width: 110 }} />
           <col style={{ width: 96 }} />
           <col style={{ width: 150 }} />
         </colgroup>
@@ -41,7 +43,7 @@ export function LeadTable({ leads, onSelect, selectedIds, onToggleSelect, onTogg
             <th style={{ padding: "12px 8px" }}>
               <input type="checkbox" className="checkbox-round" checked={allSelected} onChange={onToggleSelectAll} />
             </th>
-            {["SCORE", "EMPRESA", "TELEFONE", "CIDADE/UF", "STATUS SITE", "AVALIAÇÕES", "AÇÃO"].map((h) => (
+            {["SCORE", "NICHO", "EMPRESA", "TELEFONE", "CIDADE/UF", "STATUS SITE", "AVALIAÇÕES", "AÇÃO"].map((h) => (
               <th key={h} className="label-tag" style={{ textAlign: "left", padding: "12px 10px", fontWeight: 500 }}>
                 {h}
               </th>
@@ -68,6 +70,9 @@ export function LeadTable({ leads, onSelect, selectedIds, onToggleSelect, onTogg
               <td style={{ padding: "12px 10px" }}>
                 <ScoreBadge score={lead.score} scoreClass={lead.score_class} />
               </td>
+              <td style={{ padding: "12px 6px" }} className="mono text-muted truncate" title={lead.niche_abbr || ""}>
+                {lead.niche_abbr || "—"}
+              </td>
               <td style={{ padding: "12px 10px", fontWeight: 500 }}>
                 <span className="truncate" title={lead.name} style={{ minWidth: 0, display: "block" }}>{lead.name}</span>
               </td>
@@ -77,7 +82,9 @@ export function LeadTable({ leads, onSelect, selectedIds, onToggleSelect, onTogg
               <td style={{ padding: "12px 10px" }} className="truncate" title={lead.city ? `${lead.city}/${lead.state || ""}` : ""}>
                 {lead.city ? `${lead.city}/${lead.state || ""}` : <span className="text-muted">—</span>}
               </td>
-              <td style={{ padding: "12px 10px" }} className="truncate">{siteStatusLabel(lead.site_status)}</td>
+              <td style={{ padding: "12px 10px" }}>
+                <SiteStatusBadge status={lead.site_status} />
+              </td>
               <td style={{ padding: "12px 10px" }} className="mono truncate">
                 {lead.rating ? `${lead.rating.toFixed(1)} ★ (${lead.reviews_count})` : <span className="text-muted">—</span>}
               </td>

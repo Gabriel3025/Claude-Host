@@ -16,6 +16,7 @@ async function request<T>(path: string, options?: RequestInit): Promise<T> {
 
 export interface CreateSearchPayload {
   niche: string;
+  niche_abbr?: string;
   city?: string;
   state: string;
   region?: string;
@@ -102,6 +103,10 @@ export const api = {
   },
   reorderStages: (stage_ids: number[]) =>
     request<{ ok: boolean }>("/crm/stages/reorder", { method: "POST", body: JSON.stringify({ stage_ids }) }),
+  reorderCards: (stageId: number, lead_ids: number[]) =>
+    request<{ ok: boolean }>(`/crm/stages/${stageId}/reorder-cards`, {
+      method: "POST", body: JSON.stringify({ lead_ids }),
+    }),
   deleteStage: (id: number) =>
     request<{ ok: boolean }>(`/crm/stages/${id}`, { method: "DELETE" }),
 

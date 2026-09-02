@@ -115,6 +115,27 @@ async def get_board():
     return {"stages": stages}
 
 
+class CardsReorder(BaseModel):
+    lead_ids: list[int]
+
+
+@router.post("/stages/{stage_id}/reorder-cards")
+async def reorder_cards(stage_id: int, payload: CardsReorder):
+    conn = db.get_conn()
+    cur = conn.cursor()
+    cur.execute("SELECT id FROM crm_stages WHERE id=?", (stage_id,))
+    if not cur.fetchone():
+        raise HTTPException(404, "Coluna nao encontrada.")
+
+    for position, lead_id in enumerate(payload.lead_ids):
+        cur.execute(
+            "UPDATE leads SET crm_stage_id=?, crm_position=?, updated_at=datetime('now') WHERE id=?",
+            (stage_id, position, lead_id),
+        )
+    conn.commit()
+    return {"ok": True}
+
+
 # ---------- Cards (leads inside the CRM) ----------
 
 class AddToCrm(BaseModel):

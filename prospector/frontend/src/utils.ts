@@ -40,7 +40,19 @@ export const UFS = [
   "PR","PE","PI","RJ","RN","RS","RO","RR","SC","SP","SE","TO",
 ];
 
-export const NICHE_SUGGESTIONS = [
-  "Escritório de Advocacia", "Clínica Médica", "Dentista", "Imobiliária",
-  "Contabilidade", "Academia", "Restaurante",
+export interface NichePreset {
+  name: string;
+  abbr: string;
+}
+
+export const NICHE_PRESETS: NichePreset[] = [
+  { name: "Escritório de Advocacia", abbr: "ADV" },
+  { name: "Clínica Médica", abbr: "CLI" },
+  { name: "Dentista", abbr: "ODO" },
+  { name: "Imobiliária", abbr: "IMO" },
+  { name: "Contabilidade", abbr: "CONT" },
+  { name: "Academia", abbr: "ACAD" },
+  { name: "Restaurante", abbr: "REST" },
 ];
+
+export const NICHE_SUGGESTIONS = NICHE_PRESETS.map((p) => p.name);
