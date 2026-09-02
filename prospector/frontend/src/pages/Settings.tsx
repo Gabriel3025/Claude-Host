@@ -2,14 +2,27 @@ import { useEffect, useState } from "react";
 import { api } from "../api";
 import type { Settings as SettingsType } from "../types";
 
+interface ApifyUsage {
+  ok: boolean; message?: string; usage_usd?: number; limit_usd?: number;
+  actor_memory_gbytes?: number; max_actor_memory_gbytes?: number; cycle_end_at?: string;
+}
+
 export function Settings() {
   const [settings, setSettings] = useState<SettingsType | null>(null);
   const [token, setToken] = useState("");
   const [testResult, setTestResult] = useState<string | null>(null);
   const [saving, setSaving] = useState(false);
+  const [usage, setUsage] = useState<ApifyUsage | null>(null);
+  const [usageLoading, setUsageLoading] = useState(false);
 
   function load() {
     api.getSettings().then(setSettings);
+    loadUsage();
+  }
+
+  function loadUsage() {
+    setUsageLoading(true);
+    api.getApifyUsage().then(setUsage).finally(() => setUsageLoading(false));
   }
 
   useEffect(load, []);
@@ -61,6 +74,43 @@ export function Settings() {
       </div>
 
       <div className="card" style={{ marginBottom: 16 }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 14 }}>
+          <div className="label-tag">📡 USO NA APIFY (AO VIVO)</div>
+          <button className="btn" style={{ padding: "4px 10px", fontSize: 12 }} onClick={loadUsage} disabled={usageLoading}>
+            {usageLoading ? "Atualizando..." : "🔄 Atualizar"}
+          </button>
+        </div>
+
+        {!usage || usageLoading ? (
+          <div className="text-muted" style={{ fontSize: 13 }}>Carregando dados da Apify...</div>
+        ) : !usage.ok ? (
+          <div className="text-muted" style={{ fontSize: 13 }}>
+            {usage.message || "Não foi possível consultar a Apify agora."}
+          </div>
+        ) : (
+          <>
+            <UsageBar
+              label="💰 Uso mensal"
+              current={usage.usage_usd ?? 0}
+              max={usage.limit_usd ?? 0}
+              format={(v) => `US$ ${v.toFixed(2)}`}
+            />
+            <UsageBar
+              label="🧠 Memória de Actors em uso"
+              current={usage.actor_memory_gbytes ?? 0}
+              max={usage.max_actor_memory_gbytes ?? 0}
+              format={(v) => `${v.toFixed(0)} GB`}
+            />
+            {usage.cycle_end_at && (
+              <div className="text-muted" style={{ fontSize: 11, marginTop: 4 }}>
+                Ciclo atual encerra em {usage.cycle_end_at.slice(0, 10)}
+              </div>
+            )}
+          </>
+        )}
+      </div>
+
+      <div className="card" style={{ marginBottom: 16 }}>
         <div className="label-tag" style={{ marginBottom: 12 }}>CONTADORES</div>
         <Row label="Buscas realizadas" value={String(settings.total_searches)} />
         <Row label="Leads coletados" value={String(settings.total_leads_collected)} />
@@ -74,6 +124,24 @@ export function Settings() {
         <Row label="Concorrência de verificação de sites" value={`${settings.site_check_concurrency} simultâneas`} />
         <Row label="Confirmação obrigatória acima de" value={`${settings.max_leads_confirm_threshold} leads`} />
         <Row label="Custo por lead (Apify)" value={`US$ ${settings.cost_per_place_usd}`} />
+      </div>
+    </div>
+  );
+}
+
+function UsageBar({
+  label, current, max, format,
+}: { label: string; current: number; max: number; format: (v: number) => string }) {
+  const pct = max > 0 ? Math.min(100, (current / max) * 100) : 0;
+  const color = pct > 90 ? "var(--red)" : pct > 70 ? "var(--amber)" : "var(--green)";
+  return (
+    <div style={{ marginBottom: 12 }}>
+      <div style={{ display: "flex", justifyContent: "space-between", fontSize: 12, marginBottom: 5 }}>
+        <span className="text-muted">{label}</span>
+        <span className="mono">{format(current)} / {format(max)}</span>
+      </div>
+      <div style={{ background: "var(--surface-2)", height: 6, borderRadius: 3, overflow: "hidden" }}>
+        <div style={{ background: color, height: "100%", width: `${pct}%`, transition: "width 0.3s" }} />
       </div>
     </div>
   );

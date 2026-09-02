@@ -20,6 +20,7 @@ export function ControlPanel({ onSearchStarted }: Props) {
   const [loading, setLoading] = useState(false);
   const [nicheDropdownOpen, setNicheDropdownOpen] = useState(false);
   const nicheRef = useRef<HTMLDivElement>(null);
+  const [apifyUsage, setApifyUsage] = useState<{ usage_usd: number; limit_usd: number } | null>(null);
 
   useEffect(() => {
     function onClickOutside(e: MouseEvent) {
@@ -28,6 +29,14 @@ export function ControlPanel({ onSearchStarted }: Props) {
     if (nicheDropdownOpen) document.addEventListener("mousedown", onClickOutside);
     return () => document.removeEventListener("mousedown", onClickOutside);
   }, [nicheDropdownOpen]);
+
+  useEffect(() => {
+    api.getApifyUsage().then((res) => {
+      if (res.ok && res.usage_usd !== undefined && res.limit_usd !== undefined) {
+        setApifyUsage({ usage_usd: res.usage_usd, limit_usd: res.limit_usd });
+      }
+    });
+  }, []);
 
   const estimatedCost = (quantity * 0.004).toFixed(2);
 
@@ -63,9 +72,14 @@ export function ControlPanel({ onSearchStarted }: Props) {
       <div className="label-tag" style={{ textAlign: "center", marginBottom: 4, fontSize: 14 }}>
         🛰️ [ CONTROL_PANEL ]
       </div>
-      <div className="text-muted" style={{ textAlign: "center", marginBottom: 20, fontSize: 12 }}>
+      <div className="text-muted" style={{ textAlign: "center", marginBottom: 4, fontSize: 12 }}>
         Configure a busca e encontre suas próximas oportunidades
       </div>
+      {apifyUsage && (
+        <div className="text-muted mono" style={{ textAlign: "center", marginBottom: 20, fontSize: 11, opacity: 0.6 }}>
+          💰 Apify: US$ {apifyUsage.usage_usd.toFixed(2)} / {apifyUsage.limit_usd.toFixed(2)}
+        </div>
+      )}
       <div className="card">
         <Field label="🏷️ Segmento / Nicho">
           <div ref={nicheRef} style={{ position: "relative" }}>

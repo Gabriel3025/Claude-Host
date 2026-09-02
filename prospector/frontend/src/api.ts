@@ -84,6 +84,12 @@ export const api = {
 
   testToken: () => request<{ ok: boolean; message?: string; username?: string }>("/settings/test-token", { method: "POST" }),
 
+  getApifyUsage: () =>
+    request<{
+      ok: boolean; message?: string; usage_usd?: number; limit_usd?: number;
+      actor_memory_gbytes?: number; max_actor_memory_gbytes?: number; cycle_end_at?: string;
+    }>("/settings/apify-usage"),
+
   // CRM
   listStages: () => request<CrmStage[]>("/crm/stages"),
   createStage: (name: string, color?: string | null) =>

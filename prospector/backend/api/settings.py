@@ -55,6 +55,30 @@ async def update_settings(payload: TokenUpdate):
     return {"ok": True}
 
 
+@router.get("/apify-usage")
+async def get_apify_usage():
+    if not config.APIFY_TOKEN:
+        return {"ok": False, "message": "Token nao configurado."}
+    try:
+        from apify_client import ApifyClient
+
+        client = ApifyClient(config.APIFY_TOKEN)
+        lim = client.user().limits()
+        cycle_end = None
+        if lim.monthly_usage_cycle and lim.monthly_usage_cycle.end_at:
+            cycle_end = lim.monthly_usage_cycle.end_at.isoformat()
+        return {
+            "ok": True,
+            "usage_usd": lim.current.monthly_usage_usd,
+            "limit_usd": lim.limits.max_monthly_usage_usd,
+            "actor_memory_gbytes": lim.current.actor_memory_gbytes,
+            "max_actor_memory_gbytes": lim.limits.max_actor_memory_gbytes,
+            "cycle_end_at": cycle_end,
+        }
+    except Exception as e:
+        return {"ok": False, "message": str(e)}
+
+
 @router.post("/test-token")
 async def test_token():
     if not config.APIFY_TOKEN:
