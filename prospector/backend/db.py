@@ -1,10 +1,15 @@
+import shutil
 import sqlite3
 import threading
 from contextlib import contextmanager
+from datetime import datetime
 
-from backend.config import DB_PATH
+from backend.config import DB_PATH, DATA_DIR
 
 _local = threading.local()
+
+BACKUPS_DIR = DATA_DIR / "backups"
+MAX_BACKUPS = 30
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS leads (
@@ -107,6 +112,28 @@ DEFAULT_STAGES = [
     "EM FECHAMENTO", "FECHADO",
 ]
 
+NICHE_ABBR_BY_NAME = {
+    "escritório de advocacia": "ADV",
+    "escritorio de advocacia": "ADV",
+    "clínica médica": "CLI",
+    "clinica medica": "CLI",
+    "dentista": "ODO",
+    "imobiliária": "IMO",
+    "imobiliaria": "IMO",
+    "contabilidade": "CONT",
+    "academia": "ACAD",
+    "restaurante": "REST",
+}
+
+
+def _guess_niche_abbr(niche: str) -> str:
+    known = NICHE_ABBR_BY_NAME.get(niche.strip().lower())
+    if known:
+        return known
+    words = [w for w in niche.strip().split() if w.lower() not in ("de", "da", "do", "e")]
+    abbr = "".join(w[0] for w in words[:4]).upper()
+    return abbr[:6] or "GERAL"
+
 
 def get_conn() -> sqlite3.Connection:
     conn = getattr(_local, "conn", None)
@@ -168,8 +195,62 @@ def _migrate(conn):
             )
         conn.commit()
 
+    _backfill_niche_abbr(conn)
+
+
+def _backfill_niche_abbr(conn):
+    cur = conn.execute("SELECT id, niche FROM searches WHERE niche_abbr IS NULL")
+    for row in cur.fetchall():
+        abbr = _guess_niche_abbr(row[1])
+        conn.execute("UPDATE searches SET niche_abbr=? WHERE id=?", (abbr, row[0]))
+    conn.commit()
+
+    cur = conn.execute("SELECT id FROM leads WHERE niche_abbr IS NULL")
+    lead_ids = [row[0] for row in cur.fetchall()]
+    for lead_id in lead_ids:
+        cur2 = conn.execute(
+            """SELECT s.niche_abbr FROM search_leads sl
+               JOIN searches s ON sl.search_id = s.id
+               WHERE sl.lead_id=? ORDER BY s.created_at DESC LIMIT 1""",
+            (lead_id,),
+        )
+        row = cur2.fetchone()
+        if row and row[0]:
+            conn.execute("UPDATE leads SET niche_abbr=? WHERE id=?", (row[0], lead_id))
+    conn.commit()
+
+
+def backup_now(label: str = "auto") -> str | None:
+    """Copies the current database file to data/backups/ before any risky operation.
+    Never deletes real data -- only adds timestamped snapshots, pruned to MAX_BACKUPS."""
+    if not DB_PATH.exists():
+        return None
+    BACKUPS_DIR.mkdir(exist_ok=True)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    dest = BACKUPS_DIR / f"prospector_{timestamp}_{label}.db"
+    shutil.copyfile(DB_PATH, dest)
+
+    backups = sorted(BACKUPS_DIR.glob("prospector_*.db"), key=lambda p: p.stat().st_mtime)
+    while len(backups) > MAX_BACKUPS:
+        oldest = backups.pop(0)
+        oldest.unlink(missing_ok=True)
+
+    return str(dest)
+
+
+def list_backups() -> list[dict]:
+    if not BACKUPS_DIR.exists():
+        return []
+    backups = sorted(BACKUPS_DIR.glob("prospector_*.db"), key=lambda p: p.stat().st_mtime, reverse=True)
+    return [
+        {"filename": p.name, "size_bytes": p.stat().st_size,
+         "modified_at": datetime.fromtimestamp(p.stat().st_mtime).isoformat()}
+        for p in backups
+    ]
+
 
 def init_db():
+    backup_now(label="startup")
     conn = get_conn()
     conn.executescript(SCHEMA)
     conn.commit()

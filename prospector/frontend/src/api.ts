@@ -85,6 +85,10 @@ export const api = {
 
   testToken: () => request<{ ok: boolean; message?: string; username?: string }>("/settings/test-token", { method: "POST" }),
 
+  createBackup: () => request<{ ok: boolean; path: string | null }>("/settings/backup", { method: "POST" }),
+  listBackups: () =>
+    request<{ filename: string; size_bytes: number; modified_at: string }[]>("/settings/backups"),
+
   getApifyUsage: () =>
     request<{
       ok: boolean; message?: string; usage_usd?: number; limit_usd?: number;

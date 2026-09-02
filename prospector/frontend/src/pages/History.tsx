@@ -134,7 +134,9 @@ function SearchTable({
           {searches.map((s) => (
             <tr key={s.id} style={{ borderBottom: "1px solid var(--border)" }}>
               <td style={{ padding: "12px 16px" }} className="mono">{s.created_at?.slice(0, 10)}</td>
-              <td style={{ padding: "12px 16px" }}>{s.niche}</td>
+              <td style={{ padding: "12px 16px" }}>
+                {s.niche}{s.niche_abbr ? ` (${s.niche_abbr})` : ""}
+              </td>
               <td style={{ padding: "12px 16px" }}>{s.city}/{s.state}</td>
               <td style={{ padding: "12px 16px" }} className="mono">{s.results_count} / {s.requested_count}</td>
               <td style={{ padding: "12px 16px" }} className="mono">{s.from_cache_count}</td>

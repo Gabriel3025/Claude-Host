@@ -94,6 +94,7 @@ export interface SearchProgress {
 export interface Search {
   id: number;
   niche: string;
+  niche_abbr: string | null;
   city: string;
   state: string;
   region: string | null;

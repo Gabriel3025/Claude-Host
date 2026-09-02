@@ -55,6 +55,17 @@ async def update_settings(payload: TokenUpdate):
     return {"ok": True}
 
 
+@router.post("/backup")
+async def create_backup():
+    path = db.backup_now(label="manual")
+    return {"ok": path is not None, "path": path}
+
+
+@router.get("/backups")
+async def get_backups():
+    return db.list_backups()
+
+
 @router.get("/apify-usage")
 async def get_apify_usage():
     if not config.APIFY_TOKEN:

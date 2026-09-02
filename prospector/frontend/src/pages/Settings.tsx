@@ -7,6 +7,12 @@ interface ApifyUsage {
   actor_memory_gbytes?: number; max_actor_memory_gbytes?: number; cycle_end_at?: string;
 }
 
+interface BackupInfo {
+  filename: string;
+  size_bytes: number;
+  modified_at: string;
+}
+
 export function Settings() {
   const [settings, setSettings] = useState<SettingsType | null>(null);
   const [token, setToken] = useState("");
@@ -14,10 +20,27 @@ export function Settings() {
   const [saving, setSaving] = useState(false);
   const [usage, setUsage] = useState<ApifyUsage | null>(null);
   const [usageLoading, setUsageLoading] = useState(false);
+  const [backups, setBackups] = useState<BackupInfo[]>([]);
+  const [backingUp, setBackingUp] = useState(false);
 
   function load() {
     api.getSettings().then(setSettings);
     loadUsage();
+    loadBackups();
+  }
+
+  function loadBackups() {
+    api.listBackups().then(setBackups);
+  }
+
+  async function handleBackupNow() {
+    setBackingUp(true);
+    try {
+      await api.createBackup();
+      loadBackups();
+    } finally {
+      setBackingUp(false);
+    }
   }
 
   function loadUsage() {
@@ -107,6 +130,28 @@ export function Settings() {
               </div>
             )}
           </>
+        )}
+      </div>
+
+      <div className="card" style={{ marginBottom: 16 }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 14 }}>
+          <div className="label-tag">🛡️ BACKUP E SEGURANÇA</div>
+          <button className="btn btn-primary" style={{ padding: "4px 10px", fontSize: 12 }} onClick={handleBackupNow} disabled={backingUp}>
+            {backingUp ? "Salvando..." : "💾 Fazer backup agora"}
+          </button>
+        </div>
+        <div className="text-muted" style={{ fontSize: 12, marginBottom: 10 }}>
+          Uma cópia do banco de dados é salva automaticamente toda vez que o PROSPECTOR inicia, guardando as últimas 30 versões. Nenhum dado de leads ou do CRM é modificado por alterações no sistema sem antes existir um backup.
+        </div>
+        {backups.length > 0 && (
+          <div style={{ maxHeight: 160, overflowY: "auto" }}>
+            {backups.slice(0, 8).map((b) => (
+              <div key={b.filename} style={{ display: "flex", justifyContent: "space-between", padding: "4px 0", fontSize: 11 }} className="mono text-muted">
+                <span>{b.filename}</span>
+                <span>{(b.size_bytes / 1024).toFixed(0)} KB</span>
+              </div>
+            ))}
+          </div>
         )}
       </div>
 
