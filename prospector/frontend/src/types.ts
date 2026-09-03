@@ -66,6 +66,51 @@ export interface CrmHistoryEntry {
   occurred_at: string;
 }
 
+export interface LeadNote {
+  id: number;
+  lead_id: number;
+  text: string;
+  created_at: string;
+}
+
+export interface FunnelStage {
+  stage_id: number;
+  name: string;
+  color: string | null;
+  ever_reached: number;
+  current: number;
+  pct_of_cohort: number;
+}
+
+export interface FunnelLeadRow {
+  id: number;
+  name: string;
+  phone_e164: string | null;
+  city: string | null;
+  state: string | null;
+  score: number;
+  score_class: "A" | "B" | "C" | null;
+}
+
+export interface DashboardData {
+  period: { start: string; end: string; niche: string | null };
+  niches: string[];
+  stat_tiles: {
+    leads_no_crm_no_periodo: number;
+    leads_coletados_no_periodo: number;
+    reunioes_agendadas: number;
+    taxa_agendamento_pct: number;
+    fechados: number;
+    taxa_fechamento_pct: number;
+    perdidos: number;
+    em_aberto: number;
+  };
+  funnel: FunnelStage[];
+  removed_from_crm: number;
+  score_distribution: { A: number; B: number; C: number };
+  daily_activity: { d: string; n: number }[];
+}
+
 export interface LeadsResponse {
   items: Lead[];
   total: number;
@@ -128,4 +173,4 @@ export interface Settings {
   cost_per_place_usd: number;
 }
 
-export type Page = "control" | "processing" | "leads" | "history" | "settings" | "crm";
+export type Page = "control" | "processing" | "leads" | "history" | "settings" | "crm" | "dashboard";

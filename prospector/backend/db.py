@@ -101,6 +101,14 @@ CREATE TABLE IF NOT EXISTS crm_history (
     occurred_at TEXT DEFAULT (datetime('now'))
 );
 
+CREATE TABLE IF NOT EXISTS lead_notes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    lead_id INTEGER REFERENCES leads(id),
+    text TEXT NOT NULL,
+    created_at TEXT DEFAULT (datetime('now'))
+);
+CREATE INDEX IF NOT EXISTS idx_lead_notes_lead ON lead_notes(lead_id);
+
 CREATE INDEX IF NOT EXISTS idx_leads_score ON leads(score DESC);
 CREATE INDEX IF NOT EXISTS idx_leads_city ON leads(city, state);
 CREATE INDEX IF NOT EXISTS idx_leads_crm ON leads(crm_status);
@@ -196,6 +204,27 @@ def _migrate(conn):
         conn.commit()
 
     _backfill_niche_abbr(conn)
+    _backfill_legacy_notes(conn)
+
+
+def _backfill_legacy_notes(conn):
+    """One-time migration: leads.notes was a single free-text field before the
+    timestamped lead_notes log existed. Move any leftover text into the log so
+    nothing already written by the user is lost."""
+    cur = conn.execute(
+        """SELECT l.id, l.notes, l.updated_at, l.first_seen_at FROM leads l
+           WHERE l.notes IS NOT NULL AND l.notes != ''
+           AND NOT EXISTS (SELECT 1 FROM lead_notes n WHERE n.lead_id = l.id)"""
+    )
+    rows = cur.fetchall()
+    for row in rows:
+        when = row["updated_at"] or row["first_seen_at"]
+        conn.execute(
+            "INSERT INTO lead_notes (lead_id, text, created_at) VALUES (?, ?, ?)",
+            (row["id"], row["notes"], when),
+        )
+    if rows:
+        conn.commit()
 
 
 def _backfill_niche_abbr(conn):

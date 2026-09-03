@@ -1,5 +1,5 @@
-import { useEffect, useRef, useState } from "react";
-import type { CrmHistoryEntry, CrmStage, Lead } from "../types";
+import { useEffect, useState } from "react";
+import type { CrmHistoryEntry, CrmStage, Lead, LeadNote } from "../types";
 import { api } from "../api";
 import { ScoreBadge } from "./ScoreBadge";
 import { formatPhoneDisplay, telLink, waLink, siteStatusLabel } from "../utils";
@@ -18,31 +18,35 @@ const EVENT_LABELS: Record<string, (h: CrmHistoryEntry) => string> = {
 };
 
 export function LeadDrawer({ lead, onClose, onUpdated, onRemoveFromCrm }: Props) {
-  const [notes, setNotes] = useState(lead.notes || "");
-  const [saved, setSaved] = useState(true);
+  const [draftNote, setDraftNote] = useState("");
+  const [notes, setNotesLog] = useState<LeadNote[]>([]);
+  const [sendingNote, setSendingNote] = useState(false);
   const [stages, setStages] = useState<CrmStage[]>([]);
   const [history, setHistory] = useState<CrmHistoryEntry[]>([]);
-  const debounceRef = useRef<number | null>(null);
 
   useEffect(() => {
-    setNotes(lead.notes || "");
-    setSaved(true);
+    setDraftNote("");
     api.listStages().then(setStages);
     api.getLeadHistory(lead.id).then(setHistory);
+    api.listLeadNotes(lead.id).then(setNotesLog);
   }, [lead.id]);
 
   const reasons: string[] = safeParseJson(lead.score_reasons);
   const techIssues: string[] = safeParseJson(lead.site_tech_issues);
 
-  function handleNotesChange(value: string) {
-    setNotes(value);
-    setSaved(false);
-    if (debounceRef.current) window.clearTimeout(debounceRef.current);
-    debounceRef.current = window.setTimeout(async () => {
-      const updated = await api.updateLead(lead.id, { notes: value });
-      onUpdated(updated);
-      setSaved(true);
-    }, 1000);
+  async function handleAddNote() {
+    const text = draftNote.trim();
+    if (!text) return;
+    setSendingNote(true);
+    try {
+      const updatedNotes = await api.addLeadNote(lead.id, text);
+      setNotesLog(updatedNotes);
+      setDraftNote("");
+      const updatedLead = await api.getLead(lead.id);
+      onUpdated(updatedLead);
+    } finally {
+      setSendingNote(false);
+    }
   }
 
   async function refreshHistory() {
@@ -158,15 +162,33 @@ export function LeadDrawer({ lead, onClose, onUpdated, onRemoveFromCrm }: Props)
 
         <Section title="NOTAS">
           <textarea
-            value={notes}
-            onChange={(e) => handleNotesChange(e.target.value)}
-            rows={4}
+            value={draftNote}
+            onChange={(e) => setDraftNote(e.target.value)}
+            rows={3}
             style={{ width: "100%", resize: "vertical" }}
             placeholder="Ex: Falei com secretária. Sócio retorna às 15h."
           />
-          <div className="text-muted" style={{ fontSize: 12, marginTop: 4 }}>
-            {saved ? "salvo ✓" : "salvando..."}
-          </div>
+          <button
+            className="btn btn-primary"
+            style={{ marginTop: 8 }}
+            disabled={sendingNote || !draftNote.trim()}
+            onClick={handleAddNote}
+          >
+            {sendingNote ? "Enviando..." : "Adicionar anotação"}
+          </button>
+
+          {notes.length > 0 && (
+            <div style={{ display: "flex", flexDirection: "column", gap: 10, marginTop: 16 }}>
+              {notes.map((n) => (
+                <div key={n.id} style={{ borderLeft: "2px solid var(--border)", paddingLeft: 10 }}>
+                  <div className="mono text-muted" style={{ fontSize: 11, marginBottom: 2 }}>
+                    {n.created_at}
+                  </div>
+                  <div style={{ fontSize: 13, whiteSpace: "pre-wrap" }}>{n.text}</div>
+                </div>
+              ))}
+            </div>
+          )}
         </Section>
 
         <Section title="HISTÓRICO">

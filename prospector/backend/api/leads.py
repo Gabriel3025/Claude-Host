@@ -172,6 +172,51 @@ async def update_lead(lead_id: int, payload: LeadUpdate):
         cur.execute(f"UPDATE leads SET {', '.join(updates)} WHERE id=?", params)
         conn.commit()
 
+
+@router.get("/leads/{lead_id}/notes")
+async def list_lead_notes(lead_id: int):
+    conn = db.get_conn()
+    cur = conn.cursor()
+    cur.execute("SELECT id FROM leads WHERE id=?", (lead_id,))
+    if not cur.fetchone():
+        raise HTTPException(404, "Lead nao encontrado.")
+    cur.execute(
+        "SELECT * FROM lead_notes WHERE lead_id=? ORDER BY created_at DESC, id DESC", (lead_id,)
+    )
+    return [dict(r) for r in cur.fetchall()]
+
+
+class LeadNoteCreate(BaseModel):
+    text: str
+
+
+@router.post("/leads/{lead_id}/notes")
+async def add_lead_note(lead_id: int, payload: LeadNoteCreate):
+    text = payload.text.strip()
+    if not text:
+        raise HTTPException(400, "Anotacao nao pode ser vazia.")
+
+    conn = db.get_conn()
+    cur = conn.cursor()
+    cur.execute("SELECT id FROM leads WHERE id=?", (lead_id,))
+    if not cur.fetchone():
+        raise HTTPException(404, "Lead nao encontrado.")
+
+    cur.execute(
+        "INSERT INTO lead_notes (lead_id, text) VALUES (?, ?)", (lead_id, text)
+    )
+    # Keep leads.notes as a quick-glance snapshot of the latest note (used by
+    # the CRM board tooltip and CSV/XLSX export, which don't load the full log).
+    cur.execute(
+        "UPDATE leads SET notes=?, updated_at=datetime('now') WHERE id=?", (text, lead_id)
+    )
+    conn.commit()
+
+    cur.execute(
+        "SELECT * FROM lead_notes WHERE lead_id=? ORDER BY created_at DESC, id DESC", (lead_id,)
+    )
+    return [dict(r) for r in cur.fetchall()]
+
     cur.execute("SELECT * FROM leads WHERE id=?", (lead_id,))
     return dict(cur.fetchone())
 

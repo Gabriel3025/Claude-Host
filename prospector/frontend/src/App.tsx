@@ -6,11 +6,13 @@ import { Leads } from "./pages/Leads";
 import { History } from "./pages/History";
 import { Settings } from "./pages/Settings";
 import { CRMBoard } from "./pages/CRMBoard";
+import { Dashboard } from "./pages/Dashboard";
 
 const NAV: { key: Page; label: string }[] = [
   { key: "control", label: "Painel" },
   { key: "leads", label: "Leads" },
   { key: "crm", label: "CRM" },
+  { key: "dashboard", label: "Dashboard" },
   { key: "history", label: "Histórico" },
   { key: "settings", label: "Configurações" },
 ];
@@ -78,6 +80,7 @@ export default function App() {
         )}
         {page === "leads" && <Leads searchId={activeSearchId} />}
         {page === "crm" && <CRMBoard />}
+        {page === "dashboard" && <Dashboard />}
         {page === "history" && <History onOpenSearch={handleOpenHistorySearch} />}
         {page === "settings" && <Settings />}
       </main>

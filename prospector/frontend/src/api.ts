@@ -1,4 +1,4 @@
-import type { Lead, LeadsResponse, Search, Settings, CrmStage, CrmBoard, CrmHistoryEntry } from "./types";
+import type { Lead, LeadsResponse, Search, Settings, CrmStage, CrmBoard, CrmHistoryEntry, LeadNote, DashboardData, FunnelLeadRow } from "./types";
 
 const BASE = "/api";
 
@@ -129,4 +129,24 @@ export const api = {
       body: JSON.stringify({ stage_id, position }),
     }),
   getLeadHistory: (leadId: number) => request<CrmHistoryEntry[]>(`/crm/cards/${leadId}/history`),
+
+  listLeadNotes: (leadId: number) => request<LeadNote[]>(`/leads/${leadId}/notes`),
+  addLeadNote: (leadId: number, text: string) =>
+    request<LeadNote[]>(`/leads/${leadId}/notes`, { method: "POST", body: JSON.stringify({ text }) }),
+
+  // Dashboard
+  getDashboard: (params: { start?: string; end?: string; niche?: string }) => {
+    const qs = new URLSearchParams();
+    Object.entries(params).forEach(([k, v]) => {
+      if (v !== undefined && v !== null && v !== "") qs.set(k, String(v));
+    });
+    return request<DashboardData>(`/dashboard?${qs.toString()}`);
+  },
+  getFunnelLeads: (params: { stage_id: number; start?: string; end?: string; niche?: string; mode?: "reached" | "current" }) => {
+    const qs = new URLSearchParams();
+    Object.entries(params).forEach(([k, v]) => {
+      if (v !== undefined && v !== null && v !== "") qs.set(k, String(v));
+    });
+    return request<FunnelLeadRow[]>(`/dashboard/funnel/leads?${qs.toString()}`);
+  },
 };
