@@ -52,24 +52,28 @@ class ApifyProvider(SearchProvider):
 
         actor_client = self.client.actor(APIFY_ACTOR_ID)
 
+        # apify-client >=2.0 returns plain dicts (camelCase keys) from
+        # actor.start() and run.get(), not attribute-access objects like the
+        # 1.x line did. ListPage (from dataset.list_items) is still a real
+        # object with .items/.total, so that part is untouched below.
         run = await asyncio.to_thread(actor_client.start, run_input=run_input)
-        run_id = run.id
+        run_id = run["id"]
         logger.info(f"Apify run started: {run_id} niche={niche} location={location_query}")
 
-        dataset_id = run.default_dataset_id
+        dataset_id = run.get("defaultDatasetId")
         run_client = self.client.run(run_id)
 
         elapsed = 0
         poll_interval = 5
-        status = run.status or "RUNNING"
+        status = run.get("status") or "RUNNING"
 
         while status not in TERMINAL_STATUSES and elapsed < APIFY_CALL_TIMEOUT_S:
             await asyncio.sleep(poll_interval)
             elapsed += poll_interval
             run_info = await asyncio.to_thread(run_client.get)
             if run_info is not None:
-                status = run_info.status or status
-                dataset_id = run_info.default_dataset_id or dataset_id
+                status = run_info.get("status") or status
+                dataset_id = run_info.get("defaultDatasetId") or dataset_id
             if dataset_id:
                 try:
                     count_info = await asyncio.to_thread(
