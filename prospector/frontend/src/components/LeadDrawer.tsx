@@ -67,6 +67,7 @@ export function LeadDrawer({ lead, onClose, onUpdated, onRemoveFromCrm }: Props)
       onRemoveFromCrm();
       return;
     }
+    if (!confirm(`Remover "${lead.name}" do CRM?`)) return;
     await api.removeFromCrm(lead.id);
     const updated = await api.getLead(lead.id);
     onUpdated(updated);

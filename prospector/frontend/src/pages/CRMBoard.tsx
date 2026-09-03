@@ -163,13 +163,15 @@ export function CRMBoard() {
     setStages((prev) => prev.filter((s) => s.id !== stage.id));
   }
 
-  async function handleRemoveFromCrm(leadId: number) {
+  async function handleRemoveFromCrm(leadId: number, leadName?: string) {
+    if (!confirm(`Remover ${leadName ? `"${leadName}"` : "este lead"} do CRM?`)) return;
     await api.removeFromCrm(leadId);
     setStages((prev) => prev.map((s) => ({ ...s, cards: s.cards?.filter((c) => c.id !== leadId) })));
     setSelected(null);
   }
 
-  async function handleQuickRemove(leadId: number) {
+  async function handleQuickRemove(leadId: number, leadName?: string) {
+    if (!confirm(`Remover ${leadName ? `"${leadName}"` : "este lead"} do CRM?`)) return;
     setStages((prev) => prev.map((s) => ({ ...s, cards: s.cards?.filter((c) => c.id !== leadId) })));
     await api.removeFromCrm(leadId);
   }
@@ -346,7 +348,7 @@ export function CRMBoard() {
                         </span>
                       </span>
                       <button
-                        onClick={() => handleQuickRemove(lead.id)}
+                        onClick={() => handleQuickRemove(lead.id, lead.name)}
                         title="Remover do CRM"
                         style={{
                           background: "none", border: "none", color: "var(--text-muted)",
@@ -380,7 +382,7 @@ export function CRMBoard() {
           lead={selected}
           onClose={() => setSelected(null)}
           onUpdated={handleUpdatedLead}
-          onRemoveFromCrm={() => handleRemoveFromCrm(selected.id)}
+          onRemoveFromCrm={() => handleRemoveFromCrm(selected.id, selected.name)}
         />
       )}
     </div>
