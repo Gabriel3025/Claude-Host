@@ -1,149 +1,63 @@
 {
   "resultados": [
-    {
-      "rowIdx": 1,
-      "valor": 58,
-      "produto": "Tarot"
-    },
-    {
-      "rowIdx": 8,
-      "valor": 4,
-      "produto": "Como plantar"
-    },
-    {
-      "rowIdx": 12,
-      "valor": 44,
-      "produto": "Neuropro"
-    },
-    {
-      "rowIdx": 20,
-      "valor": 12,
-      "produto": "Airfryer"
-    },
-    {
-      "rowIdx": 30,
-      "valor": 0,
-      "produto": "Saude (Euro)"
-    },
-    {
-      "rowIdx": 32,
-      "valor": 0,
-      "produto": "Emagrecimento"
-    },
-    {
-      "rowIdx": 33,
-      "valor": 20,
-      "produto": "Atividade cursiva"
-    },
-    {
-      "rowIdx": 34,
-      "valor": 5,
-      "produto": "Jiujistu"
-    },
-    {
-      "rowIdx": 39,
-      "valor": 22,
-      "produto": "100 Brincadeiras Bebês"
-    },
-    {
-      "rowIdx": 40,
-      "valor": 46,
-      "produto": "Organização do Lar"
-    },
-    {
-      "rowIdx": 42,
-      "valor": 0,
-      "produto": "100 Cards Anti-Bullying"
-    },
-    {
-      "rowIdx": 43,
-      "valor": 32,
-      "produto": "Planilha Capivarinha"
-    },
-    {
-      "rowIdx": 44,
-      "valor": 14,
-      "produto": "JiuJistsu (LATAM)"
-    },
-    {
-      "rowIdx": 52,
-      "valor": 0,
-      "produto": "Atividades Copa do mundo"
-    },
-    {
-      "rowIdx": 53,
-      "valor": 200,
-      "produto": "Calistenia asiática"
-    },
-    {
-      "rowIdx": 56,
-      "valor": 41,
-      "produto": "Hora da Leiturinha"
-    },
-    {
-      "rowIdx": 58,
-      "valor": 3,
-      "produto": "Cafajeste (Acompanhar OF)"
-    },
-    {
-      "rowIdx": 60,
-      "valor": 6,
-      "produto": "Painel Campeões"
-    },
-    {
-      "rowIdx": 61,
-      "valor": 28,
-      "produto": "Dinamicas aulas de PTBR"
-    },
-    {
-      "rowIdx": 62,
-      "valor": 0,
-      "produto": "Planilha financeira"
-    },
-    {
-      "rowIdx": 63,
-      "valor": 6,
-      "produto": "Atividades da Pro"
-    },
-    {
-      "rowIdx": 64,
-      "valor": 200,
-      "produto": "Calistenia asiática 2 "
-    },
-    {
-      "rowIdx": 65,
-      "valor": 0,
-      "produto": "Atividades de português"
-    },
-    {
-      "rowIdx": 66,
-      "valor": 8,
-      "produto": "Atividades em segundos"
-    },
-    {
-      "rowIdx": 67,
-      "valor": 0,
-      "produto": "Figurinhaa do filho"
-    },
-    {
-      "rowIdx": 68,
-      "valor": 0,
-      "produto": "Potinho da fé"
-    },
-    {
-      "rowIdx": 69,
-      "valor": 110,
-      "produto": "Alfabetização"
-    },
-    {
-      "rowIdx": 70,
-      "valor": 5,
-      "produto": "ABA no Autismo"
-    },
-    {
-      "rowIdx": 71,
-      "valor": 4,
-      "produto": "KIT de costura (Acomapnhar)"
-    }
+    {"rowIdx": 1, "produto": "Tarot", "valor": 140, "status": "OK"},
+    {"rowIdx": 8, "produto": "Como plantar", "valor": 4, "status": "OK"},
+    {"rowIdx": 12, "produto": "Neuropro", "valor": 63, "status": "OK"},
+    {"rowIdx": 20, "produto": "Airfryer", "valor": 26, "status": "OK"},
+    {"rowIdx": 30, "produto": "Saude (Euro)", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 32, "produto": "Emagrecimento", "valor": 52, "status": "OK"},
+    {"rowIdx": 33, "produto": "Atividade cursiva", "valor": 23, "status": "OK"},
+    {"rowIdx": 34, "produto": "Jiujistu", "valor": 5, "status": "OK"},
+    {"rowIdx": 39, "produto": "100 Brincadeiras Bebês", "valor": 30, "status": "OK"},
+    {"rowIdx": 40, "produto": "Organização do Lar", "valor": 34, "status": "OK"},
+    {"rowIdx": 42, "produto": "100 Cards Anti-Bullying", "valor": 1, "status": "OK"},
+    {"rowIdx": 43, "produto": "Planilha Capivarinha", "valor": 25, "status": "OK"},
+    {"rowIdx": 44, "produto": "JiuJistsu (LATAM)", "valor": 5, "status": "OK"},
+    {"rowIdx": 52, "produto": "Atividades Copa do mundo", "valor": 8, "status": "OK"},
+    {"rowIdx": 53, "produto": "Calistenia asiática", "valor": 54, "status": "OK"},
+    {"rowIdx": 56, "produto": "Hora da Leiturinha", "valor": 15, "status": "OK"},
+    {"rowIdx": 58, "produto": "Cafajeste (Acompanhar OF)", "valor": 5, "status": "OK"},
+    {"rowIdx": 60, "produto": "Painel Campeões", "valor": 13, "status": "OK"},
+    {"rowIdx": 61, "produto": "Dinamicas aulas de PTBR", "valor": 23, "status": "OK"},
+    {"rowIdx": 62, "produto": "Planilha financeira", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 63, "produto": "Atividades da Pro", "valor": 13, "status": "OK"},
+    {"rowIdx": 64, "produto": "Calistenia asiática 2", "valor": 54, "status": "OK"},
+    {"rowIdx": 65, "produto": "Atividades de português", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 66, "produto": "Atividades em segundos", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 67, "produto": "Figurinhaa do filho", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 68, "produto": "Potinho da fé", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 69, "produto": "Alfabetização", "valor": 62, "status": "OK"},
+    {"rowIdx": 70, "produto": "ABA no Autismo", "valor": 16, "status": "OK"},
+    {"rowIdx": 71, "produto": "KIT de costura (Acomapnhar)", "valor": 17, "status": "OK"},
+    {"rowIdx": 72, "produto": "Baralho do coração aberto", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 73, "produto": "Jogo da Memória da Copa", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 74, "produto": "Colorir Copa do Mundo", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 75, "produto": "Artes para Terraplanagem", "valor": 35, "status": "OK"},
+    {"rowIdx": 76, "produto": "Logo", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 77, "produto": "TDAH", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 78, "produto": "Segredo do bebe", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 79, "produto": "80 recursos terapeuticos", "valor": 39, "status": "OK"},
+    {"rowIdx": 80, "produto": "Acelerar aprendizado da cria", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 81, "produto": "Quadro com versículos", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 82, "produto": "Bolsas Croche", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 83, "produto": "Hora de aprender cristão", "valor": 25, "status": "OK"},
+    {"rowIdx": 84, "produto": "Materiais para professores", "valor": 240, "status": "OK"},
+    {"rowIdx": 85, "produto": "Pack Figurinhas", "valor": 35, "status": "OK"},
+    {"rowIdx": 86, "produto": "Pack Figurinhas Copa", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 87, "produto": "Exercícios para TDAH", "valor": 5, "status": "OK"},
+    {"rowIdx": 88, "produto": "Molde Roupa PET", "valor": 23, "status": "OK"},
+    {"rowIdx": 89, "produto": "Cristão + Hidroponica", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 90, "produto": "TCC com IA (R$ 297,00)", "valor": 16, "status": "OK"},
+    {"rowIdx": 91, "produto": "Catalogo Estética automotiva", "valor": 1, "status": "OK"},
+    {"rowIdx": 92, "produto": "Atividades para idosos", "valor": 6, "status": "OK"},
+    {"rowIdx": 93, "produto": "Atividades para copa", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 94, "produto": "Adesivo Sono", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 95, "produto": "Simulado CNH", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 96, "produto": "Matemática Minecraft", "valor": 1, "status": "OK"},
+    {"rowIdx": 97, "produto": "Desafio 21 dias Emagrec.", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 98, "produto": "Brinquedos de Papel", "valor": 37, "status": "OK"},
+    {"rowIdx": 99, "produto": "A história do lider (Política)", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 100, "produto": "Dor na coluna (Acompanhar)", "valor": 0, "status": "ZERO_REAL"},
+    {"rowIdx": 101, "produto": "Bolsas de Crochê", "valor": 0, "status": "ZERO_REAL"}
   ]
 }
